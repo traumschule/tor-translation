@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-15 14:16+0200\n"
-"PO-Revision-Date: 2011-10-15 13:20+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-10-16 16:03+0000\n"
+"Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -373,6 +373,8 @@ msgid ""
 "files in it. One of the files is an executable called \"Start Tor Browser\" "
 "(or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
+"### Jak používat Tor Browser Bundle (prohlížečový balíček)\n"
+"Po stáhnutí a extrahování Tor Browser Bundle byste měli mít adresář s hrstkou souborů. Uvnitř by měl být spustitelný soubor se jménem \"Start Tor Browser\" (nebo \"start-tor-browser\" podle vašeho operačního systému)."
 
 #. type: Plain text
 #: tsum.text:146
@@ -383,6 +385,11 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Po spuštění Tor Browser Bundle uvidíte program Vidalia startovat a připojit "
+"se k síti Tor. Po té uvidéte prohlížeč potvrzující že nyní používáte Tor. K "
+"tomuto ověření se využívá "
+"[https://check.torproject.org/](https://check.torproject.org/). Můžete nyní "
+"brouzdat Internet skrz Tor."
 
 #. type: Plain text
 #: tsum.text:149
@@ -391,6 +398,8 @@ msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
 msgstr ""
+"*Vezměte prosím na vědomí, že je důležité abyste použili prohlížeč který je "
+"součástí balíčků, a ne váš vlastní.*\n"
 
 #. type: Plain text
 #: tsum.text:155
@@ -400,6 +409,8 @@ msgid ""
 " sure that you are connected to the Internet. If you need to connect to a "
 "proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### Co dělat když se Tor nepřipojí\n"
+"Někteří uživatlé si všimnou, že se Vidalia zasekne při pokusu připojit se k síti Tor. Nastane-li tato situace, ujistěte se že jste připojeni k Internetu. Pokud potřebujete se připojit k proxy serveru, vizte *Jak použít proxy otevřenou proxy* níže."
 
 #. type: Plain text
 #: tsum.text:160
@@ -409,6 +420,10 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Pokud vaše normální Internetové připojení funguje, ale Tor se stále nemůže "
+"připojit k síti, zkuste následující: otevřte ovládací panel Vidalii, "
+"klikněte na *Message Log* a vyberte sekci *Advanced*. Tor se nemusel "
+"připojit proto, že:"
 
 #. type: Plain text
 #: tsum.text:164
@@ -418,6 +433,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**Vaše systémové hodiny jdou mimo**: Ujistěte se, že datum a čas ve vašem "
+"systému josu správné a restartujte Tor. Možná bude potřeba synchronizovat "
+"vaše systémové hodiny s Internetovým časovým serverem.\n"
 
 #. type: Plain text
 #: tsum.text:169
@@ -428,6 +446,9 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**Jste za restriktivním firewallem**: Aby Tor zkoušel jenom porty 80 a 443, "
+"otevřte ovládací panel Vidalii, klikněte na *Settings*, *Network*, a "
+"zaškrtněte *My firewall only lets me connect to certain ports*.\n"
 
 #. type: Plain text
 #: tsum.text:173
@@ -437,6 +458,8 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Váš antivirový program blokuje Tor**: Ujistěte se, že váš antivirus "
+"nebrání Toru připojit se k síti.\n"
 
 #. type: Plain text
 #: tsum.text:177
@@ -445,6 +468,9 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Pokud Tor stále nefunguje, je pravděpodobné že váš provider internetu (ISP) "
+"blokuje Tor. To lze velmi často obejít za použití **Tor bridges**, skrytými "
+"relayi které není tak jednoduché zablokovat."
 
 #. type: Plain text
 #: tsum.text:181
@@ -453,6 +479,9 @@ msgid ""
 "<community-support@lists.torproject.org> and include the relevant parts from"
 " the log file."
 msgstr ""
+"Pokud potřebujete pomoc při zjišťování proč se Tor nemůže připojit, napište "
+"email na <community-support@lists.torproject.org> a přiložte relevantní "
+"části z logů."
 
 #. type: Plain text
 #: tsum.text:189
