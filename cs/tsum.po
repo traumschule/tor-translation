@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-15 14:16+0200\n"
-"PO-Revision-Date: 2011-10-16 16:03+0000\n"
+"PO-Revision-Date: 2011-10-16 17:10+0000\n"
 "Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -469,8 +469,8 @@ msgid ""
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
 "Pokud Tor stále nefunguje, je pravděpodobné že váš provider internetu (ISP) "
-"blokuje Tor. To lze velmi často obejít za použití **Tor bridges**, skrytými "
-"relayi které není tak jednoduché zablokovat."
+"blokuje Tor. To lze velmi často obejít za použití **Tor mostů** (Tor "
+"bridges), skrytými relayi které není tak jednoduché zablokovat."
 
 #. type: Plain text
 #: tsum.text:181
@@ -494,6 +494,8 @@ msgid ""
 "you will not get a reply. Note that you need to send this email from either "
 "a gmail.com or a yahoo.com address."
 msgstr ""
+"### Jak najít most\n"
+"K použití mostu je nejprve potřeba nějaký najít; můžete buď se podívat na [bridges.torproject.org](https://bridges.torproject.org/), nebo pošlete email na <bridges@torproject.org>. Pokud budete posílat email, ujistěte se prosím že napíšete **get bridges** do těla emailu, jinak nedostanete odpověď. Tento email je nutno poslat buď z gmail.com nebo yahoo.com adresy."
 
 #. type: Plain text
 #: tsum.text:194
@@ -503,6 +505,10 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Nakonfigurování více jak jednoho mostu udělá vaše Tor připojení stabilnější "
+"v případě, že některé z mostů se stanou nepřístupné. Není žádná záruka, že "
+"most který používate dnes bude fungovat zítra, takže je dobrý nápad jednou "
+"za čas seznam mostů obnovovat. "
 
 #. type: Plain text
 #: tsum.text:200
@@ -512,6 +518,8 @@ msgid ""
 "says *My ISP blocks connections to the Tor network*. Enter the bridges in "
 "the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Jak používat most\n"
+"Jakmile máte nastaven seznam mostů, otevřte ovládací panel Vidalii, klikněte na *Settings*, *Network* a zaškrtněte *My ISP blocks connections to the Tor network*. Pod to zadejte mosty, stiskněte *OK* a spusťte Tor znovu."
 
 #. type: Plain text
 #: tsum.text:206
