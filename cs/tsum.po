@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The Tor Project, Inc
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+#   <gsanky+transifex@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2011-10-15 14:16+0200\n"
+"PO-Revision-Date: 2011-10-15 13:20+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+
+#. type: Plain text
+#: tsum.text:2
+msgid "# The Short User Manual"
+msgstr "# Krátký uživatelský manuál"
+
+#. type: Plain text
+#: tsum.text:7
+msgid ""
+"This user manual contains information about how to download Tor, how to use "
+"it, and what to do if Tor is unable to connect to the network. If you can't "
+"find the answer to your question in this document, email <community-"
+"support@lists.torproject.org>."
+msgstr ""
+"Tento uživatelský manuál obsahuje informace o stažení Toru, jeho použití, a "
+"co dělat v případě, že se Toru nepodaří připojit se k síti. Pokud v tomto "
+"dokumentu nenaleznete odpověď na svou otázku, napište email na <community-"
+"support@lists.torproject.org> (anglicky)."
+
+#. type: Plain text
+#: tsum.text:9
+#, no-wrap
+msgid ""
+"How Tor works\n"
+"-------------\n"
+msgstr ""
+"Jak Tor funguje\n"
+"-------------\n"
+
+#. type: Plain text
+#: tsum.text:15
+msgid ""
+"Tor is a network of virtual tunnels that allows you to improve your privacy "
+"and security on the Internet. Tor works by sending your traffic through "
+"three random servers (also known as *relays*) in the Tor network, before the"
+" traffic is sent out onto the public Internet."
+msgstr ""
+"Tor je síť virtuálních tunelů která vám umožňuje zvýšit soukromí a "
+"zabezpečení na Internetu. Tor funguje na principu posílání veškeré "
+"komunikace skrz tři náhodné servery (nebo *relayi*) v síti Tor než je "
+"poslána do veřejného internetu."
+
+#. type: Plain text
+#: tsum.text:17
+msgid "![How Tor Works](images/how-tor-works.png)"
+msgstr "![Jak funguje Tor](images/how-tor-works.png)"
+
+#. type: Plain text
+#: tsum.text:22
+msgid ""
+"The image above illustrates a user browsing to the Twitter website over Tor."
+" The green monitors represent relays in the Tor network, while the three "
+"locks represent the layers of encryption between the user and each relay."
+msgstr ""
+"Předchozí obrázek ilustruje uživatele navštěvujícího Twitter skrz Tor. "
+"Zelené monitory reprezentují relaye v síti Tor, zatímco tři zámky "
+"reprezentují tři vrstvy šifrování mezi uživatelem a každým relayem."
+
+#. type: Plain text
+#: tsum.text:27
+msgid ""
+"Tor will anonymize the origin of your traffic, and it will encrypt "
+"everything between you and the Tor network. Tor will also encrypt your "
+"traffic inside the Tor network, but it cannot encrypt your traffic between "
+"the Tor network and its final destination."
+msgstr ""
+"Tor anonymizuje původ veškeré vaší komunikace, a zašifruje vše mezi vámi a "
+"sítí Tor. Tor také šifruje komunikaci uvnitř sítě Tor, ale nemůže zašifrovat"
+" komunikaci mezi sítí Tor a jejím cílem."
+
+#. type: Plain text
+#: tsum.text:32
+msgid ""
+"If you are communicating sensitive information, for example when logging on "
+"to a website with a username and password, make sure that you are using "
+"HTTPS (e.g. **https**://twitter.com/, not **http**://twitter.com/)."
+msgstr ""
+"Pokud sdílíte citlivé informace, jako například uživatelské jméno a heslo "
+"při přihlašování se na stránku, ujistěte se že používáte HTTPS (např. "
+"**https**://twitter.com/, ne **http**://twitter.com/)."
+
+#. type: Plain text
+#: tsum.text:34
+#, no-wrap
+msgid ""
+"How to download Tor\n"
+"-------------------\n"
+msgstr ""
+"Jak stáhnout Tor\n"
+"-------------------\n"
+
+#. type: Plain text
+#: tsum.text:40
+msgid ""
+"The bundle we recommend to most users is the [Tor Browser "
+"Bundle](https://www.torproject.org/projects/torbrowser.html). This bundle "
+"contains a browser preconfigured to safely browse the Internet through Tor, "
+"and requires no installation. You download the bundle, extract the archive, "
+"and start Tor."
+msgstr ""
+"Pro většinu uživatelů doporučujeme [Tor Browser "
+"Bundle](https://www.torproject.org/projects/torbrowser.html) (prohlížečový "
+"balíček). Tento balíček obsahuje předkonfigurovaný prohlížeč pro bezpečné "
+"brouzdání Internetu skrz Tor a nevyžaduje instalaci. Stačí jen balíček "
+"stáhnout, rozbalit archiv, a spustit Tor."
+
+#. type: Plain text
+#: tsum.text:44
+msgid ""
+"There are two different ways to get hold of the Tor software. You can either"
+" browse to the [Tor Project website](https://www.torproject.org/)  and "
+"download it there, or you can use GetTor, the email autoresponder."
+msgstr ""
+"Jsou dva různé způsoby jak nabýt Tor softwaru. Můžete buď přejít na [stránku"
+" Tor Projectu](https://www.torproject.org/)  a stáhnout ho tam, nebo můžete "
+"použít GetTor, automatizovaný email."
+
+#. type: Plain text
+#: tsum.text:49
+msgid ""
+"### How to get Tor via email To receive the English Tor Browser Bundle for "
+"Windows, send an email to <gettor@torproject.org> with **windows** in the "
+"body of the message. You can leave the subject blank."
+msgstr ""
+"### Jak obdržet Tor skrz email\n"
+"Pro obdržení anglického Tor Browser Bundle pro Windows pošlete email na <gettor@torproject.org> s **windows** v tělu zprávy. Předmět může zůstat prázdný."
+
+#. type: Plain text
+#: tsum.text:53
+msgid ""
+"You can also request the Tor Browser Bundle for Mac OS X (write "
+"**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
+"**linux-x86_64** for 64-bit systems)."
+msgstr ""
+"Můžete si také vyžádat Tor Browser Bundle pro Mac OS X (napište "
+"**macos-i386**) a linux (napište **linux-i386** pro 32-bitové systémy či "
+"**linux-x86_64** pro 64-bitové systémy)."
+
+#. type: Plain text
+#: tsum.text:57
+msgid ""
+"If you want a translated version of Tor, write **help** instead. You will "
+"then receive an email with instructions and a list of available languages."
+msgstr ""
+"Pokud si přejete přeloženou verzi Toru, napište **help**. Obdržíte email s "
+"instrukcemi a seznamem dostupných jazyků."
+
+#. type: Plain text
+#: tsum.text:63
+#, no-wrap
+msgid ""
+"**Note**: The Tor Browser Bundles for Linux and Mac OS X are rather\n"
+"large, and you will not be able to receive any of these bundles with a\n"
+"Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you\n"
+"want, send an email to <community-support@lists.torproject.org> and we\n"
+"will give you a list of website mirrors to use.\n"
+msgstr ""
+"**Poznámka**: Tor Browser Bundle pro Linux a Mac OS X jsou poměrně velké a "
+"není možné je přijmout s účtem u Gmailu, Hotmailu či Yahoo. Pokud nemůžete "
+"obdržet balíček co chcete, napište email na <community-"
+"support@lists.torproject.org> a dáme vám seznam mirrorů.\n"
+
+#. type: Plain text
+#: tsum.text:69
+msgid ""
+"#### How to get Tor as several small sized packages It is possible to "
+"request the Tor Browser Bundle for Windows as several small sized packages, "
+"instead of one big package. This can be useful if you don't have a lot of "
+"bandwidth available, or if your email provider does not allow you to receive"
+" large attachments."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:72
+msgid ""
+"Send an email to <gettor@torproject.org> with the following words in the "
+"body of the email:"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:75
+#, no-wrap
+msgid ""
+"windows    \n"
+"split\n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:79
+msgid ""
+"It is important that you include the keyword *split* on its own line.  See "
+"*What to do with split packages* for information on how to unpack and re-"
+"assemble the small sized packages."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:83
+msgid ""
+"### How to verify that you have the right version Before running the Tor "
+"Browser Bundle, you should make sure that you have the right version."
+msgstr ""
+"### Jak ověřit že máte zprávnou verzi\n"
+"Před spuštěním Toru byste se měli ujistit že máte správnou verzi."
+
+#. type: Plain text
+#: tsum.text:88
+msgid ""
+"The software you receive is accompanied by a file with the same name as the "
+"bundle and the extension **.asc**. This .asc file is a GPG signature, and "
+"will allow you to verify the file you've downloaded is exactly the one that "
+"we intended you to get."
+msgstr ""
+"Software který obdržíte je doprovázen souborem se stejným jménem jako "
+"balíček a příponou **.asc**. Tento .asc soubor je GPG podpis a umožní vám "
+"ověřit že stáhlý soubor je přesně ten co jsme vám chtěli dát."
+
+#. type: Plain text
+#: tsum.text:91
+#, no-wrap
+msgid ""
+"Before you can verify the signature, you will have to download and\n"
+"install GnuPG:   \n"
+msgstr ""
+"Ještě než můžete ověřit podpis, budete potřebovat stáhnout a nainstalovat "
+"GnuPG:   \n"
+
+#. type: Plain text
+#: tsum.text:95
+#, no-wrap
+msgid ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
+msgstr ""
+"** Windows **: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)\n"
+"** Mac OS X **: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)\n"
+"** Linux **: Většina linuxových distribucí je dodávána s předinstalovaným GnuPG.\n"
+
+#. type: Plain text
+#: tsum.text:98
+msgid ""
+"Please note that you may need to edit the paths and the commands used below "
+"to get it to work on your system."
+msgstr ""
+"Vezměte prosím na vědomí, že může být nutné upravit cesty a příkazy "
+"používané níže, aby na vašem systému fungovaly."
+
+#. type: Plain text
+#: tsum.text:101
+msgid ""
+"Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
+"Erinn's key, run:"
+msgstr ""
+"Erinn Clark podepisuje Tor Browser Bundle klíčem 0x63FEE659. Pro "
+"naimportování Erinnino klíče, proveďte:"
+
+#. type: Plain text
+#: tsum.text:103
+#, no-wrap
+msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --keyserver "
+"hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
+
+#. type: Plain text
+#: tsum.text:105
+msgid "After importing the key, verify that the fingerprint is correct:"
+msgstr "Po naimportování klíče ověřte, že je otisk v pořádku:"
+
+#. type: Plain text
+#: tsum.text:107
+#, no-wrap
+msgid "\tgpg  --fingerprint 0x63FEE659\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
+"0x63FEE659\n"
+
+#. type: Plain text
+#: tsum.text:109
+msgid "You should see:"
+msgstr "Měli byste vidět:"
+
+#. type: Plain text
+#: tsum.text:116
+#, no-wrap
+msgid ""
+"\tpub   2048R/63FEE659 2003-10-16\n"
+"\t      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"\tuid                  Erinn Clark <erinn@torproject.org>\n"
+"\tuid                  Erinn Clark <erinn@debian.org>\n"
+"\tuid                  Erinn Clark <erinn@double-helix.org>\n"
+"\tsub   2048R/EB399FD7 2003-10-16\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
+
+#. type: Plain text
+#: tsum.text:118
+msgid ""
+"To verify the signature of the package you downloaded, run the following "
+"command:"
+msgstr ""
+"K ověření že podpisu bálíčku co jste stáhli, proveďte následující příkaz:"
+
+#. type: Plain text
+#: tsum.text:120
+#, no-wrap
+msgid ""
+"\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
+"US.exe\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
+
+#. type: Plain text
+#: tsum.text:126
+msgid ""
+"The output should say *\"Good signature\"*. A bad signature means that the "
+"file may have been tampered with. If you see a bad signature, send details "
+"about where you downloaded the package from, how you verified the signature,"
+" and the output from GnuPG in an email to <community-"
+"support@lists.torproject.org>."
+msgstr ""
+"Výstup by měl ohlásit *\"Good signature\"* (podpis v pořádku). Špatný podpis"
+" by mohl znamenat, že do souboru mohl někdo zasahovat. Pokud zahlédnete "
+"špatný podpis, pošlete detaily o tom kde jste balík stáhli, jak jste ho "
+"věřovali, a výstup GnuPG na <community-support@lists.torproject.org>."
+
+#. type: Plain text
+#: tsum.text:133
+msgid ""
+"Once you have verified the signature and seen the *\"Good signature\"* "
+"output, go ahead and extract the package archive. You should then see a "
+"directory similar to **tor-browser_en-US**. Inside that directory is another"
+" directory called **Docs**, which contains a file called **changelog**. You "
+"want to make sure that the version number on the top line of the changelog "
+"file matches the version number in the filename."
+msgstr ""
+"Po ověření že podpis je v pořádku, můžete archiv extrahovat. Měli byste poté"
+" vidět adresář na způsob **tor-browser_en-US**. Uvnitř tohoto adresáře je "
+"další adresář se jménem **Docs**, který obsahuje soubor **changelog**. "
+"Chcete se ujistit, že verze na prvním řádku tohoto souboru je stejná jako "
+"verze ve jméně."
+
+#. type: Plain text
+#: tsum.text:139
+msgid ""
+"### How to use the Tor Browser Bundle After downloading the Tor Browser "
+"Bundle and extracting the package, you should have a directory with a few "
+"files in it. One of the files is an executable called \"Start Tor Browser\" "
+"(or \"start-tor-browser\", depending on your operating system)."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:146
+msgid ""
+"When you start the Tor Browser Bundle, you will first see Vidalia start up "
+"and connect you to the Tor network. After that, you will see a browser "
+"confirming that you are now using Tor. This is done by displaying "
+"[https://check.torproject.org/](https://check.torproject.org/). You can now "
+"browse the Internet through Tor."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:149
+#, no-wrap
+msgid ""
+"*Please note that it is important that you use the browser that comes\n"
+"with the bundle, and not your own browser.*\n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:155
+msgid ""
+"### What to do when Tor does not connect Some users will notice that Vidalia"
+" gets stuck when trying to connect to the Tor network. If this happens, make"
+" sure that you are connected to the Internet. If you need to connect to a "
+"proxy server, see *How to use an open proxy* below."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:160
+msgid ""
+"If your normal Internet connection is working, but Tor still can't connect "
+"to the network, try the following; open the Vidalia control panel, click on "
+"*Message Log* and select the *Advanced* tab. It may be that Tor won't "
+"connect because:"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:164
+#, no-wrap
+msgid ""
+"**Your system clock is off**: Make sure that the date and time on your\n"
+"system is correct, and restart Tor. You may need to synchronize your\n"
+"system clock with an Internet time server.     \n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:169
+#, no-wrap
+msgid ""
+"**You are behind a restrictive firewall**: To tell Tor to only try port\n"
+"80 and port 443, open the Vidalia control panel, click on *Settings* and\n"
+"*Network*, and tick the box that says *My firewall only lets me connect\n"
+"to certain ports*.     \n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:173
+#, no-wrap
+msgid ""
+"**Your anti-virus program is blocking Tor**: Make sure that your\n"
+"anti-virus program is not preventing Tor from making network\n"
+"connections.\n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:177
+msgid ""
+"If Tor still doesn't work, it's likely that your Internet Service Provider "
+"(ISP) is blocking Tor. Very often this can be worked around with **Tor "
+"bridges**, hidden relays that aren't as easy to block."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:181
+msgid ""
+"If you need help with figuring out why Tor can't connect, send an email to "
+"<community-support@lists.torproject.org> and include the relevant parts from"
+" the log file."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:189
+msgid ""
+"### How to find a bridge To use a bridge, you will first have to locate one;"
+" you can either browse to "
+"[bridges.torproject.org](https://bridges.torproject.org/), or you can send "
+"an email to <bridges@torproject.org>. If you do send an email, please make "
+"sure that you write **get bridges** in the body of the email. Without this, "
+"you will not get a reply. Note that you need to send this email from either "
+"a gmail.com or a yahoo.com address."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:194
+msgid ""
+"Configuring more than one bridge address will make your Tor connection more "
+"stable, in case some of the bridges become unreachable. There is no "
+"guarantee that the bridge you are using now will work tomorrow, so you "
+"should make a habit of updating your list of bridges every so often."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:200
+msgid ""
+"### How to use a bridge Once you have a set of bridges to use, open the "
+"Vidalia control panel, click on *Settings*, *Network* and tick the box that "
+"says *My ISP blocks connections to the Tor network*. Enter the bridges in "
+"the box below, hit *OK* and start Tor again."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:206
+msgid ""
+"### How to use an open proxy If using a bridge does not work, try "
+"configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor "
+"network. This means even if Tor is blocked by your local network, open "
+"proxies can be safely used to connect to the Tor Network and on to the "
+"uncensored Internet."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:209
+msgid ""
+"The steps below assume you have a functional Tor/Vidalia configuration, and "
+"you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
+msgstr ""
+
+#. type: Bullet: '1. '
+#: tsum.text:221
+msgid "Open the Vidalia control panel, click on *Settings*."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: tsum.text:221
+msgid "Click *Network*. Select *I use a proxy to access the Internet*."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:221
+#, no-wrap
+msgid ""
+"3. On the *Address* line, enter the open proxy address. This can be a\n"
+"hostname or an IP Address.\n"
+"4. Enter the port for the proxy.\n"
+"5. Generally, you do not need a username and password. If you do,\n"
+"enter the information in the proper fields.\n"
+"6. Choose the *Type* of proxy you are using, whether HTTP/HTTPS, SOCKS4,\n"
+"or SOCKS5.\n"
+"7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
+"proxy to access the rest of the Tor network.\n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:226
+msgid ""
+"## Frequently Asked Questions This section will answer some of the most "
+"common questions. If your question is not mentioned here, please send an "
+"email to <community-support@lists.torproject.org>."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:230
+msgid ""
+"### Unable to extract the archive If you are using Windows and find that you"
+" cannot extract the archive, download and install "
+"[7-Zip](http://www.7-zip.org/)."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:237
+msgid ""
+"### What to do with split packages When you request a split package, the "
+"parts may arrive out of order. You need to make sure you have received all "
+"the parts before you attempt to unpack them. Save all the parts into one "
+"directory on your computer, unzip them, and double-click the file that ends "
+"in \"..split.part01.exe\" to start the unpacking process."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:241
+msgid ""
+"Once the unpacking process has completed, you should see a newly created "
+"\".exe\" file in the same directory. Run this file and wait for the Tor "
+"Browser Bundle to start."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:245
+msgid ""
+"### Vidalia asks for a password You should not have to enter a password when"
+" starting Vidalia. If you are prompted for one, you are likely affected by "
+"one of these problems:"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:251
+#, no-wrap
+msgid ""
+"**You are already running Vidalia and Tor**:\n"
+"For example, this situation can happen if you installed the Vidalia\n"
+"bundle and now you're trying to run the Tor Browser Bundle. In that\n"
+"case, you will need to close the old Vidalia and Tor before you can run\n"
+"this one.\n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:258
+#, no-wrap
+msgid ""
+"**Vidalia crashed, but left Tor running**:\n"
+"If the dialog that prompts you for a control password has a Reset\n"
+"button, you can click the button and Vidalia will restart Tor with a new\n"
+"random control password. If you do not see a Reset button, or if Vidalia\n"
+"is unable to restart Tor for you; go into your process or task manager,\n"
+"and terminate the Tor process. Then use Vidalia to restart Tor.\n"
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:262
+msgid ""
+"For more information, see the "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
+"Project website."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:267
+msgid ""
+"### Flash does not work For security reasons, Flash, Java, and other plugins"
+" are currently disabled for Tor. Plugins operate independently from Firefox "
+"and can perform activity on your computer that ruins your anonymity."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:272
+msgid ""
+"Most YouTube videos work with HTML5, and it is possible to view these videos"
+" over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
+" on the YouTube website before you can use the HTML5 player."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:276
+msgid ""
+"Note that the browser will not remember that you joined the trial once you "
+"close it, so you will need to re-join the trial the next time you run the "
+"Tor Browser Bundle."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:279
+msgid ""
+"Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
+"/torbutton-faq.html#noflash)  for more information."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:285
+msgid ""
+"### I want to use another browser For security reasons, we recommend that "
+"you only browse the web through Tor using the Tor Browser Bundle. It is "
+"technically possible to use Tor with other browsers, but by doing so you "
+"open yourself up to potential attacks."
+msgstr ""
+
+#. type: Plain text
+#: tsum.text:289
+msgid ""
+"### Why Tor is slow Tor can sometimes be a bit slower than your normal "
+"Internet connection.  After all, your traffic is sent through many different"
+" countries, sometimes across oceans around the world!"
+msgstr ""
+
+
