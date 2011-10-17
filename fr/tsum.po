@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-10-15 14:16+0200\n"
-"PO-Revision-Date: 2011-10-15 13:50+0000\n"
-"Last-Translator: Pouknouki <pouknouki@gmail.com>\n"
+"POT-Creation-Date: 2011-10-17 13:23+0200\n"
+"PO-Revision-Date: 2011-10-17 12:25+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,14 +34,9 @@ msgstr "# Manuel Utilisateur Simple"
 msgid ""
 "This user manual contains information about how to download Tor, how to use "
 "it, and what to do if Tor is unable to connect to the network. If you can't "
-"find the answer to your question in this document, email <community-"
-"support@lists.torproject.org>."
+"find the answer to your question in this document, email community-"
+"support@lists.torproject.org."
 msgstr ""
-"Ce manuel utilisateur contient des indications pour le téléchargement de "
-"Tor, son utilisation et sur ce qu'il faut faire si Tor n'est plus en mesure "
-"de se connecter au réseau. Si vous ne trouvez de réponse à vos questions "
-"dans ce document, alors envoyez un mail à <-community-"
-"support@lists.torproject.org>. "
 
 #. type: Plain text
 #: tsum.text:9
@@ -150,13 +145,9 @@ msgstr ""
 #: tsum.text:49
 msgid ""
 "### How to get Tor via email To receive the English Tor Browser Bundle for "
-"Windows, send an email to <gettor@torproject.org> with **windows** in the "
-"body of the message. You can leave the subject blank."
+"Windows, send an email to gettor@torproject.org with **windows** in the body"
+" of the message. You can leave the subject blank."
 msgstr ""
-"### Comment obtenir Tor par email? Pour recevoir le package en langue "
-"anglaise du Navigateur Tor compatible windows, il faut envoyer un email à "
-"<gettor@torproject.org> avec **windows** dans le corps du message. Vous "
-"pouvez laisser le sujet vide. "
 
 #. type: Plain text
 #: tsum.text:53
@@ -186,14 +177,9 @@ msgid ""
 "**Note**: The Tor Browser Bundles for Linux and Mac OS X are rather\n"
 "large, and you will not be able to receive any of these bundles with a\n"
 "Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you\n"
-"want, send an email to <community-support@lists.torproject.org> and we\n"
+"want, send an email to community-support@lists.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
-"**Note**; Les packages navigateur Tor pour Linux et Mac OS X sont assez "
-"volumineux, et vous n'aurez pas la possibilité de recevoir l'archive sur un "
-"compte Gmail, Hotmail ou Yahoo. SI vous ne pouvez pas recevoir le package "
-"désiré, envoyez un email à <community-support@lists.torproject.org> et nous "
-"vous communiquerons une liste de sites web miroirs à utiliser. \n"
 
 #. type: Plain text
 #: tsum.text:69
@@ -213,11 +199,9 @@ msgstr ""
 #. type: Plain text
 #: tsum.text:72
 msgid ""
-"Send an email to <gettor@torproject.org> with the following words in the "
-"body of the email:"
+"Send an email to gettor@torproject.org with the following words in the body "
+"of the email:"
 msgstr ""
-"Envoyez un e-mail à <gettor@torproject.org> avec les mots suivants dans le "
-"corps de l'e-mail:"
 
 #. type: Plain text
 #: tsum.text:75
@@ -372,14 +356,9 @@ msgid ""
 "The output should say *\"Good signature\"*. A bad signature means that the "
 "file may have been tampered with. If you see a bad signature, send details "
 "about where you downloaded the package from, how you verified the signature,"
-" and the output from GnuPG in an email to <community-"
-"support@lists.torproject.org>."
+" and the output from GnuPG in an email to community-"
+"support@lists.torproject.org."
 msgstr ""
-"Si tout est bon \"signature correcte\" devrait s'afficher. Une signature "
-"incorrecte signifie que le fichier a peut être été falsifié ou corrompu. Si "
-"vous avez une signature incorrecte, envoyez les informations concernant le "
-"site de téléchargement, le méthode de vérification de la signature et le "
-"résultat de GnuPG par email à <community-support@lists.torproject.org>"
 
 #. type: Plain text
 #: tsum.text:133
@@ -520,12 +499,9 @@ msgstr ""
 #: tsum.text:181
 msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
-"<community-support@lists.torproject.org> and include the relevant parts from"
-" the log file."
+"community-support@lists.torproject.org and include the relevant parts from "
+"the log file."
 msgstr ""
-"Si vous avez besoin d'aide pour comprendre pourquoi Tor ne peut pas se "
-"connecter, envoyez un mail à <community-support@lists.torproject.org>  et "
-"joignez les informations pertinentes du fichier de log"
 
 #. type: Plain text
 #: tsum.text:189
@@ -533,18 +509,11 @@ msgid ""
 "### How to find a bridge To use a bridge, you will first have to locate one;"
 " you can either browse to "
 "[bridges.torproject.org](https://bridges.torproject.org/), or you can send "
-"an email to <bridges@torproject.org>. If you do send an email, please make "
+"an email to bridges@torproject.org. If you do send an email, please make "
 "sure that you write **get bridges** in the body of the email. Without this, "
 "you will not get a reply. Note that you need to send this email from either "
 "a gmail.com or a yahoo.com address."
 msgstr ""
-"### Comment trouver une passerelle, comment utiliser un passerelle. Vous "
-"devrez tout d'abord en localiser une. Vous pouvez soit vous rendre à "
-"l'adresse [bridges.torproject.org](https://bridges.torproject.org/), soit "
-"envoyez un mail à <bridges@torproject.org>. Si vous envoyez un mail, assurez"
-" s'il vous plait d'indiquer **get bridges** dans le corps du mail. Sans "
-"cela, vous n'obtiendrez pas de réponse. Notez que vous devez envoyer cet "
-"email depuis une adresse gmail.com soit depuis une adresse yahoo.com."
 
 #. type: Plain text
 #: tsum.text:194
@@ -637,12 +606,8 @@ msgstr ""
 msgid ""
 "## Frequently Asked Questions This section will answer some of the most "
 "common questions. If your question is not mentioned here, please send an "
-"email to <community-support@lists.torproject.org>."
+"email to community-support@lists.torproject.org."
 msgstr ""
-"## Questions Fréquemment Posées. Cette section vous apportera des réponses à"
-" la plupart des questions habituelles. Si vous question n'est pas mentionnée"
-" ici, envoyez s'il vous plait un email à <community-"
-"support@lists.torproject.org>."
 
 #. type: Plain text
 #: tsum.text:230
