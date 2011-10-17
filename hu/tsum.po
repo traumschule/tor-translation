@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 12:25+0000\n"
+"PO-Revision-Date: 2011-10-17 13:12+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,11 @@ msgid ""
 "find the answer to your question in this document, email community-"
 "support@lists.torproject.org."
 msgstr ""
+"Ez a kézikönyv információkat nyújt a Tor letöltéséről, használatáról és "
+"azokról a teendőkről, amit akkor kell végrehajtania, ha a Tor nem tud "
+"csatlakozni a hálózathoz. Ha nem találja kérdésre a választ ebben a "
+"dokumentumban, akkor írjon levelet a community-support@lists.torproject.org "
+"címre."
 
 #. type: Plain text
 #: tsum.text:9
@@ -139,6 +144,9 @@ msgid ""
 "Windows, send an email to gettor@torproject.org with **windows** in the body"
 " of the message. You can leave the subject blank."
 msgstr ""
+"### Hogyan szerezheti be a Tor-t emailben Ahhoz, hogy emailben kapja meg az "
+"angol Tor Böngésző csomagot, küldjön egy emailt a gettor@torproject.org "
+"címre **windows** szöveggel a levél törzsében. A tárgy üres maradhat."
 
 #. type: Plain text
 #: tsum.text:53
@@ -170,6 +178,11 @@ msgid ""
 "want, send an email to community-support@lists.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Megjegyzés**: A Tor böngésző csomag Linux és Mac OS X verziója igen nagy, "
+"és nem fogja megkapni ezt Gmail, Hotmail vagy Yahoo címre. Ha nem tudja "
+"beszerezni a csomagot,írjon egy emailt a community-"
+"support@lists.torproject.org címre, és küldünk egy listát arról, hogy milyen"
+" weboldal tükröket használhat.\n"
 
 #. type: Plain text
 #: tsum.text:69
@@ -191,6 +204,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Küldjön egy emailt a gettor@torproject.org címre a következő tartalommal az "
+"email törzsében:"
 
 #. type: Plain text
 #: tsum.text:75
@@ -349,6 +364,11 @@ msgid ""
 " and the output from GnuPG in an email to community-"
 "support@lists.torproject.org."
 msgstr ""
+"A kimenet azt kell mondja, hogy *\"Good signature\"* (jó aláírás). Egy hibás"
+" aláírás azt jelentheti, hogy a csomag megváltoztatásra került, vagy "
+"megsérült. Ha hibás aláírást lát, akkor küldje el a részleteket arról, hogy "
+"honnan töltötte le a csomagot, hogyan ellenőrizte, és a kimenetét a GnuPG "
+"programnak, a a community-support@lists.torproject.org email címre."
 
 #. type: Plain text
 #: tsum.text:133
@@ -488,6 +508,9 @@ msgid ""
 "community-support@lists.torproject.org and include the relevant parts from "
 "the log file."
 msgstr ""
+"Ha segítségre van szüksége, hogy a Tor miért nem tud kapcsolódni, írjon egy "
+"emailt a community-support@lists.torproject.org címre, és rakja bele a "
+"lényeges részeit a levélbe a log állománynak."
 
 #. type: Plain text
 #: tsum.text:189
@@ -500,6 +523,13 @@ msgid ""
 "you will not get a reply. Note that you need to send this email from either "
 "a gmail.com or a yahoo.com address."
 msgstr ""
+"### Hogyan találjon Hídkapcsolati Eloszót  A Tor Hidak használatához először"
+" találnia kell egyet; vagy nézze meg a  "
+"[bridges.torproject.org](https://bridges.torproject.org/) weboldalt, vagy "
+"küldjön egy emailt a bridges@torproject.org. Ha email küld, legyen biztos "
+"benne, hogy a levél szövege tartalmazza a  **get bridges** (magyarul: hidak "
+"lekérése) szöveget a levél törzsében. E nélkül nem fog választ kapni. "
+"Fontos, hogy ezt az emailt gmail.com vagy yahoo.com címről kell küldenie."
 
 #. type: Plain text
 #: tsum.text:194
@@ -593,6 +623,9 @@ msgid ""
 "common questions. If your question is not mentioned here, please send an "
 "email to community-support@lists.torproject.org."
 msgstr ""
+"## Gyakran feltett kérdések Ez a szakasz a leggyakoribb kérdések "
+"tartalmazza. Ha kérdése nincs itt említve, kérjük küldjön egy emailt a "
+"community-support@lists.torproject.org címre."
 
 #. type: Plain text
 #: tsum.text:230

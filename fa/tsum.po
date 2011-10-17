@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 12:25+0000\n"
+"PO-Revision-Date: 2011-10-17 13:05+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,10 @@ msgid ""
 "find the answer to your question in this document, email community-"
 "support@lists.torproject.org."
 msgstr ""
+"این راهنمای کاربری حاوی اطلاعاتی است درباره دانلود تور، استفاده از آن و "
+"اینکه در صورت وصل نشدن تور به شبکه باید چه کار کنید. اگر نمی‌توانید پاسخ "
+"سوال خود در این راهنما پیدا کنید، به community-support@lists.torproject.org "
+"ایمیل بزنید. "
 
 #. type: Plain text
 #: tsum.text:9
@@ -140,6 +144,9 @@ msgid ""
 "Windows, send an email to gettor@torproject.org with **windows** in the body"
 " of the message. You can leave the subject blank."
 msgstr ""
+"### چگونه تور را از راه ایمیل دریافت کنیم برای دریافت بسته انگلیسی تور برای "
+"ویندوز، ایمیلی به gettor@torproject.org با ذکر کلمه **windows** در درون "
+"ایمیل بفرستید. می‌توانید subject را خالی بگذارید."
 
 #. type: Plain text
 #: tsum.text:53
@@ -172,6 +179,10 @@ msgid ""
 "want, send an email to community-support@lists.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**نکته**: بسته مرورگر تور برای گنو/لینوکس و مک‌اواس‌اکس نسبتا بزرگ است،\n"
+"و شما نخواهید توانست آن را به وسیله‌ی جی‌میل، هات‌میل یا یاهو دریافت کنید.\n"
+"اگر شما نتوانستید بسته‌ای را که خواسته‌اید دریافت کنید، یه ایمیل به community-support@lists.torproject.org بفرستید\n"
+"و ما لیستی از وب‌سایت‌هایی که می‌توانید از آنها دانلود کنید را برای استفاده‌تان می‌فرستیم.\n"
 
 #. type: Plain text
 #: tsum.text:69
@@ -194,6 +205,7 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"یک ایمیل به gettor@torproject.org بزنید و در بدنه‌ی آن کلمات زیر را بنویسید:"
 
 #. type: Plain text
 #: tsum.text:75
@@ -346,6 +358,10 @@ msgid ""
 " and the output from GnuPG in an email to community-"
 "support@lists.torproject.org."
 msgstr ""
+"خروجی باید بگوید *\"Good signature\"*. یک امضای بد یعنی فایل ممکن است "
+"دستکاری شده باشد. اگر شما یه امضای بد دیدید، جزییات این که فایل را از کجا "
+"دانلود کردید، چگونه امضا را بررسی کردید، و خروجی GnuPG را به نشانی "
+"community-support@lists.torproject.org ایمیل بزنید."
 
 #. type: Plain text
 #: tsum.text:133
@@ -484,6 +500,9 @@ msgid ""
 "community-support@lists.torproject.org and include the relevant parts from "
 "the log file."
 msgstr ""
+"اگر شما برای این که بفهمید چرا تور متصل نمی‌شود، مشکل داشتید، یک ایمیل به  "
+"community-support@lists.torproject.org بفرستید و در آن قسمت مربوطه از فایل "
+"لاگ را قرار دهید."
 
 #. type: Plain text
 #: tsum.text:189
@@ -496,6 +515,13 @@ msgid ""
 "you will not get a reply. Note that you need to send this email from either "
 "a gmail.com or a yahoo.com address."
 msgstr ""
+"### چگونه یک پل پیدا کنیم برای استفاده از یک پل، شما ابتدا باید یک پل را "
+"مکان‌یابی کنید؛ برای این کار می‌توانید به "
+"[bridges.torproject.org](https://bridges.torproject.org/) بروید یا این که یک"
+" ایمیل به bridges@torproject.org بفرستید. اگر می‌خواهید ایمیل ارسال کنید* "
+"اطمینان حاصل کنید که در قسمت بدنه‌ی ایمیل، کلمه‌ی **get bridges** را "
+"نوشته‌اید. بدون این، شما پاسخی دریافت نخواهید کرد. به این نکته توجه کنید که "
+"لازم است شما این ایمیل را از آدرس‌های جی‌میل یا یاهو بفرستید."
 
 #. type: Plain text
 #: tsum.text:194
@@ -587,6 +613,9 @@ msgid ""
 "common questions. If your question is not mentioned here, please send an "
 "email to community-support@lists.torproject.org."
 msgstr ""
+"سوالات متداول. این قسمت به برخی از سوالات بسیار متداول و مشترک پاسخ خواهد "
+"داد. اگر سوال شما در این جا ذکر نشده بود، لطفا به community-"
+"support@lists.torproject.org ایمیل بزنید."
 
 #. type: Plain text
 #: tsum.text:230

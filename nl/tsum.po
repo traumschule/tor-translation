@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 12:41+0000\n"
+"PO-Revision-Date: 2011-10-17 12:51+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -496,6 +496,8 @@ msgid ""
 "community-support@lists.torproject.org and include the relevant parts from "
 "the log file."
 msgstr ""
+"Als je hulp nodig hebt met uitzoeken waarom Tor geen verbinding kan krijgen,"
+" stuur dan een e-mail naar community-support@lists.torproject.org en voeg "
 
 #. type: Plain text
 #: tsum.text:189
@@ -508,6 +510,13 @@ msgid ""
 "you will not get a reply. Note that you need to send this email from either "
 "a gmail.com or a yahoo.com address."
 msgstr ""
+"### Hoe een bridge te vinden Om een bridge te gebruiken moet je er eerst één"
+" vinden; je kunt naar "
+"[bridges.torproject.org](https://bridges.torproject.org/) gaan, of je kunt "
+"een email sturen naar bridges@torproject.org. Als je een e-mail stuurt, zorg"
+" er dan voor dat je **get bridges** in de body van de e-mail zet. Zonder dit"
+" krijg je geen bericht terug. Let op dat je deze e-mail van, of een "
+"gmail.com adres, of een yahoo.com adres moet sturen."
 
 #. type: Plain text
 #: tsum.text:194
@@ -592,6 +601,9 @@ msgid ""
 "common questions. If your question is not mentioned here, please send an "
 "email to community-support@lists.torproject.org."
 msgstr ""
+"## Veelgestelde vragen Dit onderdeel zal een paar van de meest gestelde "
+"vragen beantwoorden. Als je vraag hier niet genoemd wordt, stuur dan een "
+"e-mail naar community-support@lists.torproject.org."
 
 #. type: Plain text
 #: tsum.text:230
