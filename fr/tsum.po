@@ -8,6 +8,7 @@
 #   <frenchy_reboss@hotmail.com>, 2011.
 #   <kpplfy@geekmx.org>, 2011.
 #   <pouknouki@gmail.com>, 2011.
+#   <runa.sandvik@gmail.com>, 2011.
 #   <sebastien.faucou@univ-nantes.fr>, 2011.
 #   <s.momo-b@gmail.com>, 2011.
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 13:08+0000\n"
+"PO-Revision-Date: 2011-10-18 09:15+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +130,7 @@ msgid ""
 "and start Tor."
 msgstr ""
 "Le package recommandé pour la plupart des utilisateurs est le [Package de "
-"Navigation Tor] (https://www.torproject.org/projects/torbrowser.html). Ce "
+"Navigation Tor](https://www.torproject.org/projects/torbrowser.html). Ce "
 "package contient un navigateur préconfiguré pour la navigation sécurisé sur "
 "internet en utilisant Tor, et ne nécessite aucune installation. Il suffit "
 "simplement de télécharger le package, extraire l'archive, et démarrer Tor.  "
