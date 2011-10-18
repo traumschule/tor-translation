@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-18 09:15+0000\n"
+"PO-Revision-Date: 2011-10-18 09:18+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -308,9 +308,7 @@ msgstr ""
 #: tsum.text:103
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
-msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»Gpg</span> - keyserver "
-"hkp://keys.gnupg.net - recv-keys 0x63FEE659\n"
+msgstr "gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: tsum.text:105
@@ -322,8 +320,8 @@ msgstr "Après avoir importé la clé, vérifiez que l'empreinte est correcte :"
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
 msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»Gpg</span> - fingerprint "
-"0x63FEE659\n"
+"gpg --fingerprint 0x63FEE659\n"
+"\n"
 
 #. type: Plain text
 #: tsum.text:109
@@ -341,12 +339,12 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
-"<span class=\"whitespace other\" title=\"Tab\">»</span>      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
-"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
-"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
-"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
-"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
+"pub   2048R/63FEE659 2003-10-16\n"
+"      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"uid                  Erinn Clark <erinn@torproject.org>\n"
+"uid                  Erinn Clark <erinn@debian.org>\n"
+"uid                  Erinn Clark <erinn@double-helix.org>\n"
+"sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: tsum.text:118
@@ -364,8 +362,6 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»Gpg</span> - verify tor-"
-"navigateur-2.2.33-2_en-US.exe.asc Tor-browser-2.2.33-2_en-fr.exe\n"
 
 #. type: Plain text
 #: tsum.text:126
@@ -488,11 +484,6 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
-"**You are behind a restrictive firewall**; Pour indiquer à Tor d'utiliser "
-"exclusivement le port 80 et le port 443, ouvrez le panneau de contrôle "
-"Vidalia, cliquer sur \"Settings\" - paramètres - puis \"Network\" -réseau-, "
-"et cocher la case *My firewall only lets me connect⏎ to certain ports* - Mon"
-" firewall ne me laisse me connecter que sur certains ports\n"
 
 #. type: Plain text
 #: tsum.text:173
@@ -502,8 +493,6 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
-"**Your anti-virus program is blocking Tor** Assurez-vous que votre programme"
-" antivirus n'empêche pas Tor de faire des connexions réseau.\n"
 
 #. type: Plain text
 #: tsum.text:177
