@@ -6,14 +6,15 @@
 #   <antixsuperstar@gmail.com>, 2011.
 #   <guido@bruo.org>, 2011.
 #   <kpplfy@geekmx.org>, 2011.
+#   <lenazun@gmail.com>, 2011.
 #   <runa.sandvik@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 14:07+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-10-20 04:10+0000\n"
+"Last-Translator: lenazun <lenazun@gmail.com>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/team/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -549,6 +550,11 @@ msgid ""
 "says *My ISP blocks connections to the Tor network*. Enter the bridges in "
 "the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Cómo usar un puente. Una vez que ha configurado los puentes a utilizar, "
+"abra el tablero de control de Vidalia y haga clic en *Configuración*, *Red* "
+"y marque la casilla que dice \"Mi ISP bloquea la conexión a la red Tor\". "
+"Introduzca los puentes en el campo de abajo, pulse *OK* y reinicie Tor de "
+"nuevo."
 
 #. type: Plain text
 #: tsum.text:206
