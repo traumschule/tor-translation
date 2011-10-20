@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-20 04:44+0000\n"
+"PO-Revision-Date: 2011-10-20 05:14+0000\n"
 "Last-Translator: sharafaldin <sudanhacker@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -50,9 +50,9 @@ msgid ""
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
 msgstr ""
-"الطور شبكة تتكون من قنوات إفتراضية تسمح لك بتحسين خصوصيتك وأمنك في الإنترنت "
+"التور شبكة تتكون من قنوات إفتراضية تسمح لك بتحسين خصوصيتك وأمنك في الإنترنت "
 ". يعمل طور عن طريق إرسال بياناتك عبر ثلاثة مخدمات إفتراضية (تعرف أيضاً بإسم "
-"المرحلات) توجد داخل شبكة طور وذلك قبل أن تصل البيانات إلي شبكة الإنترنت "
+"المرحلات) توجد داخل شبكة تور وذلك قبل أن تصل البيانات إلي شبكة الإنترنت "
 "العامة ."
 
 #. type: Plain text
@@ -79,6 +79,9 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"التور يجعل مصدر تدفق بياناتك مجهول بالإضافة إلي أنه يقوم بتشفير كل شئ بينك "
+"وبين شبكة تور ، أيضاً يقوم بتشفير حركة البيانات داخل شبكة تور نفسها ، ولكنه "
+"لا يستطيع تشفير حركة البيانات ما بين شبكة تور و والمكان المقصود"
 
 #. type: Plain text
 #: tsum.text:32
@@ -105,6 +108,9 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
+"الحزمة التي ننصح بها أغلب المستخدمين هي حزمة تور للتصفح \n"
+"(https://www.torproject.org/projects/torbrowser.html) \n"
+"تحتوي هذه الحزمة على متصفحة تم إعداده مسبقاً حتى يجعل تصفح الإنترنت أمناً عن طريق تور وهو لا يحتاج إلي تنصيب ، كل ما عليك هو تحميل الحزمة وفك ضغطها ومن ثم استخدام برنامج تور"
 
 #. type: Plain text
 #: tsum.text:44
@@ -113,6 +119,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/)  and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"هنالك طريقتين مختلفتين للحصول على برنامج تور الأولى عن طريق تصفح موقع مشروع تور وتحميل البرنامج \n"
+"(https://www.torproject.org/)\n"
+"أو عن طريق استخدام GetTor والتي تقوم بالرد التلقائ على الإيميلات"
 
 #. type: Plain text
 #: tsum.text:49
@@ -263,7 +272,7 @@ msgstr "»gpg  --fingerprint 0x63FEE659\n"
 #. type: Plain text
 #: tsum.text:109
 msgid "You should see:"
-msgstr "سوف ترى:"
+msgstr "يجب أن تشاهد :"
 
 #. type: Plain text
 #: tsum.text:116
@@ -439,6 +448,10 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"إعداد أكثر من عنوان لجسر الشبكة يجعل اتصال تور أكثر إستقراراً ، في حال أن "
+"عدد من الجسور أصبح لا يمكن الوصول إليه ، ليس هنالك ضمان بأن الجسر الذي تقوم "
+"بإستخدامه اليوم يقوم بالعمل غداً ، ولذلك يجب عليك أن تعتاد على تحديث قائمة "
+"الجسور بصورة دائمة ."
 
 #. type: Plain text
 #: tsum.text:200
@@ -448,6 +461,10 @@ msgid ""
 "says *My ISP blocks connections to the Tor network*. Enter the bridges in "
 "the box below, hit *OK* and start Tor again."
 msgstr ""
+"### كيفية استخدام الجسر عندما يكون لديك عدد من الجسور لإستخدامها قم بفتح "
+"بلوحة تحكم فيداليا ومن ثم الضغط على *إعدادات* ثم * شبكة* واشر على الصندوق "
+"الذي يقول * مزود الخدمة يحجب الإتصال بشبكة تور * قم من بعد ذلك بإدخال الجسور"
+" في الصندوق الموجود في الأسل وإضغط على *موافق* وقم بإستخدام تور مرة أخرى."
 
 #. type: Plain text
 #: tsum.text:206
@@ -469,12 +486,13 @@ msgstr ""
 #. type: Bullet: '1. '
 #: tsum.text:221
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "إفتح لوحة تحكم فيداليا وإضغط على *إعدادات* ."
 
 #. type: Bullet: '2. '
 #: tsum.text:221
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"إضغط على * شبكة * وقم بإختيار *أنني استخدم بروكسي للوصول إلي الإنترنت * ."
 
 #. type: Plain text
 #: tsum.text:221
@@ -576,6 +594,9 @@ msgid ""
 " are currently disabled for Tor. Plugins operate independently from Firefox "
 "and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### الفلاش والجافا والإضافات الأخرى تم تعطيلهم داخل تور وذلك لأسباب أمنية. "
+"الإضافات تعمل بصورة منفصلة من الفيرفوكس ويمكنها القيام بنشاطات داخل جهازك "
+"تؤثر سلباً على مجهوليتك."
 
 #. type: Plain text
 #: tsum.text:272
@@ -584,6 +605,10 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"أغلب فيديوهات اليوتيوب تعمل مع HTMl5 ومن الممكن مشاهدة هذه الفيديوهات عند "
+"إستخدام تور ، تحتاج للإنضمام إلي [HTML5 "
+"trial](https://www.youtube.com/html5)  في موقع اليوتيوب قبل أن تستخدم مشغل "
+"HTML5"
 
 #. type: Plain text
 #: tsum.text:276
@@ -592,6 +617,8 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"علما بأن المتصفح لن يتذكر أنك انضمتت الى التجربة بمجرد إغلاقه ، لذلك سوف "
+"تحتاج لإعادة الانضمام إلى التجربة في المرة القادمة عند تشغيل حزمة متصفح تور."
 
 #. type: Plain text
 #: tsum.text:279
