@@ -6,13 +6,14 @@
 #   <hamid.azimy@gmail.com>, 2011.
 #   <jonnect@yahoo.com>, 2011.
 #   <mah.fat@gmail.com>, 2011.
+#   <vhd42f@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 13:05+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-10-24 15:17+0000\n"
+"Last-Translator: ritid42 <vhd42f@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -373,12 +374,11 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
-"هنگامی که امضا را بررسی کردید و *\"Good signature\"* را دیدید، به سراغ بسته "
-"رفته و آن را از حالت فشرده خارج کنید. شما باید با یک پوشه شبیه **tor-"
-"browser_en-US** مواجه شوید. داخل آن پاشه، یک پوشه دیگر به نام **Docs** وجود "
-"دارد که حاوی فایلی به نام **changelog** است. شما باید اطمینان حاصل کنید که "
-"شماره‌ی نسخه‌ای که در خط اول این فایل نوشته شده، با شماره‌ی نسخه‌ای که در "
-"نام فایل است، یکی باشد."
+"هنگامی که شما کرده اند استفاده از امضا و * \"خوب امضا\" خروجی * دیده می شود "
+"، برو جلو و عصاره آرشیو بسته. بعد از آن شما باید یک دایرکتوری مشابه ** «TOR "
+"- browser_en - US **. در داخل است که دایرکتوری یکی دیگر از شاخه ای به نام **"
+" اسناد ** ، که حاوی یک فایل با نام ** تغییرات **. شما می خواهید مطمئن شوید "
+"که شماره نسخه بر روی خط بالای فایل تغییرات منطبق شماره نسخه را در نام فایل."
 
 #. type: Plain text
 #: tsum.text:139
