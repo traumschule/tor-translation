@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-25 20:41+0000\n"
+"PO-Revision-Date: 2011-10-25 20:56+0000\n"
 "Last-Translator: fetidyoo <tru74368@yahoo.com>\n"
 "Language-Team: Italian (http://www.transifex.net/projects/p/torproject/team/it/)\n"
 "MIME-Version: 1.0\n"
@@ -80,6 +80,9 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Tor rende anonima l'origine del vostro traffico, e cripta ogni cosa tra voi "
+"e la rete Tor. Inoltre, Tor cripta ogni cosa dentro la rete Tor, ma non può "
+"criptare il traffico tra la rete Tor e la sua destinazione finale."
 
 #. type: Plain text
 #: tsum.text:32
@@ -88,6 +91,10 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://twitter.com/, not **http**://twitter.com/)."
 msgstr ""
+"Se state comunicando informazioni confidenziali o sensibili, come per "
+"esempio durante l'accesso ad un sito web con username e password, "
+"accertatevi di usare il protocollo HTTPS (per esempio, "
+"**https**://twitter.com, e non **http**://twitter.com)."
 
 #. type: Plain text
 #: tsum.text:34
@@ -96,6 +103,8 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
+"Come ottenere Tor\n"
+"----------------\n"
 
 #. type: Plain text
 #: tsum.text:40
