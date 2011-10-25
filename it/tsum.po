@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <tru74368@yahoo.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-17 12:25+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-10-25 20:41+0000\n"
+"Last-Translator: fetidyoo <tru74368@yahoo.com>\n"
 "Language-Team: Italian (http://www.transifex.net/projects/p/torproject/team/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: tsum.text:2
 msgid "# The Short User Manual"
-msgstr ""
+msgstr "# Breve manuale utente"
 
 #. type: Plain text
 #: tsum.text:7
@@ -38,6 +39,8 @@ msgid ""
 "How Tor works\n"
 "-------------\n"
 msgstr ""
+"Come funziona Tor\n"
+"------------\n"
 
 #. type: Plain text
 #: tsum.text:15
@@ -47,6 +50,10 @@ msgid ""
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
 msgstr ""
+"Tor è una rete di tunnel virtuali che permette di aumentare la privacy e la "
+"sicurezza della navigazione su internet. Funziona mandando il vostro "
+"traffico attraverso tre server scelti casualmente nella rete Tor (detti "
+"*relay*) prima di far uscire il traffico su internet."
 
 #. type: Plain text
 #: tsum.text:17
@@ -60,6 +67,10 @@ msgid ""
 " The green monitors represent relays in the Tor network, while the three "
 "locks represent the layers of encryption between the user and each relay."
 msgstr ""
+"Questa immagine illustra un utente che naviga sul sito Twitter attraverso "
+"Tor. I monitor verdi rappresentano dei relay nella rete Tor, e i tre "
+"lucchetti rappresentano i livelli di crittografia tra l'utente e ciascun "
+"relay."
 
 #. type: Plain text
 #: tsum.text:27
