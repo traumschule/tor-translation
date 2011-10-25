@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-25 10:48+0000\n"
+"PO-Revision-Date: 2011-10-25 21:29+0000\n"
 "Last-Translator: arpalord <arpalord@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -487,6 +487,8 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**Vous êtes derrière un pare-feu restrictif**: Pour dire à Tor de n'essayer que les ports\n"
+"80 et 443, ouvrez le panneau de configuration de Vidalia, cliquer sur *Paramètres* et *Réseau*, et cochez la case disant *Mon parefeu me laisse me connecter seulement à certains ports*.     \n"
 
 #. type: Plain text
 #: tsum.text:173
