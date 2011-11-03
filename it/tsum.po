@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Luca  <luca@jeckodevelopment.it>, 2011.
 #   <tru74368@yahoo.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-10-17 13:23+0200\n"
-"PO-Revision-Date: 2011-10-25 20:56+0000\n"
-"Last-Translator: fetidyoo <tru74368@yahoo.com>\n"
+"PO-Revision-Date: 2011-11-03 13:57+0000\n"
+"Last-Translator: jeckodevelopment <luca@jeckodevelopment.it>\n"
 "Language-Team: Italian (http://www.transifex.net/projects/p/torproject/team/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -258,7 +259,7 @@ msgstr ""
 #. type: Plain text
 #: tsum.text:109
 msgid "You should see:"
-msgstr ""
+msgstr "Dovresti vedere:"
 
 #. type: Plain text
 #: tsum.text:116
