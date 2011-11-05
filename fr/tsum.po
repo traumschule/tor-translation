@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 21:28+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-11-05 23:40+0000\n"
+"Last-Translator: arpalord <arpalord@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +29,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "Le Manuel Rapide d'Utilisateur\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -39,6 +39,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Ce manuel utilisateur contient les informations concernant le téléchargement"
+" de Tor, comment l'utiliser, et que faire si Tor ne se connecte pas au "
+"réseau. Si vous ne trouvez pas la réponse à votre question dans ce document,"
+" envoyer un email à help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -93,7 +97,7 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
-"Tor va anonymiser l'origine de votre trafic, et Tor va tous chiffrer entre "
+"Tor va anonymiser l'origine de votre trafic, et Tor va tout chiffrer entre "
 "vous et le réseau Tor. Tor va aussi chiffrer votre trafic dans le réseau "
 "Tor, mais il ne peut pas chiffrer le trafic entre le réseau Tor et la "
 "destination finale."
@@ -127,8 +131,8 @@ msgid ""
 msgstr ""
 "Le package recommandé pour la plupart des utilisateurs est le [Package de "
 "Navigation Tor](https://www.torproject.org/projects/torbrowser.html). Ce "
-"package contient un navigateur préconfiguré pour la navigation sécurisé sur "
-"internet en utilisant Tor, et ne nécessite aucune installation. Il suffit "
+"package contient un navigateur préconfiguré pour la navigation sécurisée sur"
+" internet en utilisant Tor, et ne nécessite aucune installation. Il suffit "
 "simplement de télécharger le package, extraire l'archive, et démarrer Tor.  "
 
 #. type: Plain text
@@ -154,8 +158,8 @@ msgid ""
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
 "Vous pouvez aussi demander le package navigateur Tor pour Mac OS X (pour "
-"cela écrire **macos-i386**), and Linux (écrire **linux_i386 pour les systems"
-" 32 bit ou ** linux-x86_64** pour les systèmes 64 bits)."
+"cela écrire **macos-i386**), and Linux (écrire **linux_i386 pour les "
+"systèmes 32 bit ou ** linux-x86_64** pour les systèmes 64 bits)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -242,10 +246,10 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
-"Le logiciel que vous allez recevoir es accompagné par un fichier qui porte "
-"le même nom que le package avec l'extension **.asc**. Ce fichier .asc est un"
-" signature GPG et va vous permettre de vérifier que le fichier que vous avez"
-" téléchargé est exactement celui que vous souhaitez obtenir."
+"Le logiciel que vous allez recevoir est accompagné d'un fichier qui porte le"
+" même nom que le package avec l'extension **.asc**. Ce fichier .asc est un "
+"signature GPG et va vous permettre de vérifier que le fichier que vous avez "
+"téléchargé est exactement celui que vous souhaitez obtenir."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -284,7 +288,7 @@ msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
-"Le package Navigateur Tor es signé avec la clé 0x63FEE659 par Erinn Clark. "
+"Le package Navigateur Tor est signé avec la clé 0x63FEE659 par Erinn Clark. "
 "Pour importer la clé de Erinn, lancer:"
 
 #. type: Plain text
@@ -367,7 +371,7 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
-"Dès lors que vous avez vérifiée la signature et vu le message \"signature "
+"Dès lors que vous avez vérifié la signature et vu le message \"signature "
 "correcte\", poursuivez en décompactant le package. Vous devez obtenir un "
 "dossier identique à **tor-browser_en-US**. A l'intérieur de ce dossier vous "
 "trouverez un sous-dossier nommé  **Docs** contenant un fichier nommé "
@@ -473,8 +477,7 @@ msgid ""
 msgstr ""
 "Si Tor ne fonctionne toujours pas, il est probable que votre Fournisseur "
 "d'Accès Internet (FAI) bloque Tor. Très souvent cela peut être contourné à "
-"l'aide de **ponts Tor**, des relais cachés qui sonis moins faciles à "
-"bloquer."
+"l'aide de **ponts Tor**, des relais cachés qui sont moins faciles à bloquer."
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -499,8 +502,8 @@ msgid ""
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
 "Configurer plus d'une adresse de passerelle rendra votre connexion Tor plus "
-"stable, dans le cas ou une ou des passerelles deviendrait injoignables. Il "
-"n'y a aucune garantie que la passerelle que vous utilisez aujourd'hui "
+"stable, dans le cas ou une ou des passerelles deviendraient injoignables. Il"
+" n'y a aucune garantie que la passerelle que vous utilisez aujourd'hui "
 "fonctionne encore demain, vous devriez donc prendre l'habitude de mettre à "
 "jour votre liste de passerelle le plus souvent possible. "
 
@@ -558,7 +561,7 @@ msgstr ""
 "4. Entrer le port pour le proxy.\n"
 "5.Généralement vous n'avez pas besoin d'un nom d'utilisateur et d'un mot de passe. Si c'est le cas, entrez les informations dans les champs appropriés. \n"
 "6. Choisissez le *Type* de proxy que vous utilisez, soit HTTP/HTTPS, SOCKS4 ou SOCKS5.\n"
-"7. Cliquer sur le bouton *OK* Vidalia et Tor sont à présent configurés pour utiliser un proxy pour accèder au reste du réseau Tor.\n"
+"7. Cliquer sur le bouton *OK* Vidalia et Tor sont à présent configurés pour utiliser un proxy pour accéder au reste du réseau Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -647,8 +650,8 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
-"**Vous avez déjà lancer Vidalia et Tor **\n"
-"Par exemple, cette situation se rencontre si vous avez installer le package VIdalia et que vous tentez de lancer le package Navigateur Tor. Dans ce cas, vous devez fermer l'ancien Vidalia et l'ancien Tor avant de pouvoir lancer la nouveau package.\n"
+"**Vous avez déjà lancé Vidalia et Tor **\n"
+"Par exemple, cette situation peut survenir si vous avez installé le package VIdalia et que vous tentez de lancer le package Navigateur Tor. Dans ce cas, vous devez fermer l'ancien Vidalia et l'ancien Tor avant de pouvoir lancer la nouveau package.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -661,8 +664,8 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
-"** Vidalie s'est planté, mais Tor reste lancé**:\n"
-"Si la boite de dialogue qui vous demande un mot de passe de contrôle dispose d'un bouton Reset, cliquer sur ce dernier et Vidalia relancera Tor avec un nouveau mot de passe de contrôle aléatoire.  Si vous ne voyez pas de bouton Reset, ou si Vidalia est incapable de redémarrer Tor pour vous, faites afficher vos processus ou votre gestionnaire de taches et flinguer le process Tor. Utiliser ensuite Vidalia pour relancer Tor.\n"
+"** Vidalia s'est planté, mais Tor reste lancé**:\n"
+"Si la boite de dialogue qui vous demande un mot de passe de contrôle dispose d'un bouton Reset, cliquer sur ce dernier et Vidalia relancera Tor avec un nouveau mot de passe de contrôle aléatoire.  Si vous ne voyez pas de bouton Reset, ou si Vidalia est incapable de redémarrer Tor pour vous, faites afficher vos processus ou votre gestionnaire de tâches et tuez le processus Tor. Utilisez ensuite Vidalia pour relancer Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
