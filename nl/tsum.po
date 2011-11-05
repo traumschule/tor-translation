@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 17:44+0000\n"
+"PO-Revision-Date: 2011-11-05 17:56+0000\n"
 "Last-Translator: Shondoit <shondoit+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,6 +83,10 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three "
 "locks represent the layers of encryption between the user and each relay."
 msgstr ""
+"De afbeelding hierboven illustreert een gebruiker die naar verschillende "
+"sites gaat via Tor. De groene beeldschermen stellen relay's in het Tor "
+"netwerk voor en de drie sloten stellen de lagen van versleuteling voor "
+"tussen de gebruiker en elke relay."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -104,6 +108,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Als je gevoelige informatie verstuurd, bijvoorbeeld wanneer je inlogt op een"
+" website met een gebruikersnaam en wachtwoord, zorg er dan voor dat je HTTPS"
+" gebruikt (**https**://torproject.org//, niet **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -137,6 +144,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Er zijn twee verschillende manieren om aan Tor software te komen. Je kan "
+"naar de [Tor Project website](https://www.torproject.org/) gaan en het daar "
+"downloaden, of je kunt GetTor gebruiken, de e-mailautobeantwoorder."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -144,6 +154,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Hoe Tor te krijgen via e-mail\n"
+"Om de Engelse Tor Browser Bundle voor Windows te krijgen, stuur een e-mail naar gettor@torproject.org met **windows** in de body van het bericht. Je kan het onderwerp leeg laten."
 
 #. type: Plain text
 #: en/tsum.text:57
