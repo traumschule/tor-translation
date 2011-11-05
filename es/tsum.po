@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 18:14+0000\n"
+"PO-Revision-Date: 2011-11-05 18:29+0000\n"
 "Last-Translator: AstDerek <ast.derek@gmail.com>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/team/es/)\n"
 "MIME-Version: 1.0\n"
@@ -417,6 +417,8 @@ msgid ""
 "### How to use the Tor Browser Bundle\n"
 "After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
+"### Cómo usar el Paquete de Navegador Tor\n"
+"Después de descargar y extraer el Paquete de Navegador Tor, podrá ver un directorio con unos cuantos ficheros dentro. Uno de los ficheros es un ejecutable llamado \"Start Tor Browser\" (o \"start-tor-browser\", dependiendo de su sistema operativo)."
 
 #. type: Plain text
 #: en/tsum.text:160
@@ -449,6 +451,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### Qué hacer cuando Tor no se conecta\n"
+"Algunos usuarios notarán que Vidalia se congela mientras intenta conectarse a la red Tor. Si esto sucede, asegúrese de estar conectado a Internet. Si necesita conectarse a través de un servidor proxy, vea *Cómo usar un proxy abierto* más abajo."
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -518,6 +522,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Si necesita ayuda para saber por qué Tor no se puede conectar, envíe un "
+"correo a help@rt.torproject.org e incluya las partes relevantes del registro"
+" de mensajes."
 
 #. type: Plain text
 #: en/tsum.text:203
@@ -525,6 +532,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Cómo encontrar un puente\n"
+"Para usar un puente, usted necesita primero encontrar uno; puede navegar a [bridges.torproject.org](https://bridges.torproject.org/), o puede enviar un correo electrónico a bridges@torproject.org. Si decide enviar el correo electrónico, asegúrese de escribir **get bridges** en el cuerpo del correo. Sin esta línea, no obtendrá respuesta alguna. Por favor note que necesita enviar este correo desde una dirección gmail.com o yahoo.com."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -545,6 +554,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Cómo usar un puente\n"
+"Una vez que ha configurado los puentes a utilizar, abra el tablero de control de Vidalia y haga clic en *Configuración*, *Red* y marque la casilla que dice \"Mi ISP bloquea la conexión a la red Tor\". Introduzca los puentes en el campo de abajo, pulse *OK* y reinicie Tor."
 
 #. type: Plain text
 #: en/tsum.text:220
