@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 17:56+0000\n"
+"PO-Revision-Date: 2011-11-05 19:41+0000\n"
 "Last-Translator: Shondoit <shondoit+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -187,6 +187,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Noot**: De Tor Browser Bundle voor Linux en Mac OS X zijn vrij groot en je"
+" kunt deze bundels niet ontvangen met een Gmail, Hotmail of Yahoo account. "
+"Als je de bundel die je wilt niet kunt ontvangen, stuur een e-mail naar "
+"help@rt.torproject.org en we sturen je een lijst met website mirrors om te "
+"gebruiken.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -194,6 +199,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### Hoe Tor in meerdere kleine pakketjes te krijgen\n"
+"Het is mogelijk om de Tor Browser Bundle voor Windows in meerdere kleine pakketjes aan te vragen, in plaats van één groot pakket. Dit kan handig zijn als je niet veel bandbreedte hebt of als je e-mailprovider je niet toestaat om grote bijlagen te ontvangen."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -220,6 +227,9 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"Het is belangrijk dat je het keyword *split* bijvoegt op z'n eigen regel. "
+"Zie *Wat te doen met opgedeelde pakketten* voor meer informatie over hoe de "
+"kleine pakketjes uit te pakken en samen te voegen."
 
 #. type: Plain text
 #: en/tsum.text:89
