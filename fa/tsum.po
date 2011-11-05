@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 22:14+0000\n"
+"PO-Revision-Date: 2011-11-05 22:19+0000\n"
 "Last-Translator: pakdelreza <pakdelreza@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# راهنمای کاربری کوتاه⏎\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -598,6 +598,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## سوالات متداول⏎\n"
+"این قسمت به برخی از سوالات بسیار متداول و مشترک پاسخ خواهد داد. اگر سوال شما در این جا ذکر نشده بود، لطفا به help@rt.torproject.org  ایمیل بزنید."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -605,6 +607,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"### بسته دانلود شده باز نمی شود⏎\n"
+"اگر شما از ویندوز استفاده می‌کنید و نمی‌توانید که آرشیو را استخراج کنید، [7-Zip](http://www.7-zip.org/)  را دانلود و نصب کنید."
 
 #. type: Plain text
 #: en/tsum.text:248
