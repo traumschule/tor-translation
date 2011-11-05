@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 19:41+0000\n"
+"PO-Revision-Date: 2011-11-05 20:14+0000\n"
 "Last-Translator: Shondoit <shondoit+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -237,6 +237,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### Tor voor smartphones\n"
+"Je kan Tor op je Android toestel krijgen door het pakket *Orbot* the installeren. Voor informatie over hoe Orbot te downloaden en te installeren, kijk op de [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -245,6 +247,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"We hebben ook experimentele pakketten voor [Nokia "
+"Maemo/N900](https://www.torproject.org/docs/N900.html.en) en [Apple "
+"iOS](http://sid77.slackware.it/iphone/)."
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -252,6 +257,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"### Hoe te verifiëren dat je de juiste versie hebt.\n"
+"Voordat je de Tor Browser Bundle uitvoert moet je er zeker van zijn dat je de juiste versie hebt."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -375,6 +382,11 @@ msgid ""
 "about where you downloaded the package from, how you verified the signature,"
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
+"De uitvoer zou *\\\"Good signature\\\"* moeten zijn. Een verkeerde "
+"handtekening betekent dat er mogelijk met het bestand geknoeid is. Als je "
+"een verkeerde handtekening tegenkomt, stuur dan details, waar je het pakket "
+"gedownload hebt, hoe je de handtekening geverifieerd hebt en de uitvoer van "
+"GnuPG in een e-mail naar help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:147
@@ -399,6 +411,8 @@ msgid ""
 "### How to use the Tor Browser Bundle\n"
 "After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
+"### Hoe de Tor Browser Bundle te gebruiken\n"
+"Na de Tor Browser Bundle gedownload en uitgepakt te hebben, zou je een folder met een paar bestanden moeten hebben. Eén van deze bestanden is een uitvoerbaar bestand genaamd \"Start Tor Browser\" (of \"start-tor-browser\", afhankelijk van je besturingssysteem)."
 
 #. type: Plain text
 #: en/tsum.text:160
@@ -431,6 +445,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### Wat te doen wanneer Tor geen verbinding maakt\n"
+"Sommige gebruikers zullen zien dat Vidalia vast blijft zitten tijdens het verbinding maken met het Tor netwerk. Als dit gebeurt controleer of je verbinding hebt met het internet. Als je een verbinding moet maken met een proxy server, zie *Hoe een open proxy te gebruiken* hieronder."
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -500,6 +516,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Als je hulp nodig hebt met uitzoeken waarom Tor geen verbinding kan krijgen,"
+" stuur dan een e-mail naar help@rt.torproject.org en voeg de relevante delen"
+" van het log bestand toe."
 
 #. type: Plain text
 #: en/tsum.text:203
@@ -507,6 +526,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Hoe een bridge te vinden\n"
+"Om een bridge te gebruiken moet je er eerst één vinden; je kunt naar [bridges.torproject.org](https://bridges.torproject.org/) gaan, of je kunt een email sturen naar bridges@torproject.org. Als je een e-mail stuurt, zorg er dan voor dat je **get bridges** in de body van de e-mail zet. Zonder dit krijg je geen bericht terug. Let op dat je deze e-mail van, of een gmail.com adres, of een yahoo.com adres moet sturen."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -527,6 +548,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Hoe een bridge te gebruiken\n"
+"Wanneer je een aantal bridges hebt om te gebruiken, open het Vidalia configuratiescherm, klik op *Settings*, vervolgens op *Network* en vink *My ISP blocks connections to the Tor network* aan. Vul de bridges in, in het veld daaronder, druk op *OK* en herstart Tor."
 
 #. type: Plain text
 #: en/tsum.text:220
@@ -534,6 +557,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"### Hoe een open proxy te gebruiken\n"
+"Als het gebruiken van een bridge niet werkt, probeer dan Tor in te stellen om een HTTPS of SOCKS proxy te gebruiken om toegang tot het Tor netwerk te krijgen. Dit betekent dat open proxy's veilig gebruikt kunnen worden om verbinding te maken met het Tor netwerk en vervolgens het ongecensureerde internet, wanneer Tor door je lokale netwerk geblokkeerd wordt."
 
 #. type: Plain text
 #: en/tsum.text:223
@@ -581,6 +606,9 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## Veelgestelde vragen Dit onderdeel zal een paar van de meest gestelde "
+"vragen beantwoorden. Als je vraag hier niet genoemd wordt, stuur dan een "
+"e-mail naar help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -588,6 +616,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"### Kan het archief niet uitpakken\n"
+"Als je Windows gebruikt en je kunt het archief niet uitpakken, download en installeer dan [7-Zip](http://www.7-zip.org/)."
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -596,6 +626,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Als je niet in staat bent om 7-Zip te downloaden, probeer dan het bestand te"
+" hernoemen van .z naar .zip en gebruik winzip om het archief uit te pakken. "
+"Voordat je het bestand hernoemt, laat Windows bestandsextensies weergeven:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -606,6 +639,11 @@ msgid ""
 " 3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows XP\n"
+"1. Open *Deze Computer*\n"
+"2. Klik op *Extra* en kies *Mapopties* in het menu\n"
+"3. Klik op het *Weergave* tabblad\n"
+"4. Vink *Extensies voor bekende bestandstypen verbergen* uit en druk op OK"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -616,6 +654,8 @@ msgid ""
 " 3. Click on the *View* tab and look under *Advanced settings*\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows Vista\n"
+"1. Open "
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -633,6 +673,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### Wat te doen met opgedeelde pakketten\n"
+"Wanneer je een opgedeeld pakket aanvraagt is het mogelijk dat de pakketten niet in de juist volgorde binnenkomen. Zorg er voor dat je alle delen ontvangen hebt voordat je ze probeert uit te pakken. Bewaar alle delen in één folder op je computer, pak ze uit en dubbelklik het bestand dat eindigt met \"..split.part01.exe\" om het uitpakproces te starten."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -651,6 +693,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### Vidalia vraagt om een wachtwoord\n"
+"Je zou niet een wachtwoord in hoeven te voeren wanneer je Vidalia opstart. Als je om een wachtwoord gevraagd wordt, is er mogelijk één van de volgende problemen:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -696,6 +740,9 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### Flash werkt niet\n"
+"Om veiligheidsredenen zijn Flash, Java en andere plug-ins momenteel uitgeschakeld voor Tor.\n"
+"Plug-ins functioneren onafhankelijk van Firefox en kunnen activiteiten uitvoeren die je anonimiteit tenietdoen."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -735,6 +782,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"### Ik wil een andere browser gebruiken\n"
+"Om veiligheidsredenen raden we je aan om alleen het internet te gebruiken via Tor door middel van de Tor Browser Bundle. Het is technisch mogelijk om Tor te gebruiken met andere browsers, maar je stelt jezelf dan open voor mogelijke aanvallen."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -742,5 +791,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### Waarom Tor langzaam is.\n"
+"Tor kan soms langzaam zijn dan je normale internet verbinding. Je verkeer wordt tenslotte door verschillende landen gestuurd en soms zelfs door de oceaan rond de wereld!"
 
 
