@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 21:28+0000\n"
+"PO-Revision-Date: 2011-11-06 10:34+0000\n"
 "Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/team/es/)\n"
 "MIME-Version: 1.0\n"
@@ -559,6 +559,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"### Cómo usar un proxy abierto\n"
+"Si el usar un puente no funciona, intente configurar Tor para usar cualquier proxy HTTPS o SOCKS y así obtener acceso a la red Tor. Esto significa que si Tor es bloqueado por su red local, proxies abiertos le pueden dar el acceso a la red Tor y a la red sin censura."
 
 #. type: Plain text
 #: en/tsum.text:223
