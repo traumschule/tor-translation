@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-06 22:44+0000\n"
+"PO-Revision-Date: 2011-11-06 23:14+0000\n"
 "Last-Translator: arpalord <arpalord@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -91,6 +91,10 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"L'image ci-dessus illustre un utilisateur surfant sur différents sites à "
+"travers Tor. Les moniteurs verts représentent les relais du réseau Tor, "
+"tandis que les trois touches représentent les couches de cryptage entre "
+"l'utilisateur et chaque relais."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -124,7 +128,7 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
-"Comment télécharger Tor\n"
+"Comment télécharger Tor ?\n"
 "-------------------\n"
 
 #. type: Plain text
@@ -453,11 +457,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
-"# # # Que faire lorsque Tor ne se connecte pas Certains utilisateurs "
-"remarqueront que Vidalia est bloqué en essayant de se connecter au réseau "
-"Tor. Si cela se produit, assurez-vous que vous êtes connecté à Internet. Si "
-"vous avez besoin de se connecter à un serveur proxy, voir * Comment utiliser"
-" un proxy ouvert * ci-dessous."
+"### Que faire lorsque Tor ne se connecte pas ?\n"
+"Certains utilisateurs remarqueront que Vidalia se bloque en essayant de se connecter au réseau Tor. Si cela se produit, assurez-vous que vous êtes connecté à Internet. Si vous avez besoin de vous connecter à un serveur proxy, voir *Comment utiliser un proxy ouvert ?* ci-dessous."
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -526,6 +527,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Si vous avez besoin d'aide afin de comprendre pourquoi Tor ne peut pas se "
+"connecter, envoyez un email à help@rt.torproject.org et inclure les "
+"informations pertinentes du fichier journal."
 
 #. type: Plain text
 #: en/tsum.text:203
@@ -533,6 +537,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Comment trouver une passerelle ?\n"
+"Pour utiliser une passerelle, vous devrez d'abord en trouver une; vous pouvez parcourir [bridges.torproject.org] (https://bridges.torproject.org/), ou vous pouvez envoyer un courriel à bridges@torproject.org. Si vous envoyez un e-mail, s'il vous plaît assurez-vous que vous écrivez **get bridges** dans le corps de l'email. Sans quoi, vous n'obtiendrez pas de réponse. Notez que vous devez envoyer ce mail soit de gmail.com ou d'une adresse yahoo.com."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -554,6 +560,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Comment utiliser une passerelle ?\n"
+"Une fois que vous avez un ensemble de passerelles à utiliser, ouvrez le panneau de contrôle de Vidalia, cliquez sur *Paramètres*, *Réseau* et cochez la case qui dit *Mon fournisseur d'accès à Internet bloque les connexions au réseau Tor*. Entrez les passerelles dans la boîte ci-dessous, cliquez *OK* et relancez Tor à nouveau."
 
 #. type: Plain text
 #: en/tsum.text:220
@@ -561,6 +569,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"### Comment utiliser un proxy ouvert ?\n"
+"Si vous utilisez une passerelle et que cela ne fonctionne pas, essayez de configurer Tor pour utiliser n'importe quel protocole HTTPS ou proxy SOCKS afin d'accéder au réseau Tor. Cela signifie que si Tor est bloqué par votre réseau local, les serveurs mandataires ouverts peuvent être utilisés de manière sûr pour se connecter au réseau Tor et à l'Internet non censuré."
 
 #. type: Plain text
 #: en/tsum.text:223
@@ -610,6 +620,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## Foire aux questions\n"
+"Cette section répondra à certaines des questions les plus courantes. Si votre question n'est pas mentionnée ici, s'il vous plaît envoyez un email à help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -617,6 +629,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"### Impossible d'extraire l'archive.\n"
+"Si vous utilisez Windows et constatez que vous ne pouvez pas extraire l'archive, téléchargez et installez [7-Zip] (http://www.7-zip.org/)."
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -625,6 +639,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Si vous ne parvenez pas à télécharger 7-Zip, essayez de renommer le fichier "
+".z en .zip et utilisez WinZip pour extraire l'archive. Avant de renommer le "
+"fichier, indiquez à Windows d'afficher les extensions de fichier:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -677,6 +694,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### Que faire avec les paquets coupés ?\n"
+"Quand vous demandez des paquets séparés, les parties peuvent arriver dans le désordre. Vous devez vous assurer que vous les avez tous reçu avant de tenter de les décompresser. Enregistrer les petits paquets dans un répertoire sur votre ordinateur, décompresser les, puis double-cliquez sur le fichier qui se termine par \".. split.part01.exe\" pour commencer l'extraction."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -695,6 +714,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### Vidalia demande un mot de passe.\n"
+"Vous ne devriez pas avoir à entrer un mot de passe lors du démarrage de Vidalia. Si on vous en demande un, vous êtes susceptibles d'être affectées par un des problèmes suivants:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -740,6 +761,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### Flash ne fonctionne pas\n"
+"Pour des raisons de sécurité, Flash, Java et autres plugins sont actuellement désactivés pour Tor. Les plugins fonctionnent indépendamment de Firefox et peuvent engendrer de l'activité sur votre ordinateur qui pourrait compromettre votre anonymat."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -780,6 +803,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"### Je souhaite utiliser un autre navigateur.\n"
+"Pour des raisons de sécurité, nous vous recommandons de ne naviguer sur le web à travers Tor en utilisant exclusivement le navigateur fourni dans le paquet. Il est techniquement possible d'utiliser Tor avec d'autres navigateurs, mais ce faisant, vous vous exposez à des attaques potentielles."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -787,5 +812,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### Pourquoi Tor est lent ?\n"
+"Tor peut parfois être un peu plus lent que votre connexion Internet normale. Après tout, votre trafic est envoyé à travers de nombreux pays différents, parfois à travers les océans du monde entier!"
 
 
