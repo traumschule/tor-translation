@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-06 17:13+0000\n"
+"PO-Revision-Date: 2011-11-06 17:42+0000\n"
 "Last-Translator: knematipour <kaveh.nematipour@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -626,6 +626,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"اگر قادر نیستید 7-Zip را دریافت و نصب کنید، لطفا سعی کنید که پسوند فایل را "
+"از .Z  به .ZIP تغییر داده و با استفاده از Winzip فایل فشرده را باز کنید. قبل"
+" از تغییر نام فایل از ویندوز بخواهید که پسوند فایل را نمایش دهد."
 
 #. type: Plain text
 #: en/tsum.text:254
