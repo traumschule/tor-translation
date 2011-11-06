@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-06 17:42+0000\n"
+"PO-Revision-Date: 2011-11-06 18:11+0000\n"
 "Last-Translator: knematipour <kaveh.nematipour@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -86,6 +86,9 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"تصویر بالا یک کاربر را در حال بازدید از وبسایت های مختلف با استفاده از تور "
+"نشان می دهد. نمایشگر های سبز نشان دهنده تقویت کننده های تور هستند و سه کلید "
+"نشانگر لایه های مختلف رمزنگاری بین هر کاربر و هر تقویت کننده هستند."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -666,6 +669,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### با بسته های تکه تکه شده چه کنیم؟ \n"
+"وقتی که شما درخواست بسته های تکه تکه شده می کنید، ممکن است تکه ها به صورت نامرتب به دست شما برسد. شما باید مطمئن شوید که پیش از این که شروع به باز کردن تکه ها بکنید، همه آنها را دریافت کرده اید. همه تکه ها را در یک دایرکتوری ذخیره کرده و باز کنید، سپس روی فایلی که پسوند ..split.part01.exe دارد دبل کلیک کنید تا خارج شدن فایل ها از حالت فشرده آغاز شود."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -684,6 +689,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"ویدالیا درخواست رمز عبور می کند\n"
+"شما نباید لازم باشد که برای اجرای ویدالیا رمز عبور وارد کنید. اگر از شما درخواست رمز عبور شده احتمالا یکی از اشکالات زیر برای شما پیش آمده:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -736,6 +743,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"نرم افزار فلش کار نمی کند\n"
+"به دلایل امنیتی، فلش، جاوا و سایر افزودنی ها در حال حاضر برای استفاده با تور غیر فعال هستند. این افزودنی ها به طور مجزا از فایرفاکس کار می کنند و ممکن است عملیاتی روی سیستم شما انجام دهند که نا شناس ماندن شما را به مخاطره بیاندازد."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -776,6 +785,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"می خواهم از یک مرورگر دیگر استفاده کنم\n"
+"به دلایل امنیتی ما توصیه می کنیم که از مرورگر موجود در بسته ارسالی استفاده کنید. از نظر تکنیکی ممکن است که شما از مرورگر های دیگر استفاده کنید ولی این کار می تواند باعث آسیب پذیری شما در برابر حملات احتمالی شود."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -783,5 +794,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"چرا تور آهسته است\n"
+"تور بعضا می تواند از اتصال معمولی شما به اینترنت آهسته تر باشد. به هر حال اتصال شما از طریق کشور های مختلف و گاهی بر فراز اقیانوس ها صورت می گیرد."
 
 
