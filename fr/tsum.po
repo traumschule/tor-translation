@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 23:40+0000\n"
+"PO-Revision-Date: 2011-11-05 23:59+0000\n"
 "Last-Translator: arpalord <arpalord@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -51,6 +51,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"S'il vous plaît noter que nous fournissons leur un support sur une base "
+"volontaire, et nous recevons beaucoup d'emails chaque jour. Il n'y a pas "
+"besoin de s'inquiéter si nous ne vous répondons pas immédiatement."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -109,6 +112,10 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Si vous envoyez des informations sensibles, par exemple lorsque vous vous "
+"connectez à un site avec un nom d'utilisateur et mot de passe, assurez-vous "
+"que vous utilisez le protocole HTTPS (par exemple **https**://torproject.org"
+" /, pas **http**//torproject.org /)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -142,6 +149,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Il y a deux façons d'obtenir le logiciel Tor. Vous pouvez soit parcourir le "
+"[site du Projet Tor] (https://www.torproject.org/) et le télécharger ici, ou"
+" vous pouvez utiliser GetTor, le répondeur automatique de messagerie."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -149,6 +159,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Comment obtenir Tor par email\n"
+"Pour recevoir le Package de Navigation Tor en anglais pour Windows, envoyez un email à gettor@torproject.org avec **windows** dans le corps du message. Vous pouvez laisser le sujet vide."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -222,6 +234,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### Tor pour les smartphones\n"
+"Vous pouvez obtenir Tor sur votre appareil Android en installant le paquet nommé *Orbot*. Pour plus d'informations sur le téléchargement et installation d'Orbot, s'il vous plaît, voir le [site du Projet Tor] (https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -230,6 +244,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"Nous avons aussi des paquets expérimentaux pour [Nokia Maemo/N900] "
+"(https://www.torproject.org/docs/N900.html.en) et [Apple iOS] "
+"(http://sid77.slackware.it/iphone/) ."
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -237,6 +254,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"### Comment vérifier que vous avez la bonne version\n"
+"Avant de lancer le Navigateur Tor, vous devriez vous assurer que vous avez la bonne version."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -594,6 +613,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows XP\n"
+"1. Ouvrez le *Poste de travail*\n"
+"2. Cliquez sur *Outils* et choisissez *Options des dossiers...* dans le menu\n"
+"3. Cliquez sur l'onglet *Voir*\n"
+"4. Décochez *Masquer les extensions des types de fichiers connus* et cliquez sur *OK* "
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -604,6 +628,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows Vista\n"
+"1. Ouvrez *Ordinateur*\n"
+"2. Cliquez sur *Organiser* et choisissez *Dossier et les options de recherche* dans le menu\n"
+"3. Cliquez sur l'onglet *Voir*\n"
+"4. Décochez *Masquer les extensions des types de fichiers connus* et cliquez sur *OK* "
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -614,6 +643,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows 7\n"
+"1. Ouvrez *Ordinateur*\n"
+"2. Cliquez sur *Organiser* et choisissez *Dossier et les options de recherche* dans le menu\n"
+"3. Cliquez sur l'onglet *Voir*\n"
+"4. Décochez *Masquer les extensions des types de fichiers connus* et cliquez sur *OK*"
 
 #. type: Plain text
 #: en/tsum.text:273
