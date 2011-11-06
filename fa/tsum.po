@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-06 18:11+0000\n"
+"PO-Revision-Date: 2011-11-06 18:20+0000\n"
 "Last-Translator: knematipour <kaveh.nematipour@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -642,6 +642,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### ویندوز XP\n"
+"1.\tMy Computer را باز کنید.\n"
+"2.\tدر گزینه ها، گزینه Tools و سپس Folder Options را انتخاب کنید.\n"
+"3.\tروی نوار View کلیک کنید\n"
+"4.\tگزینه \"Hide extentions for known file types \" را از حالت فعال خارج کرده و سپس دکمه OK را انتخاب کنید"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -652,6 +657,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"ویندوز ویستا\n"
+"1.\t\"Computer\" را باز کنید.\n"
+"2.\tدر بین گزینه ها، گزینه Organize و سپس گزینه \"Folder and Search Options\" را انتخاب کنید\n"
+"3.\tروی نوار \"View\" کلیک کنید \n"
+"4.\tگزینه \"Hide extentions for known file types \" را از حالت فعال خارج کرده و سپس دکمه OK را انتخاب کنید"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -662,6 +672,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"ویندوز 7\n"
+"1.\t\"Computer\" را باز کنید.\n"
+"2.\tدر بین گزینه ها، گزینه Organize و سپس گزینه \"Folder and Search Options\" را انتخاب کنید\n"
+"3.\tروی نوار \"View\" کلیک کنید \n"
+"4.\tگزینه \"Hide extentions for known file types \" را از حالت فعال خارج کرده و سپس دکمه OK را انتخاب کنید"
 
 #. type: Plain text
 #: en/tsum.text:273
