@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-06 23:14+0000\n"
+"PO-Revision-Date: 2011-11-07 19:28+0000\n"
 "Last-Translator: arpalord <arpalord@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr "Le Manuel Rapide d'Utilisateur\n"
+msgstr "Le Guide Rapide Utilisateur\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -39,10 +39,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
-"Ce manuel utilisateur contient les informations concernant le téléchargement"
-" de Tor, comment l'utiliser, et que faire si Tor ne se connecte pas au "
-"réseau. Si vous ne trouvez pas la réponse à votre question dans ce document,"
-" envoyer un email à help@rt.torproject.org."
+"Ce manuel utilisateur contient les informations pour le téléchargement de "
+"Tor, comment l'utiliser, et que faire si Tor ne se connecte pas au réseau. "
+"Si vous ne trouvez pas la réponse à votre question dans ce document, envoyer"
+" un email à help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -163,7 +163,7 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
-"### Comment obtenir Tor par email\n"
+"### Comment obtenir Tor par email ?\n"
 "Pour recevoir le Package de Navigation Tor en anglais pour Windows, envoyez un email à gettor@torproject.org avec **windows** dans le corps du message. Vous pouvez laisser le sujet vide."
 
 #. type: Plain text
@@ -268,7 +268,7 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
-"### Comment vérifier que vous avez la bonne version\n"
+"### Comment vérifier que vous avez la bonne version ?\n"
 "Avant de lancer le Navigateur Tor, vous devriez vous assurer que vous avez la bonne version."
 
 #. type: Plain text
