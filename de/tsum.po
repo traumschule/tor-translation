@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-08 20:14+0000\n"
+"PO-Revision-Date: 2011-11-08 20:29+0000\n"
 "Last-Translator: freedompenguin <sebastian@urbach.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -187,6 +187,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Note**: Das Tor Browser Bundle für Linux und Mac OS X sind große Datein "
+"die Sie mit Mail Accounts von Gmail, Hotmail oder Yahoo nicht empfangen "
+"können. Sollte dies bei Ihnen der Fall sein dann wenden Sie sich bitte an "
+"help@rt.torproject.org, wir werden Ihenen dann eine Liste mit Mirror Servern"
+" zukommen lassen wo Sie die Software herunterladen können.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -194,6 +199,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### How to get Tor as several small sized packages\n"
+"Es ist möglich das Tor Browser Bundle in mehreren kleinen Paketen zu bekommen anstatt als großes Komplett-Paket. Dies kann dann nützlich sein wenn Sie keine Breit-Band Internet-Verbindung haben oder ihr e-Mail Provider keine großen Datei-Anhänge erlaubt."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -221,6 +228,10 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"Es ist wichtig das Sie das Schlüsselwort *split* in einer eigenen Zeile in "
+"das e-Mail schreiben. Lesen Sie dazu *What to do with split packages* um zu "
+"erfahren wie die Software zu entpacken ist und wie die Software aus den "
+"kleinen Paket wieder zu einem Komplett-Paket zusammengesetzt wird."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -228,6 +239,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"###Tor for smartphones\n"
+"Sie können TOR auf Ihrem Android Gerät installieren. Sie benötigen dafür das Paket *Orbot*. Informationen zum Download und zur Installation erhalten Sie auf der [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: en/tsum.text:93
