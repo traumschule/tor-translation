@@ -6,13 +6,14 @@
 # Christian Sturm <reezer@reezer.org>, 2011.
 #   <eeemsi@googlemail.com>, 2011.
 #   <reezer@reezer.org>, 2011.
+#   <sebastian@urbach.org>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 21:28+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-11-08 19:12+0000\n"
+"Last-Translator: freedompenguin <sebastian@urbach.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -350,6 +351,13 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"Wenn Sie die Signatur verifiziert haben und die Meldung \"Korrekte "
+"Signatur\" erhalten haben dann können Sie mit dem Entpacken des Archivs "
+"fortfahren. Danach sollten Sie ein Verzeichnis mit dem Namen **tor-"
+"browser_en-US** sehen können. Darin befindet sich ein weiteres Verzeichnis "
+"mit der Bezeichnung **Docs** das eine Datei mit dem Namen **changelog** "
+"enthalten sollte. Die Versionsnummer die am Anfang dieser Datei steht sollte"
+" der Version die im Namen der Datei steht entsprechen."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -367,6 +375,12 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Wenn Sie das Tor Browser Bundle starten öffnet sich als erstes die Software "
+"Vidalia und verbindet Sie automatisch mit dem TOR Netzwerk. Danach erhalten "
+"Sie eine Bestätigung im Browser das Sie nun das TOR Netzwerk "
+"verwenden.Dieses wird Ihnen dann angezeigt durch "
+"[https://check.torproject.org/](https://check.torproject.org/). Ab diesem "
+"Moment verwenden Sie das TOR Netzwerk für das browsen im Internet. "
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -393,6 +407,11 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Wenn Ihre normale Internet-Verbindung funktioniert aber TOR nicht in der "
+"Lage sein sollte sich mit dem TOR Netzwerk zu verbinden dann probieren Sie "
+"bitte folgendes: Öffnen Sie die Vidalia Kontroll-Leiste und klicken Sie auf "
+"*Message Log* und wählen dann bitte die Kartei-Karte mit der Bezeichnung "
+"*Advanced* aus. Es ist möglich das TOR sich nicht verbinden kann weil"
 
 #. type: Plain text
 #: en/tsum.text:178
