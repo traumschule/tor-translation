@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-08 19:12+0000\n"
+"PO-Revision-Date: 2011-11-08 19:39+0000\n"
 "Last-Translator: freedompenguin <sebastian@urbach.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -421,6 +421,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**Your system clock is off**: Stellen Sie sicher das Datum und Uhrzeit "
+"richtig eingestellt sind und starten Sie dann TOR erneut. Sie können die "
+"System-Uhr mit Hilfe eines Internet Zeit-Servers einstellen.\n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -431,6 +434,10 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**You are behind a restricitive firewall**: Bitte stellen Sie dafür in TOR "
+"die Verwendung von Port 80 und 443 ein in dem Sie das Vidalia Kontroll-Menü "
+"öffnen und *Settings* sowie *Network* auswählen und dann den Punkt *My "
+"firewall only lets me connect to certain ports* aktivieren.\n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -477,6 +484,11 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Wenn Sie mehr als eine Bridge Adresse einstellen wird dies zu einer "
+"stabilere Verbindung führen für den Fall das einige Bridges nicht erreichbar"
+" sein sollten. Es gibt keine Garantie das die Bridge die Sie heute verwenden"
+" Morgen auch noch funktioniert. Sie sollten sich aus diesem Grund angewöhnen"
+" Ihre Bridge Liste so oft wie möglich zu aktualisieren."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -498,16 +510,20 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Die unten genannten Schritte setzten eine funktionierende TOR/Vidalia "
+"Konfiguration und eine Liste von HTTPS, SOCKS4 oder SOCKS5 Proxies voraus."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Öffnen Sie das Vidalia Kontroll-Menü und klicken Sie auf *Settings*"
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"Klicken Sie jetzt auf *Network* und wählen Sie dort *I use a proxy to access"
+" the Internet* aus."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -523,6 +539,11 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. Geben Sie in der Zeile *Address* die open proxy Adresse ein. Dies kann ein Domain-Name oder eine IP-Adresse sein.\n"
+"4: Tragen Sie den Port des Proxys ein.\n"
+"5. Generell benötigen Sie keinen Benutzernamen und Passwort. Sollten Sie diese doch benötigen dann tragen Sie die Informationen bitte in die entsprechenden Felder ein.\n"
+"6. Wählen Sie jetzt den *Type* des Proxys aus den Sie benutzen, sie können zwischen HTTP/HTTPS, SOCKS4 und SOCKS5 wählen.\n"
+"7. Drücken Sie den *OK* Knopf. Vidalias und TOR sind nun konfiguriert und sollten in der Lage sein das TOR Netzwerk über den Proxy erreichen zu können.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -611,6 +632,8 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**You are already running Vidalis and TOR**:\n"
+"Dies kann zum Beispiel vorkommen wenn Sie bereits das Vidalia Bundle installiert haben und jetzt versuchen das TOR Broser Bundle auszuführen. In diesem Fall müssen Sie die alte Vidalia und TOR Software beenden bevor Sie die neue verwenden können.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
