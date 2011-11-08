@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-08 19:39+0000\n"
+"PO-Revision-Date: 2011-11-08 20:14+0000\n"
 "Last-Translator: freedompenguin <sebastian@urbach.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# The Sort User Manual\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -34,6 +34,11 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Die Benutzer-Anleitung enthält Informationen wie die TOR Software "
+"heruntergeladen werden kann, wie sie zu benutzen ist und was zu tun ist wenn"
+" sich TOR nicht mit dem Netzwerk verbinden kann. Wenn Sie die benötigten "
+"Informationen dort nicht finden können dann senden Sie bitte ein e-Mail an "
+"help@rt.torproject.org"
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -42,6 +47,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Bitte beachten Sie das wir den Support ausschließlich mit Hilfe von "
+"Freiwilligen leisten und wir sehr viele Anfragen pro Tag bekommen. Es kann "
+"durchaus einige Zeit dauern bis wir Ihre Anfrage bearbeiten können."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -98,6 +106,10 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Sollten Sie sensitive Informationen übermitteln wollen wie beispielsweise "
+"den Login Zeitpunkt auf einer Webseite mit Benutzer-Namen und Passwort dann "
+"stellen Sie bitte vorher sicher das Sie dies über eine HTTPS Verbindung tun "
+"(z.B. **https**://torproject.org/, nicht **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -131,6 +143,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Es gibt 2 Möglichkeiten an die TOR Software zu kommen. Sie können diese auf "
+"der [Tor Project website](https://www.torproject.org/) herunterladen oder "
+"Sie können GetTor benutzen, den automatischen e-Mail Beantworter."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -138,6 +153,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Hot to get TOR via email\n"
+"Um das englische Tor Browser Bundle für Windows zu bekommen senden Sie bitte eine e-Mail an gettor@torproject.org mit dem Text **windows** im Text-Feld. Das Betreff-Feld können Sie leer lassen."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -184,6 +201,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Schicken Sie ein e-Mail an gettor@torproject.org mit den folgenden Wörtern "
+"im Text-Feld:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -646,6 +665,8 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalias crashed, but left TOR running**:\n"
+"Wenn sich das Fenster zur Eingabe eines Kontroll-Passwortes öffnet und einen Reset Button hat dann können Sie diesen drücken damit Vidalia dann TOR mit einem neuen zufälligen Passwort gestartet. Sollte kein Reset Button zu sehen sein oder Vidalia nicht in der Lage sein TOR neu zu starten dann müssen Sie manuell den Prozess in ihrem Taskmanager beenden. Danach können Sie mit Vidalia TOR neu starten.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -672,6 +693,10 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Die meisten YouTube Videos arbeiten mit HTML5, diese können Sie sich über "
+"das TOR Netzwerk ansehen. Sie müssen sich dafür beim [HTML5 "
+"trial](https://www.youtube.com/html5) auf der YouTube Webseite anmelden "
+"bevor Sie den HTML5 Player benutzen können."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -680,6 +705,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Bitte beachten Sie das der Browser sich nicht an die Anmeldung beim HTML5 "
+"Trial erinnern wird sobald Sie ihn schließen so das Sie beim nächsten Start "
+"sich wieder erneut beim HTML5 Trial anmelden müssen."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -687,6 +715,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Bitte lesen Sie die [Torbutton FAQ](https://www.torproject.org/torbutton"
+"/torbutton-faq.html#noflash) für mehr Informationen."
 
 #. type: Plain text
 #: en/tsum.text:321
