@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-09 20:13+0000\n"
+"PO-Revision-Date: 2011-11-09 20:20+0000\n"
 "Last-Translator: freedompenguin <sebastian@urbach.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -655,6 +655,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### Windows XP\n"
+"1. Öffnen Sie *My Computer*\n"
+"2. Klicken Sie auf *Tools* und wählen Sie dann *Folder Options...* im Menü aus.\n"
+"3. Klicken Sie auf die *View* Kartei-Karte.\n"
+"4. Deaktivieren Sie *Hide extensions for known file types* und drücken Sie auf *OK*."
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -665,6 +670,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### Windows Vista\n"
+"1. Öffnen Sie *Computer*\n"
+"2. Klicken Sie auf *Organize* und wählen Sie *Folder and search options* im Menü aus.\n"
+"3. Klicken Sie auf die *View* Kartei-Karte.\n"
+"4. Deaktiieren Sie *Hide extensions for known file types* und klicken Sie auf *OK*."
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -675,6 +685,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### Windows 7\n"
+"1. Öffnen Sie *Computer*\n"
+"2. Klicken Sie auf *Organize* und wählen Sie *Folder and search options* im Menü aus.\n"
+"3. Klicken Sie auf die *View* Kartei-Karte\n"
+"4. Deaktivieren Sie *Hide extensions for known file types* und klicken Sie auf *OK*."
 
 #. type: Plain text
 #: en/tsum.text:273
