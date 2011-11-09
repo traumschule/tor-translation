@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-08 20:29+0000\n"
+"PO-Revision-Date: 2011-11-09 19:14+0000\n"
 "Last-Translator: freedompenguin <sebastian@urbach.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -316,6 +316,8 @@ msgstr ""
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --keyserver "
+"hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
@@ -329,6 +331,8 @@ msgstr ""
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
+"0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
@@ -346,6 +350,12 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
