@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-10 13:13+0000\n"
-"Last-Translator: Gioyik <gioyik@gmail.com>\n"
+"PO-Revision-Date: 2011-11-10 13:31+0000\n"
+"Last-Translator: ohrer <ohrerblogger@gmail.com>\n"
 "Language-Team: Spanish (Castilian) (http://www.transifex.net/projects/p/torproject/team/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -91,9 +91,9 @@ msgid ""
 " represent the layers of encryption between the user and each relay."
 msgstr ""
 "La imagen de arriba muestra a un usuario navegando en diferentes sitios web "
-"en Tor. Los monitores de color verde representan los relés de la red Tor, "
-"mientras que las tres llaves representan las capas de cifrado entre el "
-"usuario y el relé de cada uno."
+"a través de Tor. Los monitores de color verde representan los relés de la "
+"red Tor, mientras que las tres llaves representan las capas de cifrado entre"
+" el usuario y el relé de cada uno."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -634,9 +634,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
-"Si es imposible descargar 7-Zip, trata de renombrar el archivo de .z a .zip "
-"y use winzip para extraer el archivo. Antes de cambiar el nombre del "
-"archivo, haz que Windows te muestre las extensiones del archivo:"
+"Si no es posible descargar 7-Zip, trate de renombrar el archivo de .z a .zip"
+" y use winzip para extraer el archivo. Antes de cambiar el nombre del "
+"archivo, haga que Windows le muestre las extensiones del archivo:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -662,6 +662,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"# # # # Windows 7 \n"
+"1. Abrir PC\n"
+"2. Haga clic en Organizar y elegir opciones de carpeta y búsqueda en el menú \n"
+"3. Haga clic en la pestaña Ver \n"
+"4. Desmarque Ocultar extensiones para los tipos de archivo conocidos y haga clic en Aceptar"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -672,10 +677,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
-"# # # # Windows 7 1. Abrir PC * * 2. Haga clic en Organizar * * y elegir la "
-"carpeta * y * opciones de búsqueda en el menú 3. Haga clic en la pestaña * "
-"Ver * 4. * Desmarque Ocultar extensiones para los tipos de archivo conocidos"
-" y haga clic en * * * Aceptar"
+"# # # # Windows 7 \n"
+"1. Abrir PC\n"
+"2. Haga clic en Organizar y elegir opciones de carpeta y búsqueda en el menú \n"
+"3. Haga clic en la pestaña Ver \n"
+"4. Desmarque Ocultar extensiones para los tipos de archivo conocidos y haga clic en Aceptar"
 
 #. type: Plain text
 #: en/tsum.text:273
@@ -683,8 +689,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
-"# # # ¿Qué hacer con los paquetes a dividir?\n"
-"Cuando usted quiere dividir un paquete, las partes pueden estar sin ningun orden. Usted necesita asegurarse de que posea todas las partes del archivo antes de intentar desempaquetar el archivos. Guardar todas las partes en un directorio en su computadora, y hacer doble clic en el archivo que termina en \".. split.part01.exe\" para iniciar el proceso de descomprimido."
+"### ¿Qué hacer con los paquetes divididos?\n"
+"Cuando usted descargue paquetes divididos, las partes pueden llegar sin orden. Usted debe asegurarse de tener todas las partes del archivo antes de intentar desempaquetarlo. Guarde todas las partes en un directorio en su ordenador, y haga doble clic en el archivo terminado en \".. split.part01.exe\" para iniciar el proceso de extracción."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -703,8 +709,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
-"# # # Vidalia pregunta por una contraseña\n"
-"Usted no debería tener que introducir una contraseña al iniciar Vidalia. Si se lo pide, lo más probable es afectado por uno de los siguientes problemas:"
+"### Vidalia pregunta por una contraseña\n"
+"Usted no debería tener que introducir una contraseña al iniciar Vidalia. Si se lo pide, lo más probable es que sufra alguno de estos problemas:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -750,8 +756,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
-"# # # El flash no funciona\n"
-"Por razones de seguridad, Flash, Java y otros plugins están inhabilitados para Tor. Los plugins funcionan independientemente de Firefox y pueden realizar la actividad en su equipo los cuales arruinarian su anonimato."
+"### El flash no funciona\n"
+"Por razones de seguridad, Flash, Java y otros plugins están inhabilitados para Tor. Los plugins funcionan independientemente de Firefox y pueden realizar alguna actividad en su equipo que arruinaría su anonimato."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -791,8 +797,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
-"# # # ¿Desea utilizar otro navegador? \n"
-"Por razones de seguridad, le recomendamos sólo navegar por la web a través de Tor con el Tor Browser Bundle. Técnicamente es posible usar Tor con otros navegadores, pero al hacerlo te abres a los ataques potenciales."
+"### ¿Desea utilizar otro navegador? \n"
+"Por razones de seguridad, le recomendamos sólo navegar por la web a través de Tor con el Tor Browser Bundle. Técnicamente es posible usar Tor con otros navegadores, pero al hacerlo será vulnerable a posibles ataques."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -801,6 +807,6 @@ msgid ""
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
 "# # # ¿Por qué Tor es lento? \n"
-"Tor a veces puede ser un poco más lento que su conexión a Internet normal. Después de todo, el tráfico se envía a través de muchos países diferentes, a veces a través de océanos de todo el mundo!"
+"Tor a veces puede ser un poco más lento que su conexión a Internet habitual. Después de todo, el tráfico se envía a través de muchos países diferentes, a veces a través de océanos de todo el mundo!"
 
 
