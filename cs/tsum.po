@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 21:28+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-11-13 18:14+0000\n"
+"Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# Krátký uživatelský manuál\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -31,6 +31,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Tento uživatelský manuál obsahuje informace o tom jak stáhnout Tor, jak ho "
+"použít, a co dělat v případě, že se Toru nepodaří se připojit k síti. Pokud "
+"v tomto dokumentu nenaleznete odpověď na svůj dotaz, pošlete email na "
+"help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,6 +43,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Vemte prosím v potaz, že naše podpora je čistě dobrovolná a dostáváme "
+"každodenně velké množství emailů. Není potřeba se strachovat, pokud vám "
+"neodpovíme obratem."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -95,6 +102,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Pokud přenášíte citlivé informace, například při přihlašování se na stránku "
+"s uživatelským jménem a heslem, ujistěte se, že používáte HTTPS (například "
+"**https**://torproject.org/, ne **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -128,6 +138,7 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Jsou dva různé způsoby jak se dostat k softwaru Tor. Můžete buď přejít "
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -180,6 +191,7 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Pošlete email na gettor@torproject.org s následujícími slovy v těle emailu:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -188,6 +200,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -504,16 +518,20 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Následující kroky předpokládají, že máte funkční Tor/Vidalia konfiguraci, a "
+"že jste našli seznam HTTPS, SOCKS4, či SOCKS5 proxin."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Otevřte kontrolní panel Vidalii a klikněte na *Settings* (nastavení)."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"Klikněte na *Network* (síť). Vyberte *I want to use a proxy to access the "
+"Internet* (Chci používat proxy pro přístup k internetu)."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -529,6 +547,11 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. Na *Address* řádek vepište adresu otevřené proxy. To může být hostname nebo IP adresa.\n"
+"4. Zadejte jméno pro proxy.\n"
+"5. Většinou není potřeba zadávat uživatelské jméno a heslo. Potřebujete-li, informace vyplňte.\n"
+"6. Vyberte *Typ* proxy který používáte, HTTP/HTTPS, SOCKS4, nebo SOCKS5.\n"
+"7. Stiskněte tlačítko *OK*. Vidalia a Tor jsou teď nakonfigurovaní pro použití proxy na přístup ke zbytku sítě Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -596,6 +619,9 @@ msgid ""
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
 msgstr ""
+"Až se dokončí rozbalování, měli byste vidět nově vytvořený \".exe\" soubor "
+"ve stejném adresáři. Tento soubor otevřte a počkejte než se spustí Tor "
+"Browser Bundle."
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -614,6 +640,8 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"** Již používáte Vidalia a Tor **: \n"
+"Tato situace může nastat pokud jste nainstalovali balíček Vidalia a nyní se snažíte spustit Tor Browser Bundle. V tom případě musíte nejprve starou Vidalii a Tor zavřít.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -626,6 +654,8 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia zkolabovala, ale nechala Tor puštěný**:\n"
+"Pokud má dialogové okno ptající se na ovládací heslo tlačítko restart, můžete na něj kliknout a Vidalia Tor restartuje s novým náhodným ovládacím heslem. Pokud tlačítko reset nevidíte, nebo pokud se Vidalii nepodaří Tor restartovat, jděte do správce procesů a ukončete proces Toru. Poté použijte Vidalia k restartování Toru.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -634,6 +664,9 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"Pro více informací navštivte [často kladené "
+"dotazy](https://torproject.org/docs/faq.html#VidaliaPassword) na stránce Tor"
+" Projektu."
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -649,6 +682,9 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Většina YouTube videí fungují s HTML5 a je možné je skrz Tor zhlédnout. "
+"Musíte se přidat do [HTML5 trialu](https://www.youtube.com/html5) na stránce"
+" YouTube než budete moci HTML5 přehrávač použít."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -657,6 +693,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Pamatujte, že si prohlížeč nastavení trialu nebude po vypnutí pamatovat, "
+"takže se budete muset do trialu opět přidat až příště spustíte Tor Browser "
+"Bundle."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -664,6 +703,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Pro více informací navštivte [Torbutton "
+"FAQ](https://www.torproject.org/torbutton/torbutton-faq.html#noflash)."
 
 #. type: Plain text
 #: en/tsum.text:321
