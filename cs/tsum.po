@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-13 18:56+0000\n"
+"PO-Revision-Date: 2011-11-13 19:19+0000\n"
 "Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,6 +82,9 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"Tento obrázek ilustruje uživatele brouzdajícího po internetu přes Tor. "
+"Zelené monitory reprezentují relaye v síti Tor, zatímco tři klíče "
+"reprezentují vrstvy zašifrování mezi uživatelem a každým relayem."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -627,6 +630,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### Windows XP\n"
+"1. Otevřte *Tento počítač*\n"
+"2. Klikněte na *Nástroje* a vyberte *Možnosti složky...* v menu\n"
+"3. Klikněte na tab *Zobrazení*\n"
+"4. Odškrtněte *Skrýt příponu souborů známých typů* a klikněte na *OK*"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -637,6 +645,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### Windows Vista\n"
+"1. Otevřte *Počítač*\n"
+"2. Klikněte na *Organizovat* a vyberte *Nastavení složky a vyhledávání* v menu\n"
+"3. Klikněte na tab *Zobrazení*\n"
+"4. Odškrtněte *Skrýt příponu souborů známých typů* a klikněte na *OK*"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -647,6 +660,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"### Windows 7\n"
+"1. Otevřte *Počítač*\n"
+"2. Klikněte na *Organizovat* a vyberte *Nastavení složky a vyhledávání* v menu\n"
+"3. Klikněte na tab *Zobrazení*\n"
+"4. Odškrtněte *Skrýt příponu souborů známých typů* a klikněte na *OK*"
 
 #. type: Plain text
 #: en/tsum.text:273
@@ -770,5 +788,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### Proč je Tor pomalý\n"
+"Tor může občas být o dost pomalejší než vaše normální Internetové připojení. Konec konců jsou všechny vaše data přenášeny skrz mnoho různých zemí, někdy přes oceány a kolem světa!"
 
 
