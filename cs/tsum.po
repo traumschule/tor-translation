@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-13 18:44+0000\n"
+"PO-Revision-Date: 2011-11-13 18:56+0000\n"
 "Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -614,6 +614,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Pokud nemůžete stáhnout 7-Zip, zkuste přejmenovat soubor z .z na .zip a "
+"použít winzip k rozbalení balíčku. Před přejmenováním souboru řekněte "
+"Windows, aby zobrazoval přípony souborů:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -651,6 +654,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### Co dělat s rozděleným balíčkem\n"
+"Když si vyžádáte rozdělený balíček, části mohou přijít ve špatném pořadí. Musíte se ujistit, že vám přišly všechny části, než se je pokusíte rozbalit. Uložte všechny části do jedné složky na vašem počítači, rozzipujte je a dvakrát klikněte na soubor který končí na \"..split.part01.exe\" pro započatí rozbalovacího procesu."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -669,6 +674,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### Vidalia se ptá pro heslo\n"
+"Při spouštění Vidalii by nemělo být potřeba zadávat heslo. Pokud jste o něj žádáni, pravděpodobně jste postižení jedním z následujících problémů:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -714,6 +721,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### Flash nefunguje\n"
+"Z bezpečnostních důvodů jsou Flash, Java a jiné pluginy v současnosti pod Torem vypnuté. Pluginy běhají nezávisle na Firefoxu a mohou provádět aktivity na vašem počítači které zmaří vaší anonymitu."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -752,6 +761,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"### Chci používat jiný prohlížeč\n"
+"Z bezpečnostních důvodů doporučujeme brouzdání internetu skrz Tor jen pomocí Tor Browser Bundle. Teoreticky je možné používat Tor s jinými prohlížeči, ale mohli byste se tím otevřít pro potencionální útoky."
 
 #. type: Plain text
 #: en/tsum.text:325
