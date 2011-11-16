@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 11:04+0000\n"
+"PO-Revision-Date: 2011-11-16 11:43+0000\n"
 "Last-Translator: 0xAli <protectednet@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,6 +35,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"دليل المستخدم هذا يحتوي على معلومات عن كيفية تحميل برنامج تور, وكيفية "
+"إستخدامه, وماذا يجب أن تفعل إذا كان تور لا يستطيع الإتصال بالشبكة, إذا كنت "
+"لا تجد إجابة سؤالك في هذه الصفحة, من فضلك ارسل إيميل على "
+"help@rt.torproject.org "
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -175,6 +179,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"ارسل بريد إلكتروني لـ gettor@torproject.org ويجب أن تكون الكلمات التالية في "
+"نص الرسالة:"
 
 #. type: Plain text
 #: en/tsum.text:79
