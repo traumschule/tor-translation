@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 22:11+0000\n"
+"PO-Revision-Date: 2011-11-16 22:44+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -204,9 +204,7 @@ msgid ""
 "It is important that you include the keyword *split* on its own line. See "
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
-msgstr ""
-"请紧记要把关键词 *split* 独立出一行。请参看 *What to do with split packages* "
-"以了解关于如何解压缩与重组小尺寸文件包的信息。"
+msgstr "请紧记要把关键词 *split* 独立出一行。请参看 *如何处理拆分了的软件包* 以了解关于如何解压缩与重组小尺寸文件包的信息。"
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -499,7 +497,9 @@ msgstr ""
 msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
-msgstr "### 如何使用代理服务器"
+msgstr ""
+"### 如何使用代理服务器\n"
+"如果使用网桥无法凑效，请尝试配置 Tor 去使用任何 HTTPS 或 SOCKS 代理以取得与 Tor 网络的连接。这意味着即使 Tor 已被你的本地网络所阻挡，你也可以安全地透过代理服务器连接到 Tor 网络，去访问一个未经审查的互联网。"
 
 #. type: Plain text
 #: en/tsum.text:223
@@ -544,6 +544,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## 常见问题\n"
+"本章会回答一些最普遍的问题。如果你的问题没有在此处提及，请发送电子邮件至 help@rt.torproject.org 。"
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -551,6 +553,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"### 无法解压缩\n"
+"如果你正使用 Windows 且无法把压缩包解压缩，请下载并安装 [7-Zip](http://www.7-zip.org/) 。"
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -559,6 +563,7 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"如果你无法下载 7-Zip，尝试把 .z 文件重命名为 .zip 然后使用 WinZip 来解压。在改名之前，先让 Windows 显示文件扩展名："
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -596,6 +601,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### 如何处理拆分了的软件包\n"
+"当你索要了拆分的软件包，你有可能不按次序地收到各个部分。在尝试拆包之前，你需要确保你已收到了所有部分。把所有部分保存到电脑里的一个文件夹中，把它们解压缩，双击以 ..split.part01.exe 结尾的文件以开始拆包。"
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -611,6 +618,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### Vidalia 要求输入密码\n"
+"在启动 Vidalia 时你不应该需要输入密码。如果被提示输入，你有可能遇到了以下其中一个问题："
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -659,6 +668,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### Flash 无法工作\n"
+"基于安全理由，Flash、Java 和其他插件目前是禁用于 Tor 的。独立运作于 Firefox 或者可在你电脑中进行活动的插件，会破坏你的隐匿。"
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -693,6 +704,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"### 我想使用其它浏览器\n"
+"基于安全理由，我们推荐你仅适用 Tor 浏览器软件包来浏览互联网。Tor 在技术上是和其它浏览器一起使用的，但这样做你就迎向了潜在的攻击。"
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -700,5 +713,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### 为什么 Tor 这么慢\n"
+"Tor 有时候会比你正常的互联网连接慢一些。毕竟，你的通讯是透过许多不同国家，跨洋过海的传送。"
 
 
