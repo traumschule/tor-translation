@@ -7,7 +7,6 @@
 #   <damnlinux@yahoo.com>, 2011.
 # Mohamed Elgindy <melgindy@gmail.com>, 2011.
 # Mohammed Babiker <sudanhacker@hotmail.com>, 2011.
-#   <protectednet@hotmail.com>, 2011.
 #   <SoEnLion@gmail.com>, 2011.
 msgid ""
 msgstr ""
