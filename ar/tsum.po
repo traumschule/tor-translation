@@ -6,14 +6,15 @@
 #   <damnlinux@yahoo.com>, 2011.
 # Mohamed Elgindy <melgindy@gmail.com>, 2011.
 # Mohammed Babiker <sudanhacker@hotmail.com>, 2011.
+#   <protectednet@hotmail.com>, 2011.
 #   <SoEnLion@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-07 21:43+0000\n"
-"Last-Translator: melgindy <melgindy@gmail.com>\n"
+"PO-Revision-Date: 2011-11-16 11:04+0000\n"
+"Last-Translator: 0xAli <protectednet@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# دليل المستخدم المختصر\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -60,7 +61,7 @@ msgid ""
 " traffic is sent out onto the public Internet."
 msgstr ""
 "التور شبكة تتكون من قنوات إفتراضية تسمح لك بتحسين خصوصيتك وأمنك في الإنترنت "
-". يعمل طور عن طريق إرسال بياناتك عبر ثلاثة مخدمات إفتراضية (تعرف أيضاً بإسم "
+". يعمل طور عن طريق إرسال بياناتك عبر ثلاثة خوادم إفتراضية (تعرف أيضاً بإسم "
 "المرحلات) توجد داخل شبكة تور وذلك قبل أن تصل البيانات إلي شبكة الإنترنت "
 "العامة ."
 
