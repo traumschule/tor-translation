@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 23:14+0000\n"
+"PO-Revision-Date: 2011-11-16 23:16+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -721,7 +721,7 @@ msgid ""
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
 "### 我想使用其它浏览器\n"
-"基于安全理由，我们推荐你仅适用 Tor 浏览器软件包来浏览互联网。Tor 在技术上是和其它浏览器一起使用的，但这样做你就迎向了潜在的攻击。"
+"基于安全理由，我们推荐你仅使用 Tor 浏览器软件包来浏览互联网。Tor 在技术上是可以和其它浏览器一起使用的，但这样做你就迎向了潜在的攻击。"
 
 #. type: Plain text
 #: en/tsum.text:325
