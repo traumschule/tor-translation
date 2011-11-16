@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 20:37+0000\n"
+"PO-Revision-Date: 2011-11-16 21:14+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -384,8 +384,8 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
-"如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤；打开 Vidalia 的设置面板，点击 *Message Log* 并选择"
-" *Advanced* 标签页。Tor 无法连接到网络也许是因为："
+"如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤；打开 Vidalia 的设置面板，点击 *消息日志* 并选择 *高级* "
+"标签页。Tor 无法连接到网络也许是因为："
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -405,9 +405,8 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
-"**你受限于防火墙软件**：让 Tor 仅尝试 80 和 443 端口，打开 Vidalia 控制面板，点击 "
-"*Settings*，*Network*，然后选中 *My firewall only lets me connect to certain "
-"ports* 的选项框。\n"
+"**你受限于防火墙软件**：让 Tor 仅尝试 80 和 443 端口，打开 Vidalia 控制面板，点击 *设置*，*网络*，然后选中 "
+"*我的防火墙只允许我连接到指定端口* 的选项框。\n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -471,17 +470,17 @@ msgstr ""
 msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
-msgstr ""
+msgstr "以下步骤假设你已有一套配置正确的 Tor/Vidalia ，并找到了一份 HTTPS、SOCKS4 或 SOCKS5 代理服务器的列表。"
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "打开 Vidalia 控制面板，点击 *设置*。"
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
-msgstr ""
+msgstr "点击 *网络*，选择 *我使用代理服务器连接到网络*。"
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -497,6 +496,11 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. 在 *Address* 一栏里填上代理服务器的地址，这可以是主机名或IP地址。\n"
+"4. 填上代理服务器的端口。\n"
+"5. 一般来说，你并不需要用户名和密码。如果需要，则也相应地填上。\n"
+"6. 选择你在使用的代理服务器的 *Type*，可以是 HTTP/HTTPS，SOCKS4 或 SOCKS5。\n"
+"7. 点击 *OK* 按钮。Vidalia 和 Tor 现已成功配置为使用代理服务器连接到 Tor 网络。\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -582,6 +586,9 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**Vidalia 和 Tor 已在运行**：\n"
+"举个例子，假如你已安装过 Vidalia 软件包而你现在正尝试运行 Tor 浏览器软件包，这种情况就有可能发生。\n"
+"这样的话你将需要先关闭旧版的 Vidalia 和 Tor。\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -594,6 +601,11 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia 崩溃了，但 Tor 仍在运行**：\n"
+"如果提示输入控制密码的对话框里有一个“重置”按钮，\n"
+"你可以点击该按钮，Vidalia 会以一个新的随机控制密码重启 Tor。\n"
+"如果你没有看到“重置”按钮，或者 Vidalia 无法重启 Tor，\n"
+"请前往你的进程或任务管理器，终止 Tor 的进程。然后再用 Vidalia 来重启 Tor。\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -602,6 +614,8 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"要了解更多，请参阅 Tor Project 网站上的 "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword)。"
 
 #. type: Plain text
 #: en/tsum.text:303
