@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 22:44+0000\n"
+"PO-Revision-Date: 2011-11-16 23:14+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgid ""
 "Please note that we are providing support on a voluntary basis, and we get a"
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
-msgstr "请注意，我们是以志愿为基础提供支持，我们每天都受到大量电子邮件。如果我们没有即时回复，请不要担心。"
+msgstr "请注意，我们是以志愿为基础提供支持，我们每天都收到大量电子邮件。如果我们没有即时回复，请不要担心。"
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -78,6 +78,7 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"上图描绘了一个用户通过 Tor 浏览不同的网站。绿色的显示器代表着 Tor 网络里的中继服务器，三把钥匙则代表该用户与每个中继之间的加密层。"
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -169,7 +170,7 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
-"**注意**：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，你将无法通过 Gmail、Hotmail 或者 雅虎有奖获取这些软件包。\n"
+"**注意**：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，你无法通过 Gmail、Hotmail 或者 雅虎邮箱获取这些软件包。\n"
 "如果你无法获取你想要的软件包，请发送邮件至 help@rt.torproject.org ，我们会给你一个网站镜像列表。\n"
 
 #. type: Plain text
@@ -178,7 +179,7 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
-"#### 如何以几个小尺寸文件包的形式获取 Tor\n"
+"#### 如何以若干个小尺寸文件包的形式获取 Tor\n"
 "你也可以要求以若干个小尺寸文件包，而非一个大文件包的形式索要 Windows 版本的 Tor 浏览器软件包。当你没有很大带宽可用，或者你的电邮提供商不允许你接收大附件的时候，这会很有帮助。"
 
 #. type: Plain text
@@ -186,7 +187,7 @@ msgstr ""
 msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
-msgstr "以以下的单词为正文内容发送一封电子邮件到 gettor@torproject.org ："
+msgstr "把以下的单词作为正文内容发送一封电子邮件至 gettor@torproject.org ："
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -204,7 +205,7 @@ msgid ""
 "It is important that you include the keyword *split* on its own line. See "
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
-msgstr "请紧记要把关键词 *split* 独立出一行。请参看 *如何处理拆分了的软件包* 以了解关于如何解压缩与重组小尺寸文件包的信息。"
+msgstr "请紧记要把关键词 *split* 独立出一行。请参阅 *如何处理拆分了的软件包* 以了解关于如何解压缩与重组小尺寸文件包的信息。"
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -223,7 +224,7 @@ msgid ""
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
 "我们也有适用于 [Nokia Maemo/N900](https://www.torproject.org/docs/N900.html.en) 和 "
-"[Apple iOS](http://sid77.slackware.it/iphone/) 的试验软件包。"
+"[Apple iOS](http://sid77.slackware.it/iphone/) 的试验性软件包。"
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -349,7 +350,7 @@ msgid ""
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
 "输出的结果应为 *\"Good signature\"*。若是 Bad signature "
-"则意味着该文件被篡改过。如果你看见一个坏的签名，请把你在哪里下载到该软件包、你验证签名的过程、以及 GunPG 的输出结果一并以电邮发送到 "
+"则意味着该文件被篡改过。如果你看见一个坏的签名，请把你在哪里下载到该软件包、你验证签名的过程、以及 GunPG 的输出结果一并以电子邮件发送到 "
 "help@rt.torproject.org。"
 
 #. type: Plain text
@@ -394,7 +395,7 @@ msgstr ""
 msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
-msgstr "*请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这至关重要。*\n"
+msgstr "*请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这点至关重要。*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -403,7 +404,7 @@ msgid ""
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
 "### 当 Tor 无法连接时怎么办\n"
-"有些用户会遇到 Vidalia 在尝试连接到 Tor 网络时卡住不动的情况。遇到这种情况，请确保你已连接到互联网。如果你需要通过代理服务器连接，请参看下面的 *“如何使用代理服务器”*。"
+"有些用户会遇到 Vidalia 在尝试连接到 Tor 网络时卡住不动的情况。遇到这种情况，请确保你已连接到互联网。如果你需要通过代理服务器连接，请参阅下面的 *“如何使用代理服务器”*。"
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -413,7 +414,7 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
-"如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤；打开 Vidalia 的设置面板，点击 *消息日志* 并选择 *高级* "
+"如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤：打开 Vidalia 的控制面板，点击 *消息日志* 并选择 *高级* "
 "标签页。Tor 无法连接到网络也许是因为："
 
 #. type: Plain text
@@ -423,7 +424,7 @@ msgid ""
 "**Your system clock is off**: Make sure that the date and time on your\n"
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
-msgstr "**你的系统时钟不准确**：请确保你的系统中的日期与时间正确，然后重启 Tor。你也许需要把系统时钟与某台网络时间服务器进行同步。\n"
+msgstr "**你的系统时钟不准确**：请确保你系统中的日期和时间正确，然后重启 Tor。你也许需要把系统时钟与某台网络时间服务器进行同步。\n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -471,7 +472,7 @@ msgid ""
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
 "### 如何寻找一个网桥\n"
-"要使用网桥，你首先需要找一个。你可以浏览 [bridges.torproject.org](https://bridges.torproject.org/) ，或者发送电子邮件到 bridge@torproject.org 。如果你发送电子邮件，请确保在电子邮件的正文区域内写上 **get bridges**。否则你将得不到回复。请注意你只能使用 gmail.com 或 yahoo.com 邮箱来发送此邮件。"
+"要使用网桥，你首先需要找一个。你可以浏览 [bridges.torproject.org](https://bridges.torproject.org/) ，或者发送电子邮件到 bridge@torproject.org 。如果发送电子邮件，请你确保在电子邮件的正文区域内写上 **get bridges**。否则你将得不到回复。请注意你只能使用 gmail.com 或 yahoo.com 邮箱来发送此邮件。"
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -532,10 +533,10 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
-"3. 在 *Address* 一栏里填上代理服务器的地址，这可以是主机名或IP地址。\n"
+"3. 在 *地址* 一栏里填上代理服务器的地址，这可以是主机名或IP地址。\n"
 "4. 填上代理服务器的端口。\n"
-"5. 一般来说，你并不需要用户名和密码。如果需要，则也相应地填上。\n"
-"6. 选择你在使用的代理服务器的 *Type*，可以是 HTTP/HTTPS，SOCKS4 或 SOCKS5。\n"
+"5. 一般来说，你并不需要用户名和密码。如果需要，则也相应的填上。\n"
+"6. 选择你在使用的代理服务器的 *类型*，可以是 HTTP/HTTPS，SOCKS4 或 SOCKS5。\n"
 "7. 点击 *确定* 按钮。Vidalia 和 Tor 现已成功配置为使用代理服务器连接到 Tor 网络。\n"
 
 #. type: Plain text
@@ -545,7 +546,7 @@ msgid ""
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
 "## 常见问题\n"
-"本章会回答一些最普遍的问题。如果你的问题没有在此处提及，请发送电子邮件至 help@rt.torproject.org 。"
+"本节会回答一些最普遍的问题。如果你的问题没有在此处提及，请发送电子邮件至 help@rt.torproject.org 。"
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -554,7 +555,7 @@ msgid ""
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
 "### 无法解压缩\n"
-"如果你正使用 Windows 且无法把压缩包解压缩，请下载并安装 [7-Zip](http://www.7-zip.org/) 。"
+"如果你正使用 Windows 且无法把压缩包解压缩，请下载并安装 [7-Zip](http://www.7-zip.org/)。"
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -563,7 +564,7 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
-"如果你无法下载 7-Zip，尝试把 .z 文件重命名为 .zip 然后使用 WinZip 来解压。在改名之前，先让 Windows 显示文件扩展名："
+"如果你无法下载 7-Zip，尝试把 .z 文件重命名为 .zip 然后使用 WinZip 解压缩。在改名之前，先让 Windows 显示文件扩展名："
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -574,6 +575,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows XP\n"
+"1. 打开 *我的电脑*\n"
+"2. 点击 *工具*，在菜单里选择 *文件夹选项*\n"
+"3. 点击 *查看* 标签页\n"
+"4. 取消勾选 *隐藏已知文件类型的扩展名* 并点击 *确定*"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -584,6 +590,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows Vista\n"
+"1. 打开 *我的电脑*\n"
+"2. 点击 *组织*，在菜单里选择 *文件夹和搜索选项*\n"
+"3. 点击 *查看* 标签页\n"
+"4. 取消勾选 *隐藏已知文件类型的扩展名* 并点击 *确定*"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -594,6 +605,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows 7\n"
+"1. 打开 *我的电脑*\n"
+"2. 点击 *组织*，在菜单里选择 *文件夹和搜索选项*\n"
+"3. 点击 *查看* 标签页\n"
+"4. 取消勾选 *隐藏已知文件类型的扩展名* 并点击 *确定*"
 
 #. type: Plain text
 #: en/tsum.text:273
@@ -602,7 +618,7 @@ msgid ""
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
 "### 如何处理拆分了的软件包\n"
-"当你索要了拆分的软件包，你有可能不按次序地收到各个部分。在尝试拆包之前，你需要确保你已收到了所有部分。把所有部分保存到电脑里的一个文件夹中，把它们解压缩，双击以 ..split.part01.exe 结尾的文件以开始拆包。"
+"当你索要了拆分的软件包，你有可能按错乱的次序收到各个部分。在尝试拆包之前，你需要确保你已收到了每一个部分。把所有部分保存到电脑的一个文件夹中，把它们解压缩，双击以 “..split.part01.exe” 结尾的文件以开始拆包。"
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -633,7 +649,7 @@ msgid ""
 msgstr ""
 "**Vidalia 和 Tor 已在运行**：\n"
 "举个例子，假如你已安装过 Vidalia 软件包而你现在正尝试运行 Tor 浏览器软件包，这种情况就有可能发生。\n"
-"这样的话你将需要先关闭旧版的 Vidalia 和 Tor。\n"
+"这样的话你将需要先关闭旧版的 Vidalia 和 Tor，再运行当前的版本。\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -647,9 +663,9 @@ msgid ""
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
 "**Vidalia 崩溃了，但 Tor 仍在运行**：\n"
-"如果提示输入控制密码的对话框里有一个“重置”按钮，\n"
+"如果提示输入控制密码的对话框里有一个“复位设定”按钮，\n"
 "你可以点击该按钮，Vidalia 会以一个新的随机控制密码重启 Tor。\n"
-"如果你没有看到“重置”按钮，或者 Vidalia 无法重启 Tor，\n"
+"如果你没有看到“复位设定”按钮，或者 Vidalia 无法重启 Tor，\n"
 "请前往你的进程或任务管理器，终止 Tor 的进程。然后再用 Vidalia 来重启 Tor。\n"
 
 #. type: Plain text
@@ -660,7 +676,7 @@ msgid ""
 "Project website."
 msgstr ""
 "要了解更多，请参阅 Tor Project 网站上的 "
-"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword)。"
+"[常见问题](https://torproject.org/docs/faq.html#VidaliaPassword)。"
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -695,7 +711,7 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
-"请参考 [Torbutton FAQ](https://www.torproject.org/torbutton/torbutton-"
+"请参阅 [Torbutton 常见问题](https://www.torproject.org/torbutton/torbutton-"
 "faq.html#noflash) 以了解更多信息。"
 
 #. type: Plain text
