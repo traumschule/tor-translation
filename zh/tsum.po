@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 21:14+0000\n"
+"PO-Revision-Date: 2011-11-16 21:44+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,8 @@ msgstr ""
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
 msgstr ""
+"# 简明用户手册\n"
+"\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -32,6 +34,8 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"本用户手册包含关于如何下载和使用 Tor，以及 Tor 无法连接到网络时该怎样做的信息。如果你没能在本手册内找到你需要的答案，请发送电子邮件至 "
+"help@rt.torproject.org 。"
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,7 +43,7 @@ msgid ""
 "Please note that we are providing support on a voluntary basis, and we get a"
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
-msgstr ""
+msgstr "请注意，我们是以志愿为基础提供支持，我们每天都受到大量电子邮件。如果我们没有即时回复，请不要担心。"
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -93,6 +97,8 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"如果你是在交流敏感信息，例如以用户名和密码登录一个网站，请确保你在使用 HTTPS （如 **https**://torproject.org/，而不是"
+" **http**://torproject.org/）。"
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -124,6 +130,8 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"有两种方法可以获取到 Tor 软件。你可以浏览 [Tor Project 网站](https://www.torproject.org/) "
+"并下载，又或者使用自动回复的电邮服务 GetTor。"
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -131,6 +139,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### 如何通过电子邮件获取 Tor\n"
+"要获取用于 Windows 的英文版 Tor 浏览器软件包，请发送电子邮件至 gettor@torproject.org ，在正文区域内写上 **windows**。你可以把标题留空。"
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -159,6 +169,8 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**注意**：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，你将无法通过 Gmail、Hotmail 或者 雅虎有奖获取这些软件包。\n"
+"如果你无法获取你想要的软件包，请发送邮件至 help@rt.torproject.org ，我们会给你一个网站镜像列表。\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -166,13 +178,15 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### 如何以几个小尺寸文件包的形式获取 Tor\n"
+"你也可以要求以若干个小尺寸文件包，而非一个大文件包的形式索要 Windows 版本的 Tor 浏览器软件包。当你没有很大带宽可用，或者你的电邮提供商不允许你接收大附件的时候，这会很有帮助。"
 
 #. type: Plain text
 #: en/tsum.text:76
 msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
-msgstr ""
+msgstr "以以下的单词为正文内容发送一封电子邮件到 gettor@torproject.org ："
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -181,6 +195,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -189,6 +205,8 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"请紧记要把关键词 *split* 独立出一行。请参看 *What to do with split packages* "
+"以了解关于如何解压缩与重组小尺寸文件包的信息。"
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -567,7 +585,7 @@ msgid ""
 "Once the unpacking process has completed, you should see a newly created "
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
-msgstr ""
+msgstr "解压过程一旦完成，你将会在相同的文件夹内看见一个新创建的 .exe 文件。运行这个文件并等待 Tor 浏览器软件包启动。"
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -631,6 +649,8 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"大多数 YouTube 视频兼容 HTML5，而 Tor 可以用于观看这些视频。你需要在 YouTube 网站上加入 [HTML5 "
+"体验计划](https://www.youtube.com/html5) 才能使用 HTML5 播放器。"
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -638,7 +658,7 @@ msgid ""
 "Note that the browser will not remember that you joined the trial once you "
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
-msgstr ""
+msgstr "请注意，浏览器被关闭后不会记住你加入过体验计划，所以你下次运行 Tor 浏览器软件包时将需要重新加入体验计划。"
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -646,6 +666,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"请参考 [Torbutton FAQ](https://www.torproject.org/torbutton/torbutton-"
+"faq.html#noflash) 以了解更多信息。"
 
 #. type: Plain text
 #: en/tsum.text:321
