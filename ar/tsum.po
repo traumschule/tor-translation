@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 12:13+0000\n"
+"PO-Revision-Date: 2011-11-16 12:20+0000\n"
 "Last-Translator: 0xAli <protectednet@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -551,6 +551,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"لو لم تستطع تحميل برنامج 7-Zip. حاول إعادة تسمية إمتدادات الملفات من .z إلى "
+".zip وجرب تستخدم برنامج الـ winzip لفك ضغط الأرشيف, قبل تسمية الملف, غير "
+"إعدادات الويندوز ليظهر إمتدادات الملفات:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -588,6 +591,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### ماذا نفعل في الملفات المقسمة\n"
+"عندما تطلب الملفات المقسمة, من الممكن أن تصل الأجزاء في ترتيب مختلف. لابد أن تتأكد أنك حصلت على كل الأجزاء قبل أن تحاول فك الضغط عنهم. إحفظ كل الأجزاء في مجلد واحد في جهازك, فك الضغط عنهم, ثم إضغط نقرتين على الملف الذي يكون في آخر إسمه \"..split.part01.exe\" لتبدأ عملية فك الضغط."
 
 #. type: Plain text
 #: en/tsum.text:277
