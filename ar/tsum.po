@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 13:10+0000\n"
+"PO-Revision-Date: 2011-11-16 13:43+0000\n"
 "Last-Translator: 0xAli <a11358433@nepwk.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -226,6 +226,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### تور للهواتف الذكية\n"
+"يمكنك الحصول على تور على جهاز الأندرويد الخاص بك بواسطة تثبيت رزمة تسمى *Orbot*. لمزيد من المعلومات من فضلك إفتح (https://www.torproject.org/docs/android.html.en).[موقع مشروع تور]"
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -234,6 +236,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"يوجد لدينا رزمة تطبيقات لهاتف [نوكيا "
+"N900](https://www.torproject.org/docs/N900.html.en) و [نظام آبل "
+"iOS](http://sid77.slackware.it/iphone/)."
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -619,6 +624,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### برنامج فيدياليا يسأل عن باسوورد\n"
+"ليس من المقترض أن تقوم بإدخال باسوورد عند بداية تشغيل برنامج فيداليا. لو سألك البرنامج عن باسوورد, فأنت غالباً عندك واحدة من هؤلاء المشاكل:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -660,6 +667,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### الفلاش معطل\n"
+"لأسباب أمنية, الفلاش, والجافا, وإضافات أخرى يتم تعطيلها لبرنامج تور, تلك الإضافات يمكنها أن تبدأ تعمل بعيداً عن المتصفح وتقوم بنشاطات في جهازك وهذا ينافي التخفي."
 
 #. type: Plain text
 #: en/tsum.text:308
