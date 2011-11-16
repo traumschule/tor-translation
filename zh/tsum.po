@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 20:13+0000\n"
+"PO-Revision-Date: 2011-11-16 20:37+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -357,6 +357,9 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"当你运行 Tor 浏览器软件包，你会首先看到 Vidalia 启动并把你接入到 Tor "
+"网络。之后你会看到一个浏览器显示出[https://check.torproject.org/](https://check.torproject.org/)，确认你正在使用"
+" Tor。现在你可以开始通过 Tor 来浏览互联网了。"
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -364,7 +367,7 @@ msgstr ""
 msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
-msgstr ""
+msgstr "*请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这至关重要。*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -381,6 +384,8 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤；打开 Vidalia 的设置面板，点击 *Message Log* 并选择"
+" *Advanced* 标签页。Tor 无法连接到网络也许是因为："
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -389,7 +394,7 @@ msgid ""
 "**Your system clock is off**: Make sure that the date and time on your\n"
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
-msgstr ""
+msgstr "**你的系统时钟不准确**：请确保你的系统中的日期与时间正确，然后重启 Tor。你也许需要把系统时钟与某台网络时间服务器进行同步。\n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -400,6 +405,9 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**你受限于防火墙软件**：让 Tor 仅尝试 80 和 443 端口，打开 Vidalia 控制面板，点击 "
+"*Settings*，*Network*，然后选中 *My firewall only lets me connect to certain "
+"ports* 的选项框。\n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -408,7 +416,7 @@ msgid ""
 "**Your anti-virus program is blocking Tor**: Make sure that your\n"
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
-msgstr ""
+msgstr "**你的反病毒软件正在阻挡 Tor**：请确保你的反病毒软件没有阻止 Tor 进行网络连接。\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -417,6 +425,8 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"如果 Tor 仍然不能工作，那么可能是你的互联网服务提供商（ISP）正在阻挡 Tor。这通常可以使用 **Tor "
+"桥接**，不易被阻挡的隐蔽中继服务器，来绕开阻挡。"
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -440,6 +450,7 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"配置一个以上的桥接地址，能让 Tor 的连接在某些桥接无法访问时更加稳定。你无法保证今天能使用的桥接明天仍然能用，所以你应该养成时常更新桥接列表的习惯。"
 
 #. type: Plain text
 #: en/tsum.text:214
