@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 11:43+0000\n"
+"PO-Revision-Date: 2011-11-16 12:13+0000\n"
 "Last-Translator: 0xAli <protectednet@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,6 +47,8 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"من فضلك تذكر إننا نقوم بالمساعدة على أساس تطوعي, وقد يصلنا الكثير من الرسائل"
+" كل يوم, لا داعي للقلق إذا لم نرد عليك بسرعة."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -101,6 +103,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"لو كنت تقوم بالأعمال المهمة والحساسة, كالدخول على حسابك على موقع ما بإدخال "
+"إسم المستخدم وكلمة المرور على سبيل المثال, تأكد من أنك تتصفح بإستخدام نظام "
+"التصفح الآمن (مثلاً: https://torproject.org ,وليس http://torproject.org)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -130,6 +135,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"هناك طريقتان مختلفتان للحصول على برنامج تور, يمكنك الدخول على  [موقع مشروع "
+"التور](https://www.torproject.org/) وتحميله من هناك, أو يمكنك إستخدام "
+"GetTor, نظام الرد الأوتوماتيكي على الإيميل."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -137,6 +145,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### كيف تحصل على تور من خلال البريد الإلكتروني\n"
+"للحصول على حزمة التصفح الخاصة ببرنامج تور باللغة الإنجليزية الذي يعمل على نظام الويندوز, إرسل رسالة إلكترونية لـ gettor@torproject.org مع وضع كلمة **windows** في نص الرسالة, يمكنك أن تترك عنوان الرسالة فارغاً."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -165,6 +175,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**ملحوظة**: حزمة متصفح تور الخاصة بنظامي تشغيل اللينوكس والماك حجمهم كبير, "
+"ولن يمكنك الحصول عليهما بإستخدام إيميل جي ميل أو هوتميل أو ياهوو. لو لم "
+"يمكنك الحصول على الحزمة التي تريدها, ارسل رسالة بريد إلكتروني على "
+"help@rt.torproject.org ونحن سنرد عليك برسالة بها قائمة من المواقع التي قامت "
+"برفع البرنامج.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -172,6 +187,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### كيفية الحصول على تور مقسم على أجزاء أصغر\n"
+"من الممكن طلب حزمة متصفح تور لنظام الويندوز ويكون مقسماً على أجزاء أصغر, بدلاً من ملف واحد كبير. يكون هذا مفيداً إذا كانت سرعة الإنترنت الخاصة بك قليلة, أو لو الموقع الذي عليه حساب الإيميل الخاص بك لا يستقبل مرفقات كبيرة الحجم."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -189,6 +206,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -197,6 +216,9 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"لابد أن تضع كلمة *split* في سطر وحيد, إقرأ الجزء الخاص بـ *ماذا نفعل في "
+"الملفات المقسمة* لمزيد من المعلومات عن كيفية فك ضغط وتجميع الأجزاء صغيرة "
+"الحجم."
 
 #. type: Plain text
 #: en/tsum.text:89
