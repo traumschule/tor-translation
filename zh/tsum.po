@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 18:58+0000\n"
+"PO-Revision-Date: 2011-11-16 20:13+0000\n"
 "Last-Translator: LEMONed <lemoned@live.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -113,8 +113,9 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
-"我们向大多数用户推荐 [Tor 浏览器软件包](https://www.torproject.org/projects/torbrowser.html)"
-" 。此软件包内含一个预先配置好的浏览器，用于透过 Tor 安全地浏览互联网，且无需安装。你只需下载软件包，解压缩，并运行 Tor。"
+"我们向大多数用户推荐 [Tor "
+"浏览器软件包](https://www.torproject.org/projects/torbrowser.html)。此软件包内含一个预先配置好的浏览器，用于透过"
+" Tor 安全地浏览互联网，且无需安装。你只需下载软件包，解压缩，并运行 Tor。"
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -138,13 +139,15 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"你也可以索要 Tor 浏览器软件包的 Mac OS X 版本（写上**“macos-i386”**），和 Linux "
+"版本（写上**“linux-i386”**注明32位系统或**“linux-x86_64”**注明64位系统）"
 
 #. type: Plain text
 #: en/tsum.text:61
 msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
-msgstr ""
+msgstr "如果你想要其它语言版本的 Tor 软件，请写上 **help**。你将收到一封电子邮件，内含指引以及现有的语言版本的列表。"
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -217,6 +220,8 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"你将获取到的，还有一个与软件包的文件名相同、扩展名为 **.asc** 的文件。这个 .asc 文件是一个 GPG "
+"签名，它能允许你校验你下载到的文件是否与你想要下载的完全一致。"
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -224,7 +229,7 @@ msgstr ""
 msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
-msgstr ""
+msgstr "在校验签名之前，你将需要下载和安装 GnuPG：\n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -234,42 +239,49 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: 大多数 Linux 发行版已预装 GnuPG\n"
 
 #. type: Plain text
 #: en/tsum.text:112
 msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
-msgstr ""
+msgstr "请注意，你将需要编辑以下使用到的路径和命令，让它们能在你的系统中运行。"
 
 #. type: Plain text
 #: en/tsum.text:115
 msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
-msgstr ""
+msgstr "Tor 浏览器软件由 Erinn Clark 使用密钥 0x63FEE659 签署。要导入 Erinn 的密钥，请执行："
 
 #. type: Plain text
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --keyserver "
+"hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
 msgid "After importing the key, verify that the fingerprint is correct:"
-msgstr ""
+msgstr "导入密钥之后，校验指纹是否正确："
 
 #. type: Plain text
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
+"0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
 msgid "You should see:"
-msgstr ""
+msgstr "你应该会看到："
 
 #. type: Plain text
 #: en/tsum.text:130
@@ -282,13 +294,19 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
 msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
-msgstr ""
+msgstr "要校验你所下载到的软件包，请执行以下命令："
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -297,6 +315,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -317,6 +337,9 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"当你已完成校验并看到 *\"Good signature\"* 的输出结果，请把软件包解压缩。然后你应该会看到一个类似 **tor-"
+"browser_en-US** 这样的文件夹。这个文件夹里有另一个名为 **Docs** 的文件夹，内含一个 **changelog** 文件。请确保 "
+"changelog 里第一行的版本号与文件名中的版本号相符。"
 
 #. type: Plain text
 #: en/tsum.text:153
