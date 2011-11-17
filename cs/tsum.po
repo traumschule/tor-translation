@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-17 15:44+0000\n"
+"PO-Revision-Date: 2011-11-17 16:12+0000\n"
 "Last-Translator: Sanky <gsanky+transifex@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,8 +43,8 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
-"Vemte prosím v potaz, že naše podpora je čistě dobrovolná a dostáváme "
-"každodenně velké množství emailů. Není potřeba se strachovat, pokud vám "
+"Vezměte prosím v potaz, že naše podpora je čistě dobrovolná a dostáváme "
+"každodenně velké množství emailů. Není potřeba se strachovat pokud vám "
 "neodpovíme obratem."
 
 #. type: Plain text
@@ -105,9 +105,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
-"Pokud přenášíte citlivé informace, například při přihlašování se na stránku "
-"s uživatelským jménem a heslem, ujistěte se, že používáte HTTPS (například "
-"**https**://torproject.org/, ne **http**://torproject.org/)."
+"Pokud přenášíte citlivé informace, například při přihlašování se na nějakou "
+"stránku uživatelským jménem a heslem, ujistěte se, že používáte HTTPS "
+"(například **https**://torproject.org/, ne **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -196,7 +196,7 @@ msgid ""
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
 "#### Jak dostat Tor jako několik malých balíčků\n"
-"Je možné si vyžádat Tor Browser Bundle pro Windows jako několik malých balíčků místo jednoho velkého. To může být užitečné pokud nemáte dostupný bandwidth, nebo pokud vám váš emailový provider nedovoluje přijímat velké přílohy."
+"Lze si vyžádat Tor Browser Bundle pro Windows jako několik malých balíčků místo jednoho velkého. To může být užitečné pokud nemáte dostupný bandwidth nebo pokud vám váš emailový provider nedovoluje přijímat velké přílohy."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -224,8 +224,7 @@ msgid ""
 "assemble the small sized packages."
 msgstr ""
 "Je důležité napsat klíčové slovo *split* na zvláštní řádek. Vizte sekci *Co "
-"dělat s rozděleným balíčkem* pro informace o rozbalení a sestavení malých "
-"částí balíčku."
+"dělat s rozděleným balíčkem* pro informace o rozbalení a sestavení balíčku."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -450,7 +449,7 @@ msgid ""
 "connect because:"
 msgstr ""
 "Pokud vaše normální Internetové připojení funguje, ale Tor se stále nemůže "
-"připojit k síti, zkuste následující: otevřte ovládací panel Vidalii, "
+"připojit k síti, zkuste následující: otevřte ovládací panel Vidalie, "
 "klikněte na *Message Log* a vyberte sekci *Advanced*. Tor se nemusel "
 "připojit proto, že:"
 
@@ -562,7 +561,7 @@ msgstr ""
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr "Otevřte kontrolní panel Vidalii a klikněte na *Settings* (nastavení)."
+msgstr "Otevřte kontrolní panel Vidalie a klikněte na *Settings* (nastavení)."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
@@ -728,7 +727,7 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
-"Pro více informací navštivte [často kladené "
+"Pro více informací vizte [často kladené "
 "dotazy](https://torproject.org/docs/faq.html#VidaliaPassword) na stránce Tor"
 " Projektu."
 
