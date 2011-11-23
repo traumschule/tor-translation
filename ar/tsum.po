@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-23 11:41+0000\n"
+"PO-Revision-Date: 2011-11-23 12:14+0000\n"
 "Last-Translator: dlshad <dlshad@eodet.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -610,6 +610,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"# # # # ويندوز إكس بي \n"
+"1. افتح *جهاز الكمبيوتر *\n"
+"2.  اضغط على * أدوات* و اختر *خيارات المجلد* من القائمة\n"
+"3. اضغط على * عرض * من خيارات التبويب\n"
+"4. قم بإلغاء تحديد * إخفاء لاحقة الملفات للملفات المعروفة* و من ثم اضغط  على موافق."
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -620,6 +625,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"# # # # ويندوز فيستا\n"
+"1. افتح *جهاز الكمبيوتر *\n"
+"2.  اضغط على * تخصيص* و اختر *خيارات المجلد و البحث* من القائمة\n"
+"3. اضغط على * عرض * من خيارات التبويب\n"
+"4. قم بإلغاء تحديد * إخفاء لاحقة الملفات للملفات المعروفة* و من ثم اضغط  على موافق."
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -630,6 +640,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"# # # # ويندوز 7\n"
+"1. افتح *جهاز الكمبيوتر *\n"
+"2.  اضغط على * تخصيص* و اختر *خيارات المجلد و البحث* من القائمة\n"
+"3. اضغط على * عرض * من خيارات التبويب\n"
+"4. قم بإلغاء تحديد * إخفاء لاحقة الملفات للملفات المعروفة* و من ثم اضغط  على موافق."
 
 #. type: Plain text
 #: en/tsum.text:273
