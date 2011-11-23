@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-23 12:26+0000\n"
+"PO-Revision-Date: 2011-11-23 12:49+0000\n"
 "Last-Translator: dlshad <dlshad@eodet.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -374,6 +374,10 @@ msgid ""
 "about where you downloaded the package from, how you verified the signature,"
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
+"يجب ان تكون النتيجة الظاهرة تحميل *\"توقيع جيد\"*. التوقيع السيؤ يعني أن "
+"الملف قد تم العبث به . اذا عثرت على توقيع سيء قم بإرسال التفاصيل عن مصدر "
+"تحميلك للبرنامج , و  كيفية قيامك بالتحقق من التوقيع و المعلومات الصادرة من "
+"GnuPG الى البريد الالكتروني التاليhelp@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:147
@@ -430,6 +434,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### مالذي يجب فعله عندم لايستطيع تور الاتصال\n"
+"اغلب المستخدمين لبرنامج تور يجدون بان فيداليا توقف عن الاستجابة و الاتصال بشبكة التور . هذا الشيء يحصل في حالم عدم وجود اتصال بالانترنت , و في حال وجد الاتصال بالانترنت , بإمكانك الاطلاع على *كيفية استخدام البروكسي المفتوح* كالتالي."
 
 #. type: Plain text
 #: en/tsum.text:174
