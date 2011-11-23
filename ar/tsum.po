@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-23 12:14+0000\n"
+"PO-Revision-Date: 2011-11-23 12:26+0000\n"
 "Last-Translator: dlshad <dlshad@eodet.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -504,6 +504,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"###كيفية ايجاد الجسور\n"
+"بإمكانك تحديد جسر معين و العثور عليه كما ويمكنك تصفح إما [bridges.torproject.org](https://bridges.torproject.org/)، أو يمكن أن ترسل بريد إلكتروني إلى bridges@torproject.org. و في حال قمت بإرسال بريد الكتروني يرجى التأكد من كتابة **get bridges** ، في نص الرسالة الالكتروني من اجل الحصول على جسور , من دون ذلك ، فلن تحصل على أي رد. لاحظ أنت تحتاج إلى إرسال هذا البريد الإلكتروني عن طريق احدى المزودات التالية gmail.com إما yahoo.com ."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -524,6 +526,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"# # # كيفية استخدام الجسور\n"
+"عندما يكون لديك مجموعة من الجسور لاستخدام ، افتح لوحة التحكم فيداليا ، انقر على *إعدادات* , *الشبكة* و من ثم حدد المربع المكتوب بداخله * مزود الخدمة يقوم بحظر الاتصال الى شبكة التور* , سيتم عندها اظهار الجسور في المربع في الاسفل , اضغط موافق و من ثم ابدأ تور من جديد."
 
 #. type: Plain text
 #: en/tsum.text:220
@@ -531,6 +535,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"# # # كيفية استخدام بروكسي مفتوح\n"
+"في حال كان  استخدام الجسر لا يعمل ، حاول اعداد تور لاستخدام أي وكيل SOCKS HTTPS من اجل الوصول إلى شبكة تور. وهذا يعني حتى لو تم حظر تور من الشبكة المحلية , يمكن استخدامها بأمان من قبل الناشطين الذين يخصصون عناوين مفتوحة للاتصال إلى شبكة تور ومنها لشبكة الإنترنت الغير خاضعة للرقابة."
 
 #. type: Plain text
 #: en/tsum.text:223
