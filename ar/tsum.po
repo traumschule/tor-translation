@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-23 10:32+0000\n"
+"PO-Revision-Date: 2011-11-23 11:41+0000\n"
 "Last-Translator: dlshad <dlshad@eodet.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -538,6 +538,8 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"الخطوات التالية تظهر بأنك قمت باعداد تور - فيداليا لكي يعمل بشكل فني صحيح , "
+"و قد عثرت على قائمة بروتوكولات ال HTTPS, SOCKS4 او SOCKS5 الخاصة بالبروكسي"
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
@@ -564,6 +566,11 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. في اطار العنوان قم باضدخالة عنوان مفتوح عبر البروكسي , قد يكون موقع اسم استضافة او عنوان IP\n"
+"4. قم بإدخال المنفذ الخاص بالبروكسي\n"
+"5. بالشكل العام انت لاتحتاج لاسم مستخدم و كلمة سر , و اذا قمت بذلك قم بادخال المعلومات في اماكنها الصحيحة\n"
+"6. قم بتحديد نوع البروكسي الذي تود استخدامه اياً كان HTTP/HTTPS, SOCKS4, او SOCKS5\n"
+"7. قم بالضغط على زر OK الان برنامج التور و فيداليا اصبحوا جاهزين للعمل و الدخول لشبكة تور العامة.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -662,6 +669,8 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"** برنامج فيداليا و تور يعملاً لديك مسبقاً **\n"
+"على سبيل المثال , تحصل هذه الحالة في حال قمت بتنصيب برنامج فيداليا و انت تستخدم متصفح التور اصلاً , في هذه الحالة انت تحتاج لاغلاق النسخة القديمة من فيداليا و تور  و من ثم تقوم بتشغيل الجديدة منها.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -674,6 +683,8 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"تم إغلاق** فيداليا ، و لكن برنامج التور مازال يعمل** .\n"
+"اذا ظهرت لك نافذة حوار تطلب منك كلمة السر الخاصة بالتحكم , تستطيع الضغط على زر اعادة التعيين , و سيتم عندها اعادة توليد كلمة سر جديدة و تشغيل فيداليا من جديد , و في حال لم تعثر على زر اعادة التعيين او فيداليا كان غير قادراً على اعادة تشغيل تور , اذهب لادارة المهام و قم بانهاء العمليات من هنالك و من ثم اعد تشغيل فيداليا و تور من جديد.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
