@@ -5,17 +5,17 @@
 # Translators:
 #   <a11358433@nepwk.com>, 2011.
 #   <damnlinux@yahoo.com>, 2011.
+#   <dlshad@eodet.com>, 2011.
 # Mohamed Elgindy <melgindy@gmail.com>, 2011.
 # Mohammed Babiker <sudanhacker@hotmail.com>, 2011.
-#   <protectednet@hotmail.com>, 2011.
 #   <SoEnLion@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-16 14:13+0000\n"
-"Last-Translator: 0xAli <a11358433@nepwk.com>\n"
+"PO-Revision-Date: 2011-11-23 10:00+0000\n"
+"Last-Translator: dlshad <dlshad@eodet.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -263,6 +263,9 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"البرنامج الذي ستقوم باستخدامه يأتي مرفقاً مع ملف توقيع الكتروني بلاحقة "
+"مختلفة .asc يعتبر هذا الملف التوقيع الالكتروني من نوع GPG والذي سيسمح لك "
+"بالتحقق من الملف الذي قمت بتحميله."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -382,6 +385,10 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"بعد التحقق من الملف سوف تجد رسالة (توقيع جيد) قم باتمام العمل و بتصدير "
+"الملفات , عندها ستجد مجلد يحمل الاسم tor-browser بداخله يوجد العديد من "
+"المجلدات الاخرى كـ (Docs) (changelog) عندها يجب ان تتحقق من ان رقم الاصدار "
+"الموجود في الاعلى هو مطابق لما بداخل على changelog"
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -401,6 +408,11 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"عند الرغبة ببدء تشغيل برنامج متصفح التور , سوف تجد بالبداية تطبيق Vidalia و "
+"الذي سيبدأ بالاتصال بشبكة التور , بعد ذلك ستجد بان متصفح التور اعطاك رسالة "
+"تأكيد بانك تستطيع الان تصفح الانترنت باستخدام متصفح التور بشكل آمن عن طريق "
+"فحص الرابط "
+"التالي[https://check.torproject.org/](https://check.torproject.org/)"
 
 #. type: Plain text
 #: en/tsum.text:163
