@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-23 10:00+0000\n"
+"PO-Revision-Date: 2011-11-23 10:32+0000\n"
 "Last-Translator: dlshad <dlshad@eodet.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -439,6 +439,8 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"في حال كان اتصال الانترنت يعمل لديك , لكن التور لايستطيع الاتصال و العمل , قم باجراء الخطوات التالية:\n"
+"افتح برنامج فيداليا و من ثم اتجه للوحة التحكم , افتح ملفات اللوغ و من ثم خيارات متقدمة , قد يكون السبب :"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -448,6 +450,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"** ساعة النظام لديك متوقفة ** تأكد من ان الوقت و التاريخ في جهازك صحيحين و "
+"من ثم اعد ت شغل برنامج التور , ننصح باجراء مزامنة التوقيت مابين ساعة النظام "
+"لديك و  الانترنت\n"
 
 #. type: Plain text
 #: en/tsum.text:183
