@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-28 00:03+0000\n"
+"PO-Revision-Date: 2011-11-28 00:40+0000\n"
 "Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -217,6 +217,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### A Tor okostelefonokra\n"
+"Tor-t beszerezhet Android készülékekre az *Orbot* csomag telepítésével. További infromációkér az Orbot letöltéséhez és telepítéséhez kérjük látogassa meg a [Tor Project](https://www.torproject.org/docs/android.html.en) weboldal-át."
 
 #. type: Plain text
 #: en/tsum.text:93
