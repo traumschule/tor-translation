@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-27 23:09+0000\n"
+"PO-Revision-Date: 2011-11-28 00:03+0000\n"
 "Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Ez a felhasználói kézikönyv azt mutatja be hogyan töltheti le és "
+"használhatja a Tor-t és mit tehet akkor, ha a Tor nem tud csatlakozni a "
+"hálózathoz. Ha nem találja a választ benne a kérdésére, akkor írjon egy "
+"levelet a help@rt.torproject.org címre."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,6 +43,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Kérjük vegye figyelembe, hogy támogatást csak önkéntes segítőkön keresztül "
+"tudunk adni, mert rengeteg emailt kapunk minden egyes nap. Szóval ne "
+"idegeskedjen, ha nem kap választ azonnal."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -95,6 +102,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Ha érzékeny információt ad meg, például belép egy weboldalra, "
+"felhasználónévvel és jelszóval, ellenőrizze, hogy HTTPS protokollt használ. "
+"(azaz **https**://torproject.org/ és nem **http**://torproject.org/ )."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -215,6 +225,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"Továbbá vannak kísérleti csomagjaink [Nokia "
+"Maemo/N900](https://www.torproject.org/docs/N900.html.en) és [Apple "
+"iOS](http://sid77.slackware.it/iphone/) telefonokra."
 
 #. type: Plain text
 #: en/tsum.text:97
