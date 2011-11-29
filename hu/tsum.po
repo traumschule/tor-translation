@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-29 00:13+0000\n"
+"PO-Revision-Date: 2011-11-29 00:32+0000\n"
 "Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -413,6 +413,8 @@ msgid ""
 "### How to use the Tor Browser Bundle\n"
 "After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
+"###Hogyan használhatom a Tor Böngésző csomagot\n"
+"A Tor letöltése és kicsomagolása után látnia kell egy mappát,  amelyben néhány fájl található. Az egyik fájl ebben a mappában egy futtatható állomány amelynek a neve \"Start Tor Browser\" (vagy \"start-tor-browser\", operációs rendszertől függően)."
 
 #. type: Plain text
 #: en/tsum.text:160
@@ -446,6 +448,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### Mit csináljak, ha a Tor nem  kapcsolódik\n"
+"Néhány felhasználó tapasztalhatja, hogy a Vidalia lemerevedik a Tor hálózathoz csatlakozás megkísérlése közben. Ha ez történik, ellenőrizze, hogy csatlakozva van-e az internethez. Ha proxy-hoz kell csatlakoznia, tekintse meg a *Hogyan használjak nyílt proxy-t* alább."
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -514,6 +518,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Ha segítséget szeretne ahhoz, hogy kitalálja, miért nem tud a Tor "
+"kapcsolódni, küldjön egy emailt, a help@rt.torproject.org  címre és csatolja"
+" a kapcsolodó részét a log fájlnak."
 
 #. type: Plain text
 #: en/tsum.text:203
@@ -521,6 +528,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Hogyan találjon egy hidat\n"
+"Ahhoz, hogy hidat használjon előszor szereznie kell egyet; ehhez ellátogathat a [bridges.torproject.org](https://bridges.torproject.org/) címre vagy küldhet egy emailt a  bridges@torproject.org címre. Ha emailt küld, akkor legyen benne biztos, hogy beleírja a **get bridges** (hidak lekérése) szöveget a levél törzsébe. E nélkül nem fog választ kapni. Jegyezze meg, hogy ezt az emailt egy gmail.com vagy a yahoo.com címről kell küldenie."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -541,6 +550,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Hogyan használja a hidakat\n"
+"Ha kapott egy készlet hidat, nyissa meg a Vidalia vezérlőpultját, és kattintson a *Beállítások*, *Hálózat* pontokra, majd jelölje az *A szolgáltatóm blokkolja a Tor-t* opciót. Adja meg a hidak címét az alatta található szövegdobozba, majd nyomjon OK gombot és indítsa újra a Tor-t."
 
 #. type: Plain text
 #: en/tsum.text:220
@@ -548,6 +559,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"### Hogyan használjak nyílt proxy-t\n"
+"Ha a híd használata nem segít, próbálja meg a Tor-t bekonfigurálni, hogy HTTPS vagy SOCKS proxy-t használjon a Tor hálózat eléréséhez. Ez azt jelenti, hogy ha a Tor blokkolva is van a helyi hálózatán, a nyílt proxy-k segítésével biztonságosan kapcsolódhat a Tor hálózathoz és a nem cenzorált internethez."
 
 #. type: Plain text
 #: en/tsum.text:223
@@ -672,7 +685,9 @@ msgstr ""
 msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
-msgstr "###Mit csináljak a darabolt csomagokkal"
+msgstr ""
+"### Mit csináljak a darabolt csomagokkal\n"
+"Ha darabolt csomagokat kért, akkor az egyes részek kvert sorrendben is érkezhetnek. Biztosnak kell lennie abban ,hogy az összes csomagot megkapta, mielőtt megpróbálná kicsomagolni őket. Mentse le az összes részt egy mappába a gépen ,csomagolja ki őket, aztán kattintson duplán arra a fájlra, amelynek a fájlnév vége a \"..split.part01.exe\" szöveggel végződik; ez elindítja a kicsomagolást. "
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -691,6 +706,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### A Vidalia jelszót kér\n"
+"A Vidalia indításakor nem kell megadnia jelszót. Ha mégis kér a Vidalia jelszót, akkor a következő problémák valamelyike fordulhat elő:"
 
 #. type: Plain text
 #: en/tsum.text:287
