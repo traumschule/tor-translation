@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-28 00:40+0000\n"
+"PO-Revision-Date: 2011-11-29 00:13+0000\n"
 "Last-Translator: vargaviktor <viktor.varga@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,6 +82,10 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"A fenti kép azt illusztrálja, ahogy egy felhasználó különböző oldalakat "
+"böngészik a Tor-on keresztül. A zöld monitorok Elosztókat szimbolizálnak a "
+"Tor hálózaton, a három kulcs pedig a titkosítások rétegeit mutatja a "
+"felhasználó, és az egyes Elosztók között."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -138,6 +142,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Két lehetősége van a Tor szoftver beszerzésére. Egyszer böngészővel "
+"ellátogathat a [Tor Project weboldalra](https://www.torproject.org/) és "
+"letöltheti, vagy használhatja a GetTor-t, az email automatikus válaszadót."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -145,6 +152,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Hogyan tudja beszerezni a Tor-t emailen keresztül\n"
+"A Tor Böngésző csomag angol Windows verziójának beszerzéséhez küldjön egy emailt a gettor@torproject.org címre a **windows** szóval a elvél törzsében. A tárgy üresen maradhat."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -176,6 +185,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"** Megjegyzés **: A Tor Browser csomag Linux és Mac OS X verziója "
+"meglehetősen nagy, és nem lesz képes fogadni az ilyen csomagokat a Gmail, "
+"Hotmail vagy a Yahoo címekre. Ha nem kapja meg a kért csomagot, küldjön egy "
+"e-mailt a help@rt.torproject.org címre, küldünk egy listát a használható "
+"weboldal tükrökről.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -183,6 +197,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### Hogyan kapjam meg a Tor-t több kisebb csomagban\n"
+"Lehetőség van arra ,hogy beszerezze a Tor Böngésző csomagot Windows-ra több kisebb méretű csomagban, egy nagy helyett. Ez hasznos lehet, ha a sávszélessége kicsi, vagy az email szolgáltató nem teszi lehetővé nagy csatolmányok fogadását."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -210,6 +226,9 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"Fontos, hogy a *split* (darabolás) kulcsszót külön sorba írja. Tekintse meg "
+"a *Mit csináljak a darabolt csomagokkal*  további információkért arról, hogy"
+" hogyan csomagolja ki és szerelje össze a kis méretű csomagokat."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -237,6 +256,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"###Hogyan ellenőrizzem, hogy jó verzióm van\n"
+"Mielőtt futattná a Tor Böngésző csomagot, ellenőriznie kell, hogy a jó verzióval rendelkezik-e."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -363,6 +384,11 @@ msgid ""
 "about where you downloaded the package from, how you verified the signature,"
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
+"Kimenetben az kell látnia, hogy *\"Good signature\"* (jó aláírás). Egy \"bad"
+" signature\" (rossz aláírás) azt jelentheti, hogy a csomagot "
+"megmódosították. Ha rossz aláírással találkozik, akkor küldje el a "
+"részleteket, hogy honnan töltötte le, hogyan ellenőrizte az aláírást, és a "
+"kimenetét a GnuPG szoftvernek emailben a help@rt.torproject.org címre."
 
 #. type: Plain text
 #: en/tsum.text:147
@@ -572,6 +598,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## Gyakran ismételt kérdések\n"
+"Ez a fejezet a leggyakrabban feltett kérdésekre ad választ. Ha a kérdése nem található itt, kérjük küldjön egy emailt a help@rt.torproject.org címre."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -579,6 +607,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"### Nem sikerült kicsomagolni a tömörített csomagot\n"
+"Ha Windows-t használ és nem sikerül kibontani a csomagot, töltse le és telepítse a [7-Zip](http://www.7-zip.org/) szoftvert."
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -587,6 +617,10 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Ha nem tudja letölteni a 7-Zip programot, akkor próbálja meg átnevezni a "
+"fájlt .z kiterjesztésről .zip kiterjesztésre, és használja a winzip-et a "
+"kicsomagoláshoz. Az átnevezés előtt be kell állítania, hogy a Windows "
+"mutassa a fájlkiterjesztéseket:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -597,6 +631,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows XP\n"
+"1. Nyissa meg a *Sajátgép* menüpontot\n"
+"2. Kattintson az *Eszközök* opcióra, majd válassza a *Mappa beállítások...* opciót a menüből\n"
+"3. Kattintson a *Nézet* fülre\n"
+"4. Vegye ki a jelölést a *Kiterjesztések elrejtése az ismert fájltípusokhoz* opció elől, és kattintson az *OK* gombra"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -607,6 +646,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows Vista\n"
+"1. Nyissa meg a *Sajátgép* menüpontot\n"
+"2. Kattintson az *Rendezés* opcióra, majd válassza a *Mappa és keresési beállítások...* opciót a menüből\n"
+"3. Kattintson a *Nézet* fülre\n"
+"4. Vegye ki a jelölést a *Kiterjesztések elrejtése az ismert fájltípusokhoz* opció elől, és kattintson az *OK* gombra"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -617,13 +661,18 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows 7\n"
+"1. Nyissa meg a *Sajátgép* menüpontot\n"
+"2. Kattintson az *Rendezés* opcióra, majd válassza a *Mappa és keresési beállítások...* opciót a menüből\n"
+"3. Kattintson a *Nézet* fülre\n"
+"4. Vegye ki a jelölést a *Kiterjesztések elrejtése az ismert fájltípusokhoz* opció elől, és kattintson az *OK* gombra"
 
 #. type: Plain text
 #: en/tsum.text:273
 msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
-msgstr ""
+msgstr "###Mit csináljak a darabolt csomagokkal"
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -687,6 +736,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### A Flash nem működik\n"
+"Biztonsági okokból a Flash, Java, és egyéb bővítmények tiltva vannak Tor üzemmódban. A bővítmények a Firefoól függetlenül működnek és képesek olyan műveletek végzésére, amelyek tönkretehetik az anonimitását."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -726,6 +777,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"### Más böngészőt használnék\n"
+"Biztonsági okokból ajánljuk, hogy csak a Tor Böngésző csomagon keresztül böngésszen. Technikailag lehetséges, hogy más böngészőt használjon, de ezzel potenciális támadásoknak teszi ki magát."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -733,5 +786,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### Miért lassú a Tor \n"
+"A Tor néha lassabb, mint a normális internet kapcsolata. Ez azért van mert a forgalom különböző országokon, néha az óceánok alatt is átküldésre kerül."
 
 
