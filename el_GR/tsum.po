@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-12-29 17:35+0000\n"
+"PO-Revision-Date: 2011-12-29 18:12+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -239,6 +239,8 @@ msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
 msgstr ""
+"Για να εξακριβώσετε την υπογραφή πρέπει να λάβετε και να\n"
+"εγκαταστήσετε το GnuPG:   \n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -248,6 +250,10 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: Οι περισσότερες διανομές Linux διαθέτουν προεγκατεστημένο το GnuPG.\n"
+"\n"
 
 #. type: Plain text
 #: en/tsum.text:112
@@ -255,6 +261,8 @@ msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
 msgstr ""
+"Σημειώστε ότι ίσως χρειαστεί να επεξεργαστείτε τις διαδρομές και εντολές που"
+" χρησιμοποιούμε παρακάτω ώστε να λειτουργήσει στο σύστημά σας."
 
 #. type: Plain text
 #: en/tsum.text:115
@@ -262,28 +270,36 @@ msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
+"Η Erinn Clark υπογράφει τα Πακέτα Φυλλομετρητή Tor με κλειδί 0x63FEE659. Για"
+" να εισάγετε το κλειδί της Erinn, εκτελέστε:"
 
 #. type: Plain text
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --keyserver "
+"hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
 msgid "After importing the key, verify that the fingerprint is correct:"
 msgstr ""
+"Μετά την εισαγωγή του κλειδιού, βεβαιωθείτε ότι το αποτύπωμά του είναι το "
+"σωστό:"
 
 #. type: Plain text
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
+"0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
 msgid "You should see:"
-msgstr ""
+msgstr "Θα πρέπει να δείτε:"
 
 #. type: Plain text
 #: en/tsum.text:130
@@ -296,6 +312,12 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
@@ -303,6 +325,8 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"Για να εξακριβώσετε την υπογραφή του πακέτου που κατεβάσατε, εκτελέστε την "
+"ακόλουθη εντολή:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -311,6 +335,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -331,6 +357,12 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"Όταν εξακριβώστε την υπογραφή και εμφανιστεί το μήνυμα *\"Good signature\"*,"
+" συνεχίστε και αποσυμπιέστε το αρχείο. Θα πρέπει να δείτε ένα κατάλογο όμοιο"
+" με **tor-browser_en-US**. Μέσα σε αυτό τόν κατάλογο υπάρχει ένας άλλος που "
+"ονομάζεται **Docs** ο οποίος περιέχει ένα αρχείο με όνομα *changelog**. "
+"Βεβαιωθείτε ότι ο αριθμός έκδοσης που εμφανίζεται στην πρώτη άνω γραμμή του "
+"αρχείου changelog ταιριάζει με τον αριθμό έκδοσης στο όνομα του αρχείου."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -348,6 +380,12 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Όταν ξεκινήσετε το Πακέτο Φυλλομετρητή Tor θα δείτε πρώτα την εκκίνηση του "
+"Vidalia η οποία θα σας συνδέσει στο δίκτυο Tor. Έπειτα θα εμφανισθεί ο "
+"φυλλομετρητής που θα σας επιβεβαιώνει ότι χρησιμοποιείτε Tor. Αυτό γίνεται "
+"με την εμφάνιση της σελίδας "
+"[https://check.torproject.org/](https://check.torproject.org/). Μπορείτε "
+"τώρα να περιηγηθείτε στο Διαδίκτυο μέσω του Tor."
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -356,6 +394,8 @@ msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
 msgstr ""
+"*Παρακαλούμε σημειώστε ότι είναι σημαντικό να χρησιμοποιήσετε τον φυλλομετρητή ιστού που συνοδεύει\n"
+"το πακέτο και όχι τον δικό σας φυλλομετρητή.*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -372,6 +412,10 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Αν η σύνδεσή σας στο Διαδίκτυο λειτουργεί αλλά το Tor εξακολουθεί να μην "
+"συνδέεται στο δίκτυο, επιχειρήστε τα ακόλουθα: ανοίξτε τον πίνακα ελέγχου "
+"του Vidalia, πατήστε το *Message Log** και επιλέξτε τον φάκελο *Advanced*. "
+"Ίσως το Tor δεν συνδέεται, επειδή:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -381,6 +425,8 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**Your system clock is off**: Βεβαιωθείτε ότι η ημερομηνία και η ώρα στο σύστημά σας είναι σωστές και επανεκκινήστε το Tor. Ίσως χρειαστεί να συγχρονίσετε το\n"
+"σύστημά σας με έναν Διαδικτυακό εξυπηρετητή ώρας.     \n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -391,6 +437,10 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**You are behind a restrictive firewall**: Για να πείτε στο Tor να χρησιμοποιεί τις μόνον τις θύρες\n"
+"80 και 443, ανοίξτε τον πίνακα ελέγχου του Vidalia, πατήστε *Settings* και\n"
+"*Network*. Επιλέξτε την επιλογή που λέει *My firewall only lets me connct\n"
+"to certain ports*.     \n"
 
 #. type: Plain text
 #: en/tsum.text:187
