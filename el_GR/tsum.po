@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-12-29 20:27+0000\n"
+"PO-Revision-Date: 2011-12-29 20:56+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -121,11 +121,11 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
-"Το πακέτο (bundle) που προτείνουμε στους περισσότερους χρήστες είναι το [Tor"
-" Browser Bundle](https://www.torproject.org/projects/torbrowser.html).  Το "
-"πακέτο αυτό περιέχει έναν φυλλομετρητή (browser) ιστού προρυθμισμένο για "
-"ασφαλή περιήγηση στο Διαδίκτυο μέσω Tor και δεν απαιτεί εγκατάσταση.  "
-"Κατεβάζετε το πακέτο, αποσυμπιέζετε το αρχείο και ξεκινάτε το Tor."
+"Το πακέτο που προτείνουμε στους περισσότερους χρήστες είναι το [Tor Browser "
+"Bundle](https://www.torproject.org/projects/torbrowser.html).  Το πακέτο "
+"αυτό περιέχει έναν φυλλομετρητή ιστού προρυθμισμένο για ασφαλή περιήγηση στο"
+" Διαδίκτυο μέσω Tor και δεν απαιτεί εγκατάσταση.  Κατεβάζετε το πακέτο, "
+"αποσυμπιέζετε το αρχείο και ξεκινάτε το Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -524,7 +524,7 @@ msgid ""
 msgstr ""
 "Στα βήματα που ακολουθούν υποθέτουμε ότι έχετε μια λειτουργική ρύθμιση των "
 "Tor/Vidalia και έχετε στην διάθεσή σας μια λίστα με πληρεξούσιους "
-"εξυπηρετητές (proxy servers) HTTPS, SOCKS4 ή SOCKS5."
+"εξυπηρετητές HTTPS, SOCKS4 ή SOCKS5."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
@@ -648,6 +648,10 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**You are already running Vidalia and Tor**:\n"
+"Η κατάσταση αυτή μπορεί να προκύψει αν, για παράδειγμα, εγκαταστήσατε το πακέτο Vidalia\n"
+"και την εκείνη τη στιγμή προσπαθείτε να εκτελέσετε το Πακέτο Φυλλομετρητή Tor. Σε μια τέτοια\n"
+"περίπτωση πρέπει να κλείσετε τα παλαιότερα Vidalia και Tor για να μπορέσετε να εκτελέσετε το συγκεκριμένο.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
