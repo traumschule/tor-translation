@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-12-29 16:43+0000\n"
+"PO-Revision-Date: 2011-12-29 16:52+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,6 +83,11 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Το Tor \"ανωνυμοποιεί\" την προέλευση της κυκλοφορίας σας και κρυπτογραφεί "
+"όλα τα δεδομένα μεταξύ του χρήστη και του δικτύου Tor.  Το Tor, επίσης, "
+"κρυπτογραφεί την κυκλοφορία των δεδομένων σας εντός του δικτύου του, αλλά "
+"δεν κρυπτογραφεί την κυκλοφορία μεταξύ του δικτύου του και του τελικού "
+"προορισμού της."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -98,7 +103,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr ""
+msgstr "Πώς να λάβετε το Tor\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -109,6 +114,11 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
+"Το πακέτο (bundle) που προτείνουμε στους περισσότερους χρήστες είναι το [Tor"
+" Browser Bundle](https://www.torproject.org/projects/torbrowser.html).  Το "
+"πακέτο αυτό περιέχει έναν φυλλομετρητή (browser) ιστού προρυθμισμένο για "
+"ασφαλή περιήγηση στο Διαδίκτυο μέσω Tor και δεν απαιτεί εγκατάσταση.  "
+"Κατεβάζετε το πακέτο, αποσυμπιέζετε το αρχείο και ξεκινάτε το Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -132,6 +142,9 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"Μπορείτε να λάβετε, επίσης, το Πακέτο Φυλλομετρητή Tor για το Mac OS X "
+"(πληκτρολογήστε **macos-i386) και Linux (πληκτρολογήστε **linux-i386 για "
+"32μπιτα συστήματα ή **linux-x86_64 για 64μπιτα συστήματα)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -139,6 +152,9 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
+"Αν επιθυμείτε μια μεταφρασμένη έκδοση του Tor, πληκτρολογήστε **help**.  Θα "
+"λάβετε ηλεκτρονικό μήνυμα με οδηγίες και έναν κατάλογο με τις διαθέσιμες "
+"γλώσες."
 
 #. type: Plain text
 #: en/tsum.text:67
