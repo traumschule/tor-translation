@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-12-29 18:12+0000\n"
+"PO-Revision-Date: 2011-12-29 18:43+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -188,6 +188,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -450,6 +452,9 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Το αντι-ιϊκό σας πρόγραμμα εμποδίζει το Tor**: Βεβαιωθείτε ότι το\n"
+"αντι-ιϊκό σας πρόγραμμα δεν εμποδίζει το Tor να πραγματοποιεί δικτυακές\n"
+"συνδέσεις.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -458,6 +463,9 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Αν το Tor εξακολουθεί να μην δουλεύει είναι πιθανό ο Παροχέας Διαδικτυακών "
+"Υπηρεσιών (ISP) να φράσσει το Tor. Κάτι τέτοιο συχνά ξεπερνιέται με την "
+"επιλογή **Tor bridges**, κρυφούς αναμεταδότες που είναι δύσκολο να φραγούν."
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -481,6 +489,9 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Σε περίπτωση που κάποια από τις γέφυρες καταστεί απροσπέλαστη, η ρύθμιση "
+"περισσοτέρων της μιας διευθύνσεων γέφυρας θα κάνει τις συνδέσεις σας με το "
+"Tor σταθερότερες."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -502,16 +513,20 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Στα βήματα που ακολουθούν υποθέτουμε ότι έχετε μια λειτουργική ρύθμιση των "
+"Tor/Vidalia και έχετε στην διάθεσή σας μια λίστα με πληρεξούσιους "
+"εξυπηρετητές (proxy servers) HTTPS, SOCKS4 ή SOCKS5."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Ανοίξτε τον πίνακα ελέγχου του Vidalia και πατήστε *Settings*."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"Πατήστε *Network* και επιλέξτε *I use a proxy to access the Internet*."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -527,6 +542,15 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. Στην γραμμή *Address* εισάγετε την διεύθυνση του ανοικτού πληρεξούσιου διακομηστή. Η διεύθυνση αυτή μπορεί να είναι\n"
+"ένα όνομα υπολογιστή ή μια διεύθυνση ΙΡ.\n"
+"4. Εισάγετε την θύρα για τον διακομηστή.\n"
+"5. Σε γενικές γραμμές, δεν χρειάζεστε όνομα χρήστη ή κωδική λέξη. Αν τα χρειάζεστε,\n"
+"εισάγετε τις πληροφορίες αυτές στα κατάλληλα πεδία.\n"
+"6. Επιλέξτε *Type* για τον διακομηστή που χρησιμοποιείτε, HTTP/HTTPS, SOCKS4,\n"
+"ή SOCKS5.\n"
+"7. Πατήστε το κουμπί *OK*. Τα Vidalia και Tor είναι τώρα ρυθμισμένα ώστε να χρησιμοποιείται\n"
+"πληρεξούσιος διακομηστής για την πρόσβαση στο δίκτυο Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -624,6 +648,9 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia crashed, but left Tor running**:\n"
+"Αν το παράθυρο διαλόγου που σας ζητά κωδικό ελέγχου έχει ένα κουμπί Reset, πατήστε το κουμπί αυτό και το Vidalia θα επανεκκινήσει το Tor με έναν νέο τυχαίο κωδικό. Αν δεν εμφανίζεται κουμπί Reset ή αν το Vidalia δεν μπορεί να εκκινήσει το Tor, ανοίξτε τον διαχειριστή διεργασιών η εφαρμογών\n"
+"και τερματίστε την διεργασία Tor. Έπειτα χρησιμοποιήστε το Vidalia για να επανεκκινήσετε το Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -632,6 +659,9 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"Για περισσότερες πληροφορίε δείτε το "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) στον ιστότοπο "
+"του Tor Project."
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -647,6 +677,10 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Τα περισσότερα βίντεο του YouTube λειτουργούν με HTML5 και μπορείτε να δείτε"
+" τα βίντεο αυτά μέσα από το δίκτυο Tor. Πρέπει να εγγραφείτε στο [HTML5 "
+"trial](https://www.youtube.com/html5) στον ιστότοπο του YouTube για να "
+"μπορέσετε να χρησιμοποιήσετε την εφαρμογή αναπαραγωγής για HTML5."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -655,6 +689,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Σημειώστε ότι ο φυλλομετρητής σας δεν θα θυμάται ότι εγγραφήκατε στην δοκιμή"
+" του HTML5 όταν τον κλείσετε και θα χρειαστεί να εγγραφείτε εκ νέου στην "
+"δοκιμή την επόμενη φορά που θα εκτελέσετε το Πακέτο Φυλλομετρητή Tor."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -662,6 +699,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Για περισσότερες πληροφορίες, παρακαλούμε δείτε το [Torbutton "
+"FAQ](https://www.torproject.org/torbutton/torbutton-faq.html#noflash)  ."
 
 #. type: Plain text
 #: en/tsum.text:321
