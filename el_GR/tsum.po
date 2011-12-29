@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-12-29 18:43+0000\n"
+"PO-Revision-Date: 2011-12-29 20:27+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# The Short User Manual\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -31,6 +31,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Αυτό το εγχειρίδιο χρήσης περιέχει πληροφορίες πώς να κατεβάσετε το Tor, πώς"
+" να το χρησιμοποιήσετε και τι να κάνετε αν το Tor δεν μπορεί να συνδεθεί στο"
+" δίκτυο. Αν δεν μπορείτε να βρείτε την λύση στο πρόβλημά σας, στείλτε μήνυμα"
+" στη διεύθυνση help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,6 +43,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Να ξέρετε ότι η υποστήριξη γίνεται σε εθελοντική βάση και κάθε ημέρα "
+"λαμβάνουμε πολλά ηλεκτρονικά μηνύματα. Δεν πρέπει να ανησυχείτε αν δεν "
+"επικοινωνήσουμε μαζί σας αμέσως."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -180,6 +187,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Στείλτε ένα ηλεκτρονικό μήνυμα στην διεύθυνση gettor@torproject.org με το "
+"ακόλουθο κείμενο στο σώμα του μηνύματος:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -618,6 +627,9 @@ msgid ""
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
 msgstr ""
+"Όταν ολοκληρωθεί η διαδικασία αποσυσκευασίας θα δείτε ένα νέο αρχείο "
+"\".exe\", στον ίδιο κατάλογο. Εκτελέστε το αρχείο αυτό και περιμένετε την "
+"εκκίνηση του Πακέτου Φυλλομετρητή Tor."
 
 #. type: Plain text
 #: en/tsum.text:281
