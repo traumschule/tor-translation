@@ -4,13 +4,14 @@
 # 
 # Translators:
 #   <cirrus.spam@gmail.com>, 2011.
+#   <fragos.george@hotmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 21:28+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2011-12-30 21:34+0000\n"
+"Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,6 +59,11 @@ msgid ""
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
 msgstr ""
+"Το Tor είναι ένα δίκτυο διαύλων το οποίο μπορεί να βελτιώσει την "
+"ιδιωτικότητα και την ασφάλειά σας στο Διαδίκτυο. Το Tor λειτουργεί "
+"στέλνοντας την κυκλοφορία σας των δεδομένων σας μέσω τριών τυχαίων "
+"διακομιστών (επίσης γνωστών ως \"αναμεταδοτών\"-relays) του δικτύου Tor, και"
+" πριν τα δεδομένα αυτά αποσταλούν στο δημόσιο Διαδίκτυο."
 
 #. type: Plain text
 #: en/tsum.text:21
@@ -80,6 +86,11 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Το Tor ανωνυμοποιεί την προέλευση των δεδομένων σας και κρυπτογραφεί όλα τα "
+"δεδομένα που κυκλοφορούν μεταξύ του χρήστη και του δικτύου Tor. Το Tor, "
+"επίσης, κρυπτογραφεί την κυκλοφορία σας εντός του δικτύου Tor, αλλά δεν "
+"μπορεί να κρυπτογραφήσει την κυκλοφορία μεταξύ του δικτύου Tor και του "
+"τελικού προορισμού της."
 
 #. type: Plain text
 #: en/tsum.text:36
