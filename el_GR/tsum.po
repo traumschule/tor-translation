@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-#   <fragos.george@hotmail.com>, 2011.
+#   <fragos.george@hotmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-12-29 20:56+0000\n"
+"PO-Revision-Date: 2012-01-01 20:42+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -103,6 +103,10 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Αν μεταδίδεται ευαίσθητες πληροφορίες, για παράδειγμα όταν συνδέεστε σε έναν"
+" ιστότοπο με χρήση ονόματος χρήστη και κωδικού, βεβαιωθείτε ότι "
+"χρησιμοποιείτε HTTPS (e.g. **https**://torproject.org/, not "
+"**http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
