@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-01 21:43+0000\n"
+"PO-Revision-Date: 2012-01-01 22:13+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -81,6 +81,10 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"Η παραπάνω εικόνα δείχνει έναν χρήστη να περιηγείται σε διάφορους ιστοχώρους"
+" μέσω Tor. Οι πράσινες οθόνες αναπαριστούν αναμεταδότες του δικτύου Tor, ενώ"
+" τα τρία κλειδιά αναπαριστούν τα επίπεδα κρυπτογράφησης μεταξύ του χρήστη "
+"και καθενός εκ των αναμεταδοτών."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -548,6 +552,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"###Πώς να χρησιμοποιήσετε μια γέφυρα\n"
+"Μόλις αποκτήσετε την λίστα γεφυρών, ανοίξτε τον πίνακα ελέγχου του Vidalia, πατήστε *Settings*, *Network* και επιλέξτε την λειτουργία *My ISP blocks connections to the Tor network*. Εισάγετε τις γέφυρες που διαθέτετε στο πλαίσιο ακριβώς από κάτω, πατήστε *OK* και επανεκκινήστε το Tor."
 
 #. type: Plain text
 #: en/tsum.text:220
@@ -555,6 +561,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"###Πώς να χρησιμοποιήσετε έναν ανοικτό πληρεξούσιο διακομηστή\n"
+"Αν η χρήση γεφυρών δεν αποδίδει, ρυθμίστε το Tor ώστε να χρησιμοποιεί οποιονδήποτε πληρεξούσιο διακομηστή HTTPS ή SOCKS ώστε να συνδεθεί στο δίκτυο Tor. Αυτό σημαίνει ότι, ακόμη και αν το τοπικό δίκτυό σας φράσσει το Tor, οι ανοικτοί πληρεξούσιοι διακομηστές μπορούν να χρησιμοποιηθούν με ασφάλεια για την σύνδεση στο δίκτυο Tor και στο μη λογοκριμένο Διαδίκτυο."
 
 #. type: Plain text
 #: en/tsum.text:223
@@ -607,6 +615,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"###Συχνές Ερωτήσεις\n"
+"Στην ενότητα αυτή θα απαντηθούν μερικές από τις πιο κοινές ερωτήσεις. Αν η ερώτησή σας δεν εμφανίζεται εδώ, παρακαλούμε ειδοποιήστε μας στην διεύθυνση help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -614,6 +624,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"###Αδυναμία αποσυμπίεσης του πακέτου\n"
+"Αν χρησιμοποιείτε Windows και διαπιστώσετε ότι δεν μπορείτε να αποσυμπιέσετε το αρχείο, κατεβάστε και εγκαταστείστε το [7-Zip](http://www.7-zip.org/)."
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -622,6 +634,10 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Αν δεν μπορείτε να κατεβάσετε το 7-Zip, προσπαθείστε να μετονομάσετε το "
+"αρχείο από .z σε .zip και χρησιμοποιήστε το winzip για την αποσυμίεσή του. "
+"Πριν μετονομάσετε το αρχείο, ρυθμίστε τα Windows ώστε να εμφανίζουν τις "
+"επεκτάσεις των αρχείων:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -632,6 +648,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"###Windows XP\n"
+"1. Ανοίξτε *Ο υπολογιστής μου*\n"
+"2. Πατήστε *Εργαλεία* και από το μενούεπιλέξτε *Επιλογές φακέλων...*\n"
+"3. Πατήστε στο tab *Εμφάνιση*\n"
+"4. Αποεπιλέξτε το *Απόκρυψη των επεκτάσεων για γνωστούς τύπους αρχείων* και πατήστε *ΟΚ*"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -642,6 +663,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"###Windows Vista\n"
+"1. Ανοίξτε *Υπολογιστής*\n"
+"2. Πατήστε *Οργάνωση* και από το μενού επιλέξτε *Φάκελοι και επιλογές αναζήτησης*\n"
+"3. Πατήστε στο tab *Εμφάνιση*\n"
+"4. Αποεπιλέξτε την λειτουργία *Απόκρυψη της επέκτασης για γνωστούς τύπους αρχείων* και πατήστε *ΟΚ*"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -652,6 +678,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"###Windows 7\n"
+"1. Ανοίξτε *Υπολογιστής*\n"
+"2. Πατήστε στο *Οργάνωση* και από το μενού επιλέξτε *Φάκελοι και επιλογές αναζήτησης*\n"
+"3. Πατήστε το tab *Εμφάνιση*\n"
+"4. Αποεπιλέξτε την λειτουργία *Απόκρυψη της επέκτασης για γνωστούς τύπους αρχείων* και πατήστε *ΟΚ*"
 
 #. type: Plain text
 #: en/tsum.text:273
@@ -659,6 +690,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"###Τι να κάνετε με τα τμηματικά αρχεία\n"
+"Όταν ζητήσετε τμηματικό πακέτο, τα κομμάτια του ίσως φθάσουν χωρίς συγκεκριμένη σειρά. Πρέπει να βεβαιωθείτε ότι παραλάβατε όλα τα κομμάτια πριν επιχειρήσετε να τα αποσυμπιέσετε. Αποθηκεύστε τα κομμάτια μέσα σε έναν κατάλογο του υπολογιστή σας, αποσυμπιέστε τα και διπλοπατήστε στο αρχείο που τελειώνει με \"..split.part01.exe\" για να ξεκινήσει η διαδικασία αποσυμπίεσης."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -677,6 +710,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"###Το Vidalia ζητά κωδική λέξη\n"
+"Κανονικά, δεν χρειάζεται να δώσετε κάποιον κωδικό όταν ξεκινά το Vidalia. Αν, αντιθέτως, σας ζητείτε κωδικός τότε πιθανόν να έχετε κάποιο από τα εξής προβλήματα:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -725,6 +760,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"###Το flash δεν λειτουργεί\n"
+"Για λόγους ασφαλείας τα Flash και Java είναι απενεργοποιημένα στο Tor. Τα πρόσθετα προγράμματα λειτουργούν ανεξάρτητα από το Firefox και μπορούν να εκτελούν λειτουργίες οι οποίες αχρηστεύουν την ανωνυμία σας."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -764,6 +801,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"###Επιθυμώ να χρησιμοποιώ άλλον φυλλομετρητή\n"
+"Για λόγους ασφαλείας προτείνουμε να περιηγείστε στον ιστό μέσω του Tor χρησιμοποιώντας το Πακέτο Φυλλομετρητή Tor. Τεχνικά, είναι εφικτή η χρήση του Tor με άλλους φυλλομετρητές, αλλά κάνοντας κάτι τέτοιο εκτίθεστε σε πιθανές επιθέσεις."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -771,5 +810,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"###Γιατί το Tor είναι αργό\n"
+"Μερικές φορές το Tor θα είναι λίγο αργό σε σύγκριση με την ταχύτητα σύνδεσης στο Διαδίκτυο. Και αυτό διότι η κυκλοφορία σας διανέμεται μέσω διαφορετικών χωρών και, μερικές φορές, οι συνδέσεις είναι υπερπόντιες!"
 
 
