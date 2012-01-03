@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-02 23:32+0000\n"
+"PO-Revision-Date: 2012-01-02 23:59+0000\n"
 "Last-Translator: flavioamieiro <flavioamieiro@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -408,9 +408,8 @@ msgid ""
 msgstr ""
 "Se sua conexão normal com a internet está funcionando, mas o Tor ainda não "
 "consegue conectar à rede, tente o seguinte: abra o painel de controle do "
-"Vidalia, clique em *Message Log* e selecione a aba *Advanced*. Pode ser que "
-"o Tor não consiga conectar porque:og* e selecione a aba *Advanced*. Pode ser"
-" que o Tor não consiga conectar porque:"
+"Vidalia, clique em *Registro de mensagens* e selecione a aba *Avançado*. "
+"Pode ser que o Tor não consiga conectar porque:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -433,6 +432,8 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**Você está atrás de um firewall restritivo**: Para que o Tor tente usar apenas as portas 80 e 443, abra o painel de controle do Vidalia, clique em *Configurações*, depois em\n"
+"*Rede*, e marque a caixa que diz *A minha firewall apenas permite a conexão a certas portas*.\n"
 
 #. type: Plain text
 #: en/tsum.text:187
