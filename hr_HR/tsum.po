@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-04 13:43+0000\n"
+"PO-Revision-Date: 2012-01-04 14:12+0000\n"
 "Last-Translator: Armando Vega <synaan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# Kratki Priručnik za Korisnike\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -31,6 +31,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Ovaj priručnik za korisnike sadrži informacije o tome kako preuzeti Tor, "
+"kako ga koristiti, te što učiniti ukoliko se Tor ne može spojiti na mrežu. "
+"Ako ne možete pronaći odgovor na svoje pitanje u ovom dokumentu, pošaljite "
+"email na help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,6 +43,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Napominjemo da pružamo podršku na volonterskoj osnovi, i dobivamo mnogo "
+"emailova svaki dan. Nema potrebe za brigom ukoliko vam se ne javimo istog "
+"trena."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -95,6 +102,10 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Ako pokušavate prenesti osjetljive informacije, primjerice kada se "
+"prijavljujete na neku web stranicu sa korisničkim menom i lozinkom, uvjerite"
+" se da koristite HTTPS (npr. **https**://torproject.org/, ne "
+"**http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -127,6 +138,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Postoje dva različita načina za preuzimanje Tor sofwarea. Možete otići na "
+"[web stranicu Tor Projekta](https://www.torproject.org/) i preuzeti ga tamo,"
+" ili možete koristiti GetTor, automatski odgovaratelj na emailove."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -134,6 +148,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Kako preuzeti Tor putem emaila\n"
+"Kako biste primili englesku inačicu Tor Browser Bundle za Windows, pošaljite email na gettor@torproject.org sa riječi **windows** u tijelu poruke. Možete ostaviti subjekt prazan."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -165,6 +181,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Napomena**: Tor Browser Bundleovi za Linux i Mac OS X su prilično\n"
+"veliki, i nećete moći primiti niti jedan od ovih paketa putem\n"
+"Gmail, Hotmail ili Yahoo računa. Ako niste u mogućnosti primiti paket koji\n"
+"želite, pošaljite email na help@rt.torproject.org i mi\n"
+"ćemo vam dati popis zrcalnih web stranica koje možete koristiti.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -172,6 +193,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### Kako preuzeti Tor u obliku nekoliko paketa manje veličine:\n"
+"Moguće je zatražiti Tor Browser Bundle za Windowse kao nekoliko paketa manje veličine, umjesto jednog velikog paketa. To može biti korisno ukoliko nemate dovoljno širok pojas veze, ili ako vam vaš davatelj email usluga ne dozvoljava primanje velikih privitaka."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -179,6 +202,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Pošaljite email na gettor@torproject.org sa sljedećim riječima u tijelu "
+"emaila:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -187,6 +212,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -429,6 +456,10 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**Nalazite se iza restriktivnog vatrozida**: Kako biste rekli Toru da pokuša\n"
+"koristiti samo portove 80 i 443, otvorite Vidalia kontrolnu ploču, kliknite na *Settings* i\n"
+"*Network*, te označite box koji kaže *My firewall only lets me connect\n"
+"to certain ports*.     \n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -438,6 +469,9 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Vaš antivirusni program blokira Tor**: Uvjerite se da vaš\n"
+"antivirusni program ne sprječava Tor u pravljenju mrežnih\n"
+"veza.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -446,6 +480,9 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Ako Tor još uvijek ne radi, vjerojatno je da vaš pružatelj internet usluga "
+"(ISP) blokira Tor. Vrlo često se to može zaobići korištenjem **Tor "
+"mostova**, skrivenih releja koje nije tako jednostavno blokirati."
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -469,6 +506,10 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Postavljanjem više od jedne adrese mosta će učiniti vašu Tor vezu "
+"stabilnijom, u nekim slučajevima neki mostovi postanu nedostupni. Ne postoji"
+" jamstvo da će most koji koristite trenutno raditi i sutra, pa biste trebali"
+" razviti naviku osvježavanja svoje liste mostova svako toliko."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -490,16 +531,18 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Sljedeći koraci pretpostavljaju da imate funkcinalnu Tor/Vidalia "
+"konfiguraciju, i da ste pronašli listu HTTPS, SOCKS4, ili SOCKS5 proxy-a."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Otvorite Vidalia kontrolnu ploču, kliknite na *Settings*."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
-msgstr ""
+msgstr "Kliknite *Network*. Odaberite *I use a proxy to access the Internet*."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -515,6 +558,15 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. U *Address* redu unesite adresu otvorenog proxy-a. To može biti\n"
+"ime poslužitelja ili IP adresa.\n"
+"4. Unesite port proxy-a.\n"
+"5. Najčešće korisničko ime i lozinka nisu potrebni. Ako jesu,\n"
+"unesite informacije u odgovarajuća polja.\n"
+"6. Odaberite *Type* proxy-a kojeg koristite, radi li se o HTTP/HTTPS, SOCKS4,\n"
+"ili SOCKS5.\n"
+"7. Pritisnite *OK* dugme. Vidalia i Tor su sada podešeni za korištenje\n"
+"proxy-a za pristup ostatku Tor mreže.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -582,6 +634,9 @@ msgid ""
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
 msgstr ""
+"Jednom kada je proces otpakiravanja završio, trebali biste vidjeti novo "
+"stvorenu \".exe\" datoteku u toj istoj mapi. Pokrenite tu datoteku i "
+"pričekajte da se Tor Browser Bundle pokrene."
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -600,6 +655,11 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**Već imate pokrenut Vidalia ili Tor**:\n"
+"Primjerice, ova situacija se može dogoditi ako ste instalirali Vidalia\n"
+"paket i sada pokušavate pokrenuti Tor Browser Bundle. U tom\n"
+"slučaju, morati ćete zatvoriti stare Vidalia i Tor prije no što možete pokrenuti\n"
+"ovaj.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -612,6 +672,12 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia se srušila, ali Tor je nastavio raditi**:\n"
+"Ako dialog koji vas zatraži kontrolnu lozinku ima Reset\n"
+"dugme, možete kliknuti na dugme i Vidalia će ponovno pokrenuti Tor sa novom\n"
+"nasumičnom kontrolnom lozinkom. Ako ne vidite Reset dugme, ili ako Vidalia\n"
+"nije u mogućnosti ponovno pokrenuti Tor za vas; otvorite manager procesa ili zadataka,\n"
+"i terminirajte Tor process. Tada koristite Vidaliu za ponovno pokretanje Tora.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -620,6 +686,9 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"Za više informacija, "
+"pogledajte[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) na "
+"stranici Tor Projekta. "
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -635,6 +704,9 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Većina YouTube videa koristi HTML5, i moguće je gledati te videe kroz Tor. "
+"Morate se prijaviti za [HTML5 testiranje](https://www.youtube.com/html5) na "
+"YouTube-u prije no što možete koristiti HTML5 player."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -643,6 +715,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Napominjemo da pretražnik neće zapamtiti da ste se prijavili za testiranje "
+"nakon što ga zatvorite, pa ćete morati ponovno se prijaviti sljedeći puta "
+"kada pokrenete Tor Browser Bundle."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -650,6 +725,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Molimo pogledajte [Torbutton FAQ](https://www.torproject.org/torbutton"
+"/torbutton-faq.html#noflash)  za više informacija."
 
 #. type: Plain text
 #: en/tsum.text:321
