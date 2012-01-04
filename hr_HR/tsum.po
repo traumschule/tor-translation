@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-04 14:12+0000\n"
+"PO-Revision-Date: 2012-01-04 14:42+0000\n"
 "Last-Translator: Armando Vega <synaan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,6 +82,9 @@ msgid ""
 "The green monitors represent relays in the Tor network, while the three keys"
 " represent the layers of encryption between the user and each relay."
 msgstr ""
+"Slika niže ilustrira korisnika koji pretražuje različite web stranice preko "
+"Tora. Zeleni monitori predstavljaju releje u Tor mreži, dok tri ključa "
+"predstavljaju slojeve šifriranja između korisnika i svakog releja."
 
 #. type: Plain text
 #: en/tsum.text:31
@@ -222,6 +225,9 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"Važno je da uključite ključnu riječ *split* u svom vlastitom redu. "
+"Pogledajte *Što učiniti sa podijeljenim paketima* za više informacija o tome"
+" kako otpakirati i ponovno sastaviti manje pakete."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -229,6 +235,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### Tor za smartphone uređaje\n"
+"Možete preuzeti Tor na svom Android uređaju instaliranjem paketa nazvanog *Orbot*. Za više informacija o tome kako preuzeti i instalirati Orbot, molimo pogledajte [web stranicu Tor Projekta](https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -237,6 +245,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"Ujedno imamo i eksperimentalne pakete za [Nokia "
+"Maemo/N900](https://www.torproject.org/docs/N900.html.en) i [Apple "
+"iOS](http://sid77.slackware.it/iphone/)."
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -244,6 +255,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"### Kako verificirati da imate pravu verziju\n"
+"Prije pokretanja Tor Browser Bundle, trebali biste provjeriti da imate pravu verziju."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -365,6 +378,10 @@ msgid ""
 "about where you downloaded the package from, how you verified the signature,"
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
+"Izlaz bi trebao glasiti *\"Good signature\"*. Loš potpis znači da je "
+"datoteka možda neovlašteno izmjenjena. Ako vidite neispravan potpis, "
+"pošaljite nam detalje o mjestu preuzimanja paketa, kako ste verificirali "
+"potpis, te izlaz GnuPG-a u emailu na help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:147
@@ -389,6 +406,8 @@ msgid ""
 "### How to use the Tor Browser Bundle\n"
 "After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
+"### Kako koristiti Tor Browser Bundle\n"
+"Nakon preuzimanja Tor Browser Bundle i otpakiravanja paketa, trebali biste imati mapu koja sadrži nekoliko datoteka. Jedna od datoteka je izvršna, imena \"Start Tor Browser\" (ili \"start-tor-browser\", ovisno o vašem operacijskom sustavu)."
 
 #. type: Plain text
 #: en/tsum.text:160
@@ -421,6 +440,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### Što učiniti kada se Tor ne spaja\n"
+"Neki korisnici će primjetiti da se Vidalia zaglavi pri pokušaju spajanja na Tor mrežu. Ako se to dogodi, uvjerite se da ste spojeni na Internet. Ako se morate spojiti na proxy poslužitelj, pogledajte *Kako koristiti otvoreni proxy* niže."
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -490,6 +511,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Ako trebate pomoć pri razlučivanju zašto se Tor ne može spojiti, pošaljite "
+"email na help@rt.torproject.org i uključite relevantne dijelove log "
+"datoteke."
 
 #. type: Plain text
 #: en/tsum.text:203
@@ -497,6 +521,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Kako pronaći most\n"
+"Za korištenje mosta, prvo će te morati locirati neki most; možete pretraživačem doći na [bridges.torproject.org](https://bridges.torproject.org/), ili možete poslati email na bridges@torproject.org. Ako pak pošaljete email, molimo vas da obavezno napišete **get bridges** u tijelu emaila. Bez toga nećete dobiti odgovor. Napominjemo da morate poslati ovaj email sa gmail.com ili yahoo.com adrese."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -517,6 +543,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Kako koristiti most\n"
+"Jednom kada imate zbirku mostova za korištenje, otvorite Vidalia kontrolnu ploču, kliknite na *Settings*, *Network* i stavite kvačicu gdje piše \"My ISP blocks connections to the Tor network*. Unesite mostove u kućicu niže, pritisnite *OK* i ponovno pokrenite Tor."
 
 #. type: Plain text
 #: en/tsum.text:220
@@ -524,6 +552,8 @@ msgid ""
 "### How to use an open proxy\n"
 "If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
 msgstr ""
+"## Kako koristiti otvoreni proxy\n"
+"Ako korištenje mosta ne radi, probajte podesiti Tor da koristi bilo koji HTTPS ili SOCKS proxy kako biste dobili pristup Tor mreži. To znači čak i kad je Tor blokiran na vašoj lokalnoj mreži, otvoreni proxy sustavi mogu se sigurno koristiti za spajanje na Tor mrežu i na necenzurirani Internet."
 
 #. type: Plain text
 #: en/tsum.text:223
@@ -574,6 +604,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## Često Postavljana Pitanja\n"
+"Ovaj odjeljak će odgovoriti na neka od najčešćih pitanja. Ako vaše pitanje ovdje nije spomenuto, molimo pošaljite email na help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -581,6 +613,8 @@ msgid ""
 "### Unable to extract the archive\n"
 "If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
 msgstr ""
+"## Nije moguće otpakirati arhivu\n"
+"Ako koristite Windowse i otkrijete da ne možete otpakirati arhivu, preuzmite i instalirajte [7-Zip](http://www.7-zip.org/)."
 
 #. type: Plain text
 #: en/tsum.text:248
@@ -589,6 +623,9 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Ako niste u mogućnosti preuzeti 7-Zip, pokušajte preimenovati datoteku iz .z"
+" u .zip i upotrijebite winzip za otpakiravanje arhive. Prije preimenovanja "
+"datoteke, podesite Windowse kako bi vam prikazivali nastavke datoteka:"
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -599,6 +636,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows XP\n"
+"1. Otvorite *My Computer*\n"
+"2. Kliknite na *Tools* i odaberite *Folder Options...* u izborniku\n"
+"3. Kliknite na *View* tab\n"
+"4. Uklonite kvačicu gdje piše *Hide extensions for known file types* i kliknite *OK*"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -609,6 +651,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows Vista\n"
+"1. Otvorite *Computer*\n"
+"2. Kliknite na *Organize* i odaberite *Folder and search options* u izborniku\n"
+"3. Kliknite na *View* tab\n"
+"4. Uklonite kvačicu gdje piše *Hide extensions for known file types* i kliknite *OK*"
 
 #. type: Plain text
 #: en/tsum.text:266
@@ -619,6 +666,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows 7\n"
+"1. Otvorite *Computer*\n"
+"2. Kliknite na *Organize* i odaberite *Folder and search options* u izborniku\n"
+"3. Kliknite na *View* tab\n"
+"4. Uklonite kvačicu gdje piše *Hide extensions for known file types* i kliknite *OK*"
 
 #. type: Plain text
 #: en/tsum.text:273
@@ -626,6 +678,8 @@ msgid ""
 "### What to do with split packages\n"
 "When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
 msgstr ""
+"### Što učiniti sa podijeljenim paketima\n"
+"Kada zatražite podijeljeni paket, paketi mogu pristići u krivom redosljedu. Morate se uvjeriti da ste primili sve dijelove prije no što ih pokušate otpakirati. Snimite sve dijelove u jednu mapu na vašem računalu, odzipajte ih, te dvoklikom na datoteku koja završava na \"..split.part01.exe\" pokrenite proces otpakiravanja."
 
 #. type: Plain text
 #: en/tsum.text:277
@@ -644,6 +698,8 @@ msgid ""
 "### Vidalia asks for a password\n"
 "You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
 msgstr ""
+"### Vidalia pita za lozinku\n"
+"Nebiste trebali unositi lozinku pri pokretanju Vidalie. Ako vas svejedno pita za lozinku, vjerojatno imate jedan od sljedećih problema:"
 
 #. type: Plain text
 #: en/tsum.text:287
@@ -696,6 +752,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### Flash ne radi\n"
+"Zbog sigurnosnih razloga, Flash, Java i drugi plugini su trenutno onemogućeni za Tor. Pluginovi djeluju odvojeno od Firefoxa i mogu izvršavati aktivnosti na vašem računalu koje uništavaju anonimnost."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -734,6 +792,8 @@ msgid ""
 "### I want to use another browser\n"
 "For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
 msgstr ""
+"### Želim koristiti neki drugi pretražnik\n"
+"Zbog sigurnosnih razloga, preporučujemo da pretražujete web kroz Tor koristeći Tor Brower Bundle. Tehnički je moguće koristiti Tor sa drugim pretražnicima, ali time se ostavljate otvorenim za potencijalne napade."
 
 #. type: Plain text
 #: en/tsum.text:325
@@ -741,5 +801,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### Zašto je Tor spor\n"
+"Tor može ponekada biti nešto sporiji od vaše uobičajene Internet veze. Na posljetku, vaš promet šalje se kroz mnogo različitih država, neki puta i preko oceana diljem svijeta!"
 
 
