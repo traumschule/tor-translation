@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-04 13:13+0000\n"
+"PO-Revision-Date: 2012-01-04 13:43+0000\n"
 "Last-Translator: Armando Vega <synaan@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -58,10 +58,10 @@ msgid ""
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
 msgstr ""
-"Tor je mreža virtualnih tunela koja korisniku omogućava poboljšanje "
-"privatnosti i sigurnosti na Internetu. Tor šalje korisnički promet kroz tri "
-"nasumična poslužitelja (poznati kao *releji*) u Tor mreži prije nego što se "
-"promet pošalje na javni Internet."
+"Tor je mreža virtualnih tunela koja vam omogućava poboljšanje privatnosti i "
+"sigurnosti na Internetu. Tor šalje vaš promet kroz tri nasumična "
+"poslužitelja (poznati kao *releji*) u Tor mreži prije nego što se promet "
+"pošalje na javni Internet."
 
 #. type: Plain text
 #: en/tsum.text:21
@@ -84,6 +84,9 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Tor će anonimizirati podrijetlo vašeg prometa te pritom šifrirati sve između"
+" vas i Tor mreže. Tor će ujedno šifrirati i vaš promet unutar Tor mreže, ali"
+" ne može šifrirati promet između Tor mreže i njegovog završnog odredišta."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -100,6 +103,8 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
+"Kako preuzeti Tor\n"
+"---------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -110,6 +115,10 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
+"Paket koji preporučujemo većini korisnika je [Tor Browser Bundle] "
+"(https://www.torproject.org/projects/torbrowser.html). Ovaj paket sadrži "
+"pretražnik pretpodešen za sigurno pretraživanje Interneta kroz Tor te ne "
+"zahtjeva instalaciju. Preuzmete paket, otpakirate arhivu i pokrenete Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -133,6 +142,9 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"Ujedno možete i zatražiti Tor Browser Bundle za Mac OS X (napišite "
+"**macos-i386**) i Linux (napišite **linux-i386** za 32-bitne sustave ili "
+"**linux-x86_64** za 64-bitne sustave)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -140,6 +152,8 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
+"Ako želite prevedenu inačicu Tora, napišite **help**. Nakon toga dobiti ćete"
+" email sa uputama i popisom dostupnih jezika."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -212,6 +226,10 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"Software koji ćete primiti dolazi sa datotekom istog imena kao paket i "
+"nastavkom **.asc**. Ta .asc datoteka je GPG potpis koji će vam omogućiti "
+"verifikaciju da je datoteka koju ste preuzeli točno ona koju smo vam i "
+"namjenili."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -220,6 +238,8 @@ msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
 msgstr ""
+"Prije no što možete verificirati potpis, morati će te preuzeti i instalirati"
+" GnuPG:   \n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -229,6 +249,9 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: Većina Linux distribucija dolazi sa GnuPG-om predinstaliranim.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
@@ -236,6 +259,8 @@ msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
 msgstr ""
+"Napominjemo da će te možda morati izmjeniti putanje i naredbe korištene niže"
+" kako bi proradile na vašem sustavu."
 
 #. type: Plain text
 #: en/tsum.text:115
@@ -243,28 +268,30 @@ msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
+"Erinn Clark potpisuje Tor Browser Bundle sa ključem 0x63FEE659. Za uvoz "
+"Erinninog ključa pokrenite:"
 
 #. type: Plain text
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
-msgstr ""
+msgstr "»gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
 msgid "After importing the key, verify that the fingerprint is correct:"
-msgstr ""
+msgstr "Nakon uvoza ključa, verificirajte da je otisak ispravan:"
 
 #. type: Plain text
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
-msgstr ""
+msgstr "»gpg  --fingerprint 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
 msgid "You should see:"
-msgstr ""
+msgstr "Trebali biste vidjeti:"
 
 #. type: Plain text
 #: en/tsum.text:130
@@ -277,6 +304,12 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
+"»pub   2048R/63FEE659 2003-10-16\n"
+"»      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"»uid                  Erinn Clark <erinn@torproject.org>\n"
+"»uid                  Erinn Clark <erinn@debian.org>\n"
+"»uid                  Erinn Clark <erinn@double-helix.org>\n"
+"»sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
@@ -284,6 +317,8 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"Da biste verificirali potpis paketa kojeg ste preuzeli, pokrenite sljedeću "
+"naredbu:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -292,6 +327,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
+"US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -312,6 +349,12 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"Jednom kada ste verificirali potpis i vidjeli *\"Good signature\"* rezultat,"
+" slobodno nastavite i otpakirajte arhivu paketa. Nakon toga biste trebali "
+"vidjeti mapu imena sličnog **tor-browser_hr-HR**. Unutar te mape je druga "
+"mapa imena **Docs**, koja sadrži datoteku imena **changelog**. Trebali biste"
+" provjeriti da inačica na prvoj liniji changelog datoteke odgovara inačici u"
+" nazivu datoteke."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -329,6 +372,11 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Kada pokrenete Tor Browser Bundle, prvo ćete vidjeti kako se Vidalia pokreće"
+" i spaja na Tor mrežu. Nakon toga, vidjeti ćete pretražnik kako potvrđuje da"
+" sada koristite Tor. To se postiže prikazivanjem "
+"[https://check.torproject.org/](https://check.torproject.org/). Sada možete "
+"pretraživati Internet kroz Tor."
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -337,6 +385,8 @@ msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
 msgstr ""
+"*Napominjemo kako je važno da koristite pretražnik koji dolazi\n"
+"sa paketom, a ne svoj vlastiti pretražnik.*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -353,6 +403,10 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Ako vaša uobičajena Internet veza radi, ali Tor još uvijek nije u mogućnosti"
+" spojiti se na mrežu, pokušajte sljedeće; otvorite Vidalia kontrolnu ploču, "
+"kliknite na *Message Log* i odaberite tab *Advanced*. Moguće je da se Tor ne"
+" želi spojiti jer:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -362,6 +416,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**Vaš sat u sustavu je krivo podešen**: Uvjerite se da su datum i vrijeme na vašem\n"
+"sustavu ispravni, te ponovno pokrenite Tor. Možda ćete morati sinkronizirati vaš\n"
+"sustavski sat sa vremenskim poslužiteljem na Internetu     \n"
 
 #. type: Plain text
 #: en/tsum.text:183
