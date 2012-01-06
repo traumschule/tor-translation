@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 07:12+0000\n"
+"PO-Revision-Date: 2012-01-06 07:37+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -491,6 +491,11 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Birden fazla köprü adresi tanımlamak köprülerden bazılarının erişilemez hale"
+" gelmesi durumunda Tor bağlantınızın daha dayanıklı olmasını sağlayacaktır. "
+"Kullanmakta olduğunuz bir köprünin yarın çalışacağının bir garantisi "
+"bulunmamaktadır, bu nedenle köprü listenizi arada güncellemeyi alışkanlık "
+"edinmelisiniz."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -512,16 +517,21 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Aşağıdaki adımlar çalışan bir Tor/Vidalia konfigürasyonunuz olduğunu ve bir "
+"HTTPS, SOCKS4 veya SOCKS5 vekil sunucuları listesi oluşturduğunuzu "
+"varsaymaktadır:"
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Vidalia kontrol panelini açın ve *Settings*'e tıklayın."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"*Network*'e tıklayın ve *I use a proxy to access the Internet* seçeneğini "
+"seçin."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -537,6 +547,11 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. *Address* satırında, vekil sunucusunun adresini girin. Bu bir alan adı veya IP adresi olabilir.\n"
+"4. Vekil sunucu için port numarasını girin.\n"
+"5. Normalde bir kullanıcı adı ve parolaya ihtiyaç olmayacaktır. Eğer gerekiyorsa bu bilgileri de uygun alanlara girin.\n"
+"6. Kulllandığınız vekil sunucunun tipini *Type* alanında HTTP/HTTPS SOCKS4 veya SOCKS5 olarak seçin.\n"
+"7. *OK* düğmesine basın. Vidalia ve Tor artık Tor ağına bağlanmak için belirlediğiniz vekil sunucuyu kullanacaktır.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -622,6 +637,8 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**Vidalia ve Tor zaten çalışıyor**:\n"
+"Bu durumla, örneğin, daha önce Vidalia paketi kurulmuş olan bir bilgisayarda Tor Tarayıcı Paketi çalıştırmak istediğinizde karşılaşabilirsiniz. Tor Tarayıcı Paketini kullanabilmek için eski Vidalia ve Tor programlarını kapatmanız gerekecektir.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -634,6 +651,8 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia programı çakıldı ve Tor'u çalışır halde bıraktı**:\n"
+"Eğer sizden kontrol parolası isteyen pencerede bir Reset düğmesi varsa, bu düğmeye bastığınızda Vidalia Tor'u yeni ve rastgele bir kontrol parolası ile yeniden başlatacaktır. Eğer Reset düğmesi göremiyorsanız, veya Vidalia Tor'u yeniden başlatamadıysa, bilgisayarınızın uygulama veya süreç yöneticisini kullanarak Tor uygulamasını kapatın. Ardından Tor'u yeniden başlatmak için Vidalia'yı kullanın.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -642,6 +661,9 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"Ayrıntılı bilgi için Tor Projesi web sitesindeki sıkça sorulan sorulara "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) "
+"başvurabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:303
