@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 00:49+0000\n"
+"PO-Revision-Date: 2012-01-06 01:39+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -58,11 +58,14 @@ msgid ""
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
 msgstr ""
+"Tor, Internet üzerinde kişisel gizliliğinizi ve güvenliğinizi arttıran bir "
+"sanal tüneller ağıdır. Tor trafiğinizi rastgele seçilmiş üç sunucu üzerinden"
+" Internete ulaştırır. Bu sunuculara *aktarıcı* (relay) adı da verilir."
 
 #. type: Plain text
 #: en/tsum.text:21
 msgid "![How Tor Works](images/how-tor-works.png)"
-msgstr ""
+msgstr "![Tor Nasıl Çalışır](images/how-tor-works.png)"
 
 #. type: Plain text
 #: en/tsum.text:26
@@ -80,6 +83,10 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Tor will anonymize the origin of your traffic, and it will encrypt "
+"everything between you and the Tor network. Tor will also encrypt your "
+"traffic inside the Tor network, but it cannot encrypt your traffic between "
+"the Tor network and its final destination."
 
 #. type: Plain text
 #: en/tsum.text:36
