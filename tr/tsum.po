@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 07:54+0000\n"
+"PO-Revision-Date: 2012-01-06 08:40+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Bu kullanıcı klavuzu Tor'u nasıl indireceğinizi, nasıl kullanacağınızı, ve "
+"Tor bağlantı kuramazsa neler yapabileceğinizi anlatmaktadır. Eğer sorunuza "
+"bu klavuzda cevap bulamazsanız, help@rt.torproject.org adresinden e-posta "
+"ile yardım alabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -41,6 +45,8 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Lütfen bu desteği gönüllü olarak verdiğimizi unutmayın. Her gün çok sayıda "
+"e-posta alıyoruz. Eğer size hemen cevap yazamazsak merak etmeyin."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -97,6 +103,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Eğer hassas bilgiler gönderiyorsanız, örneğin bir web sitesine kullanıcı ve "
+"parola ile giriş yapıyorsanız, HTTPS kullandığınızdan emin olun (mesela "
+"**http**://torproject.org/ yerine **https**://torproject.org/ kullanın,)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -130,6 +139,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Tor yazılımını edinmenin iki farklı yolu vardır. Tarayıcınızla [Tor Projesi "
+"web sayfasına](https://www.torproject.org/) erişerek oradan "
+"indirebilirsiniz, veya otomatik e-posta sistemi GetTor'u kullanabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:53
