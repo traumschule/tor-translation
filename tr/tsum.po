@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 03:20+0000\n"
+"PO-Revision-Date: 2012-01-06 07:12+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -326,6 +326,8 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"İndirdiğiniz paketin imzasını kontrol etmek için aşağıdaki komutu "
+"çalıştırın:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -334,6 +336,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -354,6 +358,13 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"İmzanın doğruluğunu kontrol edip komutun çıktısında *\"Good signature\"* "
+"ifadesini gördükten sonra artık paket arşiv dosyasını açabilirsiniz. "
+"Arşivden  **tor-browser_en-US** benzeri bir isim taşıyan bir klasör "
+"çıkacaktır. Bu klasörün altında **Docs** isimli diğer bir klasörün "
+"içerisinde **changelog** adında bir dosya bulunmaktadır. Bu dosyayı "
+"açtığınızda dosyanın başındaki sürüm numarasının paket dosyasının ismindeki "
+"sürüm numarası ile aynı olduğundan emin olmalısınız."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -371,6 +382,12 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Tor Tarayıcı Paketini başlattığınızda, ilk olarak Vidalia programının "
+"çalışarak sizi Tor ağına bağladığını göreceksiniz. Bundan sonra tarayıcının "
+"penceresinde Tor kullanmakta olduğunuzu teyid eden bir mesaj göreceksiniz. "
+"Bu mesaj  [https://check.torproject.org/](https://check.torproject.org/) web"
+" sitesini görüntüleyerek oluşturulmaktadır. Artık Tor üzerinden Interneti "
+"kullanabilirsiniz. "
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -379,6 +396,8 @@ msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
 msgstr ""
+"*Lütfen dikkat: Bilgisayarınızdaki mevcut tarayıcıyı değil, paket içerisinde"
+" gelen tarayıcıyı kullanmanız önem taşımaktadır.*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -395,6 +414,10 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Eğer normal Internet bağlantınız çalıştığı halde Tor ağına bağlantı "
+"sağlanamıyorsa: Vidalia kontrol panelini açarak *Message Log* üzerine "
+"tıklayın ve *Advanced* sekmesini seçin. Tor aşağıdaki nedenlerden ötürü "
+"bağlanamıyor olabilir:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -404,6 +427,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**Sistem saatiniz yanlış**: Bilgisayarınızdaki tarih ve zamanın doğru "
+"olduğundan emin olun ve Tor'u yeniden başlatın. Bilgisayarınızı saati bir "
+"Internet zaman sunucusundan alacak şekilde ayarlamanız gerekebilir.\n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -414,6 +440,11 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**Bağlantı Kısıtlamaları getiren bir güvenlik duvarının arkasında "
+"olabilirsiniz**: Tor'un sadece 80 ve 443 numaralı portları kullanmasını "
+"sağlamak için, Vidalia kontrol panelini açarak önce *Settings*, ardından "
+"*Network*'e tıklayın. *My firewall only lets me connect to certain ports* "
+"seçeneğini aktif hale getirin.\n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -423,6 +454,9 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Anti-virüs programınız Tor'u engelliyor olabilir**: Anti-virüs "
+"programınızın Tor'un ağ bağlantıları kurmasına engel olmadığından emin "
+"olun.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -431,6 +465,9 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Tor hala çalışmıyorsa, Internet servis sağlayıcınız Tor bağlantılarını "
+"blokluyor olabilir. Bu bloklama, çoğunlukla **Tor köprüleri** (Tor bridges),"
+" yani gizli aktarma sunucuları kullanılarak aşılabilir."
 
 #. type: Plain text
 #: en/tsum.text:195
