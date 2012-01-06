@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 01:39+0000\n"
+"PO-Revision-Date: 2012-01-06 02:11+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,10 +83,10 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
-"Tor will anonymize the origin of your traffic, and it will encrypt "
-"everything between you and the Tor network. Tor will also encrypt your "
-"traffic inside the Tor network, but it cannot encrypt your traffic between "
-"the Tor network and its final destination."
+"Tor, Internet trafiğinizi Tor ağı üzerinden geçirdiği için bağlantıların "
+"başlangıç noktasını belirsiz kılar. Bilgisayarınız ile Tor ağı arasındaki "
+"tüm bağlantıları ve Tor ağı içerisindeki trafiği şifreler.  Ancak Tor ağı "
+"ile bağlantıların nihai hedefi arasındaki trafiği şifreleyemez."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -103,6 +103,8 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
+"Tor nasıl indirilir\n"
+"-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -113,6 +115,11 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
+"Kullanıcıların büyük çoğunluğu için [Tor Tarayıcı "
+"Paketini](https://www.torproject.org/projects/torbrowser.html) tavsiye "
+"ediyoruz. Bu paket Interneti Tor üzerinden kullanmanız için önceden "
+"ayarlanmış, ayrıca kurulum gerektirmeyen bir tarayıcı içermektedir. "
+"Kullanmak için paketi indirip, arşivi açarak Tor'u başlatmanız yeterlidir."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -136,6 +143,9 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"Tor Tarayıcı Paketini ayrıca Mac OS X (**macos-i386** yazarak), ve Linux "
+"(32-bit sistemler için **linux-i386** veya 64-bit sistemler için **linux-"
+"x86_64** yazarak) isteyebilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -143,6 +153,8 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
+"If you want a translated version of Tor, write **help** instead. You will "
+"then receive an email with instructions and a list of available languages."
 
 #. type: Plain text
 #: en/tsum.text:67
