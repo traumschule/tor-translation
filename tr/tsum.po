@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 09:12+0000\n"
+"PO-Revision-Date: 2012-01-06 16:36+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -252,6 +252,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"### Tor sürümünü kontrol etmek\n"
+"Tor Tarayıcı Paketini çalıştırmadan önce doğru sürümü kullandığınızdan emin olun."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -380,6 +382,10 @@ msgid ""
 "about where you downloaded the package from, how you verified the signature,"
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
+"Çıktıda *\"Good signature\"* yazmalıdır. Doğrulanamayan, kötü bir imza dosya"
+" ile oynandığı anlamına gelir. Eğer kötü bir imzaya rastlarsanız, paketi "
+"nereden indirdiğinizi, imzayı nasıl kontrol ettiğinizi ve GnuPG komutunun "
+"çıktısını içeren bir e-postayı help@rt.torproject.org adresine gönderin."
 
 #. type: Plain text
 #: en/tsum.text:147
