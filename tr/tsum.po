@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 08:40+0000\n"
+"PO-Revision-Date: 2012-01-06 09:12+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -149,6 +149,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### E-posta ile Tor\n"
+"Windows için İngilizce Tor Tarayıcı Paketini e-posta ile almak için, gettor@torproject.org adresine içerisinde **windows** yazan bir mesaj göndermeniz yeterlidir. E-postanın konu alanını boş bırakabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -181,6 +183,8 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Not**: Linux ve Mac OS X için Tor Tarayıcı Paketleri oldukça büyük dosyalardır. Bu paketleri bir Gmail, Hotmail veya Yahoo e-posta hesabından alamazsınız. Bu durumda pakete erişmek için kullanabileceğiniz web adreslerini öğrenmek için help@rt.torproject.org adresine bir e-posta atın.\n"
+"\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -188,6 +192,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### Tor'u küçük paketler halinde almak\n"
+"Windows Tor Tarayıcı Paketini tek bir büyük paket yerine küçük paketlere bölünmüş halde isteyebilirsiniz. Küçük paketler, iyi bir Internet bağlantınız olmadığı durumda veya e-posta sağlayıcınız büyük eklentilere izin vermiyorsa faydalı olacaktır."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -205,8 +211,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
-"pencereler    \n"
-"ayır\n"
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -215,6 +221,9 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"*split* kelimesini ayrı satıra yazmanız önem taşımaktadır. Küçük paketlerin "
+"açılıp birleştirilmesi ile ilgili bilgileri *Bölünmüş paketleri ne "
+"yapacağım* başlığı altında bulabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -222,6 +231,9 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### Akıllı telefonlar için Tor\n"
+"Android telefonunuzda Tor kullanmak için *Orbot* isimli uygulamayı kurmanız yeterlidir. Orbot'un indirip kurmak için gerekli bilgileri\n"
+"[Tor Projesi web sayfasında](https://www.torproject.org/docs/android.html.en) bulabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -230,6 +242,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"Ayrıca [Nokia Maemo/N900](https://www.torproject.org/docs/N900.html.en) ve "
+"[Apple iOS](http://sid77.slackware.it/iphone/) için deneysel Tor paketleri "
+"mevcuttur."
 
 #. type: Plain text
 #: en/tsum.text:97
