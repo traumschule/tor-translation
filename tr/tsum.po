@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 07:37+0000\n"
+"PO-Revision-Date: 2012-01-06 07:54+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,8 @@ msgstr ""
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
 msgstr ""
+"# Kısa Kullanıcı Klavuzu\n"
+"\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -181,6 +183,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Bir e-postanın içerisine aşağıdaki kelimeleri yazarak gettor@torproject.org "
+"adresine gönderin:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -189,6 +193,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"pencereler    \n"
+"ayır\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -619,6 +625,9 @@ msgid ""
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
 msgstr ""
+"Arşivin açılması tamamlandığında aynı dizinde yeni oluşturulmuş bir \".exe\""
+" dosyası  göreceksiniz. Bu dosyayı çalıştırın ve Tor Tarayıcı Paketinin "
+"başlamasını bekleyin."
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -679,6 +688,10 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Pek çok YouTube videosu HTML5 ile çalışmaktadır. Bu videoları Tor üzerinden "
+"seyretmek mümkün olmaktadır. Bunun için YouTube web sitesindeki [HTML5 "
+"trial](https://www.youtube.com/html5) sayfasından HTML5 deneme programına "
+"dahil olmanız gerekmektedir."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -687,6 +700,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Gizlilik ayarları nedeniyle tarayıcı kapatıldığında deneme programına "
+"katıldığınızı hatırlamayacaktır. Tor Tarayıcı Paketini yeniden "
+"çalıştırdığınızda deneme programına tekrar katılmanız gerekecektir."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -694,6 +710,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Ayrıntılı bilgiyi [Torbutton FAQ](https://www.torproject.org/torbutton"
+"/torbutton-faq.html#noflash) sayfasında bulabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:321
