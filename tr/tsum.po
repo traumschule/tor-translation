@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-06 02:11+0000\n"
+"PO-Revision-Date: 2012-01-06 02:41+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -153,8 +153,9 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
-"If you want a translated version of Tor, write **help** instead. You will "
-"then receive an email with instructions and a list of available languages."
+"Eğer Tor'un farklı dile çevrilmiş bir sürümünü istiyorsanız **help** yazın. "
+"Yanıt olarak mevcut dil seçeneklerini ve indirme talimatlarını içeren bir "
+"e-posta alacaksınız."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -227,6 +228,10 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"Yazılım ile birlikte paketle aynı ismi taşıyan ve **.asc** uzantılı bir "
+"dosya daha alacaksınız. Bu .asc dosyası bir GPG imzasıdır. Bu imzayı kontrol"
+" ederek indirdiğiniz dosyanın gerçekten bizim size gönderdiğiniz dosya "
+"olduğundan emin olabilirsiniz."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -235,6 +240,8 @@ msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
 msgstr ""
+"İmzayı kontrol etmek için GnuPG programını indirip kurmanız gerekmektedir:"
+"   \n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -244,6 +251,9 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: Pek çok Linux dağıtımı GnuPG kurulu olarak gelmektedir.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
@@ -251,6 +261,8 @@ msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
 msgstr ""
+"Aşağıdaki komutları ve dizin yollarını kendi sisteminizde çalışacak şekilde "
+"değiştirmeniz gerekebilir."
 
 #. type: Plain text
 #: en/tsum.text:115
