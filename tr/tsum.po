@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-07 15:09+0000\n"
+"PO-Revision-Date: 2012-01-07 17:45+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -518,6 +518,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Tor'un neden bağlanamadığını anlamak için yardıma ihtiyacınız olursa "
+"help@rt.torproject.org adresine kayıt dosyasından problemle ilgili kısımları"
+" içeren bir e-posta gönderin."
 
 #. type: Plain text
 #: en/tsum.text:203
