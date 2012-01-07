@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-07 17:45+0000\n"
+"PO-Revision-Date: 2012-01-07 18:36+0000\n"
 "Last-Translator: canacar <canacar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -528,6 +528,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Köprü nasıl bulunur\n"
+"Köprü kullanmak için öncelikle köprünün adresini bilmek gerekir. Bunun için web tarayıcınızla [bridges.torproject.org](https://bridges.torproject.org/) adresine bağlanabilir, veya bridges@torproject.org adresine bir e-posta gönderebilirsiniz. Eğer e-posta gönderirseniz, lütfen e-postanın içerisinde **get bridges** yazdığınıza emin olun. Yoksa bir cevap gönderilmeyecektir. Ayrıca, bu e-postanın bir gmail.com veya yahoo.com adresinden gönderilmesi gerekmektedir."
 
 #. type: Plain text
 #: en/tsum.text:208
@@ -549,6 +551,8 @@ msgid ""
 "### How to use a bridge\n"
 "Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
 msgstr ""
+"### Köprü nasıl kullanılır\n"
+"Kullanacağınız köprülerin adreslerini öğrendikten sonra, Vidalia kontrol panelini açarak önce *Settings*, ardından *Network*'e tıklayın. Bu sayfadaki *My ISP blocks connections to the Tor network* seçeneğini seçin. Köprüleri altındaki kutuya girerek  *OK* düğmesine basın ve Tor'u yeniden başlatın."
 
 #. type: Plain text
 #: en/tsum.text:220
