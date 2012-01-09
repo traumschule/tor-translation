@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-09 21:43+0000\n"
+"PO-Revision-Date: 2012-01-09 21:57+0000\n"
 "Last-Translator: jan kowalski <janfkowalski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,6 +47,8 @@ msgid ""
 "How Tor works\n"
 "-------------\n"
 msgstr ""
+"Jak działa Tor\n"
+"-------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -82,6 +84,9 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Tor ukryje pochodzenie Twojego zapytania, oraz zaszyfruje Twoje zapytania "
+"wewnątrz sieci Tor, ale nie zaszyfruje Twoich zapytań pomiędzy siecią Tor a "
+"jakoś tak."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -98,6 +103,8 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
+"Jak pobrać Tor\n"
+"-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -282,6 +289,7 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"W celu weryfikacji podpisu pobranego pakietu, uruchom poniższą komendę:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -290,6 +298,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
+"US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -488,6 +498,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows XP\n"
+"1. Otwórz *Mój Komputer*\n"
+"2. Kliknij *Narzędzia* i wybierz *Opcje Folderów...* w menu\n"
+"3. Klinkij *Widok* tab\n"
+"4. Odznacz *Ukryj rozszerzenia znanych typów plików* i kliknij *OK*"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -605,5 +620,7 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
+"### Why Tor is slow\n"
+"Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 
 
