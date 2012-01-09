@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <demonuk9@gmail.com>, 2012.
 #   <jonny_nut@hotmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-28 03:05+0000\n"
-"Last-Translator: jonny_nut <jonny_nut@hotmail.com>\n"
+"PO-Revision-Date: 2012-01-09 17:11+0000\n"
+"Last-Translator: PoopZemli <demonuk9@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# Короткий посібник користувача\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -284,6 +285,8 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"Для того, щоб перевірити сигнатуру пакунку, який ви завантажили, виконайте "
+"наступну команду:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -292,6 +295,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -466,6 +471,8 @@ msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
 msgstr ""
+"## Часті питання\n"
+"Цей розділ дасть відповіді на деякі найбільш поширені запитання. Якщо ваше питання не згадується тут, надішліть електронного листа на адресу help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -574,6 +581,8 @@ msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
 msgstr ""
+"### Flash не працює\n"
+"З міркувань безпеки Flash, Java та інші плагіни вимнені. Вони працюють незалежно від Firefox та можуть виконати дії, які зруйнують вашу анонімність."
 
 #. type: Plain text
 #: en/tsum.text:308
