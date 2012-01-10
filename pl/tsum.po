@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-10 20:06+0000\n"
+"PO-Revision-Date: 2012-01-10 20:31+0000\n"
 "Last-Translator: jan kowalski <janfkowalski@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# The Short User Manual\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -224,7 +224,7 @@ msgstr ""
 msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
-msgstr ""
+msgstr "Przed weryfikacją podpisu, należy pobrać i zainstalować GnuPG:   \n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -322,6 +322,12 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"Jeśli podpis się zgadza oraz pojawił się komunikat *\"Good signature\"* "
+"wyodrębnij pliki z archiwum pakietu. Po czym powinien być widoczny folder "
+"podobny do **-tor-browser_en-US**. W środku tego folderu znajduje się inny "
+"folder o nazwie **Docs**, który zawiera plik o nazwie **changelog**. Należy "
+"się upewnić czy numer wersji znajdujący się na początku pliku changelog "
+"pasuje do numeru wersji w nazwie pliku. "
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -399,6 +405,9 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Jeżeli Tor nadal nie działa, możliwe że Tor jest blokowany przez Twojego "
+"dostawcę usług internetowych (ISP). Często można użyć **Tor Bridges**, "
+"ukryte przekaźniki które są trudniejsze do zablokowania"
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -569,7 +578,7 @@ msgid ""
 "random control password. If you do not see a Reset button, or if Vidalia\n"
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
-msgstr ""
+msgstr "**Vidalia się wykoleiła, ale Tor jeszcze działa**:\n"
 
 #. type: Plain text
 #: en/tsum.text:298
