@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-15 09:14+0000\n"
+"PO-Revision-Date: 2012-01-15 09:39+0000\n"
 "Last-Translator: Hafiz Ismail <mhbinet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Manual pengguna ini mengandungi maklumat mengnai bagaimana memuat turun Tor,"
+" bagaimana menggunakan dan apakah yang boleh dibuat sekiranya Tor tidak "
+"dapat menyambungkan kepada rangkaian. Jika anda tidak dapat mencari jawapan,"
+" emailkan kepada help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,6 +43,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Ambil perharian bahawa kami menyediakan bantuan dengan sukarela, dan kami "
+"menerima banyak email setiap hari. Anda tidak perlu risau sekiranya kami "
+"tidak dapat melayan anda dengan segera."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -95,6 +102,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Sekiranya anda berhubung menggunakan maklumat sulit, contohnya log masuk ke "
+"website yang ada username dan password, pastikan anda menggunakan HTTPS "
+"(cth: **https**://torproject.org/, bukan **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -128,6 +138,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Ada terdapat dua cara untuk mendapat perisian Tor. Anda boleh mencari dalam "
+"[Website Projek Tor](https://www.torproject.org/) dan download di sana, atau"
+" boleh menggunakan GetTor, iaitu email autoresponder."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -135,6 +148,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Bagaimana mendapatkan Tor menggunakan email\n"
+"Untuk mendapatkan versi Tor Browser Bundle untuk Windows dalam Bahasa Inggeris, hantarkan email kepada gettor@torproject.org dengan **windows** pada isi kandungan mesej. Anda boleh membiarkan tajuk tidak diisi."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -166,6 +181,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Nota**: Browser Tor Bundle untuk Linux dan Mac OS X adalah mungkin\n"
+"besar, dan anda tidak akan mendapat bundle ini dengan akaun email\n"
+"Gmail, Hotmail atau Yahoo. Sekiranya anda tidak dapat menerima bundle\n"
+"yang dikehendaki, hantarkan email kepada help@rt.torproject.org dan kami\n"
+"akan memberikan senarai mirror website untuk digunakan.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -173,6 +193,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### Bagaimana mendapatkan Tor dalam paket kecil\n"
+"Anda boleh meminta untuk mendapatkan Browser Bundle Tor untuk Windows dalam beberapa paket kecil berbanding satu fail besar. Ini sangat berguna sekiranya anda tidak mempunyai bandwidth yang besar, atau provider tidak membenarkan anda menerima attachment besar."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -200,6 +222,10 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"Adalah penting untuk memasukkan keyword *split* dalam satu barisan. Lihat "
+"*What to do with split packages* untuk maklumat tentang bagaimana untuk "
+"mengetahui bagaimana untuk unpack dan menggabung semula paket yang "
+"dikecilkan."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -207,6 +233,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### Tor untuk smartphone\n"
+"Anda boleh mendapat Tor pada peralatan Android dengan menginsatall pakej dinamakan *Orbot*. Untuk maklumat lanjut mengenai bagaimana anda boleh muat turun dan install Orbot, sila rujuk [Website Projek Tor](https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -215,6 +243,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"Kami juga mempunyai pakej eksperimen untuk [Nokia "
+"Maemo/N900](https://www.torproject.org/docs/N900.html.en) dan [Apple "
+"iOS](http://sid77.slackware.it/iphone/)."
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -222,6 +253,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"### Bagaimana untuk menentukan anda ada versi yang betul\n"
+"Sebelum menjalankan Browser Bundle Tor, anda patut mengesahkan anda mempunyai versi yang betul."
 
 #. type: Plain text
 #: en/tsum.text:102
