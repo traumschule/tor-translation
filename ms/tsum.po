@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-15 08:12+0000\n"
+"PO-Revision-Date: 2012-01-15 08:44+0000\n"
 "Last-Translator: Hafiz Ismail <mhbinet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -251,6 +251,9 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)   \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)   \n"
+"**Linux**: Kebanyakan versi linux sudah ada GnuPG di dalamnya.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
@@ -258,6 +261,8 @@ msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
 msgstr ""
+"Ambil perhatian anda perlu mengubah maklumat path dan command used di bawah "
+"untuk membolehkan ia berjalan dalam sistem anda."
 
 #. type: Plain text
 #: en/tsum.text:115
@@ -265,28 +270,30 @@ msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
+"Tanda Erinn Clark untuk Browser Tor Bundles dengan kunci 0x63FEE659. Untuk "
+"import kunci Erinn, jalankan:"
 
 #. type: Plain text
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
-msgstr ""
+msgstr "»gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
 msgid "After importing the key, verify that the fingerprint is correct:"
-msgstr ""
+msgstr "Selepas memasukkan kunci, sahkan tandatangan adalah betul:"
 
 #. type: Plain text
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
-msgstr ""
+msgstr "»gpg  --fingerprint 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
 msgid "You should see:"
-msgstr ""
+msgstr "Anda patut lihat:"
 
 #. type: Plain text
 #: en/tsum.text:130
@@ -299,6 +306,12 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
+"»pub   2048R/63FEE659 2003-10-16\n"
+"»      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"»uid                  Erinn Clark <erinn@torproject.org>\n"
+"»uid                  Erinn Clark <erinn@debian.org>\n"
+"»uid                  Erinn Clark <erinn@double-helix.org>\n"
+"»sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
@@ -306,6 +319,8 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"Untuk mengesahkan tandatangan pakej yang sudah dimuat turun, jalankan arahan"
+" berikut:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -314,6 +329,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
+"US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -334,6 +351,12 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"Setelah anda mengesahkan tandatangan dan melihat *\"Good signature\"*, "
+"teruskan dengan mengekstrak pakej. Anda seterusnya boleh melihat direktori "
+"seperti **tor-browser_en-US**. Di dalam direktori ada terdapat direktori "
+"lain dipanggil **Docs**, yang mengandungi fail bernama **changelog**. Anda "
+"perlu memastikan nombor versi pada barisan atas fail changelog adalah sama "
+"dengan nombor pada nama fail."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -351,6 +374,12 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Apabila anda memulakan Tor Browser Bundle, anda boleh melihat Vidalia "
+"bermula dan menyambungkan anda kepada rangkaian Tor. Selepas itu, anda boleh"
+" melihat browser yang menunjukkan anda menggunakan Tor. Proses selesai "
+"setelah terpapar "
+"[https://check.torproject.org/](https://check.torproject.org/). Anda "
+"sekarang boleh menggunakan Internet melalui Tor."
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -359,6 +388,8 @@ msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
 msgstr ""
+"*Ambil perhatian adalah penting untuk anda menggunakan browser yang datang "
+"bersama bundle, elakkan menggunakan browser anda.*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -375,6 +406,10 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Sekiranya sambungan Internet berfungsi, tetapi Tor masih tidak boleh "
+"menyambung kepada rangkaian, cuba langkah berikut; buka Vidalia control "
+"panel, klik pada *Message Log* dan pilih *Advanced* tab. Adalah "
+"berkemungkinan Tor tidak bersambung kerana:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -384,6 +419,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**Your system clock is off**: Pastikan tarikh dan masa dalam sistem\n"
+"anda adalah betul, dan buka semula Tor. Anda mungkin perlu menyamakan \n"
+"masa sistem dengan server masa internet.     \n"
 
 #. type: Plain text
 #: en/tsum.text:183
