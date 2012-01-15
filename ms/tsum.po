@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-15 08:44+0000\n"
+"PO-Revision-Date: 2012-01-15 09:14+0000\n"
 "Last-Translator: Hafiz Ismail <mhbinet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# Manual Pengguna Ringkas\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -180,6 +180,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Hantar email ke gettor@torproject.org dengan perkataan berikut pada isi "
+"kandungan email:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -188,6 +190,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -432,6 +436,10 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**You are behind a restrictive firewall**: Untuk memberitahu Tor hanya mencuba port\n"
+"80 dan port 443, buka kontrol panel Vidalia, klik pada *Settings* dan\n"
+"*Network*, dan klik pada kotak bertanda *My firewall only lets me connect\n"
+"to certain ports*.     \n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -441,6 +449,9 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Your anti-virus program is blocking Tor**: Pastikan bahawa anti-virus\n"
+"anda tidak menghalang Tor daripada membuat sambungan\n"
+"rangkaian.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -449,6 +460,10 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Sekiranya Tor masih tidak berjalan, berkemungkinan besar Internet Service "
+"Provider (ISP) telah menghalang Tor. Sangat jarang hal ini boleh diatasi "
+"menggunakan **Tor bridges**, iaitu relay tersembunyi yang bukan mudah untuk "
+"disekat."
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -472,6 +487,10 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Konfigurasi lebih daripada satu bridge akan membuatkan sambungan Tor lebih "
+"stabil, dalam kes di mana bridge tidak dapat dihubungi. Tidak ada jaminan "
+"bahawa bridge digunakan hari ini dapat berjalan keesokan hari, jadi anda "
+"boleh memastikan senarai bridge sentiasa dikemaskini dengan kerap."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -493,16 +512,18 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Langkah di bawah menganggap anda sudah ada konfigurasi Tor/Vidalia, dan anda"
+" sudah menjumpai senarai HTTPS, SOCKS4, atau SOCKS5 proxy."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Buka kontrol panel Vidalia, klik pada *Settings*."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
-msgstr ""
+msgstr "Klik *Network*. Pilih *I use a proxy to access the Internet*."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -518,6 +539,14 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. Pada barisan *Address*, masukkan alamat open proxy. Ini boleh jadi \n"
+"hostname atau nombor IP.\n"
+"4. Masukkan port pada proxy.\n"
+"5. Biasanya, anda tidak memerlukan username dan password. Sekiranya anda\n"
+"perlu, masukkan maklumat pada ruangan diperlukan.\n"
+"6. Pilih *Type* proxy yang digunakan samaada HTTP/HTTPS, SOCKS4,\n"
+"atau SOCKS5.\n"
+"7. Tekan butang *OK*. Vidalia dan Tor sekarang disetkan untuk menggunakan proxy untuk mengakses rangkaian Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -585,6 +614,9 @@ msgid ""
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
 msgstr ""
+"Setelah proses ekstrak fail berjaya, anda boleh melihat fail \".exe\" yang "
+"dibuat pada direktori yang sama. Jalankan fail ini dan tunggu Browser Tor "
+"Bundle mula berjalan."
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -603,6 +635,11 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**You are already running Vidalia and Tor**:\n"
+"Contohnya, ini mungkin berlaku sekiranya anda memasang bundle Vidalia\n"
+"dan anda mencuba jalankan Browser Tor Bundle. Dalam kes ini,\n"
+"anda perlu tutup Vidalia lama dan Tor sebelum menjalankan yang\n"
+"baru.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -615,6 +652,12 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia crashed, but left Tor running**:\n"
+"Jika dialog meminta anda memasukkan control password yang mempunyai butang\n"
+"Reset, anda boleh klik butang tersebut dan Vidalia akan memulakan semula Tor\n"
+"dengan password control rawak yang baru. Sekiranya anda tidak dapat melihat butang\n"
+"Reset, atau Vidalia tidak dapat memulakan semula Tor; buka process atau task manager,\n"
+"dan tamatkan proses Tor. Kemudian gunakan Vidalia untuk memulakan semula Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -623,6 +666,9 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"Untuk maklumat lanjut, lihat "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) pada laman web "
+"Tor Project."
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -638,6 +684,10 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Kebanyakan video YouTube dapat dijalankan dengan HTML5, dan anda boleh "
+"melihat video menggunakan Tor. Anda perlu join [HTML5 "
+"trial](https://www.youtube.com/html5) dalam website YouTube sebelum boleh "
+"menggunakan player HTML5."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -646,6 +696,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Catatan: browser tidak akan ingat bahawa anda sudah join trial setelah anda "
+"tutup, jadi anda perlu join semula setiap kali menjalankan Browser Tor "
+"Bundle."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -653,6 +706,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Sila lihat [Torbutton FAQ](https://www.torproject.org/torbutton/torbutton-"
+"faq.html#noflash)  untuk maklumat lanjut."
 
 #. type: Plain text
 #: en/tsum.text:321
