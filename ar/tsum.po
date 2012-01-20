@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-20 19:10+0000\n"
+"PO-Revision-Date: 2012-01-20 19:44+0000\n"
 "Last-Translator: Ahmad LuvSy <donotplay@hotmail.ca>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
-"التور يجعل مصدر تدفق بياناتك مجهول بالإضافة إلي أنه يقوم بتشفير كل شئ بينك "
+"تور يجعل مصدر تدفق بياناتك مجهول بالإضافة إلي أنه يقوم بتشفير كل شئ بينك "
 "وبين شبكة تور ، أيضاً يقوم بتشفير حركة البيانات داخل شبكة تور نفسها ، ولكنه "
 "لا يستطيع تشفير حركة البيانات ما بين شبكة تور و والمكان المقصود"
 
@@ -120,7 +120,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr "كيف تنزّل طور\n"
+msgstr "كيف تنزّل تور\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -133,7 +133,7 @@ msgid ""
 msgstr ""
 "الحزمة التي ننصح بها أغلب المستخدمين هي حزمة تور للتصفح \n"
 "(https://www.torproject.org/projects/torbrowser.html) \n"
-"تحتوي هذه الحزمة على متصفحة تم إعداده مسبقاً حتى يجعل تصفح الإنترنت أمناً عن طريق تور وهو لا يحتاج إلي تنصيب ، كل ما عليك هو تحميل الحزمة وفك ضغطها ومن ثم استخدام برنامج تور"
+"تحتوي هذه الحزمة على متصفحة تم إعداده مسبقاً حتى يجعل تصفح الإنترنت أمناً عن طريق تور وهو لا يحتاج إلى تنصيب ، كل ما عليك هو تحميل الحزمة وفك ضغطها ومن ثم استخدام برنامج تور"
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -162,8 +162,8 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
-"  Mac OS X يمكنك أيضاً طلب متصف تور ل \n"
-"(write **macos-i386**), and Linux (write **linux-i386** for 32-bit systems or **linux-x86_64** for 64-bit systems)."
+"  Mac OS X يمكنك أيضاً طلب متصفح تور ل \n"
+"(اكتب**macos-i386**),  و Linux (اكتب**linux-i386** لأنظمة 32 بت أو **linux-x86_64**لأنظمة 64 بت)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -266,9 +266,9 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
-"البرنامج الذي ستقوم باستخدامه يأتي مرفقاً مع ملف توقيع الكتروني بلاحقة "
-"مختلفة .asc يعتبر هذا الملف التوقيع الالكتروني من نوع GPG والذي سيسمح لك "
-"بالتحقق من الملف الذي قمت بتحميله."
+"ويرافق البرمجيات التي تتلقاها ملف له نفس اسم الحزمة والإمتداد **.asc**. هذا "
+"الملف.asc هو توقيع المنافع العامة العالمية، وسوف يسمح لك من التحقق من أن "
+"الملف الذي حملته هو بالضبط الملف الذي أردنا لك للحصول عليه."
 
 #. type: Plain text
 #: en/tsum.text:105
