@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-20 19:44+0000\n"
+"PO-Revision-Date: 2012-01-20 20:08+0000\n"
 "Last-Translator: Ahmad LuvSy <donotplay@hotmail.ca>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -288,11 +288,11 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
-"**ويندوز**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)\n"
+"**أنظمة ويندوز**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)\n"
 "\n"
-"**ماك او اس اكس**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)\n"
+"** أنظمة ماك او اس اكس**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)\n"
 "\n"
-"**لينكس**: Most Linux distributions come with GnuPG preinstalled.\n"
+"**أنظمة لينكس**: Most Linux distributions come with GnuPG preinstalled.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
@@ -316,7 +316,7 @@ msgstr ""
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
-msgstr "»gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
+msgstr "»gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659 \n"
 
 #. type: Plain text
 #: en/tsum.text:119
@@ -472,7 +472,7 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
-"**أنت خلف جدار ناري مقيّد**: من أجل جعل طور يقوم بتجريب المنافذ 80 و 443 فقط,افتح لوحة تحكم فيداليا, انقر على *الأعدادات* و\n"
+"**أنت خلف جدار ناري مقيّد**: من أجل جعل تور يقوم بتجريب المنافذ 80 و 443 فقط,افتح لوحة تحكم فيداليا, انقر على *الأعدادات* و\n"
 "*الشبكة*, وضع اشارة على الصندوق الذي يقول *جداري الناري يسمح لي بالاتصال بمنافذ محددة*.     \n"
 
 #. type: Plain text
@@ -483,8 +483,8 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
-"**برنامج مكافحة الفيروس يقوم بمنع طور**: تأكد من الآتي\n"
-"برنامج مكافحة الفيروس لا يقوم بمنع طور من إجراء اتصال بالشبكة.\n"
+"**برنامج مكافحة الفيروسات لديك يمنع تور من الاتصال**: تأكد من الآتي\n"
+"برنامج مكافحة الفيروس لا يقوم بمنع تور من إجراء اتصال بالشبكة.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -493,8 +493,8 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
-"اذا لم يعمل طور, على الأغلب أن مزود الخدمة لديك (ISP) يقوم بحجب طور. في أغلب"
-" الأحيان يمكنك تجاوز هذه المشكلة عبر **جسور طور**, مبدلات مخفية ليس من السهل"
+"اذا لم يعمل تور, على الأغلب أن مزود الخدمة لديك (ISP) يقوم بحجب طور. في أغلب"
+" الأحيان يمكنك تجاوز هذه المشكلة عبر **جسور تور**, مبدلات مخفية ليس من السهل"
 " حجبها."
 
 #. type: Plain text
@@ -559,13 +559,12 @@ msgstr ""
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr "إفتح لوحة تحكم فيداليا وإضغط على *إعدادات* ."
+msgstr "افتح لوحة تحكم فيداليا وإضغط على *إعدادات* ."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
-msgstr ""
-"إضغط على * شبكة * وقم بإختيار *أنني استخدم بروكسي للوصول إلي الإنترنت * ."
+msgstr "اضغط على * شبكة * وقم بإختيار * أستخدم بروكسي للوصول إلى الإنترنت * ."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -581,7 +580,7 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
-"3. في اطار العنوان قم باضدخالة عنوان مفتوح عبر البروكسي , قد يكون موقع اسم استضافة او عنوان IP\n"
+"3. في اطار العنوان قم بإدخالة عنوان مفتوح عبر البروكسي , قد يكون موقع اسم استضافة او عنوان IP\n"
 "4. قم بإدخال المنفذ الخاص بالبروكسي\n"
 "5. بالشكل العام انت لاتحتاج لاسم مستخدم و كلمة سر , و اذا قمت بذلك قم بادخال المعلومات في اماكنها الصحيحة\n"
 "6. قم بتحديد نوع البروكسي الذي تود استخدامه اياً كان HTTP/HTTPS, SOCKS4, او SOCKS5\n"
