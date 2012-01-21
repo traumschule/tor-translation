@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-21 09:13+0000\n"
+"PO-Revision-Date: 2012-01-21 09:28+0000\n"
 "Last-Translator: Trikki <eneko.sanchez@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -84,6 +84,10 @@ msgid ""
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
 msgstr ""
+"Tor-ek zure trafikoaren iturria anonimo bihurtarazten du, eta zure eta Tor-"
+"en arteko guztia enrkiptatuko du. Tor-ek bere barneko trafikoa ere "
+"enkriptatuko du, baina ezin du zure trafikoa enkriptatu Tor sarea eta bere "
+"azkeneko helmuga bitartean."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -100,6 +104,8 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
+"Nola jaitsi Tor\n"
+"-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -110,6 +116,11 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
+"Erabiltzaile gehienentzat gomendagarria den sorta hauxe da [Tor Browser "
+"Bundle] (https://www.torproject.org/projects/torbrowser.html). Sorta honek "
+"bereziki Tor bidez Interneten era seguruan aritzeko konfiguratutako "
+"nabigatzaile bat darabil, eta ez dago instalatu beharrik. Besterik gabe "
+"jaitsio ezazu sorta, deskonpromitu artxiboa, eta ekin Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -133,6 +144,9 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"Mac OS X sistemarentzako era lortu dezakezu Tor Browser (idatzi "
+"**macos-i386**), eta Linux sistementzako (idatzi **linux-i386** 32-bitekoa "
+"bada edo **linux-x86_64**  64-biteko sistementan)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -140,6 +154,8 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
+"Tor-en bertsio itzulia nahi baduzu, idatzi **help**. Orduan, email bat "
+"jasoko duzu instrukzioekin, erabilgarri dauden hizkuntzen zerrenda batekin."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -212,6 +228,9 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"Jasoko duzun softwarea sortaren izen bereko fitxategi batekin dator **.asc**"
+" luzapenarekin. GPG sinadura bat da .asc fitxategi hori, eta jaitsi duzun "
+"artxiboa zehazki jaitsi nahi zenuena dela frogatzen lagunduko dizu."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -220,6 +239,8 @@ msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
 msgstr ""
+"Sinadura frogatu aurretik, GnuPG programa jaitsi era instalatu beharko duzu:"
+"   \n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -229,6 +250,9 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: Linux distribuzio gehienek GnuPG aurreinstalatua dakarte.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
