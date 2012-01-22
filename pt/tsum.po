@@ -6,13 +6,14 @@
 #   <caiocajazeiras12@gmail.com>, 2011.
 #   <e.nertt@gmail.com>, 2011.
 #   <flavioamieiro@gmail.com>, 2012.
+#   <guiganovo@hotmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-02 23:59+0000\n"
-"Last-Translator: flavioamieiro <flavioamieiro@gmail.com>\n"
+"PO-Revision-Date: 2012-01-22 14:27+0000\n"
+"Last-Translator: Reibr <guiganovo@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -443,6 +444,9 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Seu antivírus está bloqueando o Tor**: Garanta que seu (/n)\n"
+"antivírus não esteja impedindo o Tor de fazer conexões (/n)\n"
+"de rede (/n)\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -451,6 +455,10 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Se o Tor ainda não está funcionando, é provável que o seu Fornecedor de "
+"Acesso à Internet (ISP) esteja bloqueando Tor. Muito frequentemente, isso "
+"pode ser corrigido usando **pontes doTor**, retransmissores escondidos que "
+"não são tão fáceis de bloquear."
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -474,6 +482,10 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Configurar mais que um endereço ponte deixará a sua conexão com o Tor mais "
+"estável, no caso de alguma das pontes se tornar inacessível. Não há garantia"
+" que a ponte que você está usando agora irá funcionar amanhã, então você "
+"deveria ter o hábito de atualizar a sua lista de pontes frequentemente."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -495,6 +507,8 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Os próximos passos assumem que você tem uma configuração Tor/Vidalia "
+"funcional, e que você achou uma lista de proxies HTTPS, SOCKS4 ou SOCKS5."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
@@ -506,6 +520,7 @@ msgstr ""
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"Clique em *Rede*. Selecione *Eu uso um proxy para acessar a Internet*."
 
 #. type: Plain text
 #: en/tsum.text:235
