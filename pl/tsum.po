@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-23 19:41+0000\n"
+"PO-Revision-Date: 2012-01-23 20:11+0000\n"
 "Last-Translator: Tomasz Gruzewski <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -144,6 +144,9 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"Możesz także zażądać pakiet przeglądarki Tor dla Mac OS X (wpisz "
+"**macos-i386**), lub Linux-a (wpisz **linux-i386** dla systemow 32-bitowych "
+"lub **linux-x86_64** dla systemów 64-bitowych)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -151,6 +154,8 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
+"Jeśli chcesz przetłumaczoną wersję Tor-a, wpisz **help** zamiast. Otrzymasz "
+"wtedy email-a z instrukcjami i listą dostępnych języków."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -223,6 +228,10 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"Oprogramowaniu, które otrzymasz towarzyszy plik o tej samej nazwie jak "
+"pakiet, ale z rozszerzeniem **.asc**. Ten plik .asc jest podpisem GPG i "
+"pozwoli Ci zweryfikować czy ściągnięty pakiet jest dokładnie tym, którego "
+"oczekiwałeś-aś."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -259,12 +268,14 @@ msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
+"Erinn Clark podpisuje pakiet przeglądarki Tor kluczem 0x63FEE659. Aby "
+"zaimportować klucz Erinn uruchom:"
 
 #. type: Plain text
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
-msgstr ""
+msgstr ">>gpg --keyserver hkp:/keys.gnupg.net     recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
@@ -510,6 +521,10 @@ msgid ""
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
 msgstr ""
+"Jeśli nie możesz ściągnąć 7-Zip, spróbuj zmienić rozszerzenie pliku z .z na "
+".zip i użyj winzip do rozpakowania archiwum. Przed zmianą rozszerzenia jeśli"
+" tego jeszcze nie zrobiłeś-aś będzie konieczne odznaczenie w opcjach folderu"
+" \"Ukryj znane rozszerzenia plików\""
 
 #. type: Plain text
 #: en/tsum.text:254
