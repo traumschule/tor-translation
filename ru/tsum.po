@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <liquixis@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-11-05 21:28+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2012-01-31 22:14+0000\n"
+"Last-Translator: liquixis <liquixis@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.net/projects/p/torproject/team/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +47,8 @@ msgid ""
 "How Tor works\n"
 "-------------\n"
 msgstr ""
+"Как работает Tor\n"
+"----------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
