@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+#   <jukka.mieskonen@suomi24.fi>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2011-10-12 13:07+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2012-02-02 08:06+0000\n"
+"Last-Translator: com234 <jukka.mieskonen@suomi24.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,6 +47,8 @@ msgid ""
 "How Tor works\n"
 "-------------\n"
 msgstr ""
+"Kuinka Tor toimii\n"
+"-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -93,6 +96,8 @@ msgid ""
 "How to download Tor\n"
 "-------------------\n"
 msgstr ""
+"Kuinka ladata Tor\n"
+"--------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
