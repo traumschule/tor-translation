@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-08 17:40+0000\n"
+"PO-Revision-Date: 2012-02-08 17:56+0000\n"
 "Last-Translator: Russlan K <russlank@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -122,7 +122,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr "كيف تنزّل تور\n"
+msgstr "كيف تحمل الـ Tor\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -133,9 +133,8 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
-"الحزمة التي ننصح بها أغلب المستخدمين هي حزمة تور للتصفح \n"
-"(https://www.torproject.org/projects/torbrowser.html) \n"
-"تحتوي هذه الحزمة على متصفحة تم إعداده مسبقاً حتى يجعل تصفح الإنترنت أمناً عن طريق تور وهو لا يحتاج إلى تنصيب ، كل ما عليك هو تحميل الحزمة وفك ضغطها ومن ثم استخدام برنامج تور"
+"الرزمة التي ننصح بها أغلب المستخدمين هي [Tor Browser Bundle] \n"
+"(https://www.torproject.org/projects/torbrowser.html). تحتوي هذه الحزمة على مستعرض ويب تم إعداده مسبقاً حتى يجعل تصفح الإنترنت أمناً عبر الـ Tor و الذي لا يحتاج إلى تنصيب. كل ما عليك هو تحميل الرزمة، فك ضغطها، والبدئ بتشغيل برنامج الـ Tor"
 
 #. type: Plain text
 #: en/tsum.text:48
