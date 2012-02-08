@@ -9,14 +9,15 @@
 #   <dlshad@eodet.com>, 2011.
 # Mohamed Elgindy <melgindy@gmail.com>, 2011.
 # Mohammed Babiker <sudanhacker@hotmail.com>, 2011.
+# Russlan K <russlank@gmail.com>, 2012.
 #   <SoEnLion@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-01-20 20:21+0000\n"
-"Last-Translator: Ahmad LuvSy <donotplay@hotmail.ca>\n"
+"PO-Revision-Date: 2012-02-08 17:05+0000\n"
+"Last-Translator: Russlan K <russlank@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,10 +71,10 @@ msgid ""
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
 msgstr ""
-"التور شبكة تتكون من قنوات إفتراضية تسمح لك بتحسين خصوصيتك وأمنك في الإنترنت "
-". يعمل تور عن طريق إرسال بياناتك عبر ثلاثة خوادم إفتراضية (تعرف أيضاً بإسم "
-"المرحلات) توجد داخل شبكة تور وذلك قبل أن تصل البيانات إلي شبكة الإنترنت "
-"العامة ."
+"التور شبكة تتكون من قنوات، أو الأنفاق، إفتراضية تسمح لك بتحسين خصوصيتك وأمنك"
+" على الإنترنت. يعمل الـ Tor عن طريق إرسال بياناتك عبر ثلاثة خوادم منتقاة "
+"عشوائياً (تعرف أيضاً بإسم المبدلات) , و المتواجدة ضمن شبكة الـ Tor، وذلك قبل"
+" أن ترسل البيانات المنقولة خارجاً إلي شبكة الإنترنت العامة."
 
 #. type: Plain text
 #: en/tsum.text:21
