@@ -1,0 +1,735 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR The Tor Project, Inc
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+#   <lemoned@live.com>, 2011.
+#   <samxli@hotmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: The Tor Project\n"
+"Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
+"POT-Creation-Date: 2011-11-05 17:16+0000\n"
+"PO-Revision-Date: 2011-11-17 17:54+0000\n"
+"Last-Translator: LEMONed <lemoned@live.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#. type: Plain text
+#: en/tsum.text:2
+msgid "# The Short User Manual\n"
+msgstr ""
+"# 简明用户手册\n"
+"\n"
+
+#. type: Plain text
+#: en/tsum.text:7
+msgid ""
+"This user manual contains information about how to download Tor, how to use "
+"it, and what to do if Tor is unable to connect to the network. If you can't "
+"find the answer to your question in this document, email "
+"help@rt.torproject.org."
+msgstr ""
+"本用户手册的内容有：如何下载 Tor、如何使用 Tor，以及当 Tor 无法连接到网络时该怎么办。如果你没能在本手册内找到你需要的答案，请发送电子邮件至"
+" help@rt.torproject.org 。"
+
+#. type: Plain text
+#: en/tsum.text:11
+msgid ""
+"Please note that we are providing support on a voluntary basis, and we get a"
+" lot of emails every single day. There is no need to worry if we don't get "
+"back to you straight away."
+msgstr "请注意，我们是以自愿为基础提供支持，我们每天都收到大量的电子邮件。如果我们没有即时回复，请不要担心。"
+
+#. type: Plain text
+#: en/tsum.text:13
+#, no-wrap
+msgid ""
+"How Tor works\n"
+"-------------\n"
+msgstr ""
+"Tor 是如何工作的\n"
+"-------------\n"
+
+#. type: Plain text
+#: en/tsum.text:19
+msgid ""
+"Tor is a network of virtual tunnels that allows you to improve your privacy "
+"and security on the Internet. Tor works by sending your traffic through "
+"three random servers (also known as *relays*) in the Tor network, before the"
+" traffic is sent out onto the public Internet."
+msgstr ""
+"Tor 是一个由虚拟通道组成的网络，能改善你的互联网隐私与安全。在你的网络流量被发送至公共互联网之前，Tor 会先把它们经由 Tor "
+"网络中的三台随机服务器（也称为*“中继”*）传送。"
+
+#. type: Plain text
+#: en/tsum.text:21
+msgid "![How Tor Works](images/how-tor-works.png)"
+msgstr "![Tor 的工作原理](images/how-tor-works.png)"
+
+#. type: Plain text
+#: en/tsum.text:26
+msgid ""
+"The image above illustrates a user browsing to different websites over Tor. "
+"The green monitors represent relays in the Tor network, while the three keys"
+" represent the layers of encryption between the user and each relay."
+msgstr ""
+"上图描绘了一个用户通过 Tor 浏览不同的网站。绿色的显示器代表着 Tor 网络里的中继服务器，三把钥匙则代表该用户与每个中继之间的加密层。"
+
+#. type: Plain text
+#: en/tsum.text:31
+msgid ""
+"Tor will anonymize the origin of your traffic, and it will encrypt "
+"everything between you and the Tor network. Tor will also encrypt your "
+"traffic inside the Tor network, but it cannot encrypt your traffic between "
+"the Tor network and its final destination."
+msgstr ""
+"Tor 会把你的流量来源匿名化，并且把介于你和 Tor 网络中传送的所有内容加密。Tor 也会把你在 Tor 网络内部的流量加密，但不能加密 Tor "
+"网络与最终目的地之间的流量。"
+
+#. type: Plain text
+#: en/tsum.text:36
+msgid ""
+"If you are communicating sensitive information, for example when logging on "
+"to a website with a username and password, make sure that you are using "
+"HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
+msgstr ""
+"如果你是在交流敏感信息，例如以用户名和密码登录一个网站，请确保你在使用 HTTPS （如 **https**://torproject.org/，而不是"
+" **http**://torproject.org/）。"
+
+#. type: Plain text
+#: en/tsum.text:38
+#, no-wrap
+msgid ""
+"How to download Tor\n"
+"-------------------\n"
+msgstr ""
+"如何下载 Tor\n"
+"-------------------\n"
+
+#. type: Plain text
+#: en/tsum.text:44
+msgid ""
+"The bundle we recommend to most users is the [Tor Browser "
+"Bundle](https://www.torproject.org/projects/torbrowser.html). This bundle "
+"contains a browser preconfigured to safely browse the Internet through Tor, "
+"and requires no installation. You download the bundle, extract the archive, "
+"and start Tor."
+msgstr ""
+"我们向大多数用户推荐 [Tor "
+"浏览器软件包](https://www.torproject.org/projects/torbrowser.html)。此软件包内含一个预先配置好的浏览器，用于透过"
+" Tor 安全的浏览互联网，且无需安装。你只需下载软件包，解压缩，并运行 Tor。"
+
+#. type: Plain text
+#: en/tsum.text:48
+msgid ""
+"There are two different ways to get hold of the Tor software. You can either"
+" browse to the [Tor Project website](https://www.torproject.org/) and "
+"download it there, or you can use GetTor, the email autoresponder."
+msgstr ""
+"有两种方法可以获取到 Tor 软件。你可以浏览 [Tor Project 网站](https://www.torproject.org/) "
+"并下载，又或者使用自动回复的电邮服务 GetTor。"
+
+#. type: Plain text
+#: en/tsum.text:53
+msgid ""
+"### How to get Tor via email\n"
+"To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
+msgstr ""
+"### 如何通过电子邮件获取 Tor\n"
+"要获取用于 Windows 的 Tor 浏览器软件包英文版，请发送电子邮件至 gettor@torproject.org ，在正文区域内写上 **windows**。你可以把标题留空。"
+
+#. type: Plain text
+#: en/tsum.text:57
+msgid ""
+"You can also request the Tor Browser Bundle for Mac OS X (write "
+"**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
+"**linux-x86_64** for 64-bit systems)."
+msgstr ""
+"你也可以索要 Tor 浏览器软件包的 Mac OS X 版本（写上**“macos-i386”**），和 Linux "
+"版本（写上**“linux-i386”**注明32位系统或**“linux-x86_64”**注明64位系统）"
+
+#. type: Plain text
+#: en/tsum.text:61
+msgid ""
+"If you want a translated version of Tor, write **help** instead. You will "
+"then receive an email with instructions and a list of available languages."
+msgstr "如果你想要其它语言版本的 Tor 软件，请写上 **help**。你将收到一封电子邮件，内含指引以及现有的语言版本的列表。"
+
+#. type: Plain text
+#: en/tsum.text:67
+#, no-wrap
+msgid ""
+"**Note**: The Tor Browser Bundles for Linux and Mac OS X are rather\n"
+"large, and you will not be able to receive any of these bundles with a\n"
+"Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you\n"
+"want, send an email to help@rt.torproject.org and we\n"
+"will give you a list of website mirrors to use.\n"
+msgstr ""
+"**注意**：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，你无法通过 Gmail、Hotmail 或者 雅虎邮箱获取这些软件包。\n"
+"如果你无法获取你想要的软件包，请发送邮件至 help@rt.torproject.org ，我们会给提供你一份网站镜像列表。\n"
+
+#. type: Plain text
+#: en/tsum.text:73
+msgid ""
+"#### How to get Tor as several small sized packages\n"
+"It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
+msgstr ""
+"#### 如何以若干个小尺寸文件包的形式获取 Tor\n"
+"你也可以要求以若干个小尺寸文件包，而非一个大文件包的形式索要 Windows 版本的 Tor 浏览器软件包。当你没有很大带宽可用，或者你的电邮提供商不允许你接收大附件的时候，这会很有帮助。"
+
+#. type: Plain text
+#: en/tsum.text:76
+msgid ""
+"Send an email to gettor@torproject.org with the following words in the body "
+"of the email:"
+msgstr "把以下的单词作为正文内容发送一封电子邮件至 gettor@torproject.org ："
+
+#. type: Plain text
+#: en/tsum.text:79
+#, no-wrap
+msgid ""
+"windows    \n"
+"split\n"
+msgstr ""
+"windows    \n"
+"split\n"
+
+#. type: Plain text
+#: en/tsum.text:83
+msgid ""
+"It is important that you include the keyword *split* on its own line. See "
+"*What to do with split packages* for information on how to unpack and re-"
+"assemble the small sized packages."
+msgstr "请紧记要把关键词 *split* 独立出一行。请参阅 *如何处理拆分了的软件包* 以了解关于如何解压缩与重组小尺寸文件包的信息。"
+
+#. type: Plain text
+#: en/tsum.text:89
+msgid ""
+"### Tor for smartphones\n"
+"You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
+msgstr ""
+"### 智能手机版的 Tor\n"
+"你可以通过安装 *Orbot* 软件包以在你的 Android 设备上获取 Tor 。关于如何下载和安装 Orbot，请参看 [Tor Project 网站](https://www.torproject.org/docs/android.html.en)。"
+
+#. type: Plain text
+#: en/tsum.text:93
+msgid ""
+"We also have experimental packages for [Nokia "
+"Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
+"iOS](http://sid77.slackware.it/iphone/)."
+msgstr ""
+"我们也有适用于 [Nokia Maemo/N900](https://www.torproject.org/docs/N900.html.en) 和 "
+"[Apple iOS](http://sid77.slackware.it/iphone/) 的试验性软件包。"
+
+#. type: Plain text
+#: en/tsum.text:97
+msgid ""
+"### How to verify that you have the right version\n"
+"Before running the Tor Browser Bundle, you should make sure that you have the right version."
+msgstr ""
+"### 如何验证你已拥有正确的版本\n"
+"在运行 Tor 浏览器软件包之前，你应该确保你持有正确的版本。"
+
+#. type: Plain text
+#: en/tsum.text:102
+msgid ""
+"The software you receive is accompanied by a file with the same name as the "
+"bundle and the extension **.asc**. This .asc file is a GPG signature, and "
+"will allow you to verify the file you've downloaded is exactly the one that "
+"we intended you to get."
+msgstr ""
+"你将获取到的，还有一个与软件包的文件名相同、扩展名为 **.asc** 的文件。这个 .asc 文件是一个 GPG "
+"签名，它能让你校验所下载到的文件是否与你想要下载的完全一致。"
+
+#. type: Plain text
+#: en/tsum.text:105
+#, no-wrap
+msgid ""
+"Before you can verify the signature, you will have to download and\n"
+"install GnuPG:   \n"
+msgstr "在校验签名之前，你将需要下载并安装 GnuPG：\n"
+
+#. type: Plain text
+#: en/tsum.text:109
+#, no-wrap
+msgid ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
+msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: 大多数 Linux 发行版已预装 GnuPG\n"
+
+#. type: Plain text
+#: en/tsum.text:112
+msgid ""
+"Please note that you may need to edit the paths and the commands used below "
+"to get it to work on your system."
+msgstr "请注意，你可能需要修改下面所用到的路径和命令，让它们能在你的系统上生效。"
+
+#. type: Plain text
+#: en/tsum.text:115
+msgid ""
+"Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
+"Erinn's key, run:"
+msgstr "Tor 浏览器软件由 Erinn Clark 使用密钥 0x63FEE659 签署。要导入 Erinn 的密钥，请执行："
+
+#. type: Plain text
+#: en/tsum.text:117
+#, no-wrap
+msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --keyserver "
+"hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
+
+#. type: Plain text
+#: en/tsum.text:119
+msgid "After importing the key, verify that the fingerprint is correct:"
+msgstr "导入密钥之后，校验指纹是否正确："
+
+#. type: Plain text
+#: en/tsum.text:121
+#, no-wrap
+msgid "\tgpg  --fingerprint 0x63FEE659\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
+"0x63FEE659\n"
+
+#. type: Plain text
+#: en/tsum.text:123
+msgid "You should see:"
+msgstr "你应该会看到："
+
+#. type: Plain text
+#: en/tsum.text:130
+#, no-wrap
+msgid ""
+"\tpub   2048R/63FEE659 2003-10-16\n"
+"\t      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"\tuid                  Erinn Clark <erinn@torproject.org>\n"
+"\tuid                  Erinn Clark <erinn@debian.org>\n"
+"\tuid                  Erinn Clark <erinn@double-helix.org>\n"
+"\tsub   2048R/EB399FD7 2003-10-16\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
+
+#. type: Plain text
+#: en/tsum.text:132
+msgid ""
+"To verify the signature of the package you downloaded, run the following "
+"command:"
+msgstr "要校验你所下载到的软件包，请执行以下命令："
+
+#. type: Plain text
+#: en/tsum.text:134
+#, no-wrap
+msgid ""
+"\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
+"US.exe\n"
+msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
+
+#. type: Plain text
+#: en/tsum.text:140
+msgid ""
+"The output should say *\"Good signature\"*. A bad signature means that the "
+"file may have been tampered with. If you see a bad signature, send details "
+"about where you downloaded the package from, how you verified the signature,"
+" and the output from GnuPG in an email to help@rt.torproject.org."
+msgstr ""
+"输出的结果应为 *\"Good signature\"*。若是 Bad signature "
+"则意味着该文件被篡改过。如果你看见一个坏的签名，请把你在哪里下载到该软件包、你验证签名的过程、以及 GunPG 的输出结果一并以电子邮件发送到 "
+"help@rt.torproject.org。"
+
+#. type: Plain text
+#: en/tsum.text:147
+msgid ""
+"Once you have verified the signature and seen the *\"Good signature\"* "
+"output, go ahead and extract the package archive. You should then see a "
+"directory similar to **tor-browser_en-US**. Inside that directory is another"
+" directory called **Docs**, which contains a file called **changelog**. You "
+"want to make sure that the version number on the top line of the changelog "
+"file matches the version number in the filename."
+msgstr ""
+"当你已完成校验并看到 *\"Good signature\"* 的输出结果，请把软件包解压缩。然后你应该会看到一个类似 **tor-"
+"browser_en-US** 这样的文件夹。此文件夹里有另一个名为 **Docs** 的文件夹，内含一个 **changelog** 文件。请确保 "
+"changelog 里第一行的版本号与文件名中的版本号相符。"
+
+#. type: Plain text
+#: en/tsum.text:153
+msgid ""
+"### How to use the Tor Browser Bundle\n"
+"After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
+msgstr ""
+"### 如何使用 Tor 浏览器软件包\n"
+"在下载并解压了 Tor 浏览器软件包之后，你应该在相同的文件夹里看到几个文件。其中一个是名为 \"Start Tor Browser\" 的可执行文件（或者 \"start-tor-browser\"，取决于你的操作系统）。"
+
+#. type: Plain text
+#: en/tsum.text:160
+msgid ""
+"When you start the Tor Browser Bundle, you will first see Vidalia start up "
+"and connect you to the Tor network. After that, you will see a browser "
+"confirming that you are now using Tor. This is done by displaying "
+"[https://check.torproject.org/](https://check.torproject.org/). You can now "
+"browse the Internet through Tor."
+msgstr ""
+"当你运行 Tor 浏览器软件包，你会首先看到 Vidalia 启动并把你接入到 Tor 网络。之后你会看到一个浏览器打开了 "
+"[https://check.torproject.org/](https://check.torproject.org/)，确认你正在使用 "
+"Tor。现在你可以开始通过 Tor 来浏览互联网了。"
+
+#. type: Plain text
+#: en/tsum.text:163
+#, no-wrap
+msgid ""
+"*Please note that it is important that you use the browser that comes\n"
+"with the bundle, and not your own browser.*\n"
+msgstr "*请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这点至关重要。*\n"
+
+#. type: Plain text
+#: en/tsum.text:169
+msgid ""
+"### What to do when Tor does not connect\n"
+"Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
+msgstr ""
+"### 当 Tor 无法连接时怎么办\n"
+"有些用户会遇到 Vidalia 在尝试连接到 Tor 网络时卡住不动的情况。遇到这种情况，请确保你已连接到互联网。如果你需要通过代理服务器连接，请参阅下面的 *“如何使用代理服务器”*。"
+
+#. type: Plain text
+#: en/tsum.text:174
+msgid ""
+"If your normal Internet connection is working, but Tor still can't connect "
+"to the network, try the following; open the Vidalia control panel, click on "
+"*Message Log* and select the *Advanced* tab. It may be that Tor won't "
+"connect because:"
+msgstr ""
+"如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤：打开 Vidalia 的控制面板，点击 *消息日志* 并选择 *高级* "
+"标签页。Tor 无法连接到网络也许是因为："
+
+#. type: Plain text
+#: en/tsum.text:178
+#, no-wrap
+msgid ""
+"**Your system clock is off**: Make sure that the date and time on your\n"
+"system is correct, and restart Tor. You may need to synchronize your\n"
+"system clock with an Internet time server.     \n"
+msgstr "**你的系统时钟不准确**：请确保你系统中的日期和时间正确，然后重启 Tor。你也许需要把系统时钟与某台网络时间服务器进行同步。\n"
+
+#. type: Plain text
+#: en/tsum.text:183
+#, no-wrap
+msgid ""
+"**You are behind a restrictive firewall**: To tell Tor to only try port\n"
+"80 and port 443, open the Vidalia control panel, click on *Settings* and\n"
+"*Network*, and tick the box that says *My firewall only lets me connect\n"
+"to certain ports*.     \n"
+msgstr ""
+"**你受限于防火墙软件**：让 Tor 仅尝试 80 和 443 端口，打开 Vidalia 控制面板，点击 *设置*，*网络*，然后选中 "
+"*我的防火墙只允许我连接到指定端口* 的选项框。\n"
+
+#. type: Plain text
+#: en/tsum.text:187
+#, no-wrap
+msgid ""
+"**Your anti-virus program is blocking Tor**: Make sure that your\n"
+"anti-virus program is not preventing Tor from making network\n"
+"connections.\n"
+msgstr "**你的反病毒软件正在阻挡 Tor**：请确保你的反病毒软件没有阻止 Tor 进行网络连接。\n"
+
+#. type: Plain text
+#: en/tsum.text:191
+msgid ""
+"If Tor still doesn't work, it's likely that your Internet Service Provider "
+"(ISP) is blocking Tor. Very often this can be worked around with **Tor "
+"bridges**, hidden relays that aren't as easy to block."
+msgstr ""
+"如果 Tor 仍然不能工作，那么可能是你的互联网服务提供商（ISP）正在阻挡 Tor。这通常可以使用 **Tor 网桥** —— "
+"不易被阻挡的隐蔽中继服务器，来绕开阻挡。"
+
+#. type: Plain text
+#: en/tsum.text:195
+msgid ""
+"If you need help with figuring out why Tor can't connect, send an email to "
+"help@rt.torproject.org and include the relevant parts from the log file."
+msgstr ""
+"如何你需要帮助去判断为什么 Tor 无法连接，请发送电子邮件到 help@rt.torproject.org ，并附上日志文件的相关部分内容。"
+
+#. type: Plain text
+#: en/tsum.text:203
+msgid ""
+"### How to find a bridge\n"
+"To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
+msgstr ""
+"### 如何寻找一个网桥\n"
+"要使用网桥，你首先需要找一个。你可以浏览 [bridges.torproject.org](https://bridges.torproject.org/) ，或者发送电子邮件到 bridge@torproject.org 。如果发送电子邮件，请你确保在电子邮件的正文区域内写上 **get bridges**。否则你将得不到回复。请注意你只能使用 gmail.com 或 yahoo.com 邮箱来发送此邮件。"
+
+#. type: Plain text
+#: en/tsum.text:208
+msgid ""
+"Configuring more than one bridge address will make your Tor connection more "
+"stable, in case some of the bridges become unreachable. There is no "
+"guarantee that the bridge you are using now will work tomorrow, so you "
+"should make a habit of updating your list of bridges every so often."
+msgstr ""
+"配置一个以上的网桥地址，能让 Tor 的连接在某些网桥无法访问时更加稳定。你无法保证今天能使用的网桥明天仍然能用，所以你应该养成时常更新网桥列表的习惯。"
+
+#. type: Plain text
+#: en/tsum.text:214
+msgid ""
+"### How to use a bridge\n"
+"Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
+msgstr ""
+"### 如何使用网桥\n"
+"当你找到些可用的网桥后，打开 Vidalia 控制面板，点击 *设置*，*网络*，然后勾上 *我的 ISP 阻挡了对 Tor 网络的连接* 的选项框。在下面的方框里填上网桥地址，点击 *确定* 并再次启动 Tor。"
+
+#. type: Plain text
+#: en/tsum.text:220
+msgid ""
+"### How to use an open proxy\n"
+"If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
+msgstr ""
+"### 如何使用代理服务器\n"
+"如果使用网桥无法凑效，请尝试配置 Tor 去使用任何 HTTPS 或 SOCKS 代理以取得与 Tor 网络的连接。也就是说即使 Tor 已被你的本地网络所阻挡，你也可以安全地透过代理服务器连接到 Tor 网络，去访问一个未经审查的互联网。"
+
+#. type: Plain text
+#: en/tsum.text:223
+msgid ""
+"The steps below assume you have a functional Tor/Vidalia configuration, and "
+"you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
+msgstr "以下步骤假设你已有一套配置正确的 Tor/Vidalia ，并找到了一份 HTTPS、SOCKS4 或 SOCKS5 代理服务器的列表。"
+
+#. type: Bullet: '1. '
+#: en/tsum.text:235
+msgid "Open the Vidalia control panel, click on *Settings*."
+msgstr "打开 Vidalia 控制面板，点击 *设置*。"
+
+#. type: Bullet: '2. '
+#: en/tsum.text:235
+msgid "Click *Network*. Select *I use a proxy to access the Internet*."
+msgstr "点击 *网络*，选择 *我使用代理服务器连接到网络*。"
+
+#. type: Plain text
+#: en/tsum.text:235
+#, no-wrap
+msgid ""
+"3. On the *Address* line, enter the open proxy address. This can be a\n"
+"hostname or an IP Address.\n"
+"4. Enter the port for the proxy.\n"
+"5. Generally, you do not need a username and password. If you do,\n"
+"enter the information in the proper fields.\n"
+"6. Choose the *Type* of proxy you are using, whether HTTP/HTTPS, SOCKS4,\n"
+"or SOCKS5.\n"
+"7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
+"proxy to access the rest of the Tor network.\n"
+msgstr ""
+"3. 在 *地址* 一栏里填上代理服务器的地址，这可以是主机名或IP地址。\n"
+"4. 填上代理服务器的端口。\n"
+"5. 一般来说，你并不需要用户名和密码。如果需要，则也相应的填上。\n"
+"6. 选择你在使用的代理服务器的 *类型*，可以是 HTTP/HTTPS，SOCKS4 或 SOCKS5。\n"
+"7. 点击 *确定* 按钮。Vidalia 和 Tor 现已成功配置为使用代理服务器连接到 Tor 网络。\n"
+
+#. type: Plain text
+#: en/tsum.text:240
+msgid ""
+"## Frequently Asked Questions\n"
+"This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
+msgstr ""
+"## 常见问题\n"
+"本节会回答一些最普遍的问题。如果你的问题没有在此处提及，请发送电子邮件至 help@rt.torproject.org 。"
+
+#. type: Plain text
+#: en/tsum.text:244
+msgid ""
+"### Unable to extract the archive\n"
+"If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
+msgstr ""
+"### 无法解压缩\n"
+"如果你正使用 Windows 且无法把压缩包解压缩，请下载并安装 [7-Zip](http://www.7-zip.org/)。"
+
+#. type: Plain text
+#: en/tsum.text:248
+msgid ""
+"If you are unable to download 7-Zip, try to rename the file from .z to .zip "
+"and use winzip to extract the archive. Before renaming the file, tell "
+"Windows to show file extensions:"
+msgstr ""
+"如果你无法下载 7-Zip，尝试把 .z 文件重命名为 .zip 然后使用 WinZip 解压缩。在改名之前，先让 Windows 显示文件扩展名："
+
+#. type: Plain text
+#: en/tsum.text:254
+msgid ""
+"#### Windows XP\n"
+"1. Open *My Computer*\n"
+"2. Click on *Tools* and choose *Folder Options...* in the menu\n"
+"3. Click on the *View* tab\n"
+"4. Uncheck *Hide extensions for known file types* and click *OK*"
+msgstr ""
+"#### Windows XP\n"
+"1. 打开 *我的电脑*\n"
+"2. 点击 *工具*，在菜单里选择 *文件夹选项*\n"
+"3. 点击 *查看* 标签页\n"
+"4. 取消勾选 *隐藏已知文件类型的扩展名* 并点击 *确定*"
+
+#. type: Plain text
+#: en/tsum.text:260
+msgid ""
+"#### Windows Vista\n"
+"1. Open *Computer*\n"
+"2. Click on *Organize* and choose *Folder and search options* in the menu\n"
+"3. Click on the *View* tab\n"
+"4. Uncheck *Hide extensions for known file types* and click *OK*"
+msgstr ""
+"#### Windows Vista\n"
+"1. 打开 *我的电脑*\n"
+"2. 点击 *组织*，在菜单里选择 *文件夹和搜索选项*\n"
+"3. 点击 *查看* 标签页\n"
+"4. 取消勾选 *隐藏已知文件类型的扩展名* 并点击 *确定*"
+
+#. type: Plain text
+#: en/tsum.text:266
+msgid ""
+"#### Windows 7\n"
+"1. Open *Computer*\n"
+"2. Click on *Organize* and choose *Folder and search options* in the menu\n"
+"3. Click on the *View* tab\n"
+" 4. Uncheck *Hide extensions for known file types* and click *OK*"
+msgstr ""
+"#### Windows 7\n"
+"1. 打开 *我的电脑*\n"
+"2. 点击 *组织*，在菜单里选择 *文件夹和搜索选项*\n"
+"3. 点击 *查看* 标签页\n"
+"4. 取消勾选 *隐藏已知文件类型的扩展名* 并点击 *确定*"
+
+#. type: Plain text
+#: en/tsum.text:273
+msgid ""
+"### What to do with split packages\n"
+"When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
+msgstr ""
+"### 如何处理拆分过的软件包\n"
+"当你索要了拆分过的软件包，你有可能按错乱的次序收到各个部分。在试图把它们解压缩之前，你需要确保你已收到了每一个部分。把所有部分保存到电脑的一个文件夹中，先把它们各自解压缩，再双击以 “..split.part01.exe” 结尾的文件进行解压缩。"
+
+#. type: Plain text
+#: en/tsum.text:277
+msgid ""
+"Once the unpacking process has completed, you should see a newly created "
+"\".exe\" file in the same directory. Run this file and wait for the Tor "
+"Browser Bundle to start."
+msgstr "解压过程一旦完成，你将会在相同的文件夹内看见一个新创建的 .exe 文件。运行这个文件并等待 Tor 浏览器软件包启动。"
+
+#. type: Plain text
+#: en/tsum.text:281
+msgid ""
+"### Vidalia asks for a password\n"
+"You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
+msgstr ""
+"### Vidalia 要求输入密码\n"
+"在启动 Vidalia 时你不应该需要输入密码。如果被提示输入，你有可能遇到了以下其中一个问题："
+
+#. type: Plain text
+#: en/tsum.text:287
+#, no-wrap
+msgid ""
+"**You are already running Vidalia and Tor**:\n"
+"For example, this situation can happen if you installed the Vidalia\n"
+"bundle and now you're trying to run the Tor Browser Bundle. In that\n"
+"case, you will need to close the old Vidalia and Tor before you can run\n"
+"this one.\n"
+msgstr ""
+"**Vidalia 和 Tor 已在运行**：\n"
+"举个例子，假如你已安装过 Vidalia 软件包而你现在正尝试运行 Tor 浏览器软件包，这种情况就有可能发生。\n"
+"这样的话你将需要先关闭旧版的 Vidalia 和 Tor，再运行当前的版本。\n"
+
+#. type: Plain text
+#: en/tsum.text:294
+#, no-wrap
+msgid ""
+"**Vidalia crashed, but left Tor running**:\n"
+"If the dialog that prompts you for a control password has a Reset\n"
+"button, you can click the button and Vidalia will restart Tor with a new\n"
+"random control password. If you do not see a Reset button, or if Vidalia\n"
+"is unable to restart Tor for you; go into your process or task manager,\n"
+"and terminate the Tor process. Then use Vidalia to restart Tor.\n"
+msgstr ""
+"**Vidalia 崩溃了，但 Tor 仍在运行**：\n"
+"如果提示输入控制密码的对话框里有一个“复位设定”按钮，\n"
+"你可以点击该按钮，Vidalia 会以一个新的随机控制密码重启 Tor。\n"
+"如果你没有看到“复位设定”按钮，或者 Vidalia 无法重启 Tor，\n"
+"请前往你的进程或任务管理器，终止 Tor 的进程。然后再用 Vidalia 来重启 Tor。\n"
+
+#. type: Plain text
+#: en/tsum.text:298
+msgid ""
+"For more information, see the "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
+"Project website."
+msgstr ""
+"要了解更多，请参阅 Tor Project 网站上的 "
+"[常见问题](https://torproject.org/docs/faq.html#VidaliaPassword)。"
+
+#. type: Plain text
+#: en/tsum.text:303
+msgid ""
+"### Flash does not work\n"
+"For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
+msgstr ""
+"### Flash 无法工作\n"
+"基于安全理由，Flash、Java 和其他插件目前是禁用于 Tor 的。独立运作于 Firefox 或者可在你电脑中进行活动的插件，会破坏你的隐匿。"
+
+#. type: Plain text
+#: en/tsum.text:308
+msgid ""
+"Most YouTube videos work with HTML5, and it is possible to view these videos"
+" over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
+" on the YouTube website before you can use the HTML5 player."
+msgstr ""
+"大多数 YouTube 视频兼容 HTML5，而 Tor 可以用于观看这些视频。你需要在 YouTube 网站上加入 [HTML5 "
+"体验计划](https://www.youtube.com/html5) 才能使用 HTML5 播放器。"
+
+#. type: Plain text
+#: en/tsum.text:312
+msgid ""
+"Note that the browser will not remember that you joined the trial once you "
+"close it, so you will need to re-join the trial the next time you run the "
+"Tor Browser Bundle."
+msgstr "请注意，浏览器被关闭后不会记住你加入过体验计划，所以你下次运行 Tor 浏览器软件包时将需要重新加入体验计划。"
+
+#. type: Plain text
+#: en/tsum.text:315
+msgid ""
+"Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
+"/torbutton-faq.html#noflash)  for more information."
+msgstr ""
+"请参阅 [Torbutton 常见问题](https://www.torproject.org/torbutton/torbutton-"
+"faq.html#noflash) 以了解更多信息。"
+
+#. type: Plain text
+#: en/tsum.text:321
+msgid ""
+"### I want to use another browser\n"
+"For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
+msgstr ""
+"### 我想使用其它浏览器\n"
+"基于安全理由，我们推荐你仅使用 Tor 浏览器软件包来浏览互联网。Tor 在技术上是可以和其它浏览器一起使用的，但这样做你就迎向了潜在的攻击。"
+
+#. type: Plain text
+#: en/tsum.text:325
+msgid ""
+"### Why Tor is slow\n"
+"Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
+msgstr ""
+"### 为什么 Tor 这么慢\n"
+"Tor 有时候会比你正常的互联网连接慢一些。毕竟，你的流量穿越着许多不同国家，跨洋过海的传送。"
+
+
