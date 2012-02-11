@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-11 23:13+0000\n"
+"PO-Revision-Date: 2012-02-11 23:44+0000\n"
 "Last-Translator: n3t0 <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -116,6 +116,11 @@ msgid ""
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
 msgstr ""
+"O pacote que recomendamos para a maioria dos usuário é o [Tor Browser "
+"Bundle](https://www.torproject.org/projects/torbrowser.html). Este pacote "
+"contém um navegador pré configurado para navegar seguramente através do Tor,"
+" e não requer instalação. Você baixa o pacote, extrai o arquivo, e inicia o "
+"Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -139,6 +144,9 @@ msgid ""
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
 msgstr ""
+"Você pode, também, requisitar o pacote Tor para Mac OS X (escreva "
+"**macos-i386**), e Linux (escreva **linux-i386** para sistemas 32 bits ou "
+"**linux-x86_64** para sistemas 64 bits)."
 
 #. type: Plain text
 #: en/tsum.text:61
@@ -146,6 +154,9 @@ msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr ""
+"Se você quiser uma versão traduzida do Tor, escreva **help** em vez. Você "
+"irá receber um e-mail com instruções e uma lista sobre os idiomas "
+"disponíveis."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -218,6 +229,10 @@ msgid ""
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
 msgstr ""
+"O programa que você receber está acompanhado de um um arquivo com o mesmo "
+"nome do pacote e a extensão **.asc**. Este arquivo tem uma assinatura GPG, e"
+" vai permitir a você verificar se o arquivo que você baixou é exatamente o "
+"mesmo que nós lhe enviamos."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -226,6 +241,8 @@ msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
 msgstr ""
+"Antes de verificar a assinatura, você terá que baixar e\n"
+"instalar o GnuPG:   \n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -235,6 +252,9 @@ msgid ""
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
 msgstr ""
+"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
+"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
+"**Linux**: A maioria das distribuições Linux vem com o GnuPG pré instalado..\n"
 
 #. type: Plain text
 #: en/tsum.text:112
@@ -242,6 +262,8 @@ msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
 msgstr ""
+"Por favor, observe que você pode ter de editar os caminhos e comandos usados"
+" abaixo para que funcione no seu sistema."
 
 #. type: Plain text
 #: en/tsum.text:115
@@ -249,28 +271,34 @@ msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
+"Erinn Clark assina os Pacotes Tor Browser com a chave 0x63FEE659. Para "
+"importar a chave de Erinn, execute:"
 
 #. type: Plain text
 #: en/tsum.text:117
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --keyserver "
+"hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:119
 msgid "After importing the key, verify that the fingerprint is correct:"
-msgstr ""
+msgstr "Após importar a chave, verifique se a impressão está correta:"
 
 #. type: Plain text
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --impressão "
+"0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
 msgid "You should see:"
-msgstr ""
+msgstr "Você deve ver:"
 
 #. type: Plain text
 #: en/tsum.text:130
@@ -283,6 +311,12 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>pub   2048R/63FEE659 2003-10-16\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>      Chave de Impressão = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@torproject.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@debian.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>uid                  Erinn Clark <erinn@double-helix.org>\n"
+"<span class=\"whitespace other\" title=\"Tab\">»</span>sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
