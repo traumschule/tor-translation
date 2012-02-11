@@ -4,13 +4,14 @@
 # 
 # Translators:
 #   <canacar@gmail.com>, 2012.
+# Tekel Bira <psycookie@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-11 09:51+0000\n"
-"Last-Translator: canacar <canacar@gmail.com>\n"
+"PO-Revision-Date: 2012-02-11 22:25+0000\n"
+"Last-Translator: Tekel Bira <psycookie@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -656,6 +657,11 @@ msgid ""
 "3. Click on the *View* tab\n"
 " 4. Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
+"#### Windows 7⏎\n"
+"1. *Bilgisayar*'ı açın.⏎\n"
+"2. *Düzenle* 'ye tıklayın ve menüden *Klasör ve Arama Seçenekleri* ni seçin.⏎\n"
+"3. *Görünüm* sekmesine tıklayın.⏎\n"
+" 4.*Bilinen dosya türleri için uzantıları gizle* kutucuğundan işareti kaldırın ve *Tamam*a basın."
 
 #. type: Plain text
 #: en/tsum.text:273
