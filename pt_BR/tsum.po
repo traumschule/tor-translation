@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-11 23:44+0000\n"
+"PO-Revision-Date: 2012-02-12 00:11+0000\n"
 "Last-Translator: n3t0 <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -324,6 +324,8 @@ msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
+"Para verificar a assinatura do pacote que você baixou, rode o seguinte "
+"comando:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -332,6 +334,8 @@ msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
 msgstr ""
+"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
+"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -352,6 +356,12 @@ msgid ""
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
 msgstr ""
+"Uma vez verifica a assinatura e obter *\"Good signature\"*, continue e "
+"extraia o pacote de arquivos. Você deve ver então um diretório similar a "
+"**tor-browser_en-US**. Dentro deste diretório há outro diretório chamado "
+"**Docs**, contendo um arquivo chamado **changelog**. Você pode ter certeza "
+"de que o número da versão na primeira linha do arquivo changelog é o mesmo "
+"que o número da versão no nome do arquivo."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -369,6 +379,11 @@ msgid ""
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
 msgstr ""
+"Quando você inicia o pacote Tor Browser, você verá, primeiro, a "
+"inicialização do Vidalia e conectar você à rede Tor. Depois disto, você vai "
+"ver um navegador confirmando que você está usando Tor. Isto é feito "
+"mostrando [https://check.torproject.org/](https://check.torproject.org/). "
+"Você pode, agora, navegar pela Internet através do Tor."
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -377,6 +392,8 @@ msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
 msgstr ""
+"*Por favor, note que é importante você usar o navegador que vem com o "
+"pacote, e não o seu próprio navegador.*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -393,6 +410,10 @@ msgid ""
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
 msgstr ""
+"Se sua conexão normal com a Internet está funcionando, mas o Tor não "
+"consegue se conectar à rede, tente o seguinte: abra o painel de controle do "
+"Vidalia, clique em *Log de Mensagens* e selecione a aba *Avançado*. Pode ser"
+" que o Tor não esteja conectando porque:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -402,6 +423,9 @@ msgid ""
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
 msgstr ""
+"**O relógio do seu sistema está desligado**: Tenha certeza de que a data e "
+"hora no seu sistema esteja correta, e reinicie o Tor. Você deve sincronizar "
+"seu relógio do sistema com algum servidor de hora da Internet.     \n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -412,6 +436,9 @@ msgid ""
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
 msgstr ""
+"**Você está atrás de um firewall restritivo**: Para dizer ao Tor para usar somente a porta\n"
+"80 e porta 443, abra o painel de controle do Vidalia, clique em *Configurações* e\n"
+"*Rede*, e marque a caixa que diz *Meu firewall só me permite conectar através de certas portas*.     \n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -421,6 +448,9 @@ msgid ""
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
 msgstr ""
+"**Seu anti-vírus está bloqueando o Tor**: Tenha certeza de que seu\n"
+"anti-vírus não está bloqueando o Tor para realizar conexões de\n"
+"rede.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -429,6 +459,10 @@ msgid ""
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
 msgstr ""
+"Se ainda assim o Tor não funcionar, é provável que seu Provedor de Serviços "
+"da Internet (ISP) esteja bloqueando o Tor. Muitas vezes pode ser trabalhado "
+"com **pontes Tor**, retransmissores ocultos que não são tão fáceis de "
+"bloquear. "
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -452,6 +486,10 @@ msgid ""
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
 msgstr ""
+"Configurar mais do que uma ponte fará sua conexão com Tor mais estável, no "
+"caso de algumas das pontes tornarem-se inacessíveis. Não há garantias de que"
+" a ponte que você está usando agora esteja funcionando amanhã, então você "
+"deve ter o hábito de atualizar sua lista de pontes de vez em quando."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -473,6 +511,9 @@ msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
+"Os passos abaixo partem do princípio de que você tem uma configuração "
+"Tor/Vidalia funcional, e que você encontrou uma lista de proxies HTTPS, "
+"SOCKS4 ou SOCKS5."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
