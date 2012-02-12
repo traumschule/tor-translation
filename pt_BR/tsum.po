@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 00:11+0000\n"
+"PO-Revision-Date: 2012-02-12 00:43+0000\n"
 "Last-Translator: n3t0 <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -518,12 +518,13 @@ msgstr ""
 #. type: Bullet: '1. '
 #: en/tsum.text:235
 msgid "Open the Vidalia control panel, click on *Settings*."
-msgstr ""
+msgstr "Abra o painel de controle do Vidalia, clique em *Configurações*."
 
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
+"Clique em *Rede*. Selecione *eu uso um proxy para acessar a Internet*."
 
 #. type: Plain text
 #: en/tsum.text:235
