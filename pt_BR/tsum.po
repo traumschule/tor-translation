@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 00:43+0000\n"
+"PO-Revision-Date: 2012-02-12 01:14+0000\n"
 "Last-Translator: n3t0 <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -182,6 +182,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
+"Send an email to gettor@torproject.org with the following words in the body "
+"of the email:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -190,6 +192,8 @@ msgid ""
 "windows    \n"
 "split\n"
 msgstr ""
+"windows    \n"
+"split\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -540,6 +544,15 @@ msgid ""
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
 msgstr ""
+"3. Na linha *Endereço*, digite o endereço do proxy aberto. Pode ser um\n"
+"hostname ou um IP.\n"
+"4. Digite a porta para o proxy.\n"
+"5. Geralmente, você não precisa de um nome de usuário e senha. Se\n"
+"você precisar, insira a informação nos campos próprio pra isso.\n"
+"6. Escolha o *Tipo* de proxy que você está usando, seja HTTP/HTTPS,\n"
+"SOCKS4 ou SOCKS5.\n"
+"7. Pressione o botão \"OK\". O Vidalia e o Tor estão, agora, configurados\n"
+"para usar um proxy para acessar o resto da rede Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -607,6 +620,9 @@ msgid ""
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
 msgstr ""
+"Ao finalizar o processo de descompactação do pacote, você verá um novo "
+"arquivo *.exe* no mesmo diretório. Execute este arquivo e espere o navegador"
+" do pacote Tor iniciar."
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -625,6 +641,10 @@ msgid ""
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
 msgstr ""
+"**Você já está rodando o Vidalia e o Tor**:\n"
+"Por exemplo, esta situação pode ocorrer se você instalar o pacote do\n"
+"Vidalia e agora está tentando rodar o pacote Tor Browser. Neste caso,\n"
+"você precisa fechar o antigo Vidalia e Tor antes de rodar este novo.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -637,6 +657,12 @@ msgid ""
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
 msgstr ""
+"**Vidalia corrompido, mas deixou o Tor rodando**:\n"
+"Se a caixa de diálogo que pedir a você por uma senha de controle tiver\n"
+"um botão Resetar, você pode clicar nesse botão que o Vidalia reiniciará\n"
+"com uma nova senha aleatória de controle. Se você não ver o botão Reset\n"
+"ou se o Vidalia não estiver acessível para reiniciar o Tor para você; vá no\n"
+"seu gerenciador de tarefas e finalize o processo Tor. Daí use o Vidalia para reiniciar o Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -645,6 +671,9 @@ msgid ""
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
 msgstr ""
+"Para mais informações, veja o "
+"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) no site Tor "
+"Project."
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -660,6 +689,9 @@ msgid ""
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
 msgstr ""
+"Muitos vídeos do Youtube trabalham com HTML5, e é possível ver esses vídeos "
+"com o Tor. Você precisa se inscrever no site do Youtube antes de usar o "
+"player HTML5 [HTML5 trial](https://www.youtube.com/html5)"
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -668,6 +700,9 @@ msgid ""
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
 msgstr ""
+"Note que o navegador não irá lembrá-lo de que você se inscreveu no trial uma"
+" vez que você o feche, então você precisa se reinscrever na próxima vez em "
+"que rodar o pacote Tor Browser."
 
 #. type: Plain text
 #: en/tsum.text:315
@@ -675,6 +710,8 @@ msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
+"Por favor, visite o [Torbutton FAQ](https://www.torproject.org/torbutton"
+"/torbutton-faq.html#noflash) para mais informações."
 
 #. type: Plain text
 #: en/tsum.text:321
