@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 01:14+0000\n"
+"PO-Revision-Date: 2012-02-12 01:43+0000\n"
 "Last-Translator: n3t0 <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. type: Plain text
 #: en/tsum.text:2
 msgid "# The Short User Manual\n"
-msgstr ""
+msgstr "# Manual do Usuário Resumido\n"
 
 #. type: Plain text
 #: en/tsum.text:7
@@ -31,6 +31,10 @@ msgid ""
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
 msgstr ""
+"Este manual contém informações sobre como baixar o Tor, como usá-lo, e o que"
+" fazer se o Tor estiver disponível para se conectar à Internet. Se você não "
+"conseguir encontrar a resposta para sua questão neste documento, envie um "
+"e-mail para help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -39,6 +43,9 @@ msgid ""
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
 msgstr ""
+"Por favor, note que nós provemos suporte através de bases voluntárias, e "
+"temos vários e-mails todo dia. Não há motivo para se preocupar se não "
+"retornarmos à você rapidamente."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -96,6 +103,9 @@ msgid ""
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
 msgstr ""
+"Se você está enviando informações confidenciais, como um nome de usuário e "
+"senha, tenha certeza de que está usando HTTPS (ex: "
+"**https**://torproject.org/, e não **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -129,6 +139,9 @@ msgid ""
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
+"Há duas maneiras diferentes de se obter o Tor. Você pode ir até o [Tor "
+"Project website](https://www.torproject.org/) e baixá-lo de lá, ou usar o "
+"GetTor, o e-mail com auto-resposta."
 
 #. type: Plain text
 #: en/tsum.text:53
@@ -136,6 +149,8 @@ msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
 msgstr ""
+"### Como obter o Tor via e-mail\n"
+"Para receber o pacote em inglês para Windows do Tor, envie um e-mail para gettor@torproject.org com **windows** no corpo da mensagem. Você pode deixar o campo assunto vazio."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -168,6 +183,11 @@ msgid ""
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
 msgstr ""
+"**Nota**: Os pacotes do Tor Browser para Mac OS X e Linux são maiores,\n"
+"e você não estará habilitado para recebê-los através do Gmail, Hotmail ou\n"
+"Yahoo. Se você não receber o pacote que escolheu, envie um e-mail para\n"
+"help@rt.torproject.org e nós daremos a você uma lista de sites de onde\n"
+"poderá baixá-lo.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
@@ -175,6 +195,8 @@ msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
 msgstr ""
+"#### Como obter o Tor como pequenos pacotes\n"
+"É possível requisitar o pacote Tor para Windows como pequenos pacotes separados, ao invés de um grande pacote apenas. Isto pode ser útil se você não possuir uma largura de banda boa disponível, ou se o seu provedor de e-mail não permitir que você receba anexos grandes."
 
 #. type: Plain text
 #: en/tsum.text:76
@@ -182,8 +204,8 @@ msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
 msgstr ""
-"Send an email to gettor@torproject.org with the following words in the body "
-"of the email:"
+"Envie um e-mail para gettor@torproject.org com as seguintes palavras no "
+"corpo da mensagem:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -202,6 +224,9 @@ msgid ""
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
 msgstr ""
+"É importante que você inclua a palavra chave *split* numa linha só. Veja *O "
+"que fazer com pacotes separados* para informações sobre como descompactar e "
+"juntar os pacotes pequenos."
 
 #. type: Plain text
 #: en/tsum.text:89
@@ -209,6 +234,8 @@ msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
+"### Tor para smartphones\n"
+"Você pode obter o Tor no seu Android instalando o pacote chamado *Orbot*. Para informações sobre como baixar e instalar o Orbot, veja o [Tor Project website](https://www.torproject.org/docs/android.html.en). "
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -217,6 +244,9 @@ msgid ""
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
 msgstr ""
+"Nós também temos pacotes experimentais para [Nokia "
+"Maemo/N900](https://www.torproject.org/docs/N900.html.en) e [Apple "
+"iOS](http://sid77.slackware.it/iphone/)."
 
 #. type: Plain text
 #: en/tsum.text:97
@@ -224,6 +254,8 @@ msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
 msgstr ""
+"### Como verificar se você tem a versão correta\n"
+"Após rodar o pacote Tor, você deve ter certeza de que possui a versão correta."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -349,6 +381,10 @@ msgid ""
 "about where you downloaded the package from, how you verified the signature,"
 " and the output from GnuPG in an email to help@rt.torproject.org."
 msgstr ""
+"A saída deve dizer *\"Good signature\"*. Uma assinatura ruim significa que o"
+" arquivo pode ter sido adulterado. Se você ver uma assinatura ruim, envie "
+"detalhes sobre onde você baixou o pacote, como você verificou a assinatura, "
+"e a saída do GnuPG em um e-mail para help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:147
@@ -373,6 +409,8 @@ msgid ""
 "### How to use the Tor Browser Bundle\n"
 "After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
+"### Como usar o pacote Tor Browser\n"
+"Após baixar o pacote e extraí-lo, você deverá ver um diretório com alguns arquivos nele. Um dos arquivos é um executável chamado \"Iniciar Navegador Tor\" (ou \"iniciar-navegador-tor\", dependendo do seu sistema operacional)"
 
 #. type: Plain text
 #: en/tsum.text:160
@@ -405,6 +443,8 @@ msgid ""
 "### What to do when Tor does not connect\n"
 "Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
 msgstr ""
+"### O que fazer quando o Tor não conecta\n"
+"Alguns usuários noticiaram que o Vidalia fica travado quando está tentando conectar-se à rede Tor. Se isto acontecer, tenha certeza de que você está conectado à Internet. Se você precisa se conectar à um proxy, veja *Como usar um proxy aberto* abaixo."
 
 #. type: Plain text
 #: en/tsum.text:174
@@ -474,6 +514,9 @@ msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
+"Se você precisa de ajuda para descobrir porque o Tor não consegue se "
+"conectar, envie um e-mail para help@rt.torproject.org e inclua as partes "
+"relevantes do arquivo de log."
 
 #. type: Plain text
 #: en/tsum.text:203
@@ -481,6 +524,8 @@ msgid ""
 "### How to find a bridge\n"
 "To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
 msgstr ""
+"### Como encontrar uma ponte\n"
+"Para usar uma ponte, você precisa primeiro localizar uma; você pode navegar até [bridges.torproject.org](https://bridges.torproject.org/), ou você pode enviar um e-mail para bridges@torproject.org. Se você enviar um e-mail, tenha certeza de escrever **get bridges** no corpo da mensagem. Sem isto, você não receberá resposta. Note que você precisa enviar este e-mail de um endereço gmail.com ou yahoo.com."
 
 #. type: Plain text
 #: en/tsum.text:208
