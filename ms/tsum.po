@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 09:44+0000\n"
+"PO-Revision-Date: 2012-02-13 09:50+0000\n"
 "Last-Translator: Hafiz Ismail <mhbinet@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,11 +30,7 @@ msgid ""
 "it, and what to do if Tor is unable to connect to the network. If you can't "
 "find the answer to your question in this document, email "
 "help@rt.torproject.org."
-msgstr ""
-"Manual pengguna ini mengandungi maklumat mengnai bagaimana memuat turun Tor,"
-" bagaimana menggunakan dan apakah yang boleh dibuat sekiranya Tor tidak "
-"dapat menyambungkan kepada rangkaian. Jika anda tidak dapat mencari jawapan,"
-" emailkan kepada help@rt.torproject.org."
+msgstr "Manual pengguna ini mengandungi maklumat mengnai bagaimana memuat turun Tor, bagaimana menggunakan dan apakah yang boleh dibuat sekiranya Tor tidak dapat menyambungkan kepada rangkaian. Jika anda tidak dapat mencari jawapan, emailkan kepada help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:11
@@ -42,10 +38,7 @@ msgid ""
 "Please note that we are providing support on a voluntary basis, and we get a"
 " lot of emails every single day. There is no need to worry if we don't get "
 "back to you straight away."
-msgstr ""
-"Ambil perharian bahawa kami menyediakan bantuan dengan sukarela, dan kami "
-"menerima banyak email setiap hari. Anda tidak perlu risau sekiranya kami "
-"tidak dapat melayan anda dengan segera."
+msgstr "Ambil perharian bahawa kami menyediakan bantuan dengan sukarela, dan kami menerima banyak email setiap hari. Anda tidak perlu risau sekiranya kami tidak dapat melayan anda dengan segera."
 
 #. type: Plain text
 #: en/tsum.text:13
@@ -53,9 +46,7 @@ msgstr ""
 msgid ""
 "How Tor works\n"
 "-------------\n"
-msgstr ""
-"Bagaimana Tor Berfungsi\n"
-"-----------------------------\n"
+msgstr "Bagaimana Tor Berfungsi\n-----------------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -64,11 +55,7 @@ msgid ""
 "and security on the Internet. Tor works by sending your traffic through "
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
-msgstr ""
-"Tor ialah rangkaian maya yang membolehkan anda menambahkan privasi dan "
-"keselamatan semasa menggunakan internet. Tor akan menghantar trafik kepada "
-"tiga server secara raway (*relays*) dalam rangkaian Tor, sebelum menghantar "
-"trafik tersebut kepada talian Internet."
+msgstr "Tor ialah rangkaian maya yang membolehkan anda menambahkan privasi dan keselamatan semasa menggunakan internet. Tor akan menghantar trafik kepada tiga server secara raway (*relays*) dalam rangkaian Tor, sebelum menghantar trafik tersebut kepada talian Internet."
 
 #. type: Plain text
 #: en/tsum.text:21
@@ -90,10 +77,7 @@ msgid ""
 "everything between you and the Tor network. Tor will also encrypt your "
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
-msgstr ""
-"Tor akan menukar trafik asal, mengkod/encrypt antara anda dan rangkaian Tor."
-" Tor juga mengkod trafik di dalam rangkaian Tor, tetapi ia tidak mengkod "
-"trafik antara rangkaian Tor dengan destinasi akhir."
+msgstr "Tor akan menukar trafik asal, mengkod/encrypt antara anda dan rangkaian Tor. Tor juga mengkod trafik di dalam rangkaian Tor, tetapi ia tidak mengkod trafik antara rangkaian Tor dengan destinasi akhir."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -101,10 +85,7 @@ msgid ""
 "If you are communicating sensitive information, for example when logging on "
 "to a website with a username and password, make sure that you are using "
 "HTTPS (e.g. **https**://torproject.org/, not **http**://torproject.org/)."
-msgstr ""
-"Sekiranya anda berhubung menggunakan maklumat sulit, contohnya log masuk ke "
-"website yang ada username dan password, pastikan anda menggunakan HTTPS "
-"(cth: **https**://torproject.org/, bukan **http**://torproject.org/)."
+msgstr "Sekiranya anda berhubung menggunakan maklumat sulit, contohnya log masuk ke website yang ada username dan password, pastikan anda menggunakan HTTPS (cth: **https**://torproject.org/, bukan **http**://torproject.org/)."
 
 #. type: Plain text
 #: en/tsum.text:38
@@ -112,9 +93,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr ""
-"Bagaimana ingin muat turun Tor\n"
-"------------------------------------\n"
+msgstr "Bagaimana ingin muat turun Tor\n------------------------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -124,12 +103,7 @@ msgid ""
 "contains a browser preconfigured to safely browse the Internet through Tor, "
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
-msgstr ""
-"Versi bundle yang dicadangkan kepada kebanyakan pengguna ialah [Tor Browser "
-"Bundle](https://www.torproject.org/projects/torbrowser.html). Ia mengandungi"
-" browser yang sudah disetkan kepada tahap keselamatan di Internet dan "
-"melalui Tor, dan ia tidak memerlukan instalasi. Anda muat turun bundle, "
-"extract dan terus boleh menggunakan Tor."
+msgstr "Versi bundle yang dicadangkan kepada kebanyakan pengguna ialah [Tor Browser Bundle](https://www.torproject.org/projects/torbrowser.html). Ia mengandungi browser yang sudah disetkan kepada tahap keselamatan di Internet dan melalui Tor, dan ia tidak memerlukan instalasi. Anda muat turun bundle, extract dan terus boleh menggunakan Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -137,19 +111,14 @@ msgid ""
 "There are two different ways to get hold of the Tor software. You can either"
 " browse to the [Tor Project website](https://www.torproject.org/) and "
 "download it there, or you can use GetTor, the email autoresponder."
-msgstr ""
-"Ada terdapat dua cara untuk mendapat perisian Tor. Anda boleh mencari dalam "
-"[Website Projek Tor](https://www.torproject.org/) dan download di sana, atau"
-" boleh menggunakan GetTor, iaitu email autoresponder."
+msgstr "Ada terdapat dua cara untuk mendapat perisian Tor. Anda boleh mencari dalam [Website Projek Tor](https://www.torproject.org/) dan download di sana, atau boleh menggunakan GetTor, iaitu email autoresponder."
 
 #. type: Plain text
 #: en/tsum.text:53
 msgid ""
 "### How to get Tor via email\n"
 "To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
-msgstr ""
-"### Bagaimana mendapatkan Tor menggunakan email\n"
-"Untuk mendapatkan versi Tor Browser Bundle untuk Windows dalam Bahasa Inggeris, hantarkan email kepada gettor@torproject.org dengan **windows** pada isi kandungan mesej. Anda boleh membiarkan tajuk tidak diisi."
+msgstr "### Bagaimana mendapatkan Tor menggunakan email\nUntuk mendapatkan versi Tor Browser Bundle untuk Windows dalam Bahasa Inggeris, hantarkan email kepada gettor@torproject.org dengan **windows** pada isi kandungan mesej. Anda boleh membiarkan tajuk tidak diisi."
 
 #. type: Plain text
 #: en/tsum.text:57
@@ -157,19 +126,14 @@ msgid ""
 "You can also request the Tor Browser Bundle for Mac OS X (write "
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
-msgstr ""
-"Anda juga boleh meminta Tor Browser Bundle untuk Mac OS X (write "
-"**macos-i386**), dan Linux (write **linux-i386** untuk sistem 32-bit atau "
-"**linux-x86_64** untuk sistem 64-bit)."
+msgstr "Anda juga boleh meminta Tor Browser Bundle untuk Mac OS X (write **macos-i386**), dan Linux (write **linux-i386** untuk sistem 32-bit atau **linux-x86_64** untuk sistem 64-bit)."
 
 #. type: Plain text
 #: en/tsum.text:61
 msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
-msgstr ""
-"Jika anda mahu versi Tor yang sudah di alih bahasa, tuliskan **help**. Anda "
-"akan menerima email dengan arahan dan set bahasa yang ada."
+msgstr "Jika anda mahu versi Tor yang sudah di alih bahasa, tuliskan **help**. Anda akan menerima email dengan arahan dan set bahasa yang ada."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -180,30 +144,21 @@ msgid ""
 "Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you\n"
 "want, send an email to help@rt.torproject.org and we\n"
 "will give you a list of website mirrors to use.\n"
-msgstr ""
-"**Nota**: Browser Tor Bundle untuk Linux dan Mac OS X adalah mungkin\n"
-"besar, dan anda tidak akan mendapat bundle ini dengan akaun email\n"
-"Gmail, Hotmail atau Yahoo. Sekiranya anda tidak dapat menerima bundle\n"
-"yang dikehendaki, hantarkan email kepada help@rt.torproject.org dan kami\n"
-"akan memberikan senarai mirror website untuk digunakan.\n"
+msgstr "**Nota**: Browser Tor Bundle untuk Linux dan Mac OS X adalah mungkin\nbesar, dan anda tidak akan mendapat bundle ini dengan akaun email\nGmail, Hotmail atau Yahoo. Sekiranya anda tidak dapat menerima bundle\nyang dikehendaki, hantarkan email kepada help@rt.torproject.org dan kami\nakan memberikan senarai mirror website untuk digunakan.\n"
 
 #. type: Plain text
 #: en/tsum.text:73
 msgid ""
 "#### How to get Tor as several small sized packages\n"
 "It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
-msgstr ""
-"#### Bagaimana mendapatkan Tor dalam paket kecil\n"
-"Anda boleh meminta untuk mendapatkan Browser Bundle Tor untuk Windows dalam beberapa paket kecil berbanding satu fail besar. Ini sangat berguna sekiranya anda tidak mempunyai bandwidth yang besar, atau provider tidak membenarkan anda menerima attachment besar."
+msgstr "#### Bagaimana mendapatkan Tor dalam paket kecil\nAnda boleh meminta untuk mendapatkan Browser Bundle Tor untuk Windows dalam beberapa paket kecil berbanding satu fail besar. Ini sangat berguna sekiranya anda tidak mempunyai bandwidth yang besar, atau provider tidak membenarkan anda menerima attachment besar."
 
 #. type: Plain text
 #: en/tsum.text:76
 msgid ""
 "Send an email to gettor@torproject.org with the following words in the body "
 "of the email:"
-msgstr ""
-"Hantar email ke gettor@torproject.org dengan perkataan berikut pada isi "
-"kandungan email:"
+msgstr "Hantar email ke gettor@torproject.org dengan perkataan berikut pada isi kandungan email:"
 
 #. type: Plain text
 #: en/tsum.text:79
@@ -211,9 +166,7 @@ msgstr ""
 msgid ""
 "windows    \n"
 "split\n"
-msgstr ""
-"windows    \n"
-"split\n"
+msgstr "windows    \nsplit\n"
 
 #. type: Plain text
 #: en/tsum.text:83
@@ -221,20 +174,14 @@ msgid ""
 "It is important that you include the keyword *split* on its own line. See "
 "*What to do with split packages* for information on how to unpack and re-"
 "assemble the small sized packages."
-msgstr ""
-"Adalah penting untuk memasukkan keyword *split* dalam satu barisan. Lihat "
-"*What to do with split packages* untuk maklumat tentang bagaimana untuk "
-"mengetahui bagaimana untuk unpack dan menggabung semula paket yang "
-"dikecilkan."
+msgstr "Adalah penting untuk memasukkan keyword *split* dalam satu barisan. Lihat *What to do with split packages* untuk maklumat tentang bagaimana untuk mengetahui bagaimana untuk unpack dan menggabung semula paket yang dikecilkan."
 
 #. type: Plain text
 #: en/tsum.text:89
 msgid ""
 "### Tor for smartphones\n"
 "You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
-msgstr ""
-"### Tor untuk smartphone\n"
-"Anda boleh mendapat Tor pada peralatan Android dengan menginsatall pakej dinamakan *Orbot*. Untuk maklumat lanjut mengenai bagaimana anda boleh muat turun dan install Orbot, sila rujuk [Website Projek Tor](https://www.torproject.org/docs/android.html.en)."
+msgstr "### Tor untuk smartphone\nAnda boleh mendapat Tor pada peralatan Android dengan menginsatall pakej dinamakan *Orbot*. Untuk maklumat lanjut mengenai bagaimana anda boleh muat turun dan install Orbot, sila rujuk [Website Projek Tor](https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: en/tsum.text:93
@@ -242,19 +189,14 @@ msgid ""
 "We also have experimental packages for [Nokia "
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
 "iOS](http://sid77.slackware.it/iphone/)."
-msgstr ""
-"Kami juga mempunyai pakej eksperimen untuk [Nokia "
-"Maemo/N900](https://www.torproject.org/docs/N900.html.en) dan [Apple "
-"iOS](http://sid77.slackware.it/iphone/)."
+msgstr "Kami juga mempunyai pakej eksperimen untuk [Nokia Maemo/N900](https://www.torproject.org/docs/N900.html.en) dan [Apple iOS](http://sid77.slackware.it/iphone/)."
 
 #. type: Plain text
 #: en/tsum.text:97
 msgid ""
 "### How to verify that you have the right version\n"
 "Before running the Tor Browser Bundle, you should make sure that you have the right version."
-msgstr ""
-"### Bagaimana untuk menentukan anda ada versi yang betul\n"
-"Sebelum menjalankan Browser Bundle Tor, anda patut mengesahkan anda mempunyai versi yang betul."
+msgstr "### Bagaimana untuk menentukan anda ada versi yang betul\nSebelum menjalankan Browser Bundle Tor, anda patut mengesahkan anda mempunyai versi yang betul."
 
 #. type: Plain text
 #: en/tsum.text:102
@@ -263,11 +205,7 @@ msgid ""
 "bundle and the extension **.asc**. This .asc file is a GPG signature, and "
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
-msgstr ""
-"Perisian yang anda terima adalah bersama dengan fail yang namanya sama "
-"dengan nama bundle dan akhiran **.asc**. Fail .asc ialah fail tandatangan "
-"GPG, dan membolehkan anda mengesahkan fail yang dimuat turun adalah sama "
-"seperti yang sepatutnya anda dapat."
+msgstr "Perisian yang anda terima adalah bersama dengan fail yang namanya sama dengan nama bundle dan akhiran **.asc**. Fail .asc ialah fail tandatangan GPG, dan membolehkan anda mengesahkan fail yang dimuat turun adalah sama seperti yang sepatutnya anda dapat."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -275,10 +213,7 @@ msgstr ""
 msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
-msgstr ""
-"Sebelum anda mengesahkan tandatangan, anda perlu muat turun dan\n"
-"install GnuPG:   \n"
-"\n"
+msgstr "Sebelum anda mengesahkan tandatangan, anda perlu muat turun dan\ninstall GnuPG:   \n\n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -287,28 +222,21 @@ msgid ""
 "**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
-msgstr ""
-"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)   \n"
-"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)   \n"
-"**Linux**: Kebanyakan versi linux sudah ada GnuPG di dalamnya.\n"
+msgstr "**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)   \n**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)   \n**Linux**: Kebanyakan versi linux sudah ada GnuPG di dalamnya.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
 msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
-msgstr ""
-"Ambil perhatian anda perlu mengubah maklumat path dan command used di bawah "
-"untuk membolehkan ia berjalan dalam sistem anda."
+msgstr "Ambil perhatian anda perlu mengubah maklumat path dan command used di bawah untuk membolehkan ia berjalan dalam sistem anda."
 
 #. type: Plain text
 #: en/tsum.text:115
 msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
-msgstr ""
-"Tanda Erinn Clark untuk Browser Tor Bundles dengan kunci 0x63FEE659. Untuk "
-"import kunci Erinn, jalankan:"
+msgstr "Tanda Erinn Clark untuk Browser Tor Bundles dengan kunci 0x63FEE659. Untuk import kunci Erinn, jalankan:"
 
 #. type: Plain text
 #: en/tsum.text:117
@@ -342,22 +270,14 @@ msgid ""
 "\tuid                  Erinn Clark <erinn@debian.org>\n"
 "\tuid                  Erinn Clark <erinn@double-helix.org>\n"
 "\tsub   2048R/EB399FD7 2003-10-16\n"
-msgstr ""
-"»pub   2048R/63FEE659 2003-10-16\n"
-"»      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n"
-"»uid                  Erinn Clark <erinn@torproject.org>\n"
-"»uid                  Erinn Clark <erinn@debian.org>\n"
-"»uid                  Erinn Clark <erinn@double-helix.org>\n"
-"»sub   2048R/EB399FD7 2003-10-16\n"
+msgstr "»pub   2048R/63FEE659 2003-10-16\n»      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659\n»uid                  Erinn Clark <erinn@torproject.org>\n»uid                  Erinn Clark <erinn@debian.org>\n»uid                  Erinn Clark <erinn@double-helix.org>\n»sub   2048R/EB399FD7 2003-10-16\n"
 
 #. type: Plain text
 #: en/tsum.text:132
 msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
-msgstr ""
-"Untuk mengesahkan tandatangan pakej yang sudah dimuat turun, jalankan arahan"
-" berikut:"
+msgstr "Untuk mengesahkan tandatangan pakej yang sudah dimuat turun, jalankan arahan berikut:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -365,9 +285,7 @@ msgstr ""
 msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
-msgstr ""
-"»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
-"US.exe\n"
+msgstr "»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -387,13 +305,7 @@ msgid ""
 " directory called **Docs**, which contains a file called **changelog**. You "
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
-msgstr ""
-"Setelah anda mengesahkan tandatangan dan melihat *\"Good signature\"*, "
-"teruskan dengan mengekstrak pakej. Anda seterusnya boleh melihat direktori "
-"seperti **tor-browser_en-US**. Di dalam direktori ada terdapat direktori "
-"lain dipanggil **Docs**, yang mengandungi fail bernama **changelog**. Anda "
-"perlu memastikan nombor versi pada barisan atas fail changelog adalah sama "
-"dengan nombor pada nama fail."
+msgstr "Setelah anda mengesahkan tandatangan dan melihat *\"Good signature\"*, teruskan dengan mengekstrak pakej. Anda seterusnya boleh melihat direktori seperti **tor-browser_en-US**. Di dalam direktori ada terdapat direktori lain dipanggil **Docs**, yang mengandungi fail bernama **changelog**. Anda perlu memastikan nombor versi pada barisan atas fail changelog adalah sama dengan nombor pada nama fail."
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -410,13 +322,7 @@ msgid ""
 "confirming that you are now using Tor. This is done by displaying "
 "[https://check.torproject.org/](https://check.torproject.org/). You can now "
 "browse the Internet through Tor."
-msgstr ""
-"Apabila anda memulakan Tor Browser Bundle, anda boleh melihat Vidalia "
-"bermula dan menyambungkan anda kepada rangkaian Tor. Selepas itu, anda boleh"
-" melihat browser yang menunjukkan anda menggunakan Tor. Proses selesai "
-"setelah terpapar "
-"[https://check.torproject.org/](https://check.torproject.org/). Anda "
-"sekarang boleh menggunakan Internet melalui Tor."
+msgstr "Apabila anda memulakan Tor Browser Bundle, anda boleh melihat Vidalia bermula dan menyambungkan anda kepada rangkaian Tor. Selepas itu, anda boleh melihat browser yang menunjukkan anda menggunakan Tor. Proses selesai setelah terpapar [https://check.torproject.org/](https://check.torproject.org/). Anda sekarang boleh menggunakan Internet melalui Tor."
 
 #. type: Plain text
 #: en/tsum.text:163
@@ -424,9 +330,7 @@ msgstr ""
 msgid ""
 "*Please note that it is important that you use the browser that comes\n"
 "with the bundle, and not your own browser.*\n"
-msgstr ""
-"*Ambil perhatian adalah penting untuk anda menggunakan browser yang datang "
-"bersama bundle, elakkan menggunakan browser anda.*\n"
+msgstr "*Ambil perhatian adalah penting untuk anda menggunakan browser yang datang bersama bundle, elakkan menggunakan browser anda.*\n"
 
 #. type: Plain text
 #: en/tsum.text:169
@@ -442,11 +346,7 @@ msgid ""
 "to the network, try the following; open the Vidalia control panel, click on "
 "*Message Log* and select the *Advanced* tab. It may be that Tor won't "
 "connect because:"
-msgstr ""
-"Sekiranya sambungan Internet berfungsi, tetapi Tor masih tidak boleh "
-"menyambung kepada rangkaian, cuba langkah berikut; buka Vidalia control "
-"panel, klik pada *Message Log* dan pilih *Advanced* tab. Adalah "
-"berkemungkinan Tor tidak bersambung kerana:"
+msgstr "Sekiranya sambungan Internet berfungsi, tetapi Tor masih tidak boleh menyambung kepada rangkaian, cuba langkah berikut; buka Vidalia control panel, klik pada *Message Log* dan pilih *Advanced* tab. Adalah berkemungkinan Tor tidak bersambung kerana:"
 
 #. type: Plain text
 #: en/tsum.text:178
@@ -455,10 +355,7 @@ msgid ""
 "**Your system clock is off**: Make sure that the date and time on your\n"
 "system is correct, and restart Tor. You may need to synchronize your\n"
 "system clock with an Internet time server.     \n"
-msgstr ""
-"**Your system clock is off**: Pastikan tarikh dan masa dalam sistem\n"
-"anda adalah betul, dan buka semula Tor. Anda mungkin perlu menyamakan \n"
-"masa sistem dengan server masa internet.     \n"
+msgstr "**Your system clock is off**: Pastikan tarikh dan masa dalam sistem\nanda adalah betul, dan buka semula Tor. Anda mungkin perlu menyamakan \nmasa sistem dengan server masa internet.     \n"
 
 #. type: Plain text
 #: en/tsum.text:183
@@ -468,11 +365,7 @@ msgid ""
 "80 and port 443, open the Vidalia control panel, click on *Settings* and\n"
 "*Network*, and tick the box that says *My firewall only lets me connect\n"
 "to certain ports*.     \n"
-msgstr ""
-"**You are behind a restrictive firewall**: Untuk memberitahu Tor hanya mencuba port\n"
-"80 dan port 443, buka kontrol panel Vidalia, klik pada *Settings* dan\n"
-"*Network*, dan klik pada kotak bertanda *My firewall only lets me connect\n"
-"to certain ports*.     \n"
+msgstr "**You are behind a restrictive firewall**: Untuk memberitahu Tor hanya mencuba port\n80 dan port 443, buka kontrol panel Vidalia, klik pada *Settings* dan\n*Network*, dan klik pada kotak bertanda *My firewall only lets me connect\nto certain ports*.     \n"
 
 #. type: Plain text
 #: en/tsum.text:187
@@ -481,10 +374,7 @@ msgid ""
 "**Your anti-virus program is blocking Tor**: Make sure that your\n"
 "anti-virus program is not preventing Tor from making network\n"
 "connections.\n"
-msgstr ""
-"**Your anti-virus program is blocking Tor**: Pastikan bahawa anti-virus\n"
-"anda tidak menghalang Tor daripada membuat sambungan\n"
-"rangkaian.\n"
+msgstr "**Your anti-virus program is blocking Tor**: Pastikan bahawa anti-virus\nanda tidak menghalang Tor daripada membuat sambungan\nrangkaian.\n"
 
 #. type: Plain text
 #: en/tsum.text:191
@@ -492,11 +382,7 @@ msgid ""
 "If Tor still doesn't work, it's likely that your Internet Service Provider "
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
-msgstr ""
-"Sekiranya Tor masih tidak berjalan, berkemungkinan besar Internet Service "
-"Provider (ISP) telah menghalang Tor. Sangat jarang hal ini boleh diatasi "
-"menggunakan **Tor bridges**, iaitu relay tersembunyi yang bukan mudah untuk "
-"disekat."
+msgstr "Sekiranya Tor masih tidak berjalan, berkemungkinan besar Internet Service Provider (ISP) telah menghalang Tor. Sangat jarang hal ini boleh diatasi menggunakan **Tor bridges**, iaitu relay tersembunyi yang bukan mudah untuk disekat."
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -519,11 +405,7 @@ msgid ""
 "stable, in case some of the bridges become unreachable. There is no "
 "guarantee that the bridge you are using now will work tomorrow, so you "
 "should make a habit of updating your list of bridges every so often."
-msgstr ""
-"Konfigurasi lebih daripada satu bridge akan membuatkan sambungan Tor lebih "
-"stabil, dalam kes di mana bridge tidak dapat dihubungi. Tidak ada jaminan "
-"bahawa bridge digunakan hari ini dapat berjalan keesokan hari, jadi anda "
-"boleh memastikan senarai bridge sentiasa dikemaskini dengan kerap."
+msgstr "Konfigurasi lebih daripada satu bridge akan membuatkan sambungan Tor lebih stabil, dalam kes di mana bridge tidak dapat dihubungi. Tidak ada jaminan bahawa bridge digunakan hari ini dapat berjalan keesokan hari, jadi anda boleh memastikan senarai bridge sentiasa dikemaskini dengan kerap."
 
 #. type: Plain text
 #: en/tsum.text:214
@@ -544,9 +426,7 @@ msgstr ""
 msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
-msgstr ""
-"Langkah di bawah menganggap anda sudah ada konfigurasi Tor/Vidalia, dan anda"
-" sudah menjumpai senarai HTTPS, SOCKS4, atau SOCKS5 proxy."
+msgstr "Langkah di bawah menganggap anda sudah ada konfigurasi Tor/Vidalia, dan anda sudah menjumpai senarai HTTPS, SOCKS4, atau SOCKS5 proxy."
 
 #. type: Bullet: '1. '
 #: en/tsum.text:235
@@ -571,15 +451,7 @@ msgid ""
 "or SOCKS5.\n"
 "7. Push the *OK* button. Vidalia and Tor are now configured to use a\n"
 "proxy to access the rest of the Tor network.\n"
-msgstr ""
-"3. Pada barisan *Address*, masukkan alamat open proxy. Ini boleh jadi \n"
-"hostname atau nombor IP.\n"
-"4. Masukkan port pada proxy.\n"
-"5. Biasanya, anda tidak memerlukan username dan password. Sekiranya anda\n"
-"perlu, masukkan maklumat pada ruangan diperlukan.\n"
-"6. Pilih *Type* proxy yang digunakan samaada HTTP/HTTPS, SOCKS4,\n"
-"atau SOCKS5.\n"
-"7. Tekan butang *OK*. Vidalia dan Tor sekarang disetkan untuk menggunakan proxy untuk mengakses rangkaian Tor.\n"
+msgstr "3. Pada barisan *Address*, masukkan alamat open proxy. Ini boleh jadi \nhostname atau nombor IP.\n4. Masukkan port pada proxy.\n5. Biasanya, anda tidak memerlukan username dan password. Sekiranya anda\nperlu, masukkan maklumat pada ruangan diperlukan.\n6. Pilih *Type* proxy yang digunakan samaada HTTP/HTTPS, SOCKS4,\natau SOCKS5.\n7. Tekan butang *OK*. Vidalia dan Tor sekarang disetkan untuk menggunakan proxy untuk mengakses rangkaian Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:240
@@ -646,10 +518,7 @@ msgid ""
 "Once the unpacking process has completed, you should see a newly created "
 "\".exe\" file in the same directory. Run this file and wait for the Tor "
 "Browser Bundle to start."
-msgstr ""
-"Setelah proses ekstrak fail berjaya, anda boleh melihat fail \".exe\" yang "
-"dibuat pada direktori yang sama. Jalankan fail ini dan tunggu Browser Tor "
-"Bundle mula berjalan."
+msgstr "Setelah proses ekstrak fail berjaya, anda boleh melihat fail \".exe\" yang dibuat pada direktori yang sama. Jalankan fail ini dan tunggu Browser Tor Bundle mula berjalan."
 
 #. type: Plain text
 #: en/tsum.text:281
@@ -667,12 +536,7 @@ msgid ""
 "bundle and now you're trying to run the Tor Browser Bundle. In that\n"
 "case, you will need to close the old Vidalia and Tor before you can run\n"
 "this one.\n"
-msgstr ""
-"**You are already running Vidalia and Tor**:\n"
-"Contohnya, ini mungkin berlaku sekiranya anda memasang bundle Vidalia\n"
-"dan anda mencuba jalankan Browser Tor Bundle. Dalam kes ini,\n"
-"anda perlu tutup Vidalia lama dan Tor sebelum menjalankan yang\n"
-"baru.\n"
+msgstr "**You are already running Vidalia and Tor**:\nContohnya, ini mungkin berlaku sekiranya anda memasang bundle Vidalia\ndan anda mencuba jalankan Browser Tor Bundle. Dalam kes ini,\nanda perlu tutup Vidalia lama dan Tor sebelum menjalankan yang\nbaru.\n"
 
 #. type: Plain text
 #: en/tsum.text:294
@@ -684,13 +548,7 @@ msgid ""
 "random control password. If you do not see a Reset button, or if Vidalia\n"
 "is unable to restart Tor for you; go into your process or task manager,\n"
 "and terminate the Tor process. Then use Vidalia to restart Tor.\n"
-msgstr ""
-"**Vidalia crashed, but left Tor running**:\n"
-"Jika dialog meminta anda memasukkan control password yang mempunyai butang\n"
-"Reset, anda boleh klik butang tersebut dan Vidalia akan memulakan semula Tor\n"
-"dengan password control rawak yang baru. Sekiranya anda tidak dapat melihat butang\n"
-"Reset, atau Vidalia tidak dapat memulakan semula Tor; buka process atau task manager,\n"
-"dan tamatkan proses Tor. Kemudian gunakan Vidalia untuk memulakan semula Tor.\n"
+msgstr "**Vidalia crashed, but left Tor running**:\nJika dialog meminta anda memasukkan control password yang mempunyai butang\nReset, anda boleh klik butang tersebut dan Vidalia akan memulakan semula Tor\ndengan password control rawak yang baru. Sekiranya anda tidak dapat melihat butang\nReset, atau Vidalia tidak dapat memulakan semula Tor; buka process atau task manager,\ndan tamatkan proses Tor. Kemudian gunakan Vidalia untuk memulakan semula Tor.\n"
 
 #. type: Plain text
 #: en/tsum.text:298
@@ -698,10 +556,7 @@ msgid ""
 "For more information, see the "
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
-msgstr ""
-"Untuk maklumat lanjut, lihat "
-"[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) pada laman web "
-"Tor Project."
+msgstr "Untuk maklumat lanjut, lihat [FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) pada laman web Tor Project."
 
 #. type: Plain text
 #: en/tsum.text:303
@@ -716,11 +571,7 @@ msgid ""
 "Most YouTube videos work with HTML5, and it is possible to view these videos"
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
 " on the YouTube website before you can use the HTML5 player."
-msgstr ""
-"Kebanyakan video YouTube dapat dijalankan dengan HTML5, dan anda boleh "
-"melihat video menggunakan Tor. Anda perlu join [HTML5 "
-"trial](https://www.youtube.com/html5) dalam website YouTube sebelum boleh "
-"menggunakan player HTML5."
+msgstr "Kebanyakan video YouTube dapat dijalankan dengan HTML5, dan anda boleh melihat video menggunakan Tor. Anda perlu join [HTML5 trial](https://www.youtube.com/html5) dalam website YouTube sebelum boleh menggunakan player HTML5."
 
 #. type: Plain text
 #: en/tsum.text:312
@@ -728,19 +579,14 @@ msgid ""
 "Note that the browser will not remember that you joined the trial once you "
 "close it, so you will need to re-join the trial the next time you run the "
 "Tor Browser Bundle."
-msgstr ""
-"Catatan: browser tidak akan ingat bahawa anda sudah join trial setelah anda "
-"tutup, jadi anda perlu join semula setiap kali menjalankan Browser Tor "
-"Bundle."
+msgstr "Catatan: browser tidak akan ingat bahawa anda sudah join trial setelah anda tutup, jadi anda perlu join semula setiap kali menjalankan Browser Tor Bundle."
 
 #. type: Plain text
 #: en/tsum.text:315
 msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
-msgstr ""
-"Sila lihat [Torbutton FAQ](https://www.torproject.org/torbutton/torbutton-"
-"faq.html#noflash)  untuk maklumat lanjut."
+msgstr "Sila lihat [Torbutton FAQ](https://www.torproject.org/torbutton/torbutton-faq.html#noflash)  untuk maklumat lanjut."
 
 #. type: Plain text
 #: en/tsum.text:321
@@ -755,5 +601,3 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
-
-

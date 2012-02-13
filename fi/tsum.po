@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 09:44+0000\n"
+"PO-Revision-Date: 2012-02-13 09:50+0000\n"
 "Last-Translator: com234 <jukka.mieskonen@suomi24.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,9 +46,7 @@ msgstr ""
 msgid ""
 "How Tor works\n"
 "-------------\n"
-msgstr ""
-"Kuinka Tor toimii\n"
-"-------------------\n"
+msgstr "Kuinka Tor toimii\n-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -95,9 +93,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr ""
-"Kuinka ladata Tor\n"
-"--------------------\n"
+msgstr "Kuinka ladata Tor\n--------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -605,5 +601,3 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
-
-

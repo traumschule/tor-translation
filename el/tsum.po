@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 09:44+0000\n"
+"PO-Revision-Date: 2012-02-13 09:50+0000\n"
 "Last-Translator: anvo <fragos.george@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,9 +47,7 @@ msgstr ""
 msgid ""
 "How Tor works\n"
 "-------------\n"
-msgstr ""
-"Πώς λειτουργεί το Tor⏎\n"
-"-------------⏎\n"
+msgstr "Πώς λειτουργεί το Tor⏎\n-------------⏎\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -58,12 +56,7 @@ msgid ""
 "and security on the Internet. Tor works by sending your traffic through "
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
-msgstr ""
-"Το Tor είναι ένα δίκτυο διαύλων το οποίο μπορεί να βελτιώσει την "
-"ιδιωτικότητα και την ασφάλειά σας στο Διαδίκτυο. Το Tor λειτουργεί "
-"στέλνοντας την κυκλοφορία σας των δεδομένων σας μέσω τριών τυχαίων "
-"διακομιστών (επίσης γνωστών ως \"αναμεταδοτών\"-relays) του δικτύου Tor, και"
-" πριν τα δεδομένα αυτά αποσταλούν στο δημόσιο Διαδίκτυο."
+msgstr "Το Tor είναι ένα δίκτυο διαύλων το οποίο μπορεί να βελτιώσει την ιδιωτικότητα και την ασφάλειά σας στο Διαδίκτυο. Το Tor λειτουργεί στέλνοντας την κυκλοφορία σας των δεδομένων σας μέσω τριών τυχαίων διακομιστών (επίσης γνωστών ως \"αναμεταδοτών\"-relays) του δικτύου Tor, και πριν τα δεδομένα αυτά αποσταλούν στο δημόσιο Διαδίκτυο."
 
 #. type: Plain text
 #: en/tsum.text:21
@@ -85,12 +78,7 @@ msgid ""
 "everything between you and the Tor network. Tor will also encrypt your "
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
-msgstr ""
-"Το Tor ανωνυμοποιεί την προέλευση των δεδομένων σας και κρυπτογραφεί όλα τα "
-"δεδομένα που κυκλοφορούν μεταξύ του χρήστη και του δικτύου Tor. Το Tor, "
-"επίσης, κρυπτογραφεί την κυκλοφορία σας εντός του δικτύου Tor, αλλά δεν "
-"μπορεί να κρυπτογραφήσει την κυκλοφορία μεταξύ του δικτύου Tor και του "
-"τελικού προορισμού της."
+msgstr "Το Tor ανωνυμοποιεί την προέλευση των δεδομένων σας και κρυπτογραφεί όλα τα δεδομένα που κυκλοφορούν μεταξύ του χρήστη και του δικτύου Tor. Το Tor, επίσης, κρυπτογραφεί την κυκλοφορία σας εντός του δικτύου Tor, αλλά δεν μπορεί να κρυπτογραφήσει την κυκλοφορία μεταξύ του δικτύου Tor και του τελικού προορισμού της."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -106,9 +94,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr ""
-"Πώς να κατεβάσετε το Tor⏎\n"
-"-------------------⏎\n"
+msgstr "Πώς να κατεβάσετε το Tor⏎\n-------------------⏎\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -228,9 +214,7 @@ msgstr ""
 msgid ""
 "Before you can verify the signature, you will have to download and\n"
 "install GnuPG:   \n"
-msgstr ""
-"Για να μπορέσετε να επαληθεύσετε την ψηφιακή⏎ υπογραφή, θα πρέπει να "
-"κατεβάσετε και να⏎ εγκαταστήσετε το GnuPG:⏎\n"
+msgstr "Για να μπορέσετε να επαληθεύσετε την ψηφιακή⏎ υπογραφή, θα πρέπει να κατεβάσετε και να⏎ εγκαταστήσετε το GnuPG:⏎\n"
 
 #. type: Plain text
 #: en/tsum.text:109
@@ -618,5 +602,3 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
-
-

@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 09:44+0000\n"
+"PO-Revision-Date: 2012-02-13 09:50+0000\n"
 "Last-Translator: PoopZemli <demonuk9@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,9 +47,7 @@ msgstr ""
 msgid ""
 "How Tor works\n"
 "-------------\n"
-msgstr ""
-"Як Tor працює\n"
-"-------------\n"
+msgstr "Як Tor працює\n-------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -96,9 +94,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr ""
-"Як скачати Tor\n"
-"-------------------\n"
+msgstr "Як скачати Tor\n-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -258,9 +254,7 @@ msgstr ""
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
-msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
-"0x63FEE659\n"
+msgstr "<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
@@ -284,9 +278,7 @@ msgstr ""
 msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
-msgstr ""
-"Для того, щоб перевірити сигнатуру пакунку, який ви завантажили, виконайте "
-"наступну команду:"
+msgstr "Для того, щоб перевірити сигнатуру пакунку, який ви завантажили, виконайте наступну команду:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -294,9 +286,7 @@ msgstr ""
 msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
-msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-"
-"browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
+msgstr "<span class=\"whitespace other\" title=\"Tab\">»</span>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -447,8 +437,7 @@ msgstr "Відкрийте панель управління у Vidalia, нат�
 #. type: Bullet: '2. '
 #: en/tsum.text:235
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
-msgstr ""
-"Натисніть *Мережа*. Вибнріть *Я використовую проксі для доступу в Інтернет*."
+msgstr "Натисніть *Мережа*. Вибнріть *Я використовую проксі для доступу в Інтернет*."
 
 #. type: Plain text
 #: en/tsum.text:235
@@ -470,9 +459,7 @@ msgstr ""
 msgid ""
 "## Frequently Asked Questions\n"
 "This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
-msgstr ""
-"## Часті питання\n"
-"Цей розділ дасть відповіді на деякі найбільш поширені запитання. Якщо ваше питання не згадується тут, надішліть електронного листа на адресу help@rt.torproject.org."
+msgstr "## Часті питання\nЦей розділ дасть відповіді на деякі найбільш поширені запитання. Якщо ваше питання не згадується тут, надішліть електронного листа на адресу help@rt.torproject.org."
 
 #. type: Plain text
 #: en/tsum.text:244
@@ -570,19 +557,14 @@ msgid ""
 "For more information, see the "
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
 "Project website."
-msgstr ""
-"Щоб отримання додаткову інформацію, переглянте [ЧАП] "
-"(https://torproject.org/docs/faq.html#VidaliaPassword) на веб-сайті Проєкту "
-"Tor."
+msgstr "Щоб отримання додаткову інформацію, переглянте [ЧАП] (https://torproject.org/docs/faq.html#VidaliaPassword) на веб-сайті Проєкту Tor."
 
 #. type: Plain text
 #: en/tsum.text:303
 msgid ""
 "### Flash does not work\n"
 "For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
-msgstr ""
-"### Flash не працює\n"
-"З міркувань безпеки Flash, Java та інші плагіни вимнені. Вони працюють незалежно від Firefox та можуть виконати дії, які зруйнують вашу анонімність."
+msgstr "### Flash не працює\nЗ міркувань безпеки Flash, Java та інші плагіни вимнені. Вони працюють незалежно від Firefox та можуть виконати дії, які зруйнують вашу анонімність."
 
 #. type: Plain text
 #: en/tsum.text:308
@@ -620,5 +602,3 @@ msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
 msgstr ""
-
-

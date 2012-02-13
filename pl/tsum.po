@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-12 09:44+0000\n"
+"PO-Revision-Date: 2012-02-13 09:50+0000\n"
 "Last-Translator: Tomasz Gruzewski <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,9 +47,7 @@ msgstr ""
 msgid ""
 "How Tor works\n"
 "-------------\n"
-msgstr ""
-"Jak działa Tor\n"
-"-------------\n"
+msgstr "Jak działa Tor\n-------------\n"
 
 #. type: Plain text
 #: en/tsum.text:19
@@ -58,11 +56,7 @@ msgid ""
 "and security on the Internet. Tor works by sending your traffic through "
 "three random servers (also known as *relays*) in the Tor network, before the"
 " traffic is sent out onto the public Internet."
-msgstr ""
-"Tor jest siecią wirtualnych tuneli, które poprawiają Twoją prywatność i "
-"bezpieczeństwo w Internecie. Tor działa poprzez wysyłanie Twoich zapytań "
-"przez trzy losowo wybrane serwery (także nane jako *relays*) w sieci Tor, "
-"zanim zostaną wysłane do publicznego Internetu."
+msgstr "Tor jest siecią wirtualnych tuneli, które poprawiają Twoją prywatność i bezpieczeństwo w Internecie. Tor działa poprzez wysyłanie Twoich zapytań przez trzy losowo wybrane serwery (także nane jako *relays*) w sieci Tor, zanim zostaną wysłane do publicznego Internetu."
 
 #. type: Plain text
 #: en/tsum.text:21
@@ -84,10 +78,7 @@ msgid ""
 "everything between you and the Tor network. Tor will also encrypt your "
 "traffic inside the Tor network, but it cannot encrypt your traffic between "
 "the Tor network and its final destination."
-msgstr ""
-"Tor ukryje pochodzenie Twojego zapytania, oraz zaszyfruje Twoje zapytania "
-"wewnątrz sieci Tor, ale nie zaszyfruje Twoich zapytań pomiędzy siecią Tor a "
-"jakoś tak."
+msgstr "Tor ukryje pochodzenie Twojego zapytania, oraz zaszyfruje Twoje zapytania wewnątrz sieci Tor, ale nie zaszyfruje Twoich zapytań pomiędzy siecią Tor a jakoś tak."
 
 #. type: Plain text
 #: en/tsum.text:36
@@ -103,9 +94,7 @@ msgstr ""
 msgid ""
 "How to download Tor\n"
 "-------------------\n"
-msgstr ""
-"Jak pobrać Tor\n"
-"-------------------\n"
+msgstr "Jak pobrać Tor\n-------------------\n"
 
 #. type: Plain text
 #: en/tsum.text:44
@@ -115,12 +104,7 @@ msgid ""
 "contains a browser preconfigured to safely browse the Internet through Tor, "
 "and requires no installation. You download the bundle, extract the archive, "
 "and start Tor."
-msgstr ""
-"Pakiet, który proponujemy większości użytkowników jest [Pakiet przeglądarki "
-"Tor] (https://www.torproject.org/projects/torbrowser.html). Pakiet zawiera "
-"przeglądarkę skonfigurowaną aby bezpiecznie przeglądać strony internetowe "
-"przez Tor i nie wymaga instalowania. Wystarczy ściągnąć pakiet, rozpakować "
-"archiwum i uruchomić Tor."
+msgstr "Pakiet, który proponujemy większości użytkowników jest [Pakiet przeglądarki Tor] (https://www.torproject.org/projects/torbrowser.html). Pakiet zawiera przeglądarkę skonfigurowaną aby bezpiecznie przeglądać strony internetowe przez Tor i nie wymaga instalowania. Wystarczy ściągnąć pakiet, rozpakować archiwum i uruchomić Tor."
 
 #. type: Plain text
 #: en/tsum.text:48
@@ -143,19 +127,14 @@ msgid ""
 "You can also request the Tor Browser Bundle for Mac OS X (write "
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
 "**linux-x86_64** for 64-bit systems)."
-msgstr ""
-"Możesz także zażądać pakiet przeglądarki Tor dla Mac OS X (wpisz "
-"**macos-i386**), lub Linux-a (wpisz **linux-i386** dla systemow 32-bitowych "
-"lub **linux-x86_64** dla systemów 64-bitowych)."
+msgstr "Możesz także zażądać pakiet przeglądarki Tor dla Mac OS X (wpisz **macos-i386**), lub Linux-a (wpisz **linux-i386** dla systemow 32-bitowych lub **linux-x86_64** dla systemów 64-bitowych)."
 
 #. type: Plain text
 #: en/tsum.text:61
 msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
-msgstr ""
-"Jeśli chcesz przetłumaczoną wersję Tor-a, wpisz **help** zamiast. Otrzymasz "
-"wtedy email-a z instrukcjami i listą dostępnych języków."
+msgstr "Jeśli chcesz przetłumaczoną wersję Tor-a, wpisz **help** zamiast. Otrzymasz wtedy email-a z instrukcjami i listą dostępnych języków."
 
 #. type: Plain text
 #: en/tsum.text:67
@@ -227,11 +206,7 @@ msgid ""
 "bundle and the extension **.asc**. This .asc file is a GPG signature, and "
 "will allow you to verify the file you've downloaded is exactly the one that "
 "we intended you to get."
-msgstr ""
-"Oprogramowaniu, które otrzymasz towarzyszy plik o tej samej nazwie jak "
-"pakiet, ale z rozszerzeniem **.asc**. Ten plik .asc jest podpisem GPG i "
-"pozwoli Ci zweryfikować czy ściągnięty pakiet jest dokładnie tym, którego "
-"oczekiwałeś-aś."
+msgstr "Oprogramowaniu, które otrzymasz towarzyszy plik o tej samej nazwie jak pakiet, ale z rozszerzeniem **.asc**. Ten plik .asc jest podpisem GPG i pozwoli Ci zweryfikować czy ściągnięty pakiet jest dokładnie tym, którego oczekiwałeś-aś."
 
 #. type: Plain text
 #: en/tsum.text:105
@@ -248,28 +223,21 @@ msgid ""
 "**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
 "**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n"
 "**Linux**: Most Linux distributions come with GnuPG preinstalled.\n"
-msgstr ""
-"**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html) \n"
-"**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)  \n"
-"**Linux**: Większość dystrybucji Linux-a posiada GnuPG już zainstalowane.\n"
+msgstr "**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html) \n**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)  \n**Linux**: Większość dystrybucji Linux-a posiada GnuPG już zainstalowane.\n"
 
 #. type: Plain text
 #: en/tsum.text:112
 msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
-msgstr ""
-"Proszę wziąść pod uwagę, że może być konieczna zmiana ścieżek dostępu i "
-"komand użytych poniżej aby zadziałały w Twoim systemie."
+msgstr "Proszę wziąść pod uwagę, że może być konieczna zmiana ścieżek dostępu i komand użytych poniżej aby zadziałały w Twoim systemie."
 
 #. type: Plain text
 #: en/tsum.text:115
 msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
-msgstr ""
-"Erinn Clark podpisuje pakiet przeglądarki Tor kluczem 0x63FEE659. Aby "
-"zaimportować klucz Erinn uruchom:"
+msgstr "Erinn Clark podpisuje pakiet przeglądarki Tor kluczem 0x63FEE659. Aby zaimportować klucz Erinn uruchom:"
 
 #. type: Plain text
 #: en/tsum.text:117
@@ -286,9 +254,7 @@ msgstr ""
 #: en/tsum.text:121
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
-msgstr ""
-"<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint "
-"0x63FEE659\n"
+msgstr "<span class=\"whitespace other\" title=\"Tab\">»</span>gpg  --fingerprint 0x63FEE659\n"
 
 #. type: Plain text
 #: en/tsum.text:123
@@ -312,8 +278,7 @@ msgstr ""
 msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
-msgstr ""
-"W celu weryfikacji podpisu pobranego pakietu, uruchom poniższą komendę:"
+msgstr "W celu weryfikacji podpisu pobranego pakietu, uruchom poniższą komendę:"
 
 #. type: Plain text
 #: en/tsum.text:134
@@ -321,9 +286,7 @@ msgstr ""
 msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
 "US.exe\n"
-msgstr ""
-"»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
-"US.exe\n"
+msgstr "»gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe\n"
 
 #. type: Plain text
 #: en/tsum.text:140
@@ -343,13 +306,7 @@ msgid ""
 " directory called **Docs**, which contains a file called **changelog**. You "
 "want to make sure that the version number on the top line of the changelog "
 "file matches the version number in the filename."
-msgstr ""
-"Jeśli podpis się zgadza oraz pojawił się komunikat *\"Good signature\"* "
-"wyodrębnij pliki z archiwum pakietu. Po czym powinien być widoczny folder "
-"podobny do **-tor-browser_en-US**. W środku tego folderu znajduje się inny "
-"folder o nazwie **Docs**, który zawiera plik o nazwie **changelog**. Należy "
-"się upewnić czy numer wersji znajdujący się na początku pliku changelog "
-"pasuje do numeru wersji w nazwie pliku. "
+msgstr "Jeśli podpis się zgadza oraz pojawił się komunikat *\"Good signature\"* wyodrębnij pliki z archiwum pakietu. Po czym powinien być widoczny folder podobny do **-tor-browser_en-US**. W środku tego folderu znajduje się inny folder o nazwie **Docs**, który zawiera plik o nazwie **changelog**. Należy się upewnić czy numer wersji znajdujący się na początku pliku changelog pasuje do numeru wersji w nazwie pliku. "
 
 #. type: Plain text
 #: en/tsum.text:153
@@ -426,10 +383,7 @@ msgid ""
 "If Tor still doesn't work, it's likely that your Internet Service Provider "
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
 "bridges**, hidden relays that aren't as easy to block."
-msgstr ""
-"Jeżeli Tor nadal nie działa, możliwe że Tor jest blokowany przez Twojego "
-"dostawcę usług internetowych (ISP). Często można użyć **Tor Bridges**, "
-"ukryte przekaźniki które są trudniejsze do zablokowania"
+msgstr "Jeżeli Tor nadal nie działa, możliwe że Tor jest blokowany przez Twojego dostawcę usług internetowych (ISP). Często można użyć **Tor Bridges**, ukryte przekaźniki które są trudniejsze do zablokowania"
 
 #. type: Plain text
 #: en/tsum.text:195
@@ -520,11 +474,7 @@ msgid ""
 "If you are unable to download 7-Zip, try to rename the file from .z to .zip "
 "and use winzip to extract the archive. Before renaming the file, tell "
 "Windows to show file extensions:"
-msgstr ""
-"Jeśli nie możesz ściągnąć 7-Zip, spróbuj zmienić rozszerzenie pliku z .z na "
-".zip i użyj winzip do rozpakowania archiwum. Przed zmianą rozszerzenia jeśli"
-" tego jeszcze nie zrobiłeś-aś będzie konieczne odznaczenie w opcjach folderu"
-" \"Ukryj znane rozszerzenia plików\""
+msgstr "Jeśli nie możesz ściągnąć 7-Zip, spróbuj zmienić rozszerzenie pliku z .z na .zip i użyj winzip do rozpakowania archiwum. Przed zmianą rozszerzenia jeśli tego jeszcze nie zrobiłeś-aś będzie konieczne odznaczenie w opcjach folderu \"Ukryj znane rozszerzenia plików\""
 
 #. type: Plain text
 #: en/tsum.text:254
@@ -534,12 +484,7 @@ msgid ""
 "2. Click on *Tools* and choose *Folder Options...* in the menu\n"
 "3. Click on the *View* tab\n"
 "4. Uncheck *Hide extensions for known file types* and click *OK*"
-msgstr ""
-"#### Windows XP\n"
-"1. Otwórz *Mój Komputer*\n"
-"2. Kliknij *Narzędzia* i wybierz *Opcje Folderów...* w menu\n"
-"3. Klinkij *Widok* tab\n"
-"4. Odznacz *Ukryj rozszerzenia znanych typów plików* i kliknij *OK*"
+msgstr "#### Windows XP\n1. Otwórz *Mój Komputer*\n2. Kliknij *Narzędzia* i wybierz *Opcje Folderów...* w menu\n3. Klinkij *Widok* tab\n4. Odznacz *Ukryj rozszerzenia znanych typów plików* i kliknij *OK*"
 
 #. type: Plain text
 #: en/tsum.text:260
@@ -656,8 +601,4 @@ msgstr ""
 msgid ""
 "### Why Tor is slow\n"
 "Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
-msgstr ""
-"### Why Tor is slow\n"
-"Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
-
-
+msgstr "### Why Tor is slow\nTor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
