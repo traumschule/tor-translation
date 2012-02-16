@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-02-16 18:45+0000\n"
-"PO-Revision-Date: 2012-02-16 21:44+0000\n"
+"PO-Revision-Date: 2012-02-16 21:55+0000\n"
 "Last-Translator: Chrizz <spamspamsausagespam@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -482,7 +482,7 @@ msgid ""
 "#### Windows Vista 1. Open *Computer* 2. Click on *Organize* and choose "
 "*Folder and search options* in the menu 3. Click on the *View* tab 4. "
 "Uncheck *Hide extensions for known file types* and click *OK*"
-msgstr "### Windows Vista\n1. Öffnen Sie *Computer*.\n2. Klicken Sie auf *Organisieren* und wählen Sie *Ordner- und Suchoptionen* im Menü aus.\n3. Klicken Sie auf die *Ansicht* Kartei-Karte.\n4. Deaktivieren Sie *Verberge Datei-Endungen bei bekannten Formaten* und klicken Sie auf *OK*."
+msgstr "### Windows Vista\n1. Öffnen Sie *Computer*.\n2. Klicken Sie auf *Organisieren* und wählen Sie *Ordner- und Suchoptionen* im Menü aus.\n3. Klicken Sie auf die *Ansicht* Kartei-Karte.\n4. Deaktivieren Sie *Erweiterung bei bekannten Dateitypen ausblenden* und klicken Sie auf *OK*."
 
 #. type: Plain text
 #: tsum.text:250
@@ -490,7 +490,7 @@ msgid ""
 "#### Windows 7 1. Open *Computer* 2. Click on *Organize* and choose *Folder "
 "and search options* in the menu 3. Click on the *View* tab 4. Uncheck *Hide "
 "extensions for known file types* and click *OK*"
-msgstr ""
+msgstr "### Windows 7\n1. Öffnen Sie *Computer*.\n2. Klicken Sie auf *Organisieren* und wählen Sie *Ordner und Suchoptionen* im Menü aus.\n3. Klicken Sie auf die *Ansicht* Kartei-Karte\n4. Deaktivieren Sie *Erweiterung bei bekannten Dateitypen ausblenden* und bestätigen Sie mit *OK*."
 
 #. type: Plain text
 #: tsum.text:254
@@ -498,7 +498,7 @@ msgid ""
 "### Vidalia asks for a password You should not have to enter a password when"
 " starting Vidalia. If you are prompted for one, you are likely affected by "
 "one of these problems:"
-msgstr ""
+msgstr "### Vidalia fragt nach einem Passwort.\nBeim Start von Vidalia sollte keine Passwort-Abfrage kommen. Wenn dies doch der Fall ist, dann haben Sie wahrscheinlich eines der folgenden Probleme: "
 
 #. type: Plain text
 #: tsum.text:260
@@ -537,7 +537,7 @@ msgid ""
 "### Flash does not work For security reasons, Flash, Java, and other plugins"
 " are currently disabled for Tor. Plugins operate independently from Firefox "
 "and can perform activity on your computer that ruins your anonymity."
-msgstr ""
+msgstr "### Flash funktioniert nicht\nAus Sicherheitsgründen sind Flash, Java und andere Plugins für Tor derzeit deaktiviert. Plugins arbeit unabhängig von Firefox und können daher ihr Anonymität gefährden."
 
 #. type: Plain text
 #: tsum.text:281
@@ -569,7 +569,7 @@ msgid ""
 "you only browse the web through Tor using the Tor Browser Bundle. It is "
 "technically possible to use Tor with other browsers, but by doing so you "
 "open yourself up to potential attacks."
-msgstr ""
+msgstr "### Ich möchte einen anderen Browser verwenden\nAus Sicherheitsgründen empfehlen wir, nur den im Tor Browser Bundle enthaltenen Browser zu benutzen. Es ist zwar technisch möglich, auch einen anderen Browser einzusetzen, dies gefährdet jedoch Ihre Sicherheit."
 
 #. type: Plain text
 #: tsum.text:298
@@ -577,4 +577,4 @@ msgid ""
 "### Why Tor is slow Tor can sometimes be a bit slower than your normal "
 "Internet connection.  After all, your traffic is sent through many different"
 " countries, sometimes across oceans around the world!"
-msgstr ""
+msgstr "### Warum ist Tor so langsam?\nTor kann unter Umständen langsamer als Ihre normale Internet-Verbindung sein. Der Datenverkehr innerhalb von Tor wird durch verschiedene Länder, Meere und Kontinente geleitet!"
