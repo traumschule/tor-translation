@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-02-16 18:45+0000\n"
-"PO-Revision-Date: 2012-02-16 21:12+0000\n"
+"PO-Revision-Date: 2012-02-16 21:44+0000\n"
 "Last-Translator: Chrizz <spamspamsausagespam@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -382,7 +382,7 @@ msgid ""
 "sure that you write **get bridges** in the body of the email. Without this, "
 "you will not get a reply. Note that you need to send this email from either "
 "a gmail.com or a yahoo.com address."
-msgstr ""
+msgstr "### Wie finde ich einen Bridge-Server ?\nBevor Sie einen Bridge-Server benutzen können, müssen Sie zunächst einen finden. Sie können per Browser unter [bridges.torproject.org](https://bridges.torproject.org/) Bridge-Server finden oder sich per E-Mail an bridges@torproject.org wenden. Sollten Sie eine E-Mail senden, dann tragen Sie bitte im Text-Feld **get bridges** ein. Ohne diesen Text werden Sie keine Informationen zu den Bridge Servern erhalten. Dieses E-Mail muß zwingend von einer gmail.com oder einer yahoo.com Absender-Adresse kommen."
 
 #. type: Plain text
 #: tsum.text:192
@@ -400,7 +400,7 @@ msgid ""
 "Vidalia control panel, click on *Settings*, *Network* and tick the box that "
 "says *My ISP blocks connections to the Tor network*. Enter the bridges in "
 "the box below, hit *OK* and start Tor again."
-msgstr ""
+msgstr "### Wie benutze ich einen Bridge-Server?\nSollten Sie bereits Adressen von Bridge Servern haben, dann öffnen Sie bitte das Vidalia-Kontrollpanel und klicken Sie auf *Einstellungen*, *Netzwerk* und wählen dann den Punkt *Mein Provider blockiert Verbindungen zum Tor-Netzwerk* aus. Tragen Sie dann die Adressen der Bridge-Server in das Feld darunter ein und bestätigen Sie  mit *OK*. Starten Sie danach Tor neu."
 
 #. type: Plain text
 #: tsum.text:204
@@ -410,7 +410,7 @@ msgid ""
 "network. This means even if Tor is blocked by your local network, open "
 "proxies can be safely used to connect to the Tor Network and on to the "
 "uncensored Internet."
-msgstr ""
+msgstr "### Wie kann ich einen offenen Proxy-Server benutzen?\nSollte das Benutzen mit Hilfe eines Bridge-Servers nicht funktionieren, können Sie versuchen, einen Proxy-Server mit HTTPS oder SOCKS zu konfigurieren, um Zugriff auf das Tor-Netzwerk zu bekommen. Das bedeutet, das Tor selbst dann, wenn es in Ihrem lokalen Netzwerk blockiert werden sollte, mit Hilfe eines offenen Proxy-Servers in der Lage ist, sich mit dem Tor Netzwerk zu verbinden und Ihnen dann unzensiertes Internet zur Verfügung stellen kann."
 
 #. type: Plain text
 #: tsum.text:207
@@ -450,7 +450,7 @@ msgid ""
 "## Frequently Asked Questions This section will answer some of the most "
 "common questions. If your question is not mentioned here, please send an "
 "email to help@rt.torproject.org."
-msgstr ""
+msgstr "## Häufig gestelle Fragen\nIn diesem Kapitel werden häufig gestelle Fragen beantwortet. Sollten Sie dennoch keine Antwort auf Ihre Frage finden, dann können Sie uns per E-Mail an help@rt.torproject.org kontaktieren."
 
 #. type: Plain text
 #: tsum.text:228
@@ -458,7 +458,7 @@ msgid ""
 "### Unable to extract the archive If you are using Windows and find that you"
 " cannot extract the archive, download and install "
 "[7-Zip](http://www.7-zip.org/)."
-msgstr ""
+msgstr "### Ich kann die Software nicht entpacken\nSollten Sie Windows verwenden und Probleme beim Entpacken der Software haben, dann können Sie beispielsweise [7-Zip](http://www.7-zip.org/) installieren, um die Software zu entpacken."
 
 #. type: Plain text
 #: tsum.text:232
@@ -474,7 +474,7 @@ msgid ""
 "#### Windows XP 1. Open *My Computer* 2. Click on *Tools* and choose *Folder"
 " Options...* in the menu 3. Click on the *View* tab 4. Uncheck *Hide "
 "extensions for known file types* and click *OK*"
-msgstr ""
+msgstr "### Windows XP\n1. Öffnen Sie *Mein Computer*.\n2. Klicken Sie auf *Tools* und wählen Sie dann *Ordneroptionen...* im Menü aus.\n3. Klicken Sie auf die *Ansicht*-Registerkarte.\n4. Deaktivieren Sie *Zeige Datei-Endungen nicht an* und bestätigen Sie mit *OK*."
 
 #. type: Plain text
 #: tsum.text:244
@@ -482,7 +482,7 @@ msgid ""
 "#### Windows Vista 1. Open *Computer* 2. Click on *Organize* and choose "
 "*Folder and search options* in the menu 3. Click on the *View* tab 4. "
 "Uncheck *Hide extensions for known file types* and click *OK*"
-msgstr ""
+msgstr "### Windows Vista\n1. Öffnen Sie *Computer*.\n2. Klicken Sie auf *Organisieren* und wählen Sie *Ordner- und Suchoptionen* im Menü aus.\n3. Klicken Sie auf die *Ansicht* Kartei-Karte.\n4. Deaktivieren Sie *Verberge Datei-Endungen bei bekannten Formaten* und klicken Sie auf *OK*."
 
 #. type: Plain text
 #: tsum.text:250
