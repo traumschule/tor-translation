@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
-"POT-Creation-Date: 2011-11-05 17:16+0000\n"
-"PO-Revision-Date: 2012-02-14 09:45+0000\n"
-"Last-Translator: Trikki <eneko.sanchez@gmail.com>\n"
+"POT-Creation-Date: 2012-02-16 18:45+0000\n"
+"PO-Revision-Date: 2012-02-16 19:17+0000\n"
+"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. type: Plain text
-#: en/tsum.text:2
-msgid "# The Short User Manual\n"
+#: tsum.text:2
+msgid "# The Short User Manual"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:7
+#: tsum.text:7
 msgid ""
 "This user manual contains information about how to download Tor, how to use "
 "it, and what to do if Tor is unable to connect to the network. If you can't "
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:11
+#: tsum.text:11
 msgid ""
 "Please note that we are providing support on a voluntary basis, and we get a"
 " lot of emails every single day. There is no need to worry if we don't get "
@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:13
+#: tsum.text:13
 #, no-wrap
 msgid ""
 "How Tor works\n"
@@ -49,7 +49,7 @@ msgid ""
 msgstr "Nola dabil Tor\n-------------\n"
 
 #. type: Plain text
-#: en/tsum.text:19
+#: tsum.text:19
 msgid ""
 "Tor is a network of virtual tunnels that allows you to improve your privacy "
 "and security on the Internet. Tor works by sending your traffic through "
@@ -58,12 +58,12 @@ msgid ""
 msgstr "Tor tunel birtualez osatutako sarea da,  Interneteko pribazitatea  era segurtasuna hobetzen duen. Zure trafiko ausazko hiru zerbitzarien bitartez bidaltzen du Tor-ek (*relay* deiturikoak), zure trafikoa azkenik Internet publikora bidali baino lehen."
 
 #. type: Plain text
-#: en/tsum.text:21
+#: tsum.text:21
 msgid "![How Tor Works](images/how-tor-works.png)"
 msgstr "![Nola Dabil Tor](images/how-tor-works.png)"
 
 #. type: Plain text
-#: en/tsum.text:26
+#: tsum.text:26
 msgid ""
 "The image above illustrates a user browsing to different websites over Tor. "
 "The green monitors represent relays in the Tor network, while the three keys"
@@ -71,7 +71,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:31
+#: tsum.text:31
 msgid ""
 "Tor will anonymize the origin of your traffic, and it will encrypt "
 "everything between you and the Tor network. Tor will also encrypt your "
@@ -80,7 +80,7 @@ msgid ""
 msgstr "Tor-ek zure trafikoaren iturria anonimo bihurtarazten du, eta zure eta Tor-en arteko guztia enrkiptatuko du. Tor-ek bere barneko trafikoa ere enkriptatuko du, baina ezin du zure trafikoa enkriptatu Tor sarea eta bere azkeneko helmuga bitartean."
 
 #. type: Plain text
-#: en/tsum.text:36
+#: tsum.text:36
 msgid ""
 "If you are communicating sensitive information, for example when logging on "
 "to a website with a username and password, make sure that you are using "
@@ -88,7 +88,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:38
+#: tsum.text:38
 #, no-wrap
 msgid ""
 "How to download Tor\n"
@@ -96,7 +96,7 @@ msgid ""
 msgstr "Nola jaitsi Tor\n-------------------\n"
 
 #. type: Plain text
-#: en/tsum.text:44
+#: tsum.text:44
 msgid ""
 "The bundle we recommend to most users is the [Tor Browser "
 "Bundle](https://www.torproject.org/projects/torbrowser.html). This bundle "
@@ -106,22 +106,23 @@ msgid ""
 msgstr "Erabiltzaile gehienentzat gomendagarria den sorta hauxe da [Tor Browser Bundle] (https://www.torproject.org/projects/torbrowser.html). Sorta honek bereziki Tor bidez Interneten era seguruan aritzeko konfiguratutako nabigatzaile bat darabil, eta ez dago instalatu beharrik. Besterik gabe jaitsio ezazu sorta, deskonpromitu artxiboa, eta ekin Tor."
 
 #. type: Plain text
-#: en/tsum.text:48
+#: tsum.text:48
 msgid ""
 "There are two different ways to get hold of the Tor software. You can either"
-" browse to the [Tor Project website](https://www.torproject.org/) and "
+" browse to the [Tor Project website](https://www.torproject.org/)  and "
 "download it there, or you can use GetTor, the email autoresponder."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:53
+#: tsum.text:53
 msgid ""
-"### How to get Tor via email\n"
-"To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with **windows** in the body of the message. You can leave the subject blank."
+"### How to get Tor via email To receive the English Tor Browser Bundle for "
+"Windows, send an email to gettor@torproject.org with **windows** in the body"
+" of the message. You can leave the subject blank."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:57
+#: tsum.text:57
 msgid ""
 "You can also request the Tor Browser Bundle for Mac OS X (write "
 "**macos-i386**), and Linux (write **linux-i386** for 32-bit systems or "
@@ -129,14 +130,14 @@ msgid ""
 msgstr "Mac OS X sistemarentzako era lortu dezakezu Tor Browser (idatzi **macos-i386**), eta Linux sistementzako (idatzi **linux-i386** 32-bitekoa bada edo **linux-x86_64**  64-biteko sistementan)."
 
 #. type: Plain text
-#: en/tsum.text:61
+#: tsum.text:61
 msgid ""
 "If you want a translated version of Tor, write **help** instead. You will "
 "then receive an email with instructions and a list of available languages."
 msgstr "Tor-en bertsio itzulia nahi baduzu, idatzi **help**. Orduan, email bat jasoko duzu instrukzioekin, erabilgarri dauden hizkuntzen zerrenda batekin."
 
 #. type: Plain text
-#: en/tsum.text:67
+#: tsum.text:67
 #, no-wrap
 msgid ""
 "**Note**: The Tor Browser Bundles for Linux and Mac OS X are rather\n"
@@ -147,44 +148,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:73
+#: tsum.text:73
 msgid ""
-"#### How to get Tor as several small sized packages\n"
-"It is possible to request the Tor Browser Bundle for Windows as several small sized packages, instead of one big package. This can be useful if you don't have a lot of bandwidth available, or if your email provider does not allow you to receive large attachments."
+"### Tor for smartphones You can get Tor on your Android device by installing"
+" the package named *Orbot*. For information about how to download and "
+"install Orbot, please see the [Tor Project "
+"website](https://www.torproject.org/docs/android.html.en)."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:76
-msgid ""
-"Send an email to gettor@torproject.org with the following words in the body "
-"of the email:"
-msgstr ""
-
-#. type: Plain text
-#: en/tsum.text:79
-#, no-wrap
-msgid ""
-"windows    \n"
-"split\n"
-msgstr ""
-
-#. type: Plain text
-#: en/tsum.text:83
-msgid ""
-"It is important that you include the keyword *split* on its own line. See "
-"*What to do with split packages* for information on how to unpack and re-"
-"assemble the small sized packages."
-msgstr ""
-
-#. type: Plain text
-#: en/tsum.text:89
-msgid ""
-"### Tor for smartphones\n"
-"You can get Tor on your Android device by installing the package named *Orbot*. For information about how to download and install Orbot, please see the [Tor Project website](https://www.torproject.org/docs/android.html.en)."
-msgstr ""
-
-#. type: Plain text
-#: en/tsum.text:93
+#: tsum.text:77
 msgid ""
 "We also have experimental packages for [Nokia "
 "Maemo/N900](https://www.torproject.org/docs/N900.html.en) and [Apple "
@@ -192,14 +165,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:97
+#: tsum.text:81
 msgid ""
-"### How to verify that you have the right version\n"
-"Before running the Tor Browser Bundle, you should make sure that you have the right version."
+"### How to verify that you have the right version Before running the Tor "
+"Browser Bundle, you should make sure that you have the right version."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:102
+#: tsum.text:86
 msgid ""
 "The software you receive is accompanied by a file with the same name as the "
 "bundle and the extension **.asc**. This .asc file is a GPG signature, and "
@@ -208,7 +181,7 @@ msgid ""
 msgstr "Jasoko duzun softwarea sortaren izen bereko fitxategi batekin dator **.asc** luzapenarekin. GPG sinadura bat da .asc fitxategi hori, eta jaitsi duzun artxiboa zehazki jaitsi nahi zenuena dela frogatzen lagunduko dizu."
 
 #. type: Plain text
-#: en/tsum.text:105
+#: tsum.text:89
 #, no-wrap
 msgid ""
 "Before you can verify the signature, you will have to download and\n"
@@ -216,7 +189,7 @@ msgid ""
 msgstr "Sinadura frogatu aurretik, GnuPG programa jaitsi era instalatu beharko duzu:   \n"
 
 #. type: Plain text
-#: en/tsum.text:109
+#: tsum.text:93
 #, no-wrap
 msgid ""
 "**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n"
@@ -225,43 +198,43 @@ msgid ""
 msgstr "**Windows**: [http://gpg4win.org/download.html](http://gpg4win.org/download.html)    \n**Mac OS X**: [http://macgpg.sourceforge.net/](http://macgpg.sourceforge.net/)    \n**Linux**: Linux distribuzio gehienek GnuPG aurreinstalatua dakarte.\n"
 
 #. type: Plain text
-#: en/tsum.text:112
+#: tsum.text:96
 msgid ""
 "Please note that you may need to edit the paths and the commands used below "
 "to get it to work on your system."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:115
+#: tsum.text:99
 msgid ""
 "Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import "
 "Erinn's key, run:"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:117
+#: tsum.text:101
 #, no-wrap
 msgid "\tgpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659\n"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:119
+#: tsum.text:103
 msgid "After importing the key, verify that the fingerprint is correct:"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:121
+#: tsum.text:105
 #, no-wrap
 msgid "\tgpg  --fingerprint 0x63FEE659\n"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:123
+#: tsum.text:107
 msgid "You should see:"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:130
+#: tsum.text:114
 #, no-wrap
 msgid ""
 "\tpub   2048R/63FEE659 2003-10-16\n"
@@ -273,14 +246,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:132
+#: tsum.text:116
 msgid ""
 "To verify the signature of the package you downloaded, run the following "
 "command:"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:134
+#: tsum.text:118
 #, no-wrap
 msgid ""
 "\tgpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-"
@@ -288,7 +261,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:140
+#: tsum.text:124
 msgid ""
 "The output should say *\"Good signature\"*. A bad signature means that the "
 "file may have been tampered with. If you see a bad signature, send details "
@@ -297,7 +270,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:147
+#: tsum.text:131
 msgid ""
 "Once you have verified the signature and seen the *\"Good signature\"* "
 "output, go ahead and extract the package archive. You should then see a "
@@ -308,14 +281,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:153
+#: tsum.text:137
 msgid ""
-"### How to use the Tor Browser Bundle\n"
-"After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called \"Start Tor Browser\" (or \"start-tor-browser\", depending on your operating system)."
+"### How to use the Tor Browser Bundle After downloading the Tor Browser "
+"Bundle and extracting the package, you should have a directory with a few "
+"files in it. One of the files is an executable called \"Start Tor Browser\" "
+"(or \"start-tor-browser\", depending on your operating system)."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:160
+#: tsum.text:144
 msgid ""
 "When you start the Tor Browser Bundle, you will first see Vidalia start up "
 "and connect you to the Tor network. After that, you will see a browser "
@@ -325,7 +300,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:163
+#: tsum.text:147
 #, no-wrap
 msgid ""
 "*Please note that it is important that you use the browser that comes\n"
@@ -333,14 +308,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:169
+#: tsum.text:153
 msgid ""
-"### What to do when Tor does not connect\n"
-"Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see *How to use an open proxy* below."
+"### What to do when Tor does not connect Some users will notice that Vidalia"
+" gets stuck when trying to connect to the Tor network. If this happens, make"
+" sure that you are connected to the Internet. If you need to connect to a "
+"proxy server, see *How to use an open proxy* below."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:174
+#: tsum.text:158
 msgid ""
 "If your normal Internet connection is working, but Tor still can't connect "
 "to the network, try the following; open the Vidalia control panel, click on "
@@ -349,7 +326,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:178
+#: tsum.text:162
 #, no-wrap
 msgid ""
 "**Your system clock is off**: Make sure that the date and time on your\n"
@@ -358,7 +335,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:183
+#: tsum.text:167
 #, no-wrap
 msgid ""
 "**You are behind a restrictive firewall**: To tell Tor to only try port\n"
@@ -368,7 +345,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:187
+#: tsum.text:171
 #, no-wrap
 msgid ""
 "**Your anti-virus program is blocking Tor**: Make sure that your\n"
@@ -377,7 +354,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:191
+#: tsum.text:175
 msgid ""
 "If Tor still doesn't work, it's likely that your Internet Service Provider "
 "(ISP) is blocking Tor. Very often this can be worked around with **Tor "
@@ -385,21 +362,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:195
+#: tsum.text:179
 msgid ""
 "If you need help with figuring out why Tor can't connect, send an email to "
 "help@rt.torproject.org and include the relevant parts from the log file."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:203
+#: tsum.text:187
 msgid ""
-"### How to find a bridge\n"
-"To use a bridge, you will first have to locate one; you can either browse to [bridges.torproject.org](https://bridges.torproject.org/), or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write **get bridges** in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address."
+"### How to find a bridge To use a bridge, you will first have to locate one;"
+" you can either browse to "
+"[bridges.torproject.org](https://bridges.torproject.org/), or you can send "
+"an email to bridges@torproject.org. If you do send an email, please make "
+"sure that you write **get bridges** in the body of the email. Without this, "
+"you will not get a reply. Note that you need to send this email from either "
+"a gmail.com or a yahoo.com address."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:208
+#: tsum.text:192
 msgid ""
 "Configuring more than one bridge address will make your Tor connection more "
 "stable, in case some of the bridges become unreachable. There is no "
@@ -408,38 +390,43 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:214
+#: tsum.text:198
 msgid ""
-"### How to use a bridge\n"
-"Once you have a set of bridges to use, open the Vidalia control panel, click on *Settings*, *Network* and tick the box that says *My ISP blocks connections to the Tor network*. Enter the bridges in the box below, hit *OK* and start Tor again."
+"### How to use a bridge Once you have a set of bridges to use, open the "
+"Vidalia control panel, click on *Settings*, *Network* and tick the box that "
+"says *My ISP blocks connections to the Tor network*. Enter the bridges in "
+"the box below, hit *OK* and start Tor again."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:220
+#: tsum.text:204
 msgid ""
-"### How to use an open proxy\n"
-"If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet."
+"### How to use an open proxy If using a bridge does not work, try "
+"configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor "
+"network. This means even if Tor is blocked by your local network, open "
+"proxies can be safely used to connect to the Tor Network and on to the "
+"uncensored Internet."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:223
+#: tsum.text:207
 msgid ""
 "The steps below assume you have a functional Tor/Vidalia configuration, and "
 "you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies."
 msgstr ""
 
 #. type: Bullet: '1. '
-#: en/tsum.text:235
+#: tsum.text:219
 msgid "Open the Vidalia control panel, click on *Settings*."
 msgstr ""
 
 #. type: Bullet: '2. '
-#: en/tsum.text:235
+#: tsum.text:219
 msgid "Click *Network*. Select *I use a proxy to access the Internet*."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:235
+#: tsum.text:219
 #, no-wrap
 msgid ""
 "3. On the *Address* line, enter the open proxy address. This can be a\n"
@@ -454,21 +441,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:240
+#: tsum.text:224
 msgid ""
-"## Frequently Asked Questions\n"
-"This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org."
+"## Frequently Asked Questions This section will answer some of the most "
+"common questions. If your question is not mentioned here, please send an "
+"email to help@rt.torproject.org."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:244
+#: tsum.text:228
 msgid ""
-"### Unable to extract the archive\n"
-"If you are using Windows and find that you cannot extract the archive, download and install [7-Zip](http://www.7-zip.org/)."
+"### Unable to extract the archive If you are using Windows and find that you"
+" cannot extract the archive, download and install "
+"[7-Zip](http://www.7-zip.org/)."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:248
+#: tsum.text:232
 msgid ""
 "If you are unable to download 7-Zip, try to rename the file from .z to .zip "
 "and use winzip to extract the archive. Before renaming the file, tell "
@@ -476,59 +465,39 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:254
+#: tsum.text:238
 msgid ""
-"#### Windows XP\n"
-"1. Open *My Computer*\n"
-"2. Click on *Tools* and choose *Folder Options...* in the menu\n"
-"3. Click on the *View* tab\n"
-"4. Uncheck *Hide extensions for known file types* and click *OK*"
+"#### Windows XP 1. Open *My Computer* 2. Click on *Tools* and choose *Folder"
+" Options...* in the menu 3. Click on the *View* tab 4. Uncheck *Hide "
+"extensions for known file types* and click *OK*"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:260
+#: tsum.text:244
 msgid ""
-"#### Windows Vista\n"
-"1. Open *Computer*\n"
-"2. Click on *Organize* and choose *Folder and search options* in the menu\n"
-"3. Click on the *View* tab\n"
-"4. Uncheck *Hide extensions for known file types* and click *OK*"
+"#### Windows Vista 1. Open *Computer* 2. Click on *Organize* and choose "
+"*Folder and search options* in the menu 3. Click on the *View* tab 4. "
+"Uncheck *Hide extensions for known file types* and click *OK*"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:266
+#: tsum.text:250
 msgid ""
-"#### Windows 7\n"
-"1. Open *Computer*\n"
-"2. Click on *Organize* and choose *Folder and search options* in the menu\n"
-"3. Click on the *View* tab\n"
-" 4. Uncheck *Hide extensions for known file types* and click *OK*"
+"#### Windows 7 1. Open *Computer* 2. Click on *Organize* and choose *Folder "
+"and search options* in the menu 3. Click on the *View* tab 4. Uncheck *Hide "
+"extensions for known file types* and click *OK*"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:273
+#: tsum.text:254
 msgid ""
-"### What to do with split packages\n"
-"When you request a split package, the parts may arrive out of order. You need to make sure you have received all the parts before you attempt to unpack them. Save all the parts into one directory on your computer, unzip them, and double-click the file that ends in \"..split.part01.exe\" to start the unpacking process."
+"### Vidalia asks for a password You should not have to enter a password when"
+" starting Vidalia. If you are prompted for one, you are likely affected by "
+"one of these problems:"
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:277
-msgid ""
-"Once the unpacking process has completed, you should see a newly created "
-"\".exe\" file in the same directory. Run this file and wait for the Tor "
-"Browser Bundle to start."
-msgstr ""
-
-#. type: Plain text
-#: en/tsum.text:281
-msgid ""
-"### Vidalia asks for a password\n"
-"You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:"
-msgstr ""
-
-#. type: Plain text
-#: en/tsum.text:287
+#: tsum.text:260
 #, no-wrap
 msgid ""
 "**You are already running Vidalia and Tor**:\n"
@@ -539,7 +508,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:294
+#: tsum.text:267
 #, no-wrap
 msgid ""
 "**Vidalia crashed, but left Tor running**:\n"
@@ -551,7 +520,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:298
+#: tsum.text:271
 msgid ""
 "For more information, see the "
 "[FAQ](https://torproject.org/docs/faq.html#VidaliaPassword) on the Tor "
@@ -559,14 +528,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:303
+#: tsum.text:276
 msgid ""
-"### Flash does not work\n"
-"For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity."
+"### Flash does not work For security reasons, Flash, Java, and other plugins"
+" are currently disabled for Tor. Plugins operate independently from Firefox "
+"and can perform activity on your computer that ruins your anonymity."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:308
+#: tsum.text:281
 msgid ""
 "Most YouTube videos work with HTML5, and it is possible to view these videos"
 " over Tor. You need to join the [HTML5 trial](https://www.youtube.com/html5)"
@@ -574,7 +544,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:312
+#: tsum.text:285
 msgid ""
 "Note that the browser will not remember that you joined the trial once you "
 "close it, so you will need to re-join the trial the next time you run the "
@@ -582,22 +552,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:315
+#: tsum.text:288
 msgid ""
 "Please see the [Torbutton FAQ](https://www.torproject.org/torbutton"
 "/torbutton-faq.html#noflash)  for more information."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:321
+#: tsum.text:294
 msgid ""
-"### I want to use another browser\n"
-"For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks."
+"### I want to use another browser For security reasons, we recommend that "
+"you only browse the web through Tor using the Tor Browser Bundle. It is "
+"technically possible to use Tor with other browsers, but by doing so you "
+"open yourself up to potential attacks."
 msgstr ""
 
 #. type: Plain text
-#: en/tsum.text:325
+#: tsum.text:298
 msgid ""
-"### Why Tor is slow\n"
-"Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!"
+"### Why Tor is slow Tor can sometimes be a bit slower than your normal "
+"Internet connection.  After all, your traffic is sent through many different"
+" countries, sometimes across oceans around the world!"
 msgstr ""
