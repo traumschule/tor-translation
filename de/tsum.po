@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Christian Sturm <reezer@reezer.org>, 2011.
+# Chrizz  <spamspamsausagespam@gmx.de>, 2012.
 #   <eeemsi@googlemail.com>, 2011.
 #   <reezer@reezer.org>, 2011.
 #   <sebastian@urbach.org>, 2011.
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: The Tor Project\n"
 "Report-Msgid-Bugs-To: https://trac.torproject.org/projects/tor\n"
 "POT-Creation-Date: 2012-02-16 18:45+0000\n"
-"PO-Revision-Date: 2012-02-16 19:17+0000\n"
-"Last-Translator: runasand <runa.sandvik@gmail.com>\n"
+"PO-Revision-Date: 2012-02-16 21:12+0000\n"
+"Last-Translator: Chrizz <spamspamsausagespam@gmx.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 #. type: Plain text
 #: tsum.text:2
 msgid "# The Short User Manual"
-msgstr ""
+msgstr "# Die kurze Tor Benutzer-Anleitung"
 
 #. type: Plain text
 #: tsum.text:7
@@ -114,7 +115,7 @@ msgid ""
 "There are two different ways to get hold of the Tor software. You can either"
 " browse to the [Tor Project website](https://www.torproject.org/)  and "
 "download it there, or you can use GetTor, the email autoresponder."
-msgstr ""
+msgstr "Es gibt zwei Möglichkeiten an die Tor-Software zu kommen. Sie können diese entweder auf der [Tor Project website](https://www.torproject.org/) herunterladen oder GetTor benutzen, den automatisierter E-Mail-Beantworter."
 
 #. type: Plain text
 #: tsum.text:53
@@ -122,7 +123,7 @@ msgid ""
 "### How to get Tor via email To receive the English Tor Browser Bundle for "
 "Windows, send an email to gettor@torproject.org with **windows** in the body"
 " of the message. You can leave the subject blank."
-msgstr ""
+msgstr "### Wie kann ich Tor per e-Mail bekommen?\nUm das englische Tor Browser Bundle für Windows zu bekommen, senden Sie bitte eine E-Mail an gettor@torproject.org mit dem Text **windows** im Text-Feld. Das Betreff-Feld können Sie leer lassen."
 
 #. type: Plain text
 #: tsum.text:57
@@ -157,7 +158,7 @@ msgid ""
 " the package named *Orbot*. For information about how to download and "
 "install Orbot, please see the [Tor Project "
 "website](https://www.torproject.org/docs/android.html.en)."
-msgstr ""
+msgstr "###Tor für Smartphones\nSie können Tor auf Ihrem Android Gerät installieren. Dafür benötigen Sie das Paket *Orbot*. Informationen zum Download und zur Installation erhalten Sie auf der [Tor Project website](https://www.torproject.org/docs/android.html.en)."
 
 #. type: Plain text
 #: tsum.text:77
@@ -172,7 +173,7 @@ msgstr "Es gibt eine experimentelle Software für [Nokia Maemo/N900](https://www
 msgid ""
 "### How to verify that you have the right version Before running the Tor "
 "Browser Bundle, you should make sure that you have the right version."
-msgstr ""
+msgstr "### Wie kann ich sicherstellen, dass ich die richtige Version habe?\nBevor Sie das Tor Browser Bundle verwenden, prüfen Sie bitte, ob Sie die richtige Version haben."
 
 #. type: Plain text
 #: tsum.text:86
@@ -290,7 +291,7 @@ msgid ""
 "Bundle and extracting the package, you should have a directory with a few "
 "files in it. One of the files is an executable called \"Start Tor Browser\" "
 "(or \"start-tor-browser\", depending on your operating system)."
-msgstr ""
+msgstr "### Wie benutze ich das Tor Browser Bundle ?\nNachdem Sie das Tor Browser Bundle heruntergeladen und entpackt haben, sollten Sie ein Verzeichnis mit einigen Dateien darin vorfinden. Eine dieser Dateien ist ausführbar und trägt den Namen \"Start Tor Browser\" oder \"start-tor-browser\" (abhängig vom Betriebssystem)."
 
 #. type: Plain text
 #: tsum.text:144
@@ -317,7 +318,7 @@ msgid ""
 " gets stuck when trying to connect to the Tor network. If this happens, make"
 " sure that you are connected to the Internet. If you need to connect to a "
 "proxy server, see *How to use an open proxy* below."
-msgstr ""
+msgstr "### Was kann ich tun, wenn Tor keine Verbindung aufbauen kann?\nEs kann passieren, dass Vidalia bei dem Versuch, das Tor-Netzwerk zu kontaktieren, hängen bleibt. Wenn dies passiert, dann überprüfen Sie bitte, ob Ihre Internet-Verbindung funktioniert. Falls Sie über einen Proxy-Server ins Internet gehen, dann lesen Sie bitte das Kapaitel *Wie benutze ich einen offenen Proxy* weiter unten."
 
 #. type: Plain text
 #: tsum.text:158
