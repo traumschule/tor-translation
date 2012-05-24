@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">Krátký uživatelský manuál</h1>
+    <p>Tento uživatelský manuál obsahuje informace o tom jak stáhnout Tor, jak ho použít, a co dělat v případě, že se Toru nepodaří se připojit k síti. Pokud v tomto dokumentu nenaleznete odpověď na svůj dotaz, pošlete email na help@rt.torproject.org.</p>
+    <p>Vezměte prosím v potaz, že naše podpora je čistě dobrovolná a dostáváme každodenně velké množství emailů. Není potřeba se strachovat pokud vám neodpovíme obratem.</p>
+    <h2 id="how-tor-works">Jak Tor funguje</h2>
+    <p>Tor je síť virtuálních tunelů která vám umožňuje zvýšit soukromí a zabezpečení na Internetu. Tor funguje na principu posílání veškeré vaší komunikace skrz tři náhodné servery (nebo <em>relaye</em>) v síti Tor než je poslána do veřejného internetu.</p>
+    <p>Tento obrázek ilustruje uživatele brouzdajícího po internetu přes Tor. Zelené monitory reprezentují relaye v síti Tor, zatímco tři klíče reprezentují vrstvy zašifrování mezi uživatelem a každým relayem.</p>
+    <p>Tor anonymizuje původ veškeré vaší komunikace a šifruje vše mezi vámi a sítí Tor. Tor také šifruje komunikaci uvnitř sítě Tor, ale nemůže zašifrovat komunikaci mezi sítí Tor a jejím cílem.</p>
+    <p>Pokud přenášíte citlivé informace, například při přihlašování se na nějakou stránku uživatelským jménem a heslem, ujistěte se, že používáte HTTPS (například <strong>https</strong>://torproject.org/, ne <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Jak stáhnout Tor</h2>
+    <p>Pro většinu uživatelů doporučujeme <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Tento balíček obsahuje předkonfigurovaný prohlížeč pro bezpečné brouzdání Internetu skrz Tor a nevyžaduje instalaci. Stačí jen balíček stáhnout, rozbalit archiv, a spustit Tor.</p>
+    <p>Jsou dva různé způsoby jak se dostat k softwaru Tor. Můžete buď navštívit <a href="https://www.torproject.org/">stránku projektu Tor</a> a stáhnout ho tam, nebo můžete použít GetTor, emailového robota.</p>
+    <h3 id="how-to-get-tor-via-email">Jak získat Tor přes email</h3>
+    <p>Pro získání anglického Tor Browser Bundle pro Windows, pošlete email na gettor@torproject.org s <strong>windows</strong> v těle zprávy. Předmět můžete nechat prázdný.</p>
+    <p>Můžete si také vyžádat Tor Browser Bundle pro Mac OS X (napište <strong>macos-i386</strong>) a linux (napište <strong>linux-i386</strong> pro 32-bitové systémy či <strong>linux-x86_64</strong> pro 64-bitové systémy).</p>
+    <p>Pokud si přejete přeloženou verzi Toru, napište <strong>help</strong>. Obdržíte email s instrukcemi a seznamem dostupných jazyků.</p>
+    <p><strong>Poznámka</strong>: Tor Browser Bundle pro Linux a Mac OS X jsou docela velké a s účtem u Gmailu, Hotmailu nebo Yahoo je nebudete moci přijmout. Pokud nemůžete přijmout balíček který chcete, pošlete email na help@rt.torproject.org a dáme vám seznam webových mirrorů.</p>
+    <h3 id="tor-for-smartphones">Tor pro chytré mobilní telefony</h3>
+    <p>Můžete získat Tor na vaše Android zařízení nainstalováním balíčku se jménem <em>Orbot</em>. Pro informace o tom jak stáhnout a nainstalovat Orbot, navštivte prosím <a href="https://www.torproject.org/docs/android.html.en">stránku projektu Tor</a>.</p>
+    <p>Máme také experimentální balíčky pro systémy <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> a <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Jak ověřit, že máte správnou verzi</h3>
+    <p>Před spuštením Tor Browser Bundle byste se měli ujistit, že máte správnou verzi.</p>
+    <p>Software který obdržíte je doprovázen souborem se stejným jménem jako balíček a příponou <strong>.asc</strong>. Tento .asc soubor je GPG podpis a umožní vám ověřit že stáhlý soubor je přesně ten co jsme vám chtěli dát.</p>
+    <p>Ještě než můžete ověřit podpis, budete potřebovat stáhnout a nainstalovat GnuPG:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Většina linuxových distribucí je dodávána s předinstalovaným GnuPG.</p>
+    <p>Vezměte prosím na vědomí, že může být nutné upravit cesty a příkazy používané níže, aby na vašem systému fungovaly.</p>
+    <p>Erinn Clark podepisuje Tor Browser Bundle klíčem 0x63FEE659. Pro naimportování Erinnino klíče, proveďte:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>Po naimportování klíče ověřte, že je otisk v pořádku:</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>Měli byste vidět:</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &amp;lt;erinn@torproject.org&amp;gt;
+uid                  Erinn Clark &amp;lt;erinn@debian.org&amp;gt;
+uid                  Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>K ověření podpisu bálíčku co jste stáhli proveďte následující příkaz:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>Výstup by měl psát <em>&amp;quot;Good signature&amp;quot;</em>. Špatný podpis může znamenat že do souboru někdo zasahoval. Uvidíte-li špatný podpis, pošlete detaily o místě ze kterého jste balíček stáhli, jak jste ověřovali podpis a výpis GnuPG v emailu na help@rt.torproject.org.</p>
+    <p>Po ověření že podpis je v pořádku můžete archiv extrahovat. Měli byste poté vidět adresář na způsob <strong>tor-browser_en-US</strong>. Uvnitř tohoto adresáře je další adresář se jménem <strong>Docs</strong>, který obsahuje soubor <strong>changelog</strong>. Ujistěte se, že verze na prvním řádku tohoto souboru je stejná jako verze ve jméně.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Jak použít Tor Browser Bundle</h3>
+    <p>Po stažení Tor Browser Bundle a rozbalení balíčku byste měli mít adresář s několika soubory. Jeden z nich bude spustitelný soubor nazvaný &amp;quot;Start Tor Browser&amp;quot; (nebo &amp;quot;start-tor-browser&amp;quot;, podle vašeho operačního systému).</p>
+    <p>Po spuštění Tor Browser Bundle uvidíte nejprve startovat program Vidalia a připojit se k síti Tor. Po té uvidéte prohlížeč potvrzující že nyní používáte Tor. K tomuto ověření se využívá <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Nyní můžete brouzdat Internet skrz Tor.</p>
+    <p>
+      <em>Vezměte prosím na vědomí, že je důležité abyste použili prohlížeč který je součástí balíčků, a ne váš vlastní.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Co dělat když se Tor vůbec nepřipojí</h3>
+    <p>Některým uživatelům se může stát, že se Vidalia zasekne při pokusu připojit se k síti Tor. V takovém případě se ujistěte, že jste připojeni k Internetu. Pokud se potřebujete připojit k proxy serveru, vizte <em>Jak použít otevřenou proxy</em> níže.</p>
+    <p>Pokud vaše normální Internetové připojení funguje, ale Tor se stále nemůže připojit k síti, zkuste následující: otevřte ovládací panel Vidalie, klikněte na <em>Message Log</em> a vyberte sekci <em>Advanced</em>. Tor se nemusel připojit proto, že:</p>
+    <p><strong>Vaše systémové hodiny jdou mimo</strong>: Ujistěte se, že datum a čas ve vašem systému jsou správné a restartujte Tor. Možná bude potřeba synchronizovat vaše systémové hodiny s Internetovým časovým serverem.</p>
+    <p><strong>Jste za restriktivním firewallem</strong>: Aby Tor zkoušel jenom porty 80 a 443, otevřte ovládací panel Vidalii, klikněte na <em>Settings</em>, <em>Network</em>, a zaškrtněte <em>My firewall only lets me connect to certain ports</em>.</p>
+    <p><strong>Váš antivirový program blokuje Tor</strong>: Ujistěte se, že váš antivirus nebrání Toru připojit se k síti.</p>
+    <p>Pokud Tor stále nefunguje, je pravděpodobné že váš provider internetu (ISP) blokuje Tor. To lze velmi často obejít za použití <strong>Tor bridges</strong>, skrytými relayi které není tak jednoduché zablokovat.</p>
+    <p>Pokud potřebujete pomoc zjistit proč se Tor nechce připojit, pošlete email na help@rt.torproject.org a zahrňte podstatné části z logů.</p>
+    <h3 id="how-to-find-a-bridge">Jak zajistit most</h3>
+    <p>Abyste mohli použít most, musíte nejprve nějaký najít; můžete buď navštívit <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, nebo můžete poslat email na bridges@torproject.org. Pokud se rozhodnete poslat email, prosím napište <strong>get bridges</strong> do těla emailu. Bez toho nedostanete odpověď. Také je tento email potřeba poslat z gmail.com nebo yahoo.com adresy.</p>
+    <p>Nakonfigurování více jak jednoho mostu udělá vaše Tor připojení stabilnější v případě, že některé z mostů se stanou nepřístupné. Není žádná záruka, že most který používate dnes bude fungovat zítra, takže je dobrý nápad jednou za čas seznam mostů obnovovat.</p>
+    <h3 id="how-to-use-a-bridge">Jak použít most</h3>
+    <p>Jakmile budete mít mosty k použití, otevřte ovládací panel Vidalii, klikněte na <em>Settings</em>, <em>Network</em> a zaškrtněte <em>My ISP blocks connections to the Tor network</em>. Vepište mosty do kolonky níže, stiskněte <em>OK</em> a spusťte Tor znovu.</p>
+    <h3 id="how-to-use-an-open-proxy">Jak použít otevřenou proxy</h3>
+    <p>Pokud vám nejde použít most, zkuste nastavit Tor pro použití jakékoliv HTTPS nebo SOCKS proxy pro získání přístupu k síti Tor. To znamená, že i když je Tor blokovaný vaší lokální sítí, otevřené proxy mohou bezpečně umožnit přístup na síť Tor a na necenzorovaný internet.</p>
+    <p>Následující kroky předpokládají, že máte funkční Tor/Vidalia konfiguraci a že jste našli seznam HTTPS, SOCKS4, či SOCKS5 proxin.</p>
+    <ol style="list-style-type: decimal">
+      <li>Otevřte kontrolní panel Vidalie a klikněte na <em>Settings</em>.</li>
+      <li>Klikněte na <em>Network</em>. Vyberte <em>I want to use a proxy to access the Internet</em>.</li>
+      <li>Na <em>Address</em> řádek vepište adresu otevřené proxy. To může být hostname nebo IP adresa.</li>
+      <li>Zadejte jméno pro proxy.</li>
+      <li>Většinou není potřeba zadávat uživatelské jméno a heslo. Potřebujete-li, informace vyplňte.</li>
+      <li>Vyberte <em>Typ</em> proxy který používáte, HTTP/HTTPS, SOCKS4, nebo SOCKS5.</li>
+      <li>Stiskněte tlačítko <em>OK</em>. Vidalia a Tor jsou teď nakonfigurovaní pro použití proxy na přístup ke zbytku sítě Tor.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Často kladené otázky</h2>
+    <p>Tato sekce zodpoví několik nejčastějších otázek. Pokud zde není vaše otázka zmíněna, pošlete email na help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Nepodařilo se rozbalit archiv</h3>
+    <p>Pokud používáte Windows a nepodaří se vám rozbalit archiv, stáhněte a nainstalujte <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Pokud nemůžete stáhnout 7-Zip, zkuste přejmenovat soubor z .z na .zip a použít winzip k rozbalení balíčku. Před přejmenováním souboru řekněte Windows, aby zobrazoval přípony souborů:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Otevřte <em>Tento počítač</em></li>
+      <li>Klikněte na <em>Nástroje</em> a vyberte <em>Možnosti složky...</em> v menu</li>
+      <li>Klikněte na tab <em>Zobrazení</em></li>
+      <li>Odškrtněte <em>Skrýt příponu souborů známých typů</em> a klikněte na <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Otevřte <em>Počítač</em></li>
+      <li>Klikněte na <em>Organizovat</em> a vyberte <em>Nastavení složky a vyhledávání</em> v menu</li>
+      <li>Klikněte na tab <em>Zobrazení</em></li>
+      <li>Odškrtněte <em>Skrýt příponu souborů známých typů</em> a klikněte na <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Otevřte <em>Počítač</em></li>
+      <li>Klikněte na <em>Organizovat</em> a vyberte <em>Nastavení složky a vyhledávání</em> v menu</li>
+      <li>Klikněte na tab <em>Zobrazení</em></li>
+      <li>Odškrtněte <em>Skrýt příponu souborů známých typů</em> a klikněte na <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia se ptá pro heslo</h3>
+    <p>Při spouštění Vidalii by nemělo být potřeba zadávat heslo. Pokud jste o něj žádáni, pravděpodobně jste postižení jedním z následujících problémů:</p>
+    <p><strong>Již používáte Vidalia a Tor</strong>: Tato situace může nastat pokud jste nainstalovali balíček Vidalia a nyní se snažíte spustit Tor Browser Bundle. V tom případě musíte nejprve starou Vidalii a Tor zavřít.</p>
+    <p><strong>Vidalia zkolabovala, ale nechala Tor puštěný</strong>: Pokud má dialogové okno ptající se na ovládací heslo tlačítko restart, můžete na něj kliknout a Vidalia Tor restartuje s novým náhodným ovládacím heslem. Pokud tlačítko reset nevidíte, nebo pokud se Vidalii nepodaří Tor restartovat, jděte do správce procesů a ukončete proces Toru. Poté použijte Vidalia k restartování Toru.</p>
+    <p>Pro více informací vizte <a href="https://torproject.org/docs/faq.html#VidaliaPassword">často kladené dotazy</a> na stránce Tor Projektu.</p>
+    <h3 id="flash-does-not-work">Flash nefunguje</h3>
+    <p>Z bezpečnostních důvodů jsou Flash, Java a jiné pluginy v současnosti pod Torem vypnuté. Pluginy běhají nezávisle na Firefoxu a mohou provádět aktivity na vašem počítači které zmaří vaší anonymitu.</p>
+    <p>Většina YouTube videí fungují s HTML5 a je možné je skrz Tor zhlédnout. Musíte se přidat do <a href="https://www.youtube.com/html5">HTML5 trialu</a> na stránce YouTube než budete moci HTML5 přehrávač použít.</p>
+    <p>Pamatujte, že si prohlížeč nastavení trialu nebude po vypnutí pamatovat, takže se budete muset do trialu opět přidat až příště spustíte Tor Browser Bundle.</p>
+    <p>Pro více informací navštivte <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a>.</p>
+    <h3 id="i-want-to-use-another-browser">Chci používat jiný prohlížeč</h3>
+    <p>Z bezpečnostních důvodů doporučujeme brouzdání internetu skrz Tor jen pomocí Tor Browser Bundle. Teoreticky je možné používat Tor s jinými prohlížeči, ale mohli byste se tím otevřít pro potencionální útoky.</p>
+    <h3 id="why-tor-is-slow">Proč je Tor pomalý</h3>
+    <p>Tor může občas být o dost pomalejší než vaše normální Internetové připojení. Konec konců je veškerá vaše komunikace přenášena skrz mnoho různých zemí, někdy přes oceány kolem světa!</p>
+  </body>
+</html>
