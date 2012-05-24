@@ -73,58 +73,58 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="how-to-find-a-bridge">كيفية ايجاد الجسور</h3>
     <p>بإمكانك تحديد جسر معين و العثور عليه كما ويمكنك تصفح إما <a href="https://bridges.torproject.org/">bridges.torproject.org</a>، أو يمكن أن ترسل بريد إلكتروني إلى bridges@torproject.org. و في حال قمت بإرسال بريد الكتروني يرجى التأكد من كتابة <strong>get bridges</strong> ، في نص الرسالة الالكتروني من اجل الحصول على جسور , من دون ذلك ، فلن تحصل على أي رد. لاحظ أنت تحتاج إلى إرسال هذا البريد الإلكتروني عن طريق احدى المزودات التالية gmail.com إما yahoo.com .</p>
     <p>إعداد أكثر من عنوان لجسر الشبكة يجعل اتصال تور أكثر إستقراراً ، في حال أن عدد من الجسور أصبح لا يمكن الوصول إليه ، ليس هنالك ضمان بأن الجسر الذي تقوم بإستخدامه اليوم يقوم بالعمل غداً ، ولذلك يجب عليك أن تعتاد على تحديث قائمة الجسور بصورة دائمة .</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <h3 id="how-to-use-a-bridge">يوجد لدينا رزمة تطبيقات لهاتف <a href="https://www.torproject.org/docs/N900.html.en">نوكيا N900</a> و  <a href="http://sid77.slackware.it/iphone/">نظام آبل iOS</a>.</h3>
+    <p>كيف تتأكد من وجود النسخة السليمة عندك</p>
+    <h3 id="how-to-use-an-open-proxy">قبل أن تبدأ حزمة متصفح تور, تأكد من وجود النسخة السليمة عندك.</h3>
+    <p>البرنامج الذي ستقوم باستخدامه يأتي مرفقاً مع ملف توقيع الكتروني بلاحقة مختلفة <strong>.asc</strong> يعتبر هذا الملف التوقيع الالكتروني من نوع GPG والذي سيسمح لك بالتحقق من الملف الذي قمت بتحميله.</p>
+    <p>قبل ان تقوم بالتّأكد من التوقيع، عليك أن تقوم بتنزيل وتثبيت GnuPG</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li><strong>ويندوز</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>ماكنتوش</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>لينوكس</strong>: اغلب نسخ لينوكس تأتي مع برنامج GnuPGجاهز.</li>
+      <li>الرجاء الانتباه الى أنك قد تحتاج الى تعديل المسارات والاوامر ادناه من أجل أن يعمل على نظامك</li>
+      <li>ايرن كلارك يوقع حزمة متصفح تور بالمفتاح 0x63FEE659. من أجل استيراد مفتاح ايرن نفذ الأمر التالي</li>
+      <li>يجب أن تشاهد :</li>
+      <li>بالعادة انت لاتحتاج لاسم مستخدم و كلمة سر , و اذا احتجت قم بادخال المعلومات في اماكنها الصحيحة.</li>
+      <li>قم بتحديد نوع البروكسي الذي تود استخدامه اياً كان HTTP/HTTPS, SOCKS4, او SOCKS5</li>
+      <li>قم بالضغط على زر OK الان برنامج التور و فيداليا اصبحوا جاهزين للعمل و الدخول لشبكة تور العامة.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
-    <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
-    <h4 id="windows-xp">Windows XP</h4>
+    <h2 id="frequently-asked-questions">الأسئلة الشائعة</h2>
+    <p>هذا القسم سيجيب عن مجموعة من أكثر الأسئلة شيوعاً, إذا لم يكن سؤالك مطروح هنا, من فضلك أرسل رسالة بريد إلكتروني على help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">لا يمكنك فك ضغط الأرشيف</h3>
+    <p>لو كنت تستخدم نظام تشغيل الويندوز ولا تستطيع فك الضغط عن الأرشيف, إذاً حمل وقم بتثبيت برنامج <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>لو لم تستطع تحميل برنامج 7-Zip. حاول إعادة تسمية إمتدادات الملفات من .z إلى .zip وجرب تستخدم برنامج الـ winzip لفك ضغط الأرشيف, قبل تسمية الملف, غير إعدادات الويندوز ليظهر إمتدادات الملفات:</p>
+    <h4 id="windows-xp">ويندوز إكس بي</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>افتح <em>جهاز الكمبيوتر</em></li>
+      <li>اضغط على <em>أدوات</em> و اختر <em>خيارات المجلد</em> من القائمة</li>
+      <li>اضغط على <em>عرض</em> من خيارات التبويب</li>
+      <li>قم بإلغاء تحديد <em>إخفاء صيغة الملفات للملفات المعروفة</em> و من ثم اضغط على موافق.</li>
     </ol>
-    <h4 id="windows-vista">Windows Vista</h4>
+    <h4 id="windows-vista">ويندوز فيستا</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>افتح <em>جهاز الكمبيوتر</em></li>
+      <li>اضغط على <em>تخصيص</em> و اختر <em>خيارات المجلد و البحث</em> من القائمة</li>
+      <li>اضغط على <em>عرض</em> من خيارات التبويب</li>
+      <li>قم بإلغاء تحديد <em>إخفاء صيغة الملفات للملفات المعروفة</em> و من ثم اضغط على موافق.</li>
     </ol>
-    <h4 id="windows-7">Windows 7</h4>
+    <h4 id="windows-7">ويندوز 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>افتح <em>جهاز الكمبيوتر</em></li>
+      <li>اضغط على <em>تخصيص</em> و اختر <em>خيارات المجلد و البحث</em> من القائمة</li>
+      <li>اضغط على <em>عرض</em> من خيارات التبويب</li>
+      <li>قم بإلغاء تحديد <em>إخفاء صيغة الملفات للملفات المعروفة</em> و من ثم اضغط على موافق.</li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
-    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
-    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
-    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
-    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <h3 id="vidalia-asks-for-a-password">برنامج فيدياليا يسأل عن باسوورد</h3>
+    <p>ليس من المفترض أن تقوم بإدخال باسوورد عند بداية تشغيل برنامج فيداليا. لو سألك البرنامج عن باسوورد, فأنت غالباً عندك واحدة من هؤلاء المشاكل:</p>
+    <p><strong>برنامج فيداليا و تور يعملاً لديك مسبقاً</strong> على سبيل المثال , تحصل هذه الحالة في حال قمت بتنصيب برنامج فيداليا و انت تستخدم متصفح التور اصلاً , في هذه الحالة انت تحتاج لاغلاق النسخة القديمة من فيداليا و تور و من ثم تقوم بتشغيل الجديدة منها.</p>
+    <p><strong>تم إغلاق فيداليا ، و لكن برنامج التور مازال يعمل</strong> . اذا ظهرت لك نافذة حوار تطلب منك كلمة السر الخاصة بالتحكم , تستطيع الضغط على زر اعادة التعيين , و سيتم عندها اعادة توليد كلمة سر جديدة و تشغيل فيداليا من جديد , و في حال لم تعثر على زر اعادة التعيين او فيداليا كان غير قادراً على اعادة تشغيل تور , اذهب لادارة المهام و قم بانهاء العمليات من هنالك و من ثم اعد تشغيل فيداليا و تور من جديد.</p>
+    <p>لمزيد من المعلومات, انظر <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> في موقع مشروع تور.</p>
+    <h3 id="flash-does-not-work">الفلاش معطل</h3>
+    <p>لأسباب أمنية, الفلاش, والجافا, وإضافات أخرى يتم تعطيلها لبرنامج تور, تلك الإضافات يمكنها أن تبدأ تعمل بعيداً عن المتصفح وتقوم بنشاطات في جهازك وهذا ينافي التخفي.</p>
+    <p>أغلب فيديوهات اليوتيوب تعمل مع HTML5 ومن الممكن مشاهدة هذه الفيديوهات عند إستخدام تور ، تحتاج للإنضمام إلي <a href="https://www.youtube.com/html5">HTML5 trial</a> في موقع اليوتيوب قبل أن تستخدم مشغل HTML5</p>
+    <p>علما بأن المتصفح لن يتذكر أنك انضمتت الى التجربة بمجرد إغلاقه ، لذلك سوف تحتاج لإعادة الانضمام إلى التجربة في المرة القادمة عند تشغيل حزمة متصفح تور.</p>
+    <p>الرجاء الاطلاع على <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> لمزيد من المعلومات.</p>
+    <h3 id="i-want-to-use-another-browser">أنا أريد إستخدام متصفح آخر</h3>
+    <p>لأسباب أمنية, نحن ننصحك بأن تتصفح الإنترنت بواسطة المتصفح بداخل حزمة المتصفح الخاصة ببرنامج تور, من الممكن عملياً أن تستخدم تور مع متصفح آخر, ولكن إذا فعلت ذلك فأنت تعرض نفسك لعدد من الهجمات المحتملة.</p>
     <h3 id="why-tor-is-slow">Why Tor is slow</h3>
     <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
   </body>
