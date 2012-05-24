@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">简明用户手册</h1>
+    <p>本用户手册的内容有：如何下载 Tor、如何使用 Tor，以及当 Tor 无法连接到网络时该怎么办。如果你没能在本手册内找到你需要的答案，请发送电子邮件至 help@rt.torproject.org 。</p>
+    <p>请注意，我们是以自愿为基础提供支持，我们每天都收到大量的电子邮件。如果我们没有即时回复，请不要担心。</p>
+    <h2 id="how-tor-works">Tor 是如何工作的</h2>
+    <p>Tor 是一个由虚拟通道组成的网络，能改善你的互联网隐私与安全。在你的网络流量被发送至公共互联网之前，Tor 会先把它们经由 Tor 网络中的三台随机服务器（也称为<em>“中继”</em>）传送。</p>
+    <p>上图描绘了一个用户通过 Tor 浏览不同的网站。绿色的显示器代表着 Tor 网络里的中继服务器，三把钥匙则代表该用户与每个中继之间的加密层。</p>
+    <p>Tor 会把你的流量来源匿名化，并且把介于你和 Tor 网络中传送的所有内容加密。Tor 也会把你在 Tor 网络内部的流量加密，但不能加密 Tor 网络与最终目的地之间的流量。</p>
+    <p>如果你是在交流敏感信息，例如以用户名和密码登录一个网站，请确保你在使用 HTTPS （如 <strong>https</strong>://torproject.org/，而不是 <strong>http</strong>://torproject.org/）。</p>
+    <h2 id="how-to-download-tor">如何下载 Tor</h2>
+    <p>我们向大多数用户推荐 <a href="https://www.torproject.org/projects/torbrowser.html">Tor 浏览器软件包</a>。此软件包内含一个预先配置好的浏览器，用于透过 Tor 安全的浏览互联网，且无需安装。你只需下载软件包，解压缩，并运行 Tor。</p>
+    <p>有两种方法可以获取到 Tor 软件。你可以浏览 <a href="https://www.torproject.org/">Tor Project 网站</a> 并下载，又或者使用自动回复的电邮服务 GetTor。</p>
+    <h3 id="how-to-get-tor-via-email">如何通过电子邮件获取 Tor</h3>
+    <p>要获取用于 Windows 的 Tor 浏览器软件包英文版，请发送电子邮件至 gettor@torproject.org ，在正文区域内写上 <strong>windows</strong>。你可以把标题留空。</p>
+    <p>你也可以索要 Tor 浏览器软件包的 Mac OS X 版本（写上<strong>macos-i386</strong>），和 Linux 版本（写上<strong>linux-i386</strong>注明32位系统或<strong>linux-x86_64</strong>注明64位系统）</p>
+    <p>如果你想要其它语言版本的 Tor 软件，请写上 <strong>help</strong>。你将收到一封电子邮件，内含指引以及现有的语言版本的列表。</p>
+    <p><strong>注意</strong>：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，你无法通过 Gmail、Hotmail 或者 雅虎邮箱获取这些软件包。 如果你无法获取你想要的软件包，请发送邮件至 help@rt.torproject.org ，我们会给提供你一份网站镜像列表。</p>
+    <h3 id="tor-for-smartphones">智能手机版的 Tor</h3>
+    <p>你可以通过安装 <em>Orbot</em> 软件包以在你的 Android 设备上获取 Tor 。关于如何下载和安装 Orbot，请参看 <a href="https://www.torproject.org/docs/android.html.en">Tor Project 网站</a>。</p>
+    <p>我们也有适用于 <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> 和 <a href="http://sid77.slackware.it/iphone/">Apple iOS</a> 的试验性软件包。</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">如何验证你已拥有正确的版本</h3>
+    <p>在运行 Tor 浏览器软件包之前，你应该确保你持有正确的版本。</p>
+    <p>你将获取到的，还有一个与软件包的文件名相同、扩展名为 <strong>.asc</strong> 的文件。这个 .asc 文件是一个 GPG 签名，它能让你校验所下载到的文件是否与你想要下载的完全一致。</p>
+    <p>在校验签名之前，你将需要下载并安装 GnuPG：</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: 大多数 Linux 发行版已预装 GnuPG</p>
+    <p>请注意，你可能需要修改下面所用到的路径和命令，让它们能在你的系统上生效。</p>
+    <p>Tor 浏览器软件由 Erinn Clark 使用密钥 0x63FEE659 签署。要导入 Erinn 的密钥，请执行：</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>导入密钥之后，校验指纹是否正确：</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>你应该会看到：</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>要校验你所下载到的软件包，请执行以下命令：</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>输出的结果应为 <em>&amp;quot;Good signature&amp;quot;</em>。若是 Bad signature 则意味着该文件被篡改过。如果你看见一个坏的签名，请把你在哪里下载到该软件包、你验证签名的过程、以及 GunPG 的输出结果一并以电子邮件发送到 help@rt.torproject.org。</p>
+    <p>当你已完成校验并看到 <em>&amp;quot;Good signature&amp;quot;</em> 的输出结果，请把软件包解压缩。然后你应该会看到一个类似 <strong>tor-browser_en-US</strong> 这样的文件夹。此文件夹里有另一个名为 <strong>Docs</strong> 的文件夹，内含一个 <strong>changelog</strong> 文件。请确保 changelog 里第一行的版本号与文件名中的版本号相符。</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">如何使用 Tor 浏览器软件包</h3>
+    <p>在下载并解压了 Tor 浏览器软件包之后，你应该在相同的文件夹里看到几个文件。其中一个是名为 &amp;quot;Start Tor Browser&amp;quot; 的可执行文件（或者 &amp;quot;start-tor-browser&amp;quot;，取决于你的操作系统）。</p>
+    <p>当你运行 Tor 浏览器软件包，你会首先看到 Vidalia 启动并把你接入到 Tor 网络。之后你会看到一个浏览器打开了 <a href="https://check.torproject.org/">https://check.torproject.org/</a>，确认你正在使用 Tor。现在你可以开始通过 Tor 来浏览互联网了。</p>
+    <p>
+      <em>请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这点至关重要。</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">当 Tor 无法连接时怎么办</h3>
+    <p>有些用户会遇到 Vidalia 在尝试连接到 Tor 网络时卡住不动的情况。遇到这种情况，请确保你已连接到互联网。如果你需要通过代理服务器连接，请参阅下面的 <em>“如何使用代理服务器”</em>。</p>
+    <p>如果你的普通互联网连接运作正常，而 Tor 却无法连接到网络，请尝试以下步骤：打开 Vidalia 的控制面板，点击 <em>消息日志</em> 并选择 <em>高级</em> 标签页。Tor 无法连接到网络也许是因为：</p>
+    <p><strong>你的系统时钟不准确</strong>：请确保你系统中的日期和时间正确，然后重启 Tor。你也许需要把系统时钟与某台网络时间服务器进行同步。</p>
+    <p><strong>你受限于防火墙软件</strong>：让 Tor 仅尝试 80 和 443 端口，打开 Vidalia 控制面板，点击 <em>设置</em>，<em>网络</em>，然后选中 <em>我的防火墙只允许我连接到指定端口</em> 的选项框。</p>
+    <p><strong>你的反病毒软件正在阻挡 Tor</strong>：请确保你的反病毒软件没有阻止 Tor 进行网络连接。</p>
+    <p>如果 Tor 仍然不能工作，那么可能是你的互联网服务提供商（ISP）正在阻挡 Tor。这通常可以使用 <strong>Tor 网桥</strong> —— 不易被阻挡的隐蔽中继服务器，来绕开阻挡。</p>
+    <p>如何你需要帮助去判断为什么 Tor 无法连接，请发送电子邮件到 help@rt.torproject.org ，并附上日志文件的相关部分内容。</p>
+    <h3 id="how-to-find-a-bridge">如何寻找一个网桥</h3>
+    <p>要使用网桥，你首先需要找一个。你可以浏览 <a href="https://bridges.torproject.org/">bridges.torproject.org</a> ，或者发送电子邮件到 bridges@torproject.org 。如果发送电子邮件，请你确保在电子邮件的正文区域内写上 <strong>get bridges</strong>。否则你将得不到回复。请注意你只能使用 gmail.com 或 yahoo.com 邮箱来发送此邮件。</p>
+    <p>配置一个以上的网桥地址，能让 Tor 的连接在某些网桥无法访问时更加稳定。你无法保证今天能使用的网桥明天仍然能用，所以你应该养成时常更新网桥列表的习惯。</p>
+    <h3 id="how-to-use-a-bridge">如何使用网桥</h3>
+    <p>当你找到些可用的网桥后，打开 Vidalia 控制面板，点击 <em>设置</em>，<em>网络</em>，然后勾上 <em>我的 ISP 阻挡了对 Tor 网络的连接</em> 的选项框。在下面的方框里填上网桥地址，点击 <em>确定</em> 并再次启动 Tor。</p>
+    <h3 id="how-to-use-an-open-proxy">如何使用代理服务器</h3>
+    <p>如果使用网桥无法凑效，请尝试配置 Tor 去使用任何 HTTPS 或 SOCKS 代理以取得与 Tor 网络的连接。也就是说即使 Tor 已被你的本地网络所阻挡，你也可以安全地透过代理服务器连接到 Tor 网络，去访问一个未经审查的互联网。</p>
+    <p>以下步骤假设你已有一套配置正确的 Tor/Vidalia ，并找到了一份 HTTPS、SOCKS4 或 SOCKS5 代理服务器的列表。</p>
+    <ol style="list-style-type: decimal">
+      <li>打开 Vidalia 控制面板，点击 <em>设置</em>。</li>
+      <li>点击 <em>网络</em>，选择 <em>我使用代理服务器连接到网络</em>。</li>
+      <li>在 <em>地址</em> 一栏里填上代理服务器的地址，这可以是主机名或IP地址。</li>
+      <li>填上代理服务器的端口。</li>
+      <li>一般来说，你并不需要用户名和密码。如果需要，则也相应的填上。</li>
+      <li>选择你在使用的代理服务器的 <em>类型</em>，可以是 HTTP/HTTPS，SOCKS4 或 SOCKS5。</li>
+      <li>点击 <em>确定</em> 按钮。Vidalia 和 Tor 现已成功配置为使用代理服务器连接到 Tor 网络。</li>
+    </ol>
+    <h2 id="frequently-asked-questions">常见问题</h2>
+    <p>本节会回答一些最普遍的问题。如果你的问题没有在此处提及，请发送电子邮件至 help@rt.torproject.org 。</p>
+    <h3 id="unable-to-extract-the-archive">无法解压缩</h3>
+    <p>如果你正使用 Windows 且无法把压缩包解压缩，请下载并安装 <a href="http://www.7-zip.org/">7-Zip</a>。</p>
+    <p>如果你无法下载 7-Zip，尝试把 .z 文件重命名为 .zip 然后使用 WinZip 解压缩。在改名之前，先让 Windows 显示文件扩展名：</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>My Computer</em></li>
+      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
+      <li>Click on the <em>View</em> tab</li>
+      <li>取消勾选 <em>隐藏已知文件类型的扩展名</em> 并点击 <em>确定</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>打开 <em>我的电脑</em></li>
+      <li>点击 <em>组织</em>，在菜单里选择 <em>文件夹和搜索选项</em></li>
+      <li>Click on the <em>View</em> tab</li>
+      <li>取消勾选 <em>隐藏已知文件类型的扩展名</em> 并点击 <em>确定</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>打开 <em>我的电脑</em></li>
+      <li>点击 <em>组织</em>，在菜单里选择 <em>文件夹和搜索选项</em></li>
+      <li>Click on the <em>View</em> tab</li>
+      <li>取消勾选 <em>隐藏已知文件类型的扩展名</em> 并点击 <em>确定</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia 要求输入密码</h3>
+    <p>在启动 Vidalia 时你不应该需要输入密码。如果被提示输入，你有可能遇到了以下其中一个问题：</p>
+    <p><strong>Vidalia 和 Tor 已在运行</strong>： 举个例子，假如你已安装过 Vidalia 软件包而你现在正尝试运行 Tor 浏览器软件包，这种情况就有可能发生。 这样的话你将需要先关闭旧版的 Vidalia 和 Tor，再运行当前的版本。</p>
+    <p><strong>Vidalia 崩溃了，但 Tor 仍在运行</strong>： 如果提示输入控制密码的对话框里有一个“复位设定”按钮， 你可以点击该按钮，Vidalia 会以一个新的随机控制密码重启 Tor。 如果你没有看到“复位设定”按钮，或者 Vidalia 无法重启 Tor， 请前往你的进程或任务管理器，终止 Tor 的进程。然后再用 Vidalia 来重启 Tor。</p>
+    <p>要了解更多，请参阅 Tor Project 网站上的 <a href="https://torproject.org/docs/faq.html#VidaliaPassword">常见问题</a>。</p>
+    <h3 id="flash-does-not-work">Flash 无法工作</h3>
+    <p>基于安全理由，Flash、Java 和其他插件目前是禁用于 Tor 的。独立运作于 Firefox 或者可在你电脑中进行活动的插件，会破坏你的隐匿。</p>
+    <p>大多数 YouTube 视频兼容 HTML5，而 Tor 可以用于观看这些视频。你需要在 YouTube 网站上加入 <a href="https://www.youtube.com/html5">HTML5 体验计划</a> 才能使用 HTML5 播放器。</p>
+    <p>请注意，浏览器被关闭后不会记住你加入过体验计划，所以你下次运行 Tor 浏览器软件包时将需要重新加入体验计划。</p>
+    <p>请参阅 <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton 常见问题</a> 以了解更多信息。</p>
+    <h3 id="i-want-to-use-another-browser">我想使用其它浏览器</h3>
+    <p>基于安全理由，我们推荐你仅使用 Tor 浏览器软件包来浏览互联网。Tor 在技术上是可以和其它浏览器一起使用的，但这样做你就迎向了潜在的攻击。</p>
+    <h3 id="why-tor-is-slow">为什么 Tor 这么慢</h3>
+    <p>Tor 有时候会比你正常的互联网连接慢一些。毕竟，你的流量穿越着许多不同国家，跨洋过海的传送。</p>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">De Korte Gebruikershandleiding</h1>
+    <p>Deze gebruikershandleiding bevat informatie over hoe Tor te downloaden, hoe het te gebruiken en wat te doen als Tor geen verbinding met het netwerk kan maken. Als je het antwoord op jouw vraag niet in dit document kan vinden, e-mail dan help@rt.torproject.org.</p>
+    <p>Houd in gedachte dat we ondersteuning aanbieden op een vrijwilligersbasis en we krijgen iedere dag veel e-mails binnen. Je hoeft je niet druk te maken als we niet direct reageren.</p>
+    <h2 id="how-tor-works">Hoe Tor werkt</h2>
+    <p>Tor is een netwerk van virtuele tunnels die het mogelijk maakt om je privacy en veiligheid op het internet te verbeteren. Tor werkt door je verkeer langs drie willekeurige servers (ook <em>relays</em> genaamd) te versturen voordat het verkeer naar het openbare internet wordt gestuurd.</p>
+    <p>De afbeelding hierboven illustreert een gebruiker die naar verschillende sites gaat via Tor. De groene beeldschermen stellen relay's in het Tor netwerk voor en de drie sleutels stellen de lagen van versleuteling voor tussen de gebruiker en elke relay.</p>
+    <p>Tor anonimiseert de oorsprong van jouw verkeer en versleutelt alles tussen jou en het Tor netwerk. Tor versleutelt je verkeer ook binnen het Tor netwerk, maar het kan niet je verkeer tussen het Tor netwerk en de eindbestemming versleutelen.</p>
+    <p>Als je gevoelige informatie verstuurd, bijvoorbeeld wanneer je inlogt op een website met een gebruikersnaam en wachtwoord, zorg er dan voor dat je HTTPS gebruikt (<strong>https</strong>://torproject.org//, niet <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Hoe Tor te downloaden</h2>
+    <p>De bundel die we aan de meeste gebruikers aanbevelen is de <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Deze bundel bevat een browser die vooraf ingesteld is om veilig het internet te gebruiken via Tor en heeft geen installatie nodig. Je download de bundel, pakt het uit en start Tor.</p>
+    <p>Er zijn twee verschillende manieren om aan Tor software te komen. Je kan naar de <a href="https://www.torproject.org/">Tor Project website</a> gaan en het daar downloaden, of je kunt GetTor gebruiken, de e-mailautobeantwoorder.</p>
+    <h3 id="how-to-get-tor-via-email">Hoe Tor te krijgen via e-mail</h3>
+    <p>Om de Engelse Tor Browser Bundle voor Windows te krijgen, stuur een e-mail naar gettor@torproject.org met <strong>windows</strong> in de body van het bericht. Je kan het onderwerp leeg laten.</p>
+    <p>Je kan ook de Tor Browser Bundle aanvragen voor Mac OS X (gebruik <strong>macos-i386</strong> in de body) en Linux (gebruik <strong>linux-i386</strong> voor 32-bits systemen of<strong>linux-x86_64</strong> voor 64-bits systemen).</p>
+    <p>Als je een vertaalde versie van Tor wilt hebben, schrijf dan <strong>help</strong>. Je ontvangt dan een e-mail met instructies en een lijst met beschikbare talen.</p>
+    <p><strong>Noot</strong>: De Tor Browser Bundle voor Linux en Mac OS X zijn vrij groot en je kunt deze bundels niet ontvangen met een Gmail, Hotmail of Yahoo account. Als je de bundel die je wilt niet kunt ontvangen, stuur een e-mail naar help@rt.torproject.org en we sturen je een lijst met website mirrors om te gebruiken.</p>
+    <h3 id="tor-for-smartphones">Tor voor smartphones</h3>
+    <p>Je kan Tor op je Android toestel krijgen door het pakket <em>Orbot</em> the installeren. Voor informatie over hoe Orbot te downloaden en te installeren, kijk op de <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <p>We hebben ook experimentele pakketten voor <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> en <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Hoe te verifiëren dat je de juiste versie hebt</h3>
+    <p>Voordat je de Tor Browser Bundle uitvoert moet je er zeker van zijn dat je de juiste versie hebt.</p>
+    <p>De software die je ontvangt, wordt vergezeld door een bestand met dezelfde naam als de bundel en de extensie <strong>.asc</strong>. Dit .asc bestand is een GPG handtekening en stelt je in staat om te verifiëren dat het bestand dat je hebt gedownload precies diegene is die we bedoelden voor jou om te ontvangen.</p>
+    <p>Voordat je de handtekening kunt verifiëren moet je GnuPG downloaden en installeren:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: De meeste Linux distributies komen met GnuPG al geïnstalleerd.</p>
+    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
+    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>Verifieer na het importeren van de sleutel dat de fingerprint correct is:</p>
+    <pre>
+      <code>gpg --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>Je zou dan het volgende moeten zien:</p>
+    <pre>
+      <code>pub 2048R/63FEE659 2003-10-16
+    Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659
+uid         Erinn Clark &amp;lt;erinn@torproject.org&amp;gt;
+uid         Erinn Clark &amp;lt;erinn@debian.org&amp;gt;
+uid         Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
+»sub    2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>Om de handtekening te verifiëren van het pakket dat je gedownload hebt, voer het volgende commando uit:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>De uitvoer zou <em>&amp;quot;Good signature&amp;quot;</em> moeten zijn. Een verkeerde handtekening betekent dat er mogelijk met het bestand geknoeid is. Als je een verkeerde handtekening tegenkomt, stuur dan details, waar je het pakket gedownload hebt, hoe je de handtekening geverifieerd hebt en de uitvoer van GnuPG in een e-mail naar help@rt.torproject.org.</p>
+    <p>Wanneer je de handtekening geverifieerd hebt en de <em>&amp;quot;Good signature&amp;quot;</em> uitvoer gezien hebt, ga dan verder en pak het archief uit. Je zou dan een folder vergelijkbaar met <strong>tor-browser_en-US</strong> moeten zien. In deze folder is een andere folder genaamd <strong>Docs</strong>, welke een bestand genaamd <strong>changelog</strong> bevat. Je controleert dan of het versienummer in de bovenste regel gelijk is aan de versienummer van de bestandsnaam.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Hoe de Tor Browser Bundle te gebruiken</h3>
+    <p>Na de Tor Browser Bundle gedownload en uitgepakt te hebben, zou je een folder met een paar bestanden moeten hebben. Eén van deze bestanden is een uitvoerbaar bestand genaamd &amp;quot;Start Tor Browser&amp;quot; (of &amp;quot;start-tor-browser&amp;quot;, afhankelijk van je besturingssysteem).</p>
+    <p>Wanneer je de Tor Browser Bundle start zul je eerst zien dat Vidalia opstart en je verbindt met het Tor netwerk. Daarna zul je een browser zien met een pagina die bevestigt dat je nu Tor gebruikt. Dit wordt gedaan door <a href="https://check.torproject.org/">https://check.torproject.org/</a> weer te geven. Je kunt nu het internet gebruiken via Tor.</p>
+    <p>
+      <em>Let op dat je de browser gebruikt die bij de bundel zit en niet je eigen browser.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Wat te doen wanneer Tor geen verbinding maakt</h3>
+    <p>Sommige gebruikers zullen zien dat Vidalia vast blijft zitten tijdens het verbinding maken met het Tor netwerk. Als dit gebeurt controleer of je verbinding hebt met het internet. Als je een verbinding moet maken met een proxy server, zie <em>Hoe een open proxy te gebruiken</em> hieronder.</p>
+    <p>Als je normale internet verbinding werkt, maar Tor kan nog steeds geen verbinding maken met het netwerk, probeer dan het volgende: open het Vidalia configuratiescherm, klik op <em>Message Log</em> en selecteer het <em>Advanced</em> tabblad. Het kan zijn dat Tor geen verbinding maakt om één van de volgende redenen:</p>
+    <p><strong>Je systeemklok klopt niet</strong>: Controleer of de datum en tijd op je systeem correct zijn en herstart Tor. Mogelijk moet je de systeemklok synchroniseren via een tijdserver.</p>
+    <p><strong>Je bevindt je achter een beperkende firewall</strong>: Om Tor alleen poort 80 en poort 443 te laten proberen, open het Vidalia configuratiescherm en klik op <em>Settings</em>, vervolgens <em>Network</em> en vink <em>My firewall only lets me connect to certain ports</em> aan.</p>
+    <p><strong>Je anti-virusprogramma blokkeert Tor</strong>: Controleer of je anti-virusprogramma Tor er niet van weerhoudt om netwerkverbindingen te maken.</p>
+    <p>Als Tor nog steeds niet werk, dan is het waarschijnlijk dat je Internet Service Provider (ISP) Tor blokkeert. Dit kan vaak omzeilt worden met <strong>Tor bridges</strong>, verborgen relays die niet zo gemakkelijk te blokkeren zijn.</p>
+    <p>Als je hulp nodig hebt met uitzoeken waarom Tor geen verbinding kan krijgen, stuur dan een e-mail naar help@rt.torproject.org en voeg de relevante delen van het log bestand toe.</p>
+    <h3 id="how-to-find-a-bridge">Hoe een bridge te vinden</h3>
+    <p>Om een bridge te gebruiken moet je er eerst één vinden; je kunt naar <a href="https://bridges.torproject.org/">bridges.torproject.org</a> gaan, of je kunt een email sturen naar bridges@torproject.org. Als je een e-mail stuurt, zorg er dan voor dat je <strong>get bridges</strong> in de body van de e-mail zet. Zonder dit krijg je geen bericht terug. Let op dat je deze e-mail van, of een gmail.com adres, of een yahoo.com adres moet sturen.</p>
+    <p>Meer dan één bridge adres instellen maakt je Tor connectie stabieler, in het geval dat een bridge onbereikbaar wordt. Er is geen garantie dat de bridge die je nu gebruikt morgen ook werkt, je moet er dus een gewoonte van maken om je lijst met bridges zo nu en dan bij te werken.</p>
+    <h3 id="how-to-use-a-bridge">Hoe een bridge te gebruiken</h3>
+    <p>Wanneer je een aantal bridges hebt om te gebruiken, open het Vidalia configuratiescherm, klik op <em>Settings</em>, vervolgens op <em>Network</em> en vink <em>My ISP blocks connections to the Tor network</em> aan. Vul de bridges in, in het veld daaronder, druk op <em>OK</em> en herstart Tor.</p>
+    <h3 id="how-to-use-an-open-proxy">Hoe een open proxy te gebruiken</h3>
+    <p>Als het gebruiken van een bridge niet werkt, probeer dan Tor in te stellen om een HTTPS of SOCKS proxy te gebruiken om toegang tot het Tor netwerk te krijgen. Dit betekent dat open proxy's veilig gebruikt kunnen worden om verbinding te maken met het Tor netwerk en vervolgens het ongecensureerde internet, wanneer Tor door je lokale netwerk geblokkeerd wordt.</p>
+    <p>Voor onderstaande stappen wordt aangenomen dat je een werkende Tor/Vidalia configuratie hebt en dat je een lijst met HTTPS, SOCKS4 of SOCKS5 proxy's gevonden hebt.</p>
+    <ol style="list-style-type: decimal">
+      <li>Open het Vidalia configuratiescherm en klik op <em>Settings</em>.</li>
+      <li>Klik <em>Network</em> en selecteer <em>I use a proxy to access the Internet</em>.</li>
+      <li>In de <em>Address</em> regel, vul het open proxy-adres in. Dit kan een hostnaam of een ip-adres zijn.</li>
+      <li>Vul de poort van de proxy in.</li>
+      <li>Over het algemeen heb je geen gebruikersnaam en wachtwoord nodig. Als je deze wel nodig hebt, vul de informatie in de daarvoor bestemde velden in.</li>
+      <li>Kies de <em>type</em> proxy die je gebruikt, zij het HTTP/HTTPS, SOCKS4 of SOCKS5.</li>
+      <li>Klik op de <em>OK</em> knop. Vidalia en Tor zijn nu ingesteld om een proxy te gebruiken om toegang tot de rest van het Tor netwerk te krijgen.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Veelgestelde vragen</h2>
+    <p>Dit onderdeel zal een paar van de meest gestelde vragen beantwoorden. Als je vraag hier niet genoemd wordt, stuur dan een e-mail naar help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Kan het archief niet uitpakken</h3>
+    <p>Als je Windows gebruikt en je kunt het archief niet uitpakken, download en installeer dan <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Als je niet in staat bent om 7-Zip te downloaden, probeer dan het bestand te hernoemen van .z naar .zip en gebruik winzip om het archief uit te pakken. Voordat je het bestand hernoemt, laat Windows bestandsextensies weergeven:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>Deze Computer</em></li>
+      <li>Klik op <em>Extra</em> en kies <em>Mapopties</em> in het menu</li>
+      <li>Klik op het <em>Weergave</em> tabblad</li>
+      <li>Vink <em>Extensies voor bekende bestandstypen verbergen</em> uit en klik op OK</li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>Computer</em></li>
+      <li>Klik op <em>Organiseren</em> en kies <em>Map en zoekopties</em> in het menu</li>
+      <li>Klik op het <em>Weergave</em> tabblad</li>
+      <li>Vink <em>Extensies voor bekende bestandstypen verbergen</em> uit en klik op OK</li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>Computer</em></li>
+      <li>Klik op <em>Organiseren</em> en kies <em>Map en zoekopties</em> in het menu</li>
+      <li>Klik op het <em>Weergave</em> tabblad</li>
+      <li>Vink <em>Extensies voor bekende bestandstypen verbergen</em> uit en klik op OK</li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia vraagt om een wachtwoord</h3>
+    <p>Je zou niet een wachtwoord in hoeven te voeren wanneer je Vidalia opstart. Als je om een wachtwoord gevraagd wordt, is er mogelijk één van de volgende problemen:</p>
+    <p><strong>Tor en Vidalia worden al uitgevoerd</strong>: Deze situatie kan bijvoorbeeld voorkomen als je de Vidalia bundel geïnstalleerd hebt en nu de Tor Browser Bundle probeert op te starten. In dat geval moet je de oude Vidalia en Tor sluiten voordat je deze kunt starten.</p>
+    <p><strong>Vidalia is gecrasht, maar heeft Tor niet gestopt</strong>: Als het dialoogvenster dat je om een control password vraagt een reset knop heeft, dan kun je hier op klikken en zal Vidalia Tor opnieuw starten met een nieuw, willekeurig control password. Als je geen reset knop ziet of Vidalia kan Tor niet voor je herstarten, ga dan naar je proces- of taakbeheer en stop het Tor proces. Gebruik dan Vidalia om Tor opnieuw op te starten.</p>
+    <p>Voor meer informatie, zie de <a href="https://torproject.org/docs/faq.html#VidaliaPassword">Veelgestelde vragen</a> op de Tor Project website.</p>
+    <h3 id="flash-does-not-work">Flash werkt niet</h3>
+    <p>Om veiligheidsredenen zijn Flash, Java en andere plug-ins momenteel uitgeschakeld voor Tor. Plug-ins functioneren onafhankelijk van Firefox en kunnen activiteiten uitvoeren die je anonimiteit tenietdoen.</p>
+    <p>De meeste YouTube videos werken met HTML5 en het is mogelijk om deze videos via Tor te bekijken. Je moet je dan aanmelden voor <a href="https://www.youtube.com/html5">HTML5-test</a> op de YouTube website voordat je de HTML5 videospeler kunt gebruiken.</p>
+    <p>Let op dat de browser niet onthoudt dat je je aangemeld hebt voor de test wanneer je deze sluit. Je moet je de volgende keer, wanneer je de Tor Browser Bundle opnieuw start, opnieuw aanmelden voor de test.</p>
+    <p>Zie <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton veelgestelde vragen</a> voor meer informatie.</p>
+    <h3 id="i-want-to-use-another-browser">Ik wil een andere browser gebruiken</h3>
+    <p>Om veiligheidsredenen raden we je aan om alleen het internet te gebruiken via Tor door middel van de Tor Browser Bundle. Het is technisch mogelijk om Tor te gebruiken met andere browsers, maar je stelt jezelf dan open voor mogelijke aanvallen.</p>
+    <h3 id="why-tor-is-slow">Waarom Tor langzaam is</h3>
+    <p>Tor kan soms langzaam zijn dan je normale internet verbinding. Je verkeer wordt tenslotte door verschillende landen gestuurd en soms zelfs door de oceaan rond de wereld!</p>
+  </body>
+</html>

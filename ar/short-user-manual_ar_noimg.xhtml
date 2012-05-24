@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">دليل المستخدم المختصر</h1>
+    <p>دليل المستخدم هذا يحتوي على معلومات عن كيفية تحميل برنامج تور, وكيفية إستخدامه, وماذا يجب أن تفعل إذا كان تور لا يستطيع الإتصال بالشبكة, إذا كنت لا تجد إجابة سؤالك في هذه الصفحة, من فضلك ارسل إيميل على help@rt.torproject.org</p>
+    <p>من فضلك تذكر إننا نقوم بالمساعدة على أساس تطوعي, وقد يصلنا الكثير من الرسائل كل يوم, لا داعي للقلق إذا لم نرد عليك بسرعة.</p>
+    <h2 id="how-tor-works">كيف يعمل تور</h2>
+    <p>التور شبكة تتكون من قنوات إفتراضية تسمح لك بتحسين خصوصيتك وأمنك في الإنترنت . يعمل تور عن طريق إرسال بياناتك عبر ثلاثة خوادم إفتراضية (تعرف أيضاً بإسم المرحلات) توجد داخل شبكة تور وذلك قبل أن تصل البيانات إلي شبكة الإنترنت العامة .</p>
+    <p>الصورة التي بالأعلى توضح مستخدم يقوم بتصفح مواقع مختلفة. الشاشات الخضراء تمثل المرحلات التي تعمل على نقل البيانات في شبكة تور, بينما المفاتيح الثلاثة تمثل طبقات التشفير بين المستخدم وكل مرحلة.</p>
+    <p>التور يجعل مصدر تدفق بياناتك مجهول بالإضافة إلي أنه يقوم بتشفير كل شئ بينك وبين شبكة تور ، أيضاً يقوم بتشفير حركة البيانات داخل شبكة تور نفسها ، ولكنه لا يستطيع تشفير حركة البيانات ما بين شبكة تور و والمكان المقصود</p>
+    <p>لو كنت تقوم بالأعمال المهمة والحساسة, كالدخول على حسابك على موقع ما بإدخال إسم المستخدم وكلمة المرور على سبيل المثال, تأكد من أنك تتصفح بإستخدام نظام التصفح الآمن (مثلاً: https://torproject.org, وليس http://torproject.org).</p>
+    <h2 id="how-to-download-tor">How to download Tor</h2>
+    <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
+    <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
+    <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
+    <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
+    <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
+    <p><strong>ملحوظة</strong>: حزمة متصفح تور الخاصة بنظامي تشغيل اللينوكس والماك حجمهم كبير, ولن يمكنك الحصول عليهما بإستخدام إيميل جي ميل أو هوتميل أو ياهوو. لو لم يمكنك الحصول على الحزمة التي تريدها, ارسل رسالة بريد إلكتروني على help@rt.torproject.org ونحن سنرد عليك برسالة بها قائمة من المواقع التي قامت برفع البرنامج.</p>
+    <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
+    <h3 id="tor-for-smartphones">Tor for smartphones</h3>
+    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">How to verify that you have the right version</h3>
+    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
+    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
+    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
+    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>بعد اصدار المفتاح، عليك التّأكد من أن البصمة صحيحة</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>You should see:</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>للتّأكد من توقيع الحزمة التي قمت بتنزيلها، نفذ الأمر التالي</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>يجب ان تكون النتيجة الظاهرة تحميل <em>&amp;quot;توقيع جيد&amp;quot;</em>. التوقيع السيؤ يعني أن الملف قد تم العبث به . اذا عثرت على توقيع سيء قم بإرسال التفاصيل عن مصدر تحميلك للبرنامج , و كيفية قيامك بالتحقق من التوقيع و المعلومات الصادرة من GnuPG الى البريد الالكتروني التالي help@rt.torproject.org.</p>
+    <p>بعد التحقق من الملف سوف تجد رسالة (توقيع جيد) قم باتمام العمل و بتصدير الملفات , عندها ستجد مجلد يحمل الاسم tor-browser بداخله يوجد العديد من المجلدات الاخرى كـ (Docs) (changelog) عندها يجب ان تتحقق من ان رقم الاصدار الموجود في الاعلى هو مطابق لما بداخل على changelog</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">كيف تستخدم حزمة المتصفح الخاصة ببرنامج تور</h3>
+    <p>بعدما تقوم بتنزيل حزمة متصفح تور وتفك الضغط عن الأرشيف, سيكون عندك مجلد بداخله عدد من الملفات, واحد من الملفات هو ملف تشغيلي إسمه &amp;quot;Start Tor Browser&amp;quot; (أو &amp;quot;start-tor-browser&amp;quot;, حسب نظام التشغيل الخاص بك).</p>
+    <p>عند الرغبة ببدء تشغيل برنامج متصفح التور , سوف تجد بالبداية تطبيق Vidalia و الذي سيبدأ بالاتصال بشبكة التور , بعد ذلك ستجد بان متصفح التور اعطاك رسالة تأكيد بانك تستطيع الان تصفح الانترنت باستخدام متصفح التور بشكل آمن عن طريق فحص الرابط التالي<a href="https://check.torproject.org/">https://check.torproject.org/</a></p>
+    <p>
+      <em>الرجاء الانتباه الى أنّه من المهم أن تستخدم المتصفح الذي يأتي مع الحزمة، وليس متصفحك أنت</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">مالذي يجب فعله عندم لايستطيع تور الاتصال</h3>
+    <p>اغلب المستخدمين لبرنامج تور يجدون بان فيداليا توقف عن الاستجابة و الاتصال بشبكة التور . هذا الشيء يحصل في حالم عدم وجود اتصال بالانترنت , و في حال وجد الاتصال بالانترنت , بإمكانك الاطلاع على <em>كيفية استخدام البروكسي المفتوح</em> كالتالي.</p>
+    <p>في حال كان اتصال الانترنت يعمل لديك , لكن التور لايستطيع الاتصال و العمل , قم باجراء الخطوات التالية: افتح برنامج فيداليا و من ثم اتجه للوحة التحكم , افتح ملفات اللوغ و من ثم خيارات متقدمة , قد يكون السبب :</p>
+    <p><em>* ساعة النظام لديك متوقفة</em>* تأكد من ان الوقت و التاريخ في جهازك صحيحين و من ثم اعد ت شغل برنامج التور , ننصح باجراء مزامنة التوقيت مابين ساعة النظام لديك و الانترنت</p>
+    <p><strong>أنت خلف جدار ناري مقيّد</strong>: من أجل جعل تور يقوم بتجريب المنافذ 80 و 443 فقط,افتح لوحة تحكم فيداليا, انقر على <em>الأعدادات</em> و <em>الشبكة</em>, وضع اشارة على الصندوق الذي يقول <em>جداري الناري يسمح لي بالاتصال بمنافذ محددة</em>.</p>
+    <p><strong>برنامج مكافحة الفيروس يقوم بمنع تور</strong>: تأكد من الآتي برنامج مكافحة الفيروس لا يقوم بمنع تور من إجراء اتصال بالشبكة.</p>
+    <p>اذا لم يعمل تور, على الأغلب أن مزود الخدمة لديك (ISP) يقوم بحجب تور. في أغلب الأحيان يمكنك تجاوز هذه المشكلة عبر <strong>جسور تور</strong>, مبدلات مخفية ليس من السهل حجبها.</p>
+    <p>إذا كنت تريد مساعدة في معرفة لماذا لا يستطيع تور الإتصال بالشبكة, إرسل رسالة إلكترونية لـ help@rt.torproject.org وارفق معها الأجزاء المعنية بالخطأ في سجلات الخطأ.</p>
+    <h3 id="how-to-find-a-bridge">كيفية ايجاد الجسور</h3>
+    <p>بإمكانك تحديد جسر معين و العثور عليه كما ويمكنك تصفح إما <a href="https://bridges.torproject.org/">bridges.torproject.org</a>، أو يمكن أن ترسل بريد إلكتروني إلى bridges@torproject.org. و في حال قمت بإرسال بريد الكتروني يرجى التأكد من كتابة <strong>get bridges</strong> ، في نص الرسالة الالكتروني من اجل الحصول على جسور , من دون ذلك ، فلن تحصل على أي رد. لاحظ أنت تحتاج إلى إرسال هذا البريد الإلكتروني عن طريق احدى المزودات التالية gmail.com إما yahoo.com .</p>
+    <p>إعداد أكثر من عنوان لجسر الشبكة يجعل اتصال تور أكثر إستقراراً ، في حال أن عدد من الجسور أصبح لا يمكن الوصول إليه ، ليس هنالك ضمان بأن الجسر الذي تقوم بإستخدامه اليوم يقوم بالعمل غداً ، ولذلك يجب عليك أن تعتاد على تحديث قائمة الجسور بصورة دائمة .</p>
+    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
+    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
+    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
+    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
+    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <ol style="list-style-type: decimal">
+      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
+      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
+      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
+      <li>Enter the port for the proxy.</li>
+      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
+      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
+      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
+    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>My Computer</em></li>
+      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
+      <li>Click on the <em>View</em> tab</li>
+      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>Computer</em></li>
+      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>Click on the <em>View</em> tab</li>
+      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Open <em>Computer</em></li>
+      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>Click on the <em>View</em> tab</li>
+      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
+    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
+    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
+    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
+    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
+    <h3 id="flash-does-not-work">Flash does not work</h3>
+    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
+    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
+    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
+    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
+    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
+    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
+    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+  </body>
+</html>
