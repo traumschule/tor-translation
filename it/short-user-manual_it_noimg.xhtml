@@ -27,7 +27,7 @@
     <p>Prima di eseguire il Pacchetto Browser Tor, si dovrebbe controllare di avere la versione giusta.</p>
     <p>Il software che si riceve è accompagnato da un file con lo stesso nome del pacchetto e con l'estensione <strong>.asc.</strong>. Tale .asc file è una firma GPG, e permette di verificare se il file che si è scaricato è esattamente quello che si desiderava.</p>
     <p>Prima di poter verificare la firma, è necessario scaricare ed installare GnuPG.</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La maggior parte delle distribuzioni di GNU/Linux sono fornite con GnuPG preinstallato.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Si noti che potrebbe essere necessario modificare il percorso dei files o i comandi mostrati in seguito per permetterne il funzionamento sul vostro sistema.</p>
     <p>Erinn Clark firma il Tor Browser Bundles con la chiave 0x63FEE659. Per importare la chiave di Erinn si esegua:</p>
     <pre>
@@ -57,7 +57,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>L'output dovrebbe presentare il messaggio <em>Good signature</em>. Una firma non accettata significa che il file scaricato potrebbe essere stato modificato. Se si verifica una firma non accettata, si inviino i dettagli sulla locazione dalla quale si è scaricato il file, sul metodo di verifica della firma, e sull'output di GnuPG in una email a help@rt.torproject.org.</p>
     <p>Una volta verificata la firma e visto il messaggio <em>&amp;quot;Good signature&amp;quot;</em>, si proceda all'estrazione del pacchetto. Si dovrebbe riscontrare una directory con un nome simile a <strong>tor-browser_en-US</strong>. All'interno, si dovrebbe trovare un'altra directory chiamata <strong>Docs</strong>, contenente un file chiamato <strong>changelog</strong>. Ci si potrebbe voler assicurare che il numero di versione nella prima linea del file changelog corrisponda al numero di versione nel nome del file del pacchetto.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Come usare il Tor Browser Bundle</h3>
-    <p>Dopo aver scaricato il Tor Browser Bundle ed averne estratto il contenuto, si dovrebbe avere una directory con alcuni files all'interno. Uno dei files dovrebbe essere un eseguibile chiamato &amp;quot;Start Tor Browser&amp;quot; (o &amp;quot;start-tor-browser&amp;quot;, a seconda del sistema operativo utilizzato).</p>
+    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>All'avvio del Tor Browser Bundle, verrà inizialmente visualizzata la schermata di avvio di Vidalia che si connette alla rete Tor. A seguire, si potrà osservare un browser che conferma l'utilizzo di Tor, visualizzando il sito <a href="https://check.torproject.org/">https://check.torproject.org/</a>. E' ora possibile navigare in Internet attraverso Tor.</p>
     <p>
       <em>ATTENZIONE! E' molto importante che si utilizzi il browser fornito nel pacchetto e non il proprio!!</em>

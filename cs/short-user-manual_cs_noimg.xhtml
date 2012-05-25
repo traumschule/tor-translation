@@ -27,7 +27,7 @@
     <p>Před spuštením Tor Browser Bundle byste se měli ujistit, že máte správnou verzi.</p>
     <p>Software který obdržíte je doprovázen souborem se stejným jménem jako balíček a příponou <strong>.asc</strong>. Tento .asc soubor je GPG podpis a umožní vám ověřit že stáhlý soubor je přesně ten co jsme vám chtěli dát.</p>
     <p>Ještě než můžete ověřit podpis, budete potřebovat stáhnout a nainstalovat GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Většina linuxových distribucí je dodávána s předinstalovaným GnuPG.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Vezměte prosím na vědomí, že může být nutné upravit cesty a příkazy používané níže, aby na vašem systému fungovaly.</p>
     <p>Erinn Clark podepisuje Tor Browser Bundle klíčem 0x63FEE659. Pro naimportování Erinnino klíče, proveďte:</p>
     <pre>
@@ -57,7 +57,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Výstup by měl psát <em>&amp;quot;Good signature&amp;quot;</em>. Špatný podpis může znamenat že do souboru někdo zasahoval. Uvidíte-li špatný podpis, pošlete detaily o místě ze kterého jste balíček stáhli, jak jste ověřovali podpis a výpis GnuPG v emailu na help@rt.torproject.org.</p>
     <p>Po ověření že podpis je v pořádku můžete archiv extrahovat. Měli byste poté vidět adresář na způsob <strong>tor-browser_en-US</strong>. Uvnitř tohoto adresáře je další adresář se jménem <strong>Docs</strong>, který obsahuje soubor <strong>changelog</strong>. Ujistěte se, že verze na prvním řádku tohoto souboru je stejná jako verze ve jméně.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Jak použít Tor Browser Bundle</h3>
-    <p>Po stažení Tor Browser Bundle a rozbalení balíčku byste měli mít adresář s několika soubory. Jeden z nich bude spustitelný soubor nazvaný &amp;quot;Start Tor Browser&amp;quot; (nebo &amp;quot;start-tor-browser&amp;quot;, podle vašeho operačního systému).</p>
+    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Po spuštění Tor Browser Bundle uvidíte nejprve startovat program Vidalia a připojit se k síti Tor. Po té uvidéte prohlížeč potvrzující že nyní používáte Tor. K tomuto ověření se využívá <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Nyní můžete brouzdat Internet skrz Tor.</p>
     <p>
       <em>Vezměte prosím na vědomí, že je důležité abyste použili prohlížeč který je součástí balíčků, a ne váš vlastní.</em>
