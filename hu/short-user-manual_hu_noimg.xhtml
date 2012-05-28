@@ -13,21 +13,21 @@
     <p>A Tor elrejti a forgalom forrását, és titkosít mindent a Tor hálózat és a forgalmazó között. A Tor továbbá hálózaton belül is titkosít, de nem képes a forgalom titkosítására a Tor hálózat és a végcél között.</p>
     <p>Ha érzékeny információt is kommunikál, például belép egy weboldalon felhasználónévvel és jelszóval, legyen biztos benne, hogy HTTPS protkolt használ.(pl.:. <strong>https</strong>://torproject.org/ és nem <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Hogyan töltheti le a Tor-t</h2>
-    <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
-    <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
+    <p>A csomag amit a legtöbb felhasználónak ajánlunk a <a href="https://www.torproject.org/projects/torbrowser.html">Tor Böngésző csomag</a>. Ez a csomag tartalmaz egy böngészőt a Tor-on keresztüli biztonságos böngészésre előre konfigurálva, és nem igényel telepítést. Csak el kell tölteni a csomagot, kicsomagolni, és már használhatja is a Tor-t.</p>
+    <p>Két különböző lehetősége van a beszerezni a Tor szoftvert. Egyszer ellátogathat a <a href="https://www.torproject.org/">Tor Project weboldalára</a> és letöltheti ott, vagy pedig használhatja a GetTor-t az emailes automatikus válaszküldőt.</p>
     <h3 id="how-to-get-tor-via-email">Hogyan szerezheti be a Tor-t emailen keresztül</h3>
     <p>Az angol Tor Böngésző csomag emailben megszerzéséhez küldjön egy emailt a gettor@torproject.org címre <strong>windows</strong> szóval a levél törzsében. A tárgy üresen maradhat.</p>
     <p>Természetesen beszerezheti a Tor Böngésző csomagot Mac OS X (írja azt, hogy <strong>macos-i386</strong>), és Linux (írja azt, hogy <strong>linux-i386</strong> 32-bites rendszerek vagy <strong>linux-x86_64</strong> 64-bites rendszerek esetén).</p>
     <p>Ha a Tor lefordított verzióját szeretné küldjön inkább egy <strong>help</strong> parancsot. Ekkor fog kapni egy emailt útmutatással az elérhető nyelvekről.</p>
-    <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
+    <p><strong>Megjegyzés</strong>: A Tor Böngésző csomag Linux és ac OS X verziója igencsak nagy, és nem lehetséges ezen verziók beszerzése Gmail, Hotmail vagy Yahoo címmel. Ha nem tudja beszerezni ezen csomagokat, küldjön egy emailt a help@rt.torproject.org címre és adni fogunk egy listát arról, hogy milyen weboldal tükrökön érhetőek még el.</p>
     <h3 id="tor-for-smartphones">A Tor okostelefonokra</h3>
-    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
-    <h3 id="how-to-verify-that-you-have-the-right-version">How to verify that you have the right version</h3>
-    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
+    <p>A Tor Android eszközökön használható az <em>Orbot</em> comag telepítésével. További ifnormáció az Orbot letöltéséről és telepítéséről a <a href="https://www.torproject.org/docs/android.html.en">Tor Project weboldalán</a> érhető el.</p>
+    <p>Továbbá már van kísérleti csomagunk a <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a>hoz és <a href="http://sid77.slackware.it/ios/">Apple iOS</a>hez.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Hogyan ellenőrizheti, hogy jó verzióval rendelkezik-e</h3>
+    <p>Mielőtt a Tor Böngésző csomagot elindítaná, ellenőriznie kell, hogy a megfelelő verzióval rendelkezik-e.</p>
+    <p>A szoftverhez amit letöltött található egy fájl, ami meg azonos névvel,de <strong>.asc</strong> kiterjesztéssel rendelkezik. Ez a .asc fájl egy GPG aláírás, és lehetővé teszi, hogy ellenőrizhesse, hogy a fájl ténylegesen az a fájl-e amit mi szerettünk volna, hogy beszerezhessen.</p>
     <p>Mielőtt ellenőrizni tudná az aláírást, szüksége lehet a GnuPG csomag letöltésére és telepítésére:   </p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a>&lt;br /&gt;<strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a>&lt;br /&gt;<strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a>&lt;br /&gt;<strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a>&lt;br /&gt;<strong>Linux</strong>: A legtöbb Linux disztribúció a GnuPG-t előre installálva tartalmazza.</p>
     <p>Ne felejtse el, hogy lehet, szüksége lesz az alábbi parancsok esetén az útvonalat módosítására.</p>
     <p>Erinn Clark írja alá a Tor Böngésző csomagot a 0x63FEE659 kulccsal. Erinn kulcsának importáláshoz futtassa a következőt:</p>
     <pre>
@@ -54,10 +54,10 @@ sub   2048R/EB399FD7 2003-10-16
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
+    <p>A kimenetnek az kell mondani, hogy <em>"Good signature"</em>. A rossz (bad) aláírás azt jelenti, hogy az állományba belenyúltak. Ha rossz aláírást lát, kérjük küldje el, hogy honnan töltötte le a csomagot, hogyan ellenőrizte, és a GnuPG kimenetét, emailben a help@rt.torproject.org címre.</p>
+    <p>Ha leellenőrizte az aláírást és <em>"Good signature"</em> kimenetet kapott, akkor kicsomagolhatja a csomagot. Egy <strong>tor-browser_en-US</strong>-hoz hasonló könyvtárat fog látni . Ebben a könyvtárban találhat egy másik köynvtárat <strong>Docs</strong> néven, ami egy fájlt tartalmaz <strong>changelog</strong> néven. Ellenőrizze, hogy a verzió szám a legfelső sorban a changelog fájlban egyezik a fájlnévben található verzióval.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Hogyan használhatja a Tor Böngésző csomagot</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>A Tor Böngésző csomag letöltése után csomagolj az ki az Asztalra ,vagy egy USB pendrive-ra. Egy könyvtár jön létre néhány fájllal. Az egyik fájl ezek közül a egy futtatható állomány a "Start Tor Browser" (vagy "start-tor-browser", operációs rendszertől függően).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Fontos megjegyeznie, hogy a csomagban érkező böngészőt érdemes használnia, nem a saját böngészőjét.</em>
@@ -69,7 +69,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>Korlátozó tűzfal mögött van</strong>: Hogy a Tor részére megadhassa, hogy csak a 80 és a 443 portokon próbálkozzon, nyissa meg a Vidalia vezérlő panelt, kattintson a <em>Beállítások</em> opcióra, majd a <em>Hálózat</em> opcióra, és jelölje be, az <em>A tűzfalam csak néhány porton engedélyez kapcsolódást</em> opciót.     </p>
     <p><strong>A víruskeresője blokkolja a Tor-t</strong>: Ellenőrizze, hogy a víruskeresője ne blokkolja aTor-t a hálózati kapcsolatok létrehozásában.</p>
     <p>Ha a Tor továbbra sem működik, elképzelhető, hogy az Internet szolgáltatója (ISP) blokkolja a Tor-t. Ez legtöbbször kikerülhető a <strong>Tor Hidak</strong> használatával, amelyek rejtett Elosztók, amit nehéz blokkolni.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
+    <p>Ha segítségre van szüksége, hogy a Tor miért nem tud csatlakozni, küldjön egy emailt a help@rt.torproject.org címre és rakja bele a log fájl releváns részleteit.</p>
     <h3 id="how-to-find-a-bridge">Hogyan találhat Hidakat</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Egynél több híd cím konfigurálása a Tor kapcsolatot stabilabbá teszi, gondolva azokra az esetekre, amikor egyik-másik elérhetetlenné válik. Nincs arra garancia, hogy a most használt híd holnap is elérhető lesz, ezért fel kell készülnie arra, hogy a hidak listáját sűrűn frissítenie kell.</p>
@@ -79,16 +79,16 @@ sub   2048R/EB399FD7 2003-10-16
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
+      <li>Nyissa meg a Vidalia vezérlő pultját, és kattintson a <em>Beállítások (Settings)</em> menüpontra.</li>
+      <li>Kattintis a <em>HálózatNetwork</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
       <li>Adja meg a portot a proxyhoz.</li>
       <li>Általában nem szükséges felhasználónév és jelszó. Ha mégis, akkor adja meg a kért információkat a megfelelő mezőkbe.</li>
       <li>Válassza ki a <em>Típus</em>át a használt proxy-nak, amely lehet HTTP/HTTPS, SOCKS4 vagy SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Nyomja meg az <em>OK</em> gombot. A Vidalia és a Tor most már beállított arra, hogy a proxy-n keresztül érje el a Tor hálózat többi részét.</li>
     </ol>
     <h2 id="frequently-asked-questions">Gyakran Ismételt Kérdések</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>Ez a fejezet a leggyakoribb kérdésekre próbál választ adni. Ha olyan kérdése van, ami itt nem található, kérjük küldjön egy emailt a help@rt.torproject.org címre.</p>
     <h3 id="unable-to-extract-the-archive">Sikertelen a tömörített állomány kibontása</h3>
     <p>Ha Windows rendszert használ, és nem tudja kicsomagolni a tömörített állományt, akkor töltse le és telepítse a <a href="http://www.7-zip.org/">7-Zip</a> szoftvert.</p>
     <p>Ha nem tudja letölteni a 7-Zio szoftver, próbálja meg átnevezni a fájlt .z -ről .zip kiterjesztésre, majd használja a winzip-et a kicsomagoláshoz. Az átnevezés előtt be kell állítani, hogy a Windows mutassa a kiterjesztéseket:</p>
@@ -123,9 +123,9 @@ sub   2048R/EB399FD7 2003-10-16
     <p>A legtöbb YouTube videó működik HTML5-tel, így megtekinthető  Tor-on keresztül. Amire szüksége van, hogy csatlakozzon a <a href="https://www.youtube.com/html5">HTML5 trial</a> oldalra a  YouTube oldalán, mielőtt használni tudná a HTML5 lejátszót.</p>
     <p>Fontos megjegyezni ,hogy a böngésző ezt aválasztás nem jegyzi meg két indítása között, szóval a következő alkalommal mikor a Tor Böngésző csomagot használja, újra meg kell tennie ezt.</p>
     <p>Kérjük tekintse meg további információkért a <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> oldalt.</p>
-    <h3 id="i-want-to-use-another-browser">Más böngészőt szertnék használni</h3>
+    <h3 id="i-want-to-use-another-browser">Más böngészőt szeretnék használni</h3>
     <p>Biztonsági okok miatt a böngészést csak a Tor Böngésző csomagon keresztül ajánljuk. Technikailag lehetséges más böngészőt használni, de ha így tesz, akkor potenciális támadásnak teszi ki magát.</p>
     <h3 id="why-tor-is-slow">Miért lassú a Tor?</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>A Tor néha lassabb, mint egy normális internet kapcsolat. Ez azért van, mert néha a forgalom más országon kerül keresztülküldésre és néha keresztezi az óceánokat is.</p>
   </body>
 </html>
