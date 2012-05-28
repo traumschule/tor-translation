@@ -5,18 +5,18 @@
   </head>
   <body>
     <h1 id="the-short-user-manual">Rövid Felhasználói Kézikönyv</h1>
-    <p>This user manual contains information about how to download Tor, how to use it, and what to do if Tor is unable to connect to the network. If you can't find the answer to your question in this document, email help@rt.torproject.org.</p>
-    <p>Please note that we are providing support on a voluntary basis, and we get a lot of emails every single day. There is no need to worry if we don't get back to you straight away.</p>
+    <p>Ez a felhasználói kézikönyv arról tartalmaz információkat, hogy hogyan töltse le, használj a Tor-t, illetve, hogy mit tehet akkor, ha a Tor nem tud csatlakozni a hálózathoz. Ha nem találja meg a válaszokat a kérdésére, akkor írjon emailt a help@rt.torproject.org címre.</p>
+    <p>Kérjük vegye figyelembe, hogy támogatást csak a önkéntesek segítségével tudunk adni, és nagy mennyiségű email kapunk egy nap. Nem kell aggódnia, ha nem válaszolunk azonnal.</p>
     <h2 id="how-tor-works">Hogyan működik a Tor</h2>
     <p>A Tor virtuális csatornák hálózata, aminek segítéségével növelheti személes biztonságát az Interneten. A Tor a hálózati forgalmát keresztül küldi három véletlen módon kiválasztott szerveren (amiket <em>Elosztó</em>-nak hívunk) a Tor hálózatán belül, mielőtt a forgalom kikerül az Internetre.</p>
-    <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
+    <p>A következő kép az mutatja, hogyan böngészhet különböző oldalakat a Tor-on keresztül. A zöld monitor Elosztót jelent a Tor hálózatban, míg a három kulcs a titkosítási rétegeket mutatja a felhasználó és a különböző Elosztók között.</p>
     <p>A Tor elrejti a forgalom forrását, és titkosít mindent a Tor hálózat és a forgalmazó között. A Tor továbbá hálózaton belül is titkosít, de nem képes a forgalom titkosítására a Tor hálózat és a végcél között.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <p>Ha érzékeny információt is kommunikál, például belép egy weboldalon felhasználónévvel és jelszóval, legyen biztos benne, hogy HTTPS protkolt használ.(pl.:. <strong>https</strong>://torproject.org/ és nem <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Hogyan töltheti le a Tor-t</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
     <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
-    <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
-    <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
+    <h3 id="how-to-get-tor-via-email">Hogyan szerezheti be a Tor-t emailen keresztül</h3>
+    <p>Az angol Tor Böngésző csomag emailben megszerzéséhez küldjön egy emailt a gettor@torproject.org címre <strong>windows</strong> szóval a levél törzsében. A tárgy üresen maradhat.</p>
     <p>Természetesen beszerezheti a Tor Böngésző csomagot Mac OS X (írja azt, hogy <strong>macos-i386</strong>), és Linux (írja azt, hogy <strong>linux-i386</strong> 32-bites rendszerek vagy <strong>linux-x86_64</strong> 64-bites rendszerek esetén).</p>
     <p>Ha a Tor lefordított verzióját szeretné küldjön inkább egy <strong>help</strong> parancsot. Ekkor fog kapni egy emailt útmutatással az elérhető nyelvekről.</p>
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
@@ -83,8 +83,8 @@ sub   2048R/EB399FD7 2003-10-16
       <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
       <li>Adja meg a portot a proxyhoz.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
+      <li>Általában nem szükséges felhasználónév és jelszó. Ha mégis, akkor adja meg a kért információkat a megfelelő mezőkbe.</li>
+      <li>Válassza ki a <em>Típus</em>át a használt proxy-nak, amely lehet HTTP/HTTPS, SOCKS4 vagy SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
     </ol>
     <h2 id="frequently-asked-questions">Gyakran Ismételt Kérdések</h2>
@@ -102,19 +102,19 @@ sub   2048R/EB399FD7 2003-10-16
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li>Nyissa meg a <em>Számítógép-et (Computer)</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>Kattintson a <em>Rendezés (Organize)</em> majd a <em>Mappa és keresési beállítások (Folder and search options)</em> opciókra a menüben</li>
       <li>Kattintson a <em>Nézet (View)</em> fülre</li>
       <li>Vegye kia pipát az <em>Ismert fájltípusok kiterjesztésének elrejtése (Hide extensions for known file types)</em> opció elől, majd kattintson az <em>OK</em> gombra</li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li>Nyissa meg a <em>Számítógép-et (Computer)</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>Kattintson a <em>Rendezés (Organize)</em> majd a <em>Mappa és keresési beállítások (Folder and search options)</em> opciókra a menüben</li>
       <li>Kattintson a <em>Nézet (View)</em> fülre</li>
       <li>Vegye kia pipát az <em>Ismert fájltípusok kiterjesztésének elrejtése (Hide extensions for known file types)</em> opció elől, majd kattintson az <em>OK</em> gombra</li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">A Vidalia jelszót kér.</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
+    <p>Nem szükséges jelszót megadnia a Vidalia indításához. Ha mégis kér a egyet, akkor a következő problémák egyike fordulhat elő:</p>
     <p><strong>Már futtatja a Vidalia-t és a Tor-t</strong>: Ez előfordulhat például akkor, ha telepítette a Vidalia csomagot, és most a Tor Böngésző csomagot próbálja indítani. Ez esetben a régi Vidalia és Tor programokat be kell zárnia, mielőtt azt a verziót indítaná.</p>
     <p><strong>A Vidalia összeomlott, de a Tor még fut</strong>: Ha egy ablak a Tor vezérlő jeIszót kéri, tartalmaz Alaphelyzet gombot, akkor rákattinthat a gombra és a Vidalia újraindítja a Tor-t egy új véletlen jelszóval. Ha nincs ilyen gomb akkor a Vidalia nem tudja ezt megtenni. Ez esetben a Feladatkezelőben állítsa le a Tor folyamatot, majd használja a Vidalia-t a Tor újraindítására.</p>
     <p>Kérjük tekintse meg további információkért a <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> oldalt a  Tor Project weboldalán.</p>
