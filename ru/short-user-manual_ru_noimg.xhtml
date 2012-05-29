@@ -5,14 +5,14 @@
   </head>
   <body>
     <h1 id="the-short-user-manual">Краткое Руководство Пользователя</h1>
-    <p>Это пользовательское руководство содержит информацию о том, как загрузить Tor, как им пользоваться, и что предпринимать в случаях, когда Tor не может соединиться с сетью. Если у Вас не получилось найти в этом документе ответ на свой вопрос, не стесняйтесь написать нам по адресу help@rt.torproject.org.</p>
+    <p>Это пользовательское руководство расскажет о том, как загрузить Tor, как им пользоваться, и что предпринимать в случаях, когда Tor не может соединиться с сетью. Если у Вас не получилось найти в этом документе ответ на свой вопрос, не стесняйтесь написать нам по адресу help@rt.torproject.org.</p>
     <p>Пожалуйста, помните, что мы осуществляем техподдержку на добровольных началах, причём каждый Божий день нам приходит куча писем с вопросами. Поэтому не волнуйтесь, если мы медлим с ответом на Ваше письмо.</p>
     <h2 id="how-tor-works">Как работает Tor</h2>
     <p>Tor - это сеть виртуальных туннелей, которая позволяет Вам лучше защищать неприкосновенность Вашей частной жизни и свою безопасность в Интернете. Работает это вот как: Tor соединяет Ваш компьютер с Интернетом не напрямую, а через цепочку из трёх выбранных наугад компьютеров (т.н. <em>ретрансляторы</em>) которые принадлежат к сети Tor.</p>
     <p>На рисунке выше изображено, что происходит, когда пользователь посещает различные веб-сайты через Tor. Зелёные мониторы - это ретрансляторы сети Tor, а три ключика - это последовательные слои шифрования между пользователем и каждым следующим ретранслятором.</p>
-    <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
-    <h2 id="how-to-download-tor">How to download Tor</h2>
+    <p>Всё, что вы посылаете в Интернет через Tor, становится, во-первых анонимным (скрывается источник), а во-вторых, остаётся зашифрованным на всём пути между Вашим компьютером и последним ретранслятором. Но после того, как данные покидают последний ретранслятор и отправляются к интернет-адресу своего назначения - они идут уже не в зашифрованном, а обычном, открытом виде.</p>
+    <p>Если вы передаёте особо важные данные - например, вводите логин и пароль для входа на веб-сайт - убедитесь, что работает протокол HTTPS  (т.е. в адресной строке написано, например, <strong>https</strong>://torproject.org/, а не <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Как загрузить Tor</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
     <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
     <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
