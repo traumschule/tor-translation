@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">Hướng dẩn sử dụng nhanh</h1>
+    <p>Hướng dẩn sử dụng này bao gồm cách tải Tor về, cách sử dụng nó và những điều nên làm nếu Tor không thể kết nối vào mạng. Nếu bạn không thể tìm thấy câu trả lời trong tài liệu này, hảy gởi thư vào help@rt.torproject.org</p>
+    <p>Hảy để ý rằng chúng tôi đang cung cấp hổ trợ trên cơ bản tự nguyện, và chúng tôi nhận được rất nhiều thư trong một ngày. Vậy nên đừng lo lắng nếu chúng tôi trả lời thư chậm.</p>
+    <h2 id="how-tor-works">Tor làm việc thế nào?</h2>
+    <p>Tor là một mạng lưới hường hầm giả lập nó cho phép nâng cao quyền riêng tư và an toàn trên internet. Tor hoạt động bằng cách gởi thông tin thông qua ba máy chủ ngẩu nhiên (củng có thể coi là trạm tiếp chuyển <em>relays</em>) trong mạng lưới Tor, trước khi đường truyền được gởi ra ngoài internet.</p>
+    <p>Bức hình phía trên là phát họa về truy cập của người dùng đến các trang mạng khác nhau thông qua Tor. Màng hình xanh lục thể hiện trạm tiếp chuyển trong mạng lưới Tor, trong khi ba chìa khóa thể hiện cho những lớp mã hóa giữa người dùng và mỗi trạm tiếp chuyển.</p>
+    <p>Tor sẽ nặc danh những thông tin trên đường truyền của bạn, và sẽ mã hóa mọi thông tin giữa bạn và mạng lưới Tor, củng như mã hõa đường truyền bên trong mạng lưới Tor, nhưng nó không thể mã hóa đường truyền giữa bạn và điểm đến cuối cùng.</p>
+    <p>Nếu bạn đang trao đổi những thông tin nhạy cảm, ví dụ như đăng nhập vào một trang mạng bằng tên truy cập và mật mã, phải chắc rằng bạn sử dụng kết nói HTTPS (v.d <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Cách tải Tor về</h2>
+    <p>Bộ ứng dụng chúng tôi đề nghị là <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Trong gói này chứ trình duyệt đã được điều chỉnh để an toàn khi duyệt internet thông qua Tor, và không cần phải cài đặt. Bạn tải gói ứng dụng về, giải nén, và khởi động Tor.</p>
+    <p>Có hai cách khác nhau để nhận được phần mềm Tor. Bạn vừa có thể mở <a href="https://www.torproject.org/">Tor Project website</a> và tải về ở đây, vừa có thể sử dụng GetTor, một email trả lời tự động.</p>
+    <h3 id="how-to-get-tor-via-email">Cách có Tor bằng email</h3>
+    <p>Để nhận Tor Brower Bundle phiên bản tiếng Anh dùng cho Windows, gởi một email vào gettor@torproject.org với nội dung <strong>windows</strong>. Bạn có thể không cần điền vào mục chủ đề.</p>
+    <p>Bạn củng có thể yêu cầu Tor Browser Bundle dùng cho Mac OS X (ội dung thư là <strong>macos-i386</strong>), và Linux (nội dung thư là <strong>linux-i386</strong> cho hệ thống 32-bit hoặc <strong>linux-x86_64</strong> cho hệ thống 64-bit)</p>
+    <p>Nếu bạn muốn phiên bản Tor đã dịch, đổi nội dung thư thành <strong>help</strong>. Sau đó bạn sẽ được nhận một một email có hướng dẩn và danh sách những ngôn ngữ đã có.</p>
+    <p><strong>Chú ý</strong>:  phiên bản Tor Browser Bundles dành cho Linux và Mac OS X khá lớn, nên bạn sẽ có thể không thể nhận bất kỳ bộ dứng dụng nào bằng tài khoản Gmail, Hotmail hay Yahoo. Nếu bạn không nhận được bộ ứng dụng bạn cần, gởi email vào help@rt.torproject.org và chúng tôi sẽ cung cấp danh sách những trang mạng bản sao để bạn có thể sử dụng.</p>
+    <h3 id="tor-for-smartphones">Tor dành cho điện thoại thông minh</h3>
+    <p>Bạn có thể dùng Tor trên thiết bị Android của bạn bằng cái cài đặt gói ứng dụng tên là <em>Orbot</em>. Để biết thêm thông tin cách tải về và cài đặt Orbot, hảy vào <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <p>Chúng tôi củng có những gói ứng dụng thử nghiệm cho <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> và <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Cách xác nhận dúng phiên bản bạn dùng</h3>
+    <p>Trước khi khởi chạy the Tor Browser Bundle, bạn nên chắc rằng mình dùng đúng phiên bản.</p>
+    <p>Phần mềm bạn nhận có kèm một tệp tin trùng tên với bộ ứng dụng và có tên mở rộng là <strong>.asc</strong>. tập tin .asc này là một chữ ký GPG, và sẽ cho phép bạn kiểm tra tập tin mà bạn vừa tải về đúng với phiên bản chúng tôi muốn bạn có.</p>
+    <p>Trước khi bạn kiểm tra chữ ký, bạn phải tải về và cài đặt GnuPG:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Hầu hết các bản phân phối Linux đều có cài sẳng GnuPG.</p>
+    <p>Hảy chú ý rằng bạn có thể cần phải chỉnh lại đường dẩn và lệnh trước khi yêu cầu nó làm việt trên hệ thống của bạn.</p>
+    <p>Erinn Clark xác nhận Tor Browser Bundles bằng khóa 0x63FEE659. Để nhập khóa của Erinn, dùng lệnh:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>Sau khi nhập khóa, xác nhận fingerprint:</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>Bạn sẽ thấy:</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>Để kiểm tra chữ ký của gói ứng dụng bạn đã tải vể, sử dụng dòng lệnh sau:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>Thông báo phải là <em>"Good signature"</em>. Nếu thông báo khác đi, có nghĩa là tập tin đó có thể đã bị can thiệp. Nếu bạn thấy thông báocó lỗi về xác nhận chữ ký, gởi chi tiết về nơi bạn đã tải về gói ứng dụng, cách bạn xác nhận chữ ký, và xuất thông tin từ GnuPG vào email gởi cho help@rt.torproject.org.</p>
+    <p>Mỗi lần bạn xác nhận chữ ký và thấy thông báo <em>"Good signature"</em>, bước tiếp theo là giải nén tập tin nén. Sau đó bạn sẽ thấy một thư mục giống như là <strong>tor-browser_en-US</strong>. Bên trong thư mục đó là một thư mục khác có tên là <strong>Docs</strong>, bên trong có chứa một tập tin là <strong>changelog</strong>. Bạn phải kiểm tra và chắc rằng đó là phiên bản cao nhất trùng với tên tập tin bạn tải về.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Cách sử dụng Tor Browser Bundle</h3>
+    <p>Sau khi tải về Tor Browser Bundle, giả nén vào desktop hoặc ổ USB. Bạn phải có đường dẩn của vài tập tin. Một trong chúng là tập tin thực thi có tên là "Start Tor Browser" (hoặc "start-tor-browser", Cho dù hệ thống của bạn là gì).</p>
+    <p>Khi bạn chạy Tor Browser Bundle, bạn sẽ thấy trước tiên là Vidalia mở lên và kết nối bạn với mạng lưới Tor. Sau đó bạn sẽ thấy trình duyệt xác nhận bạn đang sử dụng Tor. Kết thúc cuối cùng là hiện ra <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Bây giờ, bạn có thể sử dụng Internet thông qua Tor.</p>
+    <p>
+      <em>Phải chú ý rằng một điều quan trọng là bạn sử dụng trình duyện trong gói ứng dụng, không phải trình duyệt có sẳng của bạn.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Làm gì khi Tor không kết nối</h3>
+    <p>Một vài người dùng được thông báo là Vidalia gặp vấn đề khi cố kết nối vào mạng lưới Tor. Nếu có chuyện đó, phải chắc rằng bạn đang có kết nối Internet. Nếu bạn cầu kết nối với một máy chủ proxy, xem qua mục <em>Cách sử dụng một proxy mở</em> bên dưới.</p>
+    <p>Nếu kết nối Internet của bạn hoạt động bình thường, nhưng Tor vẫn không thể kết nối với mạng lưới, thử cách sau: Mở bản điều khiển Vidalia, nhấp vào <em>Message Log</em> và chọn thẻ <em>Advanced</em>. Lỗi Tor không thể kết nối có thể là vì:</p>
+    <p><strong>Your system clock is off</strong>: Phải đảm bảo rằng ngày giờ trên hệ thống của bạn là chính xác, và khởi động lại Tor. Bạn có thể cần phải đồng bộ thời gian trên máy của bạn với máy chủ thời gian Internet.</p>
+    <p><strong>You are behind a restrictive firewall</strong>: Hảy thông báo với Tor là chỉ thử trên cổng 80 và 443, mở bản điều khiển  Vidalia , nhấp vào <em>Settings</em> và <em>Network</em>, chọn vào ô thông báo là <em>My firewall only lets me connect to certain ports</em>.</p>
+    <p><strong>Your anti-virus program is blocking Tor</strong>: Phải điều chỉnh chương trình diệt vi-rut dừng ngăn chặng Tor tạo kết nối.</p>
+    <p>Nếu Tor vẫn không hoạt động, có vẻ như nhà cung cấp dịch vụ Internet của bạn đã khóa Tor. Thông thường có thể khắc phục bằng cách dùng <strong>Tor bridges</strong>, các trạm chuyển tiếp ẩn không dễ bị khóa.</p>
+    <p>Nếu bạn cần giúp tiềm hiểu lý do Tor không thể kết nối, hảy gởi thư điện tử vào help@rt.torproject.org và đính kèm phần nhật ký hệ thống liên quan trực tiếp tới vấn đề của bạn.</p>
+    <h3 id="how-to-find-a-bridge">Làm sao tìm một Tor bridge</h3>
+    <p>Để sử dụng bridge, bạn phải tìm một bridge trước; bạn có thể tìm ở <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, hay bạn có thể gởi thư điện tử vào bridges@torproject.org. Nếu bạn gởi thư điện tử, làm ơn chắc rằng ghi nội dung là <strong>get bridges</strong>. Không có nội dung đó, bạn sẽ không được hồi âm. Chú ý rằng bạn phải gởi thư này từ địa chỉ gmail.com hay yahoo.com.</p>
+    <p>Cài đặt hơn hai địa chỉ bridge sẽ làm cho kết nối Tor của bạn thêm ổn đinh, trong trường hợp một vài bridge nằm ngoài kết nối. Không sự đảm bảo nào là bridge bạn đang sử dụng vẫn hoạt động vào ngày mai, vậy nên bạn phải thường xuyên kiểm tra danh sách bridge của bạn.</p>
+    <h3 id="how-to-use-a-bridge">Cách sử dụng bridge</h3>
+    <p>Mỗi lần bạn sử dụng bridge, mở bản điều khiển Vidalia, nhấp vào <em>Settings</em>, <em>Network</em> và chọn ô <em>My ISP blocks connections to the Tor network</em>. Nhập bridge vào ô bên dưới, nhấp <em>OK</em> và khởi động lại Tor.</p>
+    <h3 id="how-to-use-an-open-proxy">Cách dùng một proxy mở</h3>
+    <p>Nếu sử dụng bridge mà vẫn không hoạt động, thử điều chỉnh Tor sử dụng HTTPS hay SOCKS để truy cập mạng lưới Tor. Điều này có nghĩa là dù Tor có bị khóa bởi mạng nội bộ, proxy mở có thể truy cập an toàn tới mạng lưới Tor hoặc mạng Internet không an toàn.</p>
+    <p>Những hướng dẩn bên dưới hướng dẩn bạn cách điều chỉnh Tor/Vidalia, và bạn sẽ tìm thấy danh sách proxy cho HTTPS, SOCKS4, hay SOCKS5.</p>
+    <ol style="list-style-type: decimal">
+      <li>Mở bản điều khiển của Vidalia, nhấp vào <em>Settings</em>.</li>
+      <li>Nhấp <em>Network</em>. Chọn <em>I use a proxy to access the Internet</em>.</li>
+      <li>Trên thanh <em>Address</em>, nhập địa chỉ proxy mở. Nó có thể là tên miền hay địa chỉ IP.</li>
+      <li>Nhập cổng cho proxy.</li>
+      <li>Thông thường, bạn không cần trên truy cập mà mật khẩu. Nếu cần, bạn nhập thông tin vào đúng ô trống.</li>
+      <li>Chọn <em>loại</em> proxy mà bạn sử dụng, như là HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
+      <li>Nhấp chọn <em>OK</em>. Vidalia và Tor bây giờ đã được điều chỉnh để sử dụng để truy cập cố định mạng lưới Tor.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Những câu hỏi thường gập</h2>
+    <p>Mục này sẽ trả lời vài công hỏi thông dụng nhất. Nếu câu hỏi của bạn không có trong này, hảy gởi thư cho chúng tôi qua địa chỉ help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Không thể giải nén</h3>
+    <p>Nếu bạn sử dụng Windows và nhận thấy mình không thể giải nén tập tin nén, tải về và cài đặt <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Nếu bbanj không thể tải về 7-Zip, thử đổi tên tập tin từ .z thành .zip và sử dụng winzip để giả nén. Trước khi đổi tên, chỉnh cho Windows hiện tên mở rộng:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Mở <em>My Computer</em></li>
+      <li>nhâp vào <em>Tools</em> và chọn <em>Folder Options...</em> trong bản lựa chọn</li>
+      <li>Nhấp vào thẻ <em>View</em></li>
+      <li>Bỏ chọn <em>Hide extensions for known file types</em> và nhấp <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Mở <em>Computer</em></li>
+      <li>Nhấp vào <em>Organize</em> và chọn <em>Folder and search options</em> trong bản lựa chọn</li>
+      <li>Nhấp vào thẻ <em>View</em></li>
+      <li>Bỏ chọn <em>Hide extensions for known file types</em> và nhấp <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Mở <em>Computer</em></li>
+      <li>Nhấp vào <em>Organize</em> và chọn <em>Folder and search options</em> trong bản lựa chọn</li>
+      <li>Nhấp vào thẻ <em>View</em></li>
+      <li>Bỏ chọn <em>Hide extensions for known file types</em> và nhấp <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia yêu cầu mật khẩu</h3>
+    <p>Bạn không nên nhập mật khẩu khi khởi động Vidalia. Nếu bạn lỡ làm, bạn sẽ gặp một trong những vấn đề sau:</p>
+    <p><strong>Bạn đang sử dụng Vidalia và Tor</strong>: như ví dụ sau, có thể xảy ra trường hợp là bạn đã cài gói ứng dụng Viadalia và bây giờ bạn chạy Tor Browser Bundle. Trong tình huốn này, bạn phải đóng hết ứng dụng Vidalia và Tor mở trước đó rồi mới dùng cái khác.</p>
+    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
+    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
+    <h3 id="flash-does-not-work">Flash does not work</h3>
+    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
+    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
+    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
+    <p>Hảy xem qua <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> để tìm hiểu thêm.</p>
+    <h3 id="i-want-to-use-another-browser">Tôi muốn sử dụng trình duyệt khác</h3>
+    <p>Vì lý do an ninh, chúng tôi đề nghị bạn duyệt web thông qua Tor sử dụng Tor Browser Bundle. Về mặt kỹ thuật vẫn có thể sử dụng Tor với trình duyệt khác, nhưng làm vậy bạn có thể tự biến mình thành mụctiêu bị tấn công trong tương lai.</p>
+    <h3 id="why-tor-is-slow">Lý do Tor chậm</h3>
+    <p>Tor đôi khi có thể hơi chậm hơn so với kết nối Internet bình thường. Lý do là đường truyền của bạn được gởi qua rất nhiều quốc gia, đôi khi xuyên châu lục. </p>
+  </body>
+</html>

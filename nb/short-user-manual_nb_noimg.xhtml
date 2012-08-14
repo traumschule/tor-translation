@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">En Kort Brukermanual</h1>
+    <p>Denne brukermanualen gir deg informasjon om hvordan du kan laste ned Tor, hvordan du kan bruke Tor, og hva du kan gjøre hvis Tor ikke er i stand til å koble seg opp til nettverket.  Hvis du ikke finner svar på spørsmålet ditt her, kan du sende en email til help@rt.torproject.org.</p>
+    <p>Vær oppmerksom på at vi gir brukerstøtte på frivillig basis, og mottar mye mail hver dag. Så ikke vær bekymret selv om vi ikke gir svar med én gang.</p>
+    <h2 id="how-tor-works">Hvordan Tor fungerer:</h2>
+    <p>Tor er et nettverk av virtuelle tuneller som forbedrer ditt personvern og din sikkerhet på Internett.  Tor fungerer ved å sende din internett-trafikk gjennom tre tilfeldig valgte servere (også kalt &lt;relays&gt;) i Tor-nettverket, før trafikken sendes ut på det åpne Internettet.</p>
+    <p>Bildet over viser en bruker som surfer på forskjellige sider på nettet over Tor.  De grønne skjermene representerer relay-servere i Tor-nettverket, mens de tre nøklene representerer lagene med kryptering mellom brukeren og hver relay-server.</p>
+    <p>Tor anonymiserer opprinnelsen av trafikken din, og krypterer alt i mellom deg og Tor-nettverket.  Tor krypterer også trafikken din innenfor Tor-nettverket, mens trafikken fra Tor-nettverket til det åpne nettet er ikke kryptert.</p>
+    <p>Hvis du sender sensitiv informasjon, som for eksempel når du logger deg på en nettside med brukernavn og passord, er det derfor viktig at du bruker HTTPS (som i <strong>https</strong>://torproject.org/, ikke <strong>http</strong>://torproject.org).  Dette legger til et ekstra lag med kryptering hele veien fra deg til destinasjonen.</p>
+    <h2 id="how-to-download-tor">Hvordan laste ned Tor:</h2>
+    <p>Program-pakken vi anbefaler de fleste brukere er <a href="https://www.torproject.org/projects/torbrowser.html">Tor Nettleser Pakken</a>.  Denne ferdiglagde pakken inneholder en nettleser forhåndsinnstilt for sikker surfing på nettet gjennom Tor, og krever ingen installasjon.  Du bare laster ned pakken, pakker den ut, og starter Tor.</p>
+    <p>Det er to måter å få tak i Tor programmet på.  Du kan enten gå til <a href="https://www.torproject.org/">nettsiden Tor Prosjektet</a> og laste det ned der, eller bruke GetTor, vår automatiske besvarte email.</p>
+    <h3 id="how-to-get-tor-via-email">Hvordan få Tor på email:</h3>
+    <p>For å motta den engelske versjonen av Tor Nettleser Pakken til Windows sender du en email til gettor@torproject.org med ordet <strong>windows</strong> i emailen.  Du trenger ikke fylle inn tittelen.</p>
+    <p>Du kan også få Tor Nettleser Pakken til Mac OS X (skriv <strong>macos-i386</strong>), og Linux (skriv <strong>linux-i386</strong> for 32-bit eller <strong>linux-x86_64</strong> for 64-bit systemer). </p>
+    <p>Hvis du ønsker en oversatt versjon av Tor, skriv <strong>help</strong> i stedet.  Du vil da motta en email med instruksjoner og en liste over tilgjengelige språk.</p>
+    <p><strong>NB:</strong> Tor Nettleser Pakken for Mac OS X og Linux er relativt store, og du kan ikke motta disse på Gmail, Hotmail eller Yahoo.  Hvis dette er tilfellet for deg, send oss en email på help@rt.torproject.org og vi kan sende deg en liste over alternative nettsider du kan bruke. </p>
+    <h3 id="tor-for-smartphones">Tor for smart-telefoner:</h3>
+    <p>Du kan få Tor på smart-telefonen din ved å installere en software-pakke som heter <em>Orbot</em>.  For informasjon om hvordan du kan laste ned og installere Orbot, vennligst gå til &lt;<a href="https://www.torproject.org/docs/android.html.en">Tor Prosjektets nettside.</a></p>
+    <p>Vi har også eksperimentelle program-pakker for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> og <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Hvordan sjekke at du har riktig versjon:</h3>
+    <p>Før du bruker Tor Nettleser Pakken, burde du forsikre deg om at du har riktig versjon.</p>
+    <p>Når du laster ned program-pakken følger det med en fil som har samme navn som program-pakken, men etterfulgt av &lt;.asc&gt; i navnet.  Denne .asc filen er en GPG signatur, som gjør at du kan forsikre deg om at programmet du har lastet ned inneholder nøyaktig det vi har laget - med andre ord at ingen har tuklet med programmet uten vår viten.</p>
+    <p>For å verifisere signaturen må du laste ned programmet GnuPG.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: De fleste Linux distribusjoner kommer med GnuPG ferdig installert.</p>
+    <p>Vær oppmerksom på at du kanskje må forandre på filplasseringen og kommandoene brukt i eksempelet under for at det skal fungere på ditt system.</p>
+    <p>Erinn Clark signerer Tor Nettleser Pakken med nøkkelen 0x63FEE659.  For å importere Erinns nøkkel, kjør</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>Etter å ha importert nøkkelen, sjekk at fingeravtrykket er korrekt:</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>Du burde nå se:</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>For å verifisere signaturen på pakken du lastet ned, kjør følgende kommando (og bytt ut filnavnene med dine aktuelle filnavn):</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>Du skal da få <em>"Good signature"</em> i svar.  En falsk signatur ("Bad signature") betyr at det kan ha vært gjort endringer i filen som vi ikke har godkjent.  Hvis du ser en falsk signatur, send detaljer om hvor du lastet ned pakken fra, hvordan du verifiserte signaturen, og svaret du fikk fra kommandoen du gjorde i GnuPG i en email til help@rt.torproject.org.</p>
+    <p>Så fort du har verifisert signaturen og fått <em>"Good signature"</em> som svar, kan du pakke ut filene.  Det vil da opprettes en filmappe som heter <strong>tor-browser_en-US</strong> eller liknende.  Inne i den mappa finner du en annen mappe som heter <strong>Docs</strong>, som inneholder en fil som heter <strong>changelog</strong>.  Du bør forsikre deg om at versjonsnummeret på øverste linje i denne changelog-fila stemmer med versjonsnummeret på filnavnet til hoved-pakken du lastet ned.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Hvordan bruke Tor Nettleser Pakken:</h3>
+    <p>Etter å ha lastet ned Tor Nettleser Pakken, pakk ut program-pakken til skrivebordet eller på en minnepinne.  Du skal ha en mappe som inneholder noen filer. En av filene er en kjørbar fil som heter "Start Tor Browser" (eller "start-tor-browser," avhengig av ditt operativsystem).</p>
+    <p>Når du starter Tor Nettleser Pakken vil du først se et program som heter Vidalia starte opp som vil koble deg til Tor nettverket.  Når det er gjort, vil nettleseren automatisk starte opp og ta deg til en side som bekrefter at du nå bruker Tor, <a href="https://check.torproject.org/">https://check.torproject.org/</a>, og vise teksten <em>You can now browse the Internet through Tor</em>.</p>
+    <p>
+      <em>Vær oppmerksom på at det er viktig at du bruker nettleseren som følger med pakken, og ikke en annen nettleser.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Hva man kan gjøre hvis Tor ikke kobler seg opp:</h3>
+    <p>Noen brukere vil oppleve at Vidalia står fast når den prøver å koble seg til Tor-nettverket.  Hvis dette skjer, sjekk først internett-tilkoblingen din.  Hvis du må koble deg gjennom en proxy-server, se under <em>Hvordan bruke en åpen proxy</em>.</p>
+    <p>Hvis den vanlige internett-tilkoblingen din fungerer, men Vidalia fortatt ikke klarer å koble seg til Tor-nettverket, prøv følgende:  Åpne kontroll panelet i Vidalia ("Control Panel"), trykk på <em>Message Log</em> og velg <em>Advanced</em> fanen.  Det er mulig at koblingen feiler på grunn av:</p>
+    <p><strong>Systemklokken på datamaskinen din er feil.</strong>  Forsikre deg om at dato og klokkeslett på systemet ditt er korrekt og restart Tor.  Du må muligens synkronisere systemklokken din med en tidsserver på internett.</p>
+    <p><strong>Du er bak en restriktiv brannmur</strong>.  For å konfigurere Tor til å prøve port 80 og port 443, åpne kontroll panelet i Vidalia, trykk på <em>Settings</em> og <em>Network</em>, og huk av boksen som heter <em>My firewall only lets me connect to certain ports</em>.</p>
+    <p><strong>Ditt anti-virus program blokkerer Tor.</strong>  Sjekk at anti-virus programmet ditt ikke hindrer Tor i å koble seg til nettet.</p>
+    <p>Hvis Tor fortsatt ikke fungerer, er det mest sannsynlig på grunn av at din internettleverandør blokkerer Tor.  Dette kan veldig ofte omgås ved bruk av <strong>Tor broer</strong>, som er skjulte relays som er vanskelig å blokkere.</p>
+    <p>Hvis du trenger hjelp til å finne ut av hvorfor Tor ikke kan koble seg til, kan du sende en email til help@rt.torproject.org og legge ved de relevante delene fra logg-filen.</p>
+    <h3 id="how-to-find-a-bridge">Hvordan finne en bro:</h3>
+    <p>For å benytte deg av en bro, må du først finne en:  Du kan enten gå til <a href="https://bridges.torproject.org/">bridges.torproject.org</a> i nettleseren din, eller sende en email til bridges@torproject.org.  Hvis du sender oss en email, vennligst sørg for at du skriver <strong>get bridges</strong> i selve emailen (ikke i tittelen).  Uten dette vil du ikke få svar.  Merk: Du må sende denne emailen fra enten en gmail.com eller en yahoo.com addresse.</p>
+    <p>Det vil gjøre Tor-tilkoblingen din mer stabil å konfigurere mer enn én bro, i tilfelle noen av broene skulle bli utilgjengelige.  Det er ingen garanti for at broene du bruker nå vil fungere i morgen, så du bør gjøre det til en vane å oppdatere din liste over broer med jevne mellomrom.</p>
+    <h3 id="how-to-use-a-bridge">Hvordan bruke en bro:</h3>
+    <p>Så fort du har en liste over broer du kan bruke, åpne Vidalia kontroll panelet, trykk <em>Settings</em>, <em>Network</em> og huk av for boksen som heter <em>My ISP blocks connections to the Tor network</em>.  Skriv inn bro-addressene i boksen under, trykk <em>OK</em> og start Tor på nytt.</p>
+    <h3 id="how-to-use-an-open-proxy">Hvordan bruke en åpen proxy:</h3>
+    <p>Hvis en bro-tilkobling ikke fungerer, kan du prøve å konfigurere Tor til å bruke en HTTPS eller SOCKS proxy for å koble til Tor-nettverket.  Dette betyr at selv om Tor blir blokkert av ditt lokale nettverk, vil du trygt kunne koble deg til Tor-nettverket gjennom en åpen proxy og videre til det åpne, usensurerte Internettet.</p>
+    <p>Stegene under forutsetter at du har en Tor/Vidalia konfigurasjon som fungerer, og at du har funnet en liste med HTTPS, SOCKS4 eller SOCKS5 proxyer.</p>
+    <ol style="list-style-type: decimal">
+      <li>Åpne Vidalia kontroll panelet og trykk på <em>Settings</em>.</li>
+      <li>Trykk <em>Network</em>. Velg <em>I use a proxy to access the Internet</em>.</li>
+      <li>På <em>Address</em> linja, skriv inn en åpen proxy addresse.  Dette kan være en internett-adresse eller en IP adresse.</li>
+      <li>Skriv inn porten for proxyen.</li>
+      <li>Vanligvis trenger du ikke brukernavn og passord, men hvis det er oppgitt skriv det inn i de respektive feltene.</li>
+      <li>Velg <em>Type</em> proxy du benytter, enten HTTP/HTTPS, SOCKS4 eller SOCKS5.</li>
+      <li>Trykk <em>OK</em>.  Vidalia og Tor er nå konfigurert til å benytte en proxy for å koble til resten av Tor-nettverket.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Ofte stilte spørsmål</h2>
+    <p>Denne seksjonen besvarer noen ofte stilte spørsmål.  Hvis ditt spørsmål ikke finnes her, kan du sende oss en email på help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Jeg får ikke pakket ut program-pakken.</h3>
+    <p>Hvis du bruker Windows og får pakket ut program-pakken, last ned og installér <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Hvis du ikke har mulighet til å laste ned 7-Zip, prøv å forandre filnavnet fra .z til .zip og bruk WinZip til å pakke ut program-pakken.  Før du kan forandre filnavnet i Windows, må du vise fil-endelsene:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Åpne <em>Min Datamaskin</em></li>
+      <li>Trykk <em>Verktøy</em> og velg <em>Mappe-innstillinger</em> i menyen.</li>
+      <li>Trykk <em>Vis</em> fanen.</li>
+      <li>Avhuk <em>Skjul filendelser</em> og trykk <em>OK</em>.</li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Åpne <em>Datamasking</em></li>
+      <li>Trykk på <em>Organiser</em> og velg <em>Mappe og søke innstillinger</em>, og følg beskrivelsen over.</li>
+      <li>Trykk <em>Vis</em> fanen.</li>
+      <li>Avhuk <em>Skjul filendelser</em> og trykk <em>OK</em>.</li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Åpne <em>Datamasking</em></li>
+      <li>Trykk på <em>Organiser</em> og velg <em>Mappe og søke innstillinger</em>, og følg beskrivelsen over.</li>
+      <li>Trykk <em>Vis</em> fanen.</li>
+      <li>Avhuk <em>Skjul filendelser</em> og trykk <em>OK</em>.</li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia spør etter et passord.</h3>
+    <p>Det skal ikke være nødvendig å skrive inn passord når du starter Vidalia.  Hvis du blir spurt om et passord, er det mest sannsynlig ett av følgende som er problemet:</p>
+    <p><strong>Du kjører allerede Vidalia og Tor</strong>:  Dette kan for eksempel skje hvis du først installerte Vidalia pakken og nå prøver å kjøre Tor Nettleser Pakken.  I så tilfelle må du stenge Vidalia pakken og Tor før du kan kjøre Tor Nettleser Pakken.</p>
+    <p><strong>Vidalia krasjet, men Tor fortsatte å kjøre.</strong> Hvis meldingsvinduet som spør deg om et passord har en Reset-knapp, kan du trykke denne og Vidalia vil restarte Tor med et nytt, selv-generert passord.  Hvis du ikke ser en Reset-knapp, eller hvis Vidalia ikke klarer å restarte Tor for deg, kan du gå inn i oppgavebehandling (task manager) og manuelt stoppe Tor prosessen.  Bruk så Vidalia til å starte Tor igjen.</p>
+    <p>For mer informasjon, se <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> på Tor Prosjektets nettside.</p>
+    <h3 id="flash-does-not-work">Flash fungerer ikke</h3>
+    <p>Av sikkerhetshensyn er Flash, Java og andre tilleggsprogrammer for øyeblikket stengt av for Tor.  Tilleggsprogrammer opererer uavhengig av Firefox og kan foreta seg handlinger på din datamaskin som avslører din identitet og dermed ødelegger din anonymitet.</p>
+    <p>De fleste YouTube videoer fungerer med HTML5, og det er mulig å se disse videoene gjennom Tor.  Du må bare melde deg på <a href="https://www.youtube.com/html5">HTML5 prøveordningen</a> på YouTubes nettside før du kan benytte deg av HTML5 spilleren.</p>
+    <p>Merk deg forøvrig at nettleseren ikke vil lagre at du meldte deg på HTML5 prøveordningen når du stenger nettleseren, så du må melde deg på nytt neste gang du kjører Tor Nettleser Pakken.</p>
+    <p>For mer informasjon, se <a href="https://torproject.org/docs/faq.html#noflash">FAQ</a> på Tor Prosjektets nettside.</p>
+    <h3 id="i-want-to-use-another-browser">Jeg ønsker å bruke en annen nettleser.</h3>
+    <p>Av sikkerhetshensyn anbefaler vi at du kun bruker surfer på Tor gjennom Tor Nettleser Pakken.  Det er teknisk mulig å bruke Tor med andre nettlesere, men du vil åpne deg opp for mulige angrep.</p>
+    <h3 id="why-tor-is-slow">Hvorfor det går tregt å surfe med Tor</h3>
+    <p>Tor kan noen ganger være litt tregere enn din vanlige internett-tilkobling.  Trafikken er tross alt send gjennom mange forskjellige land, og noen ganger over verdenshav rundt hele verden!</p>
+  </body>
+</html>

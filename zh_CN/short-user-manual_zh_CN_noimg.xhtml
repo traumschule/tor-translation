@@ -22,12 +22,12 @@
     <p><strong>注意</strong>：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，你无法通过 Gmail、Hotmail 或者 雅虎邮箱获取这些软件包。 如果你无法获取你想要的软件包，请发送邮件至 help@rt.torproject.org ，我们会给提供你一份网站镜像列表。</p>
     <h3 id="tor-for-smartphones">智能手机版的 Tor</h3>
     <p>你可以通过安装 <em>Orbot</em> 软件包以在你的 Android 设备上获取 Tor 。关于如何下载和安装 Orbot，请参看 <a href="https://www.torproject.org/docs/android.html.en">Tor Project 网站</a>。</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>我们还有为 <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> 和 <a href="http://sid77.slackware.it/ios/">Apple iOS</a> 制作的实验性软件包。</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">如何验证你已拥有正确的版本</h3>
     <p>在运行 Tor 浏览器软件包之前，你应该确保你持有正确的版本。</p>
     <p>你将获取到的，还有一个与软件包的文件名相同、扩展名为 <strong>.asc</strong> 的文件。这个 .asc 文件是一个 GPG 签名，它能让你校验所下载到的文件是否与你想要下载的完全一致。</p>
     <p>在校验签名之前，你将需要下载并安装 GnuPG：</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: 多数 Linux 发行版预装有 GnuPG 程序。</p>
     <p>请注意，你可能需要修改下面所用到的路径和命令，让它们能在你的系统上生效。</p>
     <p>Tor 浏览器软件由 Erinn Clark 使用密钥 0x63FEE659 签署。要导入 Erinn 的密钥，请执行：</p>
     <pre>
@@ -57,7 +57,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>输出的结果应为 <em>&amp;quot;Good signature&amp;quot;</em>。若是 Bad signature 则意味着该文件被篡改过。如果你看见一个坏的签名，请把你在哪里下载到该软件包、你验证签名的过程、以及 GunPG 的输出结果一并以电子邮件发送到 help@rt.torproject.org。</p>
     <p>当你已完成校验并看到 <em>&amp;quot;Good signature&amp;quot;</em> 的输出结果，请把软件包解压缩。然后你应该会看到一个类似 <strong>tor-browser_en-US</strong> 这样的文件夹。此文件夹里有另一个名为 <strong>Docs</strong> 的文件夹，内含一个 <strong>changelog</strong> 文件。请确保 changelog 里第一行的版本号与文件名中的版本号相符。</p>
     <h3 id="how-to-use-the-tor-browser-bundle">如何使用 Tor 浏览器软件包</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>下载 Tor Browser Bundle 后，将软件包解压到您的桌面或U盘里。您会得到一个文件夹，其中含有一个名为"Start Tor Browser"的应用程序(或"start-tor-browser"，具体取决与您的操作系统)</p>
     <p>当你运行 Tor 浏览器软件包，你会首先看到 Vidalia 启动并把你接入到 Tor 网络。之后你会看到一个浏览器打开了 <a href="https://check.torproject.org/">https://check.torproject.org/</a>，确认你正在使用 Tor。现在你可以开始通过 Tor 来浏览互联网了。</p>
     <p>
       <em>请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这点至关重要。</em>
@@ -94,23 +94,23 @@ sub   2048R/EB399FD7 2003-10-16
     <p>如果你无法下载 7-Zip，尝试把 .z 文件重命名为 .zip 然后使用 WinZip 解压缩。在改名之前，先让 Windows 显示文件扩展名：</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
+      <li>打开<em>我的电脑</em></li>
+      <li>点击 <em>工具</em> 选择菜单中的<em>文件夹选项...</em></li>
+      <li>点击<em>查看</em> 选项卡</li>
       <li>取消勾选 <em>隐藏已知文件类型的扩展名</em> 并点击 <em>确定</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li>打开 <em>我的电脑</em></li>
       <li>点击 <em>组织</em>，在菜单里选择 <em>文件夹和搜索选项</em></li>
-      <li>Click on the <em>View</em> tab</li>
+      <li>点击<em>查看</em> 选项卡</li>
       <li>取消勾选 <em>隐藏已知文件类型的扩展名</em> 并点击 <em>确定</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li>打开 <em>我的电脑</em></li>
       <li>点击 <em>组织</em>，在菜单里选择 <em>文件夹和搜索选项</em></li>
-      <li>Click on the <em>View</em> tab</li>
+      <li>点击<em>查看</em> 选项卡</li>
       <li>取消勾选 <em>隐藏已知文件类型的扩展名</em> 并点击 <em>确定</em></li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia 要求输入密码</h3>
