@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">Manuale utente in versione breve</h1>
+    <p>Questo manuale contiene informazioni su come scaricare Tor, come usarlo, e cosa fare se non è possibile connettere Tor alla rete. Se la risposta alla tua domanda non compare in questo documento, contatta via email l'indirizzo help@rt.torproject.org.</p>
+    <p>Si ricorda che il supporto è fornito su base volontaria, e che il numero di email ricevute ogni giorno è ingente. Pertanto, non c'è ragione di preoccuparsi se non si riceve una risposta immediata.</p>
+    <h2 id="how-tor-works">Come funziona Tor</h2>
+    <p>Tor è una rete di tunnel virtuali che permette di aumentare la privacy e la sicurezza della navigazione su internet. Funziona mandando il vostro traffico attraverso tre server scelti casualmente nella rete Tor (detti <em>relay</em>) prima di far uscire il traffico su internet.</p>
+    <p>L'immagine qui sopra rappresenta un utente che visita diversi siti web attraverso Tor. I monitor verdi rappresentano dei relay nella rete Tor, mentre le chiavi rappresentano tunnel crittografici tra l'utente ed ogni relay.</p>
+    <p>Tor rende anonima l'origine del vostro traffico, e cripta ogni cosa tra voi e la rete Tor. Inoltre, Tor cripta ogni cosa dentro la rete Tor, ma non può criptare il traffico tra la rete Tor e la sua destinazione finale.</p>
+    <p>Se si stanno comunicando informazioni sensibili, ad esempio effettuando l'autenticazione presso un sito con nome utente e password, ci si assicuri di star usando HTTPS (esempio, <strong>https</strong>://torproject.org/, non <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Come ottenere Tor</h2>
+    <p>Il pacchetto raccomandato per la maggior parte degli utenti è il <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Questo pacchetto contiene un browser preconfigurato per navigare in internet in modo sicuro attraverso Tor, e non richiede installazione. Occorre solamente scaricare il pacchetto, estrarne il contenuto, ed eseguire Tor.</p>
+    <p>Ci sono due diversi modi per ottenere il software Tor. Uno di questi è visitare il <a href="https://www.torproject.org/">Sito del Progetto Tor</a> e scaricarlo da li, oppure utilizzare GetTor, un risponditore automatico via email.</p>
+    <h3 id="how-to-get-tor-via-email">Come ottenere Tor via email</h3>
+    <p>Per ricevere il pacchetto Tor Browser Bundle in lingua inglese per Windows, è sufficiente inviare una email a gettor@torproject.org con <strong>windows</strong> nel corpo del messaggio. L'oggetto può essere lasciato in bianco.</p>
+    <p>E' inoltre possibile richiedere il Tor Browser Bundle per Mac OS X (scrivere <strong>macos-i386</strong>), e Linux (write <strong>linux-i386</strong> per sistemi a 32-bit o <strong>linux-x86_64</strong> per sistemi a 64-bit).</p>
+    <p>Se si necessita di una versione tradotta di Tor, si scriva invece <strong>help</strong> per ricevere una email con le istruzioni ed una lista delle lingue in cui il software è disponibile.</p>
+    <p><strong>Nota</strong>: I pacchetti Browser Tor per Linux e Mac OS X sono piuttosto grandi, e non sarà possibile ricevere nessuno di questi pacchetti con Gmail, Hotmail o Yahoo. Se non è possibile ricevere i pacchetto desiderato, si invii una email a help@rt.torproject.org per ricevere una lista di siti web alternativi da utilizzare per scaricare Tor.</p>
+    <h3 id="tor-for-smartphones">Tor per smartphones</h3>
+    <p>E' possibile ottenere Tor su un dispositivo Android installando il pacchetto chiamato <em>Orbot</em>. Per informazioni su come ottenere ed installare Orbot, si veda il <a href="https://www.torproject.org/docs/android.html.en">Sito del progetto Tor</a>.</p>
+    <p>Sono inoltre disponibili pacchetti sperimentali per <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> e <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Come controllare di avere la versione giusta</h3>
+    <p>Prima di eseguire il Pacchetto Browser Tor, si dovrebbe controllare di avere la versione giusta.</p>
+    <p>Il software che si riceve è accompagnato da un file con lo stesso nome del pacchetto e con estensione <strong>.asc.</strong>. Questo file .asc è una firma GPG, e permette di verificare se il file che si è scaricato è esattamente quello che si desiderava.</p>
+    <p>Prima di poter verificare la firma, è necessario scaricare ed installare GnuPG:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: La maggior parte delle distribuzioni Linux vengono rilasciate con GnuPG preinstallato.</p>
+    <p>Si noti che potrebbe essere necessario modificare il percorso dei files o i comandi mostrati in seguito per permetterne il funzionamento sul vostro sistema.</p>
+    <p>Erinn Clark firma il Tor Browser Bundles con la chiave 0x63FEE659. Per importare la chiave di Erinn si esegua:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>Dopo aver importato la chiave, se ne verifichi la correttezza dell'impronta:</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>Dovresti vedere:</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &amp;lt;erinn@torproject.org&amp;gt;
+uid                  Erinn Clark &amp;lt;erinn@debian.org&amp;gt;
+uid                  Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>Per verificare la firma del pacchetto scaricato, si eseguano i seguenti comandi:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>L'output dovrebbe presentare il messaggio <em>Good signature</em>. Una firma non accettata significa che il file scaricato potrebbe essere stato modificato. Se vedi una firma errata, inviane i dettagli sul sito dal quale si è scaricato il file, metodo di verifica della firma e sull'output di GnuPG via email a help@rt.torproject.org.</p>
+    <p>Una volta verificata la firma e visto il messaggio <em>&amp;quot;Good signature&amp;quot;</em>, si proceda all'estrazione dell'archivio. Si dovrebbe ottenere una directory con un nome del tipo <strong>tor-browser_en-US</strong>. All'interno, si dovrebbe trovare un'altra directory chiamata <strong>Docs</strong>, contenente un file chiamato <strong>changelog</strong>. È opportuno assicurarsi che il numero di versione nella prima linea del file changelog corrisponda al numero di versione nel nome del file del pacchetto.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Come usare il Tor Browser Bundle</h3>
+    <p>Dopo aver scaricato il pacchetto Tor Browser Bundle occorre estrarne il contenuto sul desktop o su una chiavetta USB. All'interno della cartella così creata dovrebbero trovarsi alcuni file fra cui uno eseguibile chiamato "Start Tor Browser" (o, in base al sistema operativo, "start-tor-browser").</p>
+    <p>All'avvio del Tor Browser Bundle, verrà inizialmente visualizzata la schermata di avvio di Vidalia che si connetterà automaticamente alla rete Tor. A seguire si aprirà un browser, attraverso il quale si potrà confermare l'utilizzo di Tor visualizzando la pagina web <a href="https://check.torproject.org/">https://check.torproject.org/</a>. E' ora possibile navigare in Internet attraverso Tor.</p>
+    <p>
+      <em>ATTENZIONE! E' molto importante che si utilizzi il browser fornito nel pacchetto e non il proprio!!</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Cosa fare quando Tor non si connette</h3>
+    <p>Alcuni utenti noteranno che Vidalia si blocca provando a connettersi alla rete Tor. Se succede, assicurarsi innanzitutto di essere connessi ad Internet. Se si ha bisogno di connettersi ad un server proxy, si veda <em>Come utilizzare un proxy aperto</em> più avanti.</p>
+    <p>Se la normale connessione ad internet funziona, ma Tor non riesce a connettersi alla rete, si provi quanto segue: si apra il pannello di controllo di Vidalia, si faccia click su <em>Log dei messaggi</em> e si selezioni il tab <em>Avanzato</em>. Tor potrebbe non riuscire a connettersi per una delle seguenti cause:</p>
+    <p><strong>L'orologio di sistema è disattivato</strong>: Ci si assicuri che data ed ora sul proprio computer siano configurate correttamente, e si riavvii Tor. Potrebbe essere necessario sincronizzare il proprio orologio di sistema con un Internet time server.</p>
+    <p><strong>Ci si trova dietro un firewall con restrizioni</strong>: Per dire a Tor di provare ad utilizzare solo le porte 80 e 443, si apra il pannello di controllo di Vidalia, si faccia click su <em>Impostazioni</em> e <em>Rete</em>, e si spunti la casella <em>Il mio firewall mi permette di connettermi solo a certe porte</em>.</p>
+    <p><strong>Il proprio programma anti-virus sta bloccando Tor</strong>: Ci si assicuri che il proprio programma anti-virus non stia impedendo a Tor di effettuare connessioni di rete.</p>
+    <p>Se Tor continua a non funzionare, è probabile che il proprio fornitore di servizi Internet (ISP) stia bloccando Tor. Molto spesso, tale circostanza può essere aggirata solo utilizzando i <strong>Tor bridges</strong>, dei relay Tor nascosti difficili da bloccare.</p>
+    <p>Se si necessita di aiuto per capire perché Tor non riesce a connettersi, si invii una email a help@rt.torproject.org includendo le rilevanti parti del file di log.</p>
+    <h3 id="how-to-find-a-bridge">Come trovare un bridge</h3>
+    <p>Per usare un bridge, è innanzitutto necessario trovarne uno; è possibile visitare il sito <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, o mandare un'email a bridges@torproject.org. Se si invia una email, ci si assicuri di scrivere <strong>get bridges</strong> nel corpo del messaggio. Senza di questo, non si riceverà alcuna risposta. Si noti che è necessario inviare questa email da un account gmail.com o yahoo.com.</p>
+    <p>Configurare più di un indirizzo di bridge renderà la propria connessione Tor più stabile, nel caso alcuni bridges diventino non raggiungibili. Non c'è garanzia infatti che il bridge che si usa sia ancora attivo domani, pertanto è buona pratica aggiornare spesso la lista dei bridge.</p>
+    <h3 id="how-to-use-a-bridge">Come usare un bridge</h3>
+    <p>Una volta ottenuto un'insieme di bridge utilizzabili, si apra il pannello di controllo di Vidalia alla voce <em>Impostazioni</em>, <em>Rete</em> e si spunti la casella che dice <em>Il mio ISP blocca le connessioni alla rete Tor</em>. Si inseriscano i bridge nel campo di testo sottostante, si faccia click su <em>OK</em> e si avvii nuovamente Tor.</p>
+    <h3 id="how-to-use-an-open-proxy">Come utilizzare un proxy aperto</h3>
+    <p>Se non si riesce ad utilizzare un bridge, si provi a configurare Tor per utilizzare un proxy HTTPS o SOCKS per avere accesso alla rete Tor. Questo significa che anche se Tor è bloccato dalla propria rete locale, dei proxy aperti possono essere utilizzati in modo sicuro per connettersi alla rete Tor e conseguentemente ad Internet senza censura.</p>
+    <p>I seguenti passi assumono che si abbia una configurazione funzionante di Tor/Vidalia, e che si abbia a disposizione una lista di proxy HTTPS/SOCKS4 o SOCKS5.</p>
+    <ol style="list-style-type: decimal">
+      <li>Si apra il pannelo di controllo di Vidalia, si faccia click su <em>Impostazioni</em>.</li>
+      <li>Si faccia click su <em>Rete</em>. Si selezioni <em>Uso un proxy per accedere ad Internet</em>.</li>
+      <li>Sulla linea <em>Indirizzo</em>, si inserisca l'indirizzo del proxy aperto. Questo può essere sia un hostname che un indirizzo IP.</li>
+      <li>Si inserisca la porta per il proxy.</li>
+      <li>Generalmente, non si ha bisogno di una coppia nome utente e password. Se così non fosse, si inseriscano tali informazioni nei rispettivi campi.</li>
+      <li>Si scelga il <em>Tipo</em> di proxy che si vuole usare, che sia HTTP/HTTPS, SOCKS4, o SOCKS5.</li>
+      <li>Si faccia click sul bottone <em>OK</em>. Vidalia e Tor sono ora configurati per utilizzare un proxy per accedere al resto della rete Tor.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">FAQ - Domande Frequenti</h2>
+    <p>Questa sezione risponderà ad alcune delle domande più comunemente poste dagli utenti. Se la vostra domanda non è menzionata qui, si riporti via email all'indirizzo help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Impossibile estrarre l'archivio</h3>
+    <p>Se si sta usando Windows e non si riesce ad estrarre l'archivio, si scarichi ed installi <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Se non riesci a scaricare 7-Zip, si provi a rinominare il file da .z a .zip e si utilizzi winzip per estrarre l'archivio. Prima di rinominare il file, si configuri Windows per mostrare le estensioni dei files:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Aprire &amp;quot;Risorse del Computer&amp;quot;</li>
+      <li>Fare click su <em>Strumenti</em> e scegliere <em>Opzioni Cartella...</em> nel menù</li>
+      <li>Fare click sulla tab <em>Visualizzazione</em></li>
+      <li>Togliere la spunta alla casella <em>Nascondi le estensioni per i tipi di file conosciuti</em> e fare click su <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Aprire <em>Computer</em></li>
+      <li>Fare click su <em>Organizza</em> e scegliere <em>Opzioni cartella e ricerca</em> dal menu</li>
+      <li>Fare click sulla tab <em>Visualizzazione</em></li>
+      <li>Togliere la spunta alla casella <em>Nascondi le estensioni per i tipi di file conosciuti</em> e fare click su <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Aprire <em>Computer</em></li>
+      <li>Fare click su <em>Organizza</em> e scegliere <em>Opzioni cartella e ricerca</em> dal menu</li>
+      <li>Fare click sulla tab <em>Visualizzazione</em></li>
+      <li>Togliere la spunta alla casella <em>Nascondi le estensioni per i tipi di file conosciuti</em> e fare click su <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia chiede una password</h3>
+    <p>Non dovrebbe essere necessario inserire alcuna password all'avvio di Vidalia. Se ne viene richiesta una, è probabile che si sia affetti da uno dei seguenti problemi:</p>
+    <p><strong>Stai già eseguendo Vidalia e Tor</strong> Per esempio, questo può succedere se hai già installato il pacchetto Vidalia ed ora stai tentando di usare il Tor Browser Bundle. In questo caso, sarà necessario chiudere il vecchio Vidalia e Tor prima di far partire quest'ultimo.</p>
+    <p><strong>Vidalia è crashato, ma Tor è ancora in esecuzione</strong>: Se la schemata che richiede una password di controllo ha un bottone &amp;quot;Reset&amp;quot;, si può cliccare sul bottone e Vidalia farà ripartire Tor con una nuova password di controllo casuale. Se non è visualizzato alcun bottone &amp;quot;Reset&amp;quot;, Vidalia non è utilizzabile per far ripartire Tor. Si apra il proprio gestore di processi e si termini il processo. Si usi in seguito vidalia per far ripartire Tor.</p>
+    <p>Per maggiori informazioni, si vedano le <a href="https://torproject.org/docs/faq.html#VidaliaPassword">Domande Frequenti</a> sul sito del progetto Tor.</p>
+    <h3 id="flash-does-not-work">Flash non funziona</h3>
+    <p>Per motivi di sicurezza, Flash, Java, ed altri plugins sono attualmente disabilitati per Tor. I plugin operano in modo indipendente da Firefox, e per tanto possono effettuare operazioni sul computer che mettono a rischio l'anonimato.</p>
+    <p>La maggior parte dei video su YouTube funzionano con HTML5, ed è possibile vedere questi video attraverso Tor. Sarà necessario entrare nel <a href="https://www.youtube.com/html5">programma di prova HTML5</a> sul sito di YouTube prima di poter usare il player HTML5.</p>
+    <p>Si noti che il browser non terrà memoria della presa di partecipazione al programma una volta terminatane l'esecuzione, pertanto sarà necessario ripeterla alla prossima esecuzione del Tor Browser Bundle.</p>
+    <p>Si vedano le <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> per maggiori informazioni.</p>
+    <h3 id="i-want-to-use-another-browser">Vorrei usare un altro browser</h3>
+    <p>Per ragioni di sicurezza, raccomandiamo di navigare unicamente attraverso il Tor Browser Bundle. E' tecnicamente possibile utilizzare Tor con altri Browser, ma così facendo ci si espone a potenziali attacchi.</p>
+    <h3 id="why-tor-is-slow">Perché Tor è così lento?</h3>
+    <p>Tor a volte può essere un po' più lento della vostra normale connessione ad Internet. Dopo tutto, il vostro traffico è spedito attraverso diversi paesi, a volte al di la dell'oceano attorno al mondo!</p>
+  </body>
+</html>
