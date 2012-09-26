@@ -9,11 +9,11 @@
     <p>Lūdzu ņemiet vērā, ka atbalstu nodrošinām brīvprātīgi, kā arī to, ka katru dienu saņemam daudzas epasta ziņas. Tāpēc neuztraucieties, saglabājiet mieru un elpojiet dziļi, ja mēs neatbildam uzreiz. </p>
     <h2 id="how-tor-works">Kā darbojas Tor</h2>
     <p>Tor ir virtuālu tuneļu tīkls, kurš ļauj palielināt Jūsu privātumu un drošību tīmeklī jeb internetā. Pirms jūsu datplūsmu nosūta caur publisko tīmeklī, Tor pārsūta šo datplūsmu caur trim gadījumizvēlētiem serveriem (Tor tīklā tos sauc arī par <em>releji</em>).</p>
-    <p>Augstākievietotais attēls shematiski attēlo lietotāju, kas, izmantojot Tor, pārlūko dažādas tīmekļa vietnes. Zaļie monitori attēlo Tor tīkla relejus jeb retranslatorus, bet trīs atslēgas rāda šifrēšanas līmeņus, kuri ir starp lietotāju un katru releju.</p>
+    <p>Augstākievietotais attēls shematiski attēlo lietotāju, kas, izmantojot Tor, pārlūko dažādas tīmekļa vietnes. Zaļie monitori attēlo Tor tīkla relejpunktus jeb retranslatorus, bet trīs atslēgas attēlo šifrēšanas līmeņus, kuri ir starp lietotāju un katru retranslatoru.</p>
     <p>Tor padarīs anonīmu jūsu datplūsmas izcelsmi, turklāt tas šifrēs visu, kas atrodas starp jums un Tor tīklu. Tāpat Tor šifrēs jūsu datplūsmu Tor tīklā, tomēr Tor nespēj šifrēt jūsu datplūsmu starp Tor tīklu un datplūsmas gala mērķi.</p>
-    <p>Ja saziņā lietojiet konfidenciālu informāciju, tādu kā lietotāja vārdu un paroli reģistrējoties tīmekļa vietnē, pārliecinieties, ka izmantojiet HTTPS (piem., <strong>https</strong>://torproject.org/, nevis <strong>http</strong>://torproject.org/). </p>
+    <p>Ja pārsūtat konfidenciālu informāciju, tādu kā lietotājvārdu un paroli reģistrējoties tīmekļa vietnē, pārliecinieties, ka izmantojat HTTPS (piem., <strong>https</strong>://torproject.org/, nevis <strong>http</strong>://torproject.org/). </p>
     <h2 id="how-to-download-tor">Kā lejupielādēt Tor</h2>
-    <p>Vairumam lietotāju rekomendējam komplektu <a href="https://www.torproject.org/projects/torbrowser.html">Pārlūka Tor komplekts</a>. Šis komplekts ietver iepriekš konfigurētu pārluku, kurš ļauj droši pārlūkot tīmekli, izmantojot Tor, un kam nav nepieciešama itin nekāda instalēšana. Lejupielādējiet komplektu, izvērsiet arhīvu un sāciet darbu ar Tor. </p>
+    <p>Vairumam lietotāju rekomendējam komplektu <a href="https://www.torproject.org/projects/torbrowser.html">Pārlūka Tor komplekts</a>. Šis komplekts ietver iepriekš konfigurētu pārlūku, kurš ļauj droši pārlūkot tīmekli, izmantojot Tor, un kam nav nepieciešama itin nekāda instalēšana. Lejupielādējiet komplektu, izvērsiet arhīvu un sāciet darbu ar Tor. </p>
     <p>Pastāv divi citi veidi kā saņemt Tor programmatūru. Viens veids ir pārlūkot <a href="https://www.torproject.org/">Tor projekta tīmekļa vietne</a> un lejupielādēt no turienes, vai arī, tas ir otrs veids, izmantot epasta automātisko atbildētāju GetTor.</p>
     <h3 id="how-to-get-tor-via-email">Kā saņemt Tor epastā</h3>
     <p>Lai saņemtu Pārlūka Tor OS Windows paredzēto angļu valodas komplektu, sūtiet epastu, kurš adresēts gettor@torproject.org , un ziņojuma korpusā norādiet <strong>windows</strong>. Temata rinda nav obligāti jāaizpilda. </p>
@@ -28,30 +28,30 @@
     <p>Saņemtajai programmatūrai tiek pievienota datne, kuras nosaukums ir tāds pats kā komplekta nosaukums, bet paplašinājums ir <strong>.asc</strong>. Šī .asc datne ir GPG paraksts, un tā sniedz iespēju verificēt, ka lejupielādētā datne ir tieši tā, kuru bijāt paredzējis saņemt.</p>
     <p>Pirms parakstu var verificēt, nepieciešams lejupielādēt un instalēt GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Vairums Linux distributīvu, GnuPG ir iepriekš instalēts.</p>
-    <p>Lūdzu vērsiet uzmanību, ka var būt nepieciešams rediģēt zemāk lietotās komandas un ceļus, lai tas varētu strādāt jūsu sistēmā.</p>
+    <p>Lūdzu vērsiet uzmanību, ka var būt nepieciešams rediģēt zemāk lietotās komandas un ceļus, lai tās strādātu Jūsu sistēmā.</p>
     <p>Erins Klārks jeb angļu valodā Erinn Clark paraksta Pārlūka Tor komplektus ar atslēgu 0x63FEE659. Lai importētu Erina atslēgu, izpildiet: </p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎ </code>
     </pre>
     <p>Pēc tam kad atslēga ir importēta, verificējiet, ka tās ciparvirkne ir pareiza:</p>
     <pre>
-      <code>gpg --fingerprint 0x63FEE659⏎ </code>
+      <code>gpg --ciparvirkne 0x63FEE659⏎ </code>
     </pre>
     <p>Jums vajadzētu redzēt:</p>
     <pre>
-      <code>pub 2048R/63FEE659 2003-10-16⏎ Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎ uid Erinn Clark &lt;erinn@torproject.org&gt;⏎ uid Erinn Clark &lt;erinn@debian.org&gt;⏎ uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎ sub 2048R/EB399FD7 2003-10-16⏎ </code>
+      <code>pub 2048R/63FEE659 2003-10-16⏎ Atslēgas ciparvirkne = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎ uid Erinn Clark &lt;erinn@torproject.org&gt;⏎ uid Erinn Clark &lt;erinn@debian.org&gt;⏎ uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎ sub 2048R/EB399FD7 2003-10-16⏎ </code>
     </pre>
-    <p>Lai verificētu lejupielādētā komplekta parakstu, izpildiet komandu:</p>
+    <p>Lai verificētu lejupielādētās pakotnes parakstu, izpildiet komandu:</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎ </code>
     </pre>
     <p>Izvades ziņojumam būtu jāsaka <em>"Derīgs paraksts"</em>. Slikts paraksts nozīmē, ka datne, iespējams, ir pārveidota. Ja redzat ziņojumu par sliktu parakstu, nosūtiet e-pasta ziņojumu angļu valodā uz  help@rt.torproject.org , iekļaujot informāciju par to kur lejupielādējāt pakotni, kā verificējāt parakstu, kā arī pievienojiet GnuPG izvades ziņojumu.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
+    <p>Kad esat verificējis parakstu un redzējis izvades ziņojumu <em>"Derīgs paraksts"</em>, turpiniet un izvērsiet pakotnes arhīvu. Vajadzētu būt redzamam direkorijam, kurš līdzīgs <strong>tor-browser_en-US</strong>. Šajā direktorijā atrodas cits direktorijs, kuru sauc <strong>Docs</strong>, kas iever datni, kuru sauc <strong>changelog</strong>. Pārliecinieties par to, ka izmaiņu žurnāla datnes augšējā līnijā esošais versijas numurs sakrīt ar datnes vārda versijas numuru.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Kā lietot Pārlūka Tor komplektu</h3>
     <p>Pēc pārlūka Tor komplekta lejupielādes, izvērsiet pakotni uz darbvirsmas vai zibatmiņā. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Kad startējat pārlūka Tor komplektu, vispirms redzēsit, ka darbu uzsāk Vidalia, un izveido savienojumu ar Tor tīklu. Pēc tam redzēsit, ka pārlūks apstiprina, ka nu lietojat Tor. Tas tiek darīts attēlojot <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Tagad varat pārlūkot internetu izmantojot Tor.</p>
     <p>
-      <em>Lūdzu ievērojiet, ka ir svarīgi izmantot pārlūku, kurš atrodas komplektā nevis jūsu pārlūku.</em>
+      <em>Lūdzu ievērojiet, ka ir svarīgi izmantot pārlūku, kurš atrodas komplektā nevis Jūsu pārlūku.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Ko darīt tad, kad Tor nespēj veikt savienojumu</h3>
     <p>Daži lietotāji ievēros, ka Vidalia uzkaras, mēģinot izveidot savienojumu ar Tor tīklu. Ja tā notiek, pārliecinieties, ka pareizi strādā interneta savienojums. Ja nepieciešams veidot savienojumu ar starpniekserveri, iepazīstieties zemāk ar <em>Kā lietot atvērtu starpnieku</em>.</p>
@@ -62,24 +62,24 @@
     <p>Ja Tor joprojām nedarbojas, ir ticami, ka Jūsu Interneta pakalpojumu sniedzējs (IPS) bloķē Tor. Ļoti bieži šādu situāciju var apiet izmantojot <strong>Tor tiltus</strong>: slēptus retranslatorus, kurus grūti bloķēt.</p>
     <p>Ja Jums nepieciešama palīdzība, lai saprastu kāpēc Tor nevar izveidot savienojumu, sūtiet e-pasta ziņu angļu valodā uz help@rt.torproject.org , un pievienojiet atbilstīgos izvilkumus no žurnāldatnes.</p>
     <h3 id="how-to-find-a-bridge">Kā atrast tiltu</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
+    <p>Lai izmantotu tiltu, vispirms tas jāatrod; varat vai nu pārlūkot <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, vai arī sūtīt e-pastu uz bridges@torproject.org . Ja sūtat e-pastu, lūdzu pārliecinieties, ka esat ierakstījis <strong>get bridges</strong> e-pasta ziņojuma teksta korpusā. To nedarot, nesaņemsiet atbildi. Ievērojiet, ka šo e-pastu jānosūta vai nu no gmail.com , vai arī  yahoo.com adreses.</p>
     <p>Lai nodrošinātos pret situāciju, ka daži tilti vairs nav sasniedzami, kā arī veidotu stabilāku Tor savienojumu, ir jānokonfigurē vairāk kā viena tilta adrese. Nav garantijas ka šodien izmantotais tilts strādās rīt, tamdēļ par darba pieradumu vajadzētu kļūt regulārai tiltu sarakstu atjaunošanai.</p>
     <h3 id="how-to-use-a-bridge">Kā lietot tiltu</h3>
-    <p>Kad ir pieejami tilti, atveriet Vidalia vadības paneli, noklikšķiniet uz  <em>Iestatījumi</em>, <em>Tīkls</em> un atzīmējiet kastīti, kura vēsta  <em>Mans IPS bloķē savienojuma izveidi ar Tor tīklu</em>. Ievadiet tiltus zemāk esošajā kastītē, nospiediet <em>Labi</em> un vēlreiz startējiet Tor.</p>
+    <p>Kad ir pieejami tilti, atveriet Vidalia vadības paneli, noklikšķiniet uz  <em>Iestatījumi</em>, <em>Tīkls</em> un atzīmējiet kastīti, kur teikts  <em>Mans IPS bloķē savienojuma izveidi ar Tor tīklu</em>. Ievadiet tiltus zemāk esošajā kastītē, nospiediet <em>Labi</em> un vēlreiz startējiet Tor.</p>
     <h3 id="how-to-use-an-open-proxy">Kā lietot atvērtu starpnieku</h3>
     <p>Ja nestrādā tilts, pamēģiniet konfigurēt Tor , lai tas piekļuvei Tor tīklam izmanto jebkuru HTTPS vai SOCKS starpnieku. Tas nozīmē, ka pat ja Jūsu vietējā tīklā Tor ir bloķēts, piekļuvei Tor tīklam un internetam, kas nav pakļauts cenzūrai, var droši izmantot atvērtus starpniekus.</p>
-    <p>Turpmāk uzskaitītie soļi paredz, ka izmantojat funkcionālu Tor/Vidalia konfigurāciju un ka esat atradis virkni HTTPS, SOCKS4 vai SOCKS5 starpnieku.</p>
+    <p>Turpmāk uzskaitītās darbības paredz, ka izmantojat funkcionālu Tor/Vidalia konfigurāciju un ka Jums ir zināma virkne HTTPS, SOCKS4 vai SOCKS5 starpnieku.</p>
     <ol style="list-style-type: decimal">
       <li>Atvēriet Vidalia vadības paneli, noklikšķiniet uz <em>Iestatījumi</em>.</li>
       <li>Noklikšķiniet <em>Tīkls</em>. Izvēlieties <em>Es izmantoju starpnieku, lai piekļūtu internetam</em>.</li>
-      <li><em>Address</em> rindā, ievadiet starpnieka adresi. Tā var būt gan resursdatora nosaukums , gan IP adrese.</li>
+      <li>Rindā <em>Adrese</em>, ievadiet atvērta starpnieka adresi. Tā var būt gan resursdatora nosaukums, gan IP adrese.</li>
       <li>Ievadiet starpnieka portu.</li>
       <li>Vispārīgā gadījumā lietotājvārds un parole nav nepieciešami. Tomēr ja tie ir vajadzīgi, ievadiet informāciju atbilstīgajos laukos.</li>
-      <li>Izvēlieties izmantotā starpnieka <em>veidu</em>, vai nu HTTP/HTTPS, SOCKS4, vai arī SOCKS5.</li>
+      <li>Izvēlieties, kāds ir izmantotā starpnieka <em>Tips</em>: vai nu HTTP/HTTPS, SOCKS4, vai arī SOCKS5.</li>
       <li>Nospiediet pogu <em>Labi</em>. Tagad Vidalia un Tor ir nokonfigurēti, lai izmantotu starpnieku Tor pārējā tīkla piekļuvei.</li>
     </ol>
     <h2 id="frequently-asked-questions">Bieži uzdotie jautājumi</h2>
-    <p>Šajā sadaļā ir sniegtas atbildes uz visbiežāk uzdotajiem jautājumiem. Ja atbildes uz Jūsu jautājumu te nav, lūdzu sūtiet e-pasta ziņu angļu valodā uz help@rt.torproject.org .</p>
+    <p>Šajā sadaļā apkopotas atbildes uz visbiežāk uzdotajiem jautājumiem. Ja atbildes uz Jūsu jautājumu te nav, lūdzu sūtiet e-pasta ziņu angļu valodā uz help@rt.torproject.org .</p>
     <h3 id="unable-to-extract-the-archive">Nevar izvērst arhīvu</h3>
     <p>Ja lietojat Windows, un konstatējat, ka nevarat izvērst arhīvu, lejupielādējiet un instalējiet <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>Ja nevarat lejupielādēt 7-Zip, mēģiniet pārdēvēt datni no .z uz .zip , un izmantojiet winzip , lai izvērstu arhīvu. Pirms pārdēvējat datni, lieciet Windows rādīt datņu paplašinājumus:</p>
@@ -88,23 +88,23 @@
       <li>Atvērt <em>Mans dators</em></li>
       <li>Noklikšķiniet uz <em>Rīki</em>, un izvēlnē izvēlieties <em>Mapju iespējas...</em></li>
       <li>Noklikšķiniet uz cilni <em>Skats</em></li>
-      <li>Noņemt atzīmi <em>Hide paplašinājumus extensions for known file types</em> and click <em>OK</em></li>
+      <li>Noņemiet atzīmi <em>Paslēpt paplašinājumus zināmiem datņu tipiem</em> un noklikšķiniet <em>Labi</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
-      <li>Atvērt <em>Datoru</em></li>
+      <li>Atvēriet <em>Datoru</em></li>
       <li>Noklikšķiniet <em>Organizēt</em> , un izvēlnē izvēlieties <em>Mape un  meklēšanas papildizvēles </em></li>
       <li>Noklikšķiniet uz cilni <em>Skats</em></li>
-      <li>Noņemt atzīmi <em>Hide paplašinājumus extensions for known file types</em> and click <em>OK</em></li>
+      <li>Noņemiet atzīmi <em>Paslēpt paplašinājumus zināmiem datņu tipiem</em> un noklikšķiniet <em>Labi</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Atvērt <em>Datoru</em></li>
+      <li>Atvēriet <em>Datoru</em></li>
       <li>Noklikšķiniet <em>Organizēt</em> , un izvēlnē izvēlieties <em>Mape un  meklēšanas papildizvēles </em></li>
       <li>Noklikšķiniet uz cilni <em>Skats</em></li>
-      <li>Noņemt atzīmi <em>Hide paplašinājumus extensions for known file types</em> and click <em>OK</em></li>
+      <li>Noņemiet atzīmi <em>Paslēpt paplašinājumus zināmiem datņu tipiem</em> un noklikšķiniet <em>Labi</em></li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia pieprasa paroli</h3>
+    <h3 id="vidalia-asks-for-a-password">Vidalia lūdz ievadīt paroli</h3>
     <p>Startējot Vidalia, nav vajadzīgs ievadīt paroli. Ja parole tiek prasīta, tad, ticami, ir kāda no šīm problēmām:</p>
     <p><strong>Vidalia un Tor jau darbojas</strong>: Piemēram, šāda situācija iespējama, ja esat instalējis Vidalia komplektu, un tad cenšaties uzsākt darbu ar Tīmekļa Tor komplektu. Šādā gadījumā nepieciešams aizvērt veco Vidalia un Tor, pirms varat palaist tagadējo.</p>
     <p><strong>Vidalia avarēja, bet atstāja darbojošos Tor</strong>: Ja vadības paroli prasošajam dialogam ir poga Pārstartēt, variet spiest šo pogu, un Vidalia pārstartēs Tor, ar jaunu nejauši izvēlētu vadības paroli. Ja pogas Pārstartēt nav, vai Vidalia nevar pārstartēt Tor, dodieties uz procesu vai uzdevumu pārvaldnieku, un terminējiet Tor procesu. Tad izmantojiet Vidalia, lai pārstartētu Tor.</p>
