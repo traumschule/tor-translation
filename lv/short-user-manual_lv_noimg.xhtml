@@ -22,7 +22,7 @@
     <p><strong>Note</strong>: Pārlūka Tor komplekti Linux un mac OS X ir salīdzinoši lieli, un nevienu no šiem komplektiem nebūs iespējams saņemt Gmail, Hotmail vai Yahoo kontā. Ja nevariet saņemt vajadzīgo komplektu, sūtiet epastu, kurš adresēts help@rt.torproject.org , un mēs nosūtīsim izmantojamo spoguļu tīmekļa vietņu sarakstu. </p>
     <h3 id="tor-for-smartphones">Tor viedtālruņiem</h3>
     <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>Mums arī ir eksperimentālas pakotnes, kuras paredzētas <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> un <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Kā pārliecināties kā jums ir pareizā versija</h3>
     <p>Pirms uzsākt Pārlūka Tor komplekta darbu, jāpārliecinās, kas lietojat pareizo versiju.</p>
     <p>Saņemtajai programmatūrai tiek pievienota datne, kuras nosaukums ir tāds pats kā komplekta nosaukums, bet paplašinājums ir <strong>.asc</strong>. Šī .asc datne ir GPG paraksts, un tā sniedz iespēju verificēt, ka lejupielādētā datne ir tieši tā, kuru bijāt paredzējis saņemt.</p>
@@ -48,7 +48,7 @@
     <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Kā lietot Pārlūka Tor komplektu</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Pēc pārlūka Tor komplekta lejupielādes, izvērsiet pakotni uz darbvirsmas vai zibatmiņā. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Lūdzu ievērojiet, ka ir svarīgi izmantot pārlūku, kurš atrodas komplektā nevis jūsu pārlūku.</em>
@@ -79,9 +79,9 @@
       <li>Nospiediet pogu <em>Labi</em>. Tagad Vidalia un Tor ir nokonfigurēti, lai izmantotu starpnieku Tor pārējā tīkla piekļuvei.</li>
     </ol>
     <h2 id="frequently-asked-questions">Bieži uzdotie jautājumi</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>Šajā sadaļā ir sniegtas atbildes uz visbiežāk uzdotajiem jautājumiem. Ja atbildes uz Jūsu jautājumu te nav, lūdzu sūtiet e-pasta ziņu angļu valodā uz help@rt.torproject.org .</p>
     <h3 id="unable-to-extract-the-archive">Nevar izvērst arhīvu</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Ja lietojat Windows, un konstatējat, ka nevarat and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
@@ -112,11 +112,11 @@
     <h3 id="flash-does-not-work">Nestrādā Flash</h3>
     <p>Drošības apsvērumu dēļ Flash, Java un citi spraudņi Tor'ā patlaban ir atspējoti. Spraudņu darbību Firefox nekontrolē, un tie uz datorā var veikt darbības, kuras nenosargā anonimitāti.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
-    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
+    <p>Ievērojiet, ka pēc aizvēršanas pārlūks neatceras, ka esat pievienojies izmēģinājumversijai, tāpēc būs nepieciešams atkārtoti pievienoties izmēģinājumversijai nākamreiz, kad palaidīsit Pārlūka Tor komplektu.</p>
+    <p>Lūdzu skatiet <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Bieži uzdotie jautājumi par Torbutton</a>, lai uzzinātu vairāk informācijas.</p>
     <h3 id="i-want-to-use-another-browser">Vēlos izmantot citu pārlūku</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <p>Drošības apsvērumu dēļ mēs iesakām, ka tīmekli ar Tor pārlūkojat vienīgi izmantojot Pārlūka Tor komplektu. Tehniski ir iespējams izmantot Tor ar citiem pārlūkiem, tomēr tā darot padarat sevi pakļautu potenciāliem uzbrukumiem.</p>
     <h3 id="why-tor-is-slow">Kāpēc Tor strādā lēni</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Tor dažreiz var būt nedaudz lēnāks par parasto interneta savienojumu. Tas ir pašsaprotami, jo datplūsmu pārsūta caur daudzām valstīm, dažreiz pat pāri okeāniem un visapkārt pasaulei!</p>
   </body>
 </html>
