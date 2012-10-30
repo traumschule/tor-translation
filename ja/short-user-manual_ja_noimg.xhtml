@@ -18,7 +18,7 @@
     <h3 id="how-to-get-tor-via-email">メール経由でTorを入手する方法</h3>
     <p>Windows用の英語版Tor Browser Bundleを受けとるには、本文に<strong>windows</strong>と記入してgettor@torproject.orgへメールを送ってください。件名は空で構いません。</p>
     <p>またMac OS X用のTor Browser Bundle (<strong>macos-i386</strong>と記入)やLinux用(32ビット環境なら<strong>linux-i386</strong>、64ビット環境なら<strong>linux-x86_64</strong>と記入)を要求できます。</p>
-    <p>もし翻訳版のTorが欲しいときは代わりに<strong>help</strong>と記入してください。手順と存在する言語のリストが書かれたメールを受けとることができます。</p>
+    <p>もし翻訳版のTorが欲しいときは代わりに<strong>help</strong>と記入してください。手順と利用可能な言語のリストが書かれたメールを受けとることができます。</p>
     <p><strong>注</strong>: Linux用とMac OS X用のTor Browser Bundleはやや大きいので、GmailやHotmail、Yahooアカウントでは受けとることが出来ないでしょう。もしあなたが欲しいバンドルを受け取れない時は、help@rt.torproject.orgまでメールを送ってください。利用可能なミラーサイトの一覧を送ります。</p>
     <h3 id="tor-for-smartphones">スマートフォンのためのTor</h3>
     <p><em>Orbot</em>という名前のパッケージをインストールすることでAndroid端末用のTorを入手出来ます。Orbotのダウンロードとインストールの方法は<a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>を見てください。</p>
@@ -66,11 +66,11 @@ sub   2048R/EB399FD7 2003-10-16
     <p>いくらかのユーザーはVidaliaがTorネットワークへの接続に失敗することに気づくでしょう。この場合、インターネットへ接続していることを確認してください。もしプロキシサーバーへの接続を望むなら、下の<em>オープンプロキシの利用方法</em>を見てください。</p>
     <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>Message Log</em>をクリックし、<em>Advanced</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
     <p><strong>Your system clock is off</strong>: あなたのシステムの日付と時刻が正しいことを確認して、Torを再起動してください。システムクロックをインターネットタイムサーバーと同期する必要があるかもしれません。</p>
-    <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
+    <p><strong>You are behind a restrictive firewall</strong>: Torが80番と443番のポートだけを試すよう、Vidaliaのコントロールパネルを開き、<em>Settings</em>そして<em>Network</em>をクリックし、<em>My firewall only lets me connect to certain ports</em>にチェックをつけてください。</p>
+    <p><strong>Your anti-virus program is blocking Tor</strong>: アンチウィルスプログラムを確認しTorがネットワークに接続することを阻まないようにしてください。</p>
+    <p>もしTorがまだ動かないなら、インターネットサービスプロバイダ(ISP)がTorをブロックしている可能性があります。これは多くの場合、リレーを隠蔽し簡単にブロックできなくする<strong>Torブリッジ</strong>で対処できます。</p>
+    <p>もしTorが接続できない理由を見つけるのに助けが必要なら、ログファイルの関係する部分を含むメールをhelp@rt.torproject.org に送ってください。</p>
+    <h3 id="how-to-find-a-bridge">ブリッジの見つけ方</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
     <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
