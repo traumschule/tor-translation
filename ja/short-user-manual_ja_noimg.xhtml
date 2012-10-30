@@ -55,7 +55,7 @@ sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>出力は<em>"Good signature"</em>になるはずです。悪い署名はファイルが改竄されていることを示唆します。もしあなたが悪い署名を確認したら、パッケージをどこからダウンロードしたか、どのように署名を検証したか、それにGnuPGの出力をhelp@rt.torproject.orgにメールで送ってください。</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
+    <p>署名を検証して<em>"Good signature"</em>の出力が得られたら、先に進みパッケージアーカイブを展開します。<strong>tor-browser_en-US</strong>のようなディレクトリができるはずです。このディレクトリには<strong>changelog</strong>という名前のファイルを含む<strong>Docs</strong>という名前のディレクトリがあります。changelogファイルの先頭行のバージョン番号がファイル名のバージョン番号と一致することを確認してください。</p>
     <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
     <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
