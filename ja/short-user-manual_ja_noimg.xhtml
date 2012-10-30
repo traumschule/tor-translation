@@ -71,18 +71,18 @@ sub   2048R/EB399FD7 2003-10-16
     <p>もしTorがまだ動かないなら、インターネットサービスプロバイダ(ISP)がTorをブロックしている可能性があります。これは多くの場合、リレーを隠蔽し簡単にブロックできなくする<strong>Torブリッジ</strong>で対処できます。</p>
     <p>もしTorが接続できない理由を見つけるのに助けが必要なら、ログファイルの関係する部分を含むメールをhelp@rt.torproject.org に送ってください。</p>
     <h3 id="how-to-find-a-bridge">ブリッジの見つけ方</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
-    <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <p>ブリッジを使うには、初めに利用するブリッジを決める必要があります; <a href="https://bridges.torproject.org/">bridges.torproject.org</a>を見るか、bridges@torproject.orgにメールを送ることもできます。メールを送る場合は、本文に<strong>get bridges</strong>と書いてください。これがないと返信が受け取れません。このメールはgmail.comかyahoo.comのアドレスから送る必要があることに注意してください。</p>
+    <p>複数のブリッジアドレスを設定するといくつかのブリッジに繋がらない場合、Torの接続はより安定します。いま利用しているブリッジが明日も利用可能であることは保証されないので、ブリッジのリストを頻繁に更新するよう習慣付けるべきです。</p>
+    <h3 id="how-to-use-a-bridge">ブリッジの利用法</h3>
+    <p>使用するブリッジのリストを入手したら、Vidaliaのコントロールパネルを開き、<em>Settings</em>, <em>Network</em> をクリックして、<em>My ISP blocks connections to the Tor network</em>にチェックをつけてください。ブリッジのリストを下のボックスに入力し、<em>OK</em>を押してTorを再起動してください。</p>
+    <h3 id="how-to-use-an-open-proxy">オープンプロキシの利用方法</h3>
+    <p>ブリッジが動かない場合、TorがHTTPSかSOCKSを通してTorネットワークにアクセスする設定を試してください。これはTorがローカルネットワークにブロックされていても、オープンプロキシは安全にTorネットワークにそして無検閲のインターネットへ接続するため利用できます。</p>
+    <p>以下のステップはTor/Vidalia機能するよう設定されていること、HTTPSやSOCKS4またはSOCKS5のプロキシのリストを見つけていることを前提にします。</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
+      <li>Vidaliaのコントロールパネルを開き、<em>Settings</em>をクリックします。</li>
+      <li><em>Network</em>をクリックし、<em>I use a proxy to access the Internet</em>を選択します。</li>
+      <li><em>Address</em>にオープンプロキシのアドレスを入力します。これはホスト名かIPアドレスです。</li>
+      <li>プロキシのポートを入力します。</li>
       <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
       <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
