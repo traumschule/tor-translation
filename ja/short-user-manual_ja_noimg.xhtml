@@ -56,16 +56,16 @@ sub   2048R/EB399FD7 2003-10-16
     </pre>
     <p>出力は<em>"Good signature"</em>になるはずです。悪い署名はファイルが改竄されていることを示唆します。もしあなたが悪い署名を確認したら、パッケージをどこからダウンロードしたか、どのように署名を検証したか、それにGnuPGの出力をhelp@rt.torproject.orgにメールで送ってください。</p>
     <p>署名を検証して<em>"Good signature"</em>の出力が得られたら、先に進みパッケージアーカイブを展開します。<strong>tor-browser_en-US</strong>のようなディレクトリができるはずです。このディレクトリには<strong>changelog</strong>という名前のファイルを含む<strong>Docs</strong>という名前のディレクトリがあります。changelogファイルの先頭行のバージョン番号がファイル名のバージョン番号と一致することを確認してください。</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <h3 id="how-to-use-the-tor-browser-bundle">Tor Browser Bundleの使い方</h3>
     <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
-    <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
+    <p>Tor Browser Bundleを開始すると、初めににVidaliaが起動しTorネットワークへ接続されます。その後、Torを使っていることを確認する画面が表示されます。これは<a href="https://check.torproject.org/">https://check.torproject.org/</a>を表示することで行われます。これでインターネットをTor経由で利用する準備が整いました。</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>あなたのブラウザーではなく、バンドルに付属するブラウザーを利用することが重要であるということに注意してください。</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
-    <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Torが接続できないときにすべきこと</h3>
+    <p>いくらかのユーザーはVidaliaがTorネットワークへの接続に失敗することに気づくでしょう。この場合、インターネットへ接続していることを確認してください。もしプロキシサーバーへの接続を望むなら、下の<em>オープンプロキシの利用方法</em>を見てください。</p>
+    <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>Message Log</em>をクリックし、<em>Advanced</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
+    <p><strong>Your system clock is off</strong>: あなたのシステムの日付と時刻が正しいことを確認して、Torを再起動してください。システムクロックをインターネットタイムサーバーと同期する必要があるかもしれません。</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
