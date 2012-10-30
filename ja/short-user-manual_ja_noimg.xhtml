@@ -4,20 +4,20 @@
     <title/>
   </head>
   <body>
-    <h1 id="the-short-user-manual">短いユーザーマニュアル</h1>
+    <h1 id="the-short-user-manual">ショートユーザーマニュアル</h1>
     <p>このユーザーマニュアルはTorのダウンロード方法、使用方法、およびTorがネットワークに接続できない場合にどうすべきかの情報を含みます。もしあなたの疑問の答えが見つからないなら、help@rt.torproject.org にメールを送ってください。</p>
     <p>私たちはボランティアによりサポートを提供していて、毎日多くのメールを受け取っていることに留意してください。すぐに返信することができなくても心配しないでください。</p>
     <h2 id="how-tor-works">Torがどのように動作するか</h2>
     <p>Torはあなたのインターネット上でのプライバシーやセキュリティーを向上できる仮想的なトンネルネットワークです。Torはあなたのトラフィックをパブリックなインターネットに送信する前に、三つのランダムなサーバー(<em>リレー</em>とも呼ばれる)を通して送信することで働きます。</p>
     <p>上の図はユーザーがいくつかのウェブサイトをTorを通して閲覧しているところを示しています。緑のモニターはリレーを表していて三つの鍵はユーザーと各リレーの間の暗号化の層を表しています。</p>
-    <p>Torはあなたのトラフィックの起点を匿名化し、あなたとTorネットワークの間のすべてを暗号化します。</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
-    <h2 id="how-to-download-tor">How to download Tor</h2>
-    <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
-    <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
-    <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
-    <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
-    <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
+    <p>Torはあなたのトラフィックの起点を匿名化し、あなたとTorネットワークの間のすべてを暗号化します。TorはまたTorネットワーク内のあなたのトラフィックを暗号化しますが、Torネットワークと最終的な目的地の間は暗号化できません。</p>
+    <p>もしあなたがウェブサイトへのログインのためのユーザー名とパスワードのような慎重に扱うべき情報をやりとりする場合、HTTPSを利用するようにしてください(例えば<strong>http</strong>://torproject.org/ではなく<strong>https</strong>://torproject.org/)。</p>
+    <h2 id="how-to-download-tor">Torのダウンロード方法</h2>
+    <p>ほとんどのユーザーにおすすめのバンドルは<a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>です。このバンドルはインストール不要でTorを通してインターネットを安全に閲覧するよう設定されたブラウザーが含まれます。バンドルをダウンロードし、アーカイブを展開し、Torを始めます。</p>
+    <p>Torのソフトウェアを入手するためには二つの方法があります。<a href="https://www.torproject.org/">Tor Project website</a>を閲覧しダウンロードするか、自動返信メールのGetTorを利用できます。</p>
+    <h3 id="how-to-get-tor-via-email">メール経由でTorを入手する方法</h3>
+    <p>Windows用の英語版Tor Browser Bundleを受けとるには、本文に<strong>windows</strong>と記入してgettor@torproject.orgへメールを送ってください。件名は空で構いません。</p>
+    <p>またMac OS X用のTor Browser Bundle (<strong>macos-i386</strong>と記入)やLinux用(32ビット環境なら<strong>linux-i386</strong>、64ビット環境なら<strong>linux-x86_64</strong>と記入)を要求できます。</p>
     <p>If you want a translated version of Tor, write <strong>help</strong> instead. You will then receive an email with instructions and a list of available languages.</p>
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
     <h3 id="tor-for-smartphones">Tor for smartphones</h3>
