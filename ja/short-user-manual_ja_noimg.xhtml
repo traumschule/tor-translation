@@ -28,7 +28,7 @@
     <p>あなたが受け取ったソフトウェアにはバンドルの名前の後に<strong>.asc</strong>の拡張子がついたファイルが付属しています。この.ascファイルはGPGの署名で、あなたがダウンロードしたファイルが私たちがあなたが受けとることを意図したものと正確に一致するかを検証出来ます。</p>
     <p>署名を検証する前に、GnuPGをダウンロードしインストールしなければいけません。</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: ほとんどのLinuxディストリビューションにはGnuPGがプリインストールされています。</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
+    <p>あなたのシステムで以下を動作させるためパスやコマンドを変更する必要があるかもしれないことに注意してください。</p>
     <p>Erinn Clarkが鍵0x63FEE659でTor Browser Bundleに署名しています。Erinnの鍵をインポートするため、次を実行します:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
@@ -73,7 +73,7 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="how-to-find-a-bridge">ブリッジの見つけ方</h3>
     <p>ブリッジを使うには、初めに利用するブリッジを決める必要があります; <a href="https://bridges.torproject.org/">bridges.torproject.org</a>を見るか、bridges@torproject.orgにメールを送ることもできます。メールを送る場合は、本文に<strong>get bridges</strong>と書いてください。これがないと返信が受け取れません。このメールはgmail.comかyahoo.comのアドレスから送る必要があることに注意してください。</p>
     <p>複数のブリッジアドレスを設定するといくつかのブリッジに繋がらない場合、Torの接続はより安定します。いま利用しているブリッジが明日も利用可能であることは保証されないので、ブリッジのリストを頻繁に更新するよう習慣付けるべきです。</p>
-    <h3 id="how-to-use-a-bridge">ブリッジの利用法</h3>
+    <h3 id="how-to-use-a-bridge">ブリッジの利用方法</h3>
     <p>使用するブリッジのリストを入手したら、Vidaliaのコントロールパネルを開き、<em>Settings</em>, <em>Network</em> をクリックして、<em>My ISP blocks connections to the Tor network</em>にチェックをつけてください。ブリッジのリストを下のボックスに入力し、<em>OK</em>を押してTorを再起動してください。</p>
     <h3 id="how-to-use-an-open-proxy">オープンプロキシの利用方法</h3>
     <p>ブリッジが動かない場合、TorがHTTPSかSOCKSを通してTorネットワークにアクセスする設定を試してください。これはTorがローカルネットワークにブロックされていても、オープンプロキシは安全にTorネットワークにそして無検閲のインターネットへ接続するため利用できます。</p>
@@ -84,7 +84,7 @@ sub   2048R/EB399FD7 2003-10-16
       <li><em>Address</em>にオープンプロキシのアドレスを入力します。これはホスト名かIPアドレスです。</li>
       <li>プロキシのポートを入力します。</li>
       <li>一般にユーザー名とパスワードは不要です。必要な場合は正しいフィールドに情報を入力してください。</li>
-      <li>利用するプロキシの<em>Type</em>を、HTTP/HTTPS, SOCKS4またはSOCKS5から選びます。</li>
+      <li>利用するプロキシの<em>Type</em>を、HTTP/HTTPS、SOCKS4またはSOCKS5から選びます。</li>
       <li><em>OK</em>ボタンを押します。VidaliaとTorはプロキシを利用してTorネットワークにアクセスするよう設定されました。</li>
     </ol>
     <h2 id="frequently-asked-questions">よくある質問</h2>
@@ -102,14 +102,14 @@ sub   2048R/EB399FD7 2003-10-16
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li><em>コンピュータ</em>を開きます</li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>メニューの<em>整理</em>をクリックし<em>フォルダと検索のオプション</em>を選びます</li>
       <li><em>表示</em>タブをクリックします</li>
       <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li><em>コンピュータ</em>を開きます</li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>メニューの<em>整理</em>をクリックし<em>フォルダと検索のオプション</em>を選びます</li>
       <li><em>表示</em>タブをクリックします</li>
       <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
     </ol>
