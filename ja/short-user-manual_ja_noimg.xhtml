@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">ショートユーザーマニュアル</h1>
+    <p>このユーザーマニュアルはTorのダウンロード方法、使用方法、およびTorがネットワークに接続できない場合にどうすべきかの情報を含みます。もしあなたの疑問の答えが見つからないなら、help@rt.torproject.org にメールを送ってください。</p>
+    <p>私たちはボランティアによりサポートを提供していて、毎日多くのメールを受け取っていることに留意してください。すぐに返信することができなくても心配しないでください。</p>
+    <h2 id="how-tor-works">Torはどのように動作するか</h2>
+    <p>Torはあなたのインターネット上でのプライバシーやセキュリティーを向上できる仮想的なトンネルネットワークです。Torはあなたのトラフィックをパブリックなインターネットに送信する前に、三つのランダムなサーバー(<em>リレー</em>とも呼ばれる)を通して送信することで働きます。</p>
+    <p>上の図はユーザーがいくつかのウェブサイトをTorを通して閲覧しているところを示しています。緑のモニターはリレーを表していて三つの鍵はユーザーと各リレーの間の暗号化の層を表しています。</p>
+    <p>Torはあなたのトラフィックの起点を匿名化し、あなたとTorネットワークの間のすべてを暗号化します。TorはまたTorネットワーク内のあなたのトラフィックを暗号化しますが、Torネットワークと最終的な目的地の間は暗号化できません。</p>
+    <p>もしあなたがウェブサイトへのログインのためのユーザー名とパスワードのような慎重に扱うべき情報をやりとりする場合、HTTPSを利用するようにしてください(例えば<strong>http</strong>://torproject.org/ではなく<strong>https</strong>://torproject.org/)。</p>
+    <h2 id="how-to-download-tor">Torのダウンロード方法</h2>
+    <p>ほとんどのユーザーにおすすめのバンドルは<a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>です。このバンドルはインストール不要でTorを通してインターネットを安全に閲覧するよう設定されたブラウザーが含まれます。バンドルをダウンロードし、アーカイブを展開し、Torを始めます。</p>
+    <p>Torのソフトウェアを入手するためには二つの方法があります。<a href="https://www.torproject.org/">Tor Project website</a>を閲覧しダウンロードするか、自動返信メールのGetTorを利用できます。</p>
+    <h3 id="how-to-get-tor-via-email">メール経由でTorを入手する方法</h3>
+    <p>Windows用の英語版Tor Browser Bundleを受けとるには、本文に<strong>windows</strong>と記入してgettor@torproject.orgへメールを送ってください。件名は空で構いません。</p>
+    <p>またMac OS X用のTor Browser Bundle (<strong>macos-i386</strong>と記入)やLinux用(32ビット環境なら<strong>linux-i386</strong>、64ビット環境なら<strong>linux-x86_64</strong>と記入)を要求できます。</p>
+    <p>もし翻訳版のTorが欲しいときは代わりに<strong>help</strong>と記入してください。手順と利用可能な言語のリストが書かれたメールを受けとることができます。</p>
+    <p><strong>注</strong>: Linux用とMac OS X用のTor Browser Bundleはやや大きいので、GmailやHotmail、Yahooアカウントでは受けとることが出来ないでしょう。もしあなたが欲しいバンドルを受け取れない時は、help@rt.torproject.orgまでメールを送ってください。利用可能なミラーサイトの一覧を送ります。</p>
+    <h3 id="tor-for-smartphones">スマートフォンのためのTor</h3>
+    <p><em>Orbot</em>という名前のパッケージをインストールすることでAndroid端末用のTorを入手出来ます。Orbotのダウンロードとインストールの方法は<a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>を見てください。</p>
+    <p>私たちはまた実験的なパッケージとして<a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a>と<a href="http://sid77.slackware.it/ios/">Apple iOS</a>を持っています。</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">正しいバージョンか検証する方法</h3>
+    <p>Tor Browser Bundleを実行する前に、正しいバージョンを持っていることを確認するべきです。</p>
+    <p>あなたが受け取ったソフトウェアにはバンドルの名前の後に<strong>.asc</strong>の拡張子がついたファイルが付属しています。この.ascファイルはGPGの署名で、あなたがダウンロードしたファイルが私たちがあなたが受けとることを意図したものと正確に一致するかを検証出来ます。</p>
+    <p>署名を検証する前に、GnuPGをダウンロードしインストールしなければいけません。</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: ほとんどのLinuxディストリビューションにはGnuPGがプリインストールされています。</p>
+    <p>あなたのシステムで以下を動作させるためパスやコマンドを変更する必要があるかもしれないことに注意してください。</p>
+    <p>Erinn Clarkが鍵0x63FEE659でTor Browser Bundleに署名しています。Erinnの鍵をインポートするため、次を実行します:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+</code>
+    </pre>
+    <p>鍵をインポートした後、フィンガープリントが正しいことを確認します:</p>
+    <pre>
+      <code>gpg  --fingerprint 0x63FEE659
+</code>
+    </pre>
+    <p>以下のように表示されるはずです:</p>
+    <pre>
+      <code>pub   2048R/63FEE659 2003-10-16
+      指紋 = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
+    </pre>
+    <p>あなたがダウンロードしたパッケージの署名を検証するため、次のコマンドを実行します:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
+    </pre>
+    <p>出力は<em>"正しい署名"</em>になるはずです。不正な署名はファイルが改竄されていることを意味します。もしあなたが不正な署名を確認したら、パッケージをどこからダウンロードしたか、どのように署名を検証したか、それにGnuPGの出力をhelp@rt.torproject.orgにメールで送ってください。</p>
+    <p>署名を検証して<em>"正しい署名"</em>の出力が得られたら、先に進みパッケージアーカイブを展開します。<strong>tor-browser_en-US</strong>のようなディレクトリができるはずです。このディレクトリには<strong>changelog</strong>という名前のファイルを含む<strong>Docs</strong>という名前のディレクトリがあります。changelogファイルの先頭行のバージョン番号がファイル名のバージョン番号と一致することを確認してください。</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Tor Browser Bundleの使い方</h3>
+    <p>Tor Browser Bunldeをダウンロードした後、パッケージをデスクトップかUSBメモリに展開します。いくつかのファイルを含むディレクトリが出来るはずです。ファイルの一つは実行可能な"Start Tor Browser"(または"start-tor-browser"、オペレーティングシステムに依存します)になります。</p>
+    <p>Tor Browser Bundleを開始すると、初めににVidaliaが起動しTorネットワークへ接続されます。その後、Torを使っていることを確認する画面が表示されます。これは<a href="https://check.torproject.org/">https://check.torproject.org/</a>を表示することで行われます。これでインターネットをTor経由で利用する準備が整いました。</p>
+    <p>
+      <em>あなたのブラウザーではなく、バンドルに付属するブラウザーを利用することが重要であるということに注意してください。</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Torが接続できないときにすべきこと</h3>
+    <p>いくらかのユーザーはVidaliaがTorネットワークへの接続に失敗するかもしれません。この場合、インターネットへ接続していることを確認してください。もしプロキシサーバーへの接続を望むなら、下の<em>オープンプロキシの利用方法</em>を見てください。</p>
+    <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>Message Log</em>をクリックし、<em>Advanced</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
+    <p><strong>Your system clock is off</strong>: あなたのシステムの日付と時刻が正しいことを確認して、Torを再起動してください。システムクロックをインターネットタイムサーバーと同期する必要があるかもしれません。</p>
+    <p><strong>You are behind a restrictive firewall</strong>: Torが80番と443番のポートだけを試すよう、Vidaliaのコントロールパネルを開き、<em>Settings</em>そして<em>Network</em>をクリックし、<em>My firewall only lets me connect to certain ports</em>にチェックをつけてください。</p>
+    <p><strong>Your anti-virus program is blocking Tor</strong>: アンチウィルスプログラムを確認しTorがネットワークに接続することを阻まないようにしてください。</p>
+    <p>もしTorがまだ動かないなら、インターネットサービスプロバイダ(ISP)がTorをブロックしている可能性があります。これは多くの場合、リレーを隠蔽し簡単にブロックできなくする<strong>Torブリッジ</strong>で対処できます。</p>
+    <p>もしTorが接続できない理由を見つけるのに助けが必要なら、ログファイルの関係する部分を含むメールをhelp@rt.torproject.org に送ってください。</p>
+    <h3 id="how-to-find-a-bridge">ブリッジの見つけ方</h3>
+    <p>ブリッジを使うには、初めに利用するブリッジを決める必要があります; <a href="https://bridges.torproject.org/">bridges.torproject.org</a>を見るか、bridges@torproject.orgにメールを送ることもできます。メールを送る場合は、本文に<strong>get bridges</strong>と書いてください。これがないと返信が受け取れません。このメールはgmail.comかyahoo.comのアドレスから送る必要があることに注意してください。</p>
+    <p>複数のブリッジアドレスを設定するといくつかのブリッジに繋がらない場合、Torの接続はより安定します。いま利用しているブリッジが明日も利用可能であることは保証されないので、ブリッジのリストを頻繁に更新するよう習慣付けるべきです。</p>
+    <h3 id="how-to-use-a-bridge">ブリッジの利用方法</h3>
+    <p>使用するブリッジのリストを入手したら、Vidaliaのコントロールパネルを開き、<em>Settings</em>, <em>Network</em> をクリックして、<em>My ISP blocks connections to the Tor network</em>にチェックをつけてください。ブリッジのリストを下のボックスに入力し、<em>OK</em>を押してTorを再起動してください。</p>
+    <h3 id="how-to-use-an-open-proxy">オープンプロキシの利用方法</h3>
+    <p>ブリッジが動かない場合、TorがHTTPSかSOCKSを通してTorネットワークにアクセスする設定を試してください。これはTorがローカルネットワークにブロックされていても、オープンプロキシは安全にTorネットワークにそして無検閲のインターネットへ接続するため利用できます。</p>
+    <p>以下のステップはTor/Vidalia機能するよう設定されていること、HTTPSやSOCKS4またはSOCKS5のプロキシのリストを見つけていることを前提にします。</p>
+    <ol style="list-style-type: decimal">
+      <li>Vidaliaのコントロールパネルを開き、<em>Settings</em>をクリックします。</li>
+      <li><em>Network</em>をクリックし、<em>I use a proxy to access the Internet</em>を選択します。</li>
+      <li><em>Address</em>にオープンプロキシのアドレスを入力します。これはホスト名かIPアドレスです。</li>
+      <li>プロキシのポートを入力します。</li>
+      <li>一般にユーザー名とパスワードは不要です。必要な場合は正しいフィールドに情報を入力してください。</li>
+      <li>利用するプロキシの<em>Type</em>を、HTTP/HTTPS、SOCKS4またはSOCKS5から選びます。</li>
+      <li><em>OK</em>ボタンを押します。VidaliaとTorはプロキシを利用してTorネットワークにアクセスするよう設定されました。</li>
+    </ol>
+    <h2 id="frequently-asked-questions">よくある質問</h2>
+    <p>この節では一般的な質問へ答えます。もしあなたの質問がここになければ、help@rt.torproject.orgにメールを送ってください。</p>
+    <h3 id="unable-to-extract-the-archive">アーカイブが展開できない</h3>
+    <p>Windowsを使っていてアーカイブが展開できない場合、<a href="http://www.7-zip.org/">7-Zip</a>をダウンロードしてインストールしてください。</p>
+    <p>7-Zipがダウンロードできない場合、ファイル名を.zから.zipにリネームしてwinzipで展開してみてください。ファイル名を変更する前にWindowsが拡張子を表示するようにします:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li><em>マイ コンピュータ</em>を開きます</li>
+      <li>メニューの<em>ツール</em>をクリックし<em>フォルダ オプション</em>を選びます</li>
+      <li><em>表示</em>タブをクリックします</li>
+      <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li><em>コンピュータ</em>を開きます</li>
+      <li>メニューの<em>整理</em>をクリックし<em>フォルダと検索のオプション</em>を選びます</li>
+      <li><em>表示</em>タブをクリックします</li>
+      <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li><em>コンピュータ</em>を開きます</li>
+      <li>メニューの<em>整理</em>をクリックし<em>フォルダと検索のオプション</em>を選びます</li>
+      <li><em>表示</em>タブをクリックします</li>
+      <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidaliaがパスワードを要求する</h3>
+    <p>Vidaliaの起動時にパスワードを入力する必要はありません。もし入力を促されたなら、おそらくこれらの問題の影響を受けています:</p>
+    <p><strong>VidaliaとTorが既に起動している</strong>: 例えば、すでにVidalia BundleをインストールしていてTor Browser Bundleを実行しようとした時に起こります、この場合Tor Browser Bundleを実行する前に古いVidaliaとTorを閉じてください。</p>
+    <p><strong>Vidaliaがクラッシュしたが、Torは実行し続けている</strong>: コントロールパスワードの入力を促すResetボタンを持つダイアログが表示されたら、ボタンをクリックしVidaliaが新しいランダムなコントロールパスワードでTorを再起動するように出来ます。Resetボタンが見当たらないか、VidaliaがTorを再起動出来ないなら; プロセスかタスクマネージャに行き、Torプロセスを終了させてください。それからVidaliaでTorを再起動します。</p>
+    <p>より詳細な情報はTor Projectウェブサイトの<a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a>を参照してください。</p>
+    <h3 id="flash-does-not-work">Flashが動かない</h3>
+    <p>セキュリティ上の理由により、FlashやJava、その他のプラグインは今のところTorでは無効になっています。プラグインはFirefoxとは独立して動作しあなたの匿名性を損なう活動を行えます。</p>
+    <p>ほとんどのYouTubeのビデオはHTML5で動き、それらはTorを経由して見ることが出来ます。HTML5プレイヤーを使うためYouTubeウェブサイトの<a href="https://www.youtube.com/html5">HTML5 trial</a>に参加する必要があります。</p>
+    <p>ブラウザを一度終了した後はtrialへの参加をブラウザが記憶していないことに注意してください、次回のTor Browser Bundleの実行ではもう一度参加する必要があります。</p>
+    <p>より詳細な情報は<a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a>を見てください。</p>
+    <h3 id="i-want-to-use-another-browser">他のブラウザを利用したい</h3>
+    <p>セキュリティ上の理由により、私たちはウェブの閲覧にTor経由のTor Browser Bundleだけを使うことを薦めます。技術的にはTorを他のブラウザで利用することは可能ですが、そうすることであなた自身を潜在的な攻撃に晒すことになります。</p>
+    <h3 id="why-tor-is-slow">Torはなぜ遅いのか</h3>
+    <p>Torは通常のインターネット接続よりやや遅くなることがあります。要はあなたのトラフィックは多くの異なる国を経由し、時には世界の大洋を横断するということです！</p>
+  </body>
+</html>
