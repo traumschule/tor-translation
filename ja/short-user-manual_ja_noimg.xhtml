@@ -63,8 +63,8 @@ sub   2048R/EB399FD7 2003-10-16
       <em>あなたのブラウザーではなく、バンドルに付属するブラウザーを利用することが重要であるということに注意してください。</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Torが接続できないときにすべきこと</h3>
-    <p>いくらかのユーザーはVidaliaがTorネットワークへの接続に失敗することに気づくでしょう。この場合、インターネットへ接続していることを確認してください。もしプロキシサーバーへの接続を望むなら、下の<em>オープンプロキシの利用方法</em>を見てください。</p>
-    <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>Message Log</em>をクリックし、<em>Advanced</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
+    <p>いくらかのユーザーはVidaliaがTorネットワークへの接続に失敗するかもしれません。この場合、インターネットへ接続していることを確認してください。もしプロキシサーバーへの接続を望むなら、下の<em>オープンプロキシの利用方法</em>を見てください。</p>
+    <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>メッセージ ログ</em>をクリックし、<em>詳細</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
     <p><strong>Your system clock is off</strong>: あなたのシステムの日付と時刻が正しいことを確認して、Torを再起動してください。システムクロックをインターネットタイムサーバーと同期する必要があるかもしれません。</p>
     <p><strong>You are behind a restrictive firewall</strong>: Torが80番と443番のポートだけを試すよう、Vidaliaのコントロールパネルを開き、<em>Settings</em>そして<em>Network</em>をクリックし、<em>My firewall only lets me connect to certain ports</em>にチェックをつけてください。</p>
     <p><strong>Your anti-virus program is blocking Tor</strong>: アンチウィルスプログラムを確認しTorがネットワークに接続することを阻まないようにしてください。</p>
@@ -113,7 +113,7 @@ sub   2048R/EB399FD7 2003-10-16
       <li><em>表示</em>タブをクリックします</li>
       <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
+    <h3 id="vidalia-asks-for-a-password">Vidaliaがパスワードを要求する</h3>
     <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
