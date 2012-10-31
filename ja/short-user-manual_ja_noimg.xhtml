@@ -4,8 +4,8 @@
     <title/>
   </head>
   <body>
-    <h1 id="the-short-user-manual">ショートユーザーマニュアル</h1>
-    <p>このユーザーマニュアルはTorのダウンロード方法、使用方法、およびTorがネットワークに接続できない場合にどうすべきかの情報を含みます。もしあなたの疑問の答えが見つからないなら、help@rt.torproject.org にメールを送ってください。</p>
+    <h1 id="the-short-user-manual">簡易ユーザーマニュアル</h1>
+    <p>このユーザーマニュアルはTorのダウンロード方法、使用方法、およびTorがネットワークに接続できない場合の対処法を含みます。もしあなたの疑問の答えが見つからないなら、help@rt.torproject.org にメールを送ってください。</p>
     <p>私たちはボランティアによりサポートを提供していて、毎日多くのメールを受け取っていることに留意してください。すぐに返信することができなくても心配しないでください。</p>
     <h2 id="how-tor-works">Torはどのように動作するか</h2>
     <p>Torはあなたのインターネット上でのプライバシーやセキュリティーを向上できる仮想的なトンネルネットワークです。Torはあなたのトラフィックをパブリックなインターネットに送信する前に、三つのランダムなサーバー(<em>リレー</em>とも呼ばれる)を通して送信することで働きます。</p>
@@ -77,7 +77,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>使用するブリッジのリストを入手したら、Vidaliaのコントロールパネルを開き、<em>Settings</em>, <em>Network</em> をクリックして、<em>My ISP blocks connections to the Tor network</em>にチェックをつけてください。ブリッジのリストを下のボックスに入力し、<em>OK</em>を押してTorを再起動してください。</p>
     <h3 id="how-to-use-an-open-proxy">オープンプロキシの利用方法</h3>
     <p>ブリッジが動かない場合、TorがHTTPSかSOCKSを通してTorネットワークにアクセスする設定を試してください。これはTorがローカルネットワークにブロックされていても、オープンプロキシは安全にTorネットワークにそして無検閲のインターネットへ接続するため利用できます。</p>
-    <p>以下のステップはTor/Vidalia機能するよう設定されていること、HTTPSやSOCKS4またはSOCKS5のプロキシのリストを見つけていることを前提にします。</p>
+    <p>以下のステップはTor/Vidaliaが機能するよう設定されていること、HTTPSやSOCKS4またはSOCKS5のプロキシのリストを見つけていることを前提にします。</p>
     <ol style="list-style-type: decimal">
       <li>Vidaliaのコントロールパネルを開き、<em>Settings</em>をクリックします。</li>
       <li><em>Network</em>をクリックし、<em>I use a proxy to access the Internet</em>を選択します。</li>
@@ -116,7 +116,7 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="vidalia-asks-for-a-password">Vidaliaがパスワードを要求する</h3>
     <p>Vidaliaの起動時にパスワードを入力する必要はありません。もし入力を促されたなら、おそらくこれらの問題の影響を受けています:</p>
     <p><strong>VidaliaとTorが既に起動している</strong>: 例えば、すでにVidalia BundleをインストールしていてTor Browser Bundleを実行しようとした時に起こります、この場合Tor Browser Bundleを実行する前に古いVidaliaとTorを閉じてください。</p>
-    <p><strong>Vidaliaがクラッシュしたが、Torは実行し続けている</strong>: コントロールパスワードの入力を促すResetボタンを持つダイアログが表示されたら、ボタンをクリックしVidaliaが新しいランダムなコントロールパスワードでTorを再起動するように出来ます。Resetボタンが見当たらないか、VidaliaがTorを再起動出来ないなら; プロセスかタスクマネージャに行き、Torプロセスを終了させてください。それからVidaliaでTorを再起動します。</p>
+    <p><strong>Vidaliaがクラッシュしたが、Torは実行し続けている</strong>: コントロールパスワードの入力を促すResetボタンを持つダイアログが表示されたら、ボタンをクリックしVidaliaが新しいランダムなコントロールパスワードでTorを再起動するように出来ます。Resetボタンが見当たらないか、VidaliaがTorを再起動出来ないなら; プロセスマネージャやタスクマネージャでTorプロセスを終了させてください。それからVidaliaでTorを再起動します。</p>
     <p>より詳細な情報はTor Projectウェブサイトの<a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a>を参照してください。</p>
     <h3 id="flash-does-not-work">Flashが動かない</h3>
     <p>セキュリティ上の理由により、FlashやJava、その他のプラグインは今のところTorでは無効になっています。プラグインはFirefoxとは独立して動作しあなたの匿名性を損なう活動を行えます。</p>
@@ -126,6 +126,6 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="i-want-to-use-another-browser">他のブラウザを利用したい</h3>
     <p>セキュリティ上の理由により、私たちはウェブの閲覧にTor経由のTor Browser Bundleだけを使うことを薦めます。技術的にはTorを他のブラウザで利用することは可能ですが、そうすることであなた自身を潜在的な攻撃に晒すことになります。</p>
     <h3 id="why-tor-is-slow">Torはなぜ遅いのか</h3>
-    <p>Torは通常のインターネット接続よりやや遅くなることがあります。要はあなたのトラフィックは多くの異なる国を経由し、時には世界の大洋を横断するということです！</p>
+    <p>Torは通常のインターネット接続よりやや遅くなることがあります。要はあなたのトラフィックは多くの異なる国を経由し、時には世界中の大洋を横断するのです！</p>
   </body>
 </html>
