@@ -42,7 +42,7 @@
     <p>以下のように表示されるはずです:</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
-      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+      指紋 = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
 uid                  Erinn Clark &lt;erinn@torproject.org&gt;
 uid                  Erinn Clark &lt;erinn@debian.org&gt;
 uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
@@ -54,8 +54,8 @@ sub   2048R/EB399FD7 2003-10-16
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
     </pre>
-    <p>出力は<em>"Good signature"</em>になるはずです。悪い署名はファイルが改竄されていることを示唆します。もしあなたが悪い署名を確認したら、パッケージをどこからダウンロードしたか、どのように署名を検証したか、それにGnuPGの出力をhelp@rt.torproject.orgにメールで送ってください。</p>
-    <p>署名を検証して<em>"Good signature"</em>の出力が得られたら、先に進みパッケージアーカイブを展開します。<strong>tor-browser_en-US</strong>のようなディレクトリができるはずです。このディレクトリには<strong>changelog</strong>という名前のファイルを含む<strong>Docs</strong>という名前のディレクトリがあります。changelogファイルの先頭行のバージョン番号がファイル名のバージョン番号と一致することを確認してください。</p>
+    <p>出力は<em>"正しい署名"</em>になるはずです。不正な署名はファイルが改竄されていることを示唆します。もしあなたが不正な署名を確認したら、パッケージをどこからダウンロードしたか、どのように署名を検証したか、それにGnuPGの出力をhelp@rt.torproject.orgにメールで送ってください。</p>
+    <p>署名を検証して<em>"正しい署名"</em>の出力が得られたら、先に進みパッケージアーカイブを展開します。<strong>tor-browser_en-US</strong>のようなディレクトリができるはずです。このディレクトリには<strong>changelog</strong>という名前のファイルを含む<strong>Docs</strong>という名前のディレクトリがあります。changelogファイルの先頭行のバージョン番号がファイル名のバージョン番号と一致することを確認してください。</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Tor Browser Bundleの使い方</h3>
     <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Tor Browser Bundleを開始すると、初めににVidaliaが起動しTorネットワークへ接続されます。その後、Torを使っていることを確認する画面が表示されます。これは<a href="https://check.torproject.org/">https://check.torproject.org/</a>を表示することで行われます。これでインターネットをTor経由で利用する準備が整いました。</p>
@@ -64,7 +64,7 @@ sub   2048R/EB399FD7 2003-10-16
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Torが接続できないときにすべきこと</h3>
     <p>いくらかのユーザーはVidaliaがTorネットワークへの接続に失敗するかもしれません。この場合、インターネットへ接続していることを確認してください。もしプロキシサーバーへの接続を望むなら、下の<em>オープンプロキシの利用方法</em>を見てください。</p>
-    <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>メッセージ ログ</em>をクリックし、<em>詳細</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
+    <p>もし通常のインターネット接続が動いているのに、Torがネットワークに接続できない場合、以下を試してください: Vidaliaのコントロールパネルを開き、<em>Message Log</em>をクリックし、<em>Advanced</em>タブを選択します。Torが接続できない理由があるかもしれません:</p>
     <p><strong>Your system clock is off</strong>: あなたのシステムの日付と時刻が正しいことを確認して、Torを再起動してください。システムクロックをインターネットタイムサーバーと同期する必要があるかもしれません。</p>
     <p><strong>You are behind a restrictive firewall</strong>: Torが80番と443番のポートだけを試すよう、Vidaliaのコントロールパネルを開き、<em>Settings</em>そして<em>Network</em>をクリックし、<em>My firewall only lets me connect to certain ports</em>にチェックをつけてください。</p>
     <p><strong>Your anti-virus program is blocking Tor</strong>: アンチウィルスプログラムを確認しTorがネットワークに接続することを阻まないようにしてください。</p>
@@ -114,12 +114,12 @@ sub   2048R/EB399FD7 2003-10-16
       <li><em>登録されている拡張子は表示しない</em>のチェックを外し<em>OK</em>をクリックします</li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidaliaがパスワードを要求する</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
-    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
-    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
+    <p>Vidaliaの起動時にパスワードを入力する必要はありません。もし入力を促されたなら、おそらくこれらの問題の影響を受けています:</p>
+    <p><strong>VidaliaとTorが既に起動している</strong>: 例えば、すでにVidalia BundleをインストールしていてTor Browser Bundleを実行しようとした時に起こります、この場合Tor Browser Bundleを実行する前に古いVidaliaとTorを閉じてください。</p>
+    <p><strong>Vidaliaがクラッシュしたが、Torは実行し続けている</strong>: コントロールパスワードの入力を促すResetボタンを持つダイアログが表示されたら、ボタンをクリックしVidaliaが新しいランダムなコントロールパスワードでTorを再起動するように出来ます。Resetボタンが見当たらないか、VidaliaがTorを再起動出来ないなら; プロセスかタスクマネージャに行き、Torプロセスを終了させてください。それからVidaliaでTorを再起動します。</p>
+    <p>より詳細な情報はTor Projectウェブサイトの<a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a>を参照してください。</p>
+    <h3 id="flash-does-not-work">Flashが動かない</h3>
+    <p>セキュリティ上の理由により、</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
     <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
