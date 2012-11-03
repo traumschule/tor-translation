@@ -9,9 +9,9 @@
     <p>Var vänlig notera att vi ger support på en volontärbasis, och vi får många emails varje dag. Det finns ingen anledning till oro om vi inte svarar dig direkt.</p>
     <h2 id="how-tor-works">Hur Tor fungerar</h2>
     <p>Tor är ett nätverk av virtuella tunnlar som låter dig förbättra din personliga integritet och säkerhet på Internet. Tor fungerar så att du sänder din trafik genom tre slumpmässigt valda servrar (också kända som <em>reläer</em>) i Tor nätverket, innan trafiken skickas ut på det publika Internet.</p>
-    <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
-    <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <p>Bilden ovanför illustrerar en användare som besöker olika webbsidor över Tor. Den gröna monitorn representerar reläer i Tors nätverk, medan dom tre nycklarna representerar nivåerna av kryptering mellan användaren och varje relä.</p>
+    <p>Tor anonymiserar ursprunget av din trafik, och det krypterar allt mellan dig och Tor nätverket. Tor krypterar även din trafik inom Tor nätverket, me ndet kan inte kryptera trafiken mellan Tor nätverket och slutdestinationen.</p>
+    <p>Om du kommunicerar känslig information, till exempel när du loggar in på en webbsida med användarnamn och lösenord, se till att du använder HTTPS (dvs. <strong>https</strong>://torproject.org/, inte <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Hur du laddar ner Tor</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
     <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
@@ -70,16 +70,16 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
     <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
+    <h3 id="how-to-find-a-bridge">Hur du hittar en brygga</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
+    <h3 id="how-to-use-a-bridge">Hur du använder en brygga</h3>
     <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
+    <h3 id="how-to-use-an-open-proxy">Hur du använder en öppen proxy</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
+      <li>Öppna kontrollpanelen för Vidalia, klicka på <em>Inställningar</em>.</li>
       <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
       <li>Enter the port for the proxy.</li>
