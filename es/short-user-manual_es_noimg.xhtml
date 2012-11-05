@@ -22,12 +22,12 @@
     <p><strong>Nota</strong>: Los Paquetes de Navegador Tor para Linux y Mac OS X son algo grandes, y podría no ser posible el recibir cualquiera de estos paquetes con una cuenta de Gmail, Hotmail o Yahoo. Si no puede recibir el paquete que desea, envíe un correo a help@rt.torproject.org y le enviaremos una lista de servidores espejo para su uso. </p>
     <h3 id="tor-for-smartphones">Tor para smartphones </h3>
     <p>Puede poner Tor en su dispositivo Android al instalar el paquete llamado <em>Orbot</em>. Para información acerca de cómo descargar e instalar Orbot, por favor vea el <a href="https://www.torproject.org/docs/android.html.en">la web de Tor Project</a>. </p>
-    <p>También tenemos paquetes experimentales para <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> y <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>También tenemos paquetes experimentales para <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> y <a href="http://sid77.slackware.it/ios/">Apple iOS</a>. </p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cómo verificar que cuenta con la versión correcta </h3>
     <p>Antes de ejecutar el Paquete de Navegador Tor, debe asegurarse que cuenta con la versión correcta. </p>
     <p>El software que usted recibe está acompañado de un archivo con el mismo nombre del paquete y la extensión <strong>.asc</strong>. Este archivo .asc es una firma GPG y le permitirá verificar que el archivo que ha descargado es exactamente el que pretendíamos que obtuviera. </p>
     <p>Antes de que pueda verificar la firma, tendrá que descargar e instalar GnuPG: </p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado. </p>
     <p>Por favor observe que puede ser necesario editar las rutas y los comandos usados abajo para lograr que funcione en su sistema. </p>
     <p>Erinn Clark firma los Paquetes del Navegador Tor con la llave 0x63FEE659. Para importar la llave de Erinn, ejecute: </p>
     <pre>
@@ -57,7 +57,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>La salida debe decir <em>&amp;quot;Good signature&amp;quot;</em> (firma válida). Una firma inválida significa que el archivo pudo haber sido alterado. Si ve una firma inválida, envíe los detalles acerca del origen de la descarga, de cómo verificó la firma y la salida de GnuPG, en un correo electrónico a help@rt.torproject.org </p>
     <p>Una vez que ha verificado la firma y ha visto la confirmación de <em>&amp;quot;Good signature&amp;quot;</em>, proceda y descomprima el paquete de archivos. Debería ver entonces una carpeta similar a <strong>tor-browser_en-US</strong>. Dentro de esa carpeta encontrará otra llamada <strong>Docs</strong>, la cual contiene un archivo llamado <strong>changelog</strong>. Debe de asegurarse que el número de versión en la primera línea del archivo changelog corresponde con el número de versión en el nombre del archivo.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Cómo usar el Paquete de Navegador Tor</h3>
-    <p>Después de descargar el Paquete del Navegador Tor, extraigalo en su escritorio o en una memoria USB. Deberá obtener un directorio que contiene algunos archivos. Uno de éstos es un ejecutable llamado "Start Tor Browser" (o "start-tor-browser", dependiendo de su sistema operativo).</p>
+    <p>Después de descargar el Paquete de Navegador Tor, extraigalo en su escritorio o en una memoria USB. Debería obtener un directorio que contenga unos pocos archivos. Uno de ellos es un ejecutable llamado "Start Tor Browser" (o "start-tor-browser", dependiendo de su sistema operativo). </p>
     <p>Cuando inicie el Paquete del Navegador Tor, primeramente verá el programa Vidalia iniciarse y conectarle a la red Tor. Después, verá un navegador confirmando que usted ya se encuentre utilizando Tor. Esto se hace mostrando la página <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Ahora ya podrá navegar por Internet a través de Tor.</p>
     <p>
       <em>Por favor observe que es importante que utilice el navegador que viene con el paquete y no su propio navegador.</em>
@@ -113,19 +113,19 @@ sub   2048R/EB399FD7 2003-10-16
       <li>Haga clic en la pestaña <em>Ver</em> </li>
       <li>Desmarque <em>Ocultar extensiones para los tipos de archivo conocidos</em> y haga clic en Aceptar. </li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia solicita una contraseña</h3>
+    <h3 id="vidalia-asks-for-a-password">Vidalia solicita una contraseña </h3>
     <p>No debería tener que introducir una contraseña al iniciar Vidalia. Si se le solicita, es probable es que esté afectado por alguno de estos problemas:</p>
-    <p><strong>Ya está ejecutando Vidalia y Tor</strong>: Esto puede suceder, por ejemplo, si usted instaló el paquete de Vidalia y ahora intenta ejecutar el Paquete de Navegador Tor. En ese caso, necesitará cerrar los anteriores procesos de Vidalia y Tor antes que pueda ejecutar este.</p>
-    <p><strong>Vidalia de cerró, pero Tor sigue corriendo</strong>: Si la ventana pidiéndole contraseña tiene un botón Reset, puede presionarlo y Vidala se reiniciará con una nueva contraseña de control al azar. Si no ve un botón Reset, o si Vidalia no puede reiniciar Tor por usted; vaya a su manejador de procesos o tareas y detenga a Tor. Luego use Vidalia para reiniciarlo.</p>
-    <p>Para más información, revise el <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> en el sitio web del Proyecto Tor.</p>
-    <h3 id="flash-does-not-work">El flash no funciona</h3>
-    <p>Por razones de seguridad, Flash, Java y otros plugins están inhabilitados para Tor. Los plugins funcionan independientemente de Firefox y pueden realizar alguna actividad en su equipo que arruinaría su anonimato.</p>
-    <p>La mayoría de los videos de YouTube funcionan con HTML5, y es posible ver esos videos mediante Tor. Necesita unirse a la <a href="https://www.youtube.com/html5">prueba de HTML5</a> en el sitio web de YouTube antes de poder usar el reproductor HTML5.</p>
-    <p>Nota: el navegador no recordará que usted se unió a la prueba de HTML5 una vez que lo cierre, necesitará re-ingresar a ella la próxima vez que ejecute el Parquete de Navegador Tor.</p>
-    <p>Revise por favor el <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">FAQ de Torbutton</a> para mayores informaciones.</p>
-    <h3 id="i-want-to-use-another-browser">¿Desea utilizar otro navegador?</h3>
-    <p>Por razones de seguridad, le recomendamos sólo navegar por la web a través de Tor con el Tor Browser Bundle. Técnicamente es posible usar Tor con otros navegadores, pero al hacerlo será vulnerable a posibles ataques.</p>
-    <h3 id="why-tor-is-slow">¿Por qué Tor es lento?</h3>
-    <p>Tor a veces puede ser un poco más lento que su conexión a Internet habitual. Después de todo, el tráfico se envía a través de muchos países diferentes, a veces a través de océanos de todo el mundo!</p>
+    <p><strong>Ya está ejecutando Vidalia y Tor</strong>: Esto puede suceder, por ejemplo, si usted instaló el paquete de Vidalia y ahora intenta ejecutar el Paquete de Navegador Tor. En ese caso, necesitará cerrar los anteriores procesos de Vidalia y Tor antes que pueda ejecutar este. </p>
+    <p><strong>Vidalia falló, pero Tor sigue corriendo</strong>: Si el cuadro de dialogo solicitandole una contraseña de control tiene un botón Reiniciar, puede presionarlo y Vidala reiniciará Tor con una nueva contraseña de control aleatoria. Si no ve un botón Reiniciar, o si Vidalia no puede reiniciar Tor por usted; vaya a su Administrador de procesos o tareas, y detenga el proceso de Tor. Luego use Vidalia para reiniciar Tor. </p>
+    <p>Para más información, vea la <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> en el sitio web del Tor Project. </p>
+    <h3 id="flash-does-not-work">Flash no funciona </h3>
+    <p>Por razones de seguridad, Flash, Java y otros plugins están deshabilitados para Tor. Los plugins operan independientemente de Firefox y pueden realizar alguna actividad en su equipo que arruinaría su anonimato. </p>
+    <p>La mayoría de los videos de YouTube funcionan con HTML5, y es posible ver estos videos mediante Tor. Necesita adherirse a la <a href="https://www.youtube.com/html5">prueba de HTML5</a> en el sitio web de YouTube antes de poder usar el reproductor HTML5. </p>
+    <p>Observe que el navegador no recordará que usted se adhirió a la prueba una vez lo cierre. Necesitará re-ingresar a ella la próxima vez que ejecute el Parquete de Navegador Tor. </p>
+    <p>Revise por favor las <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Preguntas Frecuentes (FAQ) de Torbutton</a> para mayor información. </p>
+    <h3 id="i-want-to-use-another-browser">Deseo usar otro navegador </h3>
+    <p>Por razones de seguridad, le recomendamos que sólo navegue por la web a través Tor usando el Paquete de Navegador Tor. Técnicamente es posible usar Tor con otros navegadores, pero al hacerlo será vulnerable a posibles ataques. </p>
+    <h3 id="why-tor-is-slow">Por qué Tor es lento </h3>
+    <p>Tor a veces puede ser un poco más lento que su conexión normal a internet. Después de todo, su tráfico se envía a través de muchos países diferentes, ¡a veces a través de océanos por todo el mundo! </p>
   </body>
 </html>
