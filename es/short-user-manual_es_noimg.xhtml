@@ -29,17 +29,17 @@
     <p>Antes de que pueda verificar la firma, tendrá que descargar e instalar GnuPG: </p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado.</p>
     <p>Por favor observe que puede ser necesario editar las rutas y los comandos usados abajo para lograr que funcione en su sistema. </p>
-    <p>Erinn Clark firma los Paquetes del Navegador Tor con la llave 0x63FEE659. Para importar la llave de Erinn, ejecute:</p>
+    <p>Erinn Clark firma los Paquetes del Navegador Tor con la llave 0x63FEE659. Para importar la llave de Erinn, ejecute: </p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659 
 </code>
     </pre>
-    <p>Después de importar la clave, compruebe que la huella sea correcta:</p>
+    <p>Después de importar la clave, compruebe que la huella sea correcta: </p>
     <pre>
-      <code>gpg --fingerprint 0x63FEE659
+      <code>gpg --fingerprint 0x63FEE659 
 </code>
     </pre>
-    <p>Usted debería ver:</p>
+    <p>Debería ver: </p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Huella de clave = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
