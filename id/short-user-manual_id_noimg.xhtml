@@ -31,11 +31,10 @@
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Harap dicatat bahwa Anda mungkin harus mengedit path dan perintah yang digunakan dibawah agar dapat bekerja di sistem Anda.</p>
     <p>Erinn Clark menandai paket browser tor dengan kunci 0x63FEE659. untuk memasukan kunci Erinn, jalankan:</p>
-    <pre>	
-
-copy source
-	
-<code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎ </code></pre>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎ </code>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎ </code>
+    </pre>
     <p>setelah memasukan kunci, pastikan bahwa sidik jarinya benar:</p>
     <pre>
       <code>gpg --fingerprint 0x63FEE659⏎ </code>
@@ -50,13 +49,13 @@ copy source
     </pre>
     <p>Hasilnya seharusnya berisikan <em>"Good signature"</em>. Signature yang salah mengindikasikan bahwa file rusak. jika Anda mendapatkan hasil yang salah, kirim detail mengenai darimana Anda mengunduh paket tersebut, bagaimana Anda memastikan signature, dan hasil dari GnuPG dalam email ke help@rt.torproject.org</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <h3 id="how-to-use-the-tor-browser-bundle">Bagaimana cara untuk menggunakan Bundel Peramban Tor</h3>
     <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
+    <h3 id="what-to-do-when-tor-does-not-connect">Apa yang harus dilakukan ketika Tor tidak terhubung</h3>
     <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
     <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
