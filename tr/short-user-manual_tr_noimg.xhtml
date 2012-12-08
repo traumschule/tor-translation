@@ -22,7 +22,7 @@
     <p><strong>Dikkat</strong>: Mac OS X ve Linux'e yönelik Tor Tarayıcı Paketleri boyut olarak büyüktür ve dolayısıyla Gmail, Hotmail ve Yahoo hesaplarıyla alınamazlar. Eğer istediğiniz paketi alamıyorsanız help@rt.torproject.org adresine bir eposta atın, biz de size website aynalarını içeren bir listeyle dönelim. </p>
     <h3 id="tor-for-smartphones">Akıllı telefonlar için Tor</h3>
     <p>Android cihazınızda Tor kullanmak isterseniz <em>Orbot</em> adlı pakedi kurabilirsiniz. Orbot'u indirmek ve kurmak hakkında ayrıntılı bilgi için lütfen <a href="https://www.torproject.org/docs/android.html.en">Tor Projesi websitesini</a> ziyaret edin.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>Aynı zamanda deneysel paketlerimiz var <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> için ve <a href="http://sid77.slackware.it/ios/">Apple iOS</a> için.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Elinizdeki sürümün doğruluğu nasıl teyit edilir</h3>
     <p>Tor Tarayıcı Pakedini kullanmadan önce, sahip olduğunuz sürümün doğruluğunu test etmelisiniz.</p>
     <p>Tarafınıza erişen yazılım paketine aynı isimde ve <strong>.asc</strong> uzantısında bir dosya eşlik edecektir. Bu .asc dosyası bir GPG imzasıdır ve indirdiğiniz dosyanın bizim almanızı niyet ettiğimiz dosya olduğunu teyit etmenize olanak tanır. </p>
@@ -57,24 +57,24 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Çıktı <em>"Good signature</em> demelidir. Kötü bir imza dosyayla oynandığı anlamına gelebilir. Eğer kötü bir imza görürseniz, paketi nereden edindiğiniz, imzayı nasıl teyit ettiğiniz ve GnuPG çıktısının detaylarını içeren bir epostayı help@rt.torproject.org adresine atın.</p>
     <p>Imzayı doğrulayıp <em>"Good signature"</em> çıktısını gördüyseniz, paketi arşivden çıkarabilirsiniz. Devamında <strong>tor-browser_en-US</strong> benzeri isimli bir dizin görmelisiniz. Bu dizin içerisinde <strong>Docs</strong> isimli başka bir dizin, ve bu dizinin içinde <strong>changelog</strong> isimli bir dosya bulunur. Dosya ismindeki sürüm numarası ve changelog dosyasının en tepesindeki sürüm numarasının eşleştiğinden emin olmak isteyebilirsiniz.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Tor Tarayıcı Paketi nasıl kullanılır</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Tor Tarayıcı Paketini indirdikten sonra, paketi masaüstünüze ya da USB sürücüsüne çıkarın. Birkaç dosya içeren bir dizininiz olacak. Bu dosyalardan biri yürütülebilirdir ve adı "Start Tor Browser"dır (ya da "start-tor-browser", işletim sisteminize göre değişmektedir)</p>
     <p>Tor Tarayıcı Paketini başlatığınızda, önce Vidalia'nın başladığını ve Tor ağına başlandığını göreceksiniz. Devamında, artık Tor kullandığınızı teyit eden bir tarayıcı göreceksiniz. Bu <a href="https://check.torproject.org/">https://check.torproject.org/</a> sayfasını ziyaretle gösterilir. Artık Internet'te Tor üzerinden gezinti yapabilirsiniz.</p>
     <p>
       <em>Lütfen dikkat: Bilgisayarınızdaki mevcut tarayıcıyı değil, paket içerisinde gelen tarayıcıyı kullanmanız önem taşımaktadır.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Tor bağlanmadığı zaman ne yapmalı</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
+    <p>Bazı kullanıcılar Vidalia'nın Tor ağıyla bağlantı kurmaya çalışırken duraksadığını fark edeceklerdir. Eğer bu olursa, Internet bağlantınızın çalıştığından emin olun. Eğer bir vekil sunucuya bağlanmanız gerekiyorsa, aşağıdaki <em>Nasıl açık vekile bağlanılır</em> başlığına bakın.</p>
+    <p>Eğer normal Internet bağlantınız çalışıyor fakat Tor halen ağ ile bağlantı kuramıyorsa, şunu deneyin; Vidalia kontrol panelini açın, <em>Mesaj Kaydı</em>nı seçin ve <em>Gelişmiş</em> sekmesine tıklayın. Tor şu nedenlerle bağlantı kuramayabilir:</p>
     <p><strong>Sistem saatiniz yanlış</strong>: Bilgisayarınızdaki tarih ve zamanın doğru olduğundan emin olun ve Tor'u yeniden başlatın. Bilgisayarınızı saati bir Internet zaman sunucusundan alacak şekilde ayarlamanız gerekebilir.</p>
     <p><strong>Bağlantı Kısıtlamaları getiren bir güvenlik duvarının arkasında olabilirsiniz</strong>: Tor'un sadece 80 ve 443 numaralı portları kullanmasını sağlamak için, Vidalia kontrol panelini açarak önce <em>Settings</em>, ardından <em>Network</em>'e tıklayın. <em>My firewall only lets me connect to certain ports</em> seçeneğini aktif hale getirin.</p>
     <p><strong>Anti-virüs programınız Tor'u engelliyor olabilir</strong>: Anti-virüs programınızın Tor'un ağ bağlantıları kurmasına engel olmadığından emin olun.</p>
     <p>Tor hala çalışmıyorsa, Internet servis sağlayıcınız Tor bağlantılarını blokluyor olabilir. Bu bloklama, çoğunlukla <strong>Tor köprüleri</strong> (Tor bridges), yani gizli aktarma sunucuları kullanılarak aşılabilir.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
+    <p>Eğer Tor ağının neden bağlantı kuramadığıyla ilgili yardıma ihtiyaç duyarsanız, help@rt.torproject.org adresine bir eposta atın ve kayıt dosyasından ilgili kısımları ekleyin.</p>
     <h3 id="how-to-find-a-bridge">Tor köprüsü nasıl bulunur</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
+    <p>Köprü kullanabilmek için, önce bir tane bulmalısınız; bunun için ya <a href="https://bridges.torproject.org/">bridges.torproject.org</a> adresini ziyaret edebilir ya da bridges@torproject.org adresine bir eposta gönderebilirsiniz. Eğer eposta gönderecekseniz, lütfen içeriğinde <strong>get bridges</strong> yazdığına emin olun. Bu olmadan yanıt alamazsınız. Bu epostayı yalnızca ya gmail.com ya da yahoo.com adresinden gönderebilirsiniz.</p>
     <p>Birden fazla köprü adresi tanımlamak köprülerden bazılarının erişilemez hale gelmesi durumunda Tor bağlantınızın daha dayanıklı olmasını sağlayacaktır. Kullanmakta olduğunuz bir köprünin yarın çalışacağının bir garantisi bulunmamaktadır, bu nedenle köprü listenizi arada güncellemeyi alışkanlık edinmelisiniz.</p>
     <h3 id="how-to-use-a-bridge">Tor köprüsü nasıl kullanılır</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
+    <p>Kullanabileceğiniz bir grup köprünüz olduğunda, Vidalia kontrol panelini açın ve <em>Ayarlar</em>'ı, <em>Ağ</em>ı seçin ve <em>ISS'im Tor ağına bağlantıları engelliyor</em> yazan kutucuğu işaretleyin. Köprüleri aşağıdaki kutuya girin, <em>OK</em>e basın ve Tor'u baştan başlatın.</p>
     <h3 id="how-to-use-an-open-proxy">Açık vekil nasıl kullanılır</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
@@ -88,9 +88,9 @@ sub   2048R/EB399FD7 2003-10-16
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
     </ol>
     <h2 id="frequently-asked-questions">Sıkça Sorulan Sorular</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>Bu bölüm yaygın sorulardan bazılarını cevaplayacaktır. Eğer sorunuz cevaplanmamışsa, lütfen help@rt.torproject.org adresine bir eposta gönderin.</p>
     <h3 id="unable-to-extract-the-archive">Arşiv çıkartılamıyor</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Eğer Windows kullanıyor ve arşivi çıkartamıyorsanız <a href="http://www.7-zip.org/">7-Zip</a> indirin ve kurun.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
@@ -114,18 +114,18 @@ sub   2048R/EB399FD7 2003-10-16
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia şifre soruyor</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
-    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
-    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
+    <p>Vidalia'yı çalıştırdığınızda şifre girmeniz gerekmemektedir. Eğer şifre sorulursa, şu sorunlardan biriyle karşı karşıyasınız demektir: </p>
+    <p><strong>Vidalia ve Tor halihazırda çalışıyor</strong>: Örneğin, bu durum hem Vidalia paketini kurduysanız hem de şuanda Tor Tarayıcı Paketini çalıştırmak istiyorsanız oluşabilir. Bu durumda, bunu çalıştırmadan önce çalışan eski Vidalia ve Tor'u kapamalısınız.</p>
+    <p><strong>Vidalia kapandı fakat Tor çalışmaya devam ediyor</strong> Eğer kontrol şifresi soran pencerede Sıfırla butonu varsa buna basabilirsiniz ve Vidalia Tor'u yeni bir kontrol şifresiyle başlatır. Eğer bir Sıfırla butonu görmüyorsanız, ya da Vidalia sizin için Tor'u yeniden başlatamıyorsa; süreç ya da görev yöneticinize gidin ve Tor sürecini yokedin. Daha sonra Vidalia kullanarak Tor'u yeniden başlatın.</p>
+    <p>Daha fazla bilgi için  <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> adresindeki Tor Projesi websitesini ziyaret edin.</p>
     <h3 id="flash-does-not-work">Flash çalışmıyor</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
+    <p>Güvenlik sebeplerinden ötürü Flash, Java ve diğer pluginler Tor için devre dışıdır. Pluginler Firefox'dan bağımsız olarak çalışır ve anonimliğinizi ortadan kaldıran etkinliklerde bulunabilir.</p>
     <p>Pek çok YouTube videosu HTML5 ile çalışmaktadır. Bu videoları Tor üzerinden seyretmek mümkün olmaktadır. Bunun için YouTube web sitesindeki <a href="https://www.youtube.com/html5">HTML5 trial</a> sayfasından HTML5 deneme programına dahil olmanız gerekmektedir.</p>
     <p>Gizlilik ayarları nedeniyle tarayıcı kapatıldığında deneme programına katıldığınızı hatırlamayacaktır. Tor Tarayıcı Paketini yeniden çalıştırdığınızda deneme programına tekrar katılmanız gerekecektir.</p>
     <p>Ayrıntılı bilgiyi <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> sayfasında bulabilirsiniz.</p>
     <h3 id="i-want-to-use-another-browser">Başka bir tarayıcı kullanmak istiyorum</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <p>Güvenlik sebeplerinden ötürü, web'i Tor üzerinden gezmek için yalnızca Tor Tarayıcı Paketini kullanmanızı öneriyoruz. Teknik olarak Tor'u başka tarayıcılarla kullanmak mümkündür ancak, bunu yaparak kendiniz potansiyel saldırılara açmış olursunuz.</p>
     <h3 id="why-tor-is-slow">Tor neden yavaş</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Tor zaman zaman normal Internet bağlantınızdan daha yavaş çalışabilir. Ne de olsa, trafiğiniz birçok ülke üzerinden hatta bazen okyanuslar üzerinden aktarılır!</p>
   </body>
 </html>
