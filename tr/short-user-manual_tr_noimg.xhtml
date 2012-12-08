@@ -76,42 +76,42 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="how-to-use-a-bridge">Tor köprüsü nasıl kullanılır</h3>
     <p>Kullanabileceğiniz bir grup köprünüz olduğunda, Vidalia kontrol panelini açın ve <em>Ayarlar</em>'ı, <em>Ağ</em>ı seçin ve <em>ISS'im Tor ağına bağlantıları engelliyor</em> yazan kutucuğu işaretleyin. Köprüleri aşağıdaki kutuya girin, <em>OK</em>e basın ve Tor'u baştan başlatın.</p>
     <h3 id="how-to-use-an-open-proxy">Açık vekil nasıl kullanılır</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <p>Eğer bir köprü kullanmak işe yaramıyorsa, Tor'u herhangi bir HTTPS ya da SOCKS vekili kullanarak Tor ağına ulaşması için ayarlayın. Bu eğer Tor yerel ağınız tarafından engellendiyse bile, açık vekiller üzerinden Tor ağına oradan da sansürsüz Internete ulaşabilmek için güvenle kullanılabilir anlamına gelir.</p>
+    <p>Aşağıdaki adımlar çalışan bir Tor/Vidalia ayarınız olduğunu ve HTTPS, SOCKS4 ya da SOCKS5 vekili listesi bulduğunuzu varsayar.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
+      <li>Vidalia kontrol panelini açın, <em>Ayarlar</em>ı tıklayın.</li>
+      <li><em>Ağ</em>a tıklayın. <em>Internete erişmek için bir vekil sunucu kullanıyorum</em>u işaretleyin.</li>
+      <li><em>Adres</em> satırına açık vekil sunucu adresini girin. Bu bir hostname ya da IP adresi olabilir.</li>
       <li>Vekil için port girin</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Genellikle, kullanıcı adı ve şifreye ihtiyaç duyulmaz. Eğer duyarsanız, gereken bilgiyi uygun alanlara girin.</li>
+      <li>Kullandığınız vekil sunucunun <em>Tür</em>ünü seçin; bunlar HTTP/HTTPS, SOCKS4 ya da SOCKS5 olabilir.</li>
+      <li><em>OK</em> butonuna basın. Vidalia ve Tor artık bir vekil sunucu kullanarak Tor ağına ulaşamaya ayarlıdır.</li>
     </ol>
     <h2 id="frequently-asked-questions">Sıkça Sorulan Sorular</h2>
     <p>Bu bölüm yaygın sorulardan bazılarını cevaplayacaktır. Eğer sorunuz cevaplanmamışsa, lütfen help@rt.torproject.org adresine bir eposta gönderin.</p>
     <h3 id="unable-to-extract-the-archive">Arşiv çıkartılamıyor</h3>
     <p>Eğer Windows kullanıyor ve arşivi çıkartamıyorsanız <a href="http://www.7-zip.org/">7-Zip</a> indirin ve kurun.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <p>Eğer 7-Zip indiremiyorsanız, dosyayı .z uzantısından .zip uzantısına değiştirin ve winzip kullanarak arşivden çıkartın. Dosyayı yeniden adlandırmadan önce, Windows'a dosya uzantılarını göstermesini söyleyin:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
       <li><em>Benim Bilgisayarımı</em> açın</li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
+      <li><em>Araçlar</em>a tıklayın ve menüden <em>Klasör Seçenekleri...</em> seçin.</li>
       <li><em>Görüntüle</em> sekmesine basın</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li><em>Bilinen dosya uzantılarını gizle</em> seçeneğini kaldırın ve <em>OK</em>e basın.</li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li><em>Bilgisayarı</em> aç</li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li><em>Düzenle</em>yi seçin ve menüden <em>Klasör ve arama ayarları</em> seçin. </li>
       <li><em>Görüntüle</em> sekmesine basın</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li><em>Bilinen dosya uzantılarını gizle</em> seçeneğini kaldırın ve <em>OK</em>e basın.</li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li><em>Bilgisayarı</em> aç</li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li><em>Düzenle</em>yi seçin ve menüden <em>Klasör ve arama ayarları</em> seçin. </li>
       <li><em>Görüntüle</em> sekmesine basın</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li><em>Bilinen dosya uzantılarını gizle</em> seçeneğini kaldırın ve <em>OK</em>e basın.</li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia şifre soruyor</h3>
     <p>Vidalia'yı çalıştırdığınızda şifre girmeniz gerekmemektedir. Eğer şifre sorulursa, şu sorunlardan biriyle karşı karşıyasınız demektir: </p>
