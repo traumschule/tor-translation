@@ -21,11 +21,11 @@
     <p>Si por el contrario quiere una versión traducida de Tor, escriba <strong>help</strong>. Recibirá un correo electrónico con instrucciones y una lista de idiomas disponibles.</p>
     <p><strong>Nota</strong>: Los Paquetes de Navegador Tor para Linux y Mac OS X son más bien grandes, y podría no ser posible recibir cualquiera de estos paquetes con una cuenta de Gmail, Hotmail o Yahoo. Si no puede recibir el paquete que desea, envíe un correo a help@rt.torproject.org y le enviaremos una lista de réplicas del sitio web para su uso.</p>
     <h3 id="tor-for-smartphones">Tor para smartphones</h3>
-    <p>Puede poner Tor en su dispositivo Android al instalar el paquete llamado <em>Orbot</em>. Para información acerca de cómo descargar e instalar Orbot, vea la <a href="https://www.torproject.org/docs/android.html.en">web de Tor Project</a>.</p>
+    <p>Puede poner Tor en su dispositivo Android al instalar el paquete llamado <em>Orbot</em>. Para información acerca de cómo descargar e instalar Orbot, vea el <a href="https://www.torproject.org/docs/android.html.en"> sitio web de Tor Project</a>.</p>
     <p>También tenemos paquetes experimentales para <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> y <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cómo verificar que cuenta con la versión correcta</h3>
     <p>Antes de ejecutar el Paquete de Navegador Tor, debe asegurarse que cuenta con la versión correcta.</p>
-    <p>El software que usted recibe está acompañado de un archivo con el mismo nombre del paquete y la extensión <strong>.asc</strong>. Este archivo .asc es una firma GPG y le permitirá verificar que el archivo que ha descargado es exactamente el que pretendíamos que obtuviera. </p>
+    <p>El software que usted recibe se acompaña de un archivo de extensión <strong>.asc</strong> con el mismo nombre del paquete. Este archivo .asc es una firma GPG y le permitirá verificar que el archivo que ha descargado es exactamente el que pretendíamos que obtuviera. </p>
     <p>Antes de que pueda verificar la firma, tendrá que descargar e instalar GnuPG: </p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado.</p>
     <p>Por favor observe que puede ser necesario editar las rutas y los comandos usados abajo para lograr que funcione en su sistema.</p>
@@ -34,7 +34,7 @@
       <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>Después de importar la clave, compruebe que la huella de verificación (fingerprint) sea correcta: </p>
+    <p>Después de importar la clave, compruebe que la huella de verificación de clave (fingerprint) sea correcta: </p>
     <pre>
       <code>gpg --fingerprint 0x63FEE659
 </code>
@@ -51,7 +51,7 @@ sub   2048R/EB399FD7 2003-10-16
     </pre>
     <p>Para verificar la firma del paquete que ha descargado, ejecute el siguiente comando: </p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+      <code>gpg --verify tor-browser-2.2.33-2_es-ES.exe.asc tor-browser-2.2.33-2_es-ES.exe
 </code>
     </pre>
     <p>La salida debe decir <em>&amp;quot;Good signature&amp;quot;</em> (firma válida). Una firma no válida significa que el archivo pudo haber sido alterado. Si ve una firma no válida, envíe los detalles acerca del origen de la descarga, de cómo verificó la firma y la salida de GnuPG, en un correo a help@rt.torproject.org</p>
