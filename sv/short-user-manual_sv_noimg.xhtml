@@ -22,12 +22,12 @@
     <p><strong>Notera</strong>: Tor Browser Bundle för Linux och Mac OS X är ganska stora, och du kommer inte kunna få någon av dessa med ett Gmail, Hotmail, eller Yahoo konto. Om du inte kan ta emot paketet du vill ha, skicka ett email till help@rt.torproject.org så ger vi dig en lista med speglade webbsidor du kan använda.</p>
     <h3 id="tor-for-smartphones">Tor för smartphones</h3>
     <p>Du kan skaffa Tor på din Android enhet genom att installera paketet som heter <em>Orbot</em>. För information om hur du laddar ner och installerar Orbot, se <a href="https://www.torproject.org/docs/android.html.en">Tor Projektets hemsida</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>Vi har också experimentiella paket för <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> och <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Hur du verifierar att du har rätt version</h3>
     <p>Innan du kör Tor Browser Bundle, se till att du har rätt version.</p>
     <p>Mjukvaran du får inkluderar en fil med samma namn som paketet och filändelsen <strong>.asc</strong>. Denna .asc fil är en GPG signatur, och ger dig möjligheten att verifiera att filen du laddat ner är exakt den fil du ville ha.</p>
     <p>Innan du kan verifiera signaturen måste du ladda ner och installera GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: De flesta Linux distributioner kommer med GnuPG förinstallerad.</p>
     <p>Var vänlig notera att du kanske måste redigera sökvägarna och kommandona nedanför för att få det att fungera på ditt system.</p>
     <p>Erinn Clark signerar Tor Browser Bundle med nyckeln 0x63FEE659. För att importera Erinn's nyckel, kör:</p>
     <pre>
@@ -56,19 +56,19 @@ sub 2048R/EB399FD7 2003-10-16
     <p>Resultatet bör säga <em>"Good signature"</em>. En dålig signatur betyder att filen kan ha fifflats med. Om du ser en dålig signatur, skicka detaljer om var du laddat ner paketet från, hur du verifierade signaturen, och resultatet från GnuPG i ett email till help@rt.torproject.org.</p>
     <p>När du har verifierat signaturen och sett <em>"Good signature"</em> resultatet, fortsätt med att packa upp filen. Du kommer då se en katalog med ett namn som liknar <strong>tor-browser_en-US</strong>. I den katalogen finns en annan katalog som heter <strong>Docs</strong>, som innehåller filen <strong>changelog</strong>. Se till att version nummret på översta raden av den changelog filen matchar version nummret i filnamnet.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Hur du använder Tor Browser Bundle</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Efter du laddat ner Tor Browser Bundle, packa upp paketet till din hårddisk eller ett USB minne. Du bör ha en katalog som innehåller några få filer. En av filerna är körbar och heter "Start Tor Browser" (eller "start-tor-browser", beroende på ditt operativsystem).</p>
     <p>När du startar Tor Browser Bundle kommer du först se Vidalia starta upp och ansluta dig till Tor nätverket. Efter det kommer du se en webbläsare som konfirmerar att du nu använder Tor. Detta görs genom att visa <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Du kan nu surfa internet genom Tor.</p>
     <p>
       <em>Notera att det är viktigt att du använder webbläsaren som kommer med Tor paketet, och inte din vanliga webbläsare.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Vad du kan göra när Tor inte ansluter</h3>
     <p>Några användare kommer märka att Vidalia fastnar när den försöker ansluta till Tor nätverket. Om detta händer, se till att du är ansluten till Internet. Om du behöver ansluta till en proxy server, se <em>Hur du använder en öppen proxy</em> nedanför.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
-    <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
-    <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
+    <p>Om din normala internet anslutning fungerar, men Tor fortfarande inte kan ansluta till nätverket, försök följande; öppna kontrollpanelen i Vidalia, klicka på <em>Meddelande Logg</em> och välj fliken <em>Advancerat</em>. Det kan vara så att Tor inte kan ansluta på grund av:</p>
+    <p><strong>Din system klocka är av</strong>: Se till att datumet och tiden på ditt system är korrekt, och starta om Tor. Du kan behöva synkronisera din system klocka med en tidsserver på Internet.</p>
+    <p><strong>Du är bakom en restriktiv brandvägg</strong>: För att säga åt Tor att bara testa port 80 och port 443, öppna kontrollpanelen i Vidalia, klicka på <em>Inställningar</em> och <em>Nätverk</em>, och markera boxen som säger <em>Min brandvägg låter mig bara ansluta genom vissa portar</em>.</p>
+    <p><strong>Ditt antivirus program blockerar Tor</strong>: Se till att ditt antivirus program inte hindrar Tor från att göra nätverksanslutningar.</p>
+    <p>Om Tor fortfarande inte fungerar så är det troligt att din Internetleverantör (ISP) blockerar Tor. Mycket ofta kan man kringgå detta med <strong>Tor broar</strong>, gömda reläer som inte är lika lätta at blockera.</p>
+    <p>Om du behöver hjälp med att klura ut varför Tor inte kan ansluta, skicka ett email till help@rt.torproject.org och inkludera de relevanta delarna från logg filen.</p>
     <h3 id="how-to-find-a-bridge">Hur du hittar en brygga</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
@@ -79,15 +79,15 @@ sub 2048R/EB399FD7 2003-10-16
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
       <li>Öppna kontrollpanelen för Vidalia, klicka på <em>Inställningar</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
+      <li>Klicka <em>Nätverk</em>. Välj <em>Jag använder en proxy för att komma åt Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
+      <li>Skriv in proxy porten.</li>
+      <li>Generellt behöver du inte något användarnamn eller lösenord. Om du behöver det, skriv in informationen i de rätta fälten.</li>
+      <li>Välj <em>Typ</em> av proxy du använder, om det är HTTP/HTTPS, SOCKS4, eller SOCKS5.</li>
       <li>Klicka på <em>OK</em> knappen. Vidalia och Tor är nu konfigurerade att använda en proxy för att ansluta till resten av Tor nätverket.</li>
     </ol>
     <h2 id="frequently-asked-questions">Vanliga Frågor</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>Denna sektion kommer svara på några av de vanligaste frågorna. Om du har frågor som inte nämns här, skicka gärna ett email till help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">Kan ej packa upp arkivet</h3>
     <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
@@ -121,10 +121,10 @@ sub 2048R/EB399FD7 2003-10-16
     <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
+    <p>Var vänlig se <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton Vanliga Frågor</a> för mer information.</p>
     <h3 id="i-want-to-use-another-browser">Jag vill använda en annan webbläsare</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <p>Av säkerhetsskäl så rekommenderar vi dig att bara surfa på internet genom Tor med hjälp av Tor Browser Bundle. Det är tekniskt möjligt att använda Tor med andra webbläsare, men genom att göra det öppnar du upp dig för potentiella attacker.</p>
     <h3 id="why-tor-is-slow">Varför Tor är långsam</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Tor kan ibland vara lite långsammare än din normala Internetanslutning. Trots allt så skickas din trafik genom många olika länder, ibland över oceaner runt om i världen!</p>
   </body>
 </html>
