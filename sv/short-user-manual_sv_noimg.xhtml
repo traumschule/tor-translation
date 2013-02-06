@@ -22,7 +22,7 @@
     <p><strong>Notera</strong>: Tor Browser Bundle för Linux och Mac OS X är ganska stora, och du kommer inte kunna få någon av dessa med ett Gmail, Hotmail, eller Yahoo konto. Om du inte kan ta emot paketet du vill ha, skicka ett email till help@rt.torproject.org så ger vi dig en lista med speglade webbsidor du kan använda.</p>
     <h3 id="tor-for-smartphones">Tor för smartphones</h3>
     <p>Du kan skaffa Tor på din Android enhet genom att installera paketet som heter <em>Orbot</em>. För information om hur du laddar ner och installerar Orbot, se <a href="https://www.torproject.org/docs/android.html.en">Tor Projektets hemsida</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>Vi har även experimentiella paket för <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> och <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Hur du verifierar att du har rätt version</h3>
     <p>Innan du kör Tor Browser Bundle, se till att du har rätt version.</p>
     <p>Mjukvaran du får inkluderar en fil med samma namn som paketet och filändelsen <strong>.asc</strong>. Denna .asc fil är en GPG signatur, och ger dig möjligheten att verifiera att filen du laddat ner är exakt den fil du ville ha.</p>
@@ -41,13 +41,13 @@
     </pre>
     <p>Du bör se:</p>
     <pre>
-      <code>pub   2048R/63FEE659 2003-10-16
-      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
-uid                  Erinn Clark &lt;erinn@torproject.org&gt;
-uid                  Erinn Clark &lt;erinn@debian.org&gt;
+      <code>pub 2048R/63FEE659 2003-10-16
+Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659
+uid Erinn Clark &lt;erinn@torproject.org&gt;
+uid Erinn Clark &lt;erinn@debian.org&gt;
 
-uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
-sub   2048R/EB399FD7 2003-10-16
+uid Erinn Clark &lt;erinn@double-helix.org&gt;
+sub 2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>För att verifiera signaturen av paketet du laddat ner, kör följande kommando:</p>
@@ -57,7 +57,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Resultatet bör säga <em>"Good signature"</em>. En dålig signatur betyder att filen kan ha fifflats med. Om du ser en dålig signatur, skicka detaljer om var du laddat ner paketet från, hur du verifierade signaturen, och resultatet från GnuPG i ett email till help@rt.torproject.org.</p>
     <p>När du har verifierat signaturen och sett <em>"Good signature"</em> resultatet, fortsätt med att packa upp filen. Du kommer då se en katalog med ett namn som liknar <strong>tor-browser_en-US</strong>. I den katalogen finns en annan katalog som heter <strong>Docs</strong>, som innehåller filen <strong>changelog</strong>. Se till att version nummret på översta raden av den changelog filen matchar version nummret i filnamnet.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Hur du använder Tor Browser Bundle</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Efter att du laddat ner Tor Browser Bundle och packar upp paketet bör du ha en katalog innehållande några få filer. En av filerna är en körbar fil kallad "Start Tor Browser" (eller "start-tor-browser", beroende på ditt operativsystem).</p>
     <p>När du startar Tor Browser Bundle kommer du först se Vidalia starta upp och ansluta dig till Tor nätverket. Efter det kommer du se en webbläsare som konfirmerar att du nu använder Tor. Detta görs genom att visa <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Du kan nu surfa internet genom Tor.</p>
     <p>
       <em>Notera att det är viktigt att du använder webbläsaren som kommer med Tor paketet, och inte din vanliga webbläsare.</em>
