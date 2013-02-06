@@ -22,12 +22,12 @@
     <p><strong>NB:</strong> Tor Nettleser Pakken for Mac OS X og Linux er relativt store, og du kan ikke motta disse på Gmail, Hotmail eller Yahoo.  Hvis dette er tilfellet for deg, send oss en email på help@rt.torproject.org og vi kan sende deg en liste over alternative nettsider du kan bruke. </p>
     <h3 id="tor-for-smartphones">Tor for smart-telefoner:</h3>
     <p>Du kan få Tor på smart-telefonen din ved å installere en software-pakke som heter <em>Orbot</em>.  For informasjon om hvordan du kan laste ned og installere Orbot, vennligst gå til &lt;<a href="https://www.torproject.org/docs/android.html.en">Tor Prosjektets nettside.</a></p>
-    <p>Vi har også eksperimentelle program-pakker for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> og <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Hvordan sjekke at du har riktig versjon:</h3>
     <p>Før du bruker Tor Nettleser Pakken, burde du forsikre deg om at du har riktig versjon.</p>
     <p>Når du laster ned program-pakken følger det med en fil som har samme navn som program-pakken, men etterfulgt av &lt;.asc&gt; i navnet.  Denne .asc filen er en GPG signatur, som gjør at du kan forsikre deg om at programmet du har lastet ned inneholder nøyaktig det vi har laget - med andre ord at ingen har tuklet med programmet uten vår viten.</p>
     <p>For å verifisere signaturen må du laste ned programmet GnuPG.</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: De fleste Linux distribusjoner kommer med GnuPG ferdig installert.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: De fleste Linux distribusjoner kommer med GnuPG ferdig installert.</p>
     <p>Vær oppmerksom på at du kanskje må forandre på filplasseringen og kommandoene brukt i eksempelet under for at det skal fungere på ditt system.</p>
     <p>Erinn Clark signerer Tor Nettleser Pakken med nøkkelen 0x63FEE659.  For å importere Erinns nøkkel, kjør</p>
     <pre>
@@ -45,6 +45,7 @@
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
 uid                  Erinn Clark &lt;erinn@torproject.org&gt;
 uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
 uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
@@ -57,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Du skal da få <em>"Good signature"</em> i svar.  En falsk signatur ("Bad signature") betyr at det kan ha vært gjort endringer i filen som vi ikke har godkjent.  Hvis du ser en falsk signatur, send detaljer om hvor du lastet ned pakken fra, hvordan du verifiserte signaturen, og svaret du fikk fra kommandoen du gjorde i GnuPG i en email til help@rt.torproject.org.</p>
     <p>Så fort du har verifisert signaturen og fått <em>"Good signature"</em> som svar, kan du pakke ut filene.  Det vil da opprettes en filmappe som heter <strong>tor-browser_en-US</strong> eller liknende.  Inne i den mappa finner du en annen mappe som heter <strong>Docs</strong>, som inneholder en fil som heter <strong>changelog</strong>.  Du bør forsikre deg om at versjonsnummeret på øverste linje i denne changelog-fila stemmer med versjonsnummeret på filnavnet til hoved-pakken du lastet ned.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Hvordan bruke Tor Nettleser Pakken:</h3>
-    <p>Etter å ha lastet ned Tor Nettleser Pakken, pakk ut program-pakken til skrivebordet eller på en minnepinne.  Du skal ha en mappe som inneholder noen filer. En av filene er en kjørbar fil som heter "Start Tor Browser" (eller "start-tor-browser," avhengig av ditt operativsystem).</p>
+    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Når du starter Tor Nettleser Pakken vil du først se et program som heter Vidalia starte opp som vil koble deg til Tor nettverket.  Når det er gjort, vil nettleseren automatisk starte opp og ta deg til en side som bekrefter at du nå bruker Tor, <a href="https://check.torproject.org/">https://check.torproject.org/</a>, og vise teksten <em>You can now browse the Internet through Tor</em>.</p>
     <p>
       <em>Vær oppmerksom på at det er viktig at du bruker nettleseren som følger med pakken, og ikke en annen nettleser.</em>

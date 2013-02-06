@@ -23,12 +23,12 @@
     <p><strong>Note</strong>: browser Tor untuk Linux dan Mac OS X berukuran cukup besar, dan Anda tidak dapat menerimanya dengan akun Gmail, Hotmail atau Yahoo. jika Anda tidak dapat menerima paket yang Anda inginkan, kirim email ke help@rt.torproject.org dan kami akan memberikan kepada Anda daftar situs bayangan untuk digunakan.</p>
     <h3 id="tor-for-smartphones">Tor untuk ponsel pintar</h3>
     <p>Anda dapat memperoleh Tor untuk perangkat Android dengan menginstal paket yang bernama <em>Orbot</em>. Untuk informasi bagaimana mengunduh dan menginstal Orbot, silahkan lihat <a href="https://www.torproject.org/docs/android.html.en"> website project Tor </a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Bagaimana memastikan anda memiliki versi yang tepat</h3>
     <p>Sebelum menjalankan paket browser Tor, Anda harus yakin bahwa Anda memiliki versi yang tepat.</p>
     <p>Perangkat lunak yang Anda terima disertai dengan file dengan nama yang sama seperti paket dan ekstensi <strong>.asc</strong>. file .asc ini adalah signature GPG, dan Akan mengizinkan anda untuk memastikan file yang sudah Anda unduh adalah sama seperti yang Anda maksudkan.</p>
     <p>Sebelum Anda dapat memastikan signature tersebut, Anda harus mengunduh dan menginstal GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Harap dicatat bahwa Anda mungkin harus mengedit path dan perintah yang digunakan dibawah agar dapat bekerja di sistem Anda.</p>
     <p>Erinn Clark menandai paket browser tor dengan kunci 0x63FEE659. untuk memasukan kunci Erinn, jalankan:</p>
     <pre>
@@ -41,7 +41,14 @@
     </pre>
     <p>Anda akan melihat:</p>
     <pre>
-      <code>pub 2048R/63FEE659 2003-10-16⏎ Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎ uid Erinn Clark &lt;erinn@torproject.org&gt;⏎ uid Erinn Clark &lt;erinn@debian.org&gt;⏎ uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎ sub 2048R/EB399FD7 2003-10-16⏎ </code>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
     </pre>
     <p>Untuk memastikan signature dari paket yang sudah anda unduh, jalankan perintah berikut:</p>
     <pre>
@@ -50,7 +57,7 @@
     <p>Hasilnya seharusnya berisikan <em>"Good signature"</em>. Signature yang salah mengindikasikan bahwa file rusak. jika Anda mendapatkan hasil yang salah, kirim detail mengenai darimana Anda mengunduh paket tersebut, bagaimana Anda memastikan signature, dan hasil dari GnuPG dalam email ke help@rt.torproject.org</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Bagaimana cara untuk menggunakan Bundel Peramban Tor</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Harap di ingat penting untuk anda menggunakan peramban yang bersama dalam satu bundel, bukan peramban anda sendiri.</em>

@@ -22,12 +22,12 @@
     <p><strong>Dikkat</strong>: Mac OS X ve Linux'e yönelik Tor Tarayıcı Paketleri boyut olarak büyüktür ve dolayısıyla Gmail, Hotmail ve Yahoo hesaplarıyla alınamazlar. Eğer istediğiniz paketi alamıyorsanız help@rt.torproject.org adresine bir eposta atın, biz de size website aynalarını içeren bir listeyle dönelim. </p>
     <h3 id="tor-for-smartphones">Akıllı telefonlar için Tor</h3>
     <p>Android cihazınızda Tor kullanmak isterseniz <em>Orbot</em> adlı pakedi kurabilirsiniz. Orbot'u indirmek ve kurmak hakkında ayrıntılı bilgi için lütfen <a href="https://www.torproject.org/docs/android.html.en">Tor Projesi websitesini</a> ziyaret edin.</p>
-    <p>Aynı zamanda deneysel paketlerimiz var <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> için ve <a href="http://sid77.slackware.it/ios/">Apple iOS</a> için.</p>
+    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Elinizdeki sürümün doğruluğu nasıl teyit edilir</h3>
     <p>Tor Tarayıcı Pakedini kullanmadan önce, sahip olduğunuz sürümün doğruluğunu test etmelisiniz.</p>
     <p>Tarafınıza erişen yazılım paketine aynı isimde ve <strong>.asc</strong> uzantısında bir dosya eşlik edecektir. Bu .asc dosyası bir GPG imzasıdır ve indirdiğiniz dosyanın bizim almanızı niyet ettiğimiz dosya olduğunu teyit etmenize olanak tanır. </p>
     <p>İmzayı kontrol etmek için GnuPG programını indirip kurmanız gerekmektedir:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Çoğu Linux dağıtımı GnuPG önceden kurulu olarak gelir. </p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Çoğu Linux dağıtımı GnuPG önceden kurulu olarak gelir. </p>
     <p>Aşağıdaki komutları ve dizin yollarını kendi sisteminizde çalışacak şekilde değiştirmeniz gerekebilir.</p>
     <p>Tor Tarayıcı Paketini Erinn Clark 0x63FEE659 etiketli anahtarı ile imzalamaktadır. Erinn'in anahtarını aşağıdaki komut ile yükleyebilirsiniz:</p>
     <pre>
@@ -45,6 +45,7 @@
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
 uid                  Erinn Clark &lt;erinn@torproject.org&gt;
 uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
 uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
@@ -57,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Çıktı <em>"Good signature</em> demelidir. Kötü bir imza dosyayla oynandığı anlamına gelebilir. Eğer kötü bir imza görürseniz, paketi nereden edindiğiniz, imzayı nasıl teyit ettiğiniz ve GnuPG çıktısının detaylarını içeren bir epostayı help@rt.torproject.org adresine atın.</p>
     <p>Imzayı doğrulayıp <em>"Good signature"</em> çıktısını gördüyseniz, paketi arşivden çıkarabilirsiniz. Devamında <strong>tor-browser_en-US</strong> benzeri isimli bir dizin görmelisiniz. Bu dizin içerisinde <strong>Docs</strong> isimli başka bir dizin, ve bu dizinin içinde <strong>changelog</strong> isimli bir dosya bulunur. Dosya ismindeki sürüm numarası ve changelog dosyasının en tepesindeki sürüm numarasının eşleştiğinden emin olmak isteyebilirsiniz.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Tor Tarayıcı Paketi nasıl kullanılır</h3>
-    <p>Tor Tarayıcı Paketini indirdikten sonra, paketi masaüstünüze ya da USB sürücüsüne çıkarın. Birkaç dosya içeren bir dizininiz olacak. Bu dosyalardan biri yürütülebilirdir ve adı "Start Tor Browser"dır (ya da "start-tor-browser", işletim sisteminize göre değişmektedir)</p>
+    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Tor Tarayıcı Paketini başlatığınızda, önce Vidalia'nın başladığını ve Tor ağına başlandığını göreceksiniz. Devamında, artık Tor kullandığınızı teyit eden bir tarayıcı göreceksiniz. Bu <a href="https://check.torproject.org/">https://check.torproject.org/</a> sayfasını ziyaretle gösterilir. Artık Internet'te Tor üzerinden gezinti yapabilirsiniz.</p>
     <p>
       <em>Lütfen dikkat: Bilgisayarınızdaki mevcut tarayıcıyı değil, paket içerisinde gelen tarayıcıyı kullanmanız önem taşımaktadır.</em>

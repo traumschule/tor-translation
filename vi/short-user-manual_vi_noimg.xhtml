@@ -22,12 +22,12 @@
     <p><strong>Chú ý</strong>:  phiên bản Tor Browser Bundles dành cho Linux và Mac OS X khá lớn, nên bạn sẽ có thể không thể nhận bất kỳ bộ dứng dụng nào bằng tài khoản Gmail, Hotmail hay Yahoo. Nếu bạn không nhận được bộ ứng dụng bạn cần, gởi email vào help@rt.torproject.org và chúng tôi sẽ cung cấp danh sách những trang mạng bản sao để bạn có thể sử dụng.</p>
     <h3 id="tor-for-smartphones">Tor dành cho điện thoại thông minh</h3>
     <p>Bạn có thể dùng Tor trên thiết bị Android của bạn bằng cái cài đặt gói ứng dụng tên là <em>Orbot</em>. Để biết thêm thông tin cách tải về và cài đặt Orbot, hảy vào <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
-    <p>Chúng tôi củng có những gói ứng dụng thử nghiệm cho <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> và <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cách xác nhận đúng phiên bản bạn dùng</h3>
     <p>Trước khi sử dụng đụng Tor Browser Bundle, bạn nên chắc rằng mình dùng đúng phiên bản.</p>
     <p>Phần mềm bạn nhận có kèm một tệp tin trùng tên với bộ ứng dụng và có tên mở rộng là <strong>.asc</strong>. tập tin .asc này là một chữ ký GPG, và sẽ cho phép bạn kiểm tra tập tin mà bạn vừa tải về đúng với phiên bản chúng tôi muốn bạn có.</p>
     <p>Trước khi bạn kiểm tra chữ ký, bạn phải tải về và cài đặt GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Hầu hết các bản phân phối Linux đều có cài sẳng GnuPG.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Hầu hết các bản phân phối Linux đều có cài sẳng GnuPG.</p>
     <p>Hảy chú ý rằng bạn có thể cần phải chỉnh lại đường dẩn và lệnh trước khi yêu cầu nó làm việc trên hệ thống của bạn.</p>
     <p>Erinn Clark xác nhận Tor Browser Bundles bằng khóa 0x63FEE659. Để nhập khóa của Erinn, dùng lệnh:</p>
     <pre>
@@ -45,6 +45,7 @@
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
 uid                  Erinn Clark &lt;erinn@torproject.org&gt;
 uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
 uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
@@ -57,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Thông báo phải là <em>"Good signature"</em>. Nếu thông báo khác đi, có nghĩa là tập tin đó có thể đã bị can thiệp. Nếu bạn thấy thông báo có lỗi về xác nhận chữ ký, gởi chi tiết về nơi bạn đã tải về gói ứng dụng, cách bạn xác nhận chữ ký, và xuất thông tin từ GnuPG vào email gởi cho help@rt.torproject.org.</p>
     <p>Mỗi lần bạn xác nhận chữ ký và thấy thông báo <em>"Good signature"</em>, bước tiếp theo là giải nén tập tin nén. Sau đó bạn sẽ thấy một thư mục giống như là <strong>tor-browser_en-US</strong>. Bên trong thư mục đó là một thư mục khác có tên là <strong>Docs</strong>, bên trong có chứa một tập tin là <strong>changelog</strong>. Bạn phải kiểm tra và chắc rằng đó là phiên bản cao nhất trùng với tên tập tin bạn tải về.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Cách sử dụng Tor Browser Bundle</h3>
-    <p>Sau khi tải về Tor Browser Bundle, giả nén vào desktop hoặc ổ USB. Bạn phải có đường dẩn của vài tập tin. Một trong chúng là tập tin thực thi có tên là "Start Tor Browser" (hoặc "start-tor-browser", Cho dù hệ thống của bạn là gì).</p>
+    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Khi bạn chạy Tor Browser Bundle, bạn sẽ thấy trước tiên là Vidalia mở lên và kết nối bạn với mạng lưới Tor. Sau đó bạn sẽ thấy trình duyệt xác nhận bạn đang sử dụng Tor. Kết thúc cuối cùng là hiện ra <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Bây giờ, bạn có thể sử dụng Internet thông qua Tor.</p>
     <p>
       <em>Phải chú ý rằng một điều quan trọng là bạn sử dụng trình duyện trong gói ứng dụng, không phải trình duyệt có sẳng của bạn.</em>
