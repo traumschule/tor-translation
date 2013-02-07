@@ -22,12 +22,12 @@
     <p><strong>Noot</strong>: De Tor Browser Bundle voor Linux en Mac OS X zijn vrij groot en je kunt deze bundels niet ontvangen met een Gmail, Hotmail of Yahoo account. Als je de bundel die je wilt niet kunt ontvangen, stuur een e-mail naar help@rt.torproject.org en we sturen je een lijst met website mirrors om te gebruiken.</p>
     <h3 id="tor-for-smartphones">Tor voor smartphones</h3>
     <p>Je kan Tor op je Android toestel krijgen door het pakket <em>Orbot</em> the installeren. Voor informatie over hoe Orbot te downloaden en te installeren, kijk op de <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
-    <p>We hebben ook experimentele pakketten voor <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> en <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>We hebben ook experimentele pakketten voor <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> en <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Hoe te verifiëren dat je de juiste versie hebt</h3>
     <p>Voordat je de Tor Browser Bundle uitvoert moet je er zeker van zijn dat je de juiste versie hebt.</p>
     <p>De software die je ontvangt, wordt vergezeld door een bestand met dezelfde naam als de bundel en de extensie <strong>.asc</strong>. Dit .asc bestand is een GPG handtekening en stelt je in staat om te verifiëren dat het bestand dat je hebt gedownload precies diegene is die we bedoelden voor jou om te ontvangen.</p>
     <p>Voordat je de handtekening kunt verifiëren moet je GnuPG downloaden en installeren:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: De meeste Linux distributies komen met GnuPG geïnstalleerd.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: De meeste Linux distributies komen met GnuPG geïnstalleerd.</p>
     <p>Mogelijk moeten de locaties of opdrachten aanpast worden om het onderstaande op uw systeem werkende te krijgen.</p>
     <p>Erinn Clark ondertekent de Tor Browser Bundels met de sleutel 0x63FEE659. Om Erinn's sleutel te importeren, gebruik:</p>
     <pre>
@@ -41,12 +41,13 @@
     </pre>
     <p>Je zou dan het volgende moeten zien:</p>
     <pre>
-      <code>pub 2048R/63FEE659 2003-10-16
-    Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659
-uid         Erinn Clark &amp;lt;erinn@torproject.org&amp;gt;
-uid         Erinn Clark &amp;lt;erinn@debian.org&amp;gt;
-uid         Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
-»sub    2048R/EB399FD7 2003-10-16
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>Om de handtekening te verifiëren van het pakket dat je gedownload hebt, voer het volgende commando uit:</p>
@@ -57,7 +58,7 @@ uid         Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
     <p>De uitvoer zou <em>&amp;quot;Good signature&amp;quot;</em> moeten zijn. Een verkeerde handtekening betekent dat er mogelijk met het bestand geknoeid is. Als je een verkeerde handtekening tegenkomt, stuur dan details, waar je het pakket gedownload hebt, hoe je de handtekening geverifieerd hebt en de uitvoer van GnuPG in een e-mail naar help@rt.torproject.org.</p>
     <p>Wanneer je de handtekening geverifieerd hebt en de <em>&amp;quot;Good signature&amp;quot;</em> uitvoer gezien hebt, ga dan verder en pak het archief uit. Je zou dan een folder vergelijkbaar met <strong>tor-browser_en-US</strong> moeten zien. In deze folder is een andere folder genaamd <strong>Docs</strong>, welke een bestand genaamd <strong>changelog</strong> bevat. Je controleert dan of het versienummer in de bovenste regel gelijk is aan de versienummer van de bestandsnaam.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Hoe de Tor Browser Bundle te gebruiken</h3>
-    <p>Na het downloaden van de Tor Browser Bundel, kunt u het pakket uitpakken op uw desktop of op een USB stick. U krijgt een map met verschillende bestanden. Één van die bestanden heet "Start Tor Browser" (of "start-tor-browser", afhankelijk van uw besturingssysteem).</p>
+    <p>Na de Tor Browser Bundle gedownload en uitgepakt te hebben, zou je een folder met een paar bestanden moeten hebben. Eén van deze bestanden is een uitvoerbaar bestand genaamd "Start Tor Browser" (of "start-tor-browser", afhankelijk van je besturingssysteem).</p>
     <p>Wanneer je de Tor Browser Bundle start zul je eerst zien dat Vidalia opstart en je verbindt met het Tor netwerk. Daarna zul je een browser zien met een pagina die bevestigt dat je nu Tor gebruikt. Dit wordt gedaan door <a href="https://check.torproject.org/">https://check.torproject.org/</a> weer te geven. Je kunt nu het internet gebruiken via Tor.</p>
     <p>
       <em>Let op dat je de browser gebruikt die bij de bundel zit en niet je eigen browser.</em>
