@@ -26,7 +26,7 @@
     <h3 id="how-to-verify-that-you-have-the-right-version">Nola egiaztatu bertsio egokia duzula</h3>
     <p>Tor Browser Bundlea exekutatu baino lehen,bertsio egokia duzula egiaztatu beharko zenuke.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>Sinadura egiaztatu ahal baino lehen, GnuPG deskargatu eta instalatu beharko duzu:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
     <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
@@ -80,17 +80,17 @@ sub   2048R/EB399FD7 2003-10-16
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Ireki Vidalia kontrol-panela, sakatu <em>Ezarpenak</em> botoian.</li>
+      <li>Sakatu <em>Sarea</em> botoian. Hautatu <em> Proxu bat erabiltzen dut Internetera sartzeko</em></li>
+      <li><em>Helbidea</em> lerroan, sartu proxy irekiaren helbidea. Hau ostalari-izen bat edo IP Helbide bat izan daiteke.</li>
+      <li>Sartu proxyaren ataka.</li>
+      <li>Orokorrean, ez duzu erabiltzaile-izenik ezta pasahitzik beharko. Horrela ez balitz, sartu informazio dagokion eremuan.</li>
+      <li>Hautatu zen proxy <em>mota</em> erabiltzen ari zaren, HTTP/HTTPS, SOCKS4 edo SOCKS5 artean.</li>
+      <li>Sakatu <em>Ados</em> botoia. Vidalia eta Tor orain Tor sarearen beste zati guztira proxya erabiliz sartzeko konfiguratuta daude.</li>
     </ol>
     <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
     <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
-    <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
+    <h3 id="unable-to-extract-the-archive">Ezin izan da artxiboa erauzi</h3>
     <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
     <h4 id="windows-xp">Windows XP</h4>
