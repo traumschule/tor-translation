@@ -22,12 +22,12 @@
     <p><strong>Nota</strong>: Los Paquetes de Navegador Tor para Linux y Mac OS X son bastante grandes, y podría no ser posible recibir cualquiera de estos paquetes con una cuenta de Gmail, Hotmail o Yahoo. Si no puede recibir el paquete que desea, envíe un correo a help@rt.torproject.org y le enviaremos una lista de réplicas del sitio web para su uso.</p>
     <h3 id="tor-for-smartphones">Tor para smartphones</h3>
     <p>Puede poner Tor en su dispositivo Android al instalar el paquete llamado <em>Orbot</em>. Para información acerca de cómo descargar e instalar Orbot, vea el <a href="https://www.torproject.org/docs/android.html">sitio web de Tor Project</a>.</p>
-    <p>También tenemos paquetes experimentales para <a href="https://www.torproject.org/docs/N900.html">Nokia Maemo/N900</a> y <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>También disponemos de paquetes experimentales para <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> y <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cómo verificar que cuenta con la versión correcta</h3>
     <p>Antes de ejecutar el Paquete de Navegador Tor, debe asegurarse que cuenta con la versión correcta.</p>
     <p>El software que usted recibe se acompaña de un archivo con el mismo nombre del paquete, y extensión <strong>.asc</strong>. Este archivo .asc es una firma GPG, y le permitirá verificar que el archivo que ha descargado es exactamente el que pretendíamos que obtuviera. </p>
     <p>Antes de que pueda verificar la firma, tendrá que descargar e instalar GnuPG: </p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado.</p>
     <p>Por favor, observe que puede ser necesario que edite las rutas y los comandos usados debajo para lograr que funcionen en su sistema.</p>
     <p>Erinn Clark firma los Paquetes del Navegador Tor con la clave 0x63FEE659. Para importar la clave de Erinn, ejecute: </p>
     <pre>
@@ -42,10 +42,11 @@
     <p>Debería ver: </p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
-      Huella de clave = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659
-uid                  Erinn Clark &amp;lt;erinn@torproject.org&amp;gt;
-uid                  Erinn Clark &amp;lt;erinn@debian.org&amp;gt;
-uid                  Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
@@ -57,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>La salida debe decir <em>&amp;quot;Firma correcta&amp;quot;</em> (Good signature). Una firma incorrecta significa que el archivo pudo haber sido alterado. Si ve una firma incorrecta, envíe los detalles del lugar de donde descargó el paquete, cómo verificó la firma, y la salida de GnuPG, en un correo a help@rt.torproject.org</p>
     <p>Una vez que ha verificado la firma y ha visto la confirmación <em>&amp;quot;Firma correcta&amp;quot;</em> (Good signature), proceda y descomprima el paquete de archivos. Debería ver entonces una carpeta similar a <strong>tor-browser_es-ES</strong>. Dentro de esa carpeta encontrará otra llamada <strong>Docs</strong>, la cual contiene un archivo llamado <strong>changelog</strong>. Debe asegurarse de que el número de versión en la primera línea del archivo changelog corresponde con el número de versión en el nombre del archivo.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Cómo usar el Paquete de Navegador Tor</h3>
-    <p>Después de descargar el Paquete de Navegador Tor, extráigalo en su escritorio o en una memoria USB. Debería obtener una carpeta que contenga unos pocos archivos. Uno de ellos es un ejecutable llamado "Start Tor Browser" (o "start-tor-browser", dependiendo de su sistema operativo).</p>
+    <p>Después de descargar el Tor Browser Bundle y extraer el paquete, usted debe tener un directorio con algunos archivos en el. Uno de los archivos es un ejecutable llamado "Start Tor Browser" (o "start-tor-browser", dependiendo de su sistema operativo).</p>
     <p>Cuando inicie el Paquete de Navegador Tor, verá primero el programa Vidalia iniciarse y conectarle a la red Tor. Después, verá un navegador confirmando que usted ya se encuentre utilizando Tor. Esto lo hace mostrando la página <a href="https://check.torproject.org/?lang=es">https://check.torproject.org/?lang=es</a>. Podrá entoces navegar por Internet a través de Tor.</p>
     <p>
       <em>Observe que es importante que utilice el navegador que viene con el paquete, y no su propio navegador (por seguridad).</em>
