@@ -22,12 +22,12 @@
     <p><strong>Note</strong>: Pārlūka Tor komplekti Linux un Mac OS X ir salīdzinoši lieli, un nevienu no šiem komplektiem nebūs iespējams saņemt Gmail, Hotmail vai Yahoo kontā. Ja nevarat saņemt vajadzīgo komplektu, sūtiet e-pasta ziņojumu, kurš adresēts help@rt.torproject.org , un mēs nosūtīsim izmantojamo spoguļu tīmekļa vietņu sarakstu. </p>
     <h3 id="tor-for-smartphones">Tor viedtālruņiem</h3>
     <p>Varat saņemt Tor savā Android iekārtā, instalējot pakotni, kuru sauc <em>Orbot</em>. Orbit lejupielādes un instalēšanas informāciju, lūdzu skatiet <a href="https://www.torproject.org/docs/android.html.en">Tor projekta mājaslapa</a>.</p>
-    <p>Tāpat mums ir eksperimentālas pakotnes, kuras paredzētas <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> un <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>Mēs arī piedāvājam eksperimentālas pakotnes <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> un <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Kā verificēt, ka Jums ir pareizā versija</h3>
     <p>Pirms uzsākat Pārlūka Tor komplekta darbu, pārliecinieties, ka lietojat pareizo versiju.</p>
     <p>Saņemtajai programmatūrai tiek pievienota datne, kuras nosaukums ir tāds pats kā komplekta nosaukums, bet paplašinājums ir <strong>.asc</strong>. Šī .asc datne ir GPG paraksts, un tā sniedz iespēju verificēt, ka lejupielādētā datne ir tieši tā, kuru bijāt paredzējis saņemt.</p>
     <p>Pirms parakstu var verificēt, nepieciešams lejupielādēt un instalēt GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Vairums Linux distributīvu, GnuPG jau ir instalēts.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Vairums Linux distributīvu, GnuPG jau ir instalēts.</p>
     <p>Lūdzu vērsiet uzmanību, ka var būt nepieciešams rediģēt zemāk lietotās komandas un ceļus, lai tās strādātu Jūsu sistēmā.</p>
     <p>Erins Klārks jeb angļu valodā Erinn Clark paraksta Pārlūka Tor komplektus ar atslēgu 0x63FEE659. Lai importētu Erina atslēgu, izpildiet: </p>
     <pre>
@@ -39,7 +39,14 @@
     </pre>
     <p>Jums vajadzētu redzēt:</p>
     <pre>
-      <code>pub 2048R/63FEE659 2003-10-16⏎ Atslēgas ciparvirkne = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎ uid Erinn Clark &lt;erinn@torproject.org&gt;⏎ uid Erinn Clark &lt;erinn@debian.org&gt;⏎ uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎ sub 2048R/EB399FD7 2003-10-16⏎ </code>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Atslēgas ciparvirkne = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
     </pre>
     <p>Lai verificētu lejupielādētās pakotnes parakstu, izpildiet komandu:</p>
     <pre>
@@ -48,7 +55,7 @@
     <p>Izvades ziņojumam būtu jāsaka <em>"Derīgs paraksts"</em>. Slikts paraksts nozīmē, ka datne, iespējams, ir pārveidota. Ja redzat ziņojumu par sliktu parakstu, nosūtiet e-pasta ziņojumu angļu valodā uz  help@rt.torproject.org , iekļaujot informāciju par to kur lejupielādējāt pakotni, kā verificējāt parakstu, kā arī pievienojiet GnuPG izvades ziņojumu.</p>
     <p>Kad esat verificējis parakstu un redzējis izvades ziņojumu <em>"Derīgs paraksts"</em>, turpiniet un izvērsiet pakotnes arhīvu. Vajadzētu būt redzamam direkorijam, kurš līdzīgs <strong>tor-browser_en-US</strong>. Šajā direktorijā atrodas cits direktorijs, kuru sauc <strong>Docs</strong>, kas iever datni, kuru sauc <strong>changelog</strong>. Pārliecinieties par to, ka izmaiņu žurnāla datnes augšējā līnijā esošais versijas numurs sakrīt ar datnes vārda versijas numuru.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Kā lietot Pārlūka Tor komplektu</h3>
-    <p>Pēc pārlūka Tor komplekta lejupielādes, izvērsiet pakotni uz darbvirsmas vai zibatmiņā. Vajadzētu būt direktorijam, kurš satur vairākas datnes. Viena no datnēm ir izpildāma, un to sauc "Start Tor Browser" (vai "start-tor-browser", atkarībā no izmantotās operētājsistēmas).</p>
+    <p>Pēc tam kad ir lejuplādēts Pārlūka Tor komplekts, bet pakotne izvērsta, vajadzētu būt izveidotam direktorijam, kurā ir dažas datnes. Viena no datnēm ir izpilddatne, kuru sauc "Start Tor Browser" (vai, atkarībā no izmantotās operētājsistēmas "start-tor-browser").</p>
     <p>Kad startējat pārlūka Tor komplektu, vispirms redzēsit, ka darbu uzsāk Vidalia, un izveido savienojumu ar Tor tīklu. Pēc tam redzēsit, ka pārlūks apstiprina, ka nu lietojat Tor. Tas tiek darīts attēlojot <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Tagad varat pārlūkot internetu izmantojot Tor.</p>
     <p>
       <em>Lūdzu ievērojiet, ka ir svarīgi izmantot pārlūku, kurš atrodas komplektā nevis Jūsu pārlūku.</em>
