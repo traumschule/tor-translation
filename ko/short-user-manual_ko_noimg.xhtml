@@ -4,11 +4,11 @@
     <title/>
   </head>
   <body>
-    <h1 id="the-short-user-manual">The Short User Manual</h1>
-    <p>This user manual contains information about how to download Tor, how to use it, and what to do if Tor is unable to connect to the network. If you can't find the answer to your question in this document, email help@rt.torproject.org.</p>
-    <p>Please note that we are providing support on a voluntary basis, and we get a lot of emails every single day. There is no need to worry if we don't get back to you straight away.</p>
-    <h2 id="how-tor-works">How Tor works</h2>
-    <p>Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as <em>relays</em>) in the Tor network, before the traffic is sent out onto the public Internet.</p>
+    <h1 id="the-short-user-manual">짧은 사용자 매뉴얼</h1>
+    <p>이 이용자 매뉴얼에는 Tor을 다운로드할 수 있는 방법과, 사용법, Tor가 네트워크에 접속할 수 없을 때 대처법이 포함되어 있습니다. 이 문서를 보고도 해결되지 않는 질문이 있다면, help@rt.torproject.org 으로 메일을 보내주세요.</p>
+    <p>단, 지원은 자발적인 봉사로만 제공하고 있고, 매일 받는 메일이 많다는 점을 유념해 주세요. 당장 답장이 오지 않더라도 걱정하지 않으셔도 됩니다.</p>
+    <h2 id="how-tor-works">Tor가 동작하는 원리</h2>
+    <p>Tor는 가상 터널로 구성된 네트워크이며 인터넷에서 당신의 익명성과 보안성을 개선시키는 데 도움을 줍니다. Tor는 당신의 트래픽을 Tor 네트워크 안에 있는 임의의 서버 3대 (다른 말로는 <em>릴레이</em>) 를 통과시킨 후에야 공개된 인터넷으로 내보냅니다.</p>
     <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
     <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
     <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
@@ -22,12 +22,12 @@
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
     <h3 id="tor-for-smartphones">Tor for smartphones</h3>
     <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">How to verify that you have the right version</h3>
     <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
     <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
     <pre>
@@ -45,6 +45,7 @@
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
 uid                  Erinn Clark &lt;erinn@torproject.org&gt;
 uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
 uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
@@ -57,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
-    <p>After downloading the Tor Browser Bundle, extract the package onto your desktop or a USB stick. You should have a directory containing a few files. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
