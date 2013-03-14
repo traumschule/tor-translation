@@ -5,7 +5,7 @@
   </head>
   <body>
     <h1 id="the-short-user-manual">Kratki korisnicki prirucnik</h1>
-    <p>Ovaj korisnicki prirucnik sadrzi imformacije o tome kako da preuzmete i koristite Tor i sta da radite ako Tor ne moze da se poveze na mrezu. Ako ne mozete naci odgovor na vasa pitanja u ovom dokumentu, posaljite email na help@rt.torproject.org.</p>
+    <p>Ovaj korisnicki prirucnik sadrzi informacije o tome kako da preuzmete i koristite Tor i sta da radite ako Tor ne moze da se poveze na mrezu. Ako ne mozete naci odgovor na vasa pitanja u ovom dokumentu, posaljite email na help@rt.torproject.org.</p>
     <p>Molimo vas da imate u vidu da mi pruzamo podrsku na dobrovoljnoj osnovi i da mi dobijamo dosta mejlova svaki dan. Nema potrebe da se brinete ako vam ne odgovorimo odmah. </p>
     <h2 id="how-tor-works">Kako Tor funkcionise</h2>
     <p>Tor je mreza virtualnih tunela koja vam omogucava da poboljsate vasu privatnost i bezbednost na Internetu. Tor funkcionise tako sto salje vas internet zahtev kroz tri nasumice izabrana servera (poznati kao <em>releji</em>) iz Tor mreze, pre nego sto je poslat na javni Internet.</p>
@@ -25,21 +25,19 @@
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Kako proveriti da li imate pravu verziju</h3>
     <p>Pre nego sto pokrenete Tor paket, terbalo bi da proverite da li imate pravu verziju.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>Software koji dobijete dolazi sa istoimenim fajlom i <strong>.asc</strong> nastavkom. Ovaj .asc fajl je GPG potpis i omogucava vam da proverite  da fajl koji ste preuzeli  je autentican.</p>
+    <p>Pre nego sto mozete verifikovati potpis, morate preuzeti i instalirati GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Imajte na umu da je moguce da cete morati promeniti adrese i komande koristene ispod da bi program radio na vasem sistemu.</p>
+    <p>Erinn Clark potpisuje Tor paket sa kljucem 0x63FEE659. Da bi uneli njen kljuc, pokrenite:</p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
-</code>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659</code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>Nako sto ste uneli kljuc, proverite da je otisak tacan:</p>
     <pre>
-      <code>gpg  --fingerprint 0x63FEE659
-</code>
+      <code>gpg --fingerprint 0x63FEE659</code>
     </pre>
-    <p>You should see:</p>
+    <p>Trebalo bi da vidite:</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
@@ -50,14 +48,13 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>'To verify the signature of the package you downloaded, run the following command: ' Sto znaci: Da bi proverili potpis paketa koji ste preuzeli, unesite sledecu komandu: </p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
-</code>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <p>Odgovor bi trebo biti <em>"Good signature"</em>. Los potpis znaci da je moguce da je fajl bio menjan. Ako vidite los potpis posaljite detalje o stranici gde ste preuzeli paket, kako ste proverili da li je potpis tacan i poruku koju ste dobili u GnuPG programu preko mejla na help@rt.torproject.org.</p>
+    <p>Nako sto ste proverili potpis i videli <em>"Good signature"</em> poruku, mozete ekstraktovati arhivu. Dobicete folder zvan <strong>tor-browser_en-US</strong>. Taj folder sadrzi joj jedan folder zvan <strong>Docs</strong>, koji sadrzi fajl zvan changelog. Uverite se da broj verzije u prvoj liniji <strong>changelog</strong> fajla odgovara broj verzije u imenu fajla.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Kako koristiti Tor pretrazivac</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
