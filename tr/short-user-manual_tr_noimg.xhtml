@@ -22,7 +22,7 @@
     <p><strong>Dikkat</strong>: Mac OS X ve Linux'e yönelik Tor Tarayıcı Paketleri boyut olarak büyüktür ve dolayısıyla Gmail, Hotmail ve Yahoo hesaplarıyla alınamazlar. Eğer istediğiniz paketi alamıyorsanız help@rt.torproject.org adresine bir eposta atın, biz de size website aynalarını içeren bir listeyle dönelim. </p>
     <h3 id="tor-for-smartphones">Akıllı telefonlar için Tor</h3>
     <p>Android cihazınızda Tor kullanmak isterseniz <em>Orbot</em> adlı pakedi kurabilirsiniz. Orbot'u indirmek ve kurmak hakkında ayrıntılı bilgi için lütfen <a href="https://www.torproject.org/docs/android.html.en">Tor Projesi websitesini</a> ziyaret edin.</p>
-    <p>Aynı zamanda deneysel paketlerimiz var <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> için ve <a href="http://sid77.slackware.it/ios/">Apple iOS</a> için.</p>
+    <p>Aynı zamanda deneysel paketlerimiz var <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> için ve <a href="http://sid77.slackware.it/iphone">Apple iOS</a> için.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Elinizdeki sürümün doğruluğu nasıl teyit edilir</h3>
     <p>Tor Tarayıcı Pakedini kullanmadan önce, sahip olduğunuz sürümün doğruluğunu test etmelisiniz.</p>
     <p>Tarafınıza erişen yazılım paketine aynı isimde ve <strong>.asc</strong> uzantısında bir dosya eşlik edecektir. Bu .asc dosyası bir GPG imzasıdır ve indirdiğiniz dosyanın bizim almanızı niyet ettiğimiz dosya olduğunu teyit etmenize olanak tanır. </p>
@@ -57,7 +57,8 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Çıktı <em>"Good signature</em> demelidir. Kötü bir imza dosyayla oynandığı anlamına gelebilir. Eğer kötü bir imza görürseniz, paketi nereden edindiğiniz, imzayı nasıl teyit ettiğiniz ve GnuPG çıktısının detaylarını içeren bir epostayı help@rt.torproject.org adresine atın.</p>
     <p>Imzayı doğrulayıp <em>"Good signature"</em> çıktısını gördüyseniz, paketi arşivden çıkarabilirsiniz. Devamında <strong>tor-browser_en-US</strong> benzeri isimli bir dizin görmelisiniz. Bu dizin içerisinde <strong>Docs</strong> isimli başka bir dizin, ve bu dizinin içinde <strong>changelog</strong> isimli bir dosya bulunur. Dosya ismindeki sürüm numarası ve changelog dosyasının en tepesindeki sürüm numarasının eşleştiğinden emin olmak isteyebilirsiniz.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Tor Tarayıcı Paketi nasıl kullanılır</h3>
-    <p>Tor Tarayıcı Paketini indirdikten sonra, paketi masaüstünüze ya da USB sürücüsüne çıkarın. Birkaç dosya içeren bir dizininiz olacak. Bu dosyalardan biri yürütülebilirdir ve adı "Start Tor Browser"dır (ya da "start-tor-browser", işletim sisteminize göre değişmektedir)</p>
+    <p>### Tor Tarayıcı Paketi nasıl kullanılır
+Tor Tarayıcı Paketini indirip paketi açtığınızda, pakettin içerisinde birkaç dosya bulunan bir klasör çıkacaktır. Klasördeki dosyalardan bir tanesi "Start Tor Browser" (veya, işletim sisteminize göre "start-tor-browser") adında ".exe" dosyasıdır, çalıştırılabilir bir dosyadır.</p>
     <p>Tor Tarayıcı Paketini başlatığınızda, önce Vidalia'nın başladığını ve Tor ağına başlandığını göreceksiniz. Devamında, artık Tor kullandığınızı teyit eden bir tarayıcı göreceksiniz. Bu <a href="https://check.torproject.org/">https://check.torproject.org/</a> sayfasını ziyaretle gösterilir. Artık Internet'te Tor üzerinden gezinti yapabilirsiniz.</p>
     <p>
       <em>Lütfen dikkat: Bilgisayarınızdaki mevcut tarayıcıyı değil, paket içerisinde gelen tarayıcıyı kullanmanız önem taşımaktadır.</em>
