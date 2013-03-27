@@ -29,13 +29,13 @@
 είναι αρκετά μεγάλα, και δεν θα μπορέσετε να τα λάβετε σε λογαριασμό Gmail, Hotmail ή Yahoo. Αν δεν μπορείτε να λάβετε το πακέτο που θέλετε, στείλτε email στο help@rt.torproject.org και θα σας αποστείλουμε μια λίστα με διαθέσιμους διακομιστές για να το κατεβάσετε.</p>
     <h3 id="tor-for-smartphones">Tor για smartphones</h3>
     <p>Μπορείτε να βάλετε το Tor στο Android εγκαθιστώντας το πακέτο <em>Orbot</em>. Για πληροφορίες σχετικά με τη λήψη και την εγκατάσταση του Orbot, παρακαλούμε επισκεφτείτε την <a href="https://www.torproject.org/docs/android.html.en">Ιστοσελίδα του Tor Project</a>.</p>
-    <p>Παρέχουμε επίσης πειραματικά πακέτα για <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> και <a href="http://sid77.slackware.it/ios/">Apple iOS</a>.</p>
+    <p>Έχουμε επίσης πειραματικά πακέτα για το <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> και το <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Πώς να ελέγξετε αν έχετε τη σωστή έκδοση</h3>
     <p>Προτού εκκινήσετε το Πακέτο Φυλλομετρητή Tor, πρέπει να βεβαιωθείτε ότι έχετε τη σωστή έκδοση.</p>
     <p>Το λογισμικό που λαμβάνετε συνοδεύεται από ένα αρχείο που έχει το ίδιο όνομα με το πακέτο και την κατάληξη <strong>.asc</strong>.
  Αυτό το αρχείο .asc είναι η GPG υπογραφή, και σας επιτρέπει να επαληθεύσετε αν το αρχείο που λάβατε συμπίπτει ακριβώς με αυτό που εμείς παρέχουμε.</p>
     <p>Για να επαληθεύσετε την υπογραφή, θα πρέπει να κατεβάσετε και να εγκαταστήσετε το GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://www.gpgtools.org/">http://www.gpgtools.org/</a><br/><strong>Linux</strong>: Οι περισσότερες διανομές Linux έχουν το GnuPG προεγκατεστημένο.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Οι περισσότερες διανομές Linux έχουν το GnuPG προεγκατεστημένο.</p>
     <p>Ενδεχομένως να χρειαστεί να κάνετε αλλαγές στις παρακάτω διαδρομές και εντολές ώστε να λειτουργήσουν στο σύστημα σας.</p>
     <p>Η Erinn Clark υπογράφει τα πακέτα φυλλομετρητή Tor με το κλειδί 0x63FEE659. Για να εισάγετε το κλειδί της Erinn, εκτελέστε:</p>
     <pre>
@@ -49,13 +49,7 @@
     </pre>
     <p>Θα πρέπει να δείτε:</p>
     <pre>
-      <code>pub   2048R/63FEE659 2003-10-16
-      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
-uid                  Erinn Clark &lt;erinn@torproject.org&gt;
-uid                  Erinn Clark &lt;erinn@debian.org&gt;
-uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
-sub   2048R/EB399FD7 2003-10-16
-</code>
+      <code>pub 2048R/63FEE659 2003-10-16⏎ Αναγνωριστικό κλειδιού = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎ uid Erinn Clark &lt;erinn@torproject.org&gt;⏎ uid Erinn Clark &lt;erinn@debian.org&gt;⏎ ⏎ uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎ sub 2048R/EB399FD7 2003-10-16⏎ </code>
     </pre>
     <p>Για να επαληθεύσετε την υπογραφή του πακέτου που κατεβάσατε, εκτελέστε την ακόλουθη εντολή:</p>
     <pre>
@@ -65,7 +59,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Ως αποτέλεσμα θα πρέπει να εμφανίσει <em>"Good signature"</em>. Κακή υπογραφή (bad signature) σημαίνει ότι το αρχείο πιθανόν να έχει πειραχθεί. Αν εμφανιστεί κακή υπογραφή, στείλτε μας λεπτομέρειες για την τοποθεσία απ'όπου κατεβάσατε το πακέτο, τον τρόπο που επαληθεύσατε την υπογραφή, και το αποτέλεσμα από το GnuPG με email στο help@rt.torproject.org.</p>
     <p>Άπαξ και επαληθεύσετε την υπογραφή και δείτε ως αποτέλεσμα το μήνυμα <em>"Good signature"</em>, προχωρήστε στην αποσυμπίεση του πακέτου. Θα πρέπει να δείτε έναν φάκελο παρόμοιο με <strong>tor-browser_en-US</strong>. Μέσα σ'αυτόν τον φάκελο βρίσκεται ένας ακόμη φάκελος ονόματι <strong>Docs</strong>, που περιέχει ένα αρχείο με το όνομα <strong>changelog</strong>. Καλό είναι να επιβεβαιώσετε ότι ο αριθμός έκδοσης στην πρώτη γραμμή του αρχείου changelog ταυτίζεται με τον αριθμό έκδοσης στο όνομα του πακέτου.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Πώς να χρησιμοποιήσετε το Πακέτο Φυλλομετρητή Tor</h3>
-    <p>Αφού κατεβάσετε το Πακέτο Φυλλομετρητή Tor, αποσυμπιέστε το πακέτο στον υπολογιστή σας ή σε ένα στικάκι USB . Θα πρέπει να έχετε ένα κατάλογο που περιέχει μερικά αρχεία. Ένα από αυτά τα αρχεία είναι ένα εκτελέσιμο με το που λέγεται "Start Tor Browser" (ή "start-tor-browser", αναλόγως το λειτουργικό σας σύστημα).</p>
+    <p>Μετά τη λήψη του Tor Bundle Browser και την εξαγωγή του πακέτου, θα πρέπει να έχετε έναν κατάλογο με μερικά αρχεία σε αυτό. Ένα από τα αρχεία είναι ένα εκτελέσιμο αρχείο που ονομάζεται "Start Tor Browser" (ή "start-tor-browser", ανάλογα με το λειτουργικό σας σύστημα). </p>
     <p>Όταν εκκινήσετε το Πακέτο Φυλλομετρητή Tor, θα δείτε καταρχήν το Vidalia να εκκινεί και να σας συνδέει στο δίκτυο Tor. Αμέσως μετά, θα δειτε έναν φυλλομετρητή που θα επιβεβαιώνει ότι πλέον χρησιμοποιείτε το Tor, εμφανίζοντας τη σελίδα <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Από κει και πέρα μπορείτε να περιηγείστε στο διαδίκτυο μέσω του Tor.</p>
     <p>
       <em>Λάβετε υπ'όψιν ότι είναι σημαντικό να χρησιμοποιείτε τον φυλλομετρητή που περιλαμβάνεται στο πακέτο, αντί για τον δικό σας.</em>
