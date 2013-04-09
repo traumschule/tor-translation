@@ -56,12 +56,12 @@ sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>输出的结果应为 <em>Good signature</em>。错误签名表示该文件可能受到篡改。如果遇到错误签名，请把该软件包的下载地址、签名验证方式，以及 GunPG 的输出结果一并发送到 help-zh@rt.torproject.org。</p>
-    <p>当你已完成校验并看到 <em>&amp;quot;Good signature&amp;quot;</em> 的输出结果，请把软件包解压缩。然后你应该会看到一个类似 <strong>tor-browser_en-US</strong> 这样的文件夹。此文件夹里有另一个名为 <strong>Docs</strong> 的文件夹，内含一个 <strong>changelog</strong> 文件。请确保 changelog 里第一行的版本号与文件名中的版本号相符。</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">如何使用 Tor 浏览器软件包</h3>
+    <p>当你已完成验证并且输出结果是 <em>Good signature</em>，请把软件包解压缩。然后你应该会看到一个类似 <strong>tor-browser_en-US</strong> 这样的文件夹。此文件夹里有另一个名为 <strong>Docs</strong> 的文件夹，内含一个 <strong>changelog</strong> 文件。请确保 changelog 里第一行的版本号与文件名中的版本号相符。</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">如何使用 Tor Browser Bundle</h3>
     <p>下载 Tor Browser Bundle 并提取文件之后，将会出现一个包含几个文件的文件夹。其中包含一个可执行文件，文件名为“Start Tor Browser“（或”start-tor-browser“，这取决于你的操作系统）。</p>
-    <p>当你运行 Tor 浏览器软件包，你会首先看到 Vidalia 启动并把你接入到 Tor 网络。之后你会看到一个浏览器打开了 <a href="https://check.torproject.org/">https://check.torproject.org/</a>，确认你正在使用 Tor。现在你可以开始通过 Tor 来浏览互联网了。</p>
+    <p>运行 Tor Browser Bundle 时，首先启动 Vidalia 启动将用户连接到 Tor 网络，然后在浏览器打开 <a href="https://check.torproject.org/">https://check.torproject.org/</a>，确认你正在使用 Tor。现在你可以开始通过 Tor 来浏览互联网了。</p>
     <p>
-      <em>请注意，你必须使用软件包里的浏览器，而不是你自己的浏览器。这点至关重要。</em>
+      <em>请注意：务必使用该软件包附带的浏览器，不可使用用户自己安装的浏览器。这点至关重要。</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">当 Tor 无法连接时怎么办</h3>
     <p>有些用户会遇到 Vidalia 在尝试连接到 Tor 网络时卡住不动的情况。遇到这种情况，请确保你已连接到互联网。如果你需要通过代理服务器连接，请参阅下面的 <em>“如何使用代理服务器”</em>。</p>
