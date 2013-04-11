@@ -21,14 +21,14 @@
     <p>如需其他语言版本的 Tor，请在邮件正文内包含 <strong>help</strong>。你将收到一封电子邮件，内含可用语言版本的列表以及相关的指示说明。</p>
     <p><strong>注意</strong>：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，Gmail、Hotmail 或雅虎邮箱无法接收这些软件包。 如果无法获取所需的软件包，请发送邮件至 help-zh@rt.torproject.org（中文），我们会给提供你一份网站镜像列表。</p>
     <h3 id="tor-for-smartphones">智能手机版的 Tor</h3>
-    <p>你可以通过安装 <em>Orbot</em> 软件包以在你的 Android 设备上获取 Tor 。关于如何下载和安装 Orbot，请参看 <a href="https://www.torproject.org/docs/android.html.en">Tor Project 网站</a>。</p>
+    <p>在 Android 设备上安装 <em>Orbot</em> 软件包即可使用 Tor 网络。如何下载和安装 Orbot，请参阅 <a href="https://www.torproject.org/docs/android.html.en">Tor Project 网站</a>。</p>
     <p>另外，还提供用于 <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> 和 <a href="http://sid77.slackware.it/iphone/">Apple iOS</a> 的试验包。</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">如何验证你已拥有正确的版本</h3>
     <p>在运行 Tor 浏览器软件包之前，你应该确保你持有正确的版本。</p>
     <p>与你所收到的软件相对应，还有一个与该软件包文件名相同而扩展名为 <strong>.asc</strong> 的文件。这个 .asc 文件即 GPG 签名，用于验证是否下载了你想要的文件。</p>
     <p>在验证签名之前，需下载并安装 GnuPG：</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: 多数 Linux 发行版预装有 GnuPG 程序。</p>
-    <p>请注意：为了在你的系统上进行验证，能需要对下面所用的路径和命令进行相应的修改。</p>
+    <p>请注意：为了在你所用的系统上进行验证，可能需对下面所用的路径和命令进行相应的修改。</p>
     <p>Tor 浏览器软件由 Erinn Clark 使用密钥 0x63FEE659 签署。请执行以下命令导入 Erinn 的密钥：</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
@@ -56,7 +56,7 @@ sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>输出的结果应为 <em>Good signature</em>。错误签名表示该文件可能受到篡改。如果遇到错误签名，请把该软件包的下载地址、签名验证方式，以及 GunPG 的输出结果一并发送到 help-zh@rt.torproject.org。</p>
-    <p>当你已完成验证并且输出结果是 <em>Good signature</em>，请把软件包解压缩。然后你应该会看到一个类似 <strong>tor-browser_en-US</strong> 这样的文件夹。此文件夹里有另一个名为 <strong>Docs</strong> 的文件夹，内含一个 <strong>changelog</strong> 文件。请确保 changelog 里第一行的版本号与文件名中的版本号相符。</p>
+    <p>当你已完成验证并且输出结果是 <em>Good signature</em>，请把软件包解压缩，然后你应该会看到一个类似 <strong>tor-browser_en-US</strong> 这样的文件夹。此文件夹包含一个名为 <strong>Docs</strong> 的文件夹，其中有一个 <strong>changelog</strong> 文件。请确保 changelog 里第一行的版本号与文件名中的版本号相符。</p>
     <h3 id="how-to-use-the-tor-browser-bundle">如何使用 Tor Browser Bundle</h3>
     <p>下载 Tor Browser Bundle 并提取文件之后，将会出现一个包含几个文件的文件夹。其中包含一个可执行文件，文件名为“Start Tor Browser“（或”start-tor-browser“，这取决于你的操作系统）。</p>
     <p>运行 Tor Browser Bundle 时，首先启动 Vidalia 启动将用户连接到 Tor 网络，然后在浏览器打开 <a href="https://check.torproject.org/">https://check.torproject.org/</a>，确认你正在使用 Tor。现在你可以开始通过 Tor 来浏览互联网了。</p>
