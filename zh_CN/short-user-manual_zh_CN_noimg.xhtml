@@ -67,9 +67,9 @@ sub   2048R/EB399FD7 2003-10-16
     <p>有时，在尝试连接 Tor 网络时 Vidalia 会停滞不前。如果出现这种情况，请确保你已连接到互联网。如需通过代理服务器连接，请参阅下面的 “如何使用代理服务器”。</p>
     <p>如果互联网连接正常但 Tor 无法连接到网络，请尝试以下操作：打开 Vidalia 控制面板，点击“消息日志”，然后选择“高级”标签页。Tor 网络无法连接的原因可能在于：</p>
     <p><strong>你的系统时钟不准确</strong>：请确保你系统中的日期和时间正确，然后重启 Tor。你也许需要把系统时钟与网络时间服务器进行同步。</p>
-    <p><strong>你受限于防火墙软件</strong>：让 Tor 仅尝试 80 和 443 端口，打开 Vidalia 控制面板，点击 <em>设置</em>，<em>网络</em>，然后选中 <em>我的防火墙只允许我连接到指定端口</em> 的选项框。</p>
-    <p><strong>你的反病毒软件正在阻挡 Tor</strong>：请确保你的反病毒软件没有阻止 Tor 进行网络连接。</p>
-    <p>如果 Tor 仍然不能工作，那么可能是你的互联网服务提供商（ISP）正在阻挡 Tor。这通常可以使用 <strong>Tor 网桥</strong> —— 不易被阻挡的隐蔽中继服务器，来绕开阻挡。</p>
+    <p><strong>防火墙限制</strong>：为了让 Tor 仅使用 80 和 443 端口，请打开 Vidalia 控制面板，点击 <strong>设置</strong> &gt; <strong>网络</strong>，然后选中<strong>防火墙仅允许连接某些端口</strong>。</p>
+    <p><strong>杀毒软件封锁 Tor</strong>：请确保杀毒软件没有封锁 Tor 网络连接。</p>
+    <p>如果 Tor 仍然无法正常运行，可能是互联网服务提供商 (ISP) 封锁了 Tor。很多时候，可使用不易被封锁的隐藏中继 <strong>Tor 网桥</strong>来突破封锁。</p>
     <p>如何你需要帮助去判断为什么 Tor 无法连接，请发送电子邮件到 help@rt.torproject.org ，并附上日志文件的相关部分内容。</p>
     <h3 id="how-to-find-a-bridge">如何查找网桥</h3>
     <p>要使用网桥，你首先需要找一个。你可以浏览 <a href="https://bridges.torproject.org/">bridges.torproject.org</a> ，或者发送电子邮件到 bridges@torproject.org 。如果发送电子邮件，请你确保在电子邮件的正文区域内写上 <strong>get bridges</strong>。否则你将得不到回复。请注意你只能使用 gmail.com 或 yahoo.com 邮箱来发送此邮件。</p>
