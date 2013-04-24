@@ -70,23 +70,23 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>防火墙限制</strong>：为了让 Tor 仅使用 80 和 443 端口，请打开 Vidalia 控制面板，点击 <strong>设置</strong> &gt; <strong>网络</strong>，然后选中<strong>防火墙仅允许连接某些端口</strong>。</p>
     <p><strong>杀毒软件封锁 Tor</strong>：请确保杀毒软件没有封锁 Tor 网络连接。</p>
     <p>如果 Tor 仍然无法正常运行，可能是互联网服务提供商 (ISP) 封锁了 Tor。很多时候，可使用不易被封锁的隐藏中继 <strong>Tor 网桥</strong>来突破封锁。</p>
-    <p>如果因 Tor 无法连接需要帮助，请发送电子邮件到 help-zh@rt.torproject.org ，并附上日志文件仲相关部分的内容。</p>
+    <p>如果因 Tor 无法连接需要帮助，请发送电子邮件到 help-zh@rt.torproject.org ，并附上日志文件中相关部分的内容。</p>
     <h3 id="how-to-find-a-bridge">如何查找网桥</h3>
-    <p>如需使用网桥，首先需要获得一个网桥地址：浏览页面 <a href="https://bridges.torproject.org/">bridges.torproject.org</a>，或者发送电子邮件到 bridges@torproject.org 。发送电子邮件的方式需确保邮件正文含有 <strong>get bridges</strong> 字样，否则不会收到回复。请注意：需使用 gmail.com 或 yahoo.com 邮箱来发送该邮件。</p>
-    <p>配置一个以上的网桥地址，能让 Tor 的连接在某些网桥无法访问时更加稳定。你无法保证今天能使用的网桥明天仍然能用，所以你应该养成时常更新网桥列表的习惯。</p>
+    <p>如需使用网桥，首先需要获得一个网桥地址：浏览页面 <a href="https://bridges.torproject.org/">bridges.torproject.org</a>，或者发送电子邮件到 bridges@torproject.org 。发送电子邮件的方式需确保邮件正文含有 <strong>get bridges</strong> 字样，否则将不会收到回复。请注意：需使用 gmail.com 或 yahoo.com 邮箱来发送该邮件。</p>
+    <p>配置一个以上的网桥地址，能让 Tor 的连接在某些网桥无法访问时更加稳定。无法保证当前所用的网桥明天仍然能用，所以应养成时常更新网桥列表的习惯。</p>
     <h3 id="how-to-use-a-bridge">如何使用网桥</h3>
-    <p>当你找到些可用的网桥后，打开 Vidalia 控制面板，点击 <em>设置</em>，<em>网络</em>，然后勾上 <em>我的 ISP 阻挡了对 Tor 网络的连接</em> 的选项框。在下面的方框里填上网桥地址，点击 <em>确定</em> 并再次启动 Tor。</p>
-    <h3 id="how-to-use-an-open-proxy">如何使用代理服务器</h3>
-    <p>如果使用网桥无法凑效，请尝试配置 Tor 去使用任何 HTTPS 或 SOCKS 代理以取得与 Tor 网络的连接。也就是说即使 Tor 已被你的本地网络所阻挡，你也可以安全地透过代理服务器连接到 Tor 网络，去访问一个未经审查的互联网。</p>
-    <p>以下步骤假设你已有一套配置正确的 Tor/Vidalia ，并找到了一份 HTTPS、SOCKS4 或 SOCKS5 代理服务器的列表。</p>
+    <p>找到可用的网桥后，打开 Vidalia 控制面板，点击 <em>设置</em>，<em>网络</em>，然后勾选 <em>我的 ISP 阻挡了对 Tor 网络的连接</em> 的选项框。在下面的方框里填上网桥地址，点击 <em>确定</em> 并再次启动 Tor。</p>
+    <h3 id="how-to-use-an-open-proxy">如何使用开放代理</h3>
+    <p>如果使用网桥无法凑效，为了连接 Tor 网络请尝试对 Tor 进行配置，使其可使用任何 HTTPS 或 SOCKS 代理。也就是说，即使 Tor 已被本地网络阻挡，用户仍能可安全地通过开放代理连接到 Tor 网络，并访问一个未经审查的互联网。</p>
+    <p>如果已对 Tor/Vidalia 进行正确的配置，并获得了 HTTPS、SOCKS4 或 SOCKS5 代理列表，请按照一下步骤进行：</p>
     <ol style="list-style-type: decimal">
       <li>打开 Vidalia 控制面板，点击 <em>设置</em>。</li>
-      <li>点击 <em>网络</em>，选择 <em>我使用代理服务器连接到网络</em>。</li>
-      <li>在 <em>地址</em> 一栏里填上代理服务器的地址，这可以是主机名或IP地址。</li>
-      <li>填上代理服务器的端口。</li>
-      <li>一般来说，你并不需要用户名和密码。如果需要，则也相应的填上。</li>
-      <li>选择你在使用的代理服务器的 <em>类型</em>，可以是 HTTP/HTTPS，SOCKS4 或 SOCKS5。</li>
-      <li>点击 <em>确定</em> 按钮。Vidalia 和 Tor 现已成功配置为使用代理服务器连接到 Tor 网络。</li>
+      <li>点击 <em>网络</em>，选择 <em>使用代理服务器连接互联网</em>。</li>
+      <li>在 <em>地址</em> 栏输入开放代理地址，可以是主机名或 IP 地址。</li>
+      <li>输入代理端口。</li>
+      <li>通常，无需输入用户名和密码。如果需要，请在相应字段填写。</li>
+      <li>选择所用代理的 <em>类型</em>，可以是 HTTP/HTTPS、SOCKS4 或 SOCKS5。</li>
+      <li>点击 <em>确定</em> 按钮。现在，已将 Vidalia 和 Tor 配置为使用代理连接 Tor 网络。</li>
     </ol>
     <h2 id="frequently-asked-questions">常见问题</h2>
     <p>本节会回答一些最普遍的问题。如果你的问题没有在此处提及，请发送电子邮件至 help@rt.torproject.org 。</p>
