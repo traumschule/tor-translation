@@ -22,12 +22,12 @@
     <p><strong>注意</strong>：Linux 和 Mac OS X 的 Tor 浏览器软件包相当大，Gmail、Hotmail 或雅虎邮箱无法接收。 如果无法获取所需的软件包，请发送邮件至 help-zh@rt.torproject.org（中文），我们会给提供你一份网站镜像列表。</p>
     <h3 id="tor-for-smartphones">智能手机版的 Tor</h3>
     <p>在 Android 设备上安装 <em>Orbot</em> 软件包即可使用 Tor 网络。如何下载和安装 Orbot，请参阅 <a href="https://www.torproject.org/docs/android.html.en">Tor Project 网站</a>。</p>
-    <p>另外，还提供用于 <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> 和 <a href="http://sid77.slackware.it/iphone/">Apple iOS</a> 的试验包。</p>
+    <p>另外，还提供用于 <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> 和 <a href="http://sid77.slackware.it/iphone/">Apple iOS</a> 的体验软件包。</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">如何验证你已拥有正确的版本</h3>
     <p>在运行 Tor 浏览器软件包之前，你应该确保你持有正确的版本。</p>
     <p>与你所收到的软件相对应，还有一个与该软件包文件名相同而扩展名为 <strong>.asc</strong> 的文件。这个 .asc 文件即 GPG 签名，用于验证是否下载了你想要的文件。</p>
     <p>在验证签名之前，需下载并安装 GnuPG：</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: 多数 Linux 发行版预装有 GnuPG 程序。</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: 大多数 Linux 发行版已预装 GnuPG 程序。</p>
     <p>请注意：为了在你所用的系统上进行验证，可能需对下面所用的路径和命令进行相应的修改。</p>
     <p>Tor 浏览器软件由 Erinn Clark 使用密钥 0x63FEE659 签署。请执行以下命令导入 Erinn 的密钥：</p>
     <pre>
@@ -89,7 +89,7 @@ sub   2048R/EB399FD7 2003-10-16
       <li>点击 <em>确定</em> 按钮。现在，已将 Vidalia 和 Tor 配置为使用代理连接 Tor 网络。</li>
     </ol>
     <h2 id="frequently-asked-questions">常见问题</h2>
-    <p>本节会回答一些常见的问题。如果这里没有你问题的答案，请发送电子邮件至 help@rt.torproject.org 或 help-zh@rt.torproject.org。</p>
+    <p>本节会回答一些常见的问题。如果这里没有你问题的答案，请发送电子邮件至 help@rt.torproject.org 或 help-zh@rt.torproject.org（中文）。</p>
     <h3 id="unable-to-extract-the-archive">无法解压文档</h3>
     <p>如果你的系统为 Windows 且无法解压文档，请下载并安装 <a href="http://www.7-zip.org/">7-Zip</a>。</p>
     <p>如果无法下载 7-Zip，请尝试将 .z 文件重命名为 .zip，然后用 WinZip 解压文档。在重命名之前，需将 Windows 设置为可显示文件扩展名：</p>
@@ -117,16 +117,16 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="vidalia-asks-for-a-password">Vidalia 要求输入密码</h3>
     <p>启动 Vidalia 时无需输入密码。如果出现密码输入提升，可能存在以下问题：</p>
     <p><strong>Vidalia 和 Tor 已在运行</strong>：例如，如果已安装 Vidalia 软件包，在尝试运行 Tor Browser Bundle 时可能出现这种情况。这时需关闭旧版的 Vidalia 和 Tor，然后运行当前版本。</p>
-    <p><strong>Vidalia 崩溃了，但 Tor 仍在运行</strong>： 如果控制密码提示对话框有”重置“按钮， 可点击该按钮。Vidalia 将使用新的随机控制密码重启 Tor。 如果没有”重置“按钮，或者 Vidalia 无法重启 Tor， 请打开进程或任务管理器，结束 Tor 进程，然后再用 Vidalia 来重启 Tor。</p>
+    <p><strong>Vidalia 崩溃了，但 Tor 仍在运行</strong>： 如果控制密码提示框有”重置“按钮， 可点击该按钮。Vidalia 将使用新的随机控制密码重启 Tor。 如果没有”重置“按钮，或者 Vidalia 无法重启 Tor， 请打开进程或任务管理器，结束 Tor 进程，然后再用 Vidalia 来重启 Tor。</p>
     <p>更多信息，请参阅 Tor Project 网站上的<a href="https://torproject.org/docs/faq.html#VidaliaPassword">常见问题</a>。</p>
     <h3 id="flash-does-not-work">Flash 无法运行</h3>
     <p>出于安全考虑，当前 Tor 禁用了 Flash、Java 和其他插件。插件的运行独立于 Firefox，并且在计算机上某些活动可对你的匿名性造成危害。</p>
-    <p>大多数 YouTube 视频兼容 HTML5，而 Tor 可以用于观看这些视频。你需要在 YouTube 网站上加入 <a href="https://www.youtube.com/html5">HTML5 体验计划</a> 才能使用 HTML5 播放器。</p>
-    <p>请注意，浏览器被关闭后不会记住你加入过体验计划，所以你下次运行 Tor 浏览器软件包时将需要重新加入体验计划。</p>
-    <p>请参阅 <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton 常见问题</a> 以了解更多信息。</p>
+    <p>大多数 YouTube 视频兼容 HTML5，通过 Tor 网络可以观看这些视频。需在 YouTube 网站上加入 <a href="https://www.youtube.com/html5">HTML5 体验计划</a> 才能使用 HTML5 播放器。</p>
+    <p>请注意：Tor Browser Bundle 中浏览器在关闭后不会记住你已加入体验计划，所以下次运行该软件时需重新加入体验计划。</p>
+    <p>更多信息，请参阅 <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton 常见问题</a> 。</p>
     <h3 id="i-want-to-use-another-browser">我想使用其它浏览器</h3>
-    <p>基于安全理由，我们推荐你仅使用 Tor 浏览器软件包来浏览互联网。Tor 在技术上是可以和其它浏览器一起使用的，但这样做你就迎向了潜在的攻击。</p>
+    <p>基于安全理由，我们推荐使用 Tor Browser Bundle 来浏览互联网。在技术上 Tor 可与其它浏览器一起使用，但这样做存在遭受潜在攻击的风险。</p>
     <h3 id="why-tor-is-slow">为什么 Tor 这么慢</h3>
-    <p>Tor 有时候会比你正常的互联网连接慢一些。毕竟，你的流量穿越着许多不同国家，跨洋过海的传送。</p>
+    <p>Tor 有时比正常互联网连接慢一些。要知道，你发送的数据需通过多个国家，甚至需跨越海洋大陆才能抵达目的地。</p>
   </body>
 </html>
