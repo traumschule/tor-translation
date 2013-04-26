@@ -25,7 +25,7 @@
     <p>Nous avons également des archives expérimentales pour <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> et <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Comment vérifier que vous avez la bonne version</h3>
     <p>Avant d'utiliser le Tor Browser Bundle, vous devriez vous assurer que vous disposez bien de la bonne version.</p>
-    <p>Le logiciel que vous recevez est accompagné d'un fichier qui porte le même nom que l'archive avec l'extension <strong>.asc</strong>. Ce fichier .asc est une signature GPG et va vous permettre de vérifier que le fichier que vous avez téléchargé est exactement celui que nous voulons vous fournir.</p>
+    <p>Le logiciel que vous recevez est accompagné d'un fichier qui porte le même nom que le pack avec l'extension <strong>.asc</strong>. Ce fichier .asc est une signature GPG et va vous permettre de vérifier que le fichier que vous avez téléchargé est exactement celui que nous voulons vous fournir.</p>
     <p>Avant de pouvoir vérifier la signature, vous devez télécharger et installer GnuPG :</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La plupart des distributions Linux embarque une version pré-installée de GnuPG.</p>
     <p>Veuillez noter qu'il peut-être nécessaire d'adapter les chemins et les commandes utilisés ci-dessous pour les faire fonctionner sur votre PC.</p>
@@ -39,7 +39,7 @@
       <code>gpg --fingerprint 0x63FEE659
 </code>
     </pre>
-    <p>Vous devriez voir:</p>
+    <p>Vous devriez voir :</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
@@ -50,12 +50,12 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>Pour vérifier la signature du paquet que vous venez de télécharger, exécutez la commande suivante:</p>
+    <p>Pour vérifier la signature du pack que vous venez de télécharger, exécutez la commande suivante :</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
     </pre>
-    <p>Si tout est bon <em>&amp;quot;Signature correcte&amp;quot;</em> devrait s'afficher. Une mauvaise signature signifie que le fichier peut avoir été altéré ou corrompu. Si vous voyez une signature incorrecte, envoyer les informations concernant le site où vous avez téléchargé le paquet, comment vous avez vous vérifié la signature, et le résultat de GnuPG par email à help@rt.torproject.org.</p>
+    <p>Si tout est bon, « <em>Bonne signature</em> » ou « <em>Good signature</em> » devrait s'afficher. Une mauvaise signature signifie que le fichier peut avoir été altéré ou corrompu. Si vous voyez une signature incorrecte, envoyer les informations concernant le site où vous avez téléchargé le pack, comment vous avez vérifié la signature, et la sortie de la commande GnuPG par email à help-fr@rt.torproject.org.</p>
     <p>Dès lors que vous avez vérifié la signature et vu le message &amp;quot;signature correcte&amp;quot;, poursuivez en décompactant le package. Vous devez obtenir un dossier identique à <strong>tor-browser_en-US</strong>. A l'intérieur de ce dossier vous trouverez un sous-dossier nommé <strong>Docs</strong> contenant un fichier nommé <strong>changelog</strong>. Vous devez vous assurer que le numéro de version apparaissant en haut du fichier changelog correspond au numéro de version du nom du fichier.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Comment utiliser le Navigateur Tor?</h3>
     <p>Après avoir téléchargé et décompressé l'archive Tor Browser Bundle, vous devriez avoir un répertoire contenant quelques fichiers. Un de ces fichiers est un exécutable nommé "Start Tor Browser" (ou "start-tor-browser", selon votre système d'exploitation).</p>
