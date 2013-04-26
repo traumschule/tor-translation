@@ -25,16 +25,16 @@
     <p>Nous avons également des archives expérimentales pour <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> et <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Comment vérifier que vous avez la bonne version</h3>
     <p>Avant d'utiliser le Tor Browser Bundle, vous devriez vous assurer que vous disposez bien de la bonne version.</p>
-    <p>Le logiciel que vous allez recevoir est accompagné d'un fichier qui porte le même nom que le package avec l'extension <strong>.asc</strong>. Ce fichier .asc est un signature GPG et va vous permettre de vérifier que le fichier que vous avez téléchargé est exactement celui que vous souhaitez obtenir.</p>
-    <p>Avant de pouvoir vérifier la signature, vous devez télécharger et installer GnuPG:</p>
+    <p>Le logiciel que vous recevez est accompagné d'un fichier qui porte le même nom que l'archive avec l'extension <strong>.asc</strong>. Ce fichier .asc est une signature GPG et va vous permettre de vérifier que le fichier que vous avez téléchargé est exactement celui que nous voulons vous fournir.</p>
+    <p>Avant de pouvoir vérifier la signature, vous devez télécharger et installer GnuPG :</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La plupart des distributions Linux embarque une version pré-installée de GnuPG.</p>
-    <p>Veuillez noter qu'il peut-être nécessaire de modifier les chemins et les commandes utilisés ci-dessous pour le faire fonctionner sur votre PC.</p>
-    <p>Le package Navigateur Tor est signé avec la clé 0x63FEE659 par Erinn Clark. Pour importer la clé de Erinn, lancer:</p>
+    <p>Veuillez noter qu'il peut-être nécessaire d'adapter les chemins et les commandes utilisés ci-dessous pour les faire fonctionner sur votre PC.</p>
+    <p>Erinn Clark signe le Tor Browser Bundle avec la clé 0x63FEE659. Pour importer la clé d'Erinn, lancer la commande suivante :</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>Après avoir importé la clé, vérifiez que l'empreinte est correcte:</p>
+    <p>Après avoir importé la clé, vérifiez que l'empreinte est correcte :</p>
     <pre>
       <code>gpg --fingerprint 0x63FEE659
 </code>
