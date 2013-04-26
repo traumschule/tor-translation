@@ -69,24 +69,24 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>L'horloge système est déréglée</strong> : assurez-vous que la date et l'heure de votre système sont correctes, et relancez Tor. Il est possible qu'il soit nécessaire de synchroniser votre horloge système avec un serveur de temps sur Internet.</p>
     <p><strong>Vous êtes derrière un pare-feu filtrant</strong> : pour dire à Tor de n'essayer que les ports 80 et 443, ouvrez le panneau de configuration de Vidalia, cliquer sur <em>Paramètres</em> et <em>Réseau</em>, et cochez la case disant <em>Mon parefeu me laisse me connecter seulement à certains ports</em>.</p>
     <p><strong>Votre antivirus bloque Tor</strong> : assurez-vous que votre programme antivirus n’empêche pas les connexions au réseau Tor.</p>
-    <p>Si Tor ne fonctionne toujours pas, il est probable que votre Fournisseur d'Accès Internet (FAI) bloque Tor. Très souvent cela peut être contourné à l'aide de <strong>ponts Tor</strong>, des relais cachés qui sont moins faciles à bloquer.</p>
+    <p>Si Tor ne fonctionne toujours pas, il est probable que votre fournisseur d'accès à Internet (FAI) bloque Tor. Très souvent cela peut être contourné à l'aide de <strong>passerelles (<em>bridges</em>)</strong>, des relais cachés qui sont moins faciles à bloquer.</p>
     <p>Si vous avez besoin d'aide pour comprendre pourquoi Tor ne peut pas se connecter, envoyez un courriel à help-fr@rt.torproject.org avec les informations pertinentes du journal des messages.</p>
     <h3 id="how-to-find-a-bridge">Comment trouver une passerelle</h3>
-    <p>Pour utiliser un <em>bridge</em>, vous devez d'abord en trouver un ; vous pouvez soit pointer un navigateur sur <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, soit envoyer un courriel à bridges@torproject.org. Si vous envoyez un courriel, assurez-vous d'écrire <strong>get bridges</strong> dans le corps du message. Sans quoi, vous n'obtiendrez pas de réponse. Notez que vous devez envoyer ce courriel en provenance d'une adresse gmail.com ou yahoo.com.</p>
-    <p>Configurer plus d'une adresse de passerelle rendra votre connexion Tor plus stable, dans le cas ou une ou des passerelles deviendraient injoignables. Il n'y a aucune garantie que la passerelle que vous utilisez aujourd'hui fonctionne encore demain, vous devriez donc prendre l'habitude de mettre à jour votre liste de passerelle le plus souvent possible.</p>
-    <h3 id="how-to-use-a-bridge">Comment utiliser une passerelle?</h3>
-    <p>Une fois que vous avez un ensemble de passerelles à utiliser, ouvrez le panneau de contrôle de Vidalia, cliquez sur <em>Paramètres</em>, <em>Réseau</em> et cochez la case qui dit <em>Mon fournisseur d'accès à Internet bloque les connexions au réseau Tor</em>. Entrez les passerelles dans la boîte ci-dessous, cliquez <em>OK</em> et relancez Tor à nouveau.</p>
-    <h3 id="how-to-use-an-open-proxy">Comment utiliser un proxy ouvert?</h3>
-    <p>Si vous utilisez une passerelle et que cela ne fonctionne pas, essayez de configurer Tor pour utiliser n'importe quel protocole HTTPS ou proxy SOCKS afin d'accéder au réseau Tor. Cela signifie que si Tor est bloqué par votre réseau local, les serveurs mandataires ouverts peuvent être utilisés de manière sûr pour se connecter au réseau Tor et à l'Internet non censuré.</p>
-    <p>Les étapes ci-dessous supposent que vous avez une configuration Tor/Vidalia fonctionnelle, et que vous avez trouvé une liste de proxies HTTPS, SOCKS4 ou SOCKS5.</p>
+    <p>Pour utiliser une passerelle (aussi appelé <em>bridge</em>), vous devez d'abord en trouver une ; vous pouvez soit pointer un navigateur sur <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, soit envoyer un courriel à bridges@torproject.org. Si vous envoyez un courriel, assurez-vous d'écrire <strong>get bridges</strong> dans le corps du message. Sans quoi, vous n'obtiendrez pas de réponse. Notez que vous devez envoyer ce courriel en provenance d'une adresse gmail.com ou yahoo.com.</p>
+    <p>Configurer plus d'une seule passerelles rendra votre connexion Tor plus stable, dans le cas où certaines d'entre elles deviendraient injoignables. Il n'y a aucune garantie que les passerelles que vous utilisez aujourd'hui fonctionnent encore demain, vous devriez donc prendre l'habitude de mettre à jour votre liste de temps en temps.</p>
+    <h3 id="how-to-use-a-bridge">Comment utiliser une passerelle</h3>
+    <p>Une fois que vous avez une liste de passerelles à utiliser, ouvrez le panneau de contrôle de Vidalia, cliquez sur <em>Paramètres</em>, <em>Réseau</em> et cochez la case <em>Mon fournisseur d'accès à Internet bloque les connexions au réseau Tor</em>. Entrez les passerelles dans la boîte ci-dessous, cliquez <em>OK</em> et relancez Tor à nouveau.</p>
+    <h3 id="how-to-use-an-open-proxy">Comment utiliser un <em>proxy</em> ouvert</h3>
+    <p>Si utiliser une passerelle ne fonctionne pas, essayez de configurer Tor pour utiliser n'importe quel <em>proxy</em> HTTPS ou SOCKS afin d'accéder au réseau Tor. Au cas où Tor est bloqué par votre réseau local, des <em>proxies</em> ouverts peuvent être utilisés sans risques pour se connecter au réseau Tor et, de là, à un Internet non censuré.</p>
+    <p>Les étapes ci-dessous supposent que vous avez une configuration de Tor/Vidalia fonctionnelle, et que vous avez trouvé une liste de <em>proxies</em> HTTPS, SOCKS4 ou SOCKS5.</p>
     <ol style="list-style-type: decimal">
       <li>Ouvrez le panneau de contrôle de Vidalia, cliquez sur <em>Paramètres</em>.</li>
-      <li>Cliquez sur <em>Réseau</em>. Sélectionnez <em>J'utilise un serveur mandataire pour accéder à Internet</em>.</li>
-      <li>Sur la ligne <em>Address</em> -Adresse-, saisir l'adresse du proxy ouvert. Cela peut être soit un nom d'hôte soit une adresse IP.</li>
-      <li>Entrer le port pour le proxy.</li>
-      <li>Généralement vous n'avez pas besoin d'un nom d'utilisateur et d'un mot de passe. Si c'est le cas, entrez les informations dans les champs appropriés.</li>
-      <li>Choisissez le <em>Type</em> de proxy que vous utilisez, soit HTTP/HTTPS, SOCKS4 ou SOCKS5.</li>
-      <li>Cliquer sur le bouton <em>OK</em> Vidalia et Tor sont à présent configurés pour utiliser un proxy pour accéder au reste du réseau Tor.</li>
+      <li>Cliquez sur <em>Réseau</em>. Sélectionnez <em>J'utilise un serveur mandataire (proxy) pour accéder à Internet</em>.</li>
+      <li>Sur la ligne <em>Addresse</em>, saisir l'adresse du <em>proxy</em> ouvert. Cela peut être soit le nom du serveur soit son adresse IP.</li>
+      <li>Entrer le port pour le <em>proxy</em>.</li>
+      <li>Généralement, vous n'avez pas besoin d'un nom d'utilisateur et d'un mot de passe. Si c'est le cas, entrez les informations dans les champs appropriés.</li>
+      <li>Choisissez le <em>Type</em> de <em>proxy</em> que vous utilisez, soit HTTP / HTTPS, SOCKS4 ou SOCKS5.</li>
+      <li>Appuyez sur le bouton <em>OK</em>. Vidalia et Tor sont à présent configurés pour utiliser un proxy pour accéder au reste du réseau Tor.</li>
     </ol>
     <h2 id="frequently-asked-questions">Foire aux questions</h2>
     <p>Cette section répondra à certaines des questions les plus courantes. Si votre question n'est pas mentionnée ici, s'il vous plaît envoyez un email à help@rt.torproject.org.</p>
