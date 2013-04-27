@@ -22,12 +22,12 @@
     <p><strong>Imajte na umu</strong>: Tor paket za Linux i Mac OS X su veliki fajlovi i necete ih moci dobiti preko mejla ako koristite Gmail,Hotmail ili Yahoo. Ako niste u mogucnosti da dobijete paket koji ste zeleli, posaljite emaj na help@rt.torproject.org  i mi cemo vam poslati listu stranica odakle mozete preuzeti zeljeni paket.</p>
     <h3 id="tor-for-smartphones">Tor za telefone</h3>
     <p>Mozete preuzeti Tor na svom Android uredjaju tako sto cete instalirati paket zvan <em>Orbot</em>. Za vise informacija o tome kako preuzeti i instalirati Orbot, pogledajte  <a href="https://www.torproject.org/docs/android.html.en">Tor Project stranicu</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>Takodjer imamo eksperimentalne paketa za <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Kako proveriti da li imate pravu verziju</h3>
     <p>Pre nego sto pokrenete Tor paket, terbalo bi da proverite da li imate pravu verziju.</p>
     <p>Software koji dobijete dolazi sa istoimenim fajlom i <strong>.asc</strong> nastavkom. Ovaj .asc fajl je GPG potpis i omogucava vam da proverite  da fajl koji ste preuzeli  je autentican.</p>
     <p>Pre nego sto mozete verifikovati potpis, morate preuzeti i instalirati GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Vecina Linux distribucija imaju GnuPG instaliran.</p>
     <p>Imajte na umu da je moguce da cete morati promeniti adrese i komande koristene ispod da bi program radio na vasem sistemu.</p>
     <p>Erinn Clark potpisuje Tor paket sa kljucem 0x63FEE659. Da bi uneli njen kljuc, pokrenite:</p>
     <pre>
@@ -55,7 +55,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Odgovor bi trebo biti <em>"Good signature"</em>. Los potpis znaci da je moguce da je fajl bio menjan. Ako vidite los potpis posaljite detalje o stranici gde ste preuzeli paket, kako ste proverili da li je potpis tacan i poruku koju ste dobili u GnuPG programu preko mejla na help@rt.torproject.org.</p>
     <p>Nako sto ste proverili potpis i videli <em>"Good signature"</em> poruku, mozete ekstraktovati arhivu. Dobicete folder zvan <strong>tor-browser_en-US</strong>. Taj folder sadrzi joj jedan folder zvan <strong>Docs</strong>, koji sadrzi fajl zvan changelog. Uverite se da broj verzije u prvoj liniji <strong>changelog</strong> fajla odgovara broj verzije u imenu fajla.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Kako koristiti Tor pretrazivac</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Nakon sto ste preuzeli i ekstraktovali Tor paket, trebalo bi da imate folder koji sadrzi nekoliko fajlova. Jedan od ovih fajlova je exe fajl zvan "Start Tor Browser" (ili "start-tor-browser", ime zavisi od vaseg operativnog sistema) koji mozete pokrenuti.</p>
     <p>Kada pokrenete Tor pretrazivac, Vidalia ce se pokrenuti i povezace vas na Tor mrezu. Posle toga, videcete otvoren pretrazivac, sto ce potvrditi da sada koristite Tor. Potvrda je izvrsena tako sto se prikazuje  <a href="https://check.torproject.org/">https://check.torproject.org/</a>. 
 
 Sada mozete pretrazivati internet kroz Tor.</p>
@@ -63,19 +63,19 @@ Sada mozete pretrazivati internet kroz Tor.</p>
       <em>Molimo da obratite paznju da je vazno da korisite pretrazivac koji ste preuzeli kao deo Tor paketa, a ne vas pretrazivac koji ste imali pre.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Sta uraditi kada se Tor ne poveze</h3>
-    <p>Neki korisnici ce primetiti da se Vidalia 'zaledi' kad pokusava da se poveze na Tor mrezu.</p>
+    <p>Neki korisnici ce primetiti da Vidalia koci kad pokusava da se poveze na Tor mrezu. Ako se ovo desi, prvo potvrdite da ste uspesno povezani na Internet. Ako treba da se povezete na proxy server, pogledajte <em>Kako da koristite otvoren proxy</em> ispod.</p>
     <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
     <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
+    <h3 id="how-to-find-a-bridge">Kako pronaci most</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
+    <h3 id="how-to-use-a-bridge">Kako koristiti most</h3>
     <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
+    <h3 id="how-to-use-an-open-proxy">Kako koristiti otvoren proxy</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
@@ -87,45 +87,45 @@ Sada mozete pretrazivati internet kroz Tor.</p>
       <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+    <h2 id="frequently-asked-questions">Cesto postavljana pitanja</h2>
     <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
     <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Otvorite<em>My Computer</em></li>
+      <li>Klikni te na <em>Tools</em> i izaberite<em>Folder Options...</em> iz menija.</li>
+      <li>Kliknite na <em>View</em> dugme.</li>
+      <li>Ponistite<em>Hide extensions for known file types</em> i klinkite <em>OK</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Otvorite<em>Computer</em></li>
+      <li>Kliknite na <em>Organize</em> i izaberite <em>Folder and search options</em> iz menija.</li>
+      <li>Kliknite na <em>View</em> dugme.</li>
+      <li>Ponistite<em>Hide extensions for known file types</em> i klinkite <em>OK</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Otvorite<em>Computer</em></li>
+      <li>Kliknite na <em>Organize</em> i izaberite <em>Folder and search options</em> iz menija.</li>
+      <li>Kliknite na <em>View</em> dugme.</li>
+      <li>Ponistite<em>Hide extensions for known file types</em> i klinkite <em>OK</em></li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
+    <h3 id="vidalia-asks-for-a-password">Vidalia trazi lozinku</h3>
     <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
+    <p>Z vise informacija, pogledajte <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> na Tor Project web sajtu.</p>
+    <h3 id="flash-does-not-work">Flash ne radi</h3>
     <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
+    <p>Molimo pogledajte <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> za vise informacija.</p>
+    <h3 id="i-want-to-use-another-browser">Ja hocu da korisitm drugi internet pretrazivac</h3>
     <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <h3 id="why-tor-is-slow">Zasto je Tor spor</h3>
+    <p>Tor moze ponekad biti malo sporiji nego sto vasa intenet konekcija dozvoljava. Na kraju krajeva, vas intenet saobracaj se salje kroz mnogo razlicitih zemalja, ponekad i preko okeana sirom sveta!</p>
   </body>
 </html>
