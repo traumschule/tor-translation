@@ -22,7 +22,7 @@
     <p><strong>注</strong>: Linux用とMac OS X用のTor Browser Bundleはやや大きいので、GmailやHotmail、Yahooアカウントでは受けとることが出来ないでしょう。もしあなたが欲しいバンドルを受け取れない時は、help@rt.torproject.orgまでメールを送ってください。利用可能なミラーサイトの一覧を送ります。</p>
     <h3 id="tor-for-smartphones">スマートフォンのためのTor</h3>
     <p><em>Orbot</em>という名前のパッケージをインストールすることでAndroid端末用のTorを入手出来ます。Orbotのダウンロードとインストールの方法は<a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>を見てください。</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>また、 <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> と<a href="http://sid77.slackware.it/iphone/">Apple iOS</a>用の実験的なパッケージもあります。</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">正しいバージョンか検証する方法</h3>
     <p>Tor Browser Bundleを実行する前に、正しいバージョンを持っていることを確認するべきです。</p>
     <p>あなたが受け取ったソフトウェアにはバンドルの名前の後に<strong>.asc</strong>の拡張子がついたファイルが付属しています。この.ascファイルはGPGの署名で、あなたがダウンロードしたファイルが私たちがあなたが受けとることを意図したものと正確に一致するかを検証出来ます。</p>
@@ -42,7 +42,7 @@
     <p>以下のように表示されるはずです:</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
-      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
 uid                  Erinn Clark &lt;erinn@torproject.org&gt;
 uid                  Erinn Clark &lt;erinn@debian.org&gt;
 
@@ -58,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>出力は<em>"正しい署名"</em>になるはずです。不正な署名はファイルが改竄されているかもしれないことを意味します。もしあなたが不正な署名を確認したら、パッケージをどこからダウンロードしたか、どのように署名を検証したか、それにGnuPGの出力をhelp@rt.torproject.orgにメールで送ってください。</p>
     <p>署名を検証して<em>"正しい署名"</em>の出力が得られたら、先に進みパッケージアーカイブを展開します。<strong>tor-browser_en-US</strong>のようなディレクトリができるはずです。このディレクトリには<strong>Docs</strong>という名前のディレクトリがあり、その下に<strong>changelog</strong>という名前のファイルがあります。changelogファイルの先頭行のバージョン番号がファイル名のバージョン番号と一致することを確認してください。</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Tor Browser Bundleの使い方</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Tor Browser Bunldeをダウンロードした後、パッケージをデスクトップかUSBメモリに展開します。いくつかのファイルを含むディレクトリが出来るはずです。ファイルの一つは実行可能な"Start Tor Browser"(またはオペレーティングシステムによっては"start-tor-browser")です。</p>
     <p>Tor Browser Bundleを開始すると、まずVidaliaが起動しTorネットワークへ接続されます。その後、Torを使っていることを確認する画面が表示されます。これは<a href="https://check.torproject.org/">https://check.torproject.org/</a>を表示することで行われます。これでインターネットをTor経由で利用する準備が整いました。</p>
     <p>
       <em>あなたのブラウザーではなく、バンドルに付属するブラウザーを利用することが重要であるということに注意してください。</em>
