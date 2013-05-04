@@ -28,19 +28,19 @@
 <!ENTITY torsettings.useProxy.port "端口：">
 <!ENTITY torsettings.useProxy.username "用户名：">
 <!ENTITY torsettings.useProxy.password "密码：">
-<!ENTITY torsettings.useProxy.type "">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
-<!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useProxy.type "类型：">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.firewall.checkbox "我的防火墙仅允许连接某些端口">
+<!ENTITY torsettings.firewall.allowedPorts "允许的端口：">
+<!ENTITY torsettings.useBridges.checkbox "我的互联网服务提供商 (ISP) 封锁了 Tor 网络连接">
+<!ENTITY torsettings.useBridges.label "请以“地址:端口”的格式输入一个或多个网桥中继。">
+<!ENTITY torsettings.useBridges.placeholder "地址:端口">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.copyLog "请将 Tor 日志复制到剪贴板">
+<!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
+<!ENTITY torsettings.bridgeHelp1 "如果无法连接 Tor 网络，可能是因为互联网服务提供商 (ISP) 封锁了 Tor。通常，利用更难以封锁的隐藏中继 Tor 网桥可以应对这一问题。">
+<!ENTITY torsettings.bridgeHelp2 "如需获取网桥，请使用浏览器访问以下页面：https://bridges.torproject.org">
 
-<!ENTITY torsettings.bridgeHelp3 "">
+<!ENTITY torsettings.bridgeHelp3 "获取公共网桥地址还有一个方式：发送邮件至 bridges@torproject.org，并在正文中填上“get bridges”。不过，为了放置攻击者获得大量网桥地址，发送邮件的电子邮件地址必须来自以下域名：gmail.com 或 yahoo.com。">
