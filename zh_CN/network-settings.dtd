@@ -12,22 +12,22 @@
 <!ENTITY torSettings.proxyHelp "如果不知道如何回答该问题，请在其他浏览器中查看互联网设置，检查是否使用了代理。">
 <!ENTITY torSettings.enterProxy "请输入代理设置。">
 <!ENTITY torSettings.firewallQuestion "你的防火墙是否只允许特定端口的互联网连接？">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.firewallHelp "如果不知道如何回答该问题，请选择否。如果出现问题，请更改该设置。">
+<!ENTITY torSettings.enterFirewall "请输入防火墙允许的端口列表，中间用逗号隔开。">
+<!ENTITY torSettings.bridgeQuestion "如果互联网服务提供商 (ISP) 封锁了 Tor 网络的连接，那么需要使用网桥中继。">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "等待 Tor 启动...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "可选">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.address "">
-<!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "">
-<!ENTITY torsettings.useProxy.username "">
-<!ENTITY torsettings.useProxy.password "">
+<!ENTITY torsettings.useProxy.checkbox "使用代理访问互联网">
+<!ENTITY torsettings.useProxy.address "地址：">
+<!ENTITY torsettings.useProxy.address.placeholder "IP 地址或主机名">
+<!ENTITY torsettings.useProxy.port "端口：">
+<!ENTITY torsettings.useProxy.username "用户名：">
+<!ENTITY torsettings.useProxy.password "密码：">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.type.socks4 "">
 <!ENTITY torsettings.useProxy.type.socks5 "">

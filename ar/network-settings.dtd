@@ -2,15 +2,15 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "قبل أن يحاول متصفح تور الاتصال بالإنترنت، نحتاج منك توفير بعض المعلومات عن اتصال الإنترنت الخاص بك.">
 
 <!ENTITY torSettings.yes "نعم">
 <!ENTITY torSettings.no "لا">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "هل تستخدم بروكسي للوصول إلي الإنترنت؟">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
+<!ENTITY torSettings.proxyHelp "إذا لم تكن متأكد من كيفية الإجابة على هذا السؤال، يمكنك الاطلاع علي إعدادات الإنترنت لمتصفح اخر للتأكد إذا كنت تستخدم بروكسي للوصول إلي الإنترنت.">
+<!ENTITY torSettings.enterProxy "إدخل إعدادات البروكسي الخاص بك.">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
@@ -18,27 +18,27 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "في انتظار تور حتي يبدء بالعمل...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "اختياري">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.address "">
-<!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "">
-<!ENTITY torsettings.useProxy.username "">
-<!ENTITY torsettings.useProxy.password "">
-<!ENTITY torsettings.useProxy.type "">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
-<!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "">
+<!ENTITY torsettings.useProxy.checkbox "انا استخدم بروكسي للوصول إلي الإنترنت">
+<!ENTITY torsettings.useProxy.address "العنوان:">
+<!ENTITY torsettings.useProxy.address.placeholder "عنوان الإنترنت IP أو اسم المضيف">
+<!ENTITY torsettings.useProxy.port "المنفذ:">
+<!ENTITY torsettings.useProxy.username "اسم المستخدم:">
+<!ENTITY torsettings.useProxy.password "كلمة السر:">
+<!ENTITY torsettings.useProxy.type "النوع:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.firewall.checkbox "جدار الحماية الخاص بي يسمح بالاتصال فقط من خلال منافذ محددة">
+<!ENTITY torsettings.firewall.allowedPorts "المنافذ المسموح بها:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "العنوان:المنفذ">
 
-<!ENTITY torsettings.copyLog "">
+<!ENTITY torsettings.copyLog "نسخ سجل تور إلي الحافظة">
 <!ENTITY torsettings.bridgeHelpTitle "">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
