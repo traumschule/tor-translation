@@ -1,17 +1,17 @@
-<!ENTITY torsettings.dialog.title "إعدادات الشبكة الخاصة بتور">
+<!ENTITY torsettings.dialog.title "Tor 网络设置">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "在 Tor Browser 尝试连接互联网之前，你需要提供一些互联网连接相关的信息。">
 
-<!ENTITY torSettings.yes "نعم">
-<!ENTITY torSettings.no "لا">
+<!ENTITY torSettings.yes "是">
+<!ENTITY torSettings.no "否">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "是否使用代理访问互联网？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
+<!ENTITY torSettings.proxyHelp "如果不知道如何回答该问题，请在其他浏览器中查看互联网设置，检查是否使用了代理。">
+<!ENTITY torSettings.enterProxy "请输入代理设置。">
+<!ENTITY torSettings.firewallQuestion "你的防火墙是否只允许特定端口的互联网连接？">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
 <!ENTITY torSettings.bridgeQuestion "">
