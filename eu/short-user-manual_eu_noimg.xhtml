@@ -11,7 +11,7 @@
     <p>Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as <em>relays</em>) in the Tor network, before the traffic is sent out onto the public Internet.</p>
     <p>Goiko irudiak Tor bitartez webgune ezberdinetatik nabigatzen duen erabiltzaile bat erakusten du. Pantaila berdeak Tor sareko erreleak irudikatzen dituzte, hiru giltzek erabiltzailea eta errele bakoitzaren arteko enkriptazio mailak irudikatzen dituzten bitartean.</p>
     <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <p>Informazio sentikorra komunikatzen ari bazara, adibidez webgune batean erabiltzaile eta pasahitz batekin saioa hasterakoan, egiaztatu HTTPS erabiltzen ari zarela (adib <strong>https</strong>://torproject.org/, ez <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Tor nola deskargatu</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
     <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
@@ -28,7 +28,7 @@
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Sinadura egiaztatu ahal baino lehen, GnuPG deskargatu eta instalatu beharko duzu:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Linux banaketa gehienek GnuPG aurreinstalatuta dute.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
+    <p>Mesedez kontuan izan agian behean erabilitako bideak eta komandoak editatu beharko dituzula zure sisteman funtziona dezaten.</p>
     <p>Erinn Clarkek 0x63FEE659 gakoarekin sinatzen ditu Tor Browser Bundleak. Erinnen gakoa inportatzeko, exekutatu:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
@@ -68,7 +68,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
+    <p><strong>Zure antibirusak Tor blokeatzen ari da</strong>: Egiaztatu zure antibirusak Torek sare konexioak egin ditzan eragozten ari ez dela.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
     <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
     <h3 id="how-to-find-a-bridge">Nola aurkitu zubi bat</h3>
