@@ -2,15 +2,23 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "قبل أن يحاول متصفح تور الاتصال بالإنترنت، نحتاج منك توفير بعض المعلومات عن اتصال الإنترنت الخاص بك.">
+<!ENTITY torsettings.prompt "">
 
 <!ENTITY torSettings.yes "نعم">
 <!ENTITY torSettings.no "لا">
 
-<!ENTITY torSettings.proxyQuestion "هل تستخدم بروكسي للوصول إلي الإنترنت؟">
+<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.configurePrompt2 "">
+<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.connectPrompt1 "">
+<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connect "">
+
+<!ENTITY torSettings.proxyQuestion "">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "إذا لم تكن متأكد من كيفية الإجابة على هذا السؤال، يمكنك الاطلاع علي إعدادات الإنترنت لمتصفح اخر للتأكد إذا كنت تستخدم بروكسي للوصول إلي الإنترنت.">
-<!ENTITY torSettings.enterProxy "إدخل إعدادات البروكسي الخاص بك.">
+<!ENTITY torSettings.proxyHelp "">
+<!ENTITY torSettings.enterProxy "">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
@@ -22,17 +30,17 @@
 
 <!ENTITY torsettings.optional "اختياري">
 
-<!ENTITY torsettings.useProxy.checkbox "انا استخدم بروكسي للوصول إلي الإنترنت">
+<!ENTITY torsettings.useProxy.checkbox "">
+<!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "العنوان:">
 <!ENTITY torsettings.useProxy.address.placeholder "عنوان الإنترنت IP أو اسم المضيف">
 <!ENTITY torsettings.useProxy.port "المنفذ:">
 <!ENTITY torsettings.useProxy.username "اسم المستخدم:">
 <!ENTITY torsettings.useProxy.password "كلمة السر:">
-<!ENTITY torsettings.useProxy.type "النوع:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "جدار الحماية الخاص بي يسمح بالاتصال فقط من خلال منافذ محددة">
+<!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "المنافذ المسموح بها:">
 <!ENTITY torsettings.useBridges.checkbox "مزود خدمة الإنترنت الخاص بي (ISP) يمنع الاتصال بشبكة تور">
 <!ENTITY torsettings.useBridges.label "ادخل جسر مُرحل واحد أو أكثر بالشكل التالي عنوان:منفذ.">
@@ -42,5 +50,5 @@
 <!ENTITY torsettings.bridgeHelpTitle "المساعدة الخاصة بالجسور المُرحلة">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
-
 <!ENTITY torsettings.bridgeHelp3 "">
+<!ENTITY torsettings.bridgeHelp4 "">
