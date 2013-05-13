@@ -21,10 +21,10 @@
     <p>Itzulitako Toren bertsio bat nahi baduzu, idatzi ordez <strong>help</strong>. Ondoren argibideekin eta eskuragarri dauden hizkuntzekin eposta bat jasoko duzu.</p>
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
     <h3 id="tor-for-smartphones">Tor smartphonentzako</h3>
-    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>Tor zure Android gailuarentzako eskuratu dezakezu <em>Orbot</em> izeneko paketea instalatuz. Orbot nola deskargatu eta instalatzearen inguruko informazio gehiagorako, mesedez ikusi <a href="https://www.torproject.org/docs/android.html.en">Tor Projectren webgunea</a>.</p>
+    <p>Pakete esperimentalak ditugu ere <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> eta <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>rentzako.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Nola egiaztatu bertsio egokia duzula</h3>
-    <p>Tor Browser Bundlea exekutatu baino lehen,bertsio egokia duzula egiaztatu beharko zenuke.</p>
+    <p>Tor Browser Bundlea exekutatu baino lehen, bertsio egokia duzula egiaztatu beharko zenuke.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Sinadura egiaztatu ahal baino lehen, GnuPG deskargatu eta instalatu beharko duzu:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Linux banaketa gehienek GnuPG aurreinstalatuta dute.</p>
@@ -58,7 +58,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Nola erabili Tor Browser Bundlea</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Tor Browser Bundlea deskargatu eta paketea erauzi ondoren, direktorio bat izan beharko zenuke barruan fitxategi gutxi batzuekin. Fitxategietako bat "Start Tor Browser" (edo "start-tor-browser, sistema eragilearen arabera) izeneko exekutagarri bat da.</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Mesedez kontuan izan garrantzitsua dela paketean datorren nabigatzailea erabiltzea, eta ez zure nabigatzailea.</em>
@@ -70,7 +70,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>Zure antibirusak Tor blokeatzen ari da</strong>: Egiaztatu zure antibirusak Torek sare konexioak egin ditzan eragozten ari ez dela.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
+    <p>Tor zergatik konektatzen ez den asmatzeko laguntzarik behar baduzu, bidali mezu bat help@rt.torproject.org helbidera eta sartu erregistro fitxategiko zati adierazgarriak.</p>
     <h3 id="how-to-find-a-bridge">Nola aurkitu zubi bat</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
@@ -125,8 +125,8 @@ sub 2048R/EB399FD7 2003-10-16
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
     <p>Mesedez ikusi <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ-a</a> informazio gehiagorako.</p>
     <h3 id="i-want-to-use-another-browser">Beste nabigatzaile bat erabili nahi dut</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <p>Segurtasun arrazoiengatik, weba Tor zehar nagibatzeko soilik Tor Browser Bundlea eralbiltzea gomendatzen dugu. Teknikoki Tor beste nabigatzaileekin erabili ahal da, baina hau eginez eraso arriskutsuetara irekitzen zara.</p>
     <h3 id="why-tor-is-slow">Zergatik da Tor motela</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Tor batzuetan zure Internet konexio arrunta baino motelagoa izan daiteke. Izan ere, zure trafikoa herrialde ezberdin askoetan zehar bidaltzen da, batzuetan ozeanoetan zehar munduaren inguruan!</p>
   </body>
 </html>
