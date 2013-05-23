@@ -40,7 +40,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Ten komputer pozwala na połączenie z ustalonymi portami">
 <!ENTITY torsettings.firewall.allowedPorts "Dozwolone porty:">
 <!ENTITY torsettings.useBridges.checkbox "Mój dostawca internetu blokuje połączenia do sieci Tor">
 <!ENTITY torsettings.useBridges.label "Wpisz jeden lub więcej adresów mostków w postaci adres:port">
