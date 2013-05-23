@@ -1,53 +1,53 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Ustawienia Sieci">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Przed połączeniem z siecią Tor musisz podać informacje o połączeniu internetowym tego komputera.">
 
-<!ENTITY torSettings.yes "">
-<!ENTITY torSettings.no "">
+<!ENTITY torSettings.yes "Tak">
+<!ENTITY torSettings.no "Nie">
 
-<!ENTITY torSettings.firstQuestion "">
-<!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.firstQuestion "Które z poniższych najlepiej opisuje Twoją sytuację?">
+<!ENTITY torSettings.configurePrompt1 "Połączenie tego komputera jest cenzurowane, filtrowane lub przekierowywane.">
+<!ENTITY torSettings.configurePrompt2 "Potrzebuję dostosować ustawienia sieci.">
+<!ENTITY torSettings.configure "Konfiguruj">
 <!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connectPrompt2 "Chcę połączyć się bezpośrednio z siecią Tor.">
+<!ENTITY torSettings.connect "Połącz">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Czy ten komputer potrzebuje proxy w celu połączenia się z Internetem?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
+<!ENTITY torSettings.enterProxy "Wprowadź ustawienia serwera proxy">
 <!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.firewallHelp "Jeśli nie jesteś pewien jak odpowiedzieć na to pytanie, wybierz Nie. W przypadku wystąpienia problemów z połączeniem, zmień tą opcję.">
+<!ENTITY torSettings.enterFirewall "Wprowadź listę portów dozwolonych przez zaporę (kolejne porty oddzielaj przecinkiem).">
+<!ENTITY torSettings.bridgeQuestion "Jeśli połączenie internetowe tego komputera jest cenzurowany, wymagane będzie wykorzystanie przekaźników mostkowych.&amp;#160; Jeśli nie, wybierz Połącz.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Uruchamianie oprogramowania Tor">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "(opcjonalnie)">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
-<!ENTITY torsettings.useProxy.address "">
-<!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "">
-<!ENTITY torsettings.useProxy.username "">
-<!ENTITY torsettings.useProxy.password "">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
+<!ENTITY torsettings.useProxy.checkbox "Ten komputer musi używać proxy w celu połączenia z Internetem">
+<!ENTITY torsettings.useProxy.type "Typ Proxy:">
+<!ENTITY torsettings.useProxy.address "Adres:">
+<!ENTITY torsettings.useProxy.address.placeholder "Nazwa hosta lub adres IP">
+<!ENTITY torsettings.useProxy.port "Port:">
+<!ENTITY torsettings.useProxy.username "Użytkownik:">
+<!ENTITY torsettings.useProxy.password "Hasło:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.firewall.allowedPorts "Dozwolone porty:">
+<!ENTITY torsettings.useBridges.checkbox "Mój dostawca internetu blokuje połączenia do sieci Tor">
+<!ENTITY torsettings.useBridges.label "Wpisz jeden lub więcej adresów mostków w postaci adres:port">
+<!ENTITY torsettings.useBridges.placeholder "adres:port">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "Skopiuj log do schowka">
+<!ENTITY torsettings.bridgeHelpTitle "Pomoc Przekaźników Mostkowych">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
 <!ENTITY torsettings.bridgeHelp3 "">

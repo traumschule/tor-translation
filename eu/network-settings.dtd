@@ -1,54 +1,54 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Tor sare ezarpenak">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Tor Browser Bundleak Tor sarera konektatzen saiatu den baino lehen, ordenagailu honen Interneteko konexioaren inguruko informazioa eman beharko duzu.">
 
-<!ENTITY torSettings.yes "">
-<!ENTITY torSettings.no "">
+<!ENTITY torSettings.yes "Bai">
+<!ENTITY torSettings.no "Ez">
 
-<!ENTITY torSettings.firstQuestion "">
-<!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.firstQuestion "Hurrengoetako zeinek deskribatzen du zure egoera hobekien?">
+<!ENTITY torSettings.configurePrompt1 "Ordenagailu honen Interneteko konexioa zentsuratuta, iragazita, edo proxyatuta dago.">
+<!ENTITY torSettings.configurePrompt2 "Sare ezarpenak konfiguratu behar ditut.">
+<!ENTITY torSettings.configure "Konfiguratu">
+<!ENTITY torSettings.connectPrompt1 "Ordenagailu honen Interneteko konexioa oztopoz garbi dago.">
+<!ENTITY torSettings.connectPrompt2 "Tor sarera zuzenean konektatu nahiko nuke.">
+<!ENTITY torSettings.connect "Konektatu">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Ordenagailu honek Internetera sartzeko proxyren bat erabili behar al du?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.proxyHelp "Galdera hau nola erantzuteaz zalantzan bazaude, begiratu beste nabigatzaile batean Interneteko ezarpenak proxy bat erabiltzeko konfiguratuta dagoen ikusteko.">
+<!ENTITY torSettings.enterProxy "Sartu proxy ezarpenak.">
+<!ENTITY torSettings.firewallQuestion "Ordenagailu honen Interneteko konexioa ataka zehatz batzuetara bakarrik konektatzea baimentzen duen sueten baten zehar al doa?">
+<!ENTITY torSettings.firewallHelp "Galdera hau nola erantzuteaz zalantzan bazaude, hautatu Ez. Tor sarera konektatzen arazoak aurkitzen badituzu, aldatu ezarpen hau.">
+<!ENTITY torSettings.enterFirewall "Suetenak baimendutako eta komaz banandutako ataka zerrenda bat sar ezazu ">
+<!ENTITY torSettings.bridgeQuestion "Ordenagailu honen Interneteko konexioa zentsuratuta badago, zubi erreleak lortu eta erabili beharko dituzu.&amp;#160; Bestela, sakatu Konektatu besterik gabe.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Tor abiarazi dadin itxaroten...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Hautazkoa">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
-<!ENTITY torsettings.useProxy.address "">
-<!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "">
-<!ENTITY torsettings.useProxy.username "">
-<!ENTITY torsettings.useProxy.password "">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
-<!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useProxy.checkbox "Ordenagailu honek proxy bat erabili behar du Internetera sartzeko">
+<!ENTITY torsettings.useProxy.type "Proxy mota:">
+<!ENTITY torsettings.useProxy.address "Helbidea:">
+<!ENTITY torsettings.useProxy.address.placeholder "IP helbide edo ostalari izena">
+<!ENTITY torsettings.useProxy.port "Ataka:">
+<!ENTITY torsettings.useProxy.username "Erabiltzaile izena:">
+<!ENTITY torsettings.useProxy.password "Pasahitza:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.firewall.checkbox "Ordenagailu honek ataka zehatz batzuetara bakarrik konektatzea baimentzen duen sueten baten zehar doa">
+<!ENTITY torsettings.firewall.allowedPorts "Baimendutako atakak:">
+<!ENTITY torsettings.useBridges.checkbox "Nire Internet Zerbitzu Hornitzaileak (ISP ingeleraz) Tor sarera konektatzea blokeatzen dit.">
+<!ENTITY torsettings.useBridges.label "Zubi errele bat edo gehiago sartu helbidea:ataka forman.">
+<!ENTITY torsettings.useBridges.placeholder "helbidea:ataka">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.copyLog "Kopiatu Tor erregistroa arbelera">
+<!ENTITY torsettings.bridgeHelpTitle "Zubi errele laguntza">
+<!ENTITY torsettings.bridgeHelp1 "Tor sarera konektatu ezin bazara, agian zure Internet Zerbitzu Hornitzaileak (ISP ingeleraz) edo beste agentziaren batek Tor blokeatzen ari da.&amp;#160; Askotan, arazo honen inguruan Tor zubiak, ezkutatuta dauden eta blokeatzeko zailagoak diren erreleak direnak erabiliz lan egin dezakezu">
+<!ENTITY torsettings.bridgeHelp2 "Zubi errele batzuk eskuratzeko, erabili web nabigatzaile bat hurrengo orria bisitatzeko: https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "Zubi publikoen helbideak aurkitzeko beste modu bat bridges@torproject.org-era mezu bat bidaltzea da, mezuaren gorputzean 'get bridges' esaldiarekin.&amp;#160; Hala ere, erasotzaile batentzat zubi helbide asko ikastea zailago izan dadin, eskakizun hau hurrengo domeinuetako eposta helbide batetik bidali behar duzu: gamil.com edo yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "Zubi erreleak eska ditzakezu help@rt.torproject.org-era mezu bat bidaliz ere.">

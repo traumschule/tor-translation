@@ -4,8 +4,8 @@
 
 <!ENTITY torsettings.prompt "">
 
-<!ENTITY torSettings.yes "">
-<!ENTITY torSettings.no "">
+<!ENTITY torSettings.yes "Evet">
+<!ENTITY torSettings.no "Hayır">
 
 <!ENTITY torSettings.firstQuestion "">
 <!ENTITY torSettings.configurePrompt1 "">
@@ -32,16 +32,16 @@
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
-<!ENTITY torsettings.useProxy.address "">
+<!ENTITY torsettings.useProxy.address "Adres:">
 <!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "">
-<!ENTITY torsettings.useProxy.username "">
-<!ENTITY torsettings.useProxy.password "">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
+<!ENTITY torsettings.useProxy.port "Port:">
+<!ENTITY torsettings.useProxy.username "Kullanıcı adı:">
+<!ENTITY torsettings.useProxy.password "Parola:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "">
+<!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "">
