@@ -2,19 +2,27 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Antes de que Tor intente conectarse a la Internet, necesitamos que proporcione cierta información sobre su conexión a Internet.">
+<!ENTITY torsettings.prompt "Antes de que el Paquete de Navegador Tor intente conentar con la red Tor, necesitará proporcionar información sobre la conexión a Internet de su computadora.">
 
 <!ENTITY torSettings.yes "Sí">
 <!ENTITY torSettings.no "No">
 
-<!ENTITY torSettings.proxyQuestion "¿Utiliza un 'proxy' para conectarse a la Internet?">
+<!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes describe mejor su situación?">
+<!ENTITY torSettings.configurePrompt1 "La conexión a Internet de esta computadora está censurada, filtrada o proxificada.">
+<!ENTITY torSettings.configurePrompt2 "Necesito configurar la opciones de red.">
+<!ENTITY torSettings.configure "Configurar">
+<!ENTITY torSettings.connectPrompt1 "La conexión a Internet de esta computadora está libre de obstáculos.">
+<!ENTITY torSettings.connectPrompt2 "Me gustaría conectar directamente a la red Tor.">
+<!ENTITY torSettings.connect "Conectar">
+
+<!ENTITY torSettings.proxyQuestion "¿Necesita usar un proxy de acceso a Internet esta computadora ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Si no está seguro sobre cómo responder a esta pregunta, mire la configuración de Internet de otro navegador para averiguar si está utilizando un 'proxy'.">
-<!ENTITY torSettings.enterProxy "Introduzca su configuración de 'proxy'.">
-<!ENTITY torSettings.firewallQuestion "¿Su conexión a Internet pasa por un cortafuegos ('firewall') que le permita conectarse sólo a determinados puertos?">
-<!ENTITY torSettings.firewallHelp "Si no está seguro de cómo contestar a esta pregunta, elija que No. Si encontrara problemas luego, cambie esta configuración.">
-<!ENTITY torSettings.enterFirewall "Introduzca una lista separada por comas de los puertos permitidos por su cortafuegos ('firewall').">
-<!ENTITY torSettings.bridgeQuestion "Si su Proveedor de Servicios de Internet (ISP) bloquea las conexiones a la red Tor, necesitará utilizar repetidores puente ('bridge relays').">
+<!ENTITY torSettings.proxyHelp "Si no está seguro de cómo responder a esta pregunta, eche un vistazo a las configuraciones de Internet en otro navegador para ver si está configurado para usar un proxy.">
+<!ENTITY torSettings.enterProxy "Introduzca las preferencias para proxy.">
+<!ENTITY torSettings.firewallQuestion "¿Va la conexión a Internet de esta computadora a través de un cortafuegos ('firewall') que sólo permite conexiones a ciertos puertos?">
+<!ENTITY torSettings.firewallHelp "Si no está seguro de cómo responder a esta pregunta, elija No. Si encuentra problemas conectando a la red Tor, cambie esta configuración.">
+<!ENTITY torSettings.enterFirewall "Introduzca una lista de puertos separada por comas que esté permitida por el cortafuegos ('firewall').">
+<!ENTITY torSettings.bridgeQuestion "Si la conexión a Internet de esta computadora está censurada, necesitará obtener y usar repetidores puente ('bridge relays').&amp;#160; Si no, simplemente haga clic en Conectar.">
 
 <!-- Other: -->
 
@@ -22,17 +30,17 @@
 
 <!ENTITY torsettings.optional "Opcional">
 
-<!ENTITY torsettings.useProxy.checkbox "Utilizo un 'proxy' para acceder a la Internet">
+<!ENTITY torsettings.useProxy.checkbox "Esta computadora necesita usar usar un proxy de acceso a Internet">
+<!ENTITY torsettings.useProxy.type "Tipo de Proxy:">
 <!ENTITY torsettings.useProxy.address "Dirección:">
 <!ENTITY torsettings.useProxy.address.placeholder "Dirección IP o nombre de máquina ('hostname')">
 <!ENTITY torsettings.useProxy.port "Puerto:">
 <!ENTITY torsettings.useProxy.username "Nombre de usuario:">
 <!ENTITY torsettings.useProxy.password "Contraseña:">
-<!ENTITY torsettings.useProxy.type "Tipo:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "Mi cortafuegos ('firewall') me permite conectarme solamente a determinados puertos">
+<!ENTITY torsettings.firewall.checkbox "Esta computadora va a través de un cortafuegos ('firewall') que sólo permite conexiones a ciertos puertos">
 <!ENTITY torsettings.firewall.allowedPorts "Puertos permitidos:">
 <!ENTITY torsettings.useBridges.checkbox "Mi Proveedor de Servicios de Internet (ISP) bloquea las conexiones a la red Tor">
 <!ENTITY torsettings.useBridges.label "Introduzca uno o más repetidores puente ('bridge relays') en la forma dirección:puerto.">
@@ -40,7 +48,7 @@
 
 <!ENTITY torsettings.copyLog "Copiar el registro de mensajes ('log') de Tor al portapapeles">
 <!ENTITY torsettings.bridgeHelpTitle "Ayuda de Repetidores Puente ('Bridge Relays')">
-<!ENTITY torsettings.bridgeHelp1 "Si no puede conectar a la red Tor, puede ser que su Proveedor de Servicios de Internet (ISP) esté bloqueando Tor. A menudo, puede sortear este problema utilizando Puentes Tor ('Bridges') que son repetidores ocultos que son más difíciles de bloquear.">
+<!ENTITY torsettings.bridgeHelp1 "Si no es capaz de conectar con la red Tor, podría ser que su Proveedor de Servicios de Internet (ISP), u otra agencia, esté bloqueando Tor.&amp;#160; A menudo puede evitar este problema usando puentes Tor ('bridges'), que son repetidores 'ocultos' más difíciles de bloquear">
 <!ENTITY torsettings.bridgeHelp2 "Para obtener algunas direcciones de puentes, utilice un navegador web para visitar la siguiente página: ">
-
-<!ENTITY torsettings.bridgeHelp3 "Otra manera de obtener direcciones de puentes ('bridges') públicos es enviar un mensaje de correo electrónico a bridges@torproject.org con la línea 'get bridges' (sin las comillas) por si sola en el cuerpo del mensaje. No obstante, para que podamos hacer más difícil a los atacantes obtener montones de direcciones de puentes, debe enviar dicha solicitud desde una dirección de correo de uno de los dominios siguientes: gmail.com o yahoo.com .">
+<!ENTITY torsettings.bridgeHelp3 "Otra manera de encontrar direcciones de puentes ('bridges') públicas es mandar un correo a bridges@torproject.org con la línea 'get bridges' por si misma en el cuerpo del mensaje.&amp;#160; Sin embargo, para ponerle más difícil a un atacante conocer muchas direcciones de puentes, debe envíar esta solicitud desde una dirección de correo electrónico de uno de los siguientes dominios (con soporte DKIM): gmail.com o yahoo.com ">
+<!ENTITY torsettings.bridgeHelp4 "También puede solicitar repetidores puente ('bridge relays') mandando un correo a help@rt.torproject.org">
