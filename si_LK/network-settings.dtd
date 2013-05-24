@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "TOR ජාල සැකසුම්">
+<!ENTITY torsettings.dialog.title "TOR ජාල සිටුවම්">
 
 <!-- For "first run" wizard: -->
 
@@ -32,9 +32,9 @@
 
 <!ENTITY torsettings.useProxy.checkbox "මෙම පරිගණකය අන්තර්ජාලයට පිවිසීමට නියුතු සේවාදායකයෙක් අවශ්‍ය වේ.">
 <!ENTITY torsettings.useProxy.type "නියුතු සේවාදායක වර්ගය:">
-<!ENTITY torsettings.useProxy.address "ලිපිනය">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address හෝ hostname">
-<!ENTITY torsettings.useProxy.port "Port:">
+<!ENTITY torsettings.useProxy.address "ලිපිනය:">
+<!ENTITY torsettings.useProxy.address.placeholder "IP ලිපිනය හෝ සත්කාරක නාමය">
+<!ENTITY torsettings.useProxy.port "පොර්ටය:">
 <!ENTITY torsettings.useProxy.username "පරිශීලක නාමය">
 <!ENTITY torsettings.useProxy.password "මුරපදය">
 <!ENTITY torsettings.useProxy.type.socks4 "4 වැනි සොකට්ටුව">
