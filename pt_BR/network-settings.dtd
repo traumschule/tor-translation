@@ -7,18 +7,18 @@
 <!ENTITY torSettings.yes "Sim">
 <!ENTITY torSettings.no "Não">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "Quais das seguintes opções descrevem melhor a sua situação?">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configurePrompt2 "Eu preciso definir as configurações de rede.">
+<!ENTITY torSettings.configure "Configurar">
 <!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connectPrompt2 "Eu gostaria de me conectar diretamente à rede Tor">
 <!ENTITY torSettings.connect "Conectar">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Este computador precisa usar um proxy para acessar a Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
+<!ENTITY torSettings.proxyHelp "Caso você não tenha certeza sobre como responder a essa questão, consulte as configurações de rede em um outro browser para saber se ele está configurado para usar um proxy.">
+<!ENTITY torSettings.enterProxy "Insira as configurações do proxy.">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
