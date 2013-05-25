@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Configurações de Rede Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -26,14 +26,14 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Esperando que Tor inicie...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Opicional">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "Endereço:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "Endereço IP ou servidor">
 <!ENTITY torsettings.useProxy.port "Porta:">
 <!ENTITY torsettings.useProxy.username "Usuário:">
 <!ENTITY torsettings.useProxy.password "Senha:">
@@ -41,14 +41,14 @@
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "Portas permitidas:">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.firewall.allowedPorts "Portas habilitadas:">
+<!ENTITY torsettings.useBridges.checkbox "Meu Provedor de Serviços Internet (ISP) bloqueia as conexões à rede Tor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "endereço: porta">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "Copiar Log do Tor na área de transferência">
+<!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
 <!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.bridgeHelp2 "Para obeter retransmissores de ponte, use um navegador para visitar a seguinte página: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
