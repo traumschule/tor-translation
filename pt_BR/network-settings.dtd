@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Antes de o Tor Browser Bundle tentar conectar-se - rede Tor, informe sobre a conexão Intenet deste computador.">
 
 <!ENTITY torSettings.yes "Sim">
 <!ENTITY torSettings.no "Não">
@@ -19,8 +19,8 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Caso você não tenha certeza sobre como responder a essa questão, consulte as configurações de rede em um outro browser para saber se ele está configurado para usar um proxy.">
 <!ENTITY torSettings.enterProxy "Insira as configurações do proxy.">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
+<!ENTITY torSettings.firewallQuestion "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente para certas portas?">
+<!ENTITY torSettings.firewallHelp "Se você não tiver certeza sobre como responder a esta questão, escolha Não. Em caso de dificuldades de conexão à rede Tor, modifique essa configuração.">
 <!ENTITY torSettings.enterFirewall "">
 <!ENTITY torSettings.bridgeQuestion "">
 
@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "Portas habilitadas:">
 <!ENTITY torsettings.useBridges.checkbox "Meu Provedor de Serviços Internet (ISP) bloqueia as conexões à rede Tor">
-<!ENTITY torsettings.useBridges.label "">
+<!ENTITY torsettings.useBridges.label "Insira um ou mais retransmissores de pontes no formulário de endereço: porta.">
 <!ENTITY torsettings.useBridges.placeholder "endereço: porta">
 
 <!ENTITY torsettings.copyLog "Copiar Log do Tor na área de transferência">
