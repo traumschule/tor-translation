@@ -11,7 +11,7 @@
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "Eu preciso definir as configurações de rede.">
 <!ENTITY torSettings.configure "Configurar">
-<!ENTITY torSettings.connectPrompt1 "">
+<!ENTITY torSettings.connectPrompt1 "A conexão Internet deste computador está possui obstáculos.">
 <!ENTITY torSettings.connectPrompt2 "Eu gostaria de me conectar diretamente à rede Tor">
 <!ENTITY torSettings.connect "Conectar">
 
@@ -21,8 +21,8 @@
 <!ENTITY torSettings.enterProxy "Insira as configurações do proxy.">
 <!ENTITY torSettings.firewallQuestion "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente para certas portas?">
 <!ENTITY torSettings.firewallHelp "Se você não tiver certeza sobre como responder a esta questão, escolha Não. Em caso de dificuldades de conexão à rede Tor, modifique essa configuração.">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.enterFirewall "Insira, separando-as por vírgulas, uma lista de portas habilitadas pelo firewall. ">
+<!ENTITY torSettings.bridgeQuestion "Se a conexão Internet deste computador for censurada, você precisará obter e utilizar retransmissores de pontes.&amp;#160; Se não, clique em Conectar.">
 
 <!-- Other: -->
 
