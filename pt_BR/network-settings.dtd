@@ -30,8 +30,8 @@
 
 <!ENTITY torsettings.optional "Opicional">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Este computador precisa utilizar um proxy para acessar a Internet.">
+<!ENTITY torsettings.useProxy.type "Tipo de Proxy:">
 <!ENTITY torsettings.useProxy.address "Endereço:">
 <!ENTITY torsettings.useProxy.address.placeholder "Endereço IP ou servidor">
 <!ENTITY torsettings.useProxy.port "Porta:">
