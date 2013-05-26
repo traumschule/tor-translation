@@ -7,8 +7,8 @@
 <!ENTITY torSettings.yes "Sim">
 <!ENTITY torSettings.no "Não">
 
-<!ENTITY torSettings.firstQuestion "Quais das seguintes opções descrevem melhor a sua situação?">
-<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.firstQuestion "Quais opções descrevem melhor a sua situação?">
+<!ENTITY torSettings.configurePrompt1 "A conexão Internet deste computador foi censurada, filtrada ou limitada por um proxy.">
 <!ENTITY torSettings.configurePrompt2 "Eu preciso definir as configurações de rede.">
 <!ENTITY torSettings.configure "Configurar">
 <!ENTITY torSettings.connectPrompt1 "A conexão Internet deste computador está possui obstáculos.">
@@ -28,7 +28,7 @@
 
 <!ENTITY torsettings.startingTor "Esperando que Tor inicie...">
 
-<!ENTITY torsettings.optional "Opicional">
+<!ENTITY torsettings.optional "Opcional">
 
 <!ENTITY torsettings.useProxy.checkbox "Este computador precisa utilizar um proxy para acessar a Internet.">
 <!ENTITY torsettings.useProxy.type "Tipo de Proxy:">
@@ -46,9 +46,9 @@
 <!ENTITY torsettings.useBridges.label "Insira um ou mais retransmissores de pontes no formulário de endereço: porta.">
 <!ENTITY torsettings.useBridges.placeholder "endereço: porta">
 
-<!ENTITY torsettings.copyLog "Copiar Log do Tor na área de transferência">
+<!ENTITY torsettings.copyLog "Copiar o Log do Tor na área de transferência">
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
 <!ENTITY torsettings.bridgeHelp1 "Se for impossível conectar-se à rede Tor, talvez o seu Provedor de Serviço Internet (ISP) ou outra instância esteja bloqueando Tor. &amp;#160; Normalmente, é possível contornar esse problema utilizando Pontes Tor, que são retransmissores ocultos, mais difíceis de bloquear.">
-<!ENTITY torsettings.bridgeHelp2 "Para obeter retransmissores de ponte, use um navegador para visitar a seguinte página: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelp2 "Para obter retransmissores de ponte, utilize um navegador para visitar a seguinte página: https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "Outro modo de encontrar endereços de pontes públicas, é enviar um email para bridges@torproject.org com a mensagem 'get bridges'. &amp;#160; Contudo, para tornar mais difícil para um invasor descobrir uma grande quantidade de endereços, você deve enviar esse pedido a partir de um dos seguintes domínios: gmail. com ou yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "Você também pode pedir endereços de retransmissores de pontes enviando um e-mail para help@rt.torproject.org.">
