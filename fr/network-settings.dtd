@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Paramètres réseaux de Tor">
+<!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -8,7 +8,7 @@
 <!ENTITY torSettings.no "Non">
 
 <!ENTITY torSettings.firstQuestion "">
-<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée, filtrée ou détournée.">
 <!ENTITY torSettings.configurePrompt2 "">
 <!ENTITY torSettings.configure "">
 <!ENTITY torSettings.connectPrompt1 "">
@@ -50,5 +50,5 @@
 <!ENTITY torsettings.bridgeHelpTitle "Aide pour les passerelles relais">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "Pour obtenir quelques passerelles relais utilisez un navigateur web pour aller sur la page suivante : https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelp3 "Une autre façon de trouver les adresses publiques de ponts est d'envoyer un mail à bridges@torproject.org avec la ligne &quot;get bridges&quot; dans le corps de l'e-mail. Toutefois, afin que nous puissions rendre plus difficile pour un attaquant d'apprendre beaucoup d'adresses de ponts, vous devez adresser cette demande à partir d'une adresse e-mail appartenant à l'un des domaines suivants: gmail.com ou yahoo.com">
+<!ENTITY torsettings.bridgeHelp4 "Vous pouvez également demander un pont-relais en envoyant un e-mail à help@rt.torproject.org.">
