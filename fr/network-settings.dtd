@@ -1,20 +1,28 @@
-<!ENTITY torsettings.dialog.title "Paramètres réseaux de Tor">
+<!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Avant que le naviguateur Tor ne tente de se connecter à l'Internet nous avons besoin que vous renseigniez quelques informations concernant votre connexion Internet.">
+<!ENTITY torsettings.prompt "Avant que le navigateur Tor ne tente de se connecter au réseau Tor, vous devez fournir quelques informations concernant votre connexion Internet.">
 
 <!ENTITY torSettings.yes "Oui">
 <!ENTITY torSettings.no "Non">
 
-<!ENTITY torSettings.proxyQuestion "Utilisez-vous un proxy pour accéder à l'Internet ?">
+<!ENTITY torSettings.firstQuestion "Laquelle des phrases suivantes décrit le mieux votre situation?">
+<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée, filtrée ou détournée.">
+<!ENTITY torSettings.configurePrompt2 "J'ai besoin de configuré les paramètres réseau. ">
+<!ENTITY torSettings.configure "Configurer">
+<!ENTITY torSettings.connectPrompt1 "La connexion internet de cet ordinateur est libre de tous obstacles.">
+<!ENTITY torSettings.connectPrompt2 "Je voudrai me connecté directement au réseau Tor.">
+<!ENTITY torSettings.connect "Connecter">
+
+<!ENTITY torSettings.proxyQuestion "Est-ce que cet ordinateur à besoin d'un proxy pour accéder à internet ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Si vous n'êtes pas certain de répondre correctement à cette question regardez les paramètres Internet d'un autre navigateur afin de vérifier si vous utilisez un proxy.">
 <!ENTITY torSettings.enterProxy "Entrez les paramètres de votre proxy.">
 <!ENTITY torSettings.firewallQuestion "Est-ce que votre connexion Internet passe à travers un pare-feu qui ne vous autorise à vous connecter qu'à travers certains ports ?">
-<!ENTITY torSettings.firewallHelp "Si vous n'êtes pas certain de répondre correctement à cette question choisissez Non. Si vous rencontrez des problèmes changez vos paramètres.">
-<!ENTITY torSettings.enterFirewall "Entrez une liste de ports, séparés par des virgules, qui sont autorisés par votre pare-feu.">
-<!ENTITY torSettings.bridgeQuestion "Si votre Fournisseur d'Accès Internet (FAI) bloque les connexions au réseau Tor vous devez utiliser des passerelles relais.">
+<!ENTITY torSettings.firewallHelp "Si vous n'êtes pas certain de répondre correctement à cette question choisissez Non. Si vous rencontrez des problèmes pour vous connecter au réseau Tor, changez vos paramètres.">
+<!ENTITY torSettings.enterFirewall "Entrez la liste de ports, séparés par des virgules, qui sont autorisés par votre pare-feu.">
+<!ENTITY torSettings.bridgeQuestion "Si la connexion Internet de cet ordinateur est censurée, vous devrez obtenir et utiliser des pont-relais.&amp;#160; Sinon, cliquez simplement sur Connect.">
 
 <!-- Other: -->
 
@@ -22,17 +30,17 @@
 
 <!ENTITY torsettings.optional "Optionnel">
 
-<!ENTITY torsettings.useProxy.checkbox "J'utilise un proxy pour accéder à l'Internet.">
+<!ENTITY torsettings.useProxy.checkbox "Cet ordinateur a besoin d'utiliser un proxy pour accéder à Internet">
+<!ENTITY torsettings.useProxy.type "Type de proxy">
 <!ENTITY torsettings.useProxy.address "Adresse :">
 <!ENTITY torsettings.useProxy.address.placeholder "Adresse IP ou nom d'hôte">
 <!ENTITY torsettings.useProxy.port "Port :">
 <!ENTITY torsettings.useProxy.username "Nom d'utilisateur :">
 <!ENTITY torsettings.useProxy.password "Mot de passe :">
-<!ENTITY torsettings.useProxy.type "Type :">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "Mon pare-feu ne me laisse me connecter qu'à certains ports">
+<!ENTITY torsettings.firewall.checkbox "Cet ordinateur passe par un pare-feu qui autorise uniquement les connexions à certains ports">
 <!ENTITY torsettings.firewall.allowedPorts "Ports autorisés :">
 <!ENTITY torsettings.useBridges.checkbox "Mon Fournisseur d'Accès Internet (FAI) bloque les connexions au réseau Tor">
 <!ENTITY torsettings.useBridges.label "Entrez une ou plusieurs passerelles relais sous la forme adresse:port">
@@ -42,5 +50,5 @@
 <!ENTITY torsettings.bridgeHelpTitle "Aide pour les passerelles relais">
 <!ENTITY torsettings.bridgeHelp1 "Si vous êtes dans l'incapacité de vous connecter au réseau Tor cela peut venir du fait que votre Fournisseur d'Accès Internet (FAI) bloque Tor. La plupart du temps vous pouvez contourner ce problème en utilisant les passerelles Tor qui sont des relais cachés, plus difficiles à bloquer.">
 <!ENTITY torsettings.bridgeHelp2 "Pour obtenir quelques passerelles relais utilisez un navigateur web pour aller sur la page suivante : https://bridges.torproject.org">
-
-<!ENTITY torsettings.bridgeHelp3 "Une autre façon de trouver des passerelles relais publiques est d'envoyer un e-mail à bridges@torproject.org avec la seule ligne 'get bridges' dans le corps du message. Cependant, afin que nous puissions rendre plus difficile pour un attaquant d'amasser beaucoup d'adresses de passerelles, vous devez envoyer cette demande depuis une adresse e-mail issue d'un des domaines suivants : gmail.com ou yahoo.com.">
+<!ENTITY torsettings.bridgeHelp3 "Une autre façon de trouver les adresses publiques de ponts est d'envoyer un mail à bridges@torproject.org avec la ligne &quot;get bridges&quot; dans le corps de l'e-mail. Toutefois, afin que nous puissions rendre plus difficile pour un attaquant d'apprendre beaucoup d'adresses de ponts, vous devez adresser cette demande à partir d'une adresse e-mail appartenant à l'un des domaines suivants: gmail.com ou yahoo.com">
+<!ENTITY torsettings.bridgeHelp4 "Vous pouvez également demander un pont-relais en envoyant un e-mail à help@rt.torproject.org.">
