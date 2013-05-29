@@ -33,7 +33,7 @@
 <!ENTITY torsettings.useProxy.checkbox "Denne datamaskinen trenger en proxy for å koble til internett.">
 <!ENTITY torsettings.useProxy.type "Proxytype:">
 <!ENTITY torsettings.useProxy.address "Adresse:">
-<!ENTITY torsettings.useProxy.address.placeholder "IPadresse eller vertsnavn">
+<!ENTITY torsettings.useProxy.address.placeholder "IP-adresse eller vertsnavn">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Brukernavn:">
 <!ENTITY torsettings.useProxy.password "Passord:">
