@@ -1,0 +1,54 @@
+<!ENTITY torsettings.dialog.title "Tīkla Tor iestatījumi">
+
+<!-- For "first run" wizard: -->
+
+<!ENTITY torsettings.prompt "Pirms pārlūka Tor komplekts centīsies izveidot savienojumu ar tīklu Tor, Jums jāsniedz informācija par šī datora interneta savienojumu.">
+
+<!ENTITY torSettings.yes "Jā">
+<!ENTITY torSettings.no "Nē">
+
+<!ENTITY torSettings.firstQuestion "Kura situācija vislabāk atbilst jūsējai?">
+<!ENTITY torSettings.configurePrompt1 "Šī datora interneta savienojums tiek vai nu cenzēts, vai filtrēts, vai arī realizēts caur starpnieku.">
+<!ENTITY torSettings.configurePrompt2 "Man jākonfigurē tīkla iestatījumi.">
+<!ENTITY torSettings.configure "Konfigurēt">
+<!ENTITY torSettings.connectPrompt1 "Šī datora interneta savienojumam šķēršļu nav.">
+<!ENTITY torSettings.connectPrompt2 "Es vēlos tieši pieslēgties tīklam Tor.">
+<!ENTITY torSettings.connect "Veidot savienojumu">
+
+<!ENTITY torSettings.proxyQuestion "Vai šim datoram ir jālieto starpnieks, lai piekļūtu internetam?">
+<!-- see https://www.torproject.org/docs/proxychain.html.en -->
+<!ENTITY torSettings.proxyHelp "Ja neesat pārliecināts kāda ir pareizā atbilde, apskatiet cita pārlūka interneta iestatījumus, lai redzētu vai tas ir konfigurēts izmantot starpnieku.">
+<!ENTITY torSettings.enterProxy "Ievadiet starpnieka iestatījumus.">
+<!ENTITY torSettings.firewallQuestion "Vai šī datora interneta savienojums iet caur ugunsmūri, kurš atļauj savienojumus tikai ar atsevišķiem portiem?">
+<!ENTITY torSettings.firewallHelp "Ja neesat pārliecināts par pareizo atbildi, izvēlieties atbildi &quot;Nē&quot;. Ja rodas problēmas pievienojoties tīklam Tor, mainiet šo iestatījumu.">
+<!ENTITY torSettings.enterFirewall "Ievadiet ar komatiem atdalītu ugusnmūra atļauto portu sarakstu.">
+<!ENTITY torSettings.bridgeQuestion "Ja šī datora interneta savienojums tiek cenzēts, Jums būs jāiegūst un jāizmanto tiltu releji.&amp;#160; Ja cenzūra netiek veikta, noklikšķiniet Veidot savienojumu.">
+
+<!-- Other: -->
+
+<!ENTITY torsettings.startingTor "Gaida, kamēr Tor startēs...">
+
+<!ENTITY torsettings.optional "Neobligāts">
+
+<!ENTITY torsettings.useProxy.checkbox "Šim datoram jālieto starpnieks, lai piekļūtu internetam">
+<!ENTITY torsettings.useProxy.type "Starpnieka tips:">
+<!ENTITY torsettings.useProxy.address "Adrese:">
+<!ENTITY torsettings.useProxy.address.placeholder "IP adrese vai resursdatora nosaukums">
+<!ENTITY torsettings.useProxy.port "Ports:">
+<!ENTITY torsettings.useProxy.username "Lietotājvārds:">
+<!ENTITY torsettings.useProxy.password "Parole:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.firewall.checkbox "Šis dators iet caur ugunsmūri, kurš atļauj tikai savienojumus ar noteiktiem portiem.">
+<!ENTITY torsettings.firewall.allowedPorts "Atļautie porti:">
+<!ENTITY torsettings.useBridges.checkbox "Mans interneta pakalpojumu sniedzējs (IPS) bloķē savienojumu izveidošanu ar tīklu Tor">
+<!ENTITY torsettings.useBridges.label "Ievadiet vienu vai vairākus tīkla retranslatorus, izmantojot formātu adrese:ports.">
+<!ENTITY torsettings.useBridges.placeholder "address:port">
+
+<!ENTITY torsettings.copyLog "Kopēt Tor žurnālu starpliktuvē">
+<!ENTITY torsettings.bridgeHelpTitle "Palīdzība par tiltu retranslatoriem">
+<!ENTITY torsettings.bridgeHelp1 "Ja nav iespējams izveidot savienojumu ar tīklu Tor, iespējams, ka Jūsu interneta pakalpojumu sniedzējs (ISP) vai cita iestāde bloķē Tor'u.&amp;#160; Bieži problēmu iespējams apiet izmantojot Tor tiltus, kuri ir slēpti retranslatori, ko grūtāk bloķēt..">
+<!ENTITY torsettings.bridgeHelp2 "Lai iegūtu noteiktus tiltu retranslatorus, lietojiet tīmekļa pārlūku, apmeklējot lapu:  https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "Cits veids kā noskaidrot publisku tiltu adreses ir nosūtīt e-pastu uz bridges@torproject.org ar atsevišķu rindu 'get bridges' ziņojuma korpusā.&amp;#160; Tomēr, lai uzbrucējam būtu sarežģītāk uzzināt daudz tiltu adrešu, šis pieprasījums jānosūta no e-pasta adreses, kura reģistrēta kādā no šiem domēniem: gmail.com vai yahoo.com .">
+<!ENTITY torsettings.bridgeHelp4 "Tāpat varat pieprasīt tiltu retranslatoru sarakstu nosūtot e-pastu uz help@rt.torproject.org .">
