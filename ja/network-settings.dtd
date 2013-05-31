@@ -1,21 +1,21 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Torネットワーク設定">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Tor Browser BundleがTorネットワークへ接続を試みる前に、このコンピュータのインターネット接続についての情報を提供する必要があります。">
 
 <!ENTITY torSettings.yes "はい">
 <!ENTITY torSettings.no "いいえ">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "以下のうちあなたの状態に最も適しているのはどれですか？">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.configurePrompt2 "ネットワーク設定を構成する必要があります。">
+<!ENTITY torSettings.configure "構成">
+<!ENTITY torSettings.connectPrompt1 "このコンピュータのインターネット接続には障害がありません。">
+<!ENTITY torSettings.connectPrompt2 "Torネットワークへ直接接続したいです。">
+<!ENTITY torSettings.connect "接続">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "このコンピューターはインターネットにアクセスするのにProxyが必要ですか？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
 <!ENTITY torSettings.enterProxy "">
@@ -26,14 +26,14 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Torの開始を待っています...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "オプション">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "アドレス:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "IPアドレス またはホストネーム">
 <!ENTITY torsettings.useProxy.port "ポート">
 <!ENTITY torsettings.useProxy.username "ユーザー名:">
 <!ENTITY torsettings.useProxy.password "パスワード:">
@@ -42,13 +42,13 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "許可されたポート:">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.checkbox "私のインターネットサービスプロバイダ(ISP)はTorネットワークへの接続をブロックします">
+<!ENTITY torsettings.useBridges.label "アドレス:ポートの形式で1つ以上のブリッジリレーを入力してください。">
+<!ENTITY torsettings.useBridges.placeholder "アドレス:ポート">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "Torのログをクリップボードにコピー">
+<!ENTITY torsettings.bridgeHelpTitle "ブリッジリレーのヘルプ">
 <!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.bridgeHelp2 "いくつかブリッジリレーを入手するには、ウェブブラウザーを使用し、以下のページに行ってください: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
