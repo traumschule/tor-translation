@@ -25,16 +25,16 @@
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">ඔබ ලග නිවැරදි සංස්කරණය ඇත්දැයි තහවුරු කරගන්නේ කෙසේද </h3>
     <p>Tor බ්‍රවුසර කට්ටලය ක්‍රියාත්මක කිරීමට පෙර , ඔබ සතුව නිවැරදි සංස්කරණය ඇත්දැයි තහවුරු කර ගන්න.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>කට්ටලය හා දිගුවට සමාන නමක් ඇති ගොනුවක් මෙම මෘදුකාංගයට සබැදී ලැබී ඇත<strong>.asc</strong>. මෙම  .asc ගොනුව GPG අත්සන, එමගින් ඔබට භාගත කරගන්නා ගොනුව ඔබට අවශ්‍යම එකද යන්න ස්ථිරවම තහවුරු කර ගන්න.</p>
+    <p>ඔබ අත්සන තහවුරු කරගැනීමට පෙර ඔබ GnuPG භාගත කර ස්ථාපනය කල යුතුය:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>ඔබේ පද්ධතිය තුල එය වැඩ කරවා  ගැනීමට සමහරවිට ඔබට පෙත සහ යොදාගත් සමහර විධාන වෙනස් කිරීමට සිදුවිය හැකි බව කරුණාකර සිහිතබා ගන්න.</p>
+    <p>Erinn Clark Tor බ්‍රවුසර කට්ටලය 0x63FEE659 යතුර මගින් අත්සන් කරන ලදී. Erinn ගේ යතුර ආනයනය කිරීමට, ක්‍රියාත්මක කරන්න:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>යතුර ආනයනය කිරීමෙන් අනතුරුව, අගිලි සලකුන නිවැරදිදැයි තහවුරු කර ගන්න: </p>
     <pre>
       <code>gpg  --fingerprint 0x63FEE659
 </code>
@@ -50,12 +50,12 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>ඔබ භාගත කල පැකේජයේ අත්සන තහවුරු කර ගැනීමට, පහත විධානය ක්‍රියාත්මක කරන්න:</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
+    <p>ප්‍රථිපලය මෙසේ තිබිය යුතුය<em>"හොද අත්සනකි"</em>. දුර්වල අත්සනක් යනු එය බාහිර සන්රෝදධවලට ගොදුරු වූ ගොනුවක් යන්නයි. ඔබ දුර්වල අත්සනක් දුටුවහොත් එම පැකේජය භාගත ස්ථානය වැනි තොරතුරු, අත්සන තහවුරු කරගත් ආකාරය සහ GnuPG හි ප්‍රතිපලය help@rt.torproject.org වෙත විද්‍යුත් ලිපියක් යවන්න.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Tor බ්‍රවුසර කට්ටලය භාවිත කරන්නේ කෙසේද </h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
