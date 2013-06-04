@@ -27,7 +27,7 @@
     <p>Před spuštením Tor Browser Bundle byste se měli ujistit, že máte správnou verzi.</p>
     <p>Software který obdržíte je doprovázen souborem se stejným jménem jako balíček a příponou <strong>.asc</strong>. Tento .asc soubor je GPG podpis a umožní vám ověřit že stáhlý soubor je přesně ten co jsme vám chtěli dát.</p>
     <p>Ještě než můžete ověřit podpis, budete potřebovat stáhnout a nainstalovat GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Většina linuxových distribucí je dodávána s předinstalovaným GnuPG.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Vetšina linuxových distribucí už má GnuPG předinstalovaný.</p>
     <p>Vezměte prosím na vědomí, že může být nutné upravit cesty a příkazy používané níže, aby na vašem systému fungovaly.</p>
     <p>Erinn Clark podepisuje Tor Browser Bundle klíčem 0x63FEE659. Pro naimportování Erinnino klíče, proveďte:</p>
     <pre>
@@ -43,9 +43,10 @@
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
-uid                  Erinn Clark &amp;lt;erinn@torproject.org&amp;gt;
-uid                  Erinn Clark &amp;lt;erinn@debian.org&amp;gt;
-uid                  Erinn Clark &amp;lt;erinn@double-helix.org&amp;gt;
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
