@@ -33,7 +33,7 @@
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "آدرس:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "آدرس آی پی یا نام میزبان">
 <!ENTITY torsettings.useProxy.port "پورت:">
 <!ENTITY torsettings.useProxy.username "نام کاربری:">
 <!ENTITY torsettings.useProxy.password "رمز عبور">
