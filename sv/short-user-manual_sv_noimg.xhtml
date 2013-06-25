@@ -6,18 +6,18 @@
   <body>
     <h1 id="the-short-user-manual">Den Korta Användarguiden</h1>
     <p>Denna användarguide innehåller information om hur du laddar ner Tor, hur du använder det, och vad du gör om Tor inte lyckas ansluta till nätverket. Om du inte hittar svaret till din fråga i det här dokumentet, maila help@rt.torproject.org.</p>
-    <p>Var vänlig notera att vi ger support på en volontärbasis, och vi får många emails varje dag. Det finns ingen anledning till oro om vi inte svarar dig direkt.</p>
+    <p>Var vänlig notera att vi ger support på en volontärbasis, och vi får många mail varje dag. Det finns ingen anledning till oro om vi inte svarar dig direkt.</p>
     <h2 id="how-tor-works">Hur Tor fungerar</h2>
     <p>Tor är ett nätverk av virtuella tunnlar som låter dig förbättra din personliga integritet och säkerhet på Internet. Tor fungerar så att du sänder din trafik genom tre slumpmässigt valda servrar (också kända som <em>reläer</em>) i Tor nätverket, innan trafiken skickas ut på det publika Internet.</p>
-    <p>Bilden ovanför illustrerar en användare som besöker olika webbsidor över Tor. Den gröna monitorn representerar reläer i Tors nätverk, medan dom tre nycklarna representerar nivåerna av kryptering mellan användaren och varje relä.</p>
-    <p>Tor anonymiserar ursprunget av din trafik, och det krypterar allt mellan dig och Tor nätverket. Tor krypterar även din trafik inom Tor nätverket, me ndet kan inte kryptera trafiken mellan Tor nätverket och slutdestinationen.</p>
+    <p>Bilden ovanför illustrerar en användare som besöker olika webbsidor över Tor. De gröna skärmarna representerar reläer i Tors nätverk, medan de tre nycklarna representerar nivåerna av kryptering mellan användaren och varje relä.</p>
+    <p>Tor anonymiserar ursprunget av din trafik, och krypterar allt mellan dig och Tor nätverket. Tor krypterar även din trafik inom Tor nätverket, men kan inte kryptera trafiken mellan Tor nätverket och slutdestinationen.</p>
     <p>Om du kommunicerar känslig information, till exempel när du loggar in på en webbsida med användarnamn och lösenord, se till att du använder HTTPS (dvs. <strong>https</strong>://torproject.org/, inte <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Hur du laddar ner Tor</h2>
     <p>Paketet vi rekommenderar till de flesta användare är <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Detta paket innehåller en webbläsare som är förinställd för säkert surfande på Internet genom Tor, och det behövs ingen installation. Du laddar ner paketet, packar upp filen, och startar Tor.</p>
-    <p>Det finns två sätt att få tag på Tor mjukvaran. Du kan endera besöka <a href="https://www.torproject.org/">Tor Projektets hemsida</a> och ladda ner Tor där, eller så kan du använda GetTor, email autosvar.</p>
+    <p>Det finns två sätt att få tag på Tor mjukvaran. Du kan antingen besöka <a href="https://www.torproject.org/">Tor Projektets hemsida</a> och ladda ner Tor där, eller så kan du använda GetTor, email autosvar.</p>
     <h3 id="how-to-get-tor-via-email">Hur du skaffar Tor via email</h3>
     <p>För att få Engelska Tor Browser Bundle för Windows, skicka ett email till gettor@torproject.org med <strong>windows</strong> i meddelandet. Du kan lämna ämnesraden blank.</p>
-    <p>Du kan också begära Tor Browser Bundle för Mac OS X (skriv <strong>macos-i386</strong>), och Linux (skriv <strong>linux-i386</strong> för 32-bit system eller <strong>linux-x86_64</strong> för 64-bit system).</p>
+    <p>Du kan också begära Tor Browser Bundle för Mac OS X (skriv <strong>macos-i386</strong>), och Linux (skriv <strong>linux-i386</strong> för 32-bitars system eller <strong>linux-x86_64</strong> för 64-bitars system).</p>
     <p>Om du vill ha en översatt version av Tor, skriv <strong>help</strong> istället. Du kommer då få ett email med instruktioner och en lista med tillgängliga språk.</p>
     <p><strong>Notera</strong>: Tor Browser Bundle för Linux och Mac OS X är ganska stora, och du kommer inte kunna få någon av dessa med ett Gmail, Hotmail, eller Yahoo konto. Om du inte kan ta emot paketet du vill ha, skicka ett email till help@rt.torproject.org så ger vi dig en lista med speglade webbsidor du kan använda.</p>
     <h3 id="tor-for-smartphones">Tor för smartphones</h3>
@@ -71,7 +71,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p>Om Tor fortfarande inte fungerar så är det troligt att din Internetleverantör (ISP) blockerar Tor. Mycket ofta kan man kringgå detta med <strong>Tor broar</strong>, gömda reläer som inte är lika lätta at blockera.</p>
     <p>Om du behöver hjälp med att klura ut varför Tor inte kan ansluta, skicka ett email till help@rt.torproject.org och inkludera de relevanta delarna från logg filen.</p>
     <h3 id="how-to-find-a-bridge">Hur du hittar en brygga</h3>
-    <p>För att använda en bro måste du först hitta en; du kan endera besöka <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, eller skicka en email till bridges@torproject.org. Om du skickar ett email, se till att du skriver <strong>get bridges</strong> i email meddelandet. Utan detta får du inget svar. Notera att du måste skicka detta email från endera en gmail.com eller en yahoo.com email address.</p>
+    <p>För att använda en bro måste du först hitta en; du kan antingen besöka <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, eller skicka ett email till bridges@torproject.org. Om du skickar ett email, se till att du skriver <strong>get bridges</strong> i email meddelandet. Utan detta får du inget svar. Notera att du måste skicka detta email från antingen en gmail.com eller en yahoo.com adress.</p>
     <p>Att konfigurera mer än en bro adress kommer göra din Tor anslutning mer stabil, utifall att några av broarna inte kan nås. Det finns ingen garanti att bron du använder nu kommer fungera imorgon, så du bör göra det till en vana att uppdatera din lista med broar nu och då.</p>
     <h3 id="how-to-use-a-bridge">Hur du använder en brygga</h3>
     <p>När du har ett gäng broar att använda, öppna kontrollpanelen i Vidalia, klicka på <em>Inställningar</em>, <em>Nätverk</em> och markera rutan som säger <em>Min Internetleverantör blockerar anslutningar till Tor nätverket</em>. Skriv in broarna i rutan nedanför, klicka <em>OK</em> och starta Tor igen.</p>
