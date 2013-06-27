@@ -61,62 +61,62 @@ sub   2048R/EB399FD7 2003-10-16
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>Når de starter Tor Browser Bundlen vil De se Vidalia starte op og forbinde Dem til Tor netværket. Efter dette vil De se en browser bekræfte at De nu kan bruge Tor. Dette er gjort ved at vise <a href="https://check.torproject.org/">https://check.torproject.org/</a>. De kan nu surfe Internettet via Tor</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>Noter venligst at det er vigtigt at De bruger browseren der følger med Tor software pakken, og ikke deres egen browser.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
-    <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
-    <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
-    <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Hvad De skal gøre hvis Tor ikke får forbindelse</h3>
+    <p>Nogle brugere vil opleve at VIdalia låser fast undervejs i forsøget på at forbinde til Tor netværket. Hvis dette sker, vær da sikker på at De er forbundet til Internettet. Hvis De har brug for en proxy server, se da <em>Sådan bruges en åben proxy</em> nedenunder.</p>
+    <p>Hvis Deres normale Internet forbindelse virker, men Tor stadig ikke kan forbinde til netværket, prøv da følgende: Åben Vidalia kontrolpanelet, klik på <em>Besked log"</em> og vælg <em>Avanceret</em> knappen. Det kan være at Tor ikke vil åbne fordi at:</p>
+    <p><strong>Deres systems ur går forkert</strong>: Verificer at datoen og klokkeslettet på deres system er korrekt og genstart Tor. De har muligvis brug for at synkronisere Deres systems ur med en Internet tids server.</p>
+    <p><strong>De er bag en restriktiv firewall</strong>: For at fortælle Tor at det kun skal bruge port 80 og port 443, åben da Vidalia kontrolpanellet, klik på <em>Indstillinger</em> og <em>Netværk</em> og klik i boksen der hedder <em>Min firewall vil kun lade mig forbinde til specifikke porte</em>.</p>
+    <p><strong>Deres anti-virus program blokerer Tor</strong>: Verificer deres anti-virus program ikke stopper Tor fra at få netværksforbindelse.</p>
+    <p>Hvis Tor stadig ikke forbinder er det sandsynligt at Deres Internet udbyder blokerer Tor. Ofte kan dette løses ved hjælp af <strong>Tor Broer</strong>, gemte relæer der ikke er så nemme at blokere.</p>
+    <p>Hvis De har brug for hjælp til at finde ud af hvorfor Tor ikke kan få forbindelse, send da en email til help@rt.torproject.org og inkluder relevante dele fra log filen.</p>
+    <h3 id="how-to-find-a-bridge">Sådan findes en bro</h3>
+    <p>For at bruge en bro skal De først lokalisere en: De kan enten gå til <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, eller de kan sende en email til bridges@torproject.org. Hvis de sender en email, verificer da venligst at de inkluderer <strong>Få broer</strong> i mailen. Uden dette vil De ikke få noget svar. Noter venligst at det er nødvendigt at de sender denne email fra enten en gmail.com eller yahoo.com</p>
+    <p>Hvis De konfigurerer mere end én bro vil De få en mere sikker Tor forbindelse, hvis nogle af broerne ikke længere er tilgængelige. Der er ingen garanti for at de broer De bruger i dag vil virke i morgen, så De bør gøre det en vane at opdatere Deres liste af broer relativt ofte.</p>
+    <h3 id="how-to-use-a-bridge">Sådan bruges en bro</h3>
+    <p>Så snart De har en liste af broer at bruge, åben da Vidalia kontrolpanellet, klik på <em>Indstillinger</em>, <em>Netværk</em> og klik boksen <em>Min Internet udbyder blokerer forbindelse til Tor netværket</em>. Indtast broen i boksen nedenunder, klik <em>OK</em> og start Tor igen.</p>
+    <h3 id="how-to-use-an-open-proxy">Sådan bruges en åben proxy</h3>
+    <p>Hvis brugen af broer ikke virker, forsøg da at konfigurér Tor til at bruge HTTPS eller SOCKS proxy for at få adgang til Tor netværket. Det betyder at hvis enten Tor er blokeret af Deres lokale netværk, så kan åbne proxyer bruges sikkert til at forbinde til Tor netværket og sikkert til det ucensurerede internet.</p>
+    <p>Skridtene nedenunder antager at De har en fungerende Tor/Vidalia konfiguration, og at De har fundet en liste af HTTPS, SOCKS og SOCKS5 proxier.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Åben Vidalia kontrolpanellet og klik på <em>Indstillinger</em>.</li>
+      <li>Klik på <em>Netværk</em>. Vælg <em>Jeg bruger proxier til at tilgå Internettet</em>.</li>
+      <li>På <em>Adressen</em> linjen, indtast den åbne proxy adresse. Dette kan enten være et hostnavn eller en IP adresse.</li>
+      <li>Indtast porten på proxien.</li>
+      <li>Generelt set er det ikke nødvendigt med et brugernavn og adgangskode. Hvis De har lyst, indtast da deres information i de passende felter.</li>
+      <li>Vælg <em>Typen</em> af proxy De bruger, vær det enten HTTP/HTTPS, SOCKS4 eller SOCKS5.</li>
+      <li>Tryk på <em>OK</em> knappen. Vidalia og Tor er nu konfigureret til at bruge proxy til at tilgå de resterende dele af Tor netværket.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
-    <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <h2 id="frequently-asked-questions">Ofte stillede spørgsmål</h2>
+    <p>Denne sektion vil svare på nogle af de typisk stillede spørgsmål. Hvis Deres spørgsmål ikke er nævnt her, send da venligst en email til help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Det var ikke muligt at udpakke arkivet.</h3>
+    <p>Hvis De bruger Windows og ikke kan udpakke arkivet, hent og installer da <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Hvis De ikke kan hente 7-Zip, forsøg da at omdøbe filen fra .z til .zip og brug WinZip til at udpakke arkivet. Før De omdøber filen, bed da Windows om at vise filtypen på filen.</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Åben <em>Min computer</em></li>
+      <li>Klik på <em>Redskaber</em> og vælg <em>Mappe indstillinger</em> i menuen</li>
+      <li>Klik på <em>Se</em> knappen</li>
+      <li>Klik af <em>Gem filtypen for kendte filtyper</em> og klik <em>OK</em>.</li>
     </ol>
-    <h4 id="windows-vista">Windows Vista</h4>
+    <h4 id="windows-vista">Windows VIsta</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Åben <em>Computer</em></li>
+      <li>Klik på <em>Organiser</em> og vælg <em>Mappe og søge indstillinger</em> i menuen</li>
+      <li>Klik på <em>Se</em> knappen</li>
+      <li>Klik af <em>Gem filtypen for kendte filtyper</em> og klik <em>OK</em>.</li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Åben <em>Computer</em></li>
+      <li>Klik på <em>Organiser</em> og vælg <em>Mappe og søge indstillinger</em> i menuen</li>
+      <li>Klik på <em>Se</em> knappen</li>
+      <li>Klik af <em>Gem filtypen for kendte filtyper</em> og klik <em>OK</em>.</li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
-    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
+    <h3 id="vidalia-asks-for-a-password">Vidalia spørger efter et kodeord</h3>
+    <p>Det bør ikke være nødvendigt for Dem at skulle indtaste et kodeord når Vidalia starter. Hvis de bliver spurgt om et, så er de sandsynligvis berørt af et af følgende problemer:</p>
+    <p><strong>De kører allerede Vidalia og Tor</strong>: Eksempelvis kan denne situation opstå, hvis De installerede Vidalia software pakken og nu forsøger at køre Tor Browser Bundlen. I denne situation vil det være nødvendidgt for Dem at lukke den gamle Vidalia og Tor før De kan køre denne version.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
     <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
     <h3 id="flash-does-not-work">Flash does not work</h3>
