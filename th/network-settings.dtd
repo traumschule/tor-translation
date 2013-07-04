@@ -10,15 +10,15 @@
 <!ENTITY torSettings.firstQuestion "">
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configure "ปรับแต่ง">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connect "เชื่อมต่อ">
 
 <!ENTITY torSettings.proxyQuestion "">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
+<!ENTITY torSettings.enterProxy "ใส่ค่าติดตั้งพร็อกซี">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
@@ -26,22 +26,22 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "รอให้ Tor เริ่มทำงาน...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "ตัวเลือก">
 
 <!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
-<!ENTITY torsettings.useProxy.address "เลข IP">
-<!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "เลข Port:">
+<!ENTITY torsettings.useProxy.type "ชนิดพร็อกซี:">
+<!ENTITY torsettings.useProxy.address "ที่อยู่:">
+<!ENTITY torsettings.useProxy.address.placeholder "ที่อยู่ IP หรือชื่อโฮสต์">
+<!ENTITY torsettings.useProxy.port "พอร์ต:">
 <!ENTITY torsettings.useProxy.username "ชื่อผู้ใช้:">
 <!ENTITY torsettings.useProxy.password "รหัสผ่าน:">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "เลข Port ที่ยินยอม:">
+<!ENTITY torsettings.firewall.allowedPorts "พอร์ตที่อนุญาต:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "">
