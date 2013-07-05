@@ -18,8 +18,8 @@
 <!ENTITY torSettings.proxyQuestion "Skal denne computer bruge en proxy for at forbinde til internettet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Hvis du ikke kender svaret på dette spørgsmål, så kig på internetindstillingerne i en anden browser for at se om den er konfigureret til at bruge en proxy.">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
+<!ENTITY torSettings.enterProxy "Indtast proxy-indstillinger.">
+<!ENTITY torSettings.firewallQuestion "Går denne computers internetforbindelse igennem en firewall som kun tillader forbindelse til visse porte?">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
 <!ENTITY torSettings.bridgeQuestion "">
@@ -30,7 +30,7 @@
 
 <!ENTITY torsettings.optional "Valgfri">
 
-<!ENTITY torsettings.useProxy.checkbox "">
+<!ENTITY torsettings.useProxy.checkbox "Denne computer skal bruge en proxy for at forbinde til internettet">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "Adresse:">
 <!ENTITY torsettings.useProxy.address.placeholder "">
@@ -40,7 +40,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Denne computer går gennem en firewall som kun tillader forbindelse til specifikke porte">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor netværket">
 <!ENTITY torsettings.useBridges.label "">
