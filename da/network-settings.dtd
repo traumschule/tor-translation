@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Tor netværksindstillinger">
 
 <!-- For "first run" wizard: -->
 
@@ -7,17 +7,17 @@
 <!ENTITY torSettings.yes "Ja">
 <!ENTITY torSettings.no "Nej">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "Hvilke af de følgende beskriver bedst din situation?">
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "">
 <!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connectPrompt1 "Denne computers internetforbindelse er ryddet for forhindringer.">
+<!ENTITY torSettings.connectPrompt2 "Jeg vil forbinde direkte til Tor netværket.">
 <!ENTITY torSettings.connect "">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Skal denne computer bruge en proxy for at forbinde til internettet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
+<!ENTITY torSettings.proxyHelp "Hvis du ikke kender svaret på dette spørgsmål, så kig på internetindstillingerne i en anden browser for at se om den er konfigureret til at bruge en proxy.">
 <!ENTITY torSettings.enterProxy "">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
@@ -26,9 +26,9 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Venter på at Tor starter...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Valgfri">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
@@ -42,7 +42,7 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor netværket">
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "">
 
