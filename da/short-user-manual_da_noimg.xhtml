@@ -22,12 +22,12 @@
     <p><strong>Obs</strong>: Tor Browser Bundlen til LInux og Mac OS X er temmelig store, og De vil ikke kunne modtage nogle af disse software pakker med GMail, Hotmail eller en Yahoo konto. Hvis de ikke kan modtage den software pakke de ønsker, send da en email til help@rt.torproject.org og vi vil levere en liste af alternative download sider.</p>
     <h3 id="tor-for-smartphones">Tor til smartphones</h3>
     <p>De kan få Tor til Deres Android enhed ved dat installere pakken <em>Orbot</em>. For mere information om download og installation af Orbot, se venligst <a href="https://www.torproject.org/docs/android.html.en">Tor projekt hjemmesiden</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>Vi har også en eksperimentel pakke til <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> og <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Sådan bekræfter De, at De har den rigtige version</h3>
     <p>Før de kører Tor Browser Bundlen, bør De sikre Dem at de har den korrekte version</p>
     <p>Softwaren de modtager er ledsaget af en fil med det samme navn som software pakken og udvidelsen <strong>.asc</strong>. Denne .asc fil er en GPG signatur, og den vil give Dem mulighed for at verificere den fil De har downloaded er præcist den De havde forventet at få.</p>
     <p>Før De kan bekræfte signaturen skal de hente og installere GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: De fleste Linux distributioner kommer med GnuPG forudinstalleret.</p>
     <p>Noter venligst at De mulighed bliver nødsaget til at ændre stien og kommandoerne ligesom nedenstående, for at få det til at virke på deres system.</p>
     <p>Erinn Clark underskriver Tor Browser Bundlen med nøglen 0x63FEE659. For at importere Erinn's nøgle, kør:</p>
     <pre>
@@ -118,15 +118,15 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Det bør ikke være nødvendigt for Dem at skulle indtaste et kodeord når Vidalia starter. Hvis de bliver spurgt om et, så er de sandsynligvis berørt af et af følgende problemer:</p>
     <p><strong>De kører allerede Vidalia og Tor</strong>: Eksempelvis kan denne situation opstå, hvis De installerede Vidalia software pakken og nu forsøger at køre Tor Browser Bundlen. I denne situation vil det være nødvendidgt for Dem at lukke den gamle Vidalia og Tor før De kan køre denne version.</p>
     <p><strong>Vidalia gik ned, men efterlod Tor kørende</strong>: Hvis vinduet som beder om et kontrol kodeord har en Nulstil knap, kan du klikke på knappen og Vidalia vil så genstarte Tor med et nyt tilfældigt kontrol kodeord. Hvis du ikke kan se en Nulstil knap, eller hvis Vidalia ikke kan genstarte Tor for dig; gå ind i din process eller jobliste, og afslut Tor processen. Brug herefter Vidalia til at genstarte Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
-    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
-    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>For mere information, læs <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> på Tor projektets hjemmeside.</p>
+    <h3 id="flash-does-not-work">Flash virker ikke</h3>
+    <p>Af sikkerhedsårsager, er Flash, Java og andre plugins til Tor for øjeblikket deaktiverede. Plugins arbejder uafhængigt af Firefox og kan foretage handlinger på din computer som fjerner din anonymitet.</p>
+    <p>De fleste YouTube videoer fungerer med HTML5, og det er muligt at se disse videoer over Tor. Du skal deltage i <a href="https://www.youtube.com/html5">HTML5 prøveversion</a> på YouTubes hjemmeside før du kan benytte HTML5 afspilleren.</p>
+    <p>Vær opmærksom på at når du lukker browseren, så husker den ikke at du deltog i prøveversionen, så du vil være nødt til at forny din deltagelse hver gang du kører Tor Browser Bundle.</p>
+    <p>Læs venligst <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for mere information.</p>
+    <h3 id="i-want-to-use-another-browser">Jeg vil benytte en anden browser</h3>
+    <p>Af sikkerhedsårsager anbefaler vi at du kun browser nettet gennem Tor ved hjælp af Tor Browser Bundle. Det er teknisk muligt at benytte Tor med andre browsere, men herved åbner du op for potentielle angreb.</p>
+    <h3 id="why-tor-is-slow">Hvorfor Tor er langsom</h3>
+    <p>Tor kan til tider være en smule langsommere end din normale internet forbindelse. Din trafik bliver trods alt sent gennem mange forskellige lande, undertiden på tværs af oceaner jorden rundt!</p>
   </body>
 </html>
