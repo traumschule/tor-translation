@@ -13,7 +13,7 @@
 <!ENTITY torSettings.configure "">
 <!ENTITY torSettings.connectPrompt1 "Denne computers internetforbindelse er ryddet for forhindringer.">
 <!ENTITY torSettings.connectPrompt2 "Jeg vil forbinde direkte til Tor netværket.">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connect "Tilslut">
 
 <!ENTITY torSettings.proxyQuestion "Skal denne computer bruge en proxy for at forbinde til internettet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
