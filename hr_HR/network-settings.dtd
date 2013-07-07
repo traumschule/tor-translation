@@ -2,27 +2,27 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Prije nego se Tor preglednički paket pokuša spojiti na Tor mrežu, trebate pružiti informacije o internetskoj vezi ovog računala.">
 
 <!ENTITY torSettings.yes "Da">
 <!ENTITY torSettings.no "Ne">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "Koje od sljedećeg najbolje opisuje Vašu situaciju?">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.configurePrompt2 "Trebam podesiti mrežne postavke.">
+<!ENTITY torSettings.configure "Podesi">
+<!ENTITY torSettings.connectPrompt1 "Internetska veza ovog računala je neometana.">
+<!ENTITY torSettings.connectPrompt2 "Želim se izravno spojiti na Tor mrežu.">
 <!ENTITY torSettings.connect "Spajanje">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Koristi li ovo računalo proxy za pristup Internetu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.proxyHelp "Ako niste sigurni kako odgovoriti na ovo pitanje, pogledajte Internet postavke u drugom pregledniku i provjerite je li podešen za korištenje proxyja.">
+<!ENTITY torSettings.enterProxy "Unesite postavke proxyja.">
+<!ENTITY torSettings.firewallQuestion "Prolazi li Internet veza ovog računala kroz vatrozid koji dopušta spajanje samo na određene portove?">
+<!ENTITY torSettings.firewallHelp "Ako niste sigurni kako odgovoriti na ovo pitanje, odaberite &quot;Ne&quot;. Ako uočite probleme pri spajanju na Tor mrežu, promijenite ovu postavku.">
+<!ENTITY torSettings.enterFirewall "Unesite popis portova, odvojenih zarezom, koji su dopušteni na vatrozidu.">
+<!ENTITY torSettings.bridgeQuestion "Ukoliko je internetska veza ovog računala cenzurirana, trebat ćete dobaviti i koristiti bridge releje.&amp;#160; U suprotnom, samo kliknite na Spoji.">
 
 <!-- Other: -->
 
@@ -30,8 +30,8 @@
 
 <!ENTITY torsettings.optional "Opcionalno">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Ovo računalo koristi proxy za pristup internetu.">
+<!ENTITY torsettings.useProxy.type "Tip proxyja:">
 <!ENTITY torsettings.useProxy.address "Adresa:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresa ili hostname">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -40,7 +40,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Ovo računalo je iza vatrozida koji dopušta spajanje samo na određene portove">
 <!ENTITY torsettings.firewall.allowedPorts "Dozvoljeni portovi:">
 <!ENTITY torsettings.useBridges.checkbox "Moj pružatelj internetskih usluga (ISP) blokira veze prema Tor mreži">
 <!ENTITY torsettings.useBridges.label "Unesite jednog ili više bridge releja u obliku adresa:port">
