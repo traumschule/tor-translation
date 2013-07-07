@@ -8,7 +8,7 @@
 <!ENTITY torSettings.no "Ne">
 
 <!ENTITY torSettings.firstQuestion "Koje od sljedećeg najbolje opisuje Vašu situaciju?">
-<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.configurePrompt1 "Internetska veza ovog računala je cenzurirana, filtrirana ili prolazi kroz proxy.">
 <!ENTITY torSettings.configurePrompt2 "Trebam podesiti mrežne postavke.">
 <!ENTITY torSettings.configure "Podesi">
 <!ENTITY torSettings.connectPrompt1 "Internetska veza ovog računala je neometana.">
@@ -48,7 +48,7 @@
 
 <!ENTITY torsettings.copyLog "Kopiraj Tor zapisnik u međuspremnik">
 <!ENTITY torsettings.bridgeHelpTitle "Pomoć za bridge relej">
-<!ENTITY torsettings.bridgeHelp1 "">
+<!ENTITY torsettings.bridgeHelp1 "Ako se ne možete spojiti na Tor mrežu, moguće je da Vaš pružatelj Internet usluga (ISP) ili druga organizacija blokira Tor.&amp;#160; Taj se problem često može riješiti korištenjem Tor bridge releja, skrivenih releja koje je teže blokirati.">
 <!ENTITY torsettings.bridgeHelp2 "Da biste dobavili bridge releje, upotrijebite web preglednik i posjetite sljedeću stranicu: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelp3 "Drugi način za pronalazak adresa javnih bridge releja je slanje emaila koji sadrži samo liniju &quot;get bridges&quot; u tijelu poruke na bridges@torproject.org.&amp;#160; Međutim, da bismo otežali napadaču da dozna puno adresa bridge releja, ovaj zahtjev mora biti poslan s email adrese na jednoj od sljedećih domena: gmail.com ili yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "Također, možete zatražiti bridge releje slanjem emaila na help@rt.torproject.org.">
