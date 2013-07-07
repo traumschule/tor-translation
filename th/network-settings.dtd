@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "ตั้งค่าเครือข่าย Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -12,7 +12,7 @@
 <!ENTITY torSettings.configurePrompt2 "">
 <!ENTITY torSettings.configure "ปรับแต่ง">
 <!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connectPrompt2 "ฉันอยากจะเชื่อมต่อโดยตรงกับเครือข่าย Tor">
 <!ENTITY torSettings.connect "เชื่อมต่อ">
 
 <!ENTITY torSettings.proxyQuestion "">
@@ -44,9 +44,9 @@
 <!ENTITY torsettings.firewall.allowedPorts "พอร์ตที่อนุญาต:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "address:port">
 
-<!ENTITY torsettings.copyLog "">
+<!ENTITY torsettings.copyLog "คัดลอกปูม Tor ไปที่คลิปบอร์ด">
 <!ENTITY torsettings.bridgeHelpTitle "">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
