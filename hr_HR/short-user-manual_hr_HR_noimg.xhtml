@@ -31,12 +31,12 @@
     <p>Napominjemo da će te možda morati izmjeniti putanje i naredbe korištene niže kako bi proradile na vašem sustavu.</p>
     <p>Erinn Clark potpisuje Tor Browser Bundle sa ključem 0x63FEE659. Za uvoz Erinninog ključa pokrenite:</p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎
 </code>
     </pre>
     <p>Nakon uvoza ključa, verificirajte da je otisak ispravan:</p>
     <pre>
-      <code>gpg  --fingerprint 0x63FEE659
+      <code>gpg --fingerprint 0x63FEE659⏎
 </code>
     </pre>
     <p>Trebali biste vidjeti:</p>
@@ -52,10 +52,10 @@ sub   2048R/EB399FD7 2003-10-16
     </pre>
     <p>Da biste verificirali potpis paketa kojeg ste preuzeli, pokrenite sljedeću naredbu:</p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
+    <p>Ispis bi trebao glasiti <em>"Good signature"</em>. Neispravan potpis znači da je datoteka možda neovlašteno izmijenjena. Ako vidite neispravan potpis, pošaljite nam detalje o tome odakle ste preuzeli paket, kako ste provjerili potpis, te ispis GnuPG-a e-poštom na help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
