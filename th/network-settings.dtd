@@ -9,13 +9,13 @@
 
 <!ENTITY torSettings.firstQuestion "">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
+<!ENTITY torSettings.configurePrompt2 "ฉันต้องการปรับแต่งค่าติดตั้งเครือข่าย">
 <!ENTITY torSettings.configure "ปรับแต่ง">
-<!ENTITY torSettings.connectPrompt1 "">
+<!ENTITY torSettings.connectPrompt1 "การเชื่อมต่ออินเทอร์เน็ตของคอมพิวเตอร์เครื่องนี้ปราศจากอุปสรรค">
 <!ENTITY torSettings.connectPrompt2 "ฉันอยากจะเชื่อมต่อโดยตรงกับเครือข่าย Tor">
 <!ENTITY torSettings.connect "เชื่อมต่อ">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "คอมพิวเตอร์เครื่องนี้จำเป็นต้องใช้พร็อกซีเพื่อเข้าถึงอินเทอร์เน็ตหรือไม่?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
 <!ENTITY torSettings.enterProxy "ใส่ค่าติดตั้งพร็อกซี">
@@ -42,7 +42,7 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "พอร์ตที่อนุญาต:">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.useBridges.checkbox "ผู้ให้บริการอินเทอร์เน็ต (ไอเอสพี) ของฉัน ปิดกั้นการเชื่อมต่อกับเครือข่าย Tor">
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "address:port">
 
