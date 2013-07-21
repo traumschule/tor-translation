@@ -64,19 +64,19 @@ sub   2048R/EB399FD7 2003-10-16
       <em>אנא קח לתשומת לבך כי נחוץ שתעשה שימוש בדפדפן אשר בא עם האגודה, ולא בדפדפן העצמי שלך.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">מה לעשות כאשר Tor לא מתחבר</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
+    <p>משתמשים מסוימים יבחינו כי Vidalia נתקע כאשר מנסים להתחבר אל הרשת Tor. במידה וזה מתרחש, ודא כי אתה מחובר אל האינטרנט. במידה ואתה צריך להתחבר אל שרת פרוקסי, ראה <em>כיצד להשתמש בפרוקסי פתוח</em> מטה.</p>
+    <p>במידה וחיבור האינטרנט הרגיל שלך עובד, אך Tor עדיין לא מסוגל להתחבר אל הרשת, נסה את אלה; פתח את לוח בקרה Vidalia, הקלק על <em>יומן הודעות</em> ובחר את הכרטיסייה <em>מתקדם</em>. יכול להיות כי Tor לא יתחבר מכיוון:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>תוכנית האנטי וירוס שלך חוסמת את Tor</strong>: ודא כי תוכנית האנטי וירוס שלך אינה מהווה גורם אשר מונע מן Tor מלבסס חיבורי רשת.</p>
     <p>אם Tor עדיין לא עובד, סביר כי ספק האינטרנט (ISP) שלך חוסם את Tor. לעתים קרובות בעיה זו יכולה להיפתר בעזרת <strong>גשרי Tor</strong>, ממסרים נסתרים אשר אינם קלים לחסימה באותה הקלות.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
+    <p>במידה ואתה צריך עזרה בלהבין למדוע Tor לא יכול להתחבר, שלח דוא״ל אל help@rt.torproject.org והכלל את החלקים הרלוונטיים מתוך קובץ היומן.</p>
     <h3 id="how-to-find-a-bridge">כיצד למצוא גשר</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
     <h3 id="how-to-use-a-bridge">כיצד להשתמש בגשר</h3>
     <p>ברגע שהגדרת גשרים לשימוש, פתח את לוח בקרה Vidalia, הקלק על <em>הגדרות</em>, <em>רשת</em> וסמן את התיבה אשר אומרת <em>ספק האינטרנט שלי חוסם חיבורים לרשת Tor</em>. הזן את הגשר בתיבה מטה, הקש <em>אישור</em> והתחל את Tor שוב.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
+    <h3 id="how-to-use-an-open-proxy">כיצד להשתמש בפרוקסי פתוח</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
