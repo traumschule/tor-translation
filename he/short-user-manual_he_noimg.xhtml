@@ -9,7 +9,7 @@
     <p>אנא הסב את צומת לבך לעובדה כי אנו מספקים תמיכה על בסיס התנדבותי, ואנחנו מקבלים הודעות דוא״ל רבות כל יום. אין שום סיבה לדאגה באם אנו לא חוזרים אליך תיכף ומייד.</p>
     <h2 id="how-tor-works">כיצד Tor פועל</h2>
     <p>Tor זוהי רשת של מנהרות מדומות (וירטואליות) אשר מאפשרות לך לשפר את הפרטיות שלך ואת הביטחון עליך באינטרנט. Tor עובדת באופן של שליחת התעבורה שלך מבעד שלושה שרתים אקראיים (הידוע גם בתור <em>ממסרים</em>) בתוך רשת Tor, לפני שהתעבורה נשלחת החוצה אל האינטרנט הפומבי</p>
-    <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
+    <p>התמונה לעיל ממחישה משתמש אשר גולש אל אתרים שונים על פני Tor. הצגים הירוקים מיצגים ממסרים בתוך הרשת Tor, בעוד ששלושת המפתחות מייצגים ממסרים של הצפנה בין המשתמש לכל ממסר.</p>
     <p>Tor יהפוך את המקור של התעבורה שלך לאנונימי, וכן יצפין כל דבר בינך לבין הרשת Tor. Tor גם יצפין את התעבורה שלך בתוך הרשת Tor, אך אין לו את היכולת להצפין את התעבורה שלך בין הרשת Tor לבין היעד הסופי.</p>
     <p>במידה ואתה מעביר מידע רגיש, למשל כאשר אתה נכנס אל אתר רשת עם שם משתמש וסיסמה, ודא היטב כי אתה מפיק שימוש מן HTTPS (דוגמא <strong>https</strong>://torproject.org/, ולא <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">כיצד להוריד את Tor</h2>
@@ -57,7 +57,7 @@ sub   2048R/EB399FD7 2003-10-16
     </pre>
     <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <h3 id="how-to-use-the-tor-browser-bundle">כיצד להשתמש באגודה Tor Browser Bundle</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
@@ -68,7 +68,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
+    <p><strong>תוכנית האנטי וירוס שלך חוסמת את Tor</strong>: ודא כי תוכנית האנטי וירוס שלך אינה מהווה גורם אשר מונע מן Tor מלבסס חיבורי רשת.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
     <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
     <h3 id="how-to-find-a-bridge">כיצד למצוא גשר</h3>
