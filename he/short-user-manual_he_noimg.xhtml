@@ -58,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>הפלט אמור להציג <em>"Good signature"</em>. משמעותה של חתימה רעה היא שיכול שמאן דהו התעסק עם החבילה. במידה ואתם רואים חתימה רעה, שלחו פרטים אודות המקום ממנו הורדתם את החבילה, כיצד אימתם את החתימה, וכן גם את הפלט מתוך GnuPG בדוא״ל אל help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">כיצד להשתמש באגודה Tor Browser Bundle</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>לאחר הורדת Tor Browser Bundle וחילוץ החבילה, צריכה להיות לכם ספרייה עם מספר קבצים בתוכה. אחד מן הקבצים הינו בר-הרצה אשר קרוי "התחל דפדפן Tor" (או "start-tor-browser", תלוי במערכת ההפעלה שלכם).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>אנא קחו לתשומת לבכם כי נחוץ שתעשו שימוש בדפדפן אשר בא עם האגודה, ולא בדפדפן אחר שלכם.</em>
@@ -92,7 +92,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>קטע זה יענה על כמה מהשאלות הנפוצות ביותר. היה ושאלתכם אינה מופיעה כאן, אנא שלחו דוא״ל אל help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">לא מסוגל לאלץ ארכיון</h3>
     <p>במידה ואתם עושים שימוש במערכת ההפעלה Windows ואתם נוכחים לדעת כי אינכם מסוגלים לחלץ את הארכיון, הורידו והתקינו את <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>במידה ואינכם מסוגל להוריד את 7-Zip, נסו לשנות את שם הקובץ מן .z אל .zip והשתמשו ביישום winzip לחילוץ הארכיון. טרם שינוי שם הקובץ, הורו למערכת Windows להציג סיומות קובץ:</p>
+    <p>במידה ואינכם מסוגלים להוריד את 7-Zip, נסו לשנות את שם הקובץ מן .z אל .zip והשתמשו ביישום winzip לחילוץ הארכיון. טרם שינוי שם הקובץ, הורו למערכת Windows להציג סיומות קובץ:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
       <li>פתחו את <em>המחשב שלי</em></li>
@@ -117,7 +117,7 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="vidalia-asks-for-a-password">Vidalia מבקשת סיסמה</h3>
     <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
-    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
+    <p><strong>Vidalia קרסה, אך הותירה את Tor מורץ</strong>: במידה ולתיבת הדו שיח אשר שואלת אתכם עבור סיסמת בקרה יש לחצן אתחול, באפשרותכם ללחוץ על הלחצן Vidalia תאתחל את Tor בעזרת סיסמת בקרה אקראית חדשה. במידה ואינכם רואים לחצן אתחול, אוו אם Vidalia אינה מסוגלת לאתחל את Tor עבורכם; המשיו אל מנהל תהליכים או משימות, וסיימו את התהליך Tor. אחרי כן תשתמשו בתוכנית Vidalia כדי לאתחל את Tor.</p>
     <p>למידע נוסף, ראו <a href="https://torproject.org/docs/faq.html#VidaliaPassword">שות</a> באתר הרשת של הפרויקט Tor.</p>
     <h3 id="flash-does-not-work">Flash לא פועל</h3>
     <p>מטעמים של אבטחה, Flash, Java, ותוספות אחרות מנוטרלות נכון להיום למען Tor. תוספות מופעלות באופן עצמאי מן Firefox ומסוגלות לנהל פעילות על מחשבכם דבר אשר פוגע בפרטיות שלכם.</p>
