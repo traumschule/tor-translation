@@ -10,23 +10,23 @@
     <h2 id="how-tor-works">כיצד Tor פועל</h2>
     <p>Tor זוהי רשת של מנהרות מדומות (וירטואליות) אשר מאפשרות לך לשפר את הפרטיות שלך ואת הביטחון עליך באינטרנט. Tor עובדת באופן של שליחת התעבורה שלך מבעד שלושה שרתים אקראיים (הידוע גם בתור <em>ממסרים</em>) בתוך רשת Tor, לפני שהתעבורה נשלחת החוצה אל האינטרנט הפומבי</p>
     <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
-    <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <p>Tor יהפוך את המקור של התעבורה שלך לאנונימי, וכן יצפין כל דבר בינך לבין הרשת Tor. Tor גם יצפין את התעבורה שלך בתוך הרשת Tor, אך אין לו את היכולת להצפין את התעבורה שלך בין הרשת Tor לבין היעד הסופי.</p>
+    <p>במידה ואתה מעביר מידע רגיש, למשל כאשר אתה נכנס אל אתר רשת עם שם משתמש וסיסמה, ודא היטב כי אתה מפיק שימוש מן HTTPS (דוגמא <strong>https</strong>://torproject.org/, ולא <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">כיצד להוריד את Tor</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
-    <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
+    <p>קיימות שתי דרכים שונות להשגת התוכנה Tor. באפשרותך לדפדף בתוך <a href="https://www.torproject.org/">אתר הרשת של הפרויקט Tor</a> ולהוריד אותה שם, לחלופין באפשרותך להשתמש בתוכנית GetTor, משיב דוא״ל אוטומטי.</p>
     <h3 id="how-to-get-tor-via-email">כיצד להשיג את Tor דרך דוא״ל</h3>
-    <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
+    <p>כדי לקבל את Tor Browser Bundle בשפה האנגלית עבור Windows, שלח דוא״ל אל gettor@torproject.org עם <strong>windows</strong> בתוך גוף ההודעה. באפשרותך להותיר את הנושא ריק.</p>
     <p>באפשרותך גם לבקש את Tor Browser Bundle עבור Mac OS X (רשום <strong>macos-i386</strong>), וגם Linux (רשום <strong>linux-i386</strong> עבור מערכות 32-bit או <strong>linux-x86_64</strong> עבור מערכות 64-bit).</p>
-    <p>If you want a translated version of Tor, write <strong>help</strong> instead. You will then receive an email with instructions and a list of available languages.</p>
+    <p>אם רצונך בגרסא מתורגמת של Tor, רשום <strong>help</strong> במקום. אתה תקבל דוא״ל עם הוראות ורשימה של שפות זמינות.</p>
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
     <h3 id="tor-for-smartphones">Tor עבור טלפונים חכמים</h3>
-    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <p>באפשרותך להשיג Tor במכשיר Android על ידי התקנת חבילה בשם <em>Orbot</em>. למידע אודות כיצד להוריד ולהתקין את Orbot, אנא עיין בתוך <a href="https://www.torproject.org/docs/android.html.en">אתר פרויקט Tor</a>.</p>
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">כיצד לאמת אם ברשותך מצויה הגרסא הנכונה</h3>
-    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>טרם הרצת Tor Browser Bundle, עליך לוודא כי קיימת ברשותך הגרסא המתאימה.</p>
+    <p>התוכנה אשר אתה מקבל מלווה בקובץ בעל אותו של כשם האגודה וכן עם הסיומת <strong>.asc</strong>. קובץ .asc זה הינו חתימת GPG, וזו תאפשר לך לאמת כי הקובץ אשר הורדת הינו האחד אותו ייעדנו כי תקבל.</p>
+    <p>טרם תעמוד לך האפשרות לאמת את החתימה, יהיה עליך להוריד ולהתקין את GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
     <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
@@ -34,7 +34,7 @@
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>לאחר ייבוא המפתח, אמת כי טביעת האצבע הינה מדויקת:</p>
     <pre>
       <code>gpg  --fingerprint 0x63FEE659
 </code>
@@ -50,7 +50,7 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>כדי לאמת את החתימה של החבילה שאתה מוריד, הרץ את הפקודה הבאה:</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
