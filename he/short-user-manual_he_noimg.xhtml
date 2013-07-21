@@ -13,7 +13,7 @@
     <p>Tor יהפוך את המקור של התעבורה שלך לאנונימי, וכן יצפין כל דבר בינך לבין הרשת Tor. Tor גם יצפין את התעבורה שלך בתוך הרשת Tor, אך אין לו את היכולת להצפין את התעבורה שלך בין הרשת Tor לבין היעד הסופי.</p>
     <p>במידה ואתה מעביר מידע רגיש, למשל כאשר אתה נכנס אל אתר רשת עם שם משתמש וסיסמה, ודא היטב כי אתה מפיק שימוש מן HTTPS (דוגמא <strong>https</strong>://torproject.org/, ולא <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">כיצד להוריד את Tor</h2>
-    <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
+    <p>האגודה אותה אנו ממליצים לרוב המשתמשים היא <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. אגודה זו מכילה דפדפן מוגדר מראש לדפדוף בבטיחות באינטרנט מבעד אל Tor, וזו לא מצריכה התקנה. אתה מוריד את האגודה, מחלץ את הארכיון, ומתחיל את Tor.</p>
     <p>קיימות שתי דרכים שונות להשגת התוכנה Tor. באפשרותך לדפדף בתוך <a href="https://www.torproject.org/">אתר הרשת של הפרויקט Tor</a> ולהוריד אותה שם, לחלופין באפשרותך להשתמש בתוכנית GetTor, משיב דוא״ל אוטומטי.</p>
     <h3 id="how-to-get-tor-via-email">כיצד להשיג את Tor דרך דוא״ל</h3>
     <p>כדי לקבל את Tor Browser Bundle בשפה האנגלית עבור Windows, שלח דוא״ל אל gettor@torproject.org עם <strong>windows</strong> בתוך גוף ההודעה. באפשרותך להותיר את הנושא ריק.</p>
@@ -27,7 +27,7 @@
     <p>טרם הרצת Tor Browser Bundle, עליך לוודא כי קיימת ברשותך הגרסא המתאימה.</p>
     <p>התוכנה אשר אתה מקבל מלווה בקובץ בעל אותו של כשם האגודה וכן עם הסיומת <strong>.asc</strong>. קובץ .asc זה הינו חתימת GPG, וזו תאפשר לך לאמת כי הקובץ אשר הורדת הינו האחד אותו ייעדנו כי תקבל.</p>
     <p>טרם תעמוד לך האפשרות לאמת את החתימה, יהיה עליך להוריד ולהתקין את GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: הפצות Linux לרוב באות עם GnuPG מותקן מראש.</p>
     <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
     <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
     <pre>
@@ -69,13 +69,13 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>תוכנית האנטי וירוס שלך חוסמת את Tor</strong>: ודא כי תוכנית האנטי וירוס שלך אינה מהווה גורם אשר מונע מן Tor מלבסס חיבורי רשת.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
+    <p>אם Tor עדיין לא עובד, סביר כי ספק האינטרנט (ISP) שלך חוסם את Tor. לעתים קרובות בעיה זו יכולה להיפתר בעזרת <strong>גשרי Tor</strong>, ממסרים נסתרים אשר אינם קלים לחסימה באותה הקלות.</p>
     <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
     <h3 id="how-to-find-a-bridge">כיצד למצוא גשר</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
     <h3 id="how-to-use-a-bridge">כיצד להשתמש בגשר</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
+    <p>ברגע שהגדרת גשרים לשימוש, פתח את לוח בקרה Vidalia, הקלק על <em>הגדרות</em>, <em>רשת</em> וסמן את התיבה אשר אומרת <em>ספק האינטרנט שלי חוסם חיבורים לרשת Tor</em>. הזן את הגשר בתיבה מטה, הקש <em>אישור</em> והתחל את Tor שוב.</p>
     <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
@@ -88,11 +88,11 @@ sub   2048R/EB399FD7 2003-10-16
       <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+    <h2 id="frequently-asked-questions">שאלות ותשובות שכיחות</h2>
     <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
-    <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <h3 id="unable-to-extract-the-archive">לא מסוגל לאלץ ארכיון</h3>
+    <p>במידה ואתה עושה שימוש במערכת ההפעלה Windows ונוכח לדעת כי אינך מסוגל לחלץ את הארכיון, הורד והתקן את <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>במידה ואינך מסוגל להוריד את 7-Zip, נסה לשנות את שם הקובץ מן .z אל .zip והשתמש ביישום winzip לחילוץ הארכיון. טרם שינוי שם הקובץ, הורה למערכת Windows להציג סיומות קובץ:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
       <li>פתח את <em>המחשב שלי</em></li>
