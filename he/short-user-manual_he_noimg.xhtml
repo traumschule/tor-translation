@@ -80,13 +80,13 @@ sub   2048R/EB399FD7 2003-10-16
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
+      <li>פתח את לוח בקרה Vidalia, הקלק על <em>הגדרות</em>.</li>
+      <li>הקלק על <em>רשת</em>. בחר <em>אני עושה שימוש בשרת פרוקסי בכדי לגשת אל האינטרנט</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>הזן את היציאה עבור הפרוקסי.</li>
+      <li>באופן כללי, אין לך צורך בשם משתמש ובסיסמה. במידה וכן, הזן את המידע בשדות המתאימים.</li>
+      <li>בחר <em>טיפוס</em> פרוקסי בו אתה משתמש, בין אם זה HTTP/HTTPS, &amp;rlmSOCKS4, או SOCKS5.</li>
+      <li>לחץ על הלחצן <em>אישור</em>. Vidalia וכן גם Tor מוגדרים כעת לעשות שימוש בפרוקסי בכדי לגשת את שארית הרשת Tor.</li>
     </ol>
     <h2 id="frequently-asked-questions">שאלות ותשובות שכיחות</h2>
     <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
@@ -114,7 +114,7 @@ sub   2048R/EB399FD7 2003-10-16
       <li>לחץ על הכרטיסייה <em>תצוגה</em></li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
+    <h3 id="vidalia-asks-for-a-password">Vidalia מבקשת סיסמה</h3>
     <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
