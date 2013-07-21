@@ -15,15 +15,15 @@
     <h2 id="how-to-download-tor">כיצד להוריד את Tor</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
     <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
-    <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
+    <h3 id="how-to-get-tor-via-email">כיצד להשיג את Tor דרך דוא״ל</h3>
     <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
-    <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
+    <p>באפשרותך גם לבקש את Tor Browser Bundle עבור Mac OS X (רשום <strong>macos-i386</strong>), וגם Linux (רשום <strong>linux-i386</strong> עבור מערכות 32-bit או <strong>linux-x86_64</strong> עבור מערכות 64-bit).</p>
     <p>If you want a translated version of Tor, write <strong>help</strong> instead. You will then receive an email with instructions and a list of available languages.</p>
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
-    <h3 id="tor-for-smartphones">Tor for smartphones</h3>
+    <h3 id="tor-for-smartphones">Tor עבור טלפונים חכמים</h3>
     <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
-    <h3 id="how-to-verify-that-you-have-the-right-version">How to verify that you have the right version</h3>
+    <h3 id="how-to-verify-that-you-have-the-right-version">כיצד לאמת אם ברשותך מצויה הגרסא הנכונה</h3>
     <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
@@ -63,7 +63,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>
       <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
+    <h3 id="what-to-do-when-tor-does-not-connect">מה לעשות כאשר Tor לא מתחבר</h3>
     <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
     <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
@@ -71,10 +71,10 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
     <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
+    <h3 id="how-to-find-a-bridge">כיצד למצוא גשר</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
+    <h3 id="how-to-use-a-bridge">כיצד להשתמש בגשר</h3>
     <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
     <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
@@ -95,7 +95,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
+      <li>פתח את <em>המחשב שלי</em></li>
       <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
       <li>Click on the <em>View</em> tab</li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
