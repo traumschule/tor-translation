@@ -2,13 +2,13 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "ก่อนที่ Tor Browser Bundle จะเชื่อมต่อกับเครือข่าย Tor คุณต้องให้ข้อมูลเกี่ยวกับการเชื่อมต่ออินเตอร์เน็ทของคอมพิวเตอร์เครื่องนี้">
 
 <!ENTITY torSettings.yes "ใช่">
 <!ENTITY torSettings.no "ไม่ใช่">
 
 <!ENTITY torSettings.firstQuestion "">
-<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.configurePrompt1 "การเชื่อมต่ออินเตอร์เน็ตของคอมพิวเตอร์เครื่องนี้ได้ถูกเซ็นเซอร์ ถูกกรอง หรือใช้งานผ่านพร็อกซี">
 <!ENTITY torSettings.configurePrompt2 "ฉันต้องการปรับแต่งค่าติดตั้งเครือข่าย">
 <!ENTITY torSettings.configure "ปรับแต่ง">
 <!ENTITY torSettings.connectPrompt1 "การเชื่อมต่ออินเทอร์เน็ตของคอมพิวเตอร์เครื่องนี้ปราศจากอุปสรรค">
@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.bridgeQuestion "ถ้าอินเทอร์เน็ตจากเครื่องนี้โดนเซ็นเซอร์ คุณต้องใช้สะพานรีเลย์ ถ้าไม่ก็ให้คลิก &quot;เชื่อมต่อ&quot;">
 
 <!-- Other: -->
 
@@ -50,5 +50,5 @@
 <!ENTITY torsettings.bridgeHelpTitle "การช่วยเหลือรีเลย์สะพาน">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "เพื่อทราบถึงรีเลย์สะพานบางตัว ใช้เว็บเบราว์เซอร์ดูหน้านี้ https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelp3 "อีกวิธีที่จะหาที่อยู่สะพานรีเลย์ก็คือการส่งเมล์ไปหา bridges@torproject.org พร้อมกับคำว่า 'get bridges' ในข้อความ อย่างไรก็ตามคุณต้องส่งเมล์จากที่อยู่อีเมล์ของ gmail.com หรือ yahoo.com เท่านั้นเพื่อที่จะทำให้ยากที่จะให้ผู้โจมตีหาสะพานรีเลย์จำนวนมาก">
+<!ENTITY torsettings.bridgeHelp4 "คุณสามารถขอสะพานรีเลย์ได้จากการส่งเมล์ไปหา help@rt.torproject.org">
