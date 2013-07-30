@@ -30,8 +30,8 @@
 
 <!ENTITY torsettings.optional "İsteğe Bağlı">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Bu bilgisayarın İnternet'e erişebilmek için bir vekil sunucu kullanması gerekiyor">
+<!ENTITY torsettings.useProxy.type "Vekil Sunucu Türü:">
 <!ENTITY torsettings.useProxy.address "Adres:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresi veya sunucu adı">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -40,7 +40,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Bu bilgisayar, sadece belirli bağlantı noktalarına izin veren bir güvenlik duvarı ile bağlanıyor">
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
@@ -48,7 +48,7 @@
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Ayna Yardımı">
-<!ENTITY torsettings.bridgeHelp1 "">
+<!ENTITY torsettings.bridgeHelp1 "Eğer Tor ağına bağlanamıyorsanız, İnternet Servis Sağlayıcınız (ISS) veya farklı bir aracı Tor'u engelliyor olabilir.&amp;#160; Genellikle, bu sorunun çözülebilmesi için engellenmeleri daha zor, gizli aynalar olan Tor Köprüleri kullanabilirsiniz.">
 <!ENTITY torsettings.bridgeHelp2 "">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
