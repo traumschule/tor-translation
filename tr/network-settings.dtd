@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Tor Ağ Ayarları">
 
 <!-- For "first run" wizard: -->
 
@@ -7,33 +7,33 @@
 <!ENTITY torSettings.yes "Evet">
 <!ENTITY torSettings.no "Hayır">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "Aşağıdakilerden hangisi durumunuzu en iyi açıklıyor?">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.configurePrompt2 "Ağ ayarlarını yapılandırmam gerek.">
+<!ENTITY torSettings.configure "Yapılandır">
+<!ENTITY torSettings.connectPrompt1 "Bu bilgisayarın İnternet bağlantısı engelsiz.">
+<!ENTITY torSettings.connectPrompt2 "Doğrudan Tor ağına bağlanmak istiyorum">
 <!ENTITY torSettings.connect "Bağlan">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Bu bilgisayarın İnternete erişirken bir vekil kullanması gerekiyor mu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.proxyHelp "Eğer bu soruyu nasıl yanıtlayacağınızdan emin değilseniz, farklı bir tarayıcıda İnternet seçeneklerine bakın ve bir vekil kullanmak üzere yapılandırılıp yapılandırılmadığına bakın">
+<!ENTITY torSettings.enterProxy "Vekil ayarlarını girin.">
+<!ENTITY torSettings.firewallQuestion "Bu bilgisayarın İnternet bağlantısı, sadece belirli bağlantı noktalarına izin veren bir güvenlik duvarından geçiyor mu?">
+<!ENTITY torSettings.firewallHelp "Eğer bu soruya nasıl cevap vereceğinizden emin değilseniz, Hayır seçin. Eğer Tor ağına bağlanırken sorunla karşılaşırsanız, bu ayarı değiştirin.">
+<!ENTITY torSettings.enterFirewall "Güvenlik duvarı tarafından izin verilen bağlantı noktalarının virgülle ayrılmış bir listesini girin.">
+<!ENTITY torSettings.bridgeQuestion "Eğer bu bilgisayarın İnternet bağlantısı sansürlü ise, köprü aynaları edinmeniz ve kullanmanız gerekecek.&amp;#160; Eğer değilse, sadece Bağlan tıklayın.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Tor'un başlaması bekleniyor...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "İsteğe Bağlı">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "Adres:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "IP adresi veya sunucu adı">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Kullanıcı adı:">
 <!ENTITY torsettings.useProxy.password "Parola:">
@@ -44,10 +44,10 @@
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "adres:port">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
+<!ENTITY torsettings.bridgeHelpTitle "Köprü Ayna Yardımı">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
 <!ENTITY torsettings.bridgeHelp3 "">
