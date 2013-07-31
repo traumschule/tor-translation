@@ -1,0 +1,132 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">Kratki korisnički priručnik</h1>
+    <p>Ovaj priručnik za korisnike sadrži informacije o tome kako preuzeti Tor, kako ga koristiti, te što učiniti ako se Tor ne može spojiti na mrežu. Ako ne možete pronaći odgovor na svoje pitanje u ovom dokumentu, pošaljite email na help@rt.torproject.org.</p>
+    <p>Napominjemo da pružamo podršku na volonterskoj osnovi i dobivamo mnogo emailova svaki dan. Nema potrebe za brigom ako Vam se ne javimo istog trena.</p>
+    <h2 id="how-tor-works">Kako Tor radi</h2>
+    <p>Tor je mreža virtualnih tunela koja korisniku omogućava poboljšanje privatnosti i sigurnosti na Internetu. Tor šalje korisnički promet kroz tri nasumična poslužitelja (poznati kao <em>releji</em>) u Tor mreži prije nego što se promet pošalje na javni Internet.</p>
+    <p>Slika niže ilustrira korisnika koji pretražuje različite web stranice preko Tora. Zeleni monitori predstavljaju releje u Tor mreži, dok tri ključa predstavljaju slojeve šifriranja između korisnika i svakog releja.</p>
+    <p>Tor će anonimizirati podrijetlo vašeg prometa te pritom šifrirati sve između vas i Tor mreže. Tor će ujedno šifrirati i vaš promet unutar Tor mreže, ali ne može šifrirati promet između Tor mreže i njegovog završnog odredišta.</p>
+    <p>Ako prenosite osjetljive informacije, primjerice kada se prijavljujete na neku web stranicu s korisničkim imenom i lozinkom, uvjerite se da koristite HTTPS (npr. <strong>https</strong>://torproject.org/, ne <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Kako preuzeti Tor</h2>
+    <p>Paket koji preporučujemo većini korisnika je <a href="https://www.torproject.org/projects/torbrowser.html">Tor preglednički paket</a>. Ovaj paket sadrži preglednik unaprijed konfiguriran za sigurno pretraživanje Interneta kroz Tor te ne zahtijeva instalaciju. Preuzmete paket, otpakirate arhivu i pokrenete Tor.</p>
+    <p>Postoje dva načina za preuzimanje Tor softvera. Možete posjetiti <a href="https://www.torproject.org/">web stranicu Tor projekta</a> i preuzeti ga tamo, ili upotrijebiti GetTor, sustav za automatske odgovore na elektroničku poštu.</p>
+    <h3 id="how-to-get-tor-via-email">Kako preuzeti Tor putem e-pošte</h3>
+    <p>Kako biste primili englesku inačicu Tor pregledničkog paketa za Windows, pošaljite email na gettor@torproject.org s riječi <strong>windows</strong> u tijelu poruke. Možete ostaviti naslov praznim.</p>
+    <p>Također, možete zatražiti Tor preglednički paket za Mac OS X (napišite <strong>macos-i386</strong>) i Linux (napišite <strong>linux-i386</strong> za 32-bitne sustave ili <strong>linux-x86_64</strong> za 64-bitne sustave).</p>
+    <p>Ako želite prevedenu inačicu Tora, napišite <strong>help</strong>. Dobit ćete email s uputama i popisom dostupnih jezika.</p>
+    <p><strong>Napomena</strong>: Tor preglednički paketi za Linux i Mac OS X prilično su veliki i nećete moći primiti nijedan od ovih paketa putem Gmail, Hotmail ili Yahoo računa. Ako niste u mogućnosti primiti paket koji želite, pošaljite email na help@rt.torproject.org i dat ćemo vam popis zrcalnih web stranica koje možete koristiti.</p>
+    <h3 id="tor-for-smartphones">Tor za pametne telefone</h3>
+    <p>Možete preuzeti Tor na svojem Android uređaju instaliranjem paketa <em>Orbot</em>. Za informacije o tome kako preuzeti i instalirati Orbot, molimo pogledajte <a href="https://www.torproject.org/docs/android.html.en">web stranicu Tor projekta</a>.</p>
+    <p>Imamo i eksperimentalne pakete za <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> i <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Kako potvrditi da imate ispravnu inačicu</h3>
+    <p>Prije pokretanja Tor pregledničkog paketa, trebali biste potvrditi da imate ispravnu inačicu.</p>
+    <p>Softver koji ste preuzeli dolazi s datotekom istog imena kao i paket i nastavkom <strong>.asc</strong>. Ova .asc datoteka je GPG potpis koji će Vam omogućiti da provjerite je li datoteka koju ste preuzeli upravo ona koju smo Vam i namijenili.</p>
+    <p>Da biste mogli provjeriti potpis, morat ćete prvo preuzeti i instalirati GnuPG:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Većina Linux distribucija dolazi s instaliranim GnuPG-om.</p>
+    <p>Napominjemo da će te možda morati izmjeniti putanje i naredbe korištene niže kako bi proradile na vašem sustavu.</p>
+    <p>Erinn Clark potpisuje Tor Browser Bundle sa ključem 0x63FEE659. Za uvoz Erinninog ključa pokrenite:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎
+</code>
+    </pre>
+    <p>Nakon uvoza ključa, verificirajte da je otisak ispravan:</p>
+    <pre>
+      <code>gpg --fingerprint 0x63FEE659⏎
+</code>
+    </pre>
+    <p>Trebali biste vidjeti:</p>
+    <pre>
+      <code>pub 2048R/63FEE659 2003-10-16⏎
+Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎
+uid Erinn Clark &lt;erinn@torproject.org&gt;⏎
+uid Erinn Clark &lt;erinn@debian.org&gt;⏎
+⏎
+uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎
+sub 2048R/EB399FD7 2003-10-16⏎
+</code>
+    </pre>
+    <p>Da biste verificirali potpis paketa kojeg ste preuzeli, pokrenite sljedeću naredbu:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎
+</code>
+    </pre>
+    <p>Ispis bi trebao glasiti <em>"Good signature"</em>. Neispravan potpis znači da je datoteka možda neovlašteno izmijenjena. Ako vidite neispravan potpis, pošaljite nam detalje o tome odakle ste preuzeli paket, kako ste provjerili potpis, te ispis GnuPG-a e-poštom na help@rt.torproject.org.</p>
+    <p>Nakon što ste provjerili potpis i dobili ispis<em>"Good signature"</em>, nastavite i otpakirajte arhivu paketa. Zatim biste trebali vidjeti mapu imena sličnog <strong>tor-browser_hr-HR</strong>. U toj mapi nalazi se mapa imena <strong>Docs</strong>, koja sadrži datoteku <strong>changelog</strong>. Provjerite odgovara li broj inačice na prvoj liniji changelog datoteke broju inačice u nazivu datoteke.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Kako koristiti Tor preglednički paket</h3>
+    <p>Nakon preuzimanja Tor pregledničkog paketa i otpakiravanja arhive, trebali biste imati mapu koja sadrži nekoliko datoteka. Jedna od datoteka je izvršna datoteka imena "Start Tor Browser" (ili "start-tor-browser", ovisno o vašem operacijskom sustavu).</p>
+    <p>Kada pokrenete Tor preglednički paket, prvo ćete vidjeti kako se Vidalia pokreće i spaja na Tor mrežu. Nakon toga, preglednik će potvrditi da koristite Tor prikazivanjem <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Sada možete pretraživati Internet kroz Tor.</p>
+    <p>
+      <em>Napominjemo kako je važno da koristite preglednik koji dolazi s paketom, a ne svoj vlastiti preglednik.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Što učiniti kad se Tor ne uspije spojiti</h3>
+    <p>Neki korisnici će primjetiti da se Vidalia zaglavi pri pokušaju spajanja na Tor mrežu. Ako se to dogodi, uvjerite se da ste spojeni na Internet. Ako se trebate spojiti na proxy poslužitelj, pogledajte <em>Kako koristiti otvoreni proxy</em> ispod.</p>
+    <p>Ako vaša uobičajena Internet veza radi, ali Tor još uvijek nije u mogućnosti spojiti se na mrežu, pokušajte sljedeće: otvorite Vidalia upravljačku ploču, kliknite na <em>Zapis poruka</em> i odaberite karticu <em>Napredno</em>. Moguće je da se Tor ne može spojiti iz sljedećih razloga:</p>
+    <p><strong>Sat u Vašem sustavu je netočan</strong>: Uvjerite se da su datum i vrijeme u Vašem sustavu ispravni te ponovno pokrenite Tor. Možda ćete morati sinkronizirati sat Vašeg sustava s poslužiteljem točnog vremena na Internetu.</p>
+    <p><strong>Nalazite se iza ograničavajućeg vatrozida</strong>: Kako biste rekli Toru da pokuša koristiti samo portove 80 i 443, otvorite upravljačku ploču Vidalije, kliknite na <em>Postavke</em> i <em>Mreža</em>, i označite polje <em>Moj vatrozid mi dopušta spajanje samo na određene portove</em>.</p>
+    <p><strong>Vaš antivirusni program blokira Tor</strong>: Uvjerite se da Vaš antivirusni program ne onemogućuje Toru uspostavu mrežnih veza.</p>
+    <p>Ako Tor još uvijek ne radi, vjerojatno je da Vaš pružatelj Internet usluga (ISP) ili druga organizacija blokira Tor. Taj se problem vrlo često može riješiti korištenjem <strong>Tor bridge releja</strong>, skrivenih releja koje je teže blokirati.</p>
+    <p>Ako trebate pomoć pri razlučivanju zašto se Tor ne može spojiti, pošaljite email na help@rt.torproject.org i uključite relevantne dijelove log datoteke.</p>
+    <h3 id="how-to-find-a-bridge">Kako pronaći bridge relej</h3>
+    <p>Za korištenje mosta, prvo ćete morati locirati neki most; možete pretraživačem doći na <a href="https://bridges.torproject.org/">bridges.torproject.org/</a>, ili možete poslati email na bridges@torproject.org. Ako pak pošaljete email, molimo vas da obavezno napišete <strong>get bridges</strong> u tijelu emaila. Bez toga nećete dobiti odgovor. Napominjemo da morate poslati ovaj email sa gmail.com ili yahoo.com adrese.</p>
+    <p>Postavljanjem više od jedne adrese mosta će učiniti vašu Tor vezu stabilnijom, u nekim slučajevima neki mostovi postanu nedostupni. Ne postoji jamstvo da će most koji koristite trenutno raditi i sutra, pa biste trebali razviti naviku osvježavanja svoje liste mostova svako toliko.</p>
+    <h3 id="how-to-use-a-bridge">Kako koristiti most</h3>
+    <p>Kada imate set mostova koje možete koristiti, otvorite Vidalia kontrolnu ploču, kliknite na <em>Postavke</em>, <em>Mreža</em> i stavite kvačicu gdje piše <em>Moj ISP blokira veze prema Tor mreži</em>. Unesite mostove u kućicu niže, pritisnite <em>OK</em> i ponovno pokrenite Tor.</p>
+    <h3 id="how-to-use-an-open-proxy">Kako koristiti otvoreni proxy</h3>
+    <p>Ako korištenje mosta ne radi, probajte podesiti Tor da koristi bilo koji HTTPS ili SOCKS proxy kako biste dobili pristup Tor mreži. To znači čak i kad je Tor blokiran na vašoj lokalnoj mreži, otvoreni proxy sustavi mogu se sigurno koristiti za spajanje na Tor mrežu i na necenzurirani Internet.</p>
+    <p>Sljedeći koraci pretpostavljaju da imate funkcinalnu Tor/Vidalia konfiguraciju, i da ste pronašli listu HTTPS, SOCKS4, ili SOCKS5 proxy-a.</p>
+    <ol style="list-style-type: decimal">
+      <li>Otvorite Vidalia upravljačku ploču, kliknite na <em>Postavke</em>.</li>
+      <li>Kliknite na <em>Mreža</em>. Odaberite <em>Koristim proxy za pristup Internetu</em>.</li>
+      <li>Na liniji <em>Adresa</em> upišite adresu otvorenog proxyja. Možete upisati hostname ili IP adresu.</li>
+      <li>Unesite port za proxy.</li>
+      <li>Obično Vam ne treba korisničko ime i lozinka. Ako trebate, unesite ih u odgovarajuća polja.</li>
+      <li>Odaberite <em>Tip</em> proxyja koji koristite: HTTP/HTTPS, SOCKS4, ili SOCKS5.</li>
+      <li>Kliknite gumb <em>OK</em>. Vidalia i Tor su sada podešeni za korištenje proxyja za spajanje na Tor mrežu.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Često postavljena pitanja</h2>
+    <p>Ovaj odjeljak će dati odgovore na neka najčešće postavljena pitanja. Ako Vaše pitanje nije odgovoreno ovdje, molimo pošaljite email na help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Nije bilo moguće otpakirati arhivu</h3>
+    <p>Ako koristite Windowse i otkrijete da ne možete otpakirati arhivu, preuzmite i instalirajte <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Ako niste u mogućnosti preuzeti 7-Zip, pokušajte preimenovati datoteku iz .z u .zip i upotrijebite winzip za otpakiravanje arhive. Prije preimenovanja datoteke, podesite Windowse kako bi vam prikazivali nastavke datoteka:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Otvorite <em>Moje računalo</em></li>
+      <li>Kliknite na <em>Alati</em> i odaberite <em>Odrednice mape...</em> u izborniku</li>
+      <li>Kliknite na karticu <em>Prikaz</em></li>
+      <li>Isključite opciju <em>Sakrij proširenja za poznate vrste datoteka</em> i kliknite na <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Otvorite <em>Računalo</em></li>
+      <li>Kliknite na <em>Organiziraj</em> i odaberite <em>Mogućnosti mape i pretraživanja</em> u izborniku</li>
+      <li>Kliknite na karticu <em>Prikaz</em></li>
+      <li>Isključite opciju <em>Sakrij proširenja za poznate vrste datoteka</em> i kliknite na <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Otvorite <em>Računalo</em></li>
+      <li>Kliknite na <em>Organiziraj</em> i odaberite <em>Mogućnosti mape i pretraživanja</em> u izborniku</li>
+      <li>Kliknite na karticu <em>Prikaz</em></li>
+      <li>Isključite opciju <em>Sakrij proširenja za poznate vrste datoteka</em> i kliknite na <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia traži lozinku</h3>
+    <p>Vidalia Vas pri pokretanju ne bi trebala tražiti lozinku. Ako je zatražena lozinka, vjerojatno se pojavio jedan od sljedećih problema:</p>
+    <p><strong>Vidalia i Tor su već pokrenuti</strong>: Ova se situacija, na primjer, može dogoditi ako ste instalirali Vidalia paket i sad pokušavate pokrenuti Tor preglednički paket. U tom slučaju, morat ćete zatvoriti staru Vidaliju i Tor prije nego što možete pokrenuti ovaj paket.</p>
+    <p><strong>Vidalia se srušila, ali je Tor nastavio raditi</strong>: Ako prozor koji Vas traži upravljačku lozinku ima gumb Reset, možete kliknuti na taj gumb i Vidalia će ponovno pokrenuti Tor s novom nasumičnom upravljačkom lozinkom. Ako ne vidite gumb Reset, ili ako Vidalia ne može ponovno pokrenuti Tor, otvorite svoj upravitelj procesa ili zadataka i prekinite Tor proces. Zatim upotrijebite Vidaliju da biste ponovno pokrenuli Tor.</p>
+    <p>Za više informacija, pogledajte <a href="https://torproject.org/docs/faq.html#VidaliaPassword">Često postavljena pitanja</a> na web stranici Tor projekta.</p>
+    <h3 id="flash-does-not-work">Flash ne radi</h3>
+    <p>Zbog sigurnosnih razloga, Flash, Java i drugi priključci su trenutno onemogućeni za Tor. Priključci djeluju neovisno od Firefoxa i mogu na Vašem računalu izvršavati aktivnosti koje uništavaju Vašu anonimnost.</p>
+    <p>Većina YouTube videozapisa radi s HTML5 standardom i moguće je gledati te videozapise kroz Tor. Morate se prijaviti za <a href="https://www.youtube.com/html5">HTML5 trial</a> na YouTubeu da biste mogli koristiti HTML5 reproduktor.</p>
+    <p>Napominjemo da pretražnik neće zapamtiti da ste se prijavili za testiranje nakon što ga zatvorite, pa ćete morati ponovno se prijaviti sljedeći puta kada pokrenete Tor Browser Bundle.</p>
+    <p>Molimo pogledajte <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> za više informacija.</p>
+    <h3 id="i-want-to-use-another-browser">Želim koristiti drugi preglednik</h3>
+    <p>Zbog sigurnosnih razloga, preporučujemo da pretražujete web kroz Tor korištenjem Tor pregledničkog paketa. Tehnički je moguće koristiti Tor s drugim preglednicima, ali se na taj način izlažete potencijalnim napadima.</p>
+    <h3 id="why-tor-is-slow">Zašto je Tor spor</h3>
+    <p>Tor nekad može biti nešto sporiji od Vaše uobičajene internetske veze. Uostalom, Vaš promet se šalje kroz mnogo različitih zemalja, ponekad i preko oceana diljem svijeta!</p>
+  </body>
+</html>
