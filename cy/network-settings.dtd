@@ -1,16 +1,16 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Gosodiadau Rhwydwaith Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Cyn i'r Pecyn Porwr Tor (Tor Browser Bundle) geisio cysylltu â'r rhwydwaith Tor, mae rhaid ichi ddarparu gwybodaeth am gysylltiad rhyngrwyd y cyfrifiadur hwn.">
 
-<!ENTITY torSettings.yes "">
-<!ENTITY torSettings.no "">
+<!ENTITY torSettings.yes "Ia">
+<!ENTITY torSettings.no "Na">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "Pa un o'r canlynol yn disgrifio'ch sefyllfa y gorau?">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configurePrompt2 "Mae rhaid imi osod gosodiadau rhwydwaith.">
+<!ENTITY torSettings.configure "Gosod">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "">
 <!ENTITY torSettings.connect "Cysylltu">
@@ -26,29 +26,29 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Yn aros am Tor i gychwyn…">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Opsiynol">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "Cyfeiriad:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
-<!ENTITY torsettings.useProxy.port "Porth">
-<!ENTITY torsettings.useProxy.username "">
-<!ENTITY torsettings.useProxy.password "">
-<!ENTITY torsettings.useProxy.type.socks4 "">
-<!ENTITY torsettings.useProxy.type.socks5 "">
-<!ENTITY torsettings.useProxy.type.http "">
+<!ENTITY torsettings.useProxy.address.placeholder "Cyfeiriad IP neu enw gwesteiwr">
+<!ENTITY torsettings.useProxy.port "Porth:">
+<!ENTITY torsettings.useProxy.username "Enw defnyddiwr:">
+<!ENTITY torsettings.useProxy.password "Cyfrinair:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
-<!ENTITY torsettings.firewall.allowedPorts "">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.firewall.allowedPorts "Pyrth a ganiateir:">
+<!ENTITY torsettings.useBridges.checkbox "Mae fy Narparydd Gwasanaeth Rhyngrwyd (ISP) yn atal cysylltiadau â'r rhwydwaith Tor">
+<!ENTITY torsettings.useBridges.label "Mewngofnodwch un neu fwy o releiau pontydd fel cyfeiriad:porth.">
+<!ENTITY torsettings.useBridges.placeholder "cyfeiriad:poth">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "Copio'r Log Tor i'r Clipfwrdd">
+<!ENTITY torsettings.bridgeHelpTitle "Cymorth Pont Relái">
 <!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.bridgeHelp2 "Er mwyn gael rhai releiau pontydd, defnyddiwch porwr gwe i ymweld â'r tudalen ganlynol: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
