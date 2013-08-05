@@ -2,15 +2,15 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Før Tor Browser Pakken forsøger at forbinde til Tor netværket, skal du angive information om denne computers internetforbindelse.">
 
 <!ENTITY torSettings.yes "Ja">
 <!ENTITY torSettings.no "Nej">
 
 <!ENTITY torSettings.firstQuestion "Hvilke af de følgende beskriver bedst din situation?">
-<!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configurePrompt1 "Denne computers internetforbindelse er censureret, filtreret, eller føres igennem en proxy.">
+<!ENTITY torSettings.configurePrompt2 "Jeg skal konfigurere netværksindstillingerne.">
+<!ENTITY torSettings.configure "Indstil">
 <!ENTITY torSettings.connectPrompt1 "Denne computers internetforbindelse er ryddet for forhindringer.">
 <!ENTITY torSettings.connectPrompt2 "Jeg vil forbinde direkte til Tor netværket.">
 <!ENTITY torSettings.connect "Tilslut">
@@ -20,9 +20,9 @@
 <!ENTITY torSettings.proxyHelp "Hvis du ikke kender svaret på dette spørgsmål, så kig på internetindstillingerne i en anden browser for at se om den er konfigureret til at bruge en proxy.">
 <!ENTITY torSettings.enterProxy "Indtast proxy-indstillinger.">
 <!ENTITY torSettings.firewallQuestion "Går denne computers internetforbindelse igennem en firewall som kun tillader forbindelse til visse porte?">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.firewallHelp "Hvis du ikke er sikker på hvordan du skal svare på dette spørgsmål, vælg Nej. Hvis du løber ind i problemer med at forbinde til Tor netværket, skal du ændre denne indstilling.">
+<!ENTITY torSettings.enterFirewall "Indtast en komma-separeret liste over porte der er tilladt på firewallen.">
+<!ENTITY torSettings.bridgeQuestion "Hvis denne computers internetforbindelse er censureret, skal du få fat i og bruge bro-relæer.&amp;#160; If ikke, klik bare på Forbind.">
 
 <!-- Other: -->
 
@@ -31,9 +31,9 @@
 <!ENTITY torsettings.optional "Valgfri">
 
 <!ENTITY torsettings.useProxy.checkbox "Denne computer skal bruge en proxy for at forbinde til internettet">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.type "Proxy type:">
 <!ENTITY torsettings.useProxy.address "Adresse:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "IP adresse eller værtsnavn">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Brugernavn:">
 <!ENTITY torsettings.useProxy.password "Kodeord:">
@@ -43,12 +43,12 @@
 <!ENTITY torsettings.firewall.checkbox "Denne computer går gennem en firewall som kun tillader forbindelse til specifikke porte">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor netværket">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Angiv et eller flere bro-relæer i formen adresse:port.">
+<!ENTITY torsettings.useBridges.placeholder "adresse:port">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
+<!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
+<!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan forbinde til Tor-netværket, kunne det være fordi din internetudbyder (ISP) eller en anden part blokerer Tor.&amp;#160; Ofte kan dette omgåes ved at bruge Tor broer, som er skjulte relæer, der er vanskeligere at blokere.">
+<!ENTITY torsettings.bridgeHelp2 "For at få fat i nogle bro-relæer, brug en webbrowser til at besøge følgende hjemmeside: https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "En anden måde du kan finde adresser på offentlige bro-relæer er ved at sende en mail til bridges@torproject.org med teksten 'get bridges' i mailens tekst.&amp;#160; For at gøre det sværere for en ondsindet part at få fat i adresserne på mange bro-relæer, skal du sende denne forespørgsel fra en e-mail adresse på en af de følgende domæner: gmail.com eller yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "Du kan også forespørge adresser på bro-relæer ved at sende en mail til help@rt.torproject.org.">
