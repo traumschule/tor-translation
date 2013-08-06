@@ -8,7 +8,7 @@
 <!ENTITY torSettings.no "Hayır">
 
 <!ENTITY torSettings.firstQuestion "Aşağıdakilerden hangisi durumunuzu en iyi açıklıyor?">
-<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.configurePrompt1 "İnternet bağlantınız sansürlenmiş,filtrelenmiş veyahut proxylenmiş.">
 <!ENTITY torSettings.configurePrompt2 "Ağ ayarlarını yapılandırmam gerek.">
 <!ENTITY torSettings.configure "Yapılandır">
 <!ENTITY torSettings.connectPrompt1 "Bu bilgisayarın İnternet bağlantısı engelsiz.">
