@@ -13,7 +13,7 @@
 <!ENTITY torSettings.configure "">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connect "Pripojiť">
 
 <!ENTITY torSettings.proxyQuestion "">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
