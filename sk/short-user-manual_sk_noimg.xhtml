@@ -8,23 +8,23 @@
     <p>Táto užívateľská príručka obsahuje informácie o tom, ako stiahnuť Tor, používať ho a čo robiť, ak sa nemôže pripojiť na sieť. Ak nemôžete nájsť odpoveď na svoju otázku v tomto dokumente, kontaktujte help@rt.torproject.org.</p>
     <p>Vezmite prosím na vedomie, že poskytujeme podporu na dobrovoľnej činnosti a každý deň dostávame mnoho emailov. Ak sa Vám neozveme okamžite, netreba sa báť.</p>
     <h2 id="how-tor-works">Ako funguje Tor</h2>
-    <p>Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as <em>relays</em>) in the Tor network, before the traffic is sent out onto the public Internet.</p>
-    <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
-    <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <p>Tor je sieť virtuálnych tunelov, ktoré umožňujú vylepšiť Vaše súkromie a bezpečnosť na Internete. Tor funguje tak, že posiela Vaše dáta cez tri náhodné servery (tiež známe ako <em>relé</em>) v sieti Tor predtým, než ich odošle na verejný Internet.</p>
+    <p>Obrázok vyššie ukazuje používateľa prechádzajúceho rôznymi stránkami cez Tor. Zelené monitory reprezentujú relé v sieti Tor, zatiaľ čo tri kľúče reprezentujú vrstvy šifrovania medzi užívateľom a každým relé.</p>
+    <p>Tor anonymizuje pôvod Vašich dát a šifruje všetko medzi Vami a sieťou Tor. Tor taktiež šifruje Vaše dáta v sieti Tor, ale nemôže šifrovať Vašu komunikáciu medzi sieťou Tor a jej cieľom.</p>
+    <p>Ak prenášate citlivé informácie, napríklad keď sa prihlasujete na stránku s menom a heslom, uistite sa že používate HTTPS (napr. <strong>https</strong>://torproject.org/, nie <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Ako stiahnuť Tor</h2>
-    <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
-    <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
+    <p>Balíček, ktorý odporúčame pre väčšinu užívateľov je <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Tneto balíček obsahuje prednastavený prehliadač a nevyžaduje inštaláciu. Stačí balíček stiahnuť, rozbaliť archív a spustiť Tor.</p>
+    <p>Existujú dva spôsoby ako získať softvér Tor. Môžete buď navštíviť  <a href="https://www.torproject.org/">stránku Projektu Tor</a> a stiahnuť ho tam, alebo môžete použiť GetTor, emailového robota.</p>
     <h3 id="how-to-get-tor-via-email">Ako získať Tor cez email</h3>
     <p>Ak chcete prijať anglickú verziu Prehliadača Tor pre Windows, pošlite email na gettor@torproject.org so správou <strong>windows</strong>. Predmet správy môžete nechať prázdny.</p>
     <p>Taktiež môžete požiadať o Prehliadač Tor pre Mac OS X (napíšte <strong>macos-i386</strong>) a Linux (napíšte <strong>linux-i386</strong> pre 32-bitové systémy alebo <strong>linux-x86_64</strong> pre 64-bitové systémy).</p>
     <p>Ak chcete preloženú verziu Tor, napíšte do tela správy <strong>help</strong>. Obdržíte email s inštrukciami a zoznamom dostupných jazykov.</p>
     <p><strong>Poznámka</strong>: Prehliadač Tor pre Linux a Mac OS X sú pomerne veľké a nebudete ich môcť prijať na účty Gmail, Hotmail alebo Yahoo. Ak nemôžete prijať balík ktorý chcete, pošlite email na help@rt.torproject.org a my Vám dáme zoznam stránok odkiaľ je možné stiahnuť prehliadač.</p>
     <h3 id="tor-for-smartphones">Tor pre smartfóny</h3>
-    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <p>Môžete získať Tor na Vaše Android zariadenie tak, že nainštalujete balík s názvom <em>Orbot</em>. Pre informácie o tom ako stiahnuť a nainštalovať Orbot prosím navštívte <a href="https://www.torproject.org/docs/android.html.en">stránku Projektu Tor</a>.</p>
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Ako overiť či máte správnu verziu</h3>
-    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
+    <p>Pred spustením Balíčka Prehliadača Tor, uistite sa že máte správnu verziu.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
@@ -61,7 +61,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>Vezmite prosím na vedomie, že je dôležité používať prehliadač ktorý obsahuje inštalačný balíček a nie svoj vlastný.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Čo robiť keď sa Tor nepripojí</h3>
     <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
@@ -102,14 +102,14 @@ sub   2048R/EB399FD7 2003-10-16
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
+      <li>Otvor <em>Počítač</em></li>
       <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
       <li>Click on the <em>View</em> tab</li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
+      <li>Otvor <em>Počítač</em></li>
       <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
       <li>Click on the <em>View</em> tab</li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
@@ -120,13 +120,13 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
     <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
     <h3 id="flash-does-not-work">Flash nefunguje</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
+    <p>Kvôli bezpečnostným dôvodom sú Flash, Java a ostatné doplnky momentálny vypnuté. Doplnky fungujú nezávisle od Firefoxu a môžu vykonávať aktivity na Vašom počítači, ktoré zničia Vašu anonymitu.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
     <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
     <h3 id="i-want-to-use-another-browser">Chcem použiť iný prehliadač</h3>
     <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
     <h3 id="why-tor-is-slow">Prečo je Tor pomalý</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Tor môže byť niekedy pomalší než Vaše normálne Internetové pripojenie. Napokon Vaše dáta sú posielané cez mnoho rôznych krajín, niekedy cez oceány okolo sveta!</p>
   </body>
 </html>
