@@ -74,16 +74,16 @@ sub   2048R/EB399FD7 2003-10-16
     <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
     <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
     <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
+    <h3 id="how-to-use-a-bridge">Ako používať premostenie</h3>
     <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
+    <h3 id="how-to-use-an-open-proxy">Ako požívať otvorenú proxy</h3>
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
       <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
       <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
+      <li>Vložte port pre proxy.</li>
       <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
       <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
@@ -119,14 +119,14 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
     <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
+    <h3 id="flash-does-not-work">Flash nefunguje</h3>
     <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
     <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
+    <h3 id="i-want-to-use-another-browser">Chcem použiť iný prehliadač</h3>
     <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
+    <h3 id="why-tor-is-slow">Prečo je Tor pomalý</h3>
     <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
   </body>
 </html>
