@@ -1,54 +1,54 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Sieťové Nastavenia Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Predtým, než sa Balíček Prehliadača Tor pokúsi pripojiť do siete Tor, je nutné poskytnúť informácie o Internetovom pripojení tohto počítača.">
 
 <!ENTITY torSettings.yes "Áno">
 <!ENTITY torSettings.no "Nie">
 
-<!ENTITY torSettings.firstQuestion "">
-<!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.firstQuestion "Ktoré z nasledujúcich možností najlepšie opisuje Vašu situáciu?">
+<!ENTITY torSettings.configurePrompt1 "Internetové pripojenie tohto počítača je cenzurované, filtrované alebo sprostredkované.">
+<!ENTITY torSettings.configurePrompt2 "Potrebujem nakonfigurovať sieťové nastavenia.">
+<!ENTITY torSettings.configure "Konfigurácia">
+<!ENTITY torSettings.connectPrompt1 "Internetové pripojenie tohto počítača je bez prekážok.">
+<!ENTITY torSettings.connectPrompt2 "Chcem sa pripojiť priamo do siete Tor.">
 <!ENTITY torSettings.connect "Pripojiť">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Potrebuje tento počítač použiť proxy na prístup k Internetu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
+<!ENTITY torSettings.proxyHelp "Ak si nieste istý ako odpovedať na túto otázku, pozrite sa či máte nastavené používanie proxy v inom Internetovom prehliadači.">
+<!ENTITY torSettings.enterProxy "Vstúpiť do nastavení proxy.">
+<!ENTITY torSettings.firewallQuestion "Používa Internetové pripojenie tohto počítača bránu firewall, ktorá povoľuje pripojenia len na niektoré porty?">
+<!ENTITY torSettings.firewallHelp "Ak si nieste istý ako odpovedať na túto otázku, zvoľte Nie. Ak narazíte na problémy s pripojením do siete Tor, zmeňte toto nastavenie.">
+<!ENTITY torSettings.enterFirewall "Vložte zoznam portov oddelený čiarkou, ktoré sú povolené firewallom.">
 <!ENTITY torSettings.bridgeQuestion "">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Čakám kým sa Tor spustí...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Voliteľné">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Tento počítač potrebuje použiť proxy na prístup k Internetu">
+<!ENTITY torsettings.useProxy.type "Typ Proxy:">
 <!ENTITY torsettings.useProxy.address "Adresa:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "IP adresa alebo názov hostiteľa">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Už.názov:">
 <!ENTITY torsettings.useProxy.password "Heslo?">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Tento počítač ide cez firewall, ktorý povoľuje iba niektoré porty">
 <!ENTITY torsettings.firewall.allowedPorts "Povolené porty:">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.useBridges.checkbox "Môj Internetový provider (ISP) blokuje pripojenia do siete Tor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "adresa:port">
 
-<!ENTITY torsettings.copyLog "">
+<!ENTITY torsettings.copyLog "Skopírovať záznam Tor do schránky clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
+<!ENTITY torsettings.bridgeHelp1 "Ak nieste schopný pripojiť sa do siete Tor, môže to znamenať, že Váš Internetový provider (ISP) alebo iná agentúra blokuje Tor. &amp;#160; Tento problém sa dá často vyriešiť používaním Tor Bridges, čo sú skryté relé ktoré sa oveľa ťažšie blokujú.">
 <!ENTITY torsettings.bridgeHelp2 "">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
