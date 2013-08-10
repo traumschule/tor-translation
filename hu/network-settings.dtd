@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Tor hálózati beállítások">
 
 <!-- For "first run" wizard: -->
 
@@ -9,11 +9,11 @@
 
 <!ENTITY torSettings.firstQuestion "">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configurePrompt2 "Szükségem van a hálózati beállítások konfigurálására.">
+<!ENTITY torSettings.configure "Beállít">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connect "Csatlakozás">
 
 <!ENTITY torSettings.proxyQuestion "">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
@@ -26,14 +26,14 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Várakozás a Tor indulására...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Opcionális">
 
 <!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.type "Proxy Típus:">
 <!ENTITY torsettings.useProxy.address "Cím:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "IP cím vagy gépnév">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Felhasználónév:">
 <!ENTITY torsettings.useProxy.password "Jelszó:">
@@ -44,10 +44,10 @@
 <!ENTITY torsettings.firewall.allowedPorts "Engedélyezett portok:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "cím:port">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "A Tor log Vágólapra másolása">
+<!ENTITY torsettings.bridgeHelpTitle "Híd kapcsoló súgó">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
 <!ENTITY torsettings.bridgeHelp3 "">
