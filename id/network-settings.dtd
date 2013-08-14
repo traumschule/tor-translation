@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Pengaturan Jaringan Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -26,14 +26,14 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Menunggu Tor untuk memulai...">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Opsional">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "Alamat:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "alamat IP atau nama host">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Nama User:">
 <!ENTITY torsettings.useProxy.password "Kata sandi:">
@@ -42,8 +42,8 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "Port yang diizinkan:">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
+<!ENTITY torsettings.useBridges.checkbox "Internet Service Provider (ISP) saya memblokir koneksi ke jaringan Tor">
+<!ENTITY torsettings.useBridges.label "Masukkan satu atau lebih estafet jembatan diformulir address:port.">
 <!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "">
