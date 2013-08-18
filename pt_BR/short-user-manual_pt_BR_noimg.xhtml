@@ -13,7 +13,7 @@
     <p>Tor tornará anônimo o endereço de origem da conexão do usuário, e irá criptografar todas as informações que trafegarem entre o seu computador e a rede Tor, assim como todas aquelas do tráfego entre os servidores da rede Tor. Contudo, Tor NÃO pode criptografar as informações do tráfego entre a rede Tor e seu destino final.</p>
     <p>Se você estiver comunicando informações importantes, por exemplo realizando login em um site com um nome de usuário e uma senha, tenha certeza de estar usando HTTPS (e.g. <strong>https</strong>://torproject.org/, e não <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Como fazer o download de Tor</h2>
-    <p>O pacote que recomendados à maioria dos usuários é o <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Este pacote contém um navegador pré-configurado, que permite navegar com segurança na Internet, utilizando Tor, e não requer instalação. Você faz o download do pacote, extrai o arquivo e inicia o Tor.</p>
+    <p>O pacote que recomendados à maior parte dos usuários é o <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Este pacote contém um navegador pré-configurado, que permite navegar com segurança na Internet, utilizando Tor, e não requer instalação. Você faz o download do pacote, extrai o arquivo e inicia o Tor.</p>
     <p>Há duas maneiras de obter o programa Tor. Você pode acessar o site o <a href="https://www.torproject.org/">Site do Tor Project</a> e fazer o download, ou você pode usar o GetTor, o email que fornece uma resposta automaticamente.</p>
     <h3 id="how-to-get-tor-via-email">Como obter Tor por email</h3>
     <p>Para receber o Tor Browser Bundle em Inglês para Windows, envie um email para gettor@torproject.org com <strong>windows</strong> no corpo da mensagem. Você pode deixar o assunto em branco.</p>
@@ -39,7 +39,14 @@
     </pre>
     <p>Você deverá ver:</p>
     <pre>
-      <code>pub 2048R/63FEE659 2003-10-16 Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659 uid Erinn Clark &lt;erinn@torproject.org&gt; uid Erinn Clark &lt;erinn@debian.org&gt; uid Erinn Clark &lt;erinn@double-helix.org&gt; sub 2048R/EB399FD7 2003-10-16 </code>
+      <code>pub   2048R/63FEE659 2003-10-16
+      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
+uid                  Erinn Clark &lt;erinn@torproject.org&gt;
+uid                  Erinn Clark &lt;erinn@debian.org&gt;
+
+uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
+sub   2048R/EB399FD7 2003-10-16
+</code>
     </pre>
     <p>Para verificar a assinatura do pacote que você fez o download, execute os seguintes comandos:</p>
     <pre>
@@ -48,7 +55,7 @@
     <p>A saída deve dizer <em>"Good signature"</em>. Uma "bad signature" significa que o arquivo talvez tenha sido alterado. Se você vir uma "bad signature" , envie os detalhes do endereço de onde você fez o download do pacote, de como você verificou a assinatura, e da saída do GnuPG em um email para help@rt.torproject.org.</p>
     <p>Após a assinatura ter sido verificada e a saída indicado <em>"Good signature"</em>, siga em frente e extraia os arquivos do pacote. Normalmente, você verá um diretório parecido com <strong>tor-browser_en-US</strong>. Este  diretório abriga um segundo diretório, chamado <strong>Docs</strong>. Este segundo diretório contém um arquivo chamado <strong>changelog</strong>. Verifique se o número da versão, afichado no topo da linha do arquivo 'changelog', corresponde ao número da versão, inscrito no nome do arquivo.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Como usar o Tor Browser Bundle</h3>
-    <p>Depois de baixar o Tor Browser Bundle e extrair o pacote, você deve ter um diretório com alguns arquivos nele. Um dos arquivos é um executável chamado "Start Tor Browser" (ou "Start-tor navegador", dependendo do sistema operacional).</p>
+    <p>Após fazer o download do Tor Browser Bundle e extrair o pacote, você verá um diretório com alguns arquivos. Um desses arquivos é executável e é chamado "Start Tor Browser" (ou "Start-tor navegador", dependendo do sistema operacional).</p>
     <p>Ao lançar o Tor Borwser Bundle, você verá primeiro o Vidalia iniciar e conectá-lo à rede Tor. Depois disso, um navegador confirmará que você está usando Tor, mostrando o endereço <a href="https://check.torproject.org/">https://check.torproject.org/</a>. A partir de então, você poderá navegar na internet utilizando Tor.</p>
     <p>
       <em>Por favor, observe que é importante que você utilize o navegador que vem com o pacote, e não aquele usado habitualmente</em>
@@ -62,12 +69,12 @@
     <p>Se ainda assim o Tor não funcionar, é provável que seu Provedor de Internet (ISP) esteja bloqueando Tor. Normalmente,  esse problema pode ser contornado com as <strong>Pontes do Tor</strong>, que são retransmissores ocultos, mais difíceis de bloquear.</p>
     <p>Se você precisar de ajuda para descobrir porque o Tor não consegue conectar-se, envie um e-mail para help@rt.torproject.org, incluindo as partes relevantes do arquivo de log.</p>
     <h3 id="how-to-find-a-bridge">Como encontrar uma ponte</h3>
-    <p>Para utilizar uma ponte, primeiro você precisa localizar uma; você pode desde navegar para <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, ou enviar um email para bridges@torproject.org. Se você mandar um email, por favor tenha certeza que você escreve <strong>get bridges</strong> no corpo do email. Sem isso, você não terá uma resposta. Observe que você precisa enviar este email de uma conta com endereço do gmail.com ou do yahoo.com.</p>
+    <p>Para utilizar uma ponte, primeiro você precisa localizar uma. Para tanto, você pode acessar o site <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, ou enviar um email para bridges@torproject.org. Se você mandar um email, por favor tenha certeza de ter escrito <strong>get bridges</strong> no corpo do email. Sem isso, você não obterá nenhuma resposta. Lembre-se de enviar este email de uma conta com endereço do gmail.com ou do yahoo.com.</p>
     <p>Configurar mais do que uma ponte tornará sua conexão com Tor mais estável, no caso de algumas das pontes tornarem-se inacessíveis. Como não há garantias de que a ponte que você está usando agora funcione amanhã, por isso habitue-se a  atualizar sua lista de pontes com uma certa frequência.</p>
     <h3 id="how-to-use-a-bridge">Como utilizar uma ponte</h3>
     <p>Assim que você dispuser de uma lista de pontes para utilizar, abra o painel de controle do Vidalia, clique em <em> Configurações </em>, <em>Rede</em> e marque a caixa da mensagem <em>Meu provedor bloqueia conexões para a rede Tor</em>. Digite as pontes na caixa abaixo, clique <em>OK</em> e reinicie o Tor.</p>
     <h3 id="how-to-use-an-open-proxy">Como utilizar um proxy aberto</h3>
-    <p>Caso a utilização de uma ponte não funcione, tente configurar o Tor para usar qualquer proxy HTTPS ou um proxy SOCKS para ter acesso à rede Tor. Isso significa que mesmo se o Tor for bloqueado pela sua rede local, proxys abertos podem ser utilizados com segurança para conectá-lo à rede Tor e a Internet não censurada.</p>
+    <p>Caso a utilização de uma ponte não funcione, tente configurar o Tor para usar qualquer proxy HTTPS ou um proxy SOCKS para ter acesso à rede Tor. Isso significa que mesmo se o Tor for bloqueado pela sua rede local, proxys abertos poderão ser utilizados com segurança para conectá-lo à rede Tor e a Internet não censurada.</p>
     <p>Os passos abaixo pressupõem que você tenha uma configuração válida de Tor/Vidalia, e que você já tenha encontrado uma lista de proxys HTTPS, SOCKS4 ou SOCKS5.</p>
     <ol style="list-style-type: decimal">
       <li>Abra o painel de controle do Vidalia, e clique em <em> Configurações </em></li>
@@ -112,11 +119,11 @@
     <h3 id="flash-does-not-work">Flash não funciona</h3>
     <p>Por razões de segurança, Flash, Java e outros plugins são desabilitados para o Tor. Estes plugins funcionam independemente do Firefox e podem realizar operações no seu computador, que põem fim ao seu anonimato.</p>
     <p>A maioria dos vídeos do YouTube funcionam com HTML5,  de modo que é possível assistir a esses videos utilizando Tor. Acesse o endereço <a href="https://www.youtube.com/html5">HTML5 trial</a> no site do Youtube antes de poder utilizar o HTML5.</p>
-    <p>Observe que o navegador não ira lembrar que você aceitou a experiencia do HTML5 uma vez que voce tenha fechado ele, então você ira precisar aceitar novamente a experiencia do HTML5 da próxima vez que iniciar o Tor Browser Bundle</p>
+    <p>Lembre-se de que, uma vez que você tiver fechado o seu navegador, nenhum comando para utilizar HTML5 permanecerá registrado. Assim, a cada vez que você iniciar o  Tor Browser Bundle, um novo aceite de utilização do HTML5 deverá ser realizado. </p>
     <p>Por favor consulte o endereço <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> para mais informações.</p>
     <h3 id="i-want-to-use-another-browser">eu quero utilizar outro navegador</h3>
-    <p>Por razoes de segurança, nos recomendados que você utilize somente navegue na rede pelo Tor utilizando o Tor Browser Bundle. É tecnicamente possível utilizar o Tor com outros navegadores, mas fazendo isto você pode estar aberto a ataques em potencial.</p>
-    <h3 id="why-tor-is-slow">Porque o Tor é lento.</h3>
-    <p>O Tor pode as vezes ser um pouco mais lento que a sua conexão de Internet normal. Porem, seu trafego é enviado através de muitos paises diferentes, as vezes através de oceanos ao redor do mundo!</p>
+    <p>Por razões de segurança, nós recomendados que você navegue na Internet com o Tor somente utilizando Tor Browser Bundle. É tecnicamente possível utilizar o Tor com outros navegadores, mas isso torna o usuário potencialmente vulnerável a ataques.</p>
+    <h3 id="why-tor-is-slow">Por que o Tor é lento.</h3>
+    <p>O Tor pode por vezes ser um pouco mais lento do que a sua conexão de Internet normal. Isso acontece porque seu tráfego percorre distâncias imensas, passando por muitos paises diferentes e por diversos oceanos ao redor do mundo!</p>
   </body>
 </html>
