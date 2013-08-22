@@ -2,27 +2,27 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Sebelum Tor Browser Bundle mencoba menghubingi network Tor, anda harus menyediakan informasi tentang koneksi internet komputer ini.">
 
 <!ENTITY torSettings.yes "Ya">
 <!ENTITY torSettings.no "Tidak">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "Yang mana dari di bawah ini cocok dengan situasi anda?">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configurePrompt2 "Saya perlu menyesuaikan pengaturan network.">
+<!ENTITY torSettings.configure "Konfigur">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connect "Hubungi">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Apakah komputer ini perlu menggunakan proxy untuk mengakses internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.proxyHelp "Kalau anda tidak yakin bagaimana menjawab pertanyaan ini, periksalah pengaturan Internet di browser lain untuk melihat apakah dia diatur untuk menggunakan proxy.">
+<!ENTITY torSettings.enterProxy "Masukkan pengaturan proxy.">
+<!ENTITY torSettings.firewallQuestion "Apakah koneksi Internet komputer ini melalui firewall yang hanya memperbolehkan koneksi ke port-port tertentu?">
+<!ENTITY torSettings.firewallHelp "Jika anda tidak yakin atas jawaban pertanyaan ini, pilih Tidak. Jika anda mendapatkan masalah dalam menghubungi network Tor, ubah pengaturan ini.">
+<!ENTITY torSettings.enterFirewall "Masukkan port-port (pisahkan dengan koma) yang diperbolehkan oleh firewall.">
+<!ENTITY torSettings.bridgeQuestion "Jika koneksi Internet komputer ini disensor, anda perlu mengumpulkan dan menggunakan bridge relays.&amp;#160; Jika tidak, klik Hubungkan.">
 
 <!-- Other: -->
 
@@ -30,8 +30,8 @@
 
 <!ENTITY torsettings.optional "Opsional">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Komputer ini perlu menggunakan proxy untuk mengakses Internet.">
+<!ENTITY torsettings.useProxy.type "Tipe Proxy:">
 <!ENTITY torsettings.useProxy.address "Alamat:">
 <!ENTITY torsettings.useProxy.address.placeholder "alamat IP atau nama host">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -44,11 +44,11 @@
 <!ENTITY torsettings.firewall.allowedPorts "Port yang diizinkan:">
 <!ENTITY torsettings.useBridges.checkbox "Internet Service Provider (ISP) saya memblokir koneksi ke jaringan Tor">
 <!ENTITY torsettings.useBridges.label "Masukkan satu atau lebih estafet jembatan diformulir address:port.">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "address:port">
 
-<!ENTITY torsettings.copyLog "">
+<!ENTITY torsettings.copyLog "Salin Log Tor Ke Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "">
 <!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.bridgeHelp2 "Untuk mengumpulkan bridge relays, gunakan web browser untuk mengunjungi halaman ini: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
