@@ -11,8 +11,8 @@
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "Saya perlu menyesuaikan pengaturan network.">
 <!ENTITY torSettings.configure "Konfigur">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connectPrompt1 "Koneksi Internet komputer ini telah bebas dari halangan.">
+<!ENTITY torSettings.connectPrompt2 "Saya ingin menghubungkan secara langsung ke jaringan Tor.">
 <!ENTITY torSettings.connect "Hubungi">
 
 <!ENTITY torSettings.proxyQuestion "Apakah komputer ini perlu menggunakan proxy untuk mengakses internet?">
@@ -40,15 +40,15 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Komputer ini pergi melalui firewall yang hanya mengizinkan koneksi untuk beberapa port">
 <!ENTITY torsettings.firewall.allowedPorts "Port yang diizinkan:">
 <!ENTITY torsettings.useBridges.checkbox "Internet Service Provider (ISP) saya memblokir koneksi ke jaringan Tor">
 <!ENTITY torsettings.useBridges.label "Masukkan satu atau lebih estafet jembatan diformulir address:port.">
 <!ENTITY torsettings.useBridges.placeholder "address:port">
 
 <!ENTITY torsettings.copyLog "Salin Log Tor Ke Clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
+<!ENTITY torsettings.bridgeHelpTitle "Bantuan Bridge Relay">
+<!ENTITY torsettings.bridgeHelp1 "Jika kamu tidak dapat terhubung ke jaringan Tor, itu mungkin dikarenakan Penyedia Layanan Internet (ISP) anda atau agen lainnya memblokir Tor.&amp;#160; Biasanya, kamu dapat memecahkan masalah ini dengan menggunakan Tor Bridges dimana merupakan relay tersembunyi yang lebih sulit untuk diblokir.">
 <!ENTITY torsettings.bridgeHelp2 "Untuk mengumpulkan bridge relays, gunakan web browser untuk mengunjungi halaman ini: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
