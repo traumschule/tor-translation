@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "このコンピューターは特定のポートへの接続のみ許可するファイアーウォールを通します。">
 <!ENTITY torsettings.firewall.allowedPorts "許可されたポート:">
 <!ENTITY torsettings.useBridges.checkbox "私のインターネットサービスプロバイダ(ISP)はTorネットワークへの接続をブロックします">
-<!ENTITY torsettings.useBridges.label "">
+<!ENTITY torsettings.useBridges.label "1つ以上のブリッジリレーを入力してください(行あたり1つ)。">
 <!ENTITY torsettings.useBridges.placeholder "アドレス:ポート">
 
 <!ENTITY torsettings.copyLog "Torのログをクリップボードにコピー">

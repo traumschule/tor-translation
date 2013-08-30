@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Denne computer går gennem en firewall som kun tillader forbindelse til specifikke porte">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor netværket">
-<!ENTITY torsettings.useBridges.label "">
+<!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et per linie)">
 <!ENTITY torsettings.useBridges.placeholder "adresse:port">
 
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
