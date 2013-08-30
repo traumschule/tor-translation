@@ -15,20 +15,20 @@
     <h2 id="how-to-download-tor">Kuinka Tor ladataan</h2>
     <p>Suosittelemamme vaihtoehto useimmille käyttäjille on <a href="https://www.torproject.org/projects/torbrowser.html">Tor-selainpakkaus</a>. Tämä pakkaus sisältää selaimen, joka on valmiiksi asetettu selaamaan verkkoa turvallisesti Torin läpi, eikä se vaadi asennusta koneelle. Asennat selainpakkauksen, purat arkiston ja käynnistät Torin.</p>
     <p>On kaksi eri tapaa hankkia Tor-ohjelmisto. Voit joko mennä selaimella <a href="https://www.torproject.org/">Tor-projektin verkkosivuille</a> ja ladata sen, tai voit käyttää GetToria, joka vastaa automaattisesti sähköposteihin.</p>
-    <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
-    <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
-    <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
-    <p>If you want a translated version of Tor, write <strong>help</strong> instead. You will then receive an email with instructions and a list of available languages.</p>
-    <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
-    <h3 id="tor-for-smartphones">Tor for smartphones</h3>
-    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <h3 id="how-to-get-tor-via-email">Torin hankkiminen sähköpostilla</h3>
+    <p>Saadaksesi englanninkielisen Tor-selainpakkauksen Windowsiin, lähetä sähköposti osoitteeseen gettor@torproject.org, niin että viestiosassa on sana <strong>windows</strong>. Otsikon voit jättää tyhjäksi.  </p>
+    <p>Voit pyytää Tor-selainpakkausta myös Mac OS X -käyttöjärjestelmään (kirjoita <strong>macos-i386</strong>) ja Linuxiin (kirjoita <strong>linux-i386</strong> 32-bittistä järjestelmää varten tai systems <strong>linux-x86_64</strong> 64-bittistä järjestelmää varten).</p>
+    <p>Jos tahdot käännetyn version Torista, kirjoita sen sijaan <strong>help</strong>. Saat sähköpostiviestin, jossa on ohjeet ja lista saatavilla olevista kielistä.</p>
+    <p><strong>Huomaa</strong>: Tor-selainpakkaus Linuxiin ja Mac OS X:ään on melko suuri, etkä voi vastaanottaa mitään näistä pakkauksista Gmaililla, Hotmaililla tai Yahoo-sähköpostilla. Jos et voi vastaanottaa tahtomaasi pakkausta, lähetä sähköposti osoitteeseen help@rt.torproject.org ja lähetämme sinulle listan verkkosivuista, joita voit käyttää. </p>
+    <h3 id="tor-for-smartphones">Tor älypuhelimille</h3>
+    <p>Saat Tor-selaimen Android-laitteeseen asentamalla pakkauksen nimeltä <em>Orbot</em>. Saat tietoja Orbotin lataamisesta ja asentamisesta <a href="https://www.torproject.org/docs/android.html.en">Tor-projektin verkkosivuilta</a>.</p>
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
-    <h3 id="how-to-verify-that-you-have-the-right-version">How to verify that you have the right version</h3>
-    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Kuinka voit varmistaa saaneesi oikean version</h3>
+    <p>Ennen Tor-selainpakkauksen ajamista kannattaa varmistaa, että sait oikean version.</p>
+    <p>Saamasi ohjelmistoon sisältyy tiedosto, jonka nimi on sama kuin selauspakkauksella ja tiedostopääte on <strong>.asc</strong>. Tämä .asc-tiedosto on GPG-allekirjoitus, sen avulla voit vahvistaa ladanneesi tiedoston, jonka tahdoimme sinun saavan.</p>
+    <p>Ennen kuin voit vahvistaa allekirjoituksen, joudut lataamaan ja asentamaan GnuPG-ohjelman:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
+    <p>Huomaa, että joudut ehkä muokkaamaan polkuja ja komentoja, joita alla käytetään, ennen kuin saat sen toimimaan järjestelmässäsi.</p>
     <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
