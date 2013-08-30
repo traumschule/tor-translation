@@ -67,26 +67,26 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Joillain käyttäjillä Vidalia juuttuu, kun se yrittää ottaa yhteyden Tor-verkkoon. Kun tämä tapahtuu, varmista, että olet yhteydessä Internetiin. Jos on tarve ottaa yhteys välityspalvelimeen, katso kohtaa <em>Kuinka käytetään avointa välityspalvelinta</em> alla.</p>
     <p>Jos normaali Internet-yhteys toimii, mutta Tor ei vieläkään saa yhteyttä verkkoon, yritä seuraavaa: avaa Vidalia-hallintaohjelma, napsauta <em>Viestiloki</em> ja valitse <em>Kehittyneet asetukset</em>-välilehti. Mahdollisesti Tor ei saa yhteyttä, koska: </p>
     <p><strong>Tietokoneen kello on väärässä</strong>: varmista, että tietokoneen päivämäärä ja kellonaika on oikea, minkä jälkeen voit käynnistää Torin uudestaan. Joudut ehkä synkronisoimaan tietokoneen kellon internetin aikapalvelimen kanssa.</p>
-    <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
-    <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <p><strong>Olet rajoittavan palomuurin takana</strong>: Torin saa käyttämään vain portteja 80 ja 443 avaamalla Vidalian, napsauttamalla <em>Asetukset</em> ja <em>Verkko</em>, ja rastimalla laatikon, jossa lukee <em>Palomuurini antaa ottaa yhteyden vain tiettyihin portteihin</em>.</p>
+    <p><strong>Viruksentorjunta-ohjelma estää Torin</strong>: tarkasta, että virustorjuntaohjelma ei estä Torin verkkoyhteyksiä.</p>
+    <p>Jos Tor ei edelleenkään toimi, verkkoyhteyden palveluntarjoaja luultavasti estää sen käytön. Yleensä tämän voi kiertää <strong>Tor-siltojen</strong> avulla, nämä ovat piilotettuja välityspalvelimia, joia ei ole niin helppo estää.</p>
+    <p>Jos tarvitset apua Tor-yhteysongelman ratkaisussa, lähetä sähköpostia osoitteeseen help@rt.torproject.org ja laita mukaan olennaiset kohdat lokitiedostosta.</p>
+    <h3 id="how-to-find-a-bridge">Kuinka silta löytyy</h3>
+    <p>Siltaa voi käyttää, kunhan sen ensin löytää; voit joko mennä selaimella osoitteeseen <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, tai voit lähettää sähköpostin osoitteeseen bridges@torproject.org. Jos lähetät sähköpostin, kirjoita <strong>get bridges</strong> sähköpostin viestiosaan. Muuten et saa vastausta. Huomaa, että joudut lähettämään tämän sähköpostin joko gmail.com tai yahoo.com -osoitteesta.</p>
+    <p>Useamman kuin yhden sillan määrittely tekee Tor-yhdeydestä vakaamman, mikäli jotkin silloista eivät ole tavoitettavissa. Ei ole varmuutta, että tänään käytössä oleva silta toimii huomenna, joten siltojen listaa kannattaa päivittää usein.</p>
+    <h3 id="how-to-use-a-bridge">Kuinka siltaa käytetään.</h3>
+    <p>Kun on lista käytettävissä olevista silloista, avaa Vidalia-hallintapaneeli, napsauta <em>Asetukset</em>, <em>Verkko</em> ja napsauta kohtaa <em>Palveluntarjoajani estää yhteydet Tor-verkkoon</em>. Kirjoita sillat alla olevaan laatikkoon, paina <em>OK</em> ja käynnistä Tor uudelleen.</p>
+    <h3 id="how-to-use-an-open-proxy">Kuinka käyttää avointa välityspalvelinta.</h3>
+    <p>Jos sillan käyttö ei onnistu, yritä määritellä Tor käyttämään mitä tahansa HTTPS- tai SOCKS-välityspalvelinta päästäksesi Tor-verkkoon. Tämä merkitsee sitä, että vaikka paikallinen verkkoyhteys estäisi Torin käytön, avointa välityspalvelinta voi käyttää turvallisesti Tor-yhteyteen ja sensuroimattomaan verkkoselailuun.</p>
+    <p>Alla oletetaan, että käytössä on toimivat Tor/Vidalia-asetukset, ja että on löytynyt lista toimivia HTTPS, SOCKS4 ja SOCKS5 -välityspalvelimia.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Avaa Vidalian hallintapaneeli ja napsauta <em>Asetukset</em>.</li>
+      <li>Napsauta <em>Verkko</em>. Valitse <em>Käytän välityspalvelinta päästäkseni Internetiin</em>.</li>
+      <li>Kohdassa <em>Osoite</em>, kirjoita avoimen välityspalvelimen osoite. Tämä voi olla koneen nimi tai IP-osoite.</li>
+      <li>Kirjoita välityspalvelimen portti.</li>
+      <li>Yleisesti ottaen ei tarvita käyttäjänimeä ja salasanaa. Jos niitä tarvitaan, kirjoita tieto oikeaan kenttään.</li>
+      <li>Valitse välityspalvelimen <em>Tyyppi</em>, joko HTTP/HTTPS, SOCKS4 tai SOCKS5.</li>
+      <li>Paina <em>OK</em>-nappia. Vidalia ja Tor on nyt asetettu käyttämään välityspalvelinta muuhun Tor-verkkoon pääsyä varten.</li>
     </ol>
     <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
     <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
