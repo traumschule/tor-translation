@@ -29,17 +29,17 @@
     <p>Ennen kuin voit vahvistaa allekirjoituksen, joudut lataamaan ja asentamaan GnuPG-ohjelman:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
     <p>Huomaa, että joudut ehkä muokkaamaan polkuja ja komentoja, joita alla käytetään, ennen kuin saat sen toimimaan järjestelmässäsi.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Erinn Clark allekirjoittaa Tor-selainpakkaukset avaimella 0x63FEE659. Tuodaksesi Erinnin avaimen, aja: </p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>Tuotuasi avaimen voit vahvistaa että sormenjälki on oikea: </p>
     <pre>
-      <code>gpg  --fingerprint 0x63FEE659
+      <code>gpg --fingerprint 0x63FEE659⏎
 </code>
     </pre>
-    <p>You should see:</p>
+    <p>Sinun pitäisi nähdä:</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
@@ -50,22 +50,22 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>Vahvistaaksesi lataamasi pakkauksen allekirjoituksen, suorita seuraava komento:</p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <p>Tuloksena pitäisi olla <em>"Good signature"</em>. Kelvoton allekirjoitus merkitsee, että tiedostoa on ehkä näperöity. Jos näet huonon allekirjoituksen, lähetä tiedot pakkauksen latauspaikasta, allekirjoituksen vahvistuksesta ja GnuPG:n viestistä sähköpostilla osoitteeseen help@rt.torproject.org.</p>
+    <p>Kun olet vahvistanut allekirjoituksen ja nähnyt viestin <em>"Good signature"</em>, voit purkaa pakatun arkiston. Sinun tulisi nähdä hakemisto, kuten <strong>tor-browser_en-US</strong>. Tämän hakemiston sisällä on hakemisto <strong>Docs</strong>, jonka pitäisi sisältää tiedosto nimeltä <strong>changelog</strong>. Kannattaa tarkastaa, että versionumero muutoshistorian ylimmällä rivillä sopii tiedostonimen versionumeroon.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Kuinka Tor-selainpakkausta käytetään</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
-    <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
+    <p>Kun käynnistät Tor-selainpakkauksen, näet Vidalian käynnistyvän ja kytkevän sinut Tor-verkkoon. Tämän jälkeen näet selaimessa vahvistuksen, että käytät nyt Toria. Tämä tapahtuu näyttämällä sivu <a href="https://check.torproject.org/">https://check.torproject.org/</a>.  Voit nyt selata verkkoa Torin kautta.</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>Huomaa, että on tärkeää käyttää tämän pakkauksen mukana tulevaa selainta eikä omaa selaintasi.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Mitä tehdä, kun Tor ei saa yhteyttä</h3>
+    <p>Joillain käyttäjillä Vidalia juuttuu, kun se yrittää ottaa yhteyden Tor-verkkoon. Kun tämä tapahtuu, varmista, että olet yhteydessä Internetiin. Jos on tarve ottaa yhteys välityspalvelimeen, katso kohtaa <em>Kuinka käytetään avointa välityspalvelinta</em> alla.</p>
+    <p>Jos normaali Internet-yhteys toimii, mutta Tor ei vieläkään saa yhteyttä verkkoon, yritä seuraavaa: avaa Vidalia-hallintaohjelma, napsauta <em>Viestiloki</em> ja valitse <em>Kehittyneet asetukset</em>-välilehti. Mahdollisesti Tor ei saa yhteyttä, koska: </p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
