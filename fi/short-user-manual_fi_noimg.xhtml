@@ -1,0 +1,132 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">Lyhyt käyttöopas</h1>
+    <p>Tämä käyttöopas sisältää tietoa Torin lataamisesta, sen käytöstä ja siitä, mitä voit tehdä, jos Tor ei kykene kytkeytymään verkkoon. Jos et löydä vastausta kysymykseesi tästä dokumentista, lähetä sähköpostia osoitteeseen help@rt.torproject.org.</p>
+    <p>Huomaa, että tarjoamme tukea vapaaehtoiselta pohjalta, ja saamme paljon sähköpostia joka päivä. Ei ole syytä murehtia, jos emme ota heti yhteyttä sinuun.</p>
+    <h2 id="how-tor-works">Kuinka Tor toimii</h2>
+    <p>Tor on virtuaalisten tunnelien verkosto, jonka avulla voit parantaa yksityisyyttäsi ja turvallisuuttasi Internetissä. Tor toimii lähettämällä liikenteesi kolmen satunnaisen palvelimen läpi (ne tunnetaan myös <em>välityspalvelimina</em>) Tor-verkossa, ennen kuin liikenne lähetetään julkiseen Internetiin..</p>
+    <p>Kuva yllä näyttää käyttäjän selaamassa eri verkkosivuja Torin avulla. Vihreät monitorit esittävät välityspalvelimia Tor-verkossa, kolme avainta esittää salauksen kerroksia käyttäjän ja jokaisen välityspalvelimen välillä.</p>
+    <p>Tor anonymisoi liikenteesi lähtöpaikan, ja se salaa kaiken sinun ja Tor-verkon välillä. Tor salaa myös liikenteen Tor-verkon sisällä, mutta se ei voi salata liikennettäsi Tor-verkon ja lopullisen päämäärän välillä.</p>
+    <p>Jos viestität arkaluontoista tietoa, esimerkiksi kirjaudut sivustolle käyttäjänimellä ja salasanalla, varmista että käytät HTTPS-yhteyttä (esimerkiksi <strong>https</strong>://torproject.org/, ei <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Kuinka Tor ladataan</h2>
+    <p>Suosittelemamme vaihtoehto useimmille käyttäjille on <a href="https://www.torproject.org/projects/torbrowser.html">Tor-selainpakkaus</a>. Tämä pakkaus sisältää selaimen, joka on valmiiksi asetettu selaamaan verkkoa turvallisesti Torin läpi, eikä se vaadi asennusta koneelle. Asennat selainpakkauksen, purat arkiston ja käynnistät Torin.</p>
+    <p>On kaksi eri tapaa hankkia Tor-ohjelmisto. Voit joko mennä selaimella <a href="https://www.torproject.org/">Tor-projektin verkkosivuille</a> ja ladata sen, tai voit käyttää GetToria, joka vastaa automaattisesti sähköposteihin.</p>
+    <h3 id="how-to-get-tor-via-email">Torin hankkiminen sähköpostilla</h3>
+    <p>Saadaksesi englanninkielisen Tor-selainpakkauksen Windowsiin, lähetä sähköposti osoitteeseen gettor@torproject.org, niin että viestiosassa on sana <strong>windows</strong>. Otsikon voit jättää tyhjäksi.  </p>
+    <p>Voit pyytää Tor-selainpakkausta myös Mac OS X -käyttöjärjestelmään (kirjoita <strong>macos-i386</strong>) ja Linuxiin (kirjoita <strong>linux-i386</strong> 32-bittistä järjestelmää varten tai systems <strong>linux-x86_64</strong> 64-bittistä järjestelmää varten).</p>
+    <p>Jos tahdot käännetyn version Torista, kirjoita sen sijaan <strong>help</strong>. Saat sähköpostiviestin, jossa on ohjeet ja lista saatavilla olevista kielistä.</p>
+    <p><strong>Huomaa</strong>: Tor-selainpakkaus Linuxiin ja Mac OS X:ään on melko suuri, etkä voi vastaanottaa mitään näistä pakkauksista Gmaililla, Hotmaililla tai Yahoo-sähköpostilla. Jos et voi vastaanottaa tahtomaasi pakkausta, lähetä sähköposti osoitteeseen help@rt.torproject.org ja lähetämme sinulle listan verkkosivuista, joita voit käyttää. </p>
+    <h3 id="tor-for-smartphones">Tor älypuhelimille</h3>
+    <p>Saat Tor-selaimen Android-laitteeseen asentamalla pakkauksen nimeltä <em>Orbot</em>. Saat tietoja Orbotin lataamisesta ja asentamisesta <a href="https://www.torproject.org/docs/android.html.en">Tor-projektin verkkosivuilta</a>.</p>
+    <p>Meillä on myös kokeellisia pakkauksia <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> ja <a href="http://sid77.slackware.it/iphone/">Apple iOS</a> -puhelimiin.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Kuinka voit varmistaa saaneesi oikean version</h3>
+    <p>Ennen Tor-selainpakkauksen ajamista kannattaa varmistaa, että sait oikean version.</p>
+    <p>Saamasi ohjelmistoon sisältyy tiedosto, jonka nimi on sama kuin selauspakkauksella ja tiedostopääte on <strong>.asc</strong>. Tämä .asc-tiedosto on GPG-allekirjoitus, sen avulla voit vahvistaa ladanneesi tiedoston, jonka tahdoimme sinun saavan.</p>
+    <p>Ennen kuin voit vahvistaa allekirjoituksen, joudut lataamaan ja asentamaan GnuPG-ohjelman:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Useimmissa Linux-jakeluversioissa on GnuPG asennettuna.</p>
+    <p>Huomaa, että joudut ehkä muokkaamaan polkuja ja komentoja, joita alla käytetään, ennen kuin saat sen toimimaan järjestelmässäsi.</p>
+    <p>Erinn Clark allekirjoittaa Tor-selainpakkaukset avaimella 0x63FEE659. Tuodaksesi Erinnin avaimen, aja: </p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎
+</code>
+    </pre>
+    <p>Tuotuasi avaimen voit vahvistaa että sormenjälki on oikea: </p>
+    <pre>
+      <code>gpg --fingerprint 0x63FEE659⏎
+</code>
+    </pre>
+    <p>Sinun pitäisi nähdä:</p>
+    <pre>
+      <code>pub 2048R/63FEE659 2003-10-16⏎
+Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎
+uid Erinn Clark &lt;erinn@torproject.org&gt;⏎
+uid Erinn Clark &lt;erinn@debian.org&gt;⏎
+⏎
+uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎
+sub 2048R/EB399FD7 2003-10-16⏎
+</code>
+    </pre>
+    <p>Vahvistaaksesi lataamasi pakkauksen allekirjoituksen, suorita seuraava komento:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎
+</code>
+    </pre>
+    <p>Tuloksena pitäisi olla <em>"Good signature"</em>. Kelvoton allekirjoitus merkitsee, että tiedostoa on ehkä näperöity. Jos näet huonon allekirjoituksen, lähetä tiedot pakkauksen latauspaikasta, allekirjoituksen vahvistuksesta ja GnuPG:n viestistä sähköpostilla osoitteeseen help@rt.torproject.org.</p>
+    <p>Kun olet vahvistanut allekirjoituksen ja nähnyt viestin <em>"Good signature"</em>, voit purkaa pakatun arkiston. Sinun tulisi nähdä hakemisto, kuten <strong>tor-browser_en-US</strong>. Tämän hakemiston sisällä on hakemisto <strong>Docs</strong>, jonka pitäisi sisältää tiedosto nimeltä <strong>changelog</strong>. Kannattaa tarkastaa, että versionumero muutoshistorian ylimmällä rivillä sopii tiedostonimen versionumeroon.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Kuinka Tor-selainpakkausta käytetään</h3>
+    <p>Ladattuasi Tor-selainpakkauksen ja purettuasi paketin näet hakemiston, jossa on muutamia tiedostoja. Yksi tiedostoista on "Start Tor Browser" (tai joissain käyttöjärjestelmissä "start-tor-browser").</p>
+    <p>Kun käynnistät Tor-selainpakkauksen, näet Vidalian käynnistyvän ja kytkevän sinut Tor-verkkoon. Tämän jälkeen näet selaimessa vahvistuksen, että käytät nyt Toria. Tämä tapahtuu näyttämällä sivu <a href="https://check.torproject.org/">https://check.torproject.org/</a>.  Voit nyt selata verkkoa Torin kautta.</p>
+    <p>
+      <em>Huomaa, että on tärkeää käyttää tämän pakkauksen mukana tulevaa selainta eikä omaa selaintasi.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Mitä tehdä, kun Tor ei saa yhteyttä</h3>
+    <p>Joillain käyttäjillä Vidalia juuttuu, kun se yrittää ottaa yhteyden Tor-verkkoon. Kun tämä tapahtuu, varmista, että olet yhteydessä Internetiin. Jos on tarve ottaa yhteys välityspalvelimeen, katso kohtaa <em>Kuinka käytetään avointa välityspalvelinta</em> alla.</p>
+    <p>Jos normaali Internet-yhteys toimii, mutta Tor ei vieläkään saa yhteyttä verkkoon, yritä seuraavaa: avaa Vidalia-hallintaohjelma, napsauta <em>Viestiloki</em> ja valitse <em>Kehittyneet asetukset</em>-välilehti. Mahdollisesti Tor ei saa yhteyttä, koska: </p>
+    <p><strong>Tietokoneen kello on väärässä</strong>: varmista, että tietokoneen päivämäärä ja kellonaika on oikea, minkä jälkeen voit käynnistää Torin uudestaan. Joudut ehkä synkronisoimaan tietokoneen kellon internetin aikapalvelimen kanssa.</p>
+    <p><strong>Olet rajoittavan palomuurin takana</strong>: Torin saa käyttämään vain portteja 80 ja 443 avaamalla Vidalian, napsauttamalla <em>Asetukset</em> ja <em>Verkko</em>, ja rastimalla laatikon, jossa lukee <em>Palomuurini antaa ottaa yhteyden vain tiettyihin portteihin</em>.</p>
+    <p><strong>Viruksentorjunta-ohjelma estää Torin</strong>: tarkasta, että virustorjuntaohjelma ei estä Torin verkkoyhteyksiä.</p>
+    <p>Jos Tor ei edelleenkään toimi, verkkoyhteyden palveluntarjoaja luultavasti estää sen käytön. Yleensä tämän voi kiertää <strong>Tor-siltojen</strong> avulla, nämä ovat piilotettuja välityspalvelimia, joia ei ole niin helppo estää.</p>
+    <p>Jos tarvitset apua Tor-yhteysongelman ratkaisussa, lähetä sähköpostia osoitteeseen help@rt.torproject.org ja laita mukaan olennaiset kohdat lokitiedostosta.</p>
+    <h3 id="how-to-find-a-bridge">Kuinka silta löytyy</h3>
+    <p>Siltaa voi käyttää, kunhan sen ensin löytää; voit joko mennä selaimella osoitteeseen <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, tai voit lähettää sähköpostin osoitteeseen bridges@torproject.org. Jos lähetät sähköpostin, kirjoita <strong>get bridges</strong> sähköpostin viestiosaan. Muuten et saa vastausta. Huomaa, että joudut lähettämään tämän sähköpostin joko gmail.com tai yahoo.com -osoitteesta.</p>
+    <p>Useamman kuin yhden sillan määrittely tekee Tor-yhdeydestä vakaamman, mikäli jotkin silloista eivät ole tavoitettavissa. Ei ole varmuutta, että tänään käytössä oleva silta toimii huomenna, joten siltojen listaa kannattaa päivittää usein.</p>
+    <h3 id="how-to-use-a-bridge">Kuinka siltaa käytetään.</h3>
+    <p>Kun on lista käytettävissä olevista silloista, avaa Vidalia-hallintapaneeli, napsauta <em>Asetukset</em>, <em>Verkko</em> ja napsauta kohtaa <em>Palveluntarjoajani estää yhteydet Tor-verkkoon</em>. Kirjoita sillat alla olevaan laatikkoon, paina <em>OK</em> ja käynnistä Tor uudelleen.</p>
+    <h3 id="how-to-use-an-open-proxy">Kuinka käyttää avointa välityspalvelinta.</h3>
+    <p>Jos sillan käyttö ei onnistu, yritä määritellä Tor käyttämään mitä tahansa HTTPS- tai SOCKS-välityspalvelinta päästäksesi Tor-verkkoon. Tämä merkitsee sitä, että vaikka paikallinen verkkoyhteys estäisi Torin käytön, avointa välityspalvelinta voi käyttää turvallisesti Tor-yhteyteen ja sensuroimattomaan verkkoselailuun.</p>
+    <p>Alla oletetaan, että käytössä on toimivat Tor/Vidalia-asetukset, ja että on löytynyt lista toimivia HTTPS, SOCKS4 ja SOCKS5 -välityspalvelimia.</p>
+    <ol style="list-style-type: decimal">
+      <li>Avaa Vidalian hallintapaneeli ja napsauta <em>Asetukset</em>.</li>
+      <li>Napsauta <em>Verkko</em>. Valitse <em>Käytän välityspalvelinta päästäkseni Internetiin</em>.</li>
+      <li>Kohdassa <em>Osoite</em>, kirjoita avoimen välityspalvelimen osoite. Tämä voi olla koneen nimi tai IP-osoite.</li>
+      <li>Kirjoita välityspalvelimen portti.</li>
+      <li>Yleisesti ottaen ei tarvita käyttäjänimeä ja salasanaa. Jos niitä tarvitaan, kirjoita tieto oikeaan kenttään.</li>
+      <li>Valitse välityspalvelimen <em>Tyyppi</em>, joko HTTP/HTTPS, SOCKS4 tai SOCKS5.</li>
+      <li>Paina <em>OK</em>-nappia. Vidalia ja Tor on nyt asetettu käyttämään välityspalvelinta muuhun Tor-verkkoon pääsyä varten.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Usein kysytyt kysymykset</h2>
+    <p>Tämä osa auttaa vastaamaan joihinkin kaikkein yleisimmistä kysymyksistä. Jos kysymystäsi ei mainita tässä, lähetä sähköposti osoitteeseen help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Arkistoa ei saa purettua</h3>
+    <p>Jos käytät Windowsia ja huomaat, että et saa arkistoa purettua, lataa ja asenna <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Jos et voi ladata 7-Zip-ohjelmaa, nimeä tiedosto uudestaan ja vaihda tiedostopääte .z päätteeksi .zip. Käytä Winzip-ohjelmaa arkiston purkamiseen. Ennen tiedoston nimeämistä uudestaan voit pyytää Windowsia näyttämään tiedostopäätteet:</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Avaa <em>Tietokoneeni</em></li>
+      <li>Napsauta <em>Työkalut</em> ja valitse <em>Kansion asetukset...</em> valikosta</li>
+      <li>Napsauta <em>Näytä</em>-välilehteä</li>
+      <li>Poista valinta <em>Piilota tunnettujen tiedostomuotojen päätteet</em> ja napsauta <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Avaa <em>Tietokone</em></li>
+      <li>Napsauta <em>Järjestä</em> ja valitse <em>Kansioiden ja haun asetukset</em> valikosta</li>
+      <li>Napsauta <em>Näytä</em>-välilehteä</li>
+      <li>Poista valinta <em>Piilota tunnettujen tiedostomuotojen päätteet</em> ja napsauta <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Avaa <em>Tietokone</em></li>
+      <li>Napsauta <em>Järjestä</em> ja valitse <em>Kansioiden ja haun asetukset</em> valikosta</li>
+      <li>Napsauta <em>Näytä</em>-välilehteä</li>
+      <li>Poista valinta <em>Piilota tunnettujen tiedostomuotojen päätteet</em> ja napsauta <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia kysyy salasanaa</h3>
+    <p>Salasanaa ei pitäisi normaalisti kysyä Vidaliaa käynnistettäessä. Jos sitä kysytään, on kyseessä luultavasti joku näistä ongelmista:</p>
+    <p><strong>Vidalia ja Tor ovat jo päällä</strong>: näin voi tapahtua, jos Vidalia on asennettu ja yrität suorittaa Tor-selainpakkausta. Siinä tapauksessa joudut sulkemaan vanhan Vidalian ja Torin ennen kuin voit suorittaa Tor-selainpakkauksen.</p>
+    <p><strong>Vidalia kaatui, mutta Tor jäi päälle</strong>: jos hallintasalasanaa kysyvässä ikkunassa on Reset-nappi, voit painaa nappia ja Vidalia käynnistää Torin uudestaan uudella satunnaisella hallinnan salasanalla. Jos Reset-nappia ei näy, tai jos Vidalia ei kykene käynnistämään Toria uudelleen, voit mennä prosessien tai tehtävien hallintaohjelmaan ja pysäyttää Tor-prosessin. Sen jälkeen voit käyttää Vidaliaa käynnistääksesi Torin uudelleen.</p>
+    <p>Lisää tietoa on kohdassa <a href="https://torproject.org/docs/faq.html#VidaliaPassword">Usein Kysytyt Kysymykset</a> Tor-projektin verkkosivuilla. </p>
+    <h3 id="flash-does-not-work">Flash ei toimi</h3>
+    <p>Turvallisuussyistä Flash, Java ja muut lisäosat on nykyisin poistettu käytöstä Tor-selaimessa. Lisäosat toimivat itsenäisesti Firefoxista riippumatta ja voivat tehdä tietokoneellasi anonymiteetin vaarantavia toimintoja.</p>
+    <p>Useimmat YouTube-videot toimivat myös HTML5-teknologialla, joten niitä on mahdollista katsoa Tor-yhteyden yli. Joudut liittymään <a href="https://www.youtube.com/html5">HTML5-kokeiluun</a> YouTuben verkkosivuilla ennen kuin voit käyttää HTML5-soitinta.</p>
+    <p>Huomaa, että selain ei muista että olet liittynyt kokeiluun suljettuasi sen, joten joudut liittymään kokeiluun uudestaan seuraavalla kerralla ajaessasi Tor-selainpakkausta.</p>
+    <p>Katso <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbuttonin Usein Kysytyt Kysymykset</a> saadaksesi lisätietoa.</p>
+    <h3 id="i-want-to-use-another-browser">Tahdon käyttää toista selainta.</h3>
+    <p>Turvallisuussyistä suosittelemme, että käytät verkkoa Torin kautta vain Tor-selainpakkauksen avulla. On teknisesti mahdollista käyttää Toria muilla selaimilla, mutta tehdessäsi niin olet altis hyökkäyksille.</p>
+    <h3 id="why-tor-is-slow">Miksi Tor on hidas</h3>
+    <p>Tor voi joskus olla tavallista Internet-yhteyttä hitaampi. Liikenteesi kulkee kuitenkin monien eri maiden läpi, joskus valtamerien yli ja maapallon ympäri!</p>
+  </body>
+</html>
