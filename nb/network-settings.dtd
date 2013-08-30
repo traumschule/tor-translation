@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Denne datamaskinen går gjennom en brannmur som kun tillater tilkoblinger til visse porter">
 <!ENTITY torsettings.firewall.allowedPorts "Tillatte Porter:">
 <!ENTITY torsettings.useBridges.checkbox "Min internettleverandør (ISP) blokkerer forbindelser til Tor-nettverket">
-<!ENTITY torsettings.useBridges.label "Angi en eller flere bro-reléer i form av adresse:port.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "adresse:port">
 
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">

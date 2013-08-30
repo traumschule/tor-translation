@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "Pyrth a ganiateir:">
 <!ENTITY torsettings.useBridges.checkbox "Mae fy Narparydd Gwasanaeth Rhyngrwyd (ISP) yn atal cysylltiadau â'r rhwydwaith Tor">
-<!ENTITY torsettings.useBridges.label "Mewngofnodwch un neu fwy o releiau pontydd fel cyfeiriad:porth.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "cyfeiriad:poth">
 
 <!ENTITY torsettings.copyLog "Copio'r Log Tor i'r Clipfwrdd">

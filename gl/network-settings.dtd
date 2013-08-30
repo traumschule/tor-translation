@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Este computador pasa por un firewall que só permite conexións a certos portos">
 <!ENTITY torsettings.firewall.allowedPorts "Portos permitidos:">
 <!ENTITY torsettings.useBridges.checkbox "O meu Provedor Servizos de Internet (ISP) bloquea as conexións á rede Tor">
-<!ENTITY torsettings.useBridges.label "Insira un ou máis repetidores ponte no xeito enderezo:porto.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "enderezo:porto">
 
 <!ENTITY torsettings.copyLog "Copia o rexistro do Tor ao portapapeis">

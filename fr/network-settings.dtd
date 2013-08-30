@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Cet ordinateur passe par un pare-feu qui autorise uniquement les connexions à certains ports">
 <!ENTITY torsettings.firewall.allowedPorts "Ports autorisés :">
 <!ENTITY torsettings.useBridges.checkbox "Mon Fournisseur d'Accès à Internet (FAI) bloque les connexions au réseau Tor">
-<!ENTITY torsettings.useBridges.label "Entrez un ou plusieurs bridges sous la forme « adresse:port »">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "adresse:port">
 
 <!ENTITY torsettings.copyLog "Copier le journal des messages de Tor dans le presse-papier">

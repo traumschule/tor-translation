@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Bu bilgisayar, sadece belirli bağlantı noktalarına izin veren bir güvenlik duvarı ile bağlanıyor">
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
-<!ENTITY torsettings.useBridges.label "adres:port formunda bir yada daha çok köprü aktarıcısı girin.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "adres:port">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">

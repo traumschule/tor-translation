@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "اتصال الإنترنت لهذا الكمبيوتر يمر بجدار حماية يسمح بالاتصال فقط من خلال منافذ معينة">
 <!ENTITY torsettings.firewall.allowedPorts "المنافذ المسموح بها:">
 <!ENTITY torsettings.useBridges.checkbox "مزود خدمة الإنترنت الخاص بي (ISP) يمنع الاتصالات بشبكة تور">
-<!ENTITY torsettings.useBridges.label "ادخل جسر مُرحل واحد أو أكثر بالشكل التالي عنوان:منفذ.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "العنوان:المنفذ">
 
 <!ENTITY torsettings.copyLog "نسخ سجل تور إلي الحافظة">

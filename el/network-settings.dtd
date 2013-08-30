@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Το τείχος προστασίας μου με αφήνει να συνδέομαι μόνο σε συγκεκριμένες θύρες συστήματος">
 <!ENTITY torsettings.firewall.allowedPorts "Επιτρεπόμενες Θύρες:">
 <!ENTITY torsettings.useBridges.checkbox "Ο πάροχος διαδικτυου (ISP) μπλοκάρει τις συνδέσεις στο δίκτυο του Tor">
-<!ENTITY torsettings.useBridges.label "Εισάγετε ένα ή περισσότερα ρελέ γέφυρων στην διεύθυνση address:port.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "address:port">
 
 <!ENTITY torsettings.copyLog "Αντιγραφή στο πρόχειρο">

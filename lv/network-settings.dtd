@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Šis dators iet caur ugunsmūri, kurš atļauj tikai savienojumus ar noteiktiem portiem.">
 <!ENTITY torsettings.firewall.allowedPorts "Atļautie porti:">
 <!ENTITY torsettings.useBridges.checkbox "Mans interneta pakalpojumu sniedzējs (IPS) bloķē savienojumu izveidošanu ar tīklu Tor">
-<!ENTITY torsettings.useBridges.label "Ievadiet vienu vai vairākus tīkla retranslatorus, izmantojot formātu adrese:ports.">
+<!ENTITY torsettings.useBridges.label "Ievadiet vienu vai vairākus tilta retranslatorus (vienu rindā).">
 <!ENTITY torsettings.useBridges.placeholder "address:port">
 
 <!ENTITY torsettings.copyLog "Kopēt Tor žurnālu starpliktuvē">

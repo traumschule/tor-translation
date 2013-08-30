@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Мой сетевой экран позволяет мне подключиться только к определенным портам">
 <!ENTITY torsettings.firewall.allowedPorts "Разрешенные порты:">
 <!ENTITY torsettings.useBridges.checkbox "Мой провайдер блокирует доступ к сети Tor">
-<!ENTITY torsettings.useBridges.label "Введите один или несколько ретрансляторов типа мост в виде адрес:порт.">
+<!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "адрес:порт">
 
 <!ENTITY torsettings.copyLog "Скопировать журнал Tor в буфер обмена">
