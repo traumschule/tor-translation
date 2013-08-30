@@ -10,10 +10,10 @@
 <!ENTITY torSettings.firstQuestion "">
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
+<!ENTITY torSettings.configure "پیکربندی">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.connect "اتصال">
 
 <!ENTITY torSettings.proxyQuestion "">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
@@ -28,7 +28,7 @@
 
 <!ENTITY torsettings.startingTor "">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "اختیاری">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "نوع پراکسی:">
