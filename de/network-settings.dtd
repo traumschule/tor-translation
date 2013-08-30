@@ -43,7 +43,7 @@
 <!ENTITY torsettings.firewall.checkbox "Die Verbindung dieses Computers geht durch eine Firewall, die nur bestimmte Ports zulässt">
 <!ENTITY torsettings.firewall.allowedPorts "Erlaubte Ports:">
 <!ENTITY torsettings.useBridges.checkbox "Mein Internet Service Provider (ISP) blockiert Verbindungen zum Tor-Netzwerk">
-<!ENTITY torsettings.useBridges.label "Eine oder mehrere Bridges im Format Adresse:Port hinzufügen.">
+<!ENTITY torsettings.useBridges.label "Geben Sie ein oder mehrere Bridge-Relais an (eins pro Zeile).">
 <!ENTITY torsettings.useBridges.placeholder "Adresse:Port">
 
 <!ENTITY torsettings.copyLog "Tor-Log in die Zwischenablage kopieren">
