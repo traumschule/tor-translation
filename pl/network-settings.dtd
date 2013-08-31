@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Dozwolone porty:">
 <!ENTITY torsettings.useBridges.checkbox "Mój dostawca internetu blokuje połączenia do sieci Tor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "adres:port">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Skopiuj log do schowka">
 <!ENTITY torsettings.bridgeHelpTitle "Pomoc Przekaźników Mostkowych">

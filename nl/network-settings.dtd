@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Toegestane poorten:">
 <!ENTITY torsettings.useBridges.checkbox "Mijn Internet Service Provider (ISP) blokkeert verbindingen naar het Tor netwerk">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "adres:poort">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Kopieer Tor log naar het klembord">
 <!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Hulp">

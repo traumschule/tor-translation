@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Pyrth a ganiateir:">
 <!ENTITY torsettings.useBridges.checkbox "Mae fy Narparydd Gwasanaeth Rhyngrwyd (ISP) yn atal cysylltiadau â'r rhwydwaith Tor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "cyfeiriad:poth">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Copio'r Log Tor i'r Clipfwrdd">
 <!ENTITY torsettings.bridgeHelpTitle "Cymorth Pont Relái">

@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "adres:port">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Ayna Yardımı">

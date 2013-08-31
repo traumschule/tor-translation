@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "අනුමත Ports">
 <!ENTITY torsettings.useBridges.checkbox "මාගේ අන්තර්ජාල සේවා සපයන්නා(ISP) විසින් TOR  ජාලය සදහා සබදතාවය අවහිර කර ඇත.">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "address:port">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Clipboard එකට Tor ලොගය පිටපත් කරන්න.">
 <!ENTITY torsettings.bridgeHelpTitle "සේතු ප්‍රතියෝජක (Bridge Relay) උපකාරකය">

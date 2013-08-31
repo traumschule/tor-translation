@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Atļautie porti:">
 <!ENTITY torsettings.useBridges.checkbox "Mans interneta pakalpojumu sniedzējs (IPS) bloķē savienojumu izveidošanu ar tīklu Tor">
 <!ENTITY torsettings.useBridges.label "Ievadiet vienu vai vairākus tilta retranslatorus (vienu rindā).">
-<!ENTITY torsettings.useBridges.placeholder "address:port">
+<!ENTITY torsettings.useBridges.placeholder "adrese:ports VAI transporta adrese:ports">
 
 <!ENTITY torsettings.copyLog "Kopēt Tor žurnālu starpliktuvē">
 <!ENTITY torsettings.bridgeHelpTitle "Palīdzība par tiltu retranslatoriem">

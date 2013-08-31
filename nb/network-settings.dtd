@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Tillatte Porter:">
 <!ENTITY torsettings.useBridges.checkbox "Min internettleverandør (ISP) blokkerer forbindelser til Tor-nettverket">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "adresse:port">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relé Hjelp">

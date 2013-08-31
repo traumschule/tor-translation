@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Engedélyezett portok:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "cím:port">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "A Tor log Vágólapra másolása">
 <!ENTITY torsettings.bridgeHelpTitle "Híd kapcsoló súgó">

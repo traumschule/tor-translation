@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Portos permitidos:">
 <!ENTITY torsettings.useBridges.checkbox "O meu Provedor Servizos de Internet (ISP) bloquea as conexións á rede Tor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "enderezo:porto">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Copia o rexistro do Tor ao portapapeis">
 <!ENTITY torsettings.bridgeHelpTitle "Axuda do Repetidor Ponte">

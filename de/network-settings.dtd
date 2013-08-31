@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Erlaubte Ports:">
 <!ENTITY torsettings.useBridges.checkbox "Mein Internet Service Provider (ISP) blockiert Verbindungen zum Tor-Netzwerk">
 <!ENTITY torsettings.useBridges.label "Geben Sie ein oder mehrere Bridge-Relais an (eins pro Zeile).">
-<!ENTITY torsettings.useBridges.placeholder "Adresse:Port">
+<!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "Tor-Log in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zu Bridge-Relays">
