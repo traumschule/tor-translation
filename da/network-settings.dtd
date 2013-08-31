@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor netværket">
 <!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et per linie)">
-<!ENTITY torsettings.useBridges.placeholder "adresse:port">
+<!ENTITY torsettings.useBridges.placeholder "adresse:port OR transport adresse:port">
 
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
