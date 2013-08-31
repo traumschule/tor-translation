@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Puertos permitidos:">
 <!ENTITY torsettings.useBridges.checkbox "Mi Proveedor de Servicios de Internet (ISP) bloquea las conexiones a la red Tor">
 <!ENTITY torsettings.useBridges.label "Introduzca uno o más repetidores puente ('bridge', uno por línea).">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "dirección:puerto O dirección:puerto de transporte">
 
 <!ENTITY torsettings.copyLog "Copiar el registro de mensajes ('log') de Tor al portapapeles">
 <!ENTITY torsettings.bridgeHelpTitle "Ayuda de Repetidores Puente ('Bridge Relays')">
