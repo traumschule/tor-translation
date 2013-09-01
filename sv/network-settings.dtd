@@ -43,8 +43,8 @@
 <!ENTITY torsettings.firewall.checkbox "Denna dator går genom en brandvägg som bara tillåter anslutningar på vissa specifika portar.">
 <!ENTITY torsettings.firewall.allowedPorts "Tillåtna portar:">
 <!ENTITY torsettings.useBridges.checkbox "Min internetleverantör blockerar anslutningar till Tor nätverket">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Ange en eller flera Tor bryggor (en per rad).">
+<!ENTITY torsettings.useBridges.placeholder "adress:port ELLER transport adress:port">
 
 <!ENTITY torsettings.copyLog "Kopiera Tor loggen till urklippet">
 <!ENTITY torsettings.bridgeHelpTitle "Hjälp om bryggor">
