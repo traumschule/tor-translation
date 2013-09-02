@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "הגדרות רשת Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -10,8 +10,8 @@
 <!ENTITY torSettings.firstQuestion "אילו מן הבאים מתאר את המצב שלך באופן הטוב ביותר?">
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "עלי להגדיר הגדרות רשת תקשורת.">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
+<!ENTITY torSettings.configure "הגדר">
+<!ENTITY torSettings.connectPrompt1 "חיבור האינטרנט של חשב זה הינו נקי ממכשולים.">
 <!ENTITY torSettings.connectPrompt2 "ברצוני להתחבר ישירות אל הרשת Tor.">
 <!ENTITY torSettings.connect "התחבר">
 
@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.bridgeQuestion "המידה וחיבור האינטרנט של מחשב זה הינו מצונזר, יהיה עליך להשיג ולהשתמש בממסרי גשר.&amp;#160; היה ולא, פשוט לחץ על התחבר.">
 
 <!-- Other: -->
 
@@ -30,8 +30,8 @@
 
 <!ENTITY torsettings.optional "רשות">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "מחשב זה צריך להשתמש בפרוקסי כדי לגשת אל האינטרנט">
+<!ENTITY torsettings.useProxy.type "טיפוס פרוקסי:">
 <!ENTITY torsettings.useProxy.address "כתובת:">
 <!ENTITY torsettings.useProxy.address.placeholder "כתובת IP או שם מארח">
 <!ENTITY torsettings.useProxy.port "יציאה:">
@@ -42,13 +42,13 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "יציאות מורשות:">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.useBridges.checkbox "ספק האינטרנט שלי (ISP) חוסם חיבורים אל הרשת Tor">
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "">
 
 <!ENTITY torsettings.copyLog "העתק את יומן Tor אל לוח גזירה">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.bridgeHelpTitle "עזרת ממסר גשר">
 <!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.bridgeHelp2 "כדי להשיג ממסרי גשר, השתמש בדפדפן רשת בכדי לבקר בעמוד הבא:  https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
