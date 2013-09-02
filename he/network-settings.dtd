@@ -7,18 +7,18 @@
 <!ENTITY torSettings.yes "כן">
 <!ENTITY torSettings.no "לא">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "אילו מן הבאים מתאר את המצב שלך באופן הטוב ביותר?">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
+<!ENTITY torSettings.configurePrompt2 "עלי להגדיר הגדרות רשת תקשורת.">
 <!ENTITY torSettings.configure "">
 <!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connectPrompt2 "ברצוני להתחבר ישירות אל הרשת Tor.">
 <!ENTITY torSettings.connect "התחבר">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "האם מחשב זה צריך להשתמש בפרוקסי כדי לגשת אל האינטרנט?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
+<!ENTITY torSettings.enterProxy "הזן את הגדרות הפרוקסי.">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
@@ -26,14 +26,14 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "ממתין כעת עבור Tor כדי להתחיל…">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "רשות">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "כתובת:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "כתובת IP או שם מארח">
 <!ENTITY torsettings.useProxy.port "יציאה:">
 <!ENTITY torsettings.useProxy.username "שם משתמש:">
 <!ENTITY torsettings.useProxy.password "סיסמה:">
@@ -46,7 +46,7 @@
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "">
 
-<!ENTITY torsettings.copyLog "">
+<!ENTITY torsettings.copyLog "העתק את יומן Tor אל לוח גזירה">
 <!ENTITY torsettings.bridgeHelpTitle "">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
