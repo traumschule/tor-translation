@@ -10,18 +10,18 @@
 <!ENTITY torSettings.firstQuestion "Ktorá z nasledujúcich situácií najlepšie popisuje Vašu?">
 <!ENTITY torSettings.configurePrompt1 "">
 <!ENTITY torSettings.configurePrompt2 "Potrebujem konfigurovať nastavenia siete. ">
-<!ENTITY torSettings.configure "Nastaviť">
+<!ENTITY torSettings.configure "Konfigurovať">
 <!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "Rád by som sa pripojil priamo do siete Tor.">
 <!ENTITY torSettings.connect "Pripojiť">
 
 <!ENTITY torSettings.proxyQuestion "Potrebuje tento počítač použiť proxy pre prístup na internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
+<!ENTITY torSettings.proxyHelp "Ak si nie ste istý odpoveďou na túto otázku, pozrite na nastavenie internetu v inom prehliadači, či je konfigurovaný pre použitie proxy.">
 <!ENTITY torSettings.enterProxy "">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
+<!ENTITY torSettings.enterFirewall "Zadajte čísla portov oddelené medzerou, ktoré sú povolené na firewalle.">
 <!ENTITY torSettings.bridgeQuestion "">
 
 <!-- Other: -->
@@ -30,8 +30,8 @@
 
 <!ENTITY torsettings.optional "Voliteľne">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Tento počítač potrebuje použiť proxy pre prístup na internet">
+<!ENTITY torsettings.useProxy.type "Typ proxy:">
 <!ENTITY torsettings.useProxy.address "Adresa:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresa alebo hostname">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -43,10 +43,10 @@
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "Povolené porty:">
 <!ENTITY torsettings.useBridges.checkbox "Môj poskytovateľ internetového pripojenia blokuje spojenie do siete Tor">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Zadaj jeden alebo viac premosťovacích relays (jednu na riadok).">
+<!ENTITY torsettings.useBridges.placeholder "adresa:port ALEBO transport adresa:port">
 
-<!ENTITY torsettings.copyLog "Kopírovať Tor log do schránky">
+<!ENTITY torsettings.copyLog "Kopírovať log Toru do schránky">
 <!ENTITY torsettings.bridgeHelpTitle "">
 <!ENTITY torsettings.bridgeHelp1 "">
 <!ENTITY torsettings.bridgeHelp2 "">
