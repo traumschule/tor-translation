@@ -43,8 +43,8 @@
 <!ENTITY torsettings.firewall.checkbox "Ordenagailu honek ataka zehatz batzuetara bakarrik konektatzea baimentzen duen sueten baten zehar doa">
 <!ENTITY torsettings.firewall.allowedPorts "Baimendutako atakak:">
 <!ENTITY torsettings.useBridges.checkbox "Nire Internet Zerbitzu Hornitzaileak (ISP ingeleraz) Tor sarera konektatzea blokeatzen dit.">
-<!ENTITY torsettings.useBridges.label "Zubi errele bat edo gehiago sartu helbidea:ataka forman.">
-<!ENTITY torsettings.useBridges.placeholder "helbidea:ataka">
+<!ENTITY torsettings.useBridges.label "Sartu zubi errele bat edo gehiago (bat lerro bakoitzeko).">
+<!ENTITY torsettings.useBridges.placeholder "helbidea:ataka EDO garraio helbidea:ataka">
 
 <!ENTITY torsettings.copyLog "Kopiatu Tor erregistroa arbelera">
 <!ENTITY torsettings.bridgeHelpTitle "Zubi errele laguntza">
