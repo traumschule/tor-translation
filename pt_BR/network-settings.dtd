@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Portas habilitadas:">
 <!ENTITY torsettings.useBridges.checkbox "Meu Provedor de Serviços Internet (ISP) bloqueia as conexões à rede Tor">
 <!ENTITY torsettings.useBridges.label "Insira um ou mais retransmissores de pontes (um por linha).">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "endereço:porta OU endereço:porta de transporte">
 
 <!ENTITY torsettings.copyLog "Copiar o Log do Tor na área de transferência">
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
