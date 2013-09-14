@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Aan het wachten tot Tor gestart is...">
+<!ENTITY torsettings.restart "Herstart">
 
 <!ENTITY torsettings.optional "Optioneel">
 

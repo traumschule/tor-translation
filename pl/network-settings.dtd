@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Uruchamianie oprogramowania Tor">
+<!ENTITY torsettings.restart "Restart">
 
 <!ENTITY torsettings.optional "(opcjonalnie)">
 

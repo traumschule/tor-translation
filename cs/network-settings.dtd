@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čekání na start TORu">
+<!ENTITY torsettings.restart "">
 
 <!ENTITY torsettings.optional "">
 

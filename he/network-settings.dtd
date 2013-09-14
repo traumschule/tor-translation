@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "ממתין כעת עבור Tor כדי להתחיל…">
+<!ENTITY torsettings.restart "אתחול">
 
 <!ENTITY torsettings.optional "רשות">
 

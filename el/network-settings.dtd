@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Αναμονή για να ξεκινήσει το Tor... ">
+<!ENTITY torsettings.restart "Επανεκκίνηση">
 
 <!ENTITY torsettings.optional "Προεραιτικα">
 

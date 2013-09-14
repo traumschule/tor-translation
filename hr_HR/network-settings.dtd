@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čekanje da se Tor pokrene...">
+<!ENTITY torsettings.restart "Ponovno pokreni ">
 
 <!ENTITY torsettings.optional "Opcionalno">
 

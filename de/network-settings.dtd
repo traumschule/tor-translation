@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Warte auf den Start von Tor …">
+<!ENTITY torsettings.restart "Neustart">
 
 <!ENTITY torsettings.optional "Optional">
 

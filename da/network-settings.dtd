@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Venter på at Tor starter...">
+<!ENTITY torsettings.restart "Genstart">
 
 <!ENTITY torsettings.optional "Valgfri">
 
