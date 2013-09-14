@@ -27,6 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Gaida, kamēr Tor startēs...">
+<!ENTITY torsettings.restart "Restartēt">
 
 <!ENTITY torsettings.optional "Neobligāts">
 
