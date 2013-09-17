@@ -27,7 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Väntar på att Tor ska starta...">
-<!ENTITY torsettings.restart "">
+<!ENTITY torsettings.restart "Starta om">
 
 <!ENTITY torsettings.optional "Valfri">
 
