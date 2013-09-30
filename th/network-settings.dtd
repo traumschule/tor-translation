@@ -27,7 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "รอให้ Tor เริ่มทำงาน...">
-<!ENTITY torsettings.restart "">
+<!ENTITY torsettings.restart "เริ่มทำงานใหม่">
 
 <!ENTITY torsettings.optional "ตัวเลือก">
 
@@ -45,7 +45,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "พอร์ตที่อนุญาต:">
 <!ENTITY torsettings.useBridges.checkbox "ผู้ให้บริการอินเทอร์เน็ต (ไอเอสพี) ของฉัน ปิดกั้นการเชื่อมต่อกับเครือข่าย Tor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "ที่อยู่:พอร์ต หรือ ที่อยู่:พอร์ต การส่งข้อมูล">
 
 <!ENTITY torsettings.copyLog "คัดลอกปูม Tor ไปที่คลิปบอร์ด">
 <!ENTITY torsettings.bridgeHelpTitle "การช่วยเหลือรีเลย์สะพาน">
