@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.checkbox "คอมพิวเตอร์เครื่องนี้ใช้งานผ่านไฟร์วอลล์ที่ยินยอมที่จะให้เชื่อมต่อกับบางพอร์ตเท่านั้น">
 <!ENTITY torsettings.firewall.allowedPorts "พอร์ตที่อนุญาต:">
 <!ENTITY torsettings.useBridges.checkbox "ผู้ให้บริการอินเทอร์เน็ต (ไอเอสพี) ของฉัน ปิดกั้นการเชื่อมต่อกับเครือข่าย Tor">
-<!ENTITY torsettings.useBridges.label "">
+<!ENTITY torsettings.useBridges.label "ใส่สะพานรีเลย์อย่างน้อยหนึ่งอัน (บรรทัดละอัน)">
 <!ENTITY torsettings.useBridges.placeholder "ที่อยู่:พอร์ต หรือ ที่อยู่:พอร์ต การส่งข้อมูล">
 
 <!ENTITY torsettings.copyLog "คัดลอกปูม Tor ไปที่คลิปบอร์ด">
