@@ -1,0 +1,133 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title/>
+  </head>
+  <body>
+    <h1 id="the-short-user-manual">Scurt manual al utilizatorului</h1>
+    <p>Acest manual conține informații despre cum să descărcați Tor, cum să-l folosiți și ce să faceți dacă Tor nu se poate conecta la rețea. Dacă nu puteți găsi răspunsul la întrebarea dumneavoastră în acest document, trimiteți un email la help@rt.torproject.org</p>
+    <p>Vă rugăm să luați în considerare faptul că noi oferim suport pe bază de voluntariat și primim multe email-uri în fiecare zi. Nu trebuie să vă îngrijorați dacă nu vă contactăm imediat.</p>
+    <h2 id="how-tor-works">Cum funcționează Tor</h2>
+    <p>Tor este o rețea de tuneluri virtuale ce vă permite să vă îmbunătățiți intimitatea și securitatea pe Internet. Tor funcționează prin trimiterea traficului dumneavoastră prin trei servere aleatorii ( cunoscute și ca  <em>relays</em>) în rețeaua Tor, înainte ca traficul să fie trimis în Internetul public.</p>
+    <p>Imaginea de deasupra ilustrează un utilizator navigând diferite site-uri prin Tor. Monitoarele verzi reprezintă relay-uri în rețeaua Tor, în timp ce cele trei chei reprezintă nivelele de criptare dintre utilizator și fiecare relay.</p>
+    <p>Tor va anonimiza originea traficului dumneavoastră și va cripta totul dintre dumneavoastră și rețeaua Tor. De asemenea, Tor vă va cripta traficul din cadrul rețelei Tor, însă nu vă va putea cripta traficul dintre rețeaua Tor și destinația sa finală.</p>
+    <p>Dacă comunicați informații sensibile, spre exemplu atunci când vă autentificați pe un site cu un nume de utilizator și parolă, asigurați-vă că folosiți HTTPS (ex. <strong>https</strong>://torproject.org/, nu <strong>http</strong>://torproject.org/).</p>
+    <h2 id="how-to-download-tor">Cum se descarcă Tor</h2>
+    <p>Pachetul pe care îl recomandăm majorității utilizatorilor este <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Acest pachet conține un browser preconfigurat pentru navigarea Internetului în siguranță prin Tor și nu necesită instalare. Descărcați pachetul, extrageți arhiva și porniți Tor.</p>
+    <p>Există două moduri diferite prin care puteți intra în posesia software-ului Tor. Puteți naviga pe <a href="https://www.torproject.org/">site-ul Tor Project</a> de unde îl puteți descărca, sau puteți folosi GetTor, un program cu care se comunică prin email.</p>
+    <h3 id="how-to-get-tor-via-email">Cum iau Tor prin email</h3>
+    <p>Pentru a primi varianta în limba engleză a Tor Browser Bundle pentru Windows, trimiteți un email la gettor@torproject.org cu mesajul <strong>windows</strong> în câmpul de text. Puteți lăsa zona de subiect albă.</p>
+    <p>Puteți, de asemenea, solicita Tor Browser Bundle pentru Mac OS X (scrieți <strong>macos-i386</strong>) și Linux (write <strong>linux-i386</strong> pentru sisteme 32-bit sau <strong>linux-x86_64</strong> pentru sisteme 64-bit ).</p>
+    <p>Dacă doriți o versiune tradusă de Tor, scrieți <strong>help</strong>. Veți primi apoi un email cu instrucțiuni si o listă de limbi disponibile.</p>
+    <p><strong>Notă</strong>: Pachetele Tor Browser pentru Linux și Mac OS X  au o mărime considerabilă, astfel încât nu veți putea primi aceste pachete cu un cont de Gmail, Hotmail sau Yahoo. Dacă nu puteți primi pachetele dorite, trimiteți un email la help@rt.torproject.org și vă vom trimite o lista cu site-uri ce conțin oglinzi pe care le puteți folosi.</p>
+    <h3 id="tor-for-smartphones">Tor pentru smartphone-uri</h3>
+    <p>Puteți avea Tor și pe device-ul dumneavoastră Android prin istalarea pachetului numit  <em>Orbot</em>. Pentru informații legate de descărcarea și instalarea pachetului Orbot vă rugăm consultați <a href="https://www.torproject.org/docs/android.html.en"> site-ul Tor Project</a>.</p>
+    <p>Avem de asemenea și pachete experimentale pentru <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> și <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Cum să verificați dacă aveți versiunea corectă</h3>
+    <p>Înainte de a rula pachetul Tor Browser, vă rugăm să vă asigurați că aveți versiunea corectă.</p>
+    <p>Software-ul pe care îl veți primi este acompaniat de un fișier cu același nume precum pachetul și extensia <strong>.asc</strong>. Acest fișier .asc este o semnătură GPG care vă va permite să verificați că fișierul descărcat este exact acela pe care îl doreați.</p>
+    <p>Înainte de a putea verifica semnătura, va trebui să descărcați și instalați GnuPG:</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Majoritatea distribuțiilor Linux vin cu GnuPG preinstalat.</p>
+    <p>Vă rugăm să luați în considerare eventuala necesitate a editării căilor și comenzilor folosite mai jos, pentru a funcționa pe sistemul dumneavoastră.</p>
+    <p>Erinn Clark semnează pachetele Tor Browser cu cheia 0x63FEE659. Pentru a importa cheia lui Erinn, rulați:</p>
+    <pre>
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎
+</code>
+    </pre>
+    <p>După ce ați importat cheia, verificați dacă amprenta este corectă:</p>
+    <pre>
+      <code>gpg --fingerprint 0x63FEE659⏎
+</code>
+    </pre>
+    <p>Trebuie sa vezi:</p>
+    <pre>
+      <code>pub 2048R/63FEE659 2003-10-16⏎
+Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659⏎
+uid Erinn Clark &lt;erinn@torproject.org&gt;⏎
+uid Erinn Clark &lt;erinn@debian.org&gt;⏎
+⏎
+uid Erinn Clark &lt;erinn@double-helix.org&gt;⏎
+sub 2048R/EB399FD7 2003-10-16⏎
+</code>
+    </pre>
+    <p>Pentru a verifica semnătura pachetului descărcat, rulați următoarea comandă:</p>
+    <pre>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎
+</code>
+    </pre>
+    <p>În output ar trebui să fie afișat  <em>"Good signature"</em>("Semnătură bună"). O semnătură proastă înseamnă posibilitatea ca fișierul să fi fost alterat. Dacă vedeți o semnătură proastă, trimiteți detalii referitoare la locația de unde ați descărcat pachetul, cum ați verificat semnătura, precum si output-ul de la GnuPG într-un email la help@rt.torproject.org. </p>
+    <p>După ce ați verificat semnătura și ați văzut output-ul <em>"Good signature"</em>("Semnătură Bună"), extrageți arhiva pachetului. Veți vedea un directoriu similar cu <strong>tor-browser_en-US</strong>. În acel directoriu există un alt directoriu numit <strong>Docs</strong>, care conține un fișier numit <strong>changelog</strong>. Trebuie să vă asigurați că numărul versiunii de pe prima linie din fișier este același cu numărul din denumirea pachetului.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Cum să folosiți Tor Browser Bundle</h3>
+    <p>După ce ați descărcat Tor Browser Bundle și ați extras pachetul, ar trebui să aveți un directoriu cu un număr de fișiere înauntru. Unul dintre fișiere este un executabil numit "Start Tor Browser" (or "start-tor-browser", în funcție de sistemul dumneavoastră de operare).</p>
+    <p>Când porniți Tor Browser Bundle, prima dată veți vedea Vitalia pornind și conectându-vă la rețeaua Tor. După aceea, veți vedea un browser confirmându-vă faptul că de acum folosiți Tor. Acest lucru este realizat prin afișarea <a href="https://check.torproject.org/">https://check.torproject.org/</a>. 
+Acum puteți naviga pe Internet prin Tor.</p>
+    <p>
+      <em>Vă rugăm să marcați faptul că este important să folosiți browser-ul ce vine împreună cu pachetul, iar nu propriul dumneavoastră browser.</em>
+    </p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Ce fac daca Tor nu se conecteaza</h3>
+    <p>Anumiți utilizatori vor remarca faptul că Vidalia se blochează atunci când încearcă să se conecteze la rețeaua Tor. Dacă acest lucru se întâmplă , asigurați-vă că sunteți conectați la Internet. Dacă aveți nevoie să vă conectați la un server proxy, vedeți <em>Cum se deschide un open proxy</em> mai jos.</p>
+    <p>Dacă conexiunea dumneavoastră normală de Internet funcționează, dar Tor încă nu se poate conecta la rețea, încercați următorii pași; deschideți panoul de control Vidalia, dați click pe <em>Message Log</em> și selectați tab-ul <em>Advanced</em>. Este posibil ca Tor să nu se poată conecta din cauza:</p>
+    <p><strong>Ceasul sistemului dumneavoastră este închis</strong>: Asigurați-vă că data și timpul afișat de sistemul dumneavoastră sunt corecte și restartați Tor. Este posibil să fie nevoie să sincronizați ceasul sistemului dumneavoastră cu un server Internet de timp.</p>
+    <p><strong> Vă aflați în spatele unui firewall restricționant</strong>: Pentru a comunica lui Tor să încerce doar porturile 80 si 443, deschideți panoul de control din Vidalia, dați click pe <em>Settings</em> și <em>Network</em>, și bifați căsuța cu mesajul <em>My firewall only lets me connect to certain ports</em>. </p>
+    <p><strong> Programul dumneavoastră anti-virus blochează Tor</strong>: Asigurați-vă că programul dumneavoastră anti-virus nu împiedică Tor de la a face conexiuni în rețea.</p>
+    <p>Dacă Tor continuă să nu funcționeze, este posibil ca Internet Service Provider-ul(ISP-ul) dumneavoastră să blocheze Tor. Foarte des se poate ocoli acest lucru prin <strong>poduri Tor </strong>, relay-uri ascunse ce nu sunt atât de ușor de blocat.</p>
+    <p>Dacă aveți nevoie de ajutor pentru a afla de ce Tor nu se poate conecta, trimiteți un email la help@rt.torproject.org și includeți părțile relevante din fișierul de log.</p>
+    <h3 id="how-to-find-a-bridge">Cum sa gasiti un pod.</h3>
+    <p>Pentru a folosi un  pod veți avea în primul rând nevoie să localizați unul; puteți să căutați în  <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, sau puteți trimite un email la bridges@torproject.org. Daca trimiteți email, vă rugăm să vă asigurați că scrieți <strong>get bridges</strong> în câmpul de text din email. Fără acest mesaj nu veți primi un răspuns. Aveți în vedere faptul că acest email trebuie trimis de pe un cont de gmail.com sau de yahoo.com</p>
+    <p>Configurând mai mult de o adresă de pod vă va face Tor-ul mai stabil, în cazul în care unul din poduri devine de necontactat. Nu există nici o garanție că podul folosit de dumneavoastră astăzi va funcționa și mâine, astfel încât trebuie să vă faceți o obisnuință din a vă actualiza lista de poduri din când în când.</p>
+    <h3 id="how-to-use-a-bridge">Cum sa folositi un pod.</h3>
+    <p>În clipa în care aveți un set de poduri pe care să le folosiți , deschideți panoul de control din Vidalia și dați click pe <em>Settings</em>, <em>Network</em> și bifați căsuța cu textul <em>My ISP blocks connections to the Tor network</em>. Introduceți podurile în casuța de sub text, apăsați <em>OK</em> și reporniți Tor.</p>
+    <h3 id="how-to-use-an-open-proxy">Cum sa folositi un open proxy.</h3>
+    <p>Dacă folosirea unui pod nu funcționează, încercați să configurați Tor să folosească orice HTTPS sau proxy-uri SOCKS pentru a avea acces la rețeaua Tor. Acest lucru înseamnă că  indiferent dacă Tor este blocat de rețeaua dumneavoastră locală, proxy-uri libere pot fi utilizate în siguranță pentru conectarea la rețeaua Tor și la Internetul necenzurat.</p>
+    <p>Pașii următori presupun că aveți o configurare Tor/Vidalia funcțională și ați găsit o listă de proxy-uri HTTPS, SOCKS4, sau SOCKS5 </p>
+    <ol style="list-style-type: decimal">
+      <li>Deschideți panoul de control din Vidalia, dați click pe <em>Settings</em>.</li>
+      <li>Dați click pe  <em>Network</em>. Selectați <em>I use a proxy to access the Internet</em>.</li>
+      <li>Pe linia <em>Address</em> introduceți adresa de proxy liber. Aceasta poate fi un hostname sau o adresă IP.</li>
+      <li>Introduceti portul pentru proxy.</li>
+      <li>În general, nu aveți nevoie de un nume de utilizator și parolă. Dacă este nevoie, introduceți informațiile în câmpurile corespunzătoare.</li>
+      <li>Selectati <em>genul</em> de proxy folosit - HTTP/HTTPS, SOCKS4 sau SOCKS5 </li>
+      <li>Apăsați butonul <em>OK</em>. Vidalia și Tor sunt acum configurate să folosească un proxy pentru a accesa restul de rețea Tor.</li>
+    </ol>
+    <h2 id="frequently-asked-questions">Intrebari frecvente</h2>
+    <p>Această secțiune va răspunde la întrebările frecvente. Dacă întrebarea dumneavoastră nu este menționată, trimiteți un email la help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Incapabil sa extrag arhiva</h3>
+    <p>Dacă folosiți Windwos și nu puteți să extrageți arhiva, descărcați și instalați <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Dacă nu puteți descărca 7-Zip, încercați să redenumiți fișierul de la .z la .zip și folosiți winzip pentru a extrage arhiva. Înainte de a redenumi fișierul, comunicați Windows-ului să afișeze extensiile fișierelor.</p>
+    <h4 id="windows-xp">Windows XP</h4>
+    <ol style="list-style-type: decimal">
+      <li>Deschide <em>My Computer</em></li>
+      <li>Click pe <em>Tools</em> si alege  <em>Folder Options...</em> din meniu</li>
+      <li>Click pe  <em>Vezi</em> tab</li>
+      <li>Deselectați <em>Hide extensions for known file types</em> și dați click pe <em>OK</em></li>
+    </ol>
+    <h4 id="windows-vista">Windows Vista</h4>
+    <ol style="list-style-type: decimal">
+      <li>Deschide <em>Computer</em></li>
+      <li>Dați click pe <em>Organize</em> și alegeți  <em>Folder and search options</em> din meniu</li>
+      <li>Click pe  <em>Vezi</em> tab</li>
+      <li>Deselectați <em>Hide extensions for known file types</em> și dați click pe <em>OK</em></li>
+    </ol>
+    <h4 id="windows-7">Windows 7</h4>
+    <ol style="list-style-type: decimal">
+      <li>Deschide <em>Computer</em></li>
+      <li>Dați click pe <em>Organize</em> și alegeți  <em>Folder and search options</em> din meniu</li>
+      <li>Click pe  <em>Vezi</em> tab</li>
+      <li>Deselectați <em>Hide extensions for known file types</em> și dați click pe <em>OK</em></li>
+    </ol>
+    <h3 id="vidalia-asks-for-a-password">Vidalia cere parolă</h3>
+    <p>Nu ar trebui să fiți nevoiți să introduceți o parolă atunci când porniți Vidalia. Dacă sunteți direcționați să introduceți una, sunteți cel mai probabil afectați de una din următoarele probleme:</p>
+    <p><strong> Vidalia și Tor sunt deja pornite </strong>: Spre exemplu, această situație poate apărea dacă ați instalat pachetul Vidalia și acum încercați să porniți Tor Browser Bundle. În acest caz, veți fi nevoiți să închideti vechiul Vidalia și Tor înainte să puteți să îl porniți pe acesta.</p>
+    <p><strong> Vidalia nu mai funcționează dar Tor continuă să funcționeze</strong>: Dacă dialogul ce vă direcționeză spre o parolă de control are un buton de reset, puteți da click pe acel buton, iar Vidalia va restarta Tor cu o nouă parolă de control aleatoare. Dacă nu există un buton de reset sau dacă Vidalia nu poate restarta Tor; intrați în process sau task manager-ul dumneavoastră și închideți procesul Tor. Apoi folosiți Vidalia pentru a restarta Tor.</p>
+    <p>Pentru mai multe informații, consultați secțiunea <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> de pe site-ul Tor Project.</p>
+    <h3 id="flash-does-not-work">Flash nu funcționează</h3>
+    <p>Din motive de securitate, Flash, Java, precum și alte plugin-uri sunt momentan dezactivate pentru Tor. Plugin-urile funcționează independent de Firefox și pot efectua  pe computerul dumneavoastră activități ce vă distrug anonimitatea.</p>
+    <p>Majoritatea clipurilor de pe YouTube funcționează cu HTML5 astfel că este posibilă vizionarea acestora prin Tor. Este nevoie să vă înscrieți în  <a href="https://www.youtube.com/html5">HTML5 trial</a> pe site-ul YouTube înainte de a putea folosi player-ul HTML5.</p>
+    <p>Trebuie să marcați faptul că browser-ul nu își va aminti că v-ați înscris la procesul respectiv de probă după ce l-ați închis, astfel că veți fi nevoiți să vă realăturați acestuia data viitoare când rulați Tor Broser Bundle.</p>
+    <p>Vă rugăm să consultați <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> pentru mai multe informații.</p>
+    <h3 id="i-want-to-use-another-browser">Vreau sa folosesc alt browser</h3>
+    <p>Din motive de securitate, vă recomandăm să navigați pe web prin Tor, folosind numai Tor Browser Bundle. Este posibil din punct de vedere tehnic să folosiți Tor cu alte browsere, însă facând acest lucru vă deschideți la potențiale atacuri. </p>
+    <h3 id="why-tor-is-slow">De ce Tor este lent</h3>
+    <p>Tor poate fi uneori mai lent decât conexiunea dumneavoastră normală de Internet. La urma urmelor, traficul dumneavoastră este trimis prin multe țări diferite, uneori peste oceane din jurul lumii!</p>
+  </body>
+</html>
