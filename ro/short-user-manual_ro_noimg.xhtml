@@ -70,50 +70,50 @@ Acum puteți naviga pe Internet prin Tor.</p>
     <p><strong>Ceasul sistemului dumneavoastră este închis</strong>: Asigurați-vă că data și timpul afișat de sistemul dumneavoastră sunt corecte și restartați Tor. Este posibil să fie nevoie să sincronizați ceasul sistemului dumneavoastră cu un server Internet de timp.</p>
     <p><strong> Vă aflați în spatele unui firewall restricționant</strong>: Pentru a comunica lui Tor să încerce doar porturile 80 si 443, deschideți panoul de control din Vidalia, dați click pe <em>Settings</em> și <em>Network</em>, și bifați căsuța cu mesajul <em>My firewall only lets me connect to certain ports</em>. </p>
     <p><strong> Programul dumneavoastră anti-virus blochează Tor</strong>: Asigurați-vă că programul dumneavoastră anti-virus nu împiedică Tor de la a face conexiuni în rețea.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
+    <p>Dacă Tor continuă să nu funcționeze, este posibil ca Internet Service Provider-ul(ISP-ul) dumneavoastră să blocheze Tor. Foarte des se poate ocoli acest lucru prin <strong>poduri Tor </strong>, relay-uri ascunse ce nu sunt atât de ușor de blocat.</p>
+    <p>Dacă aveți nevoie de ajutor pentru a afla de ce Tor nu se poate conecta, trimiteți un email la help@rt.torproject.org și includeți părțile relevante din fișierul de log.</p>
     <h3 id="how-to-find-a-bridge">Cum sa gasiti un pod.</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
-    <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
+    <p>Pentru a folosi un  pod veți avea în primul rând nevoie să localizați unul; puteți să căutați în  <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, sau puteți trimite un email la bridges@torproject.org. Daca trimiteți email, vă rugăm să vă asigurați că scrieți <strong>get bridges</strong> în câmpul de text din email. Fără acest mesaj nu veți primi un răspuns. Aveți în vedere faptul că acest email trebuie trimis de pe un cont de gmail.com sau de yahoo.com</p>
+    <p>Configurând mai mult de o adresă de pod vă va face Tor-ul mai stabil, în cazul în care unul din poduri devine de necontactat. Nu există nici o garanție că podul folosit de dumneavoastră astăzi va funcționa și mâine, astfel încât trebuie să vă faceți o obisnuință din a vă actualiza lista de poduri din când în când.</p>
     <h3 id="how-to-use-a-bridge">Cum sa folositi un pod.</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
+    <p>În clipa în care aveți un set de poduri pe care să le folosiți , deschideți panoul de control din Vidalia și dați click pe <em>Settings</em>, <em>Network</em> și bifați căsuța cu textul <em>My ISP blocks connections to the Tor network</em>. Introduceți podurile în casuța de sub text, apăsați <em>OK</em> și reporniți Tor.</p>
     <h3 id="how-to-use-an-open-proxy">Cum sa folositi un open proxy.</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <p>Dacă folosirea unui pod nu funcționează, încercați să configurați Tor să folosească orice HTTPS sau proxy-uri SOCKS pentru a avea acces la rețeaua Tor. Acest lucru înseamnă că  indiferent dacă Tor este blocat de rețeaua dumneavoastră locală, proxy-uri libere pot fi utilizate în siguranță pentru conectarea la rețeaua Tor și la Internetul necenzurat.</p>
+    <p>Pașii următori presupun că aveți o configurare Tor/Vidalia funcțională și ați găsit o listă de proxy-uri HTTPS, SOCKS4, sau SOCKS5 </p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
+      <li>Deschideți panoul de control din Vidalia, dați click pe <em>Settings</em>.</li>
+      <li>Dați click pe  <em>Network</em>. Selectați <em>I use a proxy to access the Internet</em>.</li>
+      <li>Pe linia <em>Address</em> introduceți adresa de proxy liber. Aceasta poate fi un hostname sau o adresă IP.</li>
       <li>Introduceti portul pentru proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
+      <li>În general, nu aveți nevoie de un nume de utilizator și parolă. Dacă este nevoie, introduceți informațiile în câmpurile corespunzătoare.</li>
       <li>Selectati <em>genul</em> de proxy folosit - HTTP/HTTPS, SOCKS4 sau SOCKS5 </li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Apăsați butonul <em>OK</em>. Vidalia și Tor sunt acum configurate să folosească un proxy pentru a accesa restul de rețea Tor.</li>
     </ol>
     <h2 id="frequently-asked-questions">Intrebari frecvente</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>Această secțiune va răspunde la întrebările frecvente. Dacă întrebarea dumneavoastră nu este menționată, trimiteți un email la help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">Incapabil sa extrag arhiva</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <p>Dacă folosiți Windwos și nu puteți să extrageți arhiva, descărcați și instalați <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Dacă nu puteți descărca 7-Zip, încercați să redenumiți fișierul de la .z la .zip și folosiți winzip pentru a extrage arhiva. Înainte de a redenumi fișierul, comunicați Windows-ului să afișeze extensiile fișierelor.</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
       <li>Deschide <em>My Computer</em></li>
       <li>Click pe <em>Tools</em> si alege  <em>Folder Options...</em> din meniu</li>
       <li>Click pe  <em>Vezi</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Deselectați <em>Hide extensions for known file types</em> și dați click pe <em>OK</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li>Deschide <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>Dați click pe <em>Organize</em> și alegeți  <em>Folder and search options</em> din meniu</li>
       <li>Click pe  <em>Vezi</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Deselectați <em>Hide extensions for known file types</em> și dați click pe <em>OK</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li>Deschide <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
+      <li>Dați click pe <em>Organize</em> și alegeți  <em>Folder and search options</em> din meniu</li>
       <li>Click pe  <em>Vezi</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Deselectați <em>Hide extensions for known file types</em> și dați click pe <em>OK</em></li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
     <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
