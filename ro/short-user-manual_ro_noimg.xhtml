@@ -8,19 +8,19 @@
     <p>Acest manual conține informații despre cum să descărcați Tor, cum să-l folosiți și ce să faceți dacă Tor nu se poate conecta la rețea. Dacă nu puteți găsi răspunsul la întrebarea dumneavoastră în acest document, trimiteți un email la help@rt.torproject.org</p>
     <p>Vă rugăm să luați în considerare faptul că noi oferim suport pe bază de voluntariat și primim multe email-uri în fiecare zi. Nu trebuie să vă îngrijorați dacă nu vă contactăm imediat.</p>
     <h2 id="how-tor-works">Cum funcționează Tor</h2>
-    <p>Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as <em>relays</em>) in the Tor network, before the traffic is sent out onto the public Internet.</p>
-    <p>The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.</p>
-    <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
-    <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
+    <p>Tor este o rețea de tuneluri virtuale ce vă permite să vă îmbunătățiți intimitatea și securitatea pe Internet. Tor funcționează prin trimiterea traficului dumneavoastră prin trei servere aleatorii ( cunoscute și ca  <em>relays</em>) în rețeaua Tor, înainte ca traficul să fie trimis în Internetul public.</p>
+    <p>Imaginea de deasupra ilustrează un utilizator navigând diferite site-uri prin Tor. Monitoarele verzi reprezintă relay-uri în rețeaua Tor, în timp ce cele trei chei reprezintă nivelele de criptare dintre utilizator și fiecare relay.</p>
+    <p>Tor va anonimiza originea traficului dumneavoastră și va cripta totul dintre dumneavoastră și rețeaua Tor. De asemenea, Tor vă va cripta traficul din cadrul rețelei Tor, însă nu vă va putea cripta traficul dintre rețeaua Tor și destinația sa finală.</p>
+    <p>Dacă comunicați informații sensibile, spre exemplu atunci când vă autentificați pe un site cu un nume de utilizator și parolă, asigurați-vă că folosiți HTTPS (ex. <strong>https</strong>://torproject.org/, nu <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Cum se descarcă Tor</h2>
-    <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
+    <p>Pachetul pe care îl recomandăm majorității utilizatorilor este <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. Acest pachet conține un browser preconfigurat pentru navigarea Internetului în siguranță prin Tor și nu necesită instalare. Descărcați pachetul, extrageți arhiva și porniți Tor.</p>
     <p>Există două moduri diferite prin care puteți intra în posesia software-ului Tor. Puteți naviga pe <a href="https://www.torproject.org/">site-ul Tor Project</a> de unde îl puteți descărca, sau puteți folosi GetTor, un program cu care se comunică prin email.</p>
     <h3 id="how-to-get-tor-via-email">Cum iau Tor prin email</h3>
-    <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
-    <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
+    <p>Pentru a primi varianta în limba engleză a Tor Browser Bundle pentru Windows, trimiteți un email la gettor@torproject.org cu mesajul <strong>windows</strong> în câmpul de text. Puteți lăsa zona de subiect albă.</p>
+    <p>Puteți, de asemenea, solicita Tor Browser Bundle pentru Mac OS X (scrieți <strong>macos-i386</strong>) și Linux (write <strong>linux-i386</strong> pentru sisteme 32-bit sau <strong>linux-x86_64</strong> pentru sisteme 64-bit ).</p>
     <p>Dacă doriți o versiune tradusă de Tor, scrieți <strong>help</strong>. Veți primi apoi un email cu instrucțiuni si o listă de limbi disponibile.</p>
     <p><strong>Notă</strong>: Pachetele Tor Browser pentru Linux și Mac OS X  au o mărime considerabilă, astfel încât nu veți putea primi aceste pachete cu un cont de Gmail, Hotmail sau Yahoo. Dacă nu puteți primi pachetele dorite, trimiteți un email la help@rt.torproject.org și vă vom trimite o lista cu site-uri ce conțin oglinzi pe care le puteți folosi.</p>
-    <h3 id="tor-for-smartphones">Tor for smartphones</h3>
+    <h3 id="tor-for-smartphones">Tor pentru smartphone-uri</h3>
     <p>Puteți avea Tor și pe device-ul dumneavoastră Android prin istalarea pachetului numit  <em>Orbot</em>. Pentru informații legate de descărcarea și instalarea pachetului Orbot vă rugăm consultați <a href="https://www.torproject.org/docs/android.html.en"> site-ul Tor Project</a>.</p>
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cum să verificați dacă aveți versiunea corectă</h3>
@@ -31,12 +31,12 @@
     <p>Vă rugăm să luați în considerare eventuala necesitate a editării căilor și comenzilor folosite mai jos, pentru a funcționa pe sistemul dumneavoastră.</p>
     <p>Erinn Clark semnează pachetele Tor Browser cu cheia 0x63FEE659. Pentru a importa cheia lui Erinn, rulați:</p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659⏎
 </code>
     </pre>
     <p>După ce ați importat cheia, verificați dacă amprenta este corectă:</p>
     <pre>
-      <code>gpg  --fingerprint 0x63FEE659
+      <code>gpg --fingerprint 0x63FEE659⏎
 </code>
     </pre>
     <p>Trebuie sa vezi:</p>
@@ -52,14 +52,15 @@ sub   2048R/EB399FD7 2003-10-16
     </pre>
     <p>Pentru a verifica semnătura pachetului descărcat, rulați următoarea comandă:</p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe⏎
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>După ce ați verificat semnătura și ați văzut output-ul <em>"Semnătură Bună"</em>, extrageți arhiva pachetului. Veți vedea un directoriu similar cu <strong>tor-browser_en-US</strong>. În acel directoriu există un alt directoriu numit <strong>Docs</strong>, care conține un fișier numit <strong>changelog</strong>. Trebuie să vă asigurați că numărul versiunii de pe prima linie din fișier este același cu numărul din denumirea pachetului.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <p>În output ar trebui să fie afișat  <em>"Good signature"</em>("Semnătură bună"). O semnătură proastă înseamnă posibilitatea ca fișierul să fi fost alterat. Dacă vedeți o semnătură proastă, trimiteți detalii referitoare la locația de unde ați descărcat pachetul, cum ați verificat semnătura, precum si output-ul de la GnuPG într-un email la help@rt.torproject.org. </p>
+    <p>După ce ați verificat semnătura și ați văzut output-ul <em>"Good signature"</em>("Semnătură Bună"), extrageți arhiva pachetului. Veți vedea un directoriu similar cu <strong>tor-browser_en-US</strong>. În acel directoriu există un alt directoriu numit <strong>Docs</strong>, care conține un fișier numit <strong>changelog</strong>. Trebuie să vă asigurați că numărul versiunii de pe prima linie din fișier este același cu numărul din denumirea pachetului.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Cum să folosiți Tor Browser Bundle</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
-    <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
+    <p>Când porniți Tor Browser Bundle, prima dată veți vedea Vitalia pornind și conectându-vă la rețeaua Tor. După aceea, veți vedea un browser confirmându-vă faptul că de acum folosiți Tor. Acest lucru este realizat prin afișarea <a href="https://check.torproject.org/">https://check.torproject.org/</a>. 
+Acum puteți naviga pe Internet prin Tor.</p>
     <p>
       <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
     </p>
