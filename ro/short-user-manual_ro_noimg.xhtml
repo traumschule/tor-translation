@@ -14,27 +14,27 @@
     <p>If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <strong>https</strong>://torproject.org/, not <strong>http</strong>://torproject.org/).</p>
     <h2 id="how-to-download-tor">Cum se descarcă Tor</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
-    <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
+    <p>Există două moduri diferite prin care puteți intra în posesia software-ului Tor. Puteți naviga pe <a href="https://www.torproject.org/">site-ul Tor Project</a> de unde îl puteți descărca, sau puteți folosi GetTor, un program cu care se comunică prin email.</p>
     <h3 id="how-to-get-tor-via-email">Cum iau Tor prin email</h3>
     <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
     <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
-    <p>If you want a translated version of Tor, write <strong>help</strong> instead. You will then receive an email with instructions and a list of available languages.</p>
-    <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
+    <p>Dacă doriți o versiune tradusă de Tor, scrieți <strong>help</strong>. Veți primi apoi un email cu instrucțiuni si o listă de limbi disponibile.</p>
+    <p><strong>Notă</strong>: Pachetele Tor Browser pentru Linux și Mac OS X  au o mărime considerabilă, astfel încât nu veți putea primi aceste pachete cu un cont de Gmail, Hotmail sau Yahoo. Dacă nu puteți primi pachetele dorite, trimiteți un email la help@rt.torproject.org și vă vom trimite o lista cu site-uri ce conțin oglinzi pe care le puteți folosi.</p>
     <h3 id="tor-for-smartphones">Tor for smartphones</h3>
-    <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
+    <p>Puteți avea Tor și pe device-ul dumneavoastră Android prin istalarea pachetului numit  <em>Orbot</em>. Pentru informații legate de descărcarea și instalarea pachetului Orbot vă rugăm consultați <a href="https://www.torproject.org/docs/android.html.en"> site-ul Tor Project</a>.</p>
     <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cum să verificați dacă aveți versiunea corectă</h3>
-    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>Înainte de a rula pachetul Tor Browser, vă rugăm să vă asigurați că aveți versiunea corectă.</p>
+    <p>Software-ul pe care îl veți primi este acompaniat de un fișier cu același nume precum pachetul și extensia <strong>.asc</strong>. Acest fișier .asc este o semnătură GPG care vă va permite să verificați că fișierul descărcat este exact acela pe care îl doreați.</p>
+    <p>Înainte de a putea verifica semnătura, va trebui să descărcați și instalați GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Vă rugăm să luați în considerare eventuala necesitate a editării căilor și comenzilor folosite mai jos, pentru a funcționa pe sistemul dumneavoastră.</p>
+    <p>Erinn Clark semnează pachetele Tor Browser cu cheia 0x63FEE659. Pentru a importa cheia lui Erinn, rulați:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>După ce ați importat cheia, verificați dacă amprenta este corectă:</p>
     <pre>
       <code>gpg  --fingerprint 0x63FEE659
 </code>
@@ -50,7 +50,7 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>Pentru a verifica semnătura pachetului descărcat, rulați următoarea comandă:</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
