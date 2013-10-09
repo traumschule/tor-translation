@@ -12,13 +12,13 @@
 <!ENTITY torSettings.configurePrompt2 "">
 <!ENTITY torSettings.configure "پیکربندی">
 <!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.connectPrompt2 "تمایل دارم مستقیما به شبکه‌ی تور متصل شوم.">
 <!ENTITY torSettings.connect "اتصال">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "آیا این رایانه برای اتصال به اینترنت نیاز به استفاده از پراکسی دارد؟">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
+<!ENTITY torSettings.enterProxy "تنظیمات پراکسی را وارد کنید.">
 <!ENTITY torSettings.firewallQuestion "">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
@@ -26,7 +26,7 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "در انتظار آغاز به کار تور...">
 <!ENTITY torsettings.restart "شروع دوباره">
 
 <!ENTITY torsettings.optional "اختیاری">
