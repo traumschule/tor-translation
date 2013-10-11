@@ -20,8 +20,8 @@
 <!ENTITY torSettings.proxyHelp "">
 <!ENTITY torSettings.enterProxy "">
 <!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
+<!ENTITY torSettings.firewallHelp "Ellet ole varma kuinka vastata tähän kysymykseen, valitse Ei. Muuta tätä asetusta jos yhteyden saamisessa Tor-verkkoon on ongelmia.">
+<!ENTITY torSettings.enterFirewall "Luettele pilkuin erotettuina ne portit, jotka palomuuri sallii. ">
 <!ENTITY torSettings.bridgeQuestion "">
 
 <!-- Other: -->
@@ -41,7 +41,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "Tämän tietokoneen palomuuri sallii yhteydet vain tiettyjen porttien kautta.">
 <!ENTITY torsettings.firewall.allowedPorts "Sallitut portit:">
 <!ENTITY torsettings.useBridges.checkbox "">
 <!ENTITY torsettings.useBridges.label "">
