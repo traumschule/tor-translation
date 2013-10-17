@@ -1,40 +1,40 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Tor網絡設定">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "在Tor瀏覽器套件嘗試連結到Tor網路之前，您需要提供關於此電腦的網路連結訊息。">
 
 <!ENTITY torSettings.yes "確定">
 <!ENTITY torSettings.no "取消">
 
-<!ENTITY torSettings.firstQuestion "">
+<!ENTITY torSettings.firstQuestion "下列哪項最能描述您的情況？">
 <!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
-<!ENTITY torSettings.connect "">
+<!ENTITY torSettings.configurePrompt2 "我需要設定網絡設定。">
+<!ENTITY torSettings.configure "設定">
+<!ENTITY torSettings.connectPrompt1 "此電腦的網路連結已越過障礙。">
+<!ENTITY torSettings.connectPrompt2 "我想直接連結到Tor網路。">
+<!ENTITY torSettings.connect "連結">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "這台電腦上是否需要使用代理服務器存取網際網路？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
+<!ENTITY torSettings.proxyHelp "若您無法確定如何回答這個問題，看看另一個瀏覽器的上網設定，看它是否被設定為使用代理服務器。">
+<!ENTITY torSettings.enterProxy "輸入代理服務器設定。">
+<!ENTITY torSettings.firewallQuestion "此計算機的網路連結是否通過一個防火牆，只允許某些端口的連結？">
 <!ENTITY torSettings.firewallHelp "">
 <!ENTITY torSettings.enterFirewall "">
 <!ENTITY torSettings.bridgeQuestion "">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "正在等待Tor的開始...">
 <!ENTITY torsettings.restart "">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "選項">
 
 <!ENTITY torsettings.useProxy.checkbox "">
 <!ENTITY torsettings.useProxy.type "">
 <!ENTITY torsettings.useProxy.address "地址:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "IP地址或主機名">
 <!ENTITY torsettings.useProxy.port "連接埠:">
 <!ENTITY torsettings.useProxy.username "用戶名">
 <!ENTITY torsettings.useProxy.password "密碼:">
@@ -43,13 +43,13 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "允許的連接埠 :">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)封鎖連結到Tor網絡">
 <!ENTITY torsettings.useBridges.label "">
 <!ENTITY torsettings.useBridges.placeholder "">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.copyLog "複製Tor記錄到剪貼簿">
+<!ENTITY torsettings.bridgeHelpTitle "橋接中繼說明">
 <!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
+<!ENTITY torsettings.bridgeHelp2 "要取得一些橋接中繼，請使用網路瀏覽器參訪以下頁面：https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "">
 <!ENTITY torsettings.bridgeHelp4 "">
