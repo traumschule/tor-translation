@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Tor Tarayıcı Setinin Tor ağına bağlanmasını denemeden önce bu bilgisayarın İnternet bağlantısı hakkında bilgi sağlamanız gerekiyor.">
 
 <!ENTITY torSettings.yes "Evet">
 <!ENTITY torSettings.no "Hayır">
@@ -45,11 +45,11 @@
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "adres:bağl.nokt. VEYA transport adres:bağl.nokt.">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Ayna Yardımı">
 <!ENTITY torsettings.bridgeHelp1 "Eğer Tor ağına bağlanamıyorsanız, İnternet Servis Sağlayıcınız (ISS) veya farklı bir aracı Tor'u engelliyor olabilir.&amp;#160; Genellikle, bu sorunun çözülebilmesi için engellenmeleri daha zor, gizli aynalar olan Tor Köprüleri kullanabilirsiniz.">
 <!ENTITY torsettings.bridgeHelp2 "">
-<!ENTITY torsettings.bridgeHelp3 "">
+<!ENTITY torsettings.bridgeHelp3 "Herkese açık köprü adreslerini bulmanın bir diğer yolu da bridges@torproject.org adresine, iletinin gövdesinde sadece 'get bridges' satırını yazarak bir e-posta göndermektir.&amp;#160; Ancak, bir saldırganın çok sayıda köprü adresi öğrenmesini zorlaştırmak için bu talebi şu alan adlarının birinden alınmış e-posta ile yollamalısınız: gmail.com veya yahoo.com">
 <!ENTITY torsettings.bridgeHelp4 "">
