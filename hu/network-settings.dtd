@@ -18,9 +18,9 @@
 <!ENTITY torSettings.proxyQuestion "">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
+<!ENTITY torSettings.enterProxy "Adja meg a proxy beállításokat.">
+<!ENTITY torSettings.firewallQuestion "Ezen számítógép internet kapcsolata tűzfalon halad át, mely csak bizonyos portokhoz enged csatlakozni?">
+<!ENTITY torSettings.firewallHelp "Nem biztos abban, hogy hogyan válaszoljon erre a kérdésre, válassza a 'Nem'-et. Ha problémákba ütközik a Tor hálózathoz való csatlakozáskor, változtassa meg ezt a beállítást.">
 <!ENTITY torSettings.enterFirewall "">
 <!ENTITY torSettings.bridgeQuestion "">
 
@@ -43,9 +43,9 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "">
 <!ENTITY torsettings.firewall.allowedPorts "Engedélyezett portok:">
-<!ENTITY torsettings.useBridges.checkbox "">
+<!ENTITY torsettings.useBridges.checkbox "Az internet szolgáltatóm (ISP) blokkolja a Tor hálózathoz való csatlakozásokat">
 <!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.placeholder "cím:port VAGY átviteli cím:port">
 
 <!ENTITY torsettings.copyLog "A Tor log Vágólapra másolása">
 <!ENTITY torsettings.bridgeHelpTitle "Híd kapcsoló súgó">
