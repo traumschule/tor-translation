@@ -72,23 +72,23 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Ak Tor stále nefunguje, je možné, že Váš Internetový provider (ISP) blokuje Tor. Veľmi často sa to dá obísť s <strong>Mostmi Tor</strong>, skrytými relé ktoré sa neblokujú tak ľahko.</p>
     <p>Ak potrebujete pomôcť prísť na to, prečo sa Tor nepripojí, pošlite email na help@rt.torproject.org a priložte dôležité časti z logu.</p>
     <h3 id="how-to-find-a-bridge">Ako nájsť most</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
-    <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
+    <p>Aby ste mohli používať premostenie, musíte najskôr nejaké lokalizovať; môžete prejsť na <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, alebo môžete poslať email na bridges@torproject.org. Ak pošlete email, prosím uistite sa, že do predmetu správy napíšete <strong>get bridges</strong>, inak nedostanete odpoveď. Berte prosím na vedomie, že tento email musíte poslať z adresy gmail.com, alebo yahoo.com.</p>
+    <p>Nastavením viacerých premostení bude Vaše Tor pripojenie stabilnejšie v prípade, že sa niektoré premostenia stanú nedostupnými. Neexistuje žiadna istota, že premostenie, ktoré teraz používate, bude fungovať aj zajtra, takže by ste si mali osvojiť návyk pravidelne aktualizovať Váš zoznam mostov.</p>
     <h3 id="how-to-use-a-bridge">Ako používať premostenie</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
+    <p>Keď získate niekoľko premostení, otvorte ovládací panel Vidalia, kliknite na <em>Nastavenia</em>, <em>Sieť</em> a zaškrtnite políčko s textom <em>Môj ISP blokuje pripojenie k sieti Tor</em>. Vložte premostenia do poľa nižšie, potvrďte <em>OK</em> a spustite Tor znova.</p>
     <h3 id="how-to-use-an-open-proxy">Ako požívať otvorenú proxy</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <p>Ak použitie premostenia nefunguje, pokúste sa nastaviť Tor na používanie akéhokoľvek HTTPS alebo SOCKS proxy, aby ste získali prístup do siete Tor. To znamená, že aj keď je Tor blokovaný vašou lokálnou sieťou, budete môcť bezpečne používať otvorený proxy na pripojenie do siete Tor a necenzurovaný internet.</p>
+    <p>Nasledujúci postup postup predpokladá, že máte funkčnú Tor/Vidalia konfiguráciu a že ste našli zoznam HTTPS, SOCKS4, alebo SOCKS5 proxin.</p>
     <ol style="list-style-type: decimal">
       <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
       <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
       <li>Vložte port pre proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
+      <li>Zvyčajne nie je potrebné zadávať užívateľské meno a heslo. Ak áno, vyplňte tieto údaje.</li>
       <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+    <h2 id="frequently-asked-questions">Často kladené otázky</h2>
     <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
     <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
