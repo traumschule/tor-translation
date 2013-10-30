@@ -22,12 +22,12 @@
 <!ENTITY torSettings.firewallQuestion "Používa Internetové pripojenie tohto počítača bránu firewall, ktorá povoľuje pripojenia len na niektoré porty?">
 <!ENTITY torSettings.firewallHelp "Ak si nieste istý ako odpovedať na túto otázku, zvoľte Nie. Ak narazíte na problémy s pripojením do siete Tor, zmeňte toto nastavenie.">
 <!ENTITY torSettings.enterFirewall "Vložte zoznam portov oddelený čiarkou, ktoré sú povolené firewallom.">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.bridgeQuestion "Ak je internetové spojenie tohto počítača cenzurované, budete musieť získať a použiť relé premostení.&amp;#160; Ak nie je, jednoducho kliknite na Pripojiť.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čakám kým sa Tor spustí...">
-<!ENTITY torsettings.restart "">
+<!ENTITY torsettings.restart "Reštart">
 
 <!ENTITY torsettings.optional "Voliteľné">
 
@@ -44,12 +44,12 @@
 <!ENTITY torsettings.firewall.checkbox "Tento počítač ide cez firewall, ktorý povoľuje iba niektoré porty">
 <!ENTITY torsettings.firewall.allowedPorts "Povolené porty:">
 <!ENTITY torsettings.useBridges.checkbox "Môj Internetový provider (ISP) blokuje pripojenia do siete Tor">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Vložte jedno alebo viacero relé premostení (každé do nového riadka).">
+<!ENTITY torsettings.useBridges.placeholder "address:port ALEBO transport address:port">
 
 <!ENTITY torsettings.copyLog "Skopírovať záznam Tor do schránky clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "">
+<!ENTITY torsettings.bridgeHelpTitle "Nápoveda o relé premosteniach">
 <!ENTITY torsettings.bridgeHelp1 "Ak nieste schopný pripojiť sa do siete Tor, môže to znamenať, že Váš Internetový provider (ISP) alebo iná agentúra blokuje Tor. &amp;#160; Tento problém sa dá často vyriešiť používaním Tor Bridges, čo sú skryté relé ktoré sa oveľa ťažšie blokujú.">
-<!ENTITY torsettings.bridgeHelp2 "">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelp2 "Pre získanie relé premostení navštívte stránku https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "Iným spôsobom ako nájsť verejné adresy prepojení je poslať email na bridges@torproject.org s textom 'get bridges' v tele správy.&amp;#160; Avšak, aby sa prípadnému útočníkovi znemožnilo ľahko získať množstvo takýchto adries, musíte svoju správu s požiadavkou poslať z emailovej adresy jednej z týchto domén: gmail.com alebo yahoo.com">
+<!ENTITY torsettings.bridgeHelp4 "Tiež môžete poslať požiadavku na adresy relé premostení na help@rt.torproject.org.">
