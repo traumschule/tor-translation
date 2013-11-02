@@ -50,20 +50,21 @@ sub   2048R/EB399FD7 2003-10-16
     </pre>
     <p>Para verificar la firma del paquete que ha descargado, ejecute el siguiente comando:</p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe</code>
+      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+</code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <p>La salida debería decir <em> "Firma correcta"</em>. Una firma mala significa que el archivo ha sido manipulado. Si usted ve una mala firma, envíe detalles de dónde has descargado el paquete, cómo verificó la firma y la salida de GnuPG en un correo electrónico a help@rt.torproject.org.</p>
+    <p>Una vez que haya verificado la firma y el observado la salida<em>"Firma correcta" </em>, seguir adelante y extraer el paquete del archivo. A continuación, debería ver un directorio similar a <strong>tor-browser_es-ES</strong>. Dentro del directorio hay otro directorio llamado <strong>Docs</strong>, que contiene un archivo llamado <strong>changelog</strong>. Usted debe asegurarse que el número de versión en la primera línea del fichero de cambios coincide con el número de versión en el nombre del archivo.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Cómo usar el paquete navegador Tor</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
-    <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
+    <p>Al iniciar el paquete navegador Tor, primero verá el arrranque de Vidalia y cómo se conects a la red Tor. Después de eso, usted verá un navegador confirmando que ahora está usando Tor. Esto se realiza mediante la visualización de <a href="https://check.torproject.org/"> https://check.torproject.org/</a>. Ahora puede navegar por Internet a través de Tor.</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>Por favor, tenga en cuenta que es importante que utilice el navegador que viene con el paquete, y no su propio navegador.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
-    <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
+    <h3 id="what-to-do-when-tor-does-not-connect">¿Qué hacer cuando Tor no se conecta?</h3>
+    <p>Algunos usuarios se darán cuenta de que Vidalia se queda bloqueado al intentar conectarse a la red Tor. Si esto ocurre, asegúrese de que está conectado a Internet. Si necesita conectarse a un servidor proxy, consulte <em>Cómo utilizar un proxy abierto</em> a continuación.</p>
+    <p>Si su conexión normal a Internet funciona, pero Tor aún no puede conectarse a la red, intente lo siguiente, abrir el panel de control Vidalia, haga clic en <em> Registro de mensajes </em> y seleccione la pestaña<em>Avanzado</em>. Puede  que Tor no se conecta porque:</p>
+    <p><strong> el reloj del sistema está apagado </strong>: Asegúrese de que la fecha y hora del sistema sean correctas, y reinicie Tor. Puede que tenga que sincronizar el reloj del sistema con un servidor horario de Internet.</p>
     <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
     <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
     <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
