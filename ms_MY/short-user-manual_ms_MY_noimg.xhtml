@@ -22,12 +22,12 @@
     <p><strong>Nota</strong>: Tor Browser Bundles untuk Linux dan Mac OS X adalah bersaiz besar, kamu tidak akan menerima apa-apa bundles tersebut melalui akaun Gmail, Hotmail atau Yahoo. Jika kamu tidak boleh menerima bundle yang kamu mahukan, hantar email kepada help@rt.torproject.org dan kami akan memberikan senarai website mirror lain untuk digunakan.</p>
     <h3 id="tor-for-smartphones">Tor untuk telefon pintar</h3>
     <p>Anda boleh mendapatkan Tor pada peranti Android anda dengan memasang pakej yang dinamakan <em>Orbot</em>. Untuk maklumat mengenai bagaimana untuk memuat turun dan memasang Orbot, sila lihat <a href="https://www.torproject.org/docs/android.html.en">Tor laman web Projek</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>Kami juga mempunyai pakej percubaan untuk <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> dan <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Bagaimana hendak memastikan anda mempunyai versi yang betu</h3>
     <p>Sebelum memulakan Tor Browser Bundle, anda harus memastikan bahawa versi yang anda guna ialah tepat.</p>
-    <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
+    <p>Perisian yang anda terima akan didatangan dengan fail yang namanya sama dengan bundle dan mempunyai extension <strong>.asc</strong>. Fail .asc ialah tandantangan GPG, dan akan membenarkan anda mengesahkan fail yang anda muat turun sama dengan fail yang kami bertujuan untuk anda mendapatkannya.</p>
     <p>Sebelum anda boleh mengesahkan tandatangan, anda perlu memuat turun dan memasang GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Kebanyakkan pengagihan (distro) Linux sudah didatangan bersama dengan GnuPG.</p>
     <p>Sila ambil perhatian bahawa anda mungkin perlu untuk mengedit laluan dan arahan yang digunakan di bawah untuk mendapatkan ia berfungsi pada sistem anda.</p>
     <p>Erinn Clark menandatangani Tor Browser Bundles dengan kekunci 0x63FEE659. Untuk mengimport kunci Erinn ini, jalankan:</p>
     <pre>
@@ -41,13 +41,13 @@
     </pre>
     <p>Anda akan dapat melihat:</p>
     <pre>
-      <code>pub   2048R/63FEE659 2003-10-16
-      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
-uid                  Erinn Clark &lt;erinn@torproject.org&gt;
-uid                  Erinn Clark &lt;erinn@debian.org&gt;
+      <code>pub 2048R/63FEE659 2003-10-16
+Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659
+uid Erinn Clark &lt;erinn@torproject.org&gt;
+uid Erinn Clark &lt;erinn@debian.org&gt;
 
-uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
-sub   2048R/EB399FD7 2003-10-16
+uid Erinn Clark &lt;erinn@double-helix.org&gt;
+sub 2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>Untuk mengesahkan tandatangan pakej yang anda muat turun, jalankan arahan berikut:</p>
@@ -58,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Output akan menyatakan <em>"Good signature"</em>. A tandatangan buruk bermakna bahawa data fail itu mungkin telah diganggu. Jika anda melihat tandatangan yang tidak betul, hantar maklumat tentang di mana anda memuat turun pakej itu, bagaimana anda sahkan tandatangan, dan output dari GnuPG kedalam e-mel kepada help@rt.torproject.org.</p>
     <p>Sebaik sahaja anda telah sahkan tandatangan dan melihat output <em>"Good signature"</em>, pergi ke hadapan dan nyahmampatkan pakej arkib. Anda akan dapat melihat direktori yang sama dengan <strong>tor-browser_en-US</strong>. Di dalam direktori itu, terdapat direktori lain yang dipanggil <strong>Docs</strong>, yang mengandungi fail yang dipanggil <strong>changelog</strong>. Anda akan mahu memastikan bahawa nombor versi pada baris atas fail Changelog sepadan dengan nombor versi pada nama fail.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Bagaimana hendak menggunakan Tor Browser Bundle</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Selepas memuat turun Tor Browser Bundle dan menyahmampat pakej itu, anda akan dapat melihat direktori dan beberapa fail yang terdapa di dalamnya. Salah satunya ialah fail yang bernama "Start Tor Browser" (atau "start-tor-browser", bergantung kepada operasi sistem anda).</p>
     <p>Apabila kamu memulakan Tor Browser Bundle, pertama, Vidalia akan dijalankan dan akan menghubungkan kamu dengan rangkaian Tor. Selepas itu, kamu akan dapat melihat pelayar kamu mengesahkan bahawa kamu sedang menggunakan Tor. Ini dapat dilakukan dengan melayari <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Kamu sekarang telah dapat untuk melayari Internet melalui Tor.</p>
     <p>
       <em>Penting! Sila pastikan pelayar yang anda guna didatangi bersama-sama dengan Tor Browser Bundle, bukan pelayar anda sendiri.</em>
@@ -81,52 +81,52 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Langkah-langkah di bawah menganggap bahawa anda mempunyai tetapan Tor/Vidalia yang berfungsi, dan juga akan sudah menjumpai senarai proksi HTTPS, SOCK4 atau SOCKS5.</p>
     <ol style="list-style-type: decimal">
       <li>Buka tetapan Vidalia, klik pada <em>Tetapan</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Klik <em>Rangkaian</em>. Pilih <em>Saya mahu menggunakan proksi bagi mengakses Internet</em>.</li>
+      <li>Pada line <em>Alamat</em>, masukkan alamat proksi. Alamat IP atau alamat host dibenarkan.</li>
+      <li>Masukkan port proksi.</li>
+      <li>Secara umumnya, anda tidak memerlukan nama pengguna dan kata laluan. Jika maklumat itu diperlukan, masukkan ke dalam kotak dengan betul.</li>
+      <li>Pilih <em>Jenis</em> prosk yang anda gunakan, samada HTTP/HTTPS, SOCKS4, atau SOCKS5.</li>
+      <li>Klik pada butang <em>OK</em>. Vidalia dan Tor sudah dikonfigurasi supaya menggunakan proksi bagi berhubung dengan rangkaian Tor.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
-    <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <h2 id="frequently-asked-questions">Soalan Lazim</h2>
+    <p>Seksyen ini akan menjawab beberapa soalan yang lazim ditanya. Jika soalan anda tidak disebut di sini, sila hantar e-mel kepada help@rt.torproject.org.</p>
+    <h3 id="unable-to-extract-the-archive">Tidak dapat menyahmampat arkib.</h3>
+    <p>Jika anda menggunakan Windows dan mendapati anda tidak dapat menyahmampat arkib, muat turun dan pasang <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Jika anda tidak dapat memuat turun 7-Zip, cuba menamakan semua fail itu daripada .z ke .zip dan guna winzip bagi menyahmampat arkib tersebut. Sebelum menamakan semual fail itu, tetapkan Windows anda supaya membuat fail extension:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Buka <em>My Computer</em></li>
+      <li>Klik pada <em>Tools</em> dan pilih <em>Folder Options...</em> didalam menu</li>
+      <li>Klik pada tab <em>View</em></li>
+      <li>Padam tanda pada <em>Hide extensions for known file types</em> dan klik <em>OK</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Buka <em>My Computer</em></li>
+      <li>Klik pada <em>Organize</em> dan pilih <em>Folder and search options</em> di menu</li>
+      <li>Klik pada tab <em>View</em></li>
+      <li>Padam tanda pada <em>Hide extensions for known file types</em> dan klik <em>OK</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Buka <em>My Computer</em></li>
+      <li>Klik pada <em>Organize</em> dan pilih <em>Folder and search options</em> di menu</li>
+      <li>Klik pada tab <em>View</em></li>
+      <li>Padam tanda pada <em>Hide extensions for known file types</em> dan klik <em>OK</em></li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
-    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
+    <h3 id="vidalia-asks-for-a-password">Vidalia akan meminta kata laluan</h3>
+    <p>Anda tidak perlu untuk memasukkan kata laluan semasa memulakan Vidalia. Jika anda dikehendaki memasukkannya, anda mungkin menghadapi masalah ini:</p>
+    <p><strong>Anda sudah menjalakan Vidalia dan Tor</strong>: Sebagai contoh, kes ini boleh berlaku apabila anda sudah memasang Vidalia bundle dan sekarang anda mahu menjalankan Tor Browser Bundle. Jika anda di dalam kes ini, anda harus menutup Vidalia dan Tor yang lama sebelum menjalankan yang baru.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
-    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
-    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Untuk informasi lanjut, lihat <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> dalam laman web Projek Tor.</p>
+    <h3 id="flash-does-not-work">Flash tidak berfungsi</h3>
+    <p>Untuk tujuan keselamatan, Flash, Java dan plugin yang lain telah dimatikan dalam Tor. Plugin tidak beroperasi dengan Firefox dan boleh menjalankan aktiviti yang mengganggu keselamatan anda.</p>
+    <p>Kebanyakkan video di Youtube sudah menyokong HTML5, jadi masih lagi tidak mustahil untuk menonton video menggunakan Tor. Anda harus serta dalam <a href="https://www.youtube.com/html5">cubaan HTML5</a> didalam laman web Yotube sebelum boleh menonton video menggunakan HTML5.</p>
+    <p>Sila ambil perhatian bahawa pelayar tidak akan mengingati bahawa anda menyertai HTML5 itu selepas anda menutup pelayar Firefox, jadi anda harus serta semula dalam cubaan HTML5 itu setiap kali anda menjalankan Tor Browser Bundle</p>
+    <p>Sila lihat pada <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> untuk informasi lebih lanjut.</p>
+    <h3 id="i-want-to-use-another-browser">Saya mahu menggunakan pelayar lain</h3>
+    <p>Untuk tujuan keselamatan, kami menggalakkan anda hanya menggunakan pelayar yang disertakan di dalam Tor Browser Bundlee. Secara teknikalnya, tidak mustahil anda mahu menggunakan Tor dengan pelayar lain. Tetapi dengan melakukan perkara itu, anda mungkin terdedah dengan serangan keselamatan lain.</p>
+    <h3 id="why-tor-is-slow">Mengapa Tor perlahan</h3>
+    <p>Tor kadang kala lebih perlahan daripada sambungan Internet biasa anda. Ini disebabkan sambungan anda dihantar dari negara ke negara, merentasi lautan di seluruh dunia!</p>
   </body>
 </html>
