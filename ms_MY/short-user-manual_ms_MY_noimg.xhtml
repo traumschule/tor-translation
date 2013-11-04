@@ -63,24 +63,24 @@ sub   2048R/EB399FD7 2003-10-16
     <p>
       <em>Penting! Sila pastikan pelayar yang anda guna didatangi bersama-sama dengan Tor Browser Bundle, bukan pelayar anda sendiri.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
-    <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
-    <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
-    <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
-    <p><strong>You are behind a restrictive firewall</strong>: To tell Tor to only try port 80 and port 443, open the Vidalia control panel, click on <em>Settings</em> and <em>Network</em>, and tick the box that says <em>My firewall only lets me connect to certain ports</em>.</p>
-    <p><strong>Your anti-virus program is blocking Tor</strong>: Make sure that your anti-virus program is not preventing Tor from making network connections.</p>
-    <p>If Tor still doesn't work, it's likely that your Internet Service Provider (ISP) is blocking Tor. Very often this can be worked around with <strong>Tor bridges</strong>, hidden relays that aren't as easy to block.</p>
-    <p>If you need help with figuring out why Tor can't connect, send an email to help@rt.torproject.org and include the relevant parts from the log file.</p>
-    <h3 id="how-to-find-a-bridge">How to find a bridge</h3>
-    <p>To use a bridge, you will first have to locate one; you can either browse to <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, or you can send an email to bridges@torproject.org. If you do send an email, please make sure that you write <strong>get bridges</strong> in the body of the email. Without this, you will not get a reply. Note that you need to send this email from either a gmail.com or a yahoo.com address.</p>
-    <p>Configuring more than one bridge address will make your Tor connection more stable, in case some of the bridges become unreachable. There is no guarantee that the bridge you are using now will work tomorrow, so you should make a habit of updating your list of bridges every so often.</p>
-    <h3 id="how-to-use-a-bridge">How to use a bridge</h3>
-    <p>Once you have a set of bridges to use, open the Vidalia control panel, click on <em>Settings</em>, <em>Network</em> and tick the box that says <em>My ISP blocks connections to the Tor network</em>. Enter the bridges in the box below, hit <em>OK</em> and start Tor again.</p>
-    <h3 id="how-to-use-an-open-proxy">How to use an open proxy</h3>
-    <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
-    <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Apa yang patut dilakukan apabila Tor tidak dapat menghubungi rangkaiannya</h3>
+    <p>Sesetengah pengguna akan dapat mengesan bahawa Vidalia akan berheti apabila cuba untuk menghubungi rangkaian Tor. Jika perkara ini berlaku, pastikan bahawa anda pada masa itu sudah mempunyai rangkaian Internet. Jika anda perlu untuk menggunakan pelayan proksi, lihat <em>Bagaimana hendak menggunakan proksi</em> dibawah.</p>
+    <p>Jika internet anda berfungsi, tapi Tor masih lagi tidak dapat berhubung dengan rangkaiannya, cuba langkah berikut; buka tetapan Vidalia, klik pada <em>Message Log</em> dan pilih tab <em>Advanced</em>. Mungkin Tor tidak dapat berhubung dengan rangkaian kerana:</p>
+    <p><strong>Jam sistem anda ditutup</strong>: Sila pastikan tarikh dan masa pada sistem anda itu betul, kemudian memulakan semula Tor. Anda mungkin harus menyelaras jam sistem anda menggunakan pelayan masa Internet (Internet time server).</p>
+    <p><strong>Jika anda berada disebalik firewall yang ketat</strong>: Untuk memberitahu Tor bahawa mencuba pada port 80 atau port 443, buka tetapan Vidalia, klik pada <em>Tetapan</em> dan <em>Rangkaian</em>, tik pada box yang mengatakan <em>Firewall saya hanya membenarkan saya berhubung menggunakan port tertentu</em>.</p>
+    <p><strong>Aplikasi anti-virus anda menghalang Tor</strong>: Sila pastikan bawah aplikasi anti-virus tidak menghalang Tor daripada membuat sambungan ke rangkaian Tor.</p>
+    <p>Jika Tor masih lagi tidak berfungsi, ini mungkin kerana pengedar internet anda (Internet Service Provider) menyekat Tor. Jika kes ini berlaku, anda boleh memintas sekatan itu menggunakan <strong>Tor bridges</strong>, iaitu relays tersembunyi yang sukar untuk disekat.</p>
+    <p>Jika anda tidak dapat mengesan permasalah Tor anda, sila hantar e-mail kepada help@rt.torproject.org dan pastikan anda memasukkan sekali kandungan yang berkaitan dengan masalah anda daripada fail log.</p>
+    <h3 id="how-to-find-a-bridge">Bagaimana hendak mencari bridge</h3>
+    <p>Untuk menggunakan bridge, akan harus mendapatkannya dahulu; anda boleh melayari <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, akan anda juga boleh menghantar e-mail kepada bridges@torproject.org. Jika anda mahu menghantar email, pastikan anda tulis <strong>get bridges</strong> di dalam badan e-mail itu. Jika anda tidak menulis perkataan itu, anda tidak akan dapat balasan e-mail kembali. Sila ambil perhatian bahawa anda cuma boleh hantar e-mail ini daripada gmail.com atau dari yahoo.com sahaja.</p>
+    <p>Mengkonfigurasi lebih daripada satu alamat bridge akan memastikan sambungan Tor anda lebih stabil, dalam sesetengah kes sambungan bridges mungkin tidak akan dapat dicapai. Tiada jaminan bahawa bridge yang anda guna sekarang akan berfungsi semula pada keesokan harinya, jadi anda perlu untuk mengemaskini secara kerap untuk mendapatkan bridges yang baru.</p>
+    <h3 id="how-to-use-a-bridge">Bagaimana hendak menggunakan bridge</h3>
+    <p>Jika ada sudah mempunyai set bridges untuk digunakan, buka tetapan Vidalia, klik pada <em>Tetapan</em>, <em>Rangkaian</em> dan tik pada kotak yang mengatakan <em>ISP saya menyekat sambungan ke rangkaian Tor</em>. Masukkan bridges anda di kotak itu, dan kemudian klik <em>OK</em> dan memulakan Tor semula.</p>
+    <h3 id="how-to-use-an-open-proxy">Bagaimana hendak menggunakan proksi</h3>
+    <p>Jika bridge tidak berfungsi, cuba untuk mengkonfigurasi Tor anda untuk menggunakan HTTPS atau SOCKS proxy untuk mendapatkan akses ke rangkaian Tor. Ini bermakna, walaupun Tor disekat di rangkaian anda, proksi dapat digunakan dengan selamat bagi berhubung ke rangkaian Tor dan didalam rangkaian internet yang ditapis.</p>
+    <p>Langkah-langkah di bawah menganggap bahawa anda mempunyai tetapan Tor/Vidalia yang berfungsi, dan juga akan sudah menjumpai senarai proksi HTTPS, SOCK4 atau SOCKS5.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
+      <li>Buka tetapan Vidalia, klik pada <em>Tetapan</em>.</li>
       <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
       <li>Enter the port for the proxy.</li>
