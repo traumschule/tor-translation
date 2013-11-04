@@ -26,20 +26,20 @@
     <h3 id="how-to-verify-that-you-have-the-right-version">Bagaimana hendak memastikan anda mempunyai versi yang betu</h3>
     <p>Sebelum memulakan Tor Browser Bundle, anda harus memastikan bahawa versi yang anda guna ialah tepat.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>Sebelum anda boleh mengesahkan tandatangan, anda perlu memuat turun dan memasang GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Sila ambil perhatian bahawa anda mungkin perlu untuk mengedit laluan dan arahan yang digunakan di bawah untuk mendapatkan ia berfungsi pada sistem anda.</p>
+    <p>Erinn Clark menandatangani Tor Browser Bundles dengan kekunci 0x63FEE659. Untuk mengimport kunci Erinn ini, jalankan:</p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>Selepas mengimport kunci, pastikan bahawa pengesahan yang betul:</p>
     <pre>
-      <code>gpg  --fingerprint 0x63FEE659
+      <code>gpg --fingerprint 0x63FEE659
 </code>
     </pre>
-    <p>You should see:</p>
+    <p>Anda akan dapat melihat:</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
@@ -50,18 +50,18 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>Untuk mengesahkan tandatangan pakej yang anda muat turun, jalankan arahan berikut:</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">How to use the Tor Browser Bundle</h3>
+    <p>Output akan menyatakan <em>"Good signature"</em>. A tandatangan buruk bermakna bahawa data fail itu mungkin telah diganggu. Jika anda melihat tandatangan yang tidak betul, hantar maklumat tentang di mana anda memuat turun pakej itu, bagaimana anda sahkan tandatangan, dan output dari GnuPG kedalam e-mel kepada help@rt.torproject.org.</p>
+    <p>Sebaik sahaja anda telah sahkan tandatangan dan melihat output <em>"Good signature"</em>, pergi ke hadapan dan nyahmampatkan pakej arkib. Anda akan dapat melihat direktori yang sama dengan <strong>tor-browser_en-US</strong>. Di dalam direktori itu, terdapat direktori lain yang dipanggil <strong>Docs</strong>, yang mengandungi fail yang dipanggil <strong>changelog</strong>. Anda akan mahu memastikan bahawa nombor versi pada baris atas fail Changelog sepadan dengan nombor versi pada nama fail.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Bagaimana hendak menggunakan Tor Browser Bundle</h3>
     <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
-    <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
+    <p>Apabila kamu memulakan Tor Browser Bundle, pertama, Vidalia akan dijalankan dan akan menghubungkan kamu dengan rangkaian Tor. Selepas itu, kamu akan dapat melihat pelayar kamu mengesahkan bahawa kamu sedang menggunakan Tor. Ini dapat dilakukan dengan melayari <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Kamu sekarang telah dapat untuk melayari Internet melalui Tor.</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>Penting! Sila pastikan pelayar yang anda guna didatangi bersama-sama dengan Tor Browser Bundle, bukan pelayar anda sendiri.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
     <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
