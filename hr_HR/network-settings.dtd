@@ -44,8 +44,8 @@
 <!ENTITY torsettings.firewall.checkbox "Ovo računalo je iza vatrozida koji dopušta spajanje samo na određene portove">
 <!ENTITY torsettings.firewall.allowedPorts "Dozvoljeni portovi:">
 <!ENTITY torsettings.useBridges.checkbox "Moj pružatelj internetskih usluga (ISP) blokira veze prema Tor mreži">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Unesite jedan ili više mostova (jedan po retku).">
+<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
 <!ENTITY torsettings.copyLog "Kopiraj Tor zapisnik u međuspremnik">
 <!ENTITY torsettings.bridgeHelpTitle "Pomoć za bridge relej">
