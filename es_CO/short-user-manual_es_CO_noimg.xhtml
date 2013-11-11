@@ -22,12 +22,12 @@
     <p><strong>Nota</strong>: Los paquetes Tor Browser para Linux y Mac OS X son bastante grandes, y usted no podrá recibir cualquiera de estos paquetes con una cuenta de Gmail, Hotmail o Yahoo. Si usted no puede recibir el paquete que desea, envíe un correo electrónico a help@rt.torproject.org y se le dará una lista de los servidores web para su uso.</p>
     <h3 id="tor-for-smartphones">Tor para smartphones</h3>
     <p>Usted puede tener Tor en su dispositivo Android mediante la instalación del paquete llamado <em>Orbot </em>. Para obtener información acerca de cómo descargar e instalar Orbot, consulte el <a href="https://www.torproject.org/docs/android.html.en"> sitio web del Proyecto Tor </a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>También tenemos paquetes experimentales para <a ref="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cómo comprobar que tiene la versión correcta</h3>
     <p>Antes de ejecutar el paquete navegador Tor, usted debe asegurarse que tiene la versión correcta.</p>
     <p>El programa que usted recibe está acompañado por un archivo con el mismo nombre que el paquete y la extensión <strong>.asc</strong>. Este archivo asc. Es una firma GPG y le permitirá verificar si el archivo que ha descargado es exactamente lo que pretendíamos que obtuviera.</p>
     <p>Antes de poder verificar la firma, tendrá que descargar e instalar GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La mayoría de distribuciones de Linux vienen con GnuPG preinstalado.</p>
     <p>Tenga en cuenta que puede que tenga que modificar las rutas y los comandos que se utilizan a continuación para conseguir que funcione en el sistema.</p>
     <p>Erinn Clark firma los paquetes Tor Browser con llave 0x63FEE659. Para importar la clave de Erinn, ejecute:</p>
     <pre>
@@ -39,14 +39,7 @@
     </pre>
     <p>Usted debe ver:</p>
     <pre>
-      <code>pub   2048R/63FEE659 2003-10-16
-      Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
-uid                  Erinn Clark &lt;erinn@torproject.org&gt;
-uid                  Erinn Clark &lt;erinn@debian.org&gt;
-
-uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
-sub   2048R/EB399FD7 2003-10-16
-</code>
+      <code>pub 2048R/63FEE659 2003-10-16 Key fingerprint = 8738 A680 B84B 3031 A630 F2DB 416F 0610 63FE E659 uid Erinn Clark &lt;erinn@torproject.org&gt; uid Erinn Clark &lt;erinn@debian.org&gt; uid Erinn Clark &lt;erinn@double-helix.org&gt; sub 2048R/EB399FD7 2003-10-16</code>
     </pre>
     <p>Para verificar la firma del paquete que ha descargado, ejecute el siguiente comando:</p>
     <pre>
@@ -56,7 +49,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>La salida debería decir <em> "Firma correcta"</em>. Una firma mala significa que el archivo ha sido manipulado. Si usted ve una mala firma, envíe detalles de dónde has descargado el paquete, cómo verificó la firma y la salida de GnuPG en un correo electrónico a help@rt.torproject.org.</p>
     <p>Una vez que haya verificado la firma y el observado la salida<em>"Firma correcta" </em>, seguir adelante y extraer el paquete del archivo. A continuación, debería ver un directorio similar a <strong>tor-browser_es-ES</strong>. Dentro del directorio hay otro directorio llamado <strong>Docs</strong>, que contiene un archivo llamado <strong>changelog</strong>. Usted debe asegurarse que el número de versión en la primera línea del fichero de cambios coincide con el número de versión en el nombre del archivo.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Cómo usar el paquete navegador Tor</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Después de descargar el paquete navegador Tor y extraer el paquete, usted debe tener un directorio con algunos archivos en el. Uno de los archivos es un ejecutable llamado "Start Tor Browser" (o "start-tor-browser", en función del sistema operativo).</p>
     <p>Al iniciar el paquete navegador Tor, primero verá el arrranque de Vidalia y cómo se conects a la red Tor. Después de eso, usted verá un navegador confirmando que ahora está usando Tor. Esto se realiza mediante la visualización de <a href="https://check.torproject.org/"> https://check.torproject.org/</a>. Ahora puede navegar por Internet a través de Tor.</p>
     <p>
       <em>Por favor, tenga en cuenta que es importante que utilice el navegador que viene con el paquete, y no su propio navegador.</em>
@@ -121,10 +114,10 @@ sub   2048R/EB399FD7 2003-10-16
     <p>Por razones de seguridad, Flash, Java y otros plugins están deshabilitados actualmente para Tor. Los plugins operan independientemente de Firefox y pueden realizar actividad en su equipo que arruina su anonimato.</p>
     <p>La mayoría de los videos de YouTube funcionan con HTML5, y es posible ver estos vídeos a través de Tor. Necesitas unirte al sitio web de Youtube <a href="https://www.youtube.com/html5">prueba HTML5</a>antes de poder utilizar el reproductor HTML5.</p>
     <p>Tenga en cuenta que el navegador no recordará lo que se escribió en la prueba una vez que se cierra, por lo que tendrá que volver a participar en el estudio la próxima vez que ejecute el paquete navegador Tor.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p>Por favor, consulte <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Botón Tor Preguntas Frecuentes</a> para obtener más información.</p>
+    <h3 id="i-want-to-use-another-browser">Quiero utilizar otro navegador</h3>
+    <p>Por razones de seguridad, se recomienda sólo navegar por Internet a través de Tor utilizando el paquete navegador Tor. Técnicamente es posible usar Tor con otros navegadores, pero al hacerlo se abre la puerta a posibles ataques.</p>
+    <h3 id="why-tor-is-slow">Por que Tor es lenta</h3>
+    <p>A veces la conexión Tor puede ser un poco más lenta que la conexión normal de Internet. Después de todo, el tráfico se envía a través de muchos países diferentes, a veces a través de los océanos de todo el mundo!</p>
   </body>
 </html>
