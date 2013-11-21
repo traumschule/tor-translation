@@ -26,20 +26,17 @@
     <h3 id="how-to-verify-that-you-have-the-right-version">Como comprobar se ten a versión correcta</h3>
     <p>Antes de executar o Tor Browser Bundle, ten que asegurarse de que ten a versión correcta.</p>
     <p>O software que recibiu vai acompañado por un arquivo co mesmo nome do paquete e a  extensión <strong>.asc</strong>. Este ficheiro asc. é unha sinatura GPG, e permitirá que comprobe que o ficheiro que baixou é exactamente o pretendido.</p>
-    <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
+    <p>Antes de que poida comprobar a sinatura, terá que baixar e instalar o GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
-    <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Teña en conta que pode ter que editar as rutas e as ordes indicadas ​​embaixo para facelo funcionar no seu sistema.</p>
+    <p>Erinn Clark asina os Tor Browser Bundles con chave 0x63FEE659. Para descargar a clave de Erinn, execute:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
-    <pre>
-      <code>gpg  --fingerprint 0x63FEE659
-</code>
-    </pre>
-    <p>You should see:</p>
+    <p>Despois de descargar a chave, asegúrese de que a impresión dixital é correcta:</p>
+    <pre>gpg --fingerprint 0x63FEE659</pre>
+    <p>Debería ver:</p>
     <pre>
       <code>pub   2048R/63FEE659 2003-10-16
       Key fingerprint = 8738 A680 B84B 3031 A630  F2DB 416F 0610 63FE E659
@@ -50,7 +47,7 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>To verify the signature of the package you downloaded, run the following command:</p>
+    <p>Para comprobar a sinatura do paquete que baixou, execute a seguinte orde:</p>
     <pre>
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
