@@ -8,7 +8,7 @@
 <!ENTITY torSettings.no "Tidak">
 
 <!ENTITY torSettings.firstQuestion "Yang mana dari di bawah ini cocok dengan situasi anda?">
-<!ENTITY torSettings.configurePrompt1 "">
+<!ENTITY torSettings.configurePrompt1 "Koneksi internet komputer ini disensor, disaring, atau diladeni pewali.">
 <!ENTITY torSettings.configurePrompt2 "Saya perlu menyesuaikan pengaturan network.">
 <!ENTITY torSettings.configure "Konfigur">
 <!ENTITY torSettings.connectPrompt1 "Koneksi Internet komputer ini telah bebas dari halangan.">
@@ -27,7 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Menunggu Tor untuk memulai...">
-<!ENTITY torsettings.restart "">
+<!ENTITY torsettings.restart "Restart">
 
 <!ENTITY torsettings.optional "Opsional">
 
@@ -44,12 +44,12 @@
 <!ENTITY torsettings.firewall.checkbox "Komputer ini pergi melalui firewall yang hanya mengizinkan koneksi untuk beberapa port">
 <!ENTITY torsettings.firewall.allowedPorts "Port yang diizinkan:">
 <!ENTITY torsettings.useBridges.checkbox "Internet Service Provider (ISP) saya memblokir koneksi ke jaringan Tor">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Masukkan satu atau beberapa jembatan penyambung (satu per baris).">
+<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
 <!ENTITY torsettings.copyLog "Salin Log Tor Ke Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "Bantuan Bridge Relay">
 <!ENTITY torsettings.bridgeHelp1 "Jika kamu tidak dapat terhubung ke jaringan Tor, itu mungkin dikarenakan Penyedia Layanan Internet (ISP) anda atau agen lainnya memblokir Tor.&amp;#160; Biasanya, kamu dapat memecahkan masalah ini dengan menggunakan Tor Bridges dimana merupakan relay tersembunyi yang lebih sulit untuk diblokir.">
 <!ENTITY torsettings.bridgeHelp2 "Untuk mengumpulkan bridge relays, gunakan web browser untuk mengunjungi halaman ini: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
