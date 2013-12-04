@@ -1,55 +1,55 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Definições da rede Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Antes que o Tor Browser Bundle tente ligar-se à rede Tor, é necessário fornecer algumas informações sobre a ligação à Internet deste computador.">
 
 <!ENTITY torSettings.yes "Sim">
 <!ENTITY torSettings.no "Não">
 
-<!ENTITY torSettings.firstQuestion "">
-<!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "">
-<!ENTITY torSettings.configure "">
-<!ENTITY torSettings.connectPrompt1 "">
-<!ENTITY torSettings.connectPrompt2 "">
+<!ENTITY torSettings.firstQuestion "Qual das seguintes frases melhor descreve a sua situação?">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
+<!ENTITY torSettings.configurePrompt2 "Preciso de configuar definições de rede.">
+<!ENTITY torSettings.configure "Configurar">
+<!ENTITY torSettings.connectPrompt1 "A ligação à Internet deste computador está livre de obstáculos.">
+<!ENTITY torSettings.connectPrompt2 "Gostaria de me ligar diretamente à rede Tor.">
 <!ENTITY torSettings.connect "Ligar">
 
-<!ENTITY torSettings.proxyQuestion "">
+<!ENTITY torSettings.proxyQuestion "Este computador precisa de usar um proxy para aceder a Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
-<!ENTITY torSettings.enterFirewall "">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.proxyHelp "Se não tem a certeza de como responder esta questão, olhe para as definições de Internet noutro navegador para ver se está configurado para usar um proxy.">
+<!ENTITY torSettings.enterProxy "Introduza as definições de proxy.">
+<!ENTITY torSettings.firewallQuestion "A ligação à Internet deste computador atravessa um firewall que só permite algumas ligações a certas portas?">
+<!ENTITY torSettings.firewallHelp "Se não tem a certeza de como responder esta questão, escolha Não. Se encontrar quaisquer problemas ao ligar-se á rede Tor, mude esta definição.">
+<!ENTITY torSettings.enterFirewall "Introduza uma lista de portas separada por vírgulas que são permitidas pela firewall.">
+<!ENTITY torSettings.bridgeQuestion "Se a ligação à internet deste computador está a ser censurada, precisará de obter e usar bridge relays.&amp;#160; Se não, clique apenas Ligar.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "">
+<!ENTITY torsettings.startingTor "Waiting for Tor to start…">
 <!ENTITY torsettings.restart "Reiniciar">
 
-<!ENTITY torsettings.optional "">
+<!ENTITY torsettings.optional "Opcional">
 
-<!ENTITY torsettings.useProxy.checkbox "">
-<!ENTITY torsettings.useProxy.type "">
+<!ENTITY torsettings.useProxy.checkbox "Este computador precisa de usar um proxy para aceder à Internet.">
+<!ENTITY torsettings.useProxy.type "Tipo de Proxy:">
 <!ENTITY torsettings.useProxy.address "Endereço:">
-<!ENTITY torsettings.useProxy.address.placeholder "">
+<!ENTITY torsettings.useProxy.address.placeholder "Endereço IP ou hostname">
 <!ENTITY torsettings.useProxy.port "Porta:">
 <!ENTITY torsettings.useProxy.username "Nome do utilizador:">
 <!ENTITY torsettings.useProxy.password "Palavra-Chave:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
 <!ENTITY torsettings.firewall.allowedPorts "Portas permitidas:">
-<!ENTITY torsettings.useBridges.checkbox "">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.checkbox "O meu IST bloqueia ligações à rede Tor">
+<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
+<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
-<!ENTITY torsettings.copyLog "">
-<!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.copyLog "Copiar o Tor Log para o Clipboard">
+<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
