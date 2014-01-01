@@ -1,55 +1,55 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Paramètres réseau de Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before the Tor Browser Bundle tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Avant que le navigateur Tor ne tente de se connecter au réseau Tor, vous devez fournir quelques informations concernant votre connexion Internet.">
 
 <!ENTITY torSettings.yes "Oui">
 <!ENTITY torSettings.no "Non">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure network settings.">
-<!ENTITY torSettings.configure "Configure">
-<!ENTITY torSettings.connectPrompt1 "This computer's Internet connection is clear of obstacles.">
-<!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
-<!ENTITY torSettings.connect "Connect">
+<!ENTITY torSettings.firstQuestion "Laquelle des phrases suivantes décrit le mieux votre situation ?">
+<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée, filtrée ou nécessite un proxy.">
+<!ENTITY torSettings.configurePrompt2 "J'ai besoin de configurer les paramètres réseau. ">
+<!ENTITY torSettings.configure "Configurer">
+<!ENTITY torSettings.connectPrompt1 "Rien n'entrave la connexion Internet de cet ordinateur.">
+<!ENTITY torSettings.connectPrompt2 "Je souhaite me connecter directement au réseau Tor.">
+<!ENTITY torSettings.connect "Se connecter">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "Est-ce que cet ordinateur à besoin d'un proxy pour accéder à internet ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
-<!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
-<!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
-<!ENTITY torSettings.bridgeQuestion "If this computer's Internet connection is censored, you will need to obtain and use bridge relays.&amp;#160; If not, just click Connect.">
+<!ENTITY torSettings.proxyHelp "Si vous ne savez pas comment répondre à cette question, vous pouvez regarder les paramètres de connexion d'un autre navigateur afin de voir s'il est configuré pour utiliser un proxy.">
+<!ENTITY torSettings.enterProxy "Entrez les paramètres de votre proxy.">
+<!ENTITY torSettings.firewallQuestion "Est-ce que votre connexion Internet est filtré par un pare-feu qui n'autorise les connexions que vers certains ports ?">
+<!ENTITY torSettings.firewallHelp "Si vous ne savez par comment répondre à cette question, choisissez Non. Vous pourrez changer ce paramètre plus tard en cas de problèmes de connexion au réseau Tor.">
+<!ENTITY torSettings.enterFirewall "Entrez la liste de ports, séparés par des virgules, qui sont autorisés par le pare-feu.">
+<!ENTITY torSettings.bridgeQuestion "Si la connexion Internet de cet ordinateur est censurée, il est nécessaire d'obtenir des adresses de bridges. Si ce n'est pas le cas, cliquez simplement sur « Se connecter ».">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Waiting for Tor to start…">
-<!ENTITY torsettings.restart "Restart">
+<!ENTITY torsettings.startingTor "En attente du démarrage de Tor...">
+<!ENTITY torsettings.restart "Redémarrer">
 
-<!ENTITY torsettings.optional "Optional">
+<!ENTITY torsettings.optional "Optionnel">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.address "Address:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
-<!ENTITY torsettings.useProxy.port "Port:">
-<!ENTITY torsettings.useProxy.username "Username:">
-<!ENTITY torsettings.useProxy.password "Password:">
+<!ENTITY torsettings.useProxy.checkbox "Cet ordinateur a besoin d'utiliser un proxy pour accéder à Internet">
+<!ENTITY torsettings.useProxy.type "Type de proxy :">
+<!ENTITY torsettings.useProxy.address "Adresse :">
+<!ENTITY torsettings.useProxy.address.placeholder "Adresse IP ou nom d'hôte">
+<!ENTITY torsettings.useProxy.port "Port :">
+<!ENTITY torsettings.useProxy.username "Nom d'utilisateur :">
+<!ENTITY torsettings.useProxy.password "Mot de passe :">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
-<!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
+<!ENTITY torsettings.firewall.checkbox "Cet ordinateur passe par un pare-feu qui autorise uniquement les connexions à certains ports">
+<!ENTITY torsettings.firewall.allowedPorts "Ports autorisés :">
+<!ENTITY torsettings.useBridges.checkbox "Mon fournisseur d'accès à Internet (FAI) bloque les connexions au réseau Tor">
+<!ENTITY torsettings.useBridges.label "Saisir un ou davantage de bridges relais (un par ligne).">
+<!ENTITY torsettings.useBridges.placeholder "adresse:port OU adresse de transport:port">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
+<!ENTITY torsettings.copyLog "Copier le journal de Tor dans le presse-papier">
+<!ENTITY torsettings.bridgeHelpTitle "Aide pour les relais-ponts">
+<!ENTITY torsettings.bridgeHelp1 "S'il est impossible de se connecter au réseau Tor, cela peut être le signe que votre Fournisseur d'Accès à Internet (FAI) ou une autre entité bloque Tor. La plupart du temps, vous pouvez contourner ce problème en utilisant les « bridges » Tor. Ce sont des relais cachés qui sont plus difficiles à bloquer.">
+<!ENTITY torsettings.bridgeHelp2 "Pour obtenir des relais-ponts, utiliser un navigateur Web pour visiter la page suivante : https://bridges.torproject.org/">
+<!ENTITY torsettings.bridgeHelp3 "Une autre manière de trouver des adresses de bridges publics est d'envoyer un mail à bridges@torproject.org avec la ligne &quot;get bridges&quot; dans le corps de l'email. Toutefois, pour que cela soit plus difficile pour un attaquant de découvrir beaucoup d'adresses, les demandes doivent provenir d'une adresse email appartenant à l'un des domaines suivants : gmail.com ou yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "Vous pouvez également demander des adresses de bridges en écrivant à help-fr@rt.torproject.org.">
