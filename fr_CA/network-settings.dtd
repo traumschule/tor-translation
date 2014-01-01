@@ -4,8 +4,8 @@
 
 <!ENTITY torsettings.prompt "Before the Tor Browser Bundle tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
-<!ENTITY torSettings.yes "Yes">
-<!ENTITY torSettings.no "No">
+<!ENTITY torSettings.yes "Oui">
+<!ENTITY torSettings.no "Non">
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
