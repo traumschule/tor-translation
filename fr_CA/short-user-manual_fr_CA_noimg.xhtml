@@ -19,22 +19,22 @@
     <p>Pour recevoir la version française de l'offre groupée de navigation Tor pour Windows, envoyez un courriel à gettor+fr@torproject.org avec <strong>windows</strong> dans le corps du message. Vous pouvez laisser le sujet vide.</p>
     <p>Vous pouvez aussi demander l'offre groupée de navigation Tor pour Mac OS X (écrire <strong>macos-i386</strong>) et Linux (écrire <strong>linux-i386</strong> pour les systèmes 32 bits ou <strong>linux-x86_64</strong> pour les systèmes 64 bits).</p>
     <p>Si vous voulez une autre traduction de Tor, écrire <strong>help</strong> dans votre message. Vous recevrez ensuite un courriel avec des instructions et une liste des langues disponibles.</p>
-    <p><strong>Note</strong> : le Tor Browser Bundle pour Linux et pour Mac OS X sont assez volumineux, et vous ne serez pas en mesure de les recevoir avec un compte Gmail, Hotmail ou Yahoo. Si vous ne pouvez pas recevoir la version qu'il vous faut, envoyez un email à help-fr@rt.torproject.org pour que nous puissions vous donner une liste de sites miroirs à utiliser.</p>
-    <h3 id="tor-for-smartphones">Tor pour les <em>smartphones</em></h3>
-    <p>Vous pouvez obtenir Tor sur votre téléphone Android en installant le paquet nommé <em>Orbot</em>. Pour plus d'informations sur le téléchargement et l'installation d'Orbot consultez le <a href="https://www.torproject.org/docs/android.html.en">site du Projet Tor</a>.</p>
+    <p><strong>Note</strong> : l'offre groupée de navigation Tor pour Linux et pour Mac OS X est assez volumineuse et vous ne pourrez pas la recevoir avec un compte Gmail, Hotmail ou Yahoo. Si vous ne pouvez pas recevoir la version que vous voulez, envoyer un courriel à help-fr@rt.torproject.org et nous vous donnerons une liste de sites miroirs à utiliser.</p>
+    <h3 id="tor-for-smartphones">Tor pour les <em>téléphones intelligents</em></h3>
+    <p>Vous pouvez obtenir Tor pour Android en installant le paquet nommé <em>Orbot</em>. Pour plus d'informations sur le téléchargement et l'installation d'Orbot, voir le <a href="https://www.torproject.org/docs/android.html.en">site du projet Tor</a>.</p>
     <p>Nous avons également des versions expérimentales pour <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> et <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Comment vérifier que vous avez la bonne version</h3>
-    <p>Avant d'utiliser le Tor Browser Bundle, vous devriez vous assurer que vous disposez bien de la bonne version.</p>
-    <p>Le logiciel que vous recevez est accompagné d'un fichier qui porte le même nom que le pack avec l'extension <strong>.asc</strong>. Ce fichier .asc est une signature GPG et va vous permettre de vérifier que le fichier que vous avez téléchargé est exactement celui que nous voulons vous fournir.</p>
+    <p>Avant d'utiliser l'offre groupée de navigation Tor, vous devriez vous assurer que vous avez la bonne version.</p>
+    <p>Le logiciel que vous recevez est accompagné d'un fichier qui porte le même nom que l'offre groupée avec l'extension <strong>.asc</strong>. Ce fichier .asc est une signature GPG et va vous permettre de vérifier que le fichier que vous avez téléchargé est exactement celui que nous voulions vous fournir.</p>
     <p>Avant de pouvoir vérifier la signature, vous devez télécharger et installer GnuPG :</p>
     <p><strong>Windows</strong> : <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong> : <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong> : la plupart des distributions Linux sont livrées avec GnuPG.</p>
-    <p>Veuillez noter qu'il peut-être nécessaire d'adapter les chemins et les commandes utilisés ci-dessous pour les faire fonctionner sur votre PC.</p>
-    <p>Erinn Clark signe le Tor Browser Bundle avec la clé 0x63FEE659. Pour importer la clé d'Erinn, lancer la commande suivante :</p>
+    <p>Veuillez noter qu'il vous faudra peut-être modifier les chemins et les commandes utilisés ci-dessous pour les faire fonctionner sur votre système.</p>
+    <p>Erinn Clark signe l'offre groupée de navigation Tor avec la clef 0x63FEE659. Pour importer la clef d'Erinn, lancer :</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>Après avoir importé la clé, vérifiez que l'empreinte est correcte :</p>
+    <p>Après avoir importé la clef, vérifier que l'empreinte est correcte :</p>
     <pre>
       <code>gpg --fingerprint 0x63FEE659
 </code>
@@ -50,22 +50,22 @@ uid                  Erinn Clark &lt;erinn@double-helix.org&gt;
 sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
-    <p>Pour vérifier la signature du pack que vous venez de télécharger, exécutez la commande suivante :</p>
+    <p>Pour vérifier la signature du paquet téléchargé, exécuter la commande suivante :</p>
     <pre>
-      <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
+      <code>gpg --verify torbrowser-install-3.5_fr.exe.asc torbrowser-install-3.5_fr.exe
 </code>
     </pre>
-    <p>Si tout est bon, « <em>Bonne signature</em> » ou « <em>Good signature</em> » devrait s'afficher. Une mauvaise signature signifie que le fichier peut avoir été altéré ou corrompu. Si vous voyez une signature incorrecte, envoyer les informations concernant le site où vous avez téléchargé le pack, comment vous avez vérifié la signature, et la sortie de la commande GnuPG par email à help-fr@rt.torproject.org.</p>
-    <p>Après avoir vérifié la signature et vu le message « <em>Bonne signature</em> », poursuivez en décompressant l'archive. Vous devez obtenir un dossier dont le nom ressemble à <strong>tor-browser_fr</strong>. A l'intérieur de ce dossier, vous trouverez un sous-dossier nommé <strong>Docs</strong> contenant un fichier nommé <strong>changelog</strong>. Vous devez vous assurer que le numéro de version apparaissant en haut de ce journal correspond au numéro de version qui se trouve dans le nom de l'archive.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">Comment utiliser le Tor Browser Bundle</h3>
+    <p>Le résultat devrait être « <em>Bonne signature</em> ». Une mauvaise signature signifie que le fichier peut avoir été altéré. Si vous voyez une mauvaise signature, envoyer les informations concernant le site où vous avez téléchargé le paquet, comment vous avez vérifié la signature et la sortie de la commande GnuPG par courriel à help-fr@rt.torproject.org.</p>
+    <p>Après avoir vérifié la signature et vu la sortie « <em>Bonne signature</em> », extraire l'archive du paquet. Vous devriez voir un répertoire ressemblant à <strong>tor-torbrowser-install-x.x_fr</strong>. A l'intérieur de ce répertoire se trouve un sous-répertoire nommé <strong>Docs</strong> contenant un fichier nommé <strong>changelog</strong>. Vous devez vous assurer que le numéro de version apparaissant en haut de ce journal correspond au numéro de version qui se trouve dans le nom de l'archive.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Comment utiliser l'offre groupée de navigation Tor</h3>
     <p>Après avoir téléchargé et décompressé l'archive du Tor Browser Bundle, vous devriez disposer d'un dossier contenant quelques fichiers. Un de ces fichiers est un exécutable nommé "Start Tor Browser" (ou "start-tor-browser", selon votre système d'exploitation).</p>
-    <p>Lorsque que vous lancez le Tor Browser Bundle, vous verrez d'abord Vidalia démarrer et se connecter au réseau. Après cela, vous verrez un navigateur vous confirmer que vous utilisez à présent Tor. Cela se fait en visitant <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Vous pouvez maintenant naviguer sur Internet à travers Tor.</p>
+    <p>Lorsque que vous lancez l'offre groupée de navigation Tor, vous verrez d'abord Vidalia démarrer et se connecter au réseau Tor. Après cela, vous verrez un navigateur confirmant que vous utilisez bien Tor. Ceci se fait en affichant <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Vous pouvez maintenant naviguer sur Internet avec Tor.</p>
     <p>
-      <em>Veuillez noter qu'il est important d'utiliser le navigateur fourni avec le pack, et non pas votre navigateur habituel.</em>
+      <em>Veuillez noter qu'il est important d'utiliser le navigateur fourni avec l'offre groupée et non votre propre navigateur.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">Que faire lorsque Tor ne se connecte pas ?</h3>
-    <p>Certains utilisateurs remarqueront que Vidalia se bloque en essayant de se connecter au réseau Tor. Si cela se produit, assurez-vous que votre connexion à Internet fonctionne. Si vous avez besoin de vous connecter à un <em>proxy</em>, voir <em>Comment utiliser un proxy ouvert</em> ci-dessous.</p>
-    <p>Si votre connexion Internet fonctionne normalement mais que Tor n'arrive toujours pas à se connecter au réseau, essayez d'ouvrir le panneau de contrôle de Vidalia, de cliquer sur <em>Journal des messages</em> et de sélectionner l'onglet <em>Avancé</em>. Il est possible que Tor ne se connecte pas parce que :</p>
+    <h3 id="what-to-do-when-tor-does-not-connect">Que faire si Tor ne se connecte pas?</h3>
+    <p>Certains utilisateurs remarqueront que Vidalia reste bloqué en essayant de se connecter au réseau Tor. Si cela se produit, assurez-vous d' être connecté à Internet. Si vous avez besoin de vous connecter à un serveur mandataire, voir <em>Comment utiliser un mandataire ouvert</em> ci-dessous.</p>
+    <p>Si votre connexion Internet habituelle fonctionne mais que Tor n'arrive toujours pas à se connecter au réseau, essayer : ouvrir le panneau de contrôle de Vidalia, cliquer sur <em>Journal des messages</em> et choisir l'onglet <em>Avancé</em>. Il est possible que Tor ne se connecte pas car :</p>
     <p><strong>L'horloge système est déréglée</strong> : assurez-vous que la date et l'heure de votre système sont correctes, et relancez Tor. Il est possible qu'il soit nécessaire de synchroniser votre horloge système avec un serveur de temps sur Internet.</p>
     <p><strong>Vous êtes derrière un pare-feu filtrant</strong> : pour dire à Tor de n'essayer que les ports 80 et 443, ouvrez le panneau de configuration de Vidalia, cliquer sur <em>Paramètres</em> et <em>Réseau</em>, et cochez la case disant <em>Mon parefeu me laisse me connecter seulement à certains ports</em>.</p>
     <p><strong>Votre antivirus bloque Tor</strong> : assurez-vous que votre programme antivirus n’empêche pas les connexions au réseau Tor.</p>
