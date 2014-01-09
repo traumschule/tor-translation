@@ -8,31 +8,31 @@
 <!ENTITY torSettings.no "Jo">
 
 <!ENTITY torSettings.firstQuestion "Cila nga këto i përshtatet më shumë situatës tuaj aktuale?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
+<!ENTITY torSettings.configurePrompt1 "Lidhja internet e këtij kompjuteri është e censuruar, e filtruar ose me përfaqësim.">
 <!ENTITY torSettings.configurePrompt2 "Më duhet të konfiguroj parametrat e rrjetit.">
-<!ENTITY torSettings.configure "Configure">
-<!ENTITY torSettings.connectPrompt1 "This computer's Internet connection is clear of obstacles.">
-<!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
-<!ENTITY torSettings.connect "Connect">
+<!ENTITY torSettings.configure "Konfiguro">
+<!ENTITY torSettings.connectPrompt1 "Lidhja në internet e këtij kompjuteri është pa pengesa.">
+<!ENTITY torSettings.connectPrompt2 "Do të dëshiroja të lidhesha direkt me rrjetin Tor.">
+<!ENTITY torSettings.connect "Lidhu">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "A i nevojitet këtij kompjuteri një përfaqësues 'proxy' për të hyrë në internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
-<!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
-<!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
-<!ENTITY torSettings.bridgeQuestion "If this computer's Internet connection is censored, you will need to obtain and use bridge relays.&amp;#160; If not, just click Connect.">
+<!ENTITY torSettings.proxyHelp "Nëse nuk jeni i sigurt si ti përgjigjeni kësaj pyetjeje, shikoni parametrat e internetit në një shfletues tjetër të këtij kompjuteri për të parë nëse është konfiguruar që të përdorë përfaqësues 'proxy'.">
+<!ENTITY torSettings.enterProxy "Jepni parametrat e përfaqësimit 'proxy'.">
+<!ENTITY torSettings.firewallQuestion "A kalon lidhja internet e këtij kompjuteri nëpërmjet ndonjë mbrojtesi 'firewall' i cili lejon lidhje vetëm në disa porta?">
+<!ENTITY torSettings.firewallHelp "Nëse nuk jeni i sigurt si ti përgjigjeni kësaj pyetjeje, zgjidhni JO. Nëse keni probleme gjatë lidhjes me rrjetin Tor, kthehuni këtu dhe ndryshoni këtë parametër.">
+<!ENTITY torSettings.enterFirewall "Jepni një listë të portave të lejuara nga mbrojtësi 'firewall', të ndarë me presje.">
+<!ENTITY torSettings.bridgeQuestion "Nëse lidhja internet e këtij kompjuteri është e censuruar, juve do ju duhet që të merrni dhe përdorni rele urash.&amp;#160; Nëse jo, thjesht klikoni Lidhu.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Duke pritur që Tor të nisë...">
-<!ENTITY torsettings.restart "Restart">
+<!ENTITY torsettings.restart "Rihap">
 
 <!ENTITY torsettings.optional "Fakultativ">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
+<!ENTITY torsettings.useProxy.checkbox "Ky kompjuter duhet të përdorë një përfaqësues 'proxy' për të hyrë në internet.">
+<!ENTITY torsettings.useProxy.type "Tipi i përfaqësuesit:">
 <!ENTITY torsettings.useProxy.address "Adresa:">
 <!ENTITY torsettings.useProxy.address.placeholder "Adresa IP ose emri i pritësit">
 <!ENTITY torsettings.useProxy.port "Porta:">
@@ -41,15 +41,15 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
+<!ENTITY torsettings.firewall.checkbox "Ky kompjuter kalon nëpërmjet një mbrojtësi 'firewall' i cili lejon lidhje vetëm në disa porta.">
 <!ENTITY torsettings.firewall.allowedPorts "Portat e lejuara:">
 <!ENTITY torsettings.useBridges.checkbox "Ofruesi im i shërbimit të internetit (ISP) bllokon lidhjet drejt rrjetit Tor">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
+<!ENTITY torsettings.useBridges.label "Jepni një ose më shumë rele urash (një për çdo rresht)">
+<!ENTITY torsettings.useBridges.placeholder "adresa:porta OSE transporti adresa:porta">
 
 <!ENTITY torsettings.copyLog "Kopjo ditarin e Tor në Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "Ndihmë mbi relenë e urës">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1 "Nëse nuk arrini të lidheni me rrjetin Tor, mundet që Ofruesi i Sherbimit Internet (ISP) juaj ose një agjensi tjetër po ju bllokon Tor.&amp;#160; Zakonisht, ju mund ta kapërceni këtë problem duke përdorur Urat Tor të cilat janë rele të fshehta dhe më të vështira për t'u bllokuar.">
 <!ENTITY torsettings.bridgeHelp2 "Për të arritur disa rele urash, përdorni një shfletues për të vizituar këtë faqe: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp3 "Një mënyrë tjeter për të gjetur adresa publike urash është që të dërgoni një e-mail në bridges@torproject.org me tekstin 'get bridges' në brendësi të mesazhit.&amp;#160; Sidoqoftë, për ta bërë akoma më të vështirë për një sulmues që të mësojë shumë adresa urash, ju duhet ta dërgoni këtë e-mail kërkesë nga një nga këta shërbime: gmail.com ose yahoo.com .">
+<!ENTITY torsettings.bridgeHelp4 "Gjithashtu ju mund të kërkoni rele urash duke dërguar e-mail në help@rt.torproject.org">
