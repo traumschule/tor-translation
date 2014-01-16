@@ -44,7 +44,7 @@
 <!ENTITY torsettings.firewall.checkbox "מחשב זה עובר דרך חומת אש שרק מאפשר חיבורים ליציאות מסוימות">
 <!ENTITY torsettings.firewall.allowedPorts "יציאות מורשות:">
 <!ENTITY torsettings.useBridges.checkbox "ספק האינטרנט שלי (ISP) חוסם חיבורים אל הרשת Tor">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
+<!ENTITY torsettings.useBridges.label "הקלד אחד או יותר ממסרי גשר (אחד לכל שורה)">
 <!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
 <!ENTITY torsettings.copyLog "העתק את יומן Tor אל לוח גזירה">
