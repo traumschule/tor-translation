@@ -19,7 +19,7 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
 <!ENTITY torSettings.enterProxy "הזן את הגדרות הפרוקסי.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
+<!ENTITY torSettings.firewallQuestion "האם חיבור האינטרנט של מחשב זה עובר דרך חומת אש שרק מאפשר חיבורים ליציאות מסוימות?">
 <!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
 <!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
 <!ENTITY torSettings.bridgeQuestion "המידה וחיבור האינטרנט של מחשב זה הינו מצונזר, יהיה עליך להשיג ולהשתמש בממסרי גשר.&amp;#160; היה ולא, פשוט לחץ על התחבר.">
@@ -52,4 +52,4 @@
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
 <!ENTITY torsettings.bridgeHelp2 "כדי להשיג ממסרי גשר, השתמש בדפדפן רשת בכדי לבקר בעמוד הבא:  https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp4 "גם קיימת האפשרות לבקש ממסרי גשר על ידי שליחת דואר ל-help@rt.torproject.org.">
