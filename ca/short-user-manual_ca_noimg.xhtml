@@ -70,52 +70,52 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>Estàs darrere un tallafocs restrictiu</strong>: Per a dir-li Tor que només provi els ports 80 i 443, obre el panell de control Vidalia, clica a <em>Preferències</em> i <em>Xarxa</em>, i activa la casella que diu <em>El meu tallafocs només em permet connectar-me a ports concrets</em>.</p>
     <p><strong>El teu programa antivirus està bloquejant Tor</strong>: Assegura't que el teu programa antivirus no està evitant que Tor faci connexions en xarxa. </p>
     <p>Si Tor encara no funciona, és probable que el teu proveïdor d'internet (ISP) estigui bloquejant Tor. Molt sovint això es pot evitar amb els <strong>ponts Tor</strong>, repetidors amagats que no són tan fàcils de bloquejar. </p>
-    <p>Si necessites ajuda per descobrir perquè Tor no es pot connectar, envia un correu a help@rt.torproject.org i adjunta les parts rellevants de l'arxiu log. </p>
+    <p>Si necessites ajuda per descobrir perquè Tor no es pot connectar, envia un correu a help@rt.torproject.org i adjunta les parts rellevants de l'arxiu de registre. </p>
     <h3 id="how-to-find-a-bridge">Com trobar un pont</h3>
     <p>Per usar un pont, primer hauràs de localitzar-ne un; pots o bé visitar <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, o pots enviar un correu electrònic a bridges@torproject.org. Si envies un correu electrònic, assegura't que escrius <strong>get bridges</strong> al cos del missatge. Sense això, no tindràs resposta. Observa que necessites enviar aquest correu des d'un compte a gmail.com o yahoo.com</p>
-    <p>Configurar més d'una adreça pont farà que la teva connexió Tor sigui més estable, en cas que alguns dels ponts esdevinguin inabastables. No hiha cap garantia que el pont que estiguis fent servir ara funcioni demà, així que hauries d'actualitzar la llista de ponts bastant sovint. </p>
+    <p>Configurar més d'una adreça pont farà que la teva connexió Tor sigui més estable, en cas que alguns dels ponts esdevinguin inabastables. No hi ha cap garantia que el pont que estiguis fent servir ara funcioni demà, així que hauries d'actualitzar la llista de ponts bastant sovint. </p>
     <h3 id="how-to-use-a-bridge">Com fer servir un pont</h3>
-    <p>Un cop tinguis uns quants ponts per fer servir, obre el panell de control Vidalia, clica a <em>Configuració</em>, <em>Xarxa</em> i activa la casella que diu <em>El meu ISP bloqueja les connexions a la xarxa Tor</em>. Introdueix els ponts a la casella inferior, clica <em>D'acord</em> i reinicia Tor. </p>
+    <p>Un cop tinguis uns quants ponts per fer servir, obre el Panell de control de Vidalia, clica a <em>Preferències</em>, <em>Xarxa</em> i activa la casella que diu <em>El meu ISP bloca les connexions a la xarxa Tor</em>. Introdueix els ponts a la casella inferior, clica <em>D'acord</em> i reinicia Tor. </p>
     <h3 id="how-to-use-an-open-proxy">Com usar un proxy obert</h3>
     <p>Si usar un pont no funciona, intenta configurar Tor per fer servir qualsevol proxy HTTPS o SOCKS per accedir a la xarxa Tor. Això significa que inclús si Tor està bloquejat per la teva xarxa local, els proxys oberts poden ser usats amb seguretat per a connectar-se a la xarxa Tor i a l'internet sense censura. </p>
     <p>Els passos de dalt sobreentenen que tens una configuració funcional de Tor/Vidalia, i que has trobat una llista de proxys HTTPS, SOCKS4 o SOCKS5.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
-      <li>Enter the port for the proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
-      <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Obre el Panell de control de Vidalia, clica a <em>Preferències</em>.</li>
+      <li>Clica <em>Xarxa</em>. Selecciona <em>Utilitzo un proxy per a accedir a internet</em>.</li>
+      <li>A la línia <em>Adreça</em>, escriu l'adreça del proxy obert. Aquesta pot ser un nom de l'equip o una Adreça IP.</li>
+      <li>Introdueix el port per al proxy. </li>
+      <li>Generalment, no necessitaràs un nom d'usuari i contrassenya. Si ho necessites, introdueix la informació en els camps corresponents. </li>
+      <li>Excull el <em>Tipus</em> de proxy que estàs utilitzant, ja sigui HTTP/HTTPS, SOCKS4 o SOCKS5. </li>
+      <li>Clicka el botó <em>D'acord</em>. Vidalia i Tor estàn ara configurats per a usar un proxy per a accedir a la resta de la xarxa Tor. </li>
     </ol>
     <h2 id="frequently-asked-questions">Preguntes Freqüents</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>Aquesta secció respondrà algunes de les preguntes més freqüents. Si la teva pregunta no està esmentada aquí, envia un correu electrònic a help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">Impossible d'extreure l'arxiu</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
-    <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
+    <p>Si estas utilitzant Windows i et trobes que no pots extreure l'arxiu, descarrega i instal·la <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Si no pots descarregar 7-Zip, intenta canviar el nom de l'arxiu de .z a .zip i utilitza winzip per a extreure l'arxiu. Abans de reanomenar l'arxiu, digues a Windows que mostri les extensions d'arxiu:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>My Computer</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Obre <em>El meu Ordinador</em></li>
+      <li>Cloca a <em>Eines</em> i escull <em>Opcions de carpeta...</em> al menú</li>
+      <li>Clica a la pestanya <em>Veure</em></li>
+      <li>Desselecciona <em>Amaga extensions per a tipus d'arxiu coneguts</em> i clica <em>D'acord</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Obre <em>Ordinador</em></li>
+      <li>Clica a <em>Organitzar</em> i escull <em>Opcions de carpeta i cerca</em> al menú</li>
+      <li>Clica a la pestanya <em>Veure</em></li>
+      <li>Desselecciona <em>Amaga extensions per a tipus d'arxiu coneguts</em> i clica <em>D'acord</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
-      <li>Open <em>Computer</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Obre <em>Ordinador</em></li>
+      <li>Clica a <em>Organitzar</em> i escull <em>Opcions de carpeta i cerca</em> al menú</li>
+      <li>Clica a la pestanya <em>Veure</em></li>
+      <li>Desselecciona <em>Amaga extensions per a tipus d'arxiu coneguts</em> i clica <em>D'acord</em></li>
     </ol>
-    <h3 id="vidalia-asks-for-a-password">Vidalia asks for a password</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
+    <h3 id="vidalia-asks-for-a-password">Vidalia demana una contrassenya</h3>
+    <p>No hauries d'haver d'entrar una contrassenya quan inicies Vidalia. Si te'n requereix una, segurament estàs afectat per un d'aquests problemes:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
     <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
