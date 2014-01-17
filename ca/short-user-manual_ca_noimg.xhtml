@@ -4,7 +4,7 @@
     <title/>
   </head>
   <body>
-    <h1 id="the-short-user-manual">El Petit Manual d'Usuari</h1>
+    <h1 id="the-short-user-manual">Manual d'Usuari Abreujat</h1>
     <p>Aquest manual d'usuari conté informació sobre com descargar-se Tor, com usar-lo, i que fer si Tor no es pot conectar a la xarxa. Si no pots trobar la resposta a la teva pregunta en aquest document, envia un correu a help@rt.torproject.org.</p>
     <p>Si us plau, pren nota sobre que nosaltres donem suport basat en voluntariat, i rebem grans quantitas de correus cada dia. No hi ha motius per preucupar-se si nosaltres no et responem a temps.</p>
     <h2 id="how-tor-works">Com funciona Tor</h2>
@@ -22,12 +22,12 @@
     <p><strong>Nota</strong>: Els Paquets de Navegació Tor per a Linux i Mac OS X són més aviat grans, i no podràs rebre cap d'aquests paquets amb un compte a Gmail, Hotmail i Yahoo. Si no pots rebre el paquet que vols, envia un correu electrònic a help@rt.torproject.org i et donarem una llista de pàgines web-mirall que pots fer servir.  </p>
     <h3 id="tor-for-smartphones">Tor per a Smartphones</h3>
     <p>Pots obtenir Tor al teu dispositiu Android instal·lant el paquet anomenat <em>Orbot</em>. Per a informació sobre com descarregar i instal·lar Orbot, visita <a href="https://www.torproject.org/docs/android.html.en">pàgina web del Projecte Tor</a>.</p>
-    <p>We also have experimental packages for <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
+    <p>També tenim paquets experimentals per a <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> i <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Com comprovar que tens la versió correcta</h3>
     <p>Abans d'executar el Paquet de Navegació Tor, t'has d'assegurar que tens la versió correcta. </p>
     <p>El programari que reps va acompanyat amb un arxiu amb el mateix nom que el paquet i l'extensió <strong>.asc</strong>. Aquest arxiu .asc és una signatura GPG, i et permetrà comprovar que l'arxiu que has descarregat és precisament aquell que volies. </p>
     <p>Abans que puguis comprovar la signatura, hauràs de descarregar i instal·lar el GnuPG:</p>
-    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Most Linux distributions come with GnuPG preinstalled.</p>
+    <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La majoria de distribucions de Linux venen amb el GnuPG preinstal·lat. </p>
     <p>Observa que probablement hauràs d'editar les rutes i les ordres usades a sota per fer-lo funcionar al teu sistema. </p>
     <p>L'Erinn Clark signa els Paquets de Navegació Tor amb la clau 0x63FEE659. Per importar la clau de l'Erinn, executa:</p>
     <pre>
@@ -58,7 +58,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>La resposta hauria de dir <em>"Good signature"</em>. Una signatura errònia significa que l'arxiu pot haver estat manipulat. Si veus una signatura errònia, envia els detalls d'on vas descarregar el paquet, com has verificat la signatura i la resposta del GnuPG en un correu electrònic a help@rt.torproject.org. </p>
     <p>Un cop hagis comprovat la signatura i llegit la resposta <em>"Good signature"</em>, continua i extreu l'arxiu del paquet. Aleshores hauries de veure una carpeta semblant a <strong>tor-browser_en-US</strong>. Dins d'aquesta carpeta hi ha una altra carpeta anomenada <strong>Docs</strong>, que conté un arxiu anomenat  <strong>changelog</strong>. T'has d'assegurar que el número de versió a la primera línia de l'arxiu changelog correspon amb el número de versió del nom de l'arxiu. </p>
     <h3 id="how-to-use-the-tor-browser-bundle">Com usar el Paquet de Navegació Tor</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Després de descarregar el Paquet de Navegació Tor i extreure'l, hauries de tenir una carpeta amb alguns arxius a dins. Un d'aquests arxius és un executable anomenat "Inicia Navegador Tor" (o "inicia-navegador-tor", depenent del teu sistema operatiu).</p>
     <p>Quan iniciïs el Paquet de Navegació Tor, veuràs en primer lloc Vidalia iniciar-se i connectar-te a la xarxa Tor. Després, veuràs una pàgina confirmant que estàs usant Tor. Això es fa mostrant  <a href="https://check.torproject.org/">https://check.torproject.org/</a>. Ara pots navegar per internet a través de Tor. </p>
     <p>
       <em>Observa que és important que utilitzis el navegador que ve amb el paquet, i no el teu propi navegador.</em>
@@ -116,17 +116,17 @@ sub   2048R/EB399FD7 2003-10-16
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia demana una contrassenya</h3>
     <p>No hauries d'haver d'entrar una contrassenya quan inicies Vidalia. Si te'n requereix una, segurament estàs afectat per un d'aquests problemes:</p>
-    <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
-    <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
-    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
-    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <p><strong>Ja estas executant Vidalia i Tor</strong>: Per exemple, aquesta situació es pot donar si vas instal·lar el paquet Vidalia i ara estas intentant executar el Paquet de Navegació Tor. En aquest cas, hauràs de tancar l'antic Vidalia i Tor abans no puguis executar-lo. </p>
+    <p><strong>Vidalia s'ha penjat, però ha deixat Tor funcionant</strong>: Si el quadre de diàleg que et demana una contrassenya de control té un botó de reinici, pots clicar el botó i Vidalia reiniciarà Tor amb una altra contrassenya de control aleatòria. Si no veus cap botó de reinici o si Vidalia no pot reiniciar Tor per tu, ves al teu Gestor de Tasques i finalitza el procés Tor. Aleshores utilitza Vidalia per a reiniciar Tor. </p>
+    <p>Per a més informació, visita les  <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> a la pàgina web del Projecte Tor. </p>
+    <h3 id="flash-does-not-work">Flash no funciona</h3>
+    <p>Per raons de seguretat, Flash, Java i altres complements han estat deshabilitats per Tor. Els complements operen independentment de Firefox i poden dur a terme activitats en el teu ordinador que trenquen l'anonimat. </p>
+    <p>La majoria de vídeos de YouTube funcionen amb HTML5, i es poden veure amb Tor. Has d'unir-te a la  <a href="https://www.youtube.com/html5">HTML5 prova</a> a la pàgina web de YouTube abans de poder fer servir el reproductir HTML5 </p>
+    <p>Observa que el navegador no recordarà que t'has unit a la prova un cop el tanquis, així que hauràs de re-unir-t'hi la propera vegada que executis el Paquet de Navegació Tor. </p>
+    <p>Visita les <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> per a més informació. </p>
+    <h3 id="i-want-to-use-another-browser">Vull utilitzar un altre navegador</h3>
+    <p>Per raons de seguretat, et recomanem que només naveguis per internet a través de Tor fent servir el Paquet de Navegació Tor. És tècnicament possible utilitzar Tor amb altres navegadors, però fent-ho t'exposes a possibles atacs.</p>
+    <h3 id="why-tor-is-slow">Perquè Tor va lent</h3>
+    <p>A vegades, Tor pot anar una mica més lent que la teva connexió a internet normal. Després de tot, el teu trànsit d'informació és enviat per molts països diferents, a vegades a través d'oceans, al voltant del món! </p>
   </body>
 </html>
