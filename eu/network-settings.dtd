@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Tor Browser Bundleak Tor sarera konektatzen saiatu den baino lehen, ordenagailu honen Interneteko konexioaren inguruko informazioa eman beharko duzu.">
+<!ENTITY torsettings.prompt "Tor Browser Bundleak Tor sarera konektatzen saiatu baino lehen, ordenagailu honen Interneteko konexioaren inguruko informazioa eman beharko duzu.">
 
 <!ENTITY torSettings.yes "Bai">
 <!ENTITY torSettings.no "Ez">
