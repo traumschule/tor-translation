@@ -1,11 +1,11 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "ការ​កំណត់​បណ្ដាញ Tor">
 
 <!-- For "first run" wizard: -->
 
 <!ENTITY torsettings.prompt "Before the Tor Browser Bundle tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
-<!ENTITY torSettings.yes "Yes">
-<!ENTITY torSettings.no "No">
+<!ENTITY torSettings.yes "បាទ/ចាស">
+<!ENTITY torSettings.no "ទេ">
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
@@ -26,29 +26,29 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Waiting for Tor to start…">
+<!ENTITY torsettings.startingTor "កំពុង​រង់ចាំ Tor ចាប់ផ្ដើម...">
 <!ENTITY torsettings.restart "Restart">
 
-<!ENTITY torsettings.optional "Optional">
+<!ENTITY torsettings.optional "ជា​ជម្រើស">
 
 <!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
 <!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.address "Address:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
-<!ENTITY torsettings.useProxy.port "Port:">
-<!ENTITY torsettings.useProxy.username "Username:">
-<!ENTITY torsettings.useProxy.password "Password:">
+<!ENTITY torsettings.useProxy.address "អាយដ្ឋាន៖">
+<!ENTITY torsettings.useProxy.address.placeholder "អាសយដ្ឋាន IP ឬ​ឈ្មោះ​ម៉ាស៊ីន">
+<!ENTITY torsettings.useProxy.port "ច្រក៖">
+<!ENTITY torsettings.useProxy.username "ឈ្មោះ​អ្នក​ប្រើ៖">
+<!ENTITY torsettings.useProxy.password "ពាក្យ​សម្ងាត់៖">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
-<!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
+<!ENTITY torsettings.firewall.allowedPorts "ច្រក​បាន​អនុញ្ញាត៖">
+<!ENTITY torsettings.useBridges.checkbox "ក្រុមហ៊ុន​ផ្ដល់​សេវាកម្ម​អ៊ីនធឺណិត (ISP)​ របស់​ខ្ញុំ​ទប់ស្កាត់ការភ្ជាប់​ទៅ​បណ្ដាញ Tor ។">
 <!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
 <!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.copyLog "ចម្លង​កំណត់ហេតុ Tor ទៅ​ក្ដារ​តម្បៀតខ្ទាស់">
+<!ENTITY torsettings.bridgeHelpTitle "ជំនួយ​បញ្ជូន​ប្រ៊ីត​បន្ត">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
 <!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
