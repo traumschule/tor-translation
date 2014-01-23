@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before the Tor Browser Bundle tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "ពី​មុន Tor Browser Bundle ព្យាយាម​ភ្ជាប់​ទៅ​បណ្ដាញ Tor អ្នកត្រូវ​ផ្ដល់​ព័ត៌មាន​អំពី​ការ​ភ្ជាប់អ៊ីនធឺណិត​របស់​កុំព្យូទ័រ​នេះ។">
 
 <!ENTITY torSettings.yes "បាទ/ចាស">
 <!ENTITY torSettings.no "ទេ">
@@ -50,6 +50,6 @@
 <!ENTITY torsettings.copyLog "ចម្លង​កំណត់ហេតុ Tor ទៅ​ក្ដារ​តម្បៀតខ្ទាស់">
 <!ENTITY torsettings.bridgeHelpTitle "ជំនួយ​បញ្ជូន​ប្រ៊ីត​បន្ត">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp2 "ដើម្បី​ទទួល​បាន​ការ​បញ្ជូន​ប៊្រីត​បន្ត ប្រើ​កម្មវិធីរុករក​បណ្ដាញ ដើម្បី​មើលទំព័រ​ដូច​ខាង​ក្រោម៖  https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
 <!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
