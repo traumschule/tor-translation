@@ -8,7 +8,7 @@
 <!ENTITY torSettings.no "نه">
 
 <!ENTITY torSettings.firstQuestion "کدام یک از موارد زیر وضعیت شما را بهتر بیان می‌کند؟">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
+<!ENTITY torSettings.configurePrompt1 "اینترنت استفاده شده در این رایانه ها سانسور شده٫فیلتر شده و یا عبور کرده از روی پراکسی می باشند.">
 <!ENTITY torSettings.configurePrompt2 "من نیاز به تنظیمات شبکه دارم.">
 <!ENTITY torSettings.configure "پیکربندی">
 <!ENTITY torSettings.connectPrompt1 "This computer's Internet connection is clear of obstacles.">
@@ -48,8 +48,8 @@
 <!ENTITY torsettings.useBridges.placeholder "address:port یا transport address:port">
 
 <!ENTITY torsettings.copyLog "کپی گزارش وقایع تور">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.bridgeHelpTitle "کمک برای پل ارتباطی">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp2 "برای بدست آوردن پل ارتباطی٫با استفاده از مرورگر وب به آدرس https://bridges.torproject.org مراجعه فرمایید.">
 <!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp4 "شما میتوانید با ارسال ایمیل به help@rt.torproject.org درخواست پل ارتباطی نمایید.">
