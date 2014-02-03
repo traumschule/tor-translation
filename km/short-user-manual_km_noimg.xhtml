@@ -29,7 +29,7 @@
     <p>មុន​ពេល​អ្នក​ផ្ទៀងផ្ទាត់​ហត្ថលេខា អ្នក​ត្រូវ​ទាញ​យក ហើយ​ដំឡើង GnuPG ៖</p>
     <p><strong>វីនដូ</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>លីនុច</strong>៖ ការ​បែងចែក​លីនុច​ជា​ច្រើន​មាន​ជាមួយ GnuPG មុន​ដំឡើង។</p>
     <p>សូម​ចំណាំ​ថា​អ្នក​ត្រូវ​កែ​ផ្លូវ និង​ពាក្យ​បញ្ជា​ដែល​បាន​ប្រើ​ខាងក្រោម ដើម្បី​ទទួល​បាន​វា ដើម្បី​ចូល​ដំណើរការ​នៅ​លើ​ប្រព័ន្ធ​របស់​អ្នក។</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Erinn Clark ចុះ​ហត្ថលេខា Tor Browser Bundles ដោយ​ប្រើ key 0x63FEE659 ។ ដើម្បី​នាំចូល Erinn's key, ដំណើរការ៖</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
 </code>
@@ -55,8 +55,8 @@ sub   2048R/EB399FD7 2003-10-16
       <code>gpg --verify tor-browser-2.2.33-2_en-US.exe.asc tor-browser-2.2.33-2_en-US.exe
 </code>
     </pre>
-    <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
-    <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
+    <p>លទ្ធផល​គួរតែ​និយាយ​ <em>"ហត្ថលេខា​ត្រឹមត្រូវ"</em> ។ ហត្ថលេខា​មិន​ត្រឹមត្រូវ​មាន​ន័យ​ថា​ឯកសារ​អាច​ខូច។ ប្រសិនបើ​អ្នក​មើល​ឃើញ​ហត្ថលេខា​មិន​ត្រឹមត្រូវ, ផ្ញើ​ព័ត៌មាន​លម្អិត​អំពី​ទីកន្លែង​ដែល​អ្នក​ទាញ​យក​​ទម្រង់​កញ្ចប់, របៀប​ផ្ទៀងផ្ទាត់​ហត្ថលេខា និង​លទ្ធផល​ពី GnuPG ក្នុង​អ៊ីមែល​ទៅកាន់ help@rt.torproject.org ។</p>
+    <p>នៅ​ពេល​អ្នក​បាន​ផ្ទៀងផ្ទាត់​ហត្ថលេខា ហើយ​ឃើញ​​លទ្ធផល​ថា​ <em>"ហត្ថលេខា​ត្រឹមត្រូវ"</em> , ទៅ​មុខ ហើយ​ស្រង់​ចេញ​ប័ណ្ណសារ​កញ្ចប់។ You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">របៀប​ប្រើ Tor Browser Bundle</h3>
     <p>បន្ទាប់​ពី​ទាញ​យក Tor Browser Bundle និង​ស្រង់​កញ្ចប់​ចេញ, អ្នក​គួរតែ​មាន​ថត​ដែល​មាន​ឯកសារ​ថ្មី។ មួយ​ក្នុង​ចំណោម​ឯកសារ​អាច​ប្រតិបត្តិ​បាន​​ស្គាល់​ថា "Start Tor Browser" (ឬ "start-tor-browser", ផ្អែក​លើ​ប្រព័ន្ធ​ប្រតិបត្តិ​របស់​អ្នក)។</p>
     <p>នៅ​ពេល​អ្នក​ចាប់ផ្ដើម Tor Browser Bundle, ដំបូង​អ្នក​ត្រូវ​មើល​ការ​ដំឡើង Vidalia ​និង​របៀប​តភ្ជាប់​អ្នក​ទៅ​បណ្ដាញ Tor ។ បន្ទាប់​មក​ អ្នក​នឹង​ឃើញ​កម្មវិធី​អ៊ីនធឺណិត​បញ្ជាក់​ថា​អ្នក​កំពុង​ប្រើ Tor ឥឡូវ​នេះ។ វា​ត្រូវ​បាន​ធ្វើ​ដោយ​ការ​បង្ហាញ <a href="https://check.torproject.org/">https://check.torproject.org/</a>  អ្នក​អាច​​រុករក​អ៊ីនធឺណិត​ឥឡូវ​នេះ​​តាម​រយៈ Tor ។</p>
