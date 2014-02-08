@@ -15,7 +15,7 @@
 <!ENTITY torSettings.connectPrompt2 "Je souhaite me connecter directement au réseau Tor.">
 <!ENTITY torSettings.connect "Se connecter">
 
-<!ENTITY torSettings.proxyQuestion "Est-ce que cet ordinateur à besoin d'un proxy pour accéder à internet ?">
+<!ENTITY torSettings.proxyQuestion "Est-ce que cet ordinateur a besoin d'un proxy pour accéder à internet ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Si vous ne savez pas comment répondre à cette question, vous pouvez regarder les paramètres de connexion d'un autre navigateur afin de voir s'il est configuré pour utiliser un proxy.">
 <!ENTITY torSettings.enterProxy "Entrez les paramètres de votre proxy.">
