@@ -63,7 +63,7 @@ sub   2048R/EB399FD7 2003-10-16
     <p>
       <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
     </p>
-    <h3 id="what-to-do-when-tor-does-not-connect">What to do when Tor does not connect</h3>
+    <h3 id="what-to-do-when-tor-does-not-connect">Tor가 연결 되지 않을 때 대처법</h3>
     <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
     <p>If your normal Internet connection is working, but Tor still can't connect to the network, try the following; open the Vidalia control panel, click on <em>Message Log</em> and select the <em>Advanced</em> tab. It may be that Tor won't connect because:</p>
     <p><strong>Your system clock is off</strong>: Make sure that the date and time on your system is correct, and restart Tor. You may need to synchronize your system clock with an Internet time server.</p>
@@ -88,8 +88,8 @@ sub   2048R/EB399FD7 2003-10-16
       <li>Choose the <em>Type</em> of proxy you are using, whether HTTP/HTTPS, SOCKS4, or SOCKS5.</li>
       <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
     </ol>
-    <h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <h2 id="frequently-asked-questions">자주 묻는 질문들</h2>
+    <p>여기서는 가장 일반적인 몇 가지 질문에 답변합니다. 귀하의 질문이 여기에 언급되지 않은 경우, help@rt.torproject.org에 이메일을 보내주시기 바랍니다.</p>
     <h3 id="unable-to-extract-the-archive">Unable to extract the archive</h3>
     <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
@@ -119,14 +119,14 @@ sub   2048R/EB399FD7 2003-10-16
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
     <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
-    <h3 id="flash-does-not-work">Flash does not work</h3>
+    <h3 id="flash-does-not-work">Flash가 맛 갔어요</h3>
     <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
-    <h3 id="i-want-to-use-another-browser">I want to use another browser</h3>
+    <p>자세한 정보는 다음 주소를 참조하십시오. <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a></p>
+    <h3 id="i-want-to-use-another-browser">전 다른 브라우저 쓰고 싶은데요.</h3>
     <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
-    <h3 id="why-tor-is-slow">Why Tor is slow</h3>
-    <p>Tor can sometimes be a bit slower than your normal Internet connection. After all, your traffic is sent through many different countries, sometimes across oceans around the world!</p>
+    <h3 id="why-tor-is-slow">왜 Tor는 이렇게 느려터진 겁니까?</h3>
+    <p>Tor는 정상적인 인터넷 연결보다 약간 느려질 수 있습니다. Tor의 트래픽은 여러 나라를 통해 전송되기 때문입니다. 구조상 여러 단계를 거쳐야 검열을 피할 수 있기 때문입니다. 때문에 Tor를 통한 P2P 공유는 자제해 주십시오. Tor는 전세계에 퍼져있는 참여자들이 자원봉사 차원으로, 그것도 인터넷 검열이 심한 국가의 시민들을 위해 제공하는 트래픽이기 때문입니다.</p>
   </body>
 </html>
