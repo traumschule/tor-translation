@@ -2,17 +2,17 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before the Tor Browser Bundle tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Tor 브라우저 번들은 Tor 네트워크에 연결을 시도하기 전에, 이 컴퓨터의 인터넷 연결에 대한 정보를 제공해야합니다.">
 
 <!ENTITY torSettings.yes "예">
 <!ENTITY torSettings.no "아니오">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
+<!ENTITY torSettings.firstQuestion "어떤 것이 귀하의 상황에 가깝습니까?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure network settings.">
+<!ENTITY torSettings.configurePrompt2 "네트워크 설정 구성을 해야 합니다.">
 <!ENTITY torSettings.configure "구성">
-<!ENTITY torSettings.connectPrompt1 "This computer's Internet connection is clear of obstacles.">
-<!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
+<!ENTITY torSettings.connectPrompt1 "이 컴퓨터의 인터넷 연결은 문제 없습니다.">
+<!ENTITY torSettings.connectPrompt2 "Tor 네트워크에 직접 연결하고 싶습니다.">
 <!ENTITY torSettings.connect "연결">
 
 <!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
@@ -50,6 +50,6 @@
 <!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "브릿지 중계 서버 도움말">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp2 "브릿지 중계 서버를 얻으시려면 다음 주소를 방문하십시오. - https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
 <!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
