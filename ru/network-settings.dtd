@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Что лучше описывает вашу ситуацию?">
 <!ENTITY torSettings.configurePrompt1 "Интернет-соединение этого компьютера цензурируется, фильтруется или находятся за прокси.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "Мне требуется настроить мост, брандмауэр или прокси.">
 <!ENTITY torSettings.configure "Настроить">
 <!ENTITY torSettings.connectPrompt2 "Я бы хотел соединиться с сетью Tor напрямую.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Это должно работать в большинстве ситуаций.">
 <!ENTITY torSettings.connect "Соединиться">
 
 <!ENTITY torSettings.proxyQuestion "Этому компьютеру нужен прокси для доступа в Интернет?">
