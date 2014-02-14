@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Quais opções descrevem melhor a sua situação?">
 <!ENTITY torSettings.configurePrompt1 "A conexão Internet deste computador foi censurada, filtrada ou limitada por um proxy.">
-<!ENTITY torSettings.configurePrompt2 "Eu preciso definir as configurações de rede.">
+<!ENTITY torSettings.configurePrompt2 "Eu preciso configurar o bridge, firewall ou opções de proxy.">
 <!ENTITY torSettings.configure "Configurar">
-<!ENTITY torSettings.connectPrompt1 "A conexão Internet deste computador não possui obstáculos.">
 <!ENTITY torSettings.connectPrompt2 "Eu gostaria de me conectar diretamente à rede Tor.">
+<!ENTITY torSettings.connectPrompt3 "Isso funcionará na maioria das situações.">
 <!ENTITY torSettings.connect "Conectar">
 
 <!ENTITY torSettings.proxyQuestion "Este computador precisa usar um proxy para acessar a Internet?">
