@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Налаштування мережі Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -27,7 +27,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Підключення до  Tor">
-<!ENTITY torsettings.restart "Restart">
+<!ENTITY torsettings.restart "Перезавантажити">
 
 <!ENTITY torsettings.optional "Додатково">
 
