@@ -9,7 +9,7 @@
 
 <!ENTITY torSettings.firstQuestion "Laquelle des phrases suivantes décrit le mieux votre situation ?">
 <!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée, filtrée ou nécessite un proxy.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "J'ai besoin de configurer une passerelle, le pare-feu, ou les paramètres du proxy.">
 <!ENTITY torSettings.configure "Configurer">
 <!ENTITY torSettings.connectPrompt2 "Je souhaite me connecter directement au réseau Tor.">
 <!ENTITY torSettings.connectPrompt3 "Cela fonctionnera dans la plupart des situations.">
