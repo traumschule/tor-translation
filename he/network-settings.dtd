@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "אילו מן הבאים מתאר את המצב שלך באופן הטוב ביותר?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
-<!ENTITY torSettings.configurePrompt2 "עלי להגדיר הגדרות רשת תקשורת.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "הגדר">
-<!ENTITY torSettings.connectPrompt1 "חיבור האינטרנט של חשב זה הינו נקי ממכשולים.">
 <!ENTITY torSettings.connectPrompt2 "ברצוני להתחבר ישירות אל הרשת Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "התחבר">
 
 <!ENTITY torSettings.proxyQuestion "האם מחשב זה צריך להשתמש בפרוקסי כדי לגשת אל האינטרנט?">

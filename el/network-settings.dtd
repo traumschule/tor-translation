@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Ποιο από τα παρακάτω περιγράφει καλύτερα την κατάστασή σας;">
 <!ENTITY torSettings.configurePrompt1 "Σύνδεση στο διαδικτυο αυτού του υπολογιστή λογοκρινετε, φιλτραρετε ή εμποδιζετε γενικως. ">
-<!ENTITY torSettings.configurePrompt2 "Πρέπει να διαμορφώθουν η ρυθμίσεις δικτύου.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Ρύθμιση ">
-<!ENTITY torSettings.connectPrompt1 "Η σύνδεση στο διαδικτυο αυτού του υπολογιστή είναι μακριά από εμπόδια.">
 <!ENTITY torSettings.connectPrompt2 "Θα ήθελα να συνδεθεί άμεσα με το δίκτυο Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Σύνδεση">
 
 <!ENTITY torSettings.proxyQuestion "Μήπως αυτός ο υπολογιστής πρέπει να χρησιμοποιήση έναν διακομιστή μεσολάβησης για πρόσβαση στο Διαδίκτυο;">
@@ -44,8 +44,8 @@
 <!ENTITY torsettings.firewall.checkbox "Το τείχος προστασίας μου με αφήνει να συνδέομαι μόνο σε συγκεκριμένες θύρες συστήματος">
 <!ENTITY torsettings.firewall.allowedPorts "Επιτρεπόμενες Θύρες:">
 <!ENTITY torsettings.useBridges.checkbox "Ο πάροχος διαδικτυου (ISP) μπλοκάρει τις συνδέσεις στο δίκτυο του Tor">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
+<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
 <!ENTITY torsettings.copyLog "Αντιγραφή στο πρόχειρο">
 <!ENTITY torsettings.bridgeHelpTitle "Γεφυρες αναμεταδοτων Βοηθεια">

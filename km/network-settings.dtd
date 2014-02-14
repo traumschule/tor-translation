@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "តើ​ការ​ពណ៌នា​ណា​មួយ​​​ដូច​ខា​ងក្រោម​នេះ​ល្អ​បំផុត​សម្រាប់ស្ថានភាព​របស់​អ្នក?">
 <!ENTITY torSettings.configurePrompt1 "ការ​ភ្ជាប់​អ៊ីនធឺណិត​កុំព្យូទ័រ​នេះ​ត្រូវ​បាន​កែ ច្រោះ ឬ​ដាក់​ប្រូកស៊ី។">
-<!ENTITY torSettings.configurePrompt2 "ខ្ញុំ​ត្រូវ​កំណត់រចនាសម្ព័ន្ធ​ការ​កំណត់​បណ្ដាញ។">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "កំណត់រចនាសម្ព័ន្ធ">
-<!ENTITY torSettings.connectPrompt1 "ការ​ភ្ជាប់​អ៊ីនធឺណិត​កុំព្យូទ័រ​នេះ​គ្មាន​បញ្ហា​ទេ។">
 <!ENTITY torSettings.connectPrompt2 "ខ្ញុំ​ចង់ភ្ជាប់​ដោយ​ផ្ទាល់ទៅ​បណ្ដាញ Tor ។">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "តភ្ជាប់">
 
 <!ENTITY torSettings.proxyQuestion "តើ​កុំព្យូទ័រ​នេះ​ត្រូវ​ប្រើប្រូកស៊ី ដើម្បី​ចូល​​អ៊ីនធឺណិតឬ?">

@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "පහත සදහන් කුමක් ඔබගේ තත්ත්වය හොදින්ම විස්තර කරයිද?">
 <!ENTITY torSettings.configurePrompt1 "මෙම පරිගණකයේ අන්තර්ජාල සැකසුම වාරණයට ලක්වී, පෙරීමකට ලක්වී හෝ නියුතු සේවා දායකයෙකුට ලක්ව ඇත.">
-<!ENTITY torSettings.configurePrompt2 "මට ජාල සැකසුම් වෙනස් කිරීමට අවශ්‍යය.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "වින්‍යාස කරන්න">
-<!ENTITY torSettings.connectPrompt1 "මෙම පරිගණකයේ අන්තර්ජාල සබදතාවය අවහිර වලින් තොරවේ.">
 <!ENTITY torSettings.connectPrompt2 "මම ඍජුවම Tor ජාලය හා සම්බන්ධ  වීමට කැමතිය.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "සම්බන්ධ වෙන්න">
 
 <!ENTITY torSettings.proxyQuestion "මෙම පරිගණකයට අන්තර්ජාලය හා සම්බන්ධ වීමට නියුතු සේවාදායකයෙක් අවශ්‍යද?">
@@ -44,8 +44,8 @@
 <!ENTITY torsettings.firewall.checkbox "මෙම පරිගණකය විශේෂිත ports සදහා සම්බන්ධ වීමට ඉඩදෙන පරිදි firewall එකක් හරහා ගමන් කරයි.">
 <!ENTITY torsettings.firewall.allowedPorts "අනුමත Ports">
 <!ENTITY torsettings.useBridges.checkbox "මාගේ අන්තර්ජාල සේවා සපයන්නා(ISP) විසින් TOR  ජාලය සදහා සබදතාවය අවහිර කර ඇත.">
-<!ENTITY torsettings.useBridges.label "">
-<!ENTITY torsettings.useBridges.placeholder "">
+<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
+<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
 
 <!ENTITY torsettings.copyLog "Clipboard එකට Tor ලොගය පිටපත් කරන්න.">
 <!ENTITY torsettings.bridgeHelpTitle "සේතු ප්‍රතියෝජක (Bridge Relay) උපකාරකය">

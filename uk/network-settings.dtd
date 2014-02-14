@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure network settings.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Налаштування">
-<!ENTITY torSettings.connectPrompt1 "This computer's Internet connection is clear of obstacles.">
 <!ENTITY torSettings.connectPrompt2 "Я бажаю підключатися до Tor напряму ">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "З'єднатися">
 
 <!ENTITY torSettings.proxyQuestion "Цьому комп'ютеру необхідно використовувати проксі для доступу в Інтернет?">

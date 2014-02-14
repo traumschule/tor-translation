@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Antara berikut yang manakah terbaik menerangkan keadaan anda?">
 <!ENTITY torSettings.configurePrompt1 "Sambungan internet komputer ini telpas ditapis, atau di-proxied.">
-<!ENTITY torSettings.configurePrompt2 "Saya perlu mengkonfigurasi tetapan rangkaian.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurasi">
-<!ENTITY torSettings.connectPrompt1 "Sambungan internet komputer ini tiada apa-apa halangan.">
 <!ENTITY torSettings.connectPrompt2 "Saya ingin berhubung terus kepada rangkaian Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Menyambung">
 
 <!ENTITY torSettings.proxyQuestion "Adakah komputer ini perlu menggunakan proksi untuk mengakses Internet?">

@@ -1,33 +1,33 @@
-<!ENTITY torsettings.dialog.title "">
+<!ENTITY torsettings.dialog.title "Tor Network Settings">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "">
+<!ENTITY torsettings.prompt "Before the Tor Browser Bundle tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "Áno">
 <!ENTITY torSettings.no "Nie">
 
 <!ENTITY torSettings.firstQuestion "Ktorá z nasledujúcich situácií najlepšie popisuje Vašu?">
-<!ENTITY torSettings.configurePrompt1 "">
-<!ENTITY torSettings.configurePrompt2 "Potrebujem konfigurovať nastavenia siete. ">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurovať">
-<!ENTITY torSettings.connectPrompt1 "">
 <!ENTITY torSettings.connectPrompt2 "Rád by som sa pripojil priamo do siete Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Pripojiť">
 
 <!ENTITY torSettings.proxyQuestion "Potrebuje tento počítač použiť proxy pre prístup na internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ak si nie ste istý odpoveďou na túto otázku, pozrite na nastavenie internetu v inom prehliadači, či je konfigurovaný pre použitie proxy.">
-<!ENTITY torSettings.enterProxy "">
-<!ENTITY torSettings.firewallQuestion "">
-<!ENTITY torSettings.firewallHelp "">
+<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
+<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
+<!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
 <!ENTITY torSettings.enterFirewall "Zadajte čísla portov oddelené medzerou, ktoré sú povolené na firewalle.">
-<!ENTITY torSettings.bridgeQuestion "">
+<!ENTITY torSettings.bridgeQuestion "If this computer's Internet connection is censored, you will need to obtain and use bridge relays.&amp;#160; If not, just click Connect.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čakanie na štart Toru...">
-<!ENTITY torsettings.restart "">
+<!ENTITY torsettings.restart "Restart">
 
 <!ENTITY torsettings.optional "Voliteľne">
 
@@ -41,15 +41,15 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "">
+<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
 <!ENTITY torsettings.firewall.allowedPorts "Povolené porty:">
 <!ENTITY torsettings.useBridges.checkbox "Môj poskytovateľ internetového pripojenia blokuje spojenie do siete Tor">
 <!ENTITY torsettings.useBridges.label "Zadaj jeden alebo viac premosťovacích relays (jednu na riadok).">
 <!ENTITY torsettings.useBridges.placeholder "adresa:port ALEBO transport adresa:port">
 
 <!ENTITY torsettings.copyLog "Kopírovať log Toru do schránky">
-<!ENTITY torsettings.bridgeHelpTitle "">
-<!ENTITY torsettings.bridgeHelp1 "">
-<!ENTITY torsettings.bridgeHelp2 "">
-<!ENTITY torsettings.bridgeHelp3 "">
-<!ENTITY torsettings.bridgeHelp4 "">
+<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges which are hidden relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp2 "To obtain some bridge relays, use a web browser to visit the following page:  https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "Another way to find public bridge addresses is to send mail to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from an email address at one of the following domains: gmail.com or yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">

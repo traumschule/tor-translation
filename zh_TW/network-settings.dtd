@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "下列哪項最能描述您的情況？">
 <!ENTITY torSettings.configurePrompt1 "此電腦的網路連結被審查、過濾、或代理。">
-<!ENTITY torSettings.configurePrompt2 "我需要設定網絡設定。">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "設定">
-<!ENTITY torSettings.connectPrompt1 "此電腦的網路連結已越過障礙。">
 <!ENTITY torSettings.connectPrompt2 "我想直接連結到Tor網路。">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "連結">
 
 <!ENTITY torSettings.proxyQuestion "這台電腦上是否需要使用代理服務器存取網際網路？">

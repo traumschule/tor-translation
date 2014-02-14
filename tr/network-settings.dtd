@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Aşağıdakilerden hangisi durumunuzu en iyi açıklıyor?">
 <!ENTITY torSettings.configurePrompt1 "İnternet bağlantınız sansürlenmiş,filtrelenmiş veyahut proxylenmiş.">
-<!ENTITY torSettings.configurePrompt2 "Ağ ayarlarını yapılandırmam gerek.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Yapılandır">
-<!ENTITY torSettings.connectPrompt1 "Bu bilgisayarın İnternet bağlantısı engelsiz.">
 <!ENTITY torSettings.connectPrompt2 "Doğrudan Tor ağına bağlanmak istiyorum">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Bağlan">
 
 <!ENTITY torSettings.proxyQuestion "Bu bilgisayarın İnternete erişirken bir vekil kullanması gerekiyor mu?">

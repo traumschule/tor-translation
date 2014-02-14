@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Hvilket av følgende beskriver best din situasjon?">
 <!ENTITY torSettings.configurePrompt1 "Denne datamaskinens Internett-tilkobling er sensurert, filtrert, eller går gjennom en proxy.">
-<!ENTITY torSettings.configurePrompt2 "Jeg trenger å konfigurere nettverksinnstillingene.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurer">
-<!ENTITY torSettings.connectPrompt1 "Denne datamaskinens Internett-tilkobling er fri for hindringer.">
 <!ENTITY torSettings.connectPrompt2 "Jeg vil koble direkte til Tor-nettverket.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Koble til">
 
 <!ENTITY torSettings.proxyQuestion "Må denne datamaskinen bruke en proxy for å få tilgang til Internett?">

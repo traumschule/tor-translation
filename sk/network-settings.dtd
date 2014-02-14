@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Ktoré z nasledujúcich možností najlepšie opisuje Vašu situáciu?">
 <!ENTITY torSettings.configurePrompt1 "Internetové pripojenie tohto počítača je cenzurované, filtrované alebo sprostredkované.">
-<!ENTITY torSettings.configurePrompt2 "Potrebujem nakonfigurovať sieťové nastavenia.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurácia">
-<!ENTITY torSettings.connectPrompt1 "Internetové pripojenie tohto počítača je bez prekážok.">
 <!ENTITY torSettings.connectPrompt2 "Chcem sa pripojiť priamo do siete Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Pripojiť">
 
 <!ENTITY torSettings.proxyQuestion "Potrebuje tento počítač použiť proxy na prístup k Internetu?">

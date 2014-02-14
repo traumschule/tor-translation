@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Koje od sljedećeg najbolje opisuje Vašu situaciju?">
 <!ENTITY torSettings.configurePrompt1 "Internetska veza ovog računala je cenzurirana, filtrirana ili prolazi kroz proxy.">
-<!ENTITY torSettings.configurePrompt2 "Trebam podesiti mrežne postavke.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Podesi">
-<!ENTITY torSettings.connectPrompt1 "Internetska veza ovog računala je neometana.">
 <!ENTITY torSettings.connectPrompt2 "Želim se izravno spojiti na Tor mrežu.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Spajanje">
 
 <!ENTITY torSettings.proxyQuestion "Koristi li ovo računalo proxy za pristup Internetu?">

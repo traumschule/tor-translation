@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Kura situācija vislabāk atbilst jūsējai?">
 <!ENTITY torSettings.configurePrompt1 "Šī datora interneta savienojums tiek vai nu cenzēts, vai filtrēts, vai arī realizēts caur starpnieku.">
-<!ENTITY torSettings.configurePrompt2 "Man jākonfigurē tīkla iestatījumi.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurēt">
-<!ENTITY torSettings.connectPrompt1 "Šī datora interneta savienojumam šķēršļu nav.">
 <!ENTITY torSettings.connectPrompt2 "Es vēlos tieši pieslēgties tīklam Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Veidot savienojumu">
 
 <!ENTITY torSettings.proxyQuestion "Vai šim datoram ir jālieto starpnieks, lai piekļūtu internetam?">

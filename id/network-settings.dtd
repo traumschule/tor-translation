@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Yang mana dari di bawah ini cocok dengan situasi anda?">
 <!ENTITY torSettings.configurePrompt1 "Koneksi internet komputer ini disensor, disaring, atau diladeni pewali.">
-<!ENTITY torSettings.configurePrompt2 "Saya perlu menyesuaikan pengaturan network.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Konfigur">
-<!ENTITY torSettings.connectPrompt1 "Koneksi Internet komputer ini telah bebas dari halangan.">
 <!ENTITY torSettings.connectPrompt2 "Saya ingin menghubungkan secara langsung ke jaringan Tor.">
+<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Hubungi">
 
 <!ENTITY torSettings.proxyQuestion "Apakah komputer ini perlu menggunakan proxy untuk mengakses internet?">
