@@ -1,56 +1,55 @@
-<!ENTITY torsettings.dialog.title "Tor網絡設定">
+<!ENTITY torsettings.dialog.title "Tor 網路設定">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "在Tor瀏覽器套件嘗試連結到Tor網路之前，您需要提供關於此電腦的網路連結訊息。">
+<!ENTITY torsettings.prompt "在 Tor 瀏覽器套件嘗試連結到 Tor 網路前，您需要提供關於此電腦的網路連結資訊。">
 
 <!ENTITY torSettings.yes "確定">
 <!ENTITY torSettings.no "取消">
 
-<!ENTITY torSettings.firstQuestion "下列哪項最能描述您的情況？">
-<!ENTITY torSettings.configurePrompt1 "此電腦的網路連結被審查、過濾、或代理。">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.firstQuestion "下列哪一項最符合您的情況？">
+<!ENTITY torSettings.configurePrompt1 "此電腦的網路連結被審查、過濾、或經過代理。">
+<!ENTITY torSettings.configurePrompt2 "我需要設定橋接、防火牆或代理伺服器設定。">
 <!ENTITY torSettings.configure "設定">
-<!ENTITY torSettings.connectPrompt2 "我想直接連結到Tor網路。">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt2 "我想直接連結到 Tor 網路。">
+<!ENTITY torSettings.connectPrompt3 "這能在大部分狀況中生效">
 <!ENTITY torSettings.connect "連結">
 
-<!ENTITY torSettings.proxyQuestion "這台電腦上是否需要使用代理服務器存取網際網路？">
+<!ENTITY torSettings.proxyQuestion "這台電腦是否需要透過代理伺服器存取網際網路？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "若您無法確定如何回答這個問題，看看另一個瀏覽器的上網設定，看它是否被設定為使用代理服務器。">
-<!ENTITY torSettings.enterProxy "輸入代理服務器設定。">
-<!ENTITY torSettings.firewallQuestion "此計算機的網路連結是否通過一個防火牆，只允許某些端口的連結？">
-<!ENTITY torSettings.firewallHelp "若您無法確定如何回答這個問題，請選擇“否”，若遇到問題而無法連結到Tor網路，請改變此設定。">
-<!ENTITY torSettings.enterFirewall "在防火牆允許的端口中輸入一個逗號分隔的列表。">
-<!ENTITY torSettings.bridgeQuestion "若此電腦的網路連結被審查，您將需要取得和使用橋接中繼&amp;#160。若沒有，只需點擊連結。">
+<!ENTITY torSettings.proxyHelp "若您無法確定如何回答這個問題，請查看其他瀏覽器的網路設定，看它是否設定為透過代理伺服器連線。">
+<!ENTITY torSettings.enterProxy "輸入代理伺服器設定。">
+<!ENTITY torSettings.firewallQuestion "此電腦的網路連線，是否通過只允許連結特定連線埠的防火牆？">
+<!ENTITY torSettings.firewallHelp "若您無法確定如何回答這個問題，請選擇「否」。若您在連結至 Tor 網路時遭遇問題，請再改變此設定。">
+<!ENTITY torSettings.enterFirewall "請輸入防火牆允許的連線埠（請以逗號分隔）。">
+<!ENTITY torSettings.bridgeQuestion "若此電腦的網路連結被審查，您將需要取得和使用橋接中繼&amp;#160;。若沒有，只需點擊「連線」。">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "正在等待Tor的開始...">
+<!ENTITY torsettings.startingTor "正在等待 Tor 啟動…">
 <!ENTITY torsettings.restart "重新啟動">
 
 <!ENTITY torsettings.optional "選項">
 
-<!ENTITY torsettings.useProxy.checkbox "這台電腦需要使用代理服務器存取網際網路">
-<!ENTITY torsettings.useProxy.type "代理類型：">
+<!ENTITY torsettings.useProxy.checkbox "這台電腦需要使用代理伺服器存取網際網路">
+<!ENTITY torsettings.useProxy.type "代理伺服器類型:">
 <!ENTITY torsettings.useProxy.address "地址:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP地址或主機名">
+<!ENTITY torsettings.useProxy.address.placeholder "IP 位址或主機名">
 <!ENTITY torsettings.useProxy.port "連接埠:">
-<!ENTITY torsettings.useProxy.username "用戶名">
+<!ENTITY torsettings.useProxy.username "用戶名:">
 <!ENTITY torsettings.useProxy.password "密碼:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "這台電腦通過一防火牆，只允許連結到某些端口">
-<!ENTITY torsettings.firewall.allowedPorts "允許的連接埠 :">
+<!ENTITY torsettings.firewall.checkbox "這台電腦通過只允許連結至特定連線埠的防火牆">
+<!ENTITY torsettings.firewall.allowedPorts "允許的連接埠:">
 <!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)封鎖連結到Tor網絡">
-<!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼(每行一個)。">
-<!ENTITY torsettings.useBridges.placeholder "地址：端口或傳輸地址：端口">
+<!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼 (每行一個)。">
+<!ENTITY torsettings.useBridges.placeholder "「地址:連線埠」或「傳輸地址:連線埠」">
 
-<!ENTITY torsettings.copyLog "複製Tor記錄到剪貼簿">
+<!ENTITY torsettings.copyLog "複製 Tor 記錄到剪貼簿">
 <!ENTITY torsettings.bridgeHelpTitle "橋接中繼說明">
-<!ENTITY torsettings.bridgeHelp1 "若您無法連接到Tor網路，也可能是您的網際網路服務提供者(ISP)或其他機構封鎖Tor&amp;#160。通常情況下，你可以透過使用Tor橋接隱藏中繼以防止封鎖，解決這個問題。">
-<!ENTITY torsettings.bridgeHelp2 "要取得一些橋接中繼，請使用網路瀏覽器參訪以下頁面：https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "查找公眾橋接地址的另一種方式是發送郵件到bridges@torproject.org'橋接'本身在信內的訊息&amp;#160。然而，為了使攻擊者更難取得更多橋接地址，您必須從一個電子郵件地址發送此請求於以下網域：gmail.com或yahoo.com之一。">
-<!ENTITY torsettings.bridgeHelp4 "您也可以藉由透過發送於下列電子郵件以請求橋接中繼
-help@rt.torproject.org。">
+<!ENTITY torsettings.bridgeHelp1 "若您無法連接到 Tor 網路，可能是您的網際網路服務提供者 (ISP) 或其他機構已封鎖 Tor。&amp;#160; 通常你可以使用更難以封鎖之隱藏中繼的 Tor 橋接來解決問題。">
+<!ENTITY torsettings.bridgeHelp2 "要取得一些橋接中繼，請使用網路瀏覽器開啟以下頁面： https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3 "尋找公眾橋接位址的另一種方式，是發送郵件到 bridges@torproject.org，並在內文中包含 「get bridges」的訊息。&amp;#160; 然而，為了使攻擊者更難以紀錄更多橋接位址，您必須使用 gmail.com 或 yahoo.com 的信箱來發送此一郵件。">
+<!ENTITY torsettings.bridgeHelp4 "您也可以發送電子郵件至下列地址來索取橋接中繼： help@rt.torproject.org。">
