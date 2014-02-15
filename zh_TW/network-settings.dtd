@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "複製 Tor 記錄到剪貼簿">
 <!ENTITY torsettings.bridgeHelpTitle "橋接中繼說明">
-<!ENTITY torsettings.bridgeHelp1 "若您無法連接到 Tor 網路，可能是您的網際網路服務提供者 (ISP) 或其他機構已封鎖 Tor。&amp;#160; 通常你可以使用更難以封鎖之隱藏中繼的 Tor 橋接來解決問題。">
-<!ENTITY torsettings.bridgeHelp2 "要取得一些橋接中繼，請使用網路瀏覽器開啟以下頁面： https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "尋找公眾橋接位址的另一種方式，是發送郵件到 bridges@torproject.org，並在內文中包含 「get bridges」的訊息。&amp;#160; 然而，為了使攻擊者更難以紀錄更多橋接位址，您必須使用 gmail.com 或 yahoo.com 的信箱來發送此一郵件。">
-<!ENTITY torsettings.bridgeHelp4 "您也可以發送電子郵件至下列地址來索取橋接中繼： help@rt.torproject.org。">
+<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
+<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
+<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">

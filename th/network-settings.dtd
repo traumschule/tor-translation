@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "คัดลอกปูม Tor ไปที่คลิปบอร์ด">
 <!ENTITY torsettings.bridgeHelpTitle "การช่วยเหลือรีเลย์สะพาน">
-<!ENTITY torsettings.bridgeHelp1 "ถ้าคุณไม่สามารถเชื่อมต่อกับเครือข่าย Tor ได้ เป็นไปได้ที่ผู้ให้บริการอินเทอร์เน็ต(ไอเอสพี)  หรือหน่วยงานอื่นกำลังบล็อคTorอยู่ หลายครั้งคุณสามารถแก้ปัญหานี้ได้ด้วยการใข้สะพาน Tor ซึ่งเป็นรีเลย์ซ่อนที่บล็อคได้ยากกว่า">
-<!ENTITY torsettings.bridgeHelp2 "เพื่อทราบถึงรีเลย์สะพานบางตัว ใช้เว็บเบราว์เซอร์ดูหน้านี้ https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "อีกวิธีที่จะหาที่อยู่สะพานรีเลย์ก็คือการส่งเมล์ไปหา bridges@torproject.org พร้อมกับคำว่า 'get bridges' ในข้อความ อย่างไรก็ตามคุณต้องส่งเมล์จากที่อยู่อีเมล์ของ gmail.com หรือ yahoo.com เท่านั้นเพื่อที่จะทำให้ยากที่จะให้ผู้โจมตีหาสะพานรีเลย์จำนวนมาก">
-<!ENTITY torsettings.bridgeHelp4 "คุณสามารถขอสะพานรีเลย์ได้จากการส่งเมล์ไปหา help@rt.torproject.org">
+<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
+<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
+<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">

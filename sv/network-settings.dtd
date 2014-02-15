@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Kopiera Tor loggen till urklippet">
 <!ENTITY torsettings.bridgeHelpTitle "Hjälp om bryggor">
-<!ENTITY torsettings.bridgeHelp1 "Om du inte kan ansluta till Tor nätverket är det möjligt att din internetleverantör eller någon annan statlig byrå blockerar Tor.&amp;#160; Ofta kan detta problem kringgås genom att använda Tor bryggor, vilket är dolda Tor routrar som är svårare att blockera.">
-<!ENTITY torsettings.bridgeHelp2 "För att skaffa några Tor bryggor, använd en webbläsare för att besöka följande sida:  https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Ett annat sätt att hitta publika bryggadresser är genom att maila bridges@torproject.org med endast raden 'get bridges' skrivet i meddelandet.&amp;#160; Emellertid, för att försvåra för angripare att lära sig massor med bryggadresser, måste du skicka denna förfrågan från en e-post adress som slutar på något av följande ändelser: gmail.com eller yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "Du kan också be om att få Tor bryggor genom att maila help@rt.torproject.org (fördelaktigen på engelska).">
+<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
+<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
+<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">

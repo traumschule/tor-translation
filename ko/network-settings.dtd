@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Tor log를 클립보드에 복사하기">
 <!ENTITY torsettings.bridgeHelpTitle "브릿지 중계 서버 도움말">
-<!ENTITY torsettings.bridgeHelp1 "Tor 네트워크에 접속할 수 없는 경우, 귀하의 인터넷 서비스 프로바이더(ISP)나 다른 대리점이 Tor를 차단하고 있을 가능성이 있습니다.&amp;#160; 그럴 때는 숨겨진 중제 서버를 통해 Tor 브릿지를 사용함으로써 이 문제를 해결할 수도 있습니다.">
-<!ENTITY torsettings.bridgeHelp2 "브릿지 중계 서버를 얻으시려면 다음 주소를 방문하십시오. - https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "공개 브릿지 주소를 찾는 또 하나의 방법은 본문에&lt;b&gt;get bridges&lt;/b&gt;라고 적은 E-mail을 bridges@torproject.org 앞으로 보내는 것입니다.&amp;#160; 그러나 공격자가 많은 브리지 주소 수집하는 것을 어렵게 하기 위해 당신은 gmail.com, yahoo.com도메인의 어느 쪽에서든 이&lt;리퀘스트를 보내야 합니다.">
-<!ENTITY torsettings.bridgeHelp4 "You can also request bridge relays by sending mail to help@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
+<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
+<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
