@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Copier le journal des messages de Tor dans le presse-papier">
 <!ENTITY torsettings.bridgeHelpTitle "Aide pour les bridges">
-<!ENTITY torsettings.bridgeHelp1 "S'il est impossible de se connecter au réseau Tor, cela peut être le signe que votre Fournisseur d'Accès à Internet (FAI) ou une autre entité bloque Tor. La plupart du temps, vous pouvez contourner ce problème en utilisant les « bridges » Tor. Ce sont des relais cachés qui sont plus difficiles à bloquer.">
-<!ENTITY torsettings.bridgeHelp2 "Pour obtenir des adresses de bridges, utilisez un navigateur web pour aller sur la page : https://bridges.torproject.org/">
-<!ENTITY torsettings.bridgeHelp3 "Une autre manière de trouver des adresses de bridges publics est d'envoyer un mail à bridges@torproject.org avec la ligne &quot;get bridges&quot; dans le corps de l'email. Toutefois, pour que cela soit plus difficile pour un attaquant de découvrir beaucoup d'adresses, les demandes doivent provenir d'une adresse email appartenant à l'un des domaines suivants : gmail.com ou yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "Vous pouvez également demander des adresses de bridges en écrivant à help-fr@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp1 "Si vous ne pouvez pas vous connecter au réseau Tor, il se pourrait que votre fournisseur d'accès à Internet (FAI) ou une autre agence bloque le Tor.&amp;#160; Souvent, vous pouvez contourner ce problème en utilisant des ponts Tor, qui sont des relais non listés qui sont plus difficiles à bloquer.">
+<!ENTITY torsettings.bridgeHelp1B "Voici trois façons d'obtenir des adresses de pont :">
+<!ENTITY torsettings.bridgeHelp2Heading "Par le Web">
+<!ENTITY torsettings.bridgeHelp2 "Utilisez un navigateur web pour visiter https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Par l'auto-répondeur de courrier électronique">
+<!ENTITY torsettings.bridgeHelp3 "Envoyer un email à bridges@torproject.org avec la ligne 'get bridges' en elle-même obtiennent dans le corps du message.&amp;#160; Cependant, pour rendre plus difficile à un attaquant d'apprendre beaucoup d'adresses de pont, vous devez envoyer cette demande depuis une adresse électronique gmail.com ou yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4Heading "Par le bureau d'aide">
+<!ENTITY torsettings.bridgeHelp4 "En dernier ressort, vous pouvez demander des adresses de pont en envoyant un message électronique poli à help@rt.torproject.org.&amp;#160; Veuillez noter qu'une personne devra répondre à chaque demande.">
