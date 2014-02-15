@@ -54,6 +54,6 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Из Веб">
 <!ENTITY torsettings.bridgeHelp2 "Откройте в веб-браузере https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Через автоответчик электронной почты">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp3 "Отправьте письмо по адресу bridges@torproject.org со строкой 'get bridges' в теле сообщения.&amp;#160; Однако чтобы усложнить сбор атакующими адресов всех мостов, от Вас требуется отправить запрос с адреса gmail.com или yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4Heading "В справочной службе">
+<!ENTITY torsettings.bridgeHelp4 "В крайнем случае, Вы можете вежливо попросить адреса мостов по адресу help@rt.torproject.org.&amp;#160; Пожалуйста, имейте в виду, что каждый запрос обрабатывается человеком.">
