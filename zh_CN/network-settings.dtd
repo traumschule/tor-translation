@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "请将 Tor 日志复制到剪贴板">
 <!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
-<!ENTITY torsettings.bridgeHelp1 "如果无法连接 Tor 网络，可能是因为互联网服务提供商 (ISP) 封锁了 Tor。通常，利用更难以封锁的隐藏中继 Tor 网桥可以应对这一问题。">
-<!ENTITY torsettings.bridgeHelp2 "如需获取网桥，请使用浏览器访问以下页面：https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "获取公共网桥地址还有一个方式：发送邮件至 bridges@torproject.org，并在正文中填上“get bridges”。不过，为了防止攻击者获得大量网桥地址，发送邮件的电子邮件地址必须来自以下域名：gmail.com 或 yahoo.com。">
-<!ENTITY torsettings.bridgeHelp4 "另外，还可以发送电子邮件至 help@rt.torproject.org 来获取网桥中继。">
+<!ENTITY torsettings.bridgeHelp1 "如果您无法连接到 Tor 网络，可能是您的互联网服务提供商 (ISP) 或其他机构在阻挡 Tor。&amp;#160; 通常来说，你可以使用 Tor 网桥解决此问题，因为它们是未公开的中继点，更不容易被封锁。">
+<!ENTITY torsettings.bridgeHelp1B "这里有几种获取网桥地址的方法：">
+<!ENTITY torsettings.bridgeHelp2Heading "通过万维网">
+<!ENTITY torsettings.bridgeHelp2 "使用网页浏览器访问 https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "通过电子邮件自动回复系统">
+<!ENTITY torsettings.bridgeHelp3 "发送邮件到 bridges@torproject.org，邮件正文须包含 get bridges 行。&amp;#160; 然而，这也可能致使攻击者获知大量网桥地址，所以你必须从 gmail.com 或者 yahoo.com 的电子邮件地址发送这一请求。">
+<!ENTITY torsettings.bridgeHelp4Heading "通过帮助台">
+<!ENTITY torsettings.bridgeHelp4 "作为最后的手段，你可以写一封礼貌的邮件发送到 help@rt.torproject.org 以请求网桥地址。&amp;#160; 请注意，每个请求需要人工响应。">
