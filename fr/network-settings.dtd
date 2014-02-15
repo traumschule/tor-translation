@@ -49,7 +49,7 @@
 
 <!ENTITY torsettings.copyLog "Copier le journal des messages de Tor dans le presse-papier">
 <!ENTITY torsettings.bridgeHelpTitle "Aide pour les bridges">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1 "Si vous ne pouvez pas vous connecter au réseau Tor, il se pourrait que votre fournisseur d'accès à Internet (FAI) ou une autre agence bloque le Tor.&amp;#160; Souvent, vous pouvez contourner ce problème en utilisant des ponts Tor, qui sont des relais non listés qui sont plus difficiles à bloquer.">
 <!ENTITY torsettings.bridgeHelp1B "Voici trois façons d'obtenir des adresses de pont :">
 <!ENTITY torsettings.bridgeHelp2Heading "Par le Web">
 <!ENTITY torsettings.bridgeHelp2 "Utilisez un navigateur web pour visiter https://bridges.torproject.org">
