@@ -49,11 +49,11 @@
 
 <!ENTITY torsettings.copyLog "请将 Tor 日志复制到剪贴板">
 <!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp1 "如果您无法连接到 Tor 网络，可能是您的互联网服务提供商 (ISP) 或其他机构在阻挡 Tor。&amp;#160; 通常来说，你可以使用 Tor 网桥解决此问题，因为它们是未公开的中继点，更不容易被封锁。">
+<!ENTITY torsettings.bridgeHelp1B "这里有几种获取网桥地址的方法：">
+<!ENTITY torsettings.bridgeHelp2Heading "通过万维网">
+<!ENTITY torsettings.bridgeHelp2 "使用网页浏览器访问 https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "通过电子邮件自动回复系统">
+<!ENTITY torsettings.bridgeHelp3 "发送邮件到 bridges@torproject.org，邮件正文须包含 get bridges 行。&amp;#160; 然而，这也可能致使攻击者获知大量网桥地址，所以你必须从 gmail.com 或者 yahoo.com 的电子邮件地址发送这一请求。">
+<!ENTITY torsettings.bridgeHelp4Heading "通过帮助台">
+<!ENTITY torsettings.bridgeHelp4 "作为最后的手段，你可以写一封礼貌的邮件发送到 help@rt.torproject.org 以请求网桥地址。&amp;#160; 请注意，每个请求需要人工响应。">
