@@ -54,6 +54,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Mediante la web">
 <!ENTITY torsettings.bridgeHelp2 "Use un navegador web para visitar https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Mediante el correo electrónico automático">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp3 "Envíe un correo a bridges@torproject.org con la línea 'get bridges' por si misma en el cuerpo del mensaje.&amp;#160; Sin embargo, para hacer más difícil a un atacante aprender muchas direcciones de puentes, ha de enviar esta solicitud desde una dirección de correo de gmail.com o yahoo.com que facilitan comprobaciones de suplantación.">
+<!ENTITY torsettings.bridgeHelp4Heading "Mediante el gabinete de ayuda">
+<!ENTITY torsettings.bridgeHelp4 "Como último recurso, puede pedir direcciones de repetidores puente enviando un cortés mensaje de correo a help@rt.torproject.org .&amp;#160;
+Por favor observe que es una persona la que tendrá que responder a cada petición.">
