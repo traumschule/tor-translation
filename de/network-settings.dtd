@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Was beschreibt Ihre Situation am besten?">
 <!ENTITY torSettings.configurePrompt1 "Die Internetverbindung dieses Rechner ist zensiert, gefiltert oder vermittelt.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "Ich muss die Einstellungen der Brücke, der Firewall oder des Vermittlungsservers einstellen.">
 <!ENTITY torSettings.configure "Konfigurieren">
 <!ENTITY torSettings.connectPrompt2 "Ich würde gerne direkt eine Verbindung zum Tor-Netzwerk herstellen.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Das wird in den meisten Situationen funktionieren.">
 <!ENTITY torSettings.connect "Verbinden">
 
 <!ENTITY torSettings.proxyQuestion "Benötigt dieser Rechner einen Vermittlungsserver um eine Verbindung zum Internet herzustellen?">
@@ -50,10 +50,10 @@
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp1B "Hier sind drei Möglichkeiten, Brückenadressen zu erhalten:">
+<!ENTITY torsettings.bridgeHelp2Heading "Durch das Internet">
+<!ENTITY torsettings.bridgeHelp2 "Benutzen Sie einen Browser und besuchen Sie https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Durch die automatische E-Mail-Antwort">
 <!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.bridgeHelp4Heading "Durch die Beratungsstelle">
 <!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
