@@ -15,26 +15,26 @@
     <h2 id="how-to-download-tor">Як завантажити Tor</h2>
     <p>The bundle we recommend to most users is the <a href="https://www.torproject.org/projects/torbrowser.html">Tor Browser Bundle</a>. This bundle contains a browser preconfigured to safely browse the Internet through Tor, and requires no installation. You download the bundle, extract the archive, and start Tor.</p>
     <p>There are two different ways to get hold of the Tor software. You can either browse to the <a href="https://www.torproject.org/">Tor Project website</a> and download it there, or you can use GetTor, the email autoresponder.</p>
-    <h3 id="how-to-get-tor-via-email">How to get Tor via email</h3>
+    <h3 id="how-to-get-tor-via-email">Як отримати Tor через електронну пошту</h3>
     <p>To receive the English Tor Browser Bundle for Windows, send an email to gettor@torproject.org with <strong>windows</strong> in the body of the message. You can leave the subject blank.</p>
     <p>You can also request the Tor Browser Bundle for Mac OS X (write <strong>macos-i386</strong>), and Linux (write <strong>linux-i386</strong> for 32-bit systems or <strong>linux-x86_64</strong> for 64-bit systems).</p>
     <p>If you want a translated version of Tor, write <strong>help</strong> instead. You will then receive an email with instructions and a list of available languages.</p>
     <p><strong>Note</strong>: The Tor Browser Bundles for Linux and Mac OS X are rather large, and you will not be able to receive any of these bundles with a Gmail, Hotmail or Yahoo account. If you cannot receive the bundle you want, send an email to help@rt.torproject.org and we will give you a list of website mirrors to use.</p>
-    <h3 id="tor-for-smartphones">Tor for smartphones</h3>
+    <h3 id="tor-for-smartphones">Tor для смартфонів</h3>
     <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
     <p>У нас також є тестові пакети для <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
-    <h3 id="how-to-verify-that-you-have-the-right-version">How to verify that you have the right version</h3>
+    <h3 id="how-to-verify-that-you-have-the-right-version">Як перевірити, що Ви маєте правильну версію</h3>
     <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Before you can verify the signature, you will have to download and install GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Більшість Linux дистрибутивів включає попередньо встановлений GnuPG.</p>
     <p>Please note that you may need to edit the paths and the commands used below to get it to work on your system.</p>
-    <p>Erinn Clark signs the Tor Browser Bundles with key 0x63FEE659. To import Erinn's key, run:</p>
+    <p>Ерін Кларк підписує Tor Browser Bundles ключем 0x63FEE659. Для імпортування ключа Еріна запустіть:</p>
     <pre>
-      <code>gpg --keyserver hkp://keys.gnupg.net  --recv-keys 0x63FEE659
+      <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>After importing the key, verify that the fingerprint is correct:</p>
+    <p>Після імпортування ключа, перевірте, що відбитки пальців правильні:</p>
     <pre>
       <code>gpg --fingerprint 0x63FEE659
 </code>
@@ -58,7 +58,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p>The output should say <em>"Good signature"</em>. A bad signature means that the file may have been tampered with. If you see a bad signature, send details about where you downloaded the package from, how you verified the signature, and the output from GnuPG in an email to help@rt.torproject.org.</p>
     <p>Once you have verified the signature and seen the <em>"Good signature"</em> output, go ahead and extract the package archive. You should then see a directory similar to <strong>tor-browser_en-US</strong>. Inside that directory is another directory called <strong>Docs</strong>, which contains a file called <strong>changelog</strong>. You want to make sure that the version number on the top line of the changelog file matches the version number in the filename.</p>
     <h3 id="how-to-use-the-tor-browser-bundle">Як використовувати Tor Browser Bundle</h3>
-    <p>After downloading the Tor Browser Bundle and extracting the package, you should have a directory with a few files in it. One of the files is an executable called "Start Tor Browser" (or "start-tor-browser", depending on your operating system).</p>
+    <p>Після завантаження Tor Browser Bundle і розпакування пакету, у Вас з'явиться директорія з декількома файлами всередині. Один з файлів є виконуваним і називається "Start Tor Browser" (або "start-tor-browser", в залежності від Вашої операційної системи).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
       <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
@@ -80,7 +80,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p>If using a bridge does not work, try configuring Tor to use any HTTPS or SOCKS proxy to get access to the Tor network. This means even if Tor is blocked by your local network, open proxies can be safely used to connect to the Tor Network and on to the uncensored Internet.</p>
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
-      <li>Open the Vidalia control panel, click on <em>Settings</em>.</li>
+      <li>Відкрийте панель налаштувань Vidalia, натисніть <em>Налаштування</em>.</li>
       <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
       <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
       <li>Введіть порт proxy.</li>
@@ -97,35 +97,35 @@ sub 2048R/EB399FD7 2003-10-16
     <ol style="list-style-type: decimal">
       <li>Відкрити <em>Мій комп'ютер</em></li>
       <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
+      <li>Натисніть на вкладку <em>Перегляд</em></li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li>Відкрити <em>Мій комп'ютер</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
+      <li>Натисніть на <em>Організувати</em> і оберіть у меню <em>Директорію і налаштування пошуку</em></li>
+      <li>Натисніть на вкладку <em>Перегляд</em></li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li>Відкрити <em>Мій комп'ютер</em></li>
-      <li>Click on <em>Organize</em> and choose <em>Folder and search options</em> in the menu</li>
-      <li>Click on the <em>View</em> tab</li>
+      <li>Натисніть на <em>Організувати</em> і оберіть у меню <em>Директорію і налаштування пошуку</em></li>
+      <li>Натисніть на вкладку <em>Перегляд</em></li>
       <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia просить пароль</h3>
     <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
-    <p>For more information, see the <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> on the Tor Project website.</p>
+    <p>Для отримання додаткової інформації, перегляньте <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> на сторінці Tor Project.</p>
     <h3 id="flash-does-not-work">Flash не працює</h3>
     <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
     <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
     <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
-    <p>Please see the <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> for more information.</p>
+    <p>Будь-ласка, перегляньте <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> для отримання додаткової інформації.</p>
     <h3 id="i-want-to-use-another-browser">Я хочу використовувати інший браузер</h3>
-    <p>For security reasons, we recommend that you only browse the web through Tor using the Tor Browser Bundle. It is technically possible to use Tor with other browsers, but by doing so you open yourself up to potential attacks.</p>
+    <p>У цілях безпеки, ми рекомендуємо Вам переглядати веб-сторінки тільки через Tor з використанням Tor Browser Bundle. Технічно можливо використовувати Tor з іншими браузерами, проте роблячи це, Ви наражаєтесь на потенційні атаки.</p>
     <h3 id="why-tor-is-slow">Чому Tor повільний</h3>
     <p>Tor іноді може бути дещо повільнішим, ніж звичайне інтернет-з'єднання. Адже Ваш трафік передається через багато різних країн по всьому світу!</p>
   </body>
