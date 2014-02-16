@@ -49,11 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Copiar el registro de mensajes ('log') de Tor al portapapeles">
 <!ENTITY torsettings.bridgeHelpTitle "Ayuda de Repetidores Puente ('Bridge Relays')">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp1 "Si no puede conectar a la red Tor, podría ser que su proveedor de servicios de Internet (ISP) u otra agencia, esté bloqueando Tor.&amp;#160; A menudo, puede evitar este problema usando puentes ('bridges') de Tor, que son repetidores ('relays') de salida de la red Tor que no son publicitados, y es más difícil que sean bloqueados.">
+<!ENTITY torsettings.bridgeHelp1B "Aquí tiene tres formas de obtener direcciones de repetidores puente:">
+<!ENTITY torsettings.bridgeHelp2Heading "Mediante la web">
+<!ENTITY torsettings.bridgeHelp2 "Use un navegador web para visitar https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Mediante el correo electrónico automático">
 <!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
 <!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
 <!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
