@@ -49,12 +49,13 @@
 
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relé Hjelp">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp1 "Hvis du ikke får koblet til Tor-nettverket, kan det være at internettleverandøren din (ISP), eller et annet byrå/institusjon/etat blokkerer Tor.&amp;#160; Som regel kan du omgå dette problemet ved å bruke Tor-broer, som er ulistede reléer og derfor vanskeligere å blokkere.">
+<!ENTITY torsettings.bridgeHelp1B "Her er tre måter du kan skaffe bro-adresser på:">
 <!ENTITY torsettings.bridgeHelp2Heading "Via nettet">
 <!ENTITY torsettings.bridgeHelp2 "Bruk en nettleser for å besøke https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via e-post autosvar">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
+<!ENTITY torsettings.bridgeHelp3 "Send e-post til bridges@torproject.org med tekstlinjen 'get bridges' som eneste innhold i e-posten.&amp;#160; 
+Men, for å gjøre det vanskeligere for en angriper å lære seg en masse bro-adresser, må du sende denne forespørselen fra en gmail.com eller yahoo.com adresse.">
 <!ENTITY torsettings.bridgeHelp4Heading "Via supporten">
 <!ENTITY torsettings.bridgeHelp4 "Som en siste utvei, kan du be om bro-adresser ved å sende en høflig e-post til help@rt.torproject.org.&amp;#160; 
 Tenk over at en person må svare på hver slik forespørsel.">
