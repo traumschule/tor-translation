@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Was beschreibt Ihre Situation am besten?">
 <!ENTITY torSettings.configurePrompt1 "Die Internetverbindung dieses Rechner ist zensiert, gefiltert oder vermittelt.">
-<!ENTITY torSettings.configurePrompt2 "Ich muss die Netzwerkeinstellungen konfigurieren.">
+<!ENTITY torSettings.configurePrompt2 "Ich muss die Einstellungen der Brücke, der Firewall oder des Vermittlungsservers einstellen.">
 <!ENTITY torSettings.configure "Konfigurieren">
-<!ENTITY torSettings.connectPrompt1 "Die Internetverbindung dieses Rechners ist frei von Hindernissen.">
 <!ENTITY torSettings.connectPrompt2 "Ich würde gerne direkt eine Verbindung zum Tor-Netzwerk herstellen.">
+<!ENTITY torSettings.connectPrompt3 "Das wird in den meisten Situationen funktionieren.">
 <!ENTITY torSettings.connect "Verbinden">
 
 <!ENTITY torSettings.proxyQuestion "Benötigt dieser Rechner einen Vermittlungsserver um eine Verbindung zum Internet herzustellen?">
@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
-<!ENTITY torsettings.bridgeHelp1 "Sollten Sie sich nicht mit dem Tor-Netzwerk verbinden können, ist es möglich, dass Ihr Internetdienstanbieter (ISP) oder eine andere Organisation, Tor blockiert.&amp;#160; Dieses Problem kann meist mit der Benutzung von Torbrücke umgangen werden, dieses sind versteckte Relais und damit schwerer zu blocken.">
-<!ENTITY torsettings.bridgeHelp2 "Um einige Brückenrelais zu erhalten, besuchen Sie mit einem Web-Browser folgende Seite: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Eine andere Möglichkeit öffentliche Brücken zu finden ist, eine E-Mail mit dem Inhalt »get bridges« an bridges@torproject.org zu schicken.&amp;#160; Allerdings muss diese E-Mail, um es potentiellen Angreifern schwerer zu machen, von einer der folgenden Domains aus geschickt werden: gmail.com oder yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "Brückenrelais können auch mit Hilfe einer E-Mail an help@rt.torproject.org angefordert werden.">
+<!ENTITY torsettings.bridgeHelp1 "Sollten Sie sich nicht mit dem Tor-Netzwerk verbinden können, ist es möglich, dass Ihr Internetdienstanbieter (ISP) oder eine andere Organisation, Tor blockiert.&amp;#160; Dieses Problem kann meist mit der Benutzung von Torbrücken umgangen werden, das sind versteckte Relais und damit schwerer zu blocken.">
+<!ENTITY torsettings.bridgeHelp1B "Hier sind drei Möglichkeiten, Brückenadressen zu erhalten:">
+<!ENTITY torsettings.bridgeHelp2Heading "Durch das Internet">
+<!ENTITY torsettings.bridgeHelp2 "Benutzen Sie einen Browser und besuchen Sie https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Durch die automatische E-Mail-Antwort">
+<!ENTITY torsettings.bridgeHelp3 "Schreiben Sie eine E-Mail an bridges@torproject.org mit dem Nachrichteninhalt »get bridges«.&amp;#160; Doch um es schwieriger für einen Angreifer zu machen, eine Menge von Brückenadressen zu erfahren, müssen Sie diese Anfrage von einer gmail.com oder yahoo.com E-Mail-Adresse schicken.">
+<!ENTITY torsettings.bridgeHelp4Heading "Durch die Beratungsstelle">
+<!ENTITY torsettings.bridgeHelp4 "Brückenrelais können auch mit Hilfe einer E-Mail an help@rt.torproject.org angefordert werden.&amp;#160; Bitte beachten Sie, dass jede Anfrage einzeln bearbeitet werden muss.">
