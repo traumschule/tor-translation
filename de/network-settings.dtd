@@ -49,11 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1 "Sollten Sie sich nicht mit dem Tor-Netzwerk verbinden können, ist es möglich, dass Ihr Internetdienstanbieter (ISP) oder eine andere Organisation, Tor blockiert.&amp;#160; Dieses Problem kann meist mit der Benutzung von Torbrücken umgangen werden, das sind versteckte Relais und damit schwerer zu blocken.">
 <!ENTITY torsettings.bridgeHelp1B "Hier sind drei Möglichkeiten, Brückenadressen zu erhalten:">
 <!ENTITY torsettings.bridgeHelp2Heading "Durch das Internet">
 <!ENTITY torsettings.bridgeHelp2 "Benutzen Sie einen Browser und besuchen Sie https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Durch die automatische E-Mail-Antwort">
 <!ENTITY torsettings.bridgeHelp3 "Schreiben Sie eine E-Mail an bridges@torproject.org mit dem Nachrichteninhalt »get bridges«.&amp;#160; Doch um es schwieriger für einen Angreifer zu machen, eine Menge von Brückenadressen zu erfahren, müssen Sie diese Anfrage von einer gmail.com oder yahoo.com E-Mail-Adresse schicken.">
 <!ENTITY torsettings.bridgeHelp4Heading "Durch die Beratungsstelle">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4 "Brückenrelais können auch mit Hilfe einer E-Mail an help@rt.torproject.org angefordert werden.&amp;#160; Bitte beachten Sie, dass jede Anfrage einzeln bearbeitet werden muss.">
