@@ -9,7 +9,7 @@
 
 <!ENTITY torSettings.firstQuestion "Hurrengoetako zeinek deskribatzen du zure egoera hobekien?">
 <!ENTITY torSettings.configurePrompt1 "Ordenagailu honen Interneteko konexioa zentsuratuta, iragazita, edo proxyatuta dago.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "Zubi, sueten, edo proxy ezarpenak konfiguratu behar ditut.">
 <!ENTITY torSettings.configure "Konfiguratu">
 <!ENTITY torSettings.connectPrompt2 "Tor sarera zuzenean konektatu nahiko nuke.">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
