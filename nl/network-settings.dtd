@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Welke van de volgende beschrijft het best jouw situatie?">
 <!ENTITY torSettings.configurePrompt1 "De internetverbinding van deze computer wordt gecensureerd, gefilterd of geproxyed.">
-<!ENTITY torSettings.configurePrompt2 "Ik moet netwerkinstellingen configureren.">
+<!ENTITY torSettings.configurePrompt2 "Ik moet bridge, firewall, of proxy instellingen wijzigen.">
 <!ENTITY torSettings.configure "Configureer">
-<!ENTITY torSettings.connectPrompt1 "De internetverbinding van deze computer is vrij van obstakels.">
 <!ENTITY torSettings.connectPrompt2 "Ik zou graag rechtstreeks met het Tor netwerk verbinden.">
+<!ENTITY torSettings.connectPrompt3 "Dit zal in de meeste omstandigheden werken">
 <!ENTITY torSettings.connect "Verbind">
 
 <!ENTITY torSettings.proxyQuestion "Heeft deze computer een proxy nodig om met het internet te verbinden?">
@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Kopieer Tor log naar het klembord">
 <!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Hulp">
-<!ENTITY torsettings.bridgeHelp1 "Als je niet kan verbinden met het Tor netwerk, dan is het mogelijk dat je Internet Service Provider (ISP) of en ander agentschap Tor &amp;#160; blokkeert. Vaak kan je dit probleem omzeilen door gebruik te maken van Tor Bridges. Dit zijn verborgen relays die moeilijker te blokkeren zijn.">
-<!ENTITY torsettings.bridgeHelp2 "Om enkele bridge relays te verkrijgen gebruik je een web browser om de volgende pagina te bezoeken: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Een andere manier om openbare bridge addressen te verkrijgen is door e-mail te sturen naar bridges@torproject.org met de woorden 'get bridges' als losstaande tekst in het berichtgedeelte van de e-mail. &amp;#160; Echter: om het moelijker te maken voor een aanvaller om veel bridge adressen te verkrijgen, moet je deze e-mail versturen vanaf een e-mailadres uit één van de volgende domeinen: gmail.com of yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "Je kan ook bridge relays opvragen door een e-mail te sturen naar help@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp1 "Indien u geen verbinding kan maken met het Tor netwerk, zou het kunnen dat uw Internet Service Provider (ISP) of dergelijke Tor blokkeert.&amp;#160; Vaak kan u dit voorkomen door gebruikt te maken van Tor Bridges, dit zijn ongeregistreerde routers die moeilijker te blokkeren zijn.">
+<!ENTITY torsettings.bridgeHelp1B "Hier zijn drie manieren om birdge adressen te verkrijgen:">
+<!ENTITY torsettings.bridgeHelp2Heading "Door middel van het Web">
+<!ENTITY torsettings.bridgeHelp2 "Gebruik een browser om https://bridges.torproject.org te bezoeken">
+<!ENTITY torsettings.bridgeHelp3Heading "Door middel van de E-mail Autoresponder">
+<!ENTITY torsettings.bridgeHelp3 "Zend een e-mail naar bridges@torproject.org met als inhoud van de mail de tekst 'get bridges'.&amp;#160; Let wel, om het aanvallers te bemoeilijken informatie te krijgen over bridge adressen, dient u uw aanvraag te versturen van een gmail.com of yahoo.com e-mailadres.">
+<!ENTITY torsettings.bridgeHelp4Heading "Door middel van de helpdesk">
+<!ENTITY torsettings.bridgeHelp4 "Als laatste redmiddel, kan u bridge adressen aanvraag door een zeer vriendelijke e-mail te sturen naar help@rt.torproject.org.&amp;#160; Houd er wel rekening mee dat deze persoon elke aanvraag moet behandelen.">
