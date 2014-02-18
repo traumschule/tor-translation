@@ -53,7 +53,7 @@
 <!ENTITY torsettings.bridgeHelp1B "នេះ​ជា​វិធី​បី​យ៉ាង ដើម្បី​ទទួល​អាសយដ្ឋាន​ប៊្រីត៖">
 <!ENTITY torsettings.bridgeHelp2Heading "តាម​រយៈ​បណ្ដាញ">
 <!ENTITY torsettings.bridgeHelp2 "ប្រើ​កម្មវិធីរុករកបណ្ដាញ ដើម្បីមើល https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp3Heading "តាមរយៈ​ការឆ្លើយតប​ដោយ​ស្វ័យ​ប្រវត្តិ​របស់​អ៊ីមែល">
+<!ENTITY torsettings.bridgeHelp3 "ផ្ញើ​អ៊ីមែល​ទៅ bridges@torproject.org ដោយ​មាន​ឃ្លា 'get bridges' ដោយ​ខ្លួន​វា​ក្នុង​តួ​សារ។&amp;#160; ទោះ​ជា​យ៉ាង​ណា​ក៏​ដោយ ដើម្បី​ធ្វើ​ឲ្យ​វា​​កាន់តែ​ពិបាក​សម្រាប់​អ្នក​វាយ​ប្រហារ ដើម្បី​សិក្សា​ច្រើន​អំពី​អាសយដ្ឋាន​​​ប៊្រីត អ្នក​ត្រូវ​ផ្ញើ​សំណើ​នេះ​ពី​អាសយដ្ឋាន gmail.com ឬ yahoo.com ។">
+<!ENTITY torsettings.bridgeHelp4Heading "តាមរយៈ​ជំនួយ​">
+<!ENTITY torsettings.bridgeHelp4 "នៅ​ជម្រើស​ចុងក្រោយ អ្នក​អាច​ស្នើ​​អាសយដ្ឋាន​ប៊្រីត​ដោយ​ផ្ញើ​សារ​អ៊ីមែល​គួរសម​ទៅ help@rt.torproject.org.&amp;#160; សូម​ចំណាំ​ថា មនុស្ស​​ម្នាក់​នឹង​ត្រូវ​ឆ្លើយតប​ទៅ​សំណើ​នីមួយៗ។">
