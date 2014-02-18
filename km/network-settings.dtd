@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "តើ​ការ​ពណ៌នា​ណា​មួយ​​​ដូច​ខា​ងក្រោម​នេះ​ល្អ​បំផុត​សម្រាប់ស្ថានភាព​របស់​អ្នក?">
 <!ENTITY torSettings.configurePrompt1 "ការ​ភ្ជាប់​អ៊ីនធឺណិត​កុំព្យូទ័រ​នេះ​ត្រូវ​បាន​កែ ច្រោះ ឬ​ដាក់​ប្រូកស៊ី។">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "ខ្ញុំ​ត្រូវ​កំណត់​រចនាសម្ព័ន្ធ​ប្រ៊ីត, ជញ្ជាំង​ភ្លើង ឬ​ការ​កំណត់​ប្រូកស៊ី។">
 <!ENTITY torSettings.configure "កំណត់រចនាសម្ព័ន្ធ">
 <!ENTITY torSettings.connectPrompt2 "ខ្ញុំ​ចង់ភ្ជាប់​ដោយ​ផ្ទាល់ទៅ​បណ្ដាញ Tor ។">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "វា​នឹង​ដំណើរការ​ក្នុងស្ថានភាព​ភាគ​ច្រើន។">
 <!ENTITY torSettings.connect "តភ្ជាប់">
 
 <!ENTITY torSettings.proxyQuestion "តើ​កុំព្យូទ័រ​នេះ​ត្រូវ​ប្រើប្រូកស៊ី ដើម្បី​ចូល​​អ៊ីនធឺណិតឬ?">
@@ -49,10 +49,10 @@
 
 <!ENTITY torsettings.copyLog "ចម្លង​កំណត់ហេតុ Tor ទៅ​ក្ដារ​តម្បៀតខ្ទាស់">
 <!ENTITY torsettings.bridgeHelpTitle "ជំនួយ​បញ្ជូន​ប្រ៊ីត​បន្ត">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp1 "បើ​អ្នក​មិន​អាច​ភ្ជាប់​ទៅបណ្ដាញ Tor វា​អាច​មកពី​ក្រុមហ៊ុន​ផ្ដល់សេវាកម្ម​អ៊ីនធឺណិត (ISP) ឬ​ភ្នាក់ងារ​ផ្សេង​​កំពុង​ទប់ស្កាត់ Tor ។ &amp;#160; ជា​រឿយៗ​អ្នក​អាច​ស្វែងយល់​ពី​បញ្ហា​នេះ ដោយ​ប្រើ​ប៊្រីត Tor ដែល​ត្រូវ​បាន​លាក់​ការ​បញ្ជូន​បន្ត​ដែល​ពិបាក​ទប់ស្កាត់។">
+<!ENTITY torsettings.bridgeHelp1B "នេះ​ជា​វិធី​បី​យ៉ាង ដើម្បី​ទទួល​អាសយដ្ឋាន​ប៊្រីត៖">
+<!ENTITY torsettings.bridgeHelp2Heading "តាម​រយៈ​បណ្ដាញ">
+<!ENTITY torsettings.bridgeHelp2 "ប្រើ​កម្មវិធីរុករកបណ្ដាញ ដើម្បីមើល https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
 <!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
 <!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
