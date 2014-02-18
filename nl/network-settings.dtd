@@ -12,7 +12,7 @@
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Configureer">
 <!ENTITY torSettings.connectPrompt2 "Ik zou graag rechtstreeks met het Tor netwerk verbinden.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Dit zal in de meeste omstandigheden werken">
 <!ENTITY torSettings.connect "Verbind">
 
 <!ENTITY torSettings.proxyQuestion "Heeft deze computer een proxy nodig om met het internet te verbinden?">
@@ -49,10 +49,10 @@
 
 <!ENTITY torsettings.copyLog "Kopieer Tor log naar het klembord">
 <!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Hulp">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp1 "Indien u geen verbinding kan maken met het Tor netwerk, zou het kunnen dat uw Internet Service Provider (ISP) of dergelijke Tor blokkeert.&amp;#160; Vaak kan u dit voorkomen door gebruikt te maken van Tor Bridges, dit zijn ongeregistreerde routers die moeilijker te blokkeren zijn.">
+<!ENTITY torsettings.bridgeHelp1B "Hier zijn drie manieren om birdge adressen te verkrijgen:">
 <!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp2 "Gebruik een browser om https://bridges.torproject.org te bezoeken">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
 <!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
 <!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
