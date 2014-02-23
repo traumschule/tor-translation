@@ -9,10 +9,10 @@
 
 <!ENTITY torSettings.firstQuestion "Hvilke af de følgende beskriver bedst din situation?">
 <!ENTITY torSettings.configurePrompt1 "Denne computers internetforbindelse er censureret, filtreret, eller føres igennem en proxy.">
-<!ENTITY torSettings.configurePrompt2 "Jeg skal konfigurere netværksindstillingerne.">
+<!ENTITY torSettings.configurePrompt2 "Jeg ønsker at konfigurere bro, firewall eller proxy indstillinger">
 <!ENTITY torSettings.configure "Indstil">
-<!ENTITY torSettings.connectPrompt1 "Denne computers internetforbindelse er ryddet for forhindringer.">
 <!ENTITY torSettings.connectPrompt2 "Jeg vil forbinde direkte til Tor netværket.">
+<!ENTITY torSettings.connectPrompt3 "Dette vil virker i de fleste situationer">
 <!ENTITY torSettings.connect "Tilslut">
 
 <!ENTITY torSettings.proxyQuestion "Skal denne computer bruge en proxy for at forbinde til internettet?">
@@ -49,7 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
-<!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan forbinde til Tor-netværket, kunne det være fordi din internetudbyder (ISP) eller en anden part blokerer Tor.&amp;#160; Ofte kan dette omgåes ved at bruge Tor broer, som er skjulte relæer, der er vanskeligere at blokere.">
-<!ENTITY torsettings.bridgeHelp2 "For at få fat i nogle bro-relæer, brug en webbrowser til at besøge følgende hjemmeside: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "En anden måde du kan finde adresser på offentlige bro-relæer er ved at sende en mail til bridges@torproject.org med teksten 'get bridges' i mailens tekst.&amp;#160; For at gøre det sværere for en ondsindet part at få fat i adresserne på mange bro-relæer, skal du sende denne forespørgsel fra en e-mail adresse på en af de følgende domæner: gmail.com eller yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "Du kan også forespørge adresser på bro-relæer ved at sende en mail til help@rt.torproject.org.">
+<!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan forbinde dig til Tor netværket er det muligt at din internet udbyder (ISP) eller anden myndighed blokerer Tor. &amp;#160; Det er ofte muligt at komme rundt om en blokade ved at bruge en Tor bro. En bro er et relæ som ikke er på den offentliggjorte liste og som derfor er sværere at blokkere.">
+<!ENTITY torsettings.bridgeHelp1B "Her er tre måder at få fat på en bro adresse:">
+<!ENTITY torsettings.bridgeHelp2Heading "På nettet">
+<!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske email service">
+<!ENTITY torsettings.bridgeHelp3 "Send en email til bridges@torproject.org kun bestående af linjen 'get bridges' i indholdet.&amp;#160;  For at gøre det sværere at få kendskab til alle bro adresser med henblik på blokering er det kun muligt at sende fra en gmail.com eller yahoo.com email adresse.">
+<!ENTITY torsettings.bridgeHelp4Heading "Via vores Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "Som en sidste mulighed kan du bede om at få en bro adresse tilsendt ved at sende en venlig email to help@rt.torproject.org.&amp;#160; Bemærk venligst at alle emails besvares manuelt.">
