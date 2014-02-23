@@ -9,7 +9,7 @@
 
 <!ENTITY torSettings.firstQuestion "Hvilke af de følgende beskriver bedst din situation?">
 <!ENTITY torSettings.configurePrompt1 "Denne computers internetforbindelse er censureret, filtreret, eller føres igennem en proxy.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "Jeg ønsker at konfigurere bro, firewall eller proxy indstillinger">
 <!ENTITY torSettings.configure "Indstil">
 <!ENTITY torSettings.connectPrompt2 "Jeg vil forbinde direkte til Tor netværket.">
 <!ENTITY torSettings.connectPrompt3 "Dette vil virker i de fleste situationer">
@@ -51,7 +51,7 @@
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan forbinde dig til Tor netværket er det muligt at din internet udbyder (ISP) eller anden myndighed blokerer Tor. &amp;#160; Det er ofte muligt at komme rundt om en blokade ved at bruge en Tor bro. En bro er et relæ som ikke er på den offentliggjorte liste og som derfor er sværere at blokkere.">
 <!ENTITY torsettings.bridgeHelp1B "Her er tre måder at få fat på en bro adresse:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
+<!ENTITY torsettings.bridgeHelp2Heading "På nettet">
 <!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
 <!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
