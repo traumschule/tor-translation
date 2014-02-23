@@ -17,12 +17,12 @@
 
 <!ENTITY torSettings.proxyQuestion "آیا این رایانه برای اتصال به اینترنت نیاز به استفاده از پراکسی دارد؟">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
+<!ENTITY torSettings.proxyHelp "اگر مطمئن نیستید چطور به اسن سوال پاسخ دهید، به تنظیمات سایر مرورگرهای خود نگاهی بیاندازید تا متوجه شوید که آیا باید یک پروکسی استفاده شود یا خیر.">
 <!ENTITY torSettings.enterProxy "تنظیمات پراکسی را وارد کنید.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
-<!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
+<!ENTITY torSettings.firewallQuestion "آیا در مسیر ارتباط شما به اینترنت یک فایروال وجود دارد؟ و فقط اجازه اتصال از یک درگاه خاص را می دهد؟">
+<!ENTITY torSettings.firewallHelp "اگر مطمئن نیستید چه جوابی به این سوال دهید، «نه» و یا «خیر» را انتخاب کنید. سپس اگر مشکلی در ارتباط با شبکه تور داشتید، این مورد را تغییر دهید.">
 <!ENTITY torSettings.enterFirewall "یک لیست جداشده با ویرگول از پورت‌هایی که توسط فایروال مجاز هستند.">
-<!ENTITY torSettings.bridgeQuestion "If this computer's Internet connection is censored, you will need to obtain and use bridge relays.&amp;#160; If not, just click Connect.">
+<!ENTITY torSettings.bridgeQuestion "اگر اینترنت شما سانسور شده و فیلتر می شود، شما لازم دارید از «مسیرهای دور زدن فیلتر» استفاده کنید.&amp;#160; اگر نه، کافیست روی «اتصال» و یا «وصل شدن» کلیک کنید.">
 
 <!-- Other: -->
 
@@ -41,7 +41,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "ساکس ۴">
 <!ENTITY torsettings.useProxy.type.socks5 "ساکس ۵">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
+<!ENTITY torsettings.firewall.checkbox "به نظر می رسد شبکه ارتباطی شما به اینترنت، از یک فایروال استفاده می کند. یعنی فقط اجازه اتصال از یک سری درگاه های به خصوص را می دهد.">
 <!ENTITY torsettings.firewall.allowedPorts "پورت های مجاز:">
 <!ENTITY torsettings.useBridges.checkbox "‫سرویس دهنده اینترنت (ISP) من اتصال به شبکه تور را مسدود می‌کند.">
 <!ENTITY torsettings.useBridges.label "یک یا چند پل ارتباطی را وارد نمایید. (در هر خط یکی)">
