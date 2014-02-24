@@ -9,7 +9,7 @@
 
 <!ENTITY torSettings.firstQuestion "کدام یک از موارد زیر وضعیت شما را بهتر بیان می‌کند؟">
 <!ENTITY torSettings.configurePrompt1 "اینترنت استفاده شده در این رایانه ها سانسور شده٫فیلتر شده و یا عبور کرده از روی پراکسی می باشند.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "من نیاز دارم که «پل ها»، «پروکسی» و یا «فایروال» را تنظیم کنم.">
 <!ENTITY torSettings.configure "پیکربندی">
 <!ENTITY torSettings.connectPrompt2 "تمایل دارم مستقیما به شبکه‌ی تور متصل شوم.">
 <!ENTITY torSettings.connectPrompt3 "این در بیشتر مواقع کار خواهد کرد.">
@@ -49,11 +49,12 @@
 
 <!ENTITY torsettings.copyLog "کپی گزارش وقایع تور">
 <!ENTITY torsettings.bridgeHelpTitle "کمک برای پل ارتباطی">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp1 "اگر نمی توانید به شبکه تور متصل شوید، ممکن است به این دلیل باشد که شرکت ارایه کننده اینترنت شما(ISP) و یا سازمان های دیگر شبکه تور را بسته اند.&amp;#160;
+غالباً می توانید این محدودیت را با استفاده از «پل» های تور دور بزنید. پل ها مسیرهای اضافی دور زدن فیلتر هستند که لیست آن در دسترس نیست و فیلتر کردن آن ها بسیار مشکل است.">
+<!ENTITY torsettings.bridgeHelp1B "سه راه برای به دست آوردن پل ها وجود دارد:">
+<!ENTITY torsettings.bridgeHelp2Heading "از طریق اینترنت">
+<!ENTITY torsettings.bridgeHelp2 "با استفاده از یک مرورگر به آدرس https://bridges.torproject.org بروید.">
+<!ENTITY torsettings.bridgeHelp3Heading "از طریق آدرس ایمیل پاسخگوی خودکار">
+<!ENTITY torsettings.bridgeHelp3 "یک ایمیل حاوی عبارت  'get bridges' به آدرس bridges@torproject.org  ارسال کنید.&amp;#160; برای اینکه بتوانیم جلوی فیلتر شدن پل ها را بگیریم، مجبوریم شما را محدود کنیم تا فقط از یک آدرس ایمیل yahoo.com و یا gmail.com درخواست خود را ارسال کنید. لطفاً صبور باشید. از چند دقیقه تا چند ساعت طول خواهد کشید تا به طور خودکار پل ها برای شما ارسال شوند.">
+<!ENTITY torsettings.bridgeHelp4Heading "از طریق واحد کمک رسانی">
+<!ENTITY torsettings.bridgeHelp4 "اگر از طریق هیچ کدام از راه حل های فوق به نتیجه نرسیدید، یک درخواست مودبانه به آدرس help@rt.torproject.org ارسال کنید.&amp;#160; در نظر داشته باشید که یک نفر باید ایمیل شما را بخواند و به آن پاسخ دهد. پس صبور باشید.">
