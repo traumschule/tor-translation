@@ -12,7 +12,7 @@
 <!ENTITY torSettings.configurePrompt2 "Zubi, sueten, edo proxy ezarpenak konfiguratu behar ditut.">
 <!ENTITY torSettings.configure "Konfiguratu">
 <!ENTITY torSettings.connectPrompt2 "Tor sarera zuzenean konektatu nahiko nuke.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Hau egoera gehienetan funtzionatuko du.">
 <!ENTITY torSettings.connect "Konektatu">
 
 <!ENTITY torSettings.proxyQuestion "Ordenagailu honek Internetera sartzeko proxyren bat erabili behar al du?">
@@ -49,11 +49,11 @@
 
 <!ENTITY torsettings.copyLog "Kopiatu Tor erregistroa arbelera">
 <!ENTITY torsettings.bridgeHelpTitle "Zubi errele laguntza">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3 "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&amp;#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from a gmail.com or yahoo.com email address.">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&amp;#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp1 "Tor sarera konektatu ezin bazara, baliteke zure Internet Zerbitzu Hornitzaileak (ISP ingeleraz) edo beste agentziaren batek Tor blokeatzen egotea.&amp;#160; Askotan, arazo honen inguruan Tor zubiak, ezkutatuta dauden eta blokeatzeko zailagoak diren erreleak erabiliz lan egin dezakezu.">
+<!ENTITY torsettings.bridgeHelp1B "Hemen dituzu zubi helbideak eskuratzeko hiru bide:">
+<!ENTITY torsettings.bridgeHelp2Heading "Webean bidez">
+<!ENTITY torsettings.bridgeHelp2 "Erabili ezazu web nabigatzaile bat https://bridges.torproject.org bisitatzeko">
+<!ENTITY torsettings.bridgeHelp3Heading "Email erantzule automatikoaren bidez">
+<!ENTITY torsettings.bridgeHelp3 "Bidali ezazu mezu bat bridges@torproject.org-era mezuaren gorputzean 'get bridges' esaldiarekin.&amp;#160; Hala ere, erasotzaile batentzat zubi helbide asko ikastea zailago izan dadin, eskakizun hau hurrengo domeinuetako eposta helbide batetik bidali behar duzu: gmail.com edo yahoo.com.">
+<!ENTITY torsettings.bridgeHelp4Heading "Laguntza mahaiaren bidez">
+<!ENTITY torsettings.bridgeHelp4 "Azken aukera bezala, zubi erreleak eska ditzakezu mezu adeitsu bat help@rt.torproject.org-era bidaliz.&amp;#160; Mesedez, kontuan izan pertsona batek eskarea bakoitza erantzun beharko duela.">
