@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Apakah koneksi Internet komputer ini melalui firewall yang hanya memperbolehkan koneksi ke port-port tertentu?">
 <!ENTITY torSettings.firewallHelp "Jika anda tidak yakin atas jawaban pertanyaan ini, pilih Tidak. Jika anda mendapatkan masalah dalam menghubungi network Tor, ubah pengaturan ini.">
 <!ENTITY torSettings.enterFirewall "Masukkan port-port (pisahkan dengan koma) yang diperbolehkan oleh firewall.">
-<!ENTITY torSettings.bridgeQuestion "Jika koneksi Internet komputer ini disensor, anda perlu mengumpulkan dan menggunakan bridge relays.&amp;#160; Jika tidak, klik Hubungkan.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Komputer ini pergi melalui firewall yang hanya mengizinkan koneksi untuk beberapa port">
 <!ENTITY torsettings.firewall.allowedPorts "Port yang diizinkan:">
 <!ENTITY torsettings.useBridges.checkbox "Internet Service Provider (ISP) saya memblokir koneksi ke jaringan Tor">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "Masukkan satu atau beberapa jembatan penyambung (satu per baris).">
-<!ENTITY torsettings.useBridges.placeholder "address:port ATAU pindahkan address:port">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Salin Log Tor Ke Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "Bantuan Bridge Relay">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
 <!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">

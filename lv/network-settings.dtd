@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Vai šī datora interneta savienojums iet caur ugunsmūri, kurš atļauj savienojumus tikai ar atsevišķiem portiem?">
 <!ENTITY torSettings.firewallHelp "Ja neesat pārliecināts par pareizo atbildi, izvēlieties atbildi &quot;Nē&quot;. Ja rodas problēmas pievienojoties tīklam Tor, mainiet šo iestatījumu.">
 <!ENTITY torSettings.enterFirewall "Ievadiet ar komatiem atdalītu ugusnmūra atļauto portu sarakstu.">
-<!ENTITY torSettings.bridgeQuestion "Ja šī datora interneta savienojums tiek cenzēts, Jums būs jāiegūst un jāizmanto tiltu releji.&amp;#160; Ja cenzūra netiek veikta, noklikšķiniet Veidot savienojumu.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Šis dators iet caur ugunsmūri, kurš atļauj tikai savienojumus ar noteiktiem portiem.">
 <!ENTITY torsettings.firewall.allowedPorts "Atļautie porti:">
 <!ENTITY torsettings.useBridges.checkbox "Mans interneta pakalpojumu sniedzējs (IPS) bloķē savienojumu izveidošanu ar tīklu Tor">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "Ievadiet vienu vai vairākus tilta retranslatorus (vienu rindā).">
-<!ENTITY torsettings.useBridges.placeholder "adrese:ports VAI transporta adrese:ports">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Kopēt Tor žurnālu starpliktuvē">
 <!ENTITY torsettings.bridgeHelpTitle "Palīdzība par tiltu retranslatoriem">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Šeit ir trīs veidi kā iegūt tilta adreses:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Caur tīmekli">
 <!ENTITY torsettings.bridgeHelp2 "Izmanto pārlūkprogrammu lai apmeklētu https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Caur E-pasta Auto-atbildētāju">

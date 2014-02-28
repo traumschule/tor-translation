@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Går denne computers internetforbindelse igennem en firewall som kun tillader forbindelse til visse porte?">
 <!ENTITY torSettings.firewallHelp "Hvis du ikke er sikker på hvordan du skal svare på dette spørgsmål, vælg Nej. Hvis du løber ind i problemer med at forbinde til Tor netværket, skal du ændre denne indstilling.">
 <!ENTITY torSettings.enterFirewall "Indtast en komma-separeret liste over porte der er tilladt på firewallen.">
-<!ENTITY torSettings.bridgeQuestion "Hvis denne computers internetforbindelse er censureret, skal du få fat i og bruge bro-relæer.&amp;#160; If ikke, klik bare på Forbind.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Denne computer går gennem en firewall som kun tillader forbindelse til specifikke porte">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor netværket">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et per linie)">
-<!ENTITY torsettings.useBridges.placeholder "adresse:port OR transport adresse:port">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan forbinde dig til Tor netværket er det muligt at din internet udbyder (ISP) eller anden myndighed blokerer Tor. &amp;#160; Det er ofte muligt at komme rundt om en blokade ved at bruge en Tor bro. En bro er et relæ som ikke er på den offentliggjorte liste og som derfor er sværere at blokkere.">
-<!ENTITY torsettings.bridgeHelp1B "Her er tre måder at få fat på en bro adresse:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "På nettet">
 <!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske email service">

@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Benutzt die Internetverbindung dieses Rechners eine Firewall, die nur Verbindungen zu bestimmten Anschlüssen zulässt?">
 <!ENTITY torSettings.firewallHelp "Wenn Sie sich nicht sicher sind, wählen Sie Nein. Wenn Sie dann Probleme haben eine Verbindung zum Tor-Netzwerk herzustellen, ändern Sie diese Einstellung.">
 <!ENTITY torSettings.enterFirewall "Geben Sie hier die Anschlüsse ein, die von der Firewall erlaubt werden. Trennen Sie die Anschlüsse jeweils mit einem Komma.">
-<!ENTITY torSettings.bridgeQuestion "Sollte die Internetverbindung dieses Rechners zensiert werden, dann müssen Sie Brückenrelais benutzen.&amp;#160; Falls nicht, klicken Sie einfach auf Verbinden.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Die Verbindung dieses Rechner geht durch eine Firewall, die nur bestimmte Anschlüsse zulässt">
 <!ENTITY torsettings.firewall.allowedPorts "Erlaubte Anschlüsse:">
 <!ENTITY torsettings.useBridges.checkbox "Mein Internetdienstanbieter (ISP) blockiert Verbindungen zum Tor-Netzwerk">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "Ein oder mehrere Brückenrelais eingeben (eins pro Zeile).">
-<!ENTITY torsettings.useBridges.placeholder "Adresse:Anschluss ODER Transportadresse:Anschluss">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
 <!ENTITY torsettings.bridgeHelp1 "Sollten Sie sich nicht mit dem Tor-Netzwerk verbinden können, ist es möglich, dass Ihr Internetdienstanbieter (ISP) oder eine andere Organisation, Tor blockiert.&amp;#160; Dieses Problem kann meist mit der Benutzung von Torbrücken umgangen werden, das sind versteckte Relais und damit schwerer zu blocken.">
-<!ENTITY torsettings.bridgeHelp1B "Hier sind drei Möglichkeiten, Brückenadressen zu erhalten:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Durch das Internet">
 <!ENTITY torsettings.bridgeHelp2 "Benutzen Sie einen Browser und besuchen Sie https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Durch die automatische E-Mail-Antwort">

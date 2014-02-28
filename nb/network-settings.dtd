@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Går denne datamaskinens Internett-tilkobling gjennom en brannmur som kun tillater forbindelser til visse porter?">
 <!ENTITY torSettings.firewallHelp "Hvis du ikke er sikker på hvordan du skal svare på dette spørsmålet, velg nei. Hvis du støter på problemer med å koble til Tor-nettverket, endrer du denne innstillingen.">
 <!ENTITY torSettings.enterFirewall "Skriv inn en liste, adskilt med komma, over porter som er tillatt av brannmuren.">
-<!ENTITY torSettings.bridgeQuestion "Hvis denne datamaskinens Internett-tilkobling er sensurert, vil du trenge å skaffe deg bro-reléer.&amp;#160; Hvis ikke, bare klikk Koble til.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Denne datamaskinen går gjennom en brannmur som kun tillater tilkoblinger til visse porter">
 <!ENTITY torsettings.firewall.allowedPorts "Tillatte Porter:">
 <!ENTITY torsettings.useBridges.checkbox "Min Internettleverandør (ISP) blokkerer tilkoblinger til Tor-nettverket">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "Skriv inn en, eller fler bro-reléer (èn pr linje).">
-<!ENTITY torsettings.useBridges.placeholder "adresse:port, ELLER transport adresse:port">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relé Hjelp">
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke får koblet til Tor-nettverket, kan det være at internettleverandøren din (ISP), eller et annet byrå/institusjon/etat blokkerer Tor.&amp;#160; Som regel kan du omgå dette problemet ved å bruke Tor-broer, som er ulistede reléer og derfor vanskeligere å blokkere.">
-<!ENTITY torsettings.bridgeHelp1B "Her er tre måter du kan skaffe bro-adresser på:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Via nettet">
 <!ENTITY torsettings.bridgeHelp2 "Bruk en nettleser for å besøke https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via e-post autosvar">

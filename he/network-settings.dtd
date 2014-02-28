@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "האם חיבור האינטרנט של מחשב זה עובר דרך חומת אש שרק מאפשר חיבורים ליציאות מסוימות?">
 <!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
 <!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
-<!ENTITY torSettings.bridgeQuestion "המידה וחיבור האינטרנט של מחשב זה הינו מצונזר, יהיה עליך להשיג ולהשתמש בממסרי גשר.&amp;#160; היה ולא, פשוט לחץ על התחבר.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "מחשב זה עובר דרך חומת אש שרק מאפשר חיבורים ליציאות מסוימות">
 <!ENTITY torsettings.firewall.allowedPorts "יציאות מורשות:">
 <!ENTITY torsettings.useBridges.checkbox "ספק האינטרנט שלי (ISP) חוסם חיבורים אל הרשת Tor">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "הקלד אחד או יותר ממסרי גשר (אחד לכל שורה)">
-<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "העתק את יומן Tor אל לוח גזירה">
 <!ENTITY torsettings.bridgeHelpTitle "עזרת ממסר גשר">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "Here are three ways to obtain bridge addresses:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
 <!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">

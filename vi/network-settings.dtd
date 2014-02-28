@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
 <!ENTITY torSettings.firewallHelp "Nếu như bạn không chắc chắn làm thế nào trả lời câu hỏi này, chọn Không. Nếu như bạn gặp vấn đề kết nối đến mạng Tor, thay đổi thiết lập này.">
 <!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
-<!ENTITY torSettings.bridgeQuestion "If this computer's Internet connection is censored, you will need to obtain and use bridge relays.&amp;#160; If not, just click Connect.">
+<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
 <!ENTITY torsettings.firewall.allowedPorts "Những Cổng Được phép:">
 <!ENTITY torsettings.useBridges.checkbox "Nhà cung cấp dịch vụ của tôi (ISP) đã chặn kết nối đến mạng Tor">
+<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
 <!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "address:port OR transport address:port">
+<!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
 <!ENTITY torsettings.bridgeHelp1 "Nếu như bạn không thể kết nối đến mạng Tor, có thể là nhà cung cấp dịch vụ của bạn (ISP) hoặc cơ quan khác đã chặn kết nối đến Tor. Thông thường, bạn có thể giải quyết vấn này bằng cách sử dụng Tor Bridges, các Tor Bridges này sẽ không được liệt kê để làm cho việc ngăn chặn khó khăn hơn.">
-<!ENTITY torsettings.bridgeHelp1B "Ở đây có 3 cách để bạn lấy được địa chỉ cầu nối:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Đi qua Web">
 <!ENTITY torsettings.bridgeHelp2 "Sử dụng trình duyệt web truy cập vào https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
