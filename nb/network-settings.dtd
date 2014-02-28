@@ -22,9 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Går denne datamaskinens Internett-tilkobling gjennom en brannmur som kun tillater forbindelser til visse porter?">
 <!ENTITY torSettings.firewallHelp "Hvis du ikke er sikker på hvordan du skal svare på dette spørsmålet, velg nei. Hvis du støter på problemer med å koble til Tor-nettverket, endrer du denne innstillingen.">
 <!ENTITY torSettings.enterFirewall "Skriv inn en liste, adskilt med komma, over porter som er tillatt av brannmuren.">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeQuestion "Blokkerer eller sensurerer internettleverandøren (ISP) din tilkoblinger til Tor-nettverket?">
 <!ENTITY torSettings.bridgeHelp "Hvis du er usikker på hva du skal svare på dette spørsmålet, velg Nei.&amp;#160; Hvis du velger Ja, vil du bli bedt om å konfigurere Tor-broer, som er ulistede reléer som gjør det vanskeligere å blokkere tilkoblinger til Tor-nettverket.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruke broene som er standard eller du kan skaffe deg egendefinerte broer.">
 
 <!-- Other: -->
 
@@ -46,10 +46,10 @@
 <!ENTITY torsettings.firewall.checkbox "Denne datamaskinen går gjennom en brannmur som kun tillater tilkoblinger til visse porter">
 <!ENTITY torsettings.firewall.allowedPorts "Tillatte Porter:">
 <!ENTITY torsettings.useBridges.checkbox "Min Internettleverandør (ISP) blokkerer tilkoblinger til Tor-nettverket">
-<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
+<!ENTITY torsettings.useBridges.default "Bruk standardbroer av typen">
 <!ENTITY torsettings.useBridges.custom "Bruk egendefinerte broer">
 <!ENTITY torsettings.useBridges.label "Skriv inn en, eller fler bro-reléer (èn pr linje).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "type adresse:port">
 
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relé Hjelp">
