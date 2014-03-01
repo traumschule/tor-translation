@@ -22,9 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "Est-ce que la connexion Internet de cet ordinateur passe par un pare-feu qui n'autorise les connexions que vers certains ports?">
 <!ENTITY torSettings.firewallHelp "Si vous ne savez par comment répondre à cette question, choisissez Non. Si vous éprouvez des difficultés à vous connecter au réseau Tor, changer ce paramètre.">
 <!ENTITY torSettings.enterFirewall "Saisir une liste de ports, séparés par des virgules, qui sont autorisés par le pare-feu.">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
-<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeQuestion "Votre fournisseur de service Internet (FSI) bloque-t-il ou censure-t-il vos connexions au réseau Tor?">
+<!ENTITY torSettings.bridgeHelp "Si vous ne savez pas comment répondre à cette question, choisissez Non.&amp;#160; Si vous choisissez Oui, on vous demandera de configurer les ponts Tor qui sont des relais non listés rendant le bloquage des connexions au réseau Tor plus difficile.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser le jeu de ponts par défaut, ou vous pouvez obtenir et saisir un jeu de ponts personnalisé.">
 
 <!-- Other: -->
 
@@ -46,15 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Cet ordinateur passe par un pare-feu qui n'autorise que les connexions à certains ports">
 <!ENTITY torsettings.firewall.allowedPorts "Ports autorisés :">
 <!ENTITY torsettings.useBridges.checkbox "Mon fournisseur d'accès à Internet (FAI) bloque les connexions au réseau Tor">
-<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
-<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
+<!ENTITY torsettings.useBridges.default "Utiliser les ponts par défaut de type">
+<!ENTITY torsettings.useBridges.custom "Utiliser les ponts personnalisés">
 <!ENTITY torsettings.useBridges.label "Saisir un ou plusieurs relais-ponts (un par ligne).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "type adresse:port">
 
 <!ENTITY torsettings.copyLog "Copier le journal de Tor dans le presse-papier">
 <!ENTITY torsettings.bridgeHelpTitle "Aide pour les relais-ponts">
 <!ENTITY torsettings.bridgeHelp1 "Si vous ne pouvez pas vous connecter au réseau Tor, il se peut que votre fournisseur d'accès à Internet (FAI) ou une autre agence bloque Tor.&amp;#160; Vous pouvez souvent le contourner en utilisant des ponts Tor qui sont des relais non répertoriés, plus difficiles à bloquer.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "Vous pouvez utiliser le jeu par défaut préconfiguré d'adresses de ponts, ou vous pouvez obtenir un jeu personnalisé d'adresses en utilisant une de ces trois méthodes :">
 <!ENTITY torsettings.bridgeHelp2Heading "par le Web">
 <!ENTITY torsettings.bridgeHelp2 "en utilisant un navigateur Web pour visiter https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "par le répondeur automatique de courriel">
