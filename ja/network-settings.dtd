@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "このコンピュータのインターネット接続は特定のポートへの接続のみ許可するファイアーウォールを通しますか？">
 <!ENTITY torSettings.firewallHelp "この質問にどう答えるべきか確信が持てなければ、いいえを選択してください。 Torネットワークへ接続する時に問題に遭遇したなら、この設定を変更してください。">
 <!ENTITY torSettings.enterFirewall "ファイアーウォールによって許可されているポートのコンマ区切りのリストを入力してください。">
-<!ENTITY torSettings.bridgeQuestion "このコンピュータのインターネット接続が検閲されていれば、ブリッジリレーの入手と使用が必要になります。&amp;#160; そうでなければ、接続をクリックするだけで結構です。">
+<!ENTITY torSettings.bridgeQuestion "あなたのインターネットサービスプロバイダー (ISP) は Tor ネットワークへの接続をブロックしているか、あるいは別のやり方で検閲していますか？">
+<!ENTITY torSettings.bridgeHelp "この質問にどう答えるべきかよくわからない場合は、いいえを選択してください。&amp;#160; はいを選択すると、Tor ネットワークへの接続をブロックすることをさらに困難にするリスト化されていないリレーである Tor Bridges を構成することが求められます。">
+<!ENTITY torSettings.bridgeSettingsPrompt "デフォルトのブリッジのセットを使用するか、あるいはカスタムのブリッジのセットを取得して入力することができます。">
 
 <!-- Other: -->
 
@@ -44,13 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "このコンピューターは特定のポートへの接続のみ許可するファイアーウォールを通します。">
 <!ENTITY torsettings.firewall.allowedPorts "許可されたポート:">
 <!ENTITY torsettings.useBridges.checkbox "私のインターネットサービスプロバイダ(ISP)はTorネットワークへの接続をブロックします">
+<!ENTITY torsettings.useBridges.default "デフォルトのタイプのブリッジを使用">
+<!ENTITY torsettings.useBridges.custom "カスタムブリッジを使用">
 <!ENTITY torsettings.useBridges.label "1つ以上のブリッジリレーを入力してください(行あたり1つ)。">
-<!ENTITY torsettings.useBridges.placeholder "アドレス:ポート または トランスポートアドレス:ポート">
+<!ENTITY torsettings.useBridges.placeholder "アドレス:ポートを 入力">
 
 <!ENTITY torsettings.copyLog "Torのログをクリップボードにコピー">
 <!ENTITY torsettings.bridgeHelpTitle "ブリッジリレーのヘルプ">
 <!ENTITY torsettings.bridgeHelp1 "Tor ネットワークに接続できないなら、あなたのインターネットサービスプロバイダー(ISP)や別の機関が Tor をブロックしている可能性があります。&amp;#160; ブロックが比較的困難なリストされていないリレーである Tor ブリッジを使用することでこの問題を回避できることもあります。">
-<!ENTITY torsettings.bridgeHelp1B "ブリッジアドレスを取得する三種の方法は:">
+<!ENTITY torsettings.bridgeHelp1B "事前設定されたデフォルトのブリッジアドレスのセットを使用するか、あるいは以下の3つの方法のいずれかを用いてカスタムのアドレスのセットを取得することができます。">
 <!ENTITY torsettings.bridgeHelp2Heading "ウェブ経由">
 <!ENTITY torsettings.bridgeHelp2 "ウェブを使用して、https://bridges.torproject.orgを開く">
 <!ENTITY torsettings.bridgeHelp3Heading "メール自動応答システム経由">
