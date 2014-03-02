@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "Bu bilgisayarın İnternet bağlantısı, sadece belirli bağlantı noktalarına izin veren bir güvenlik duvarından geçiyor mu?">
 <!ENTITY torSettings.firewallHelp "Eğer bu soruya nasıl cevap vereceğinizden emin değilseniz, Hayır seçin. Eğer Tor ağına bağlanırken sorunla karşılaşırsanız, bu ayarı değiştirin.">
 <!ENTITY torSettings.enterFirewall "Güvenlik duvarı tarafından izin verilen bağlantı noktalarının virgülle ayrılmış bir listesini girin.">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeQuestion "İnternet Servis Sağlayıcınızı (ISS) engellesin veya ayrıcaTor Bağlantınızı sansürlesin mi?">
 <!ENTITY torSettings.bridgeHelp "Bu soruyu nasıl cevaplayacağınızdan emin değilseniz Hayır 'ı Secin.&amp;#160; Eğer Evet'i seçerseniz, Tor Ağ bağlantıları engellemek için, daha zor hale getirilip listelenmeyen aktarmalar için Tor Köprülerini yapılandırmanız istenecektir.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Varsayılan köprü dizisini kullanabilir veya özel bir köprü dizisi elde edip girebilirsiniz.">
 
