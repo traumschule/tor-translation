@@ -46,15 +46,15 @@
 <!ENTITY torsettings.firewall.checkbox "Bu bilgisayar, sadece belirli bağlantı noktalarına izin veren bir güvenlik duvarı ile bağlanıyor">
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
-<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
-<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
+<!ENTITY torsettings.useBridges.default "Varsayılan  Köprü Türünü Kullanın">
+<!ENTITY torsettings.useBridges.custom "Özel Köprüler Kullanın">
 <!ENTITY torsettings.useBridges.label "Bir veya daha fazla köprü aynası girin (her satıra bir tane).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "adresi yazın:port">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Ayna Yardımı">
 <!ENTITY torsettings.bridgeHelp1 "Tor ağına bağlanamıyorsanız, nedeni kullandığınız İnternet Servis Sağlayıcısı (ISS) veya başka bir kurum Tor'u engelliyor olabilir.&amp;#160; Çoğunlukla bu problemi Tor köprüleri ile çözebilirisiniz bunlar engellenmesi daha zor olan listede olmayan aktarma noktalarıdır">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "Köprü adresleri varsayılan kümesini önceden yapılandırıp kullanabilir veya bu üç yöntemden birini kullanarak adreslerden özel bir dizi elde edebilirsiniz:">
 <!ENTITY torsettings.bridgeHelp2Heading "Web aracılığıyla.">
 <!ENTITY torsettings.bridgeHelp2 "https://bridges.torproject.org sitesini ziyaret etmek için web tarayıcısı kullanın.">
 <!ENTITY torsettings.bridgeHelp3Heading "Eposta otomatik cevaplandırıcı aracılığıyla.">
