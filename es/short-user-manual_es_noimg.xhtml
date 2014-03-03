@@ -21,20 +21,20 @@
     <p>Si quiere una versión traducida de Tor, escriba <strong>help</strong>. Recibirá un correo electrónico con instrucciones y una lista de idiomas disponibles.</p>
     <p><strong>Nota</strong>: Los Paquetes de Navegador Tor para Linux y Mac OS X son bastante grandes, y podría no ser posible recibir cualquiera de estos paquetes con una cuenta de Gmail, Hotmail o Yahoo. Si no puede recibir el paquete que desea, envíe un correo a help-es@rt.torproject.org y le enviaremos una lista de réplicas del sitio web para su uso.</p>
     <h3 id="tor-for-smartphones">Tor para teléfonos móviles ('smartphones')</h3>
-    <p>Puede poner Tor en su dispositivo Android al instalar el paquete llamado <em>Orbot</em>. Para información acerca de cómo descargar e instalar Orbot, vea el <a href="https://www.torproject.org/docs/android.html">sitio web del proyecto Tor</a>.</p>
+    <p>Puede poner Tor en su dispositivo Android al instalar el paquete llamado <em>Orbot</em>. Para información acerca de cómo descargar e instalar Orbot, vea el sitio web del proyecto Tor: <a href="https://www.torproject.org/docs/android.html"/>.</p>
     <p>También disponemos de paquetes experimentales para <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> y <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Cómo verificar que cuenta con la versión correcta</h3>
     <p>Antes de ejecutar el Paquete de Navegador Tor, debe asegurarse que cuenta con la versión correcta.</p>
-    <p>El programa que usted recibe se acompaña de un archivo con el mismo nombre del paquete, y extensión <strong>.asc</strong>. Este archivo .asc es una firma GPG, y le permitirá verificar que el archivo que ha descargado es exactamente el que pretendíamos que obtuviera. </p>
+    <p>El programa que usted recibe se acompaña de un archivo con el mismo nombre del paquete y extensión <strong>.asc</strong>. Este archivo .asc es una firma GPG que le permitirá verificar que el archivo que ha descargado es exactamente el que pretendíamos que obtuviera. </p>
     <p>Antes de que pueda verificar la firma, tendrá que descargar e instalar GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: La mayoría de distribuciones Linux vienen con GnuPG preinstalado.</p>
-    <p>Por favor, observe que puede ser necesario que edite las rutas y las órdenes utilizadas debajo para lograr que funcionen en su sistema.</p>
+    <p>Por favor, observe que puede ser necesario que edite las rutas y las órdenes descritas debajo, para lograr que funcionen en su sistema.</p>
     <p>Erinn Clark firma los Paquetes del Navegador Tor con la clave 0x63FEE659. Para importar la clave de Erinn, ejecute:</p>
     <pre>
       <code>gpg --keyserver hkp://keys.gnupg.net --recv-keys 0x63FEE659
 </code>
     </pre>
-    <p>Después de importar la clave, compruebe que la huella de verificación de clave ('fingerprint') sea correcta:</p>
+    <p>Después de importar la clave, compruebe que la huella de verificación de clave ('fingerprint') sea la correcta:</p>
     <pre>
       <code>gpg --fingerprint 0x63FEE659
 </code>
@@ -56,26 +56,26 @@ sub   2048R/EB399FD7 2003-10-16
 </code>
     </pre>
     <p>La salida debe decir <em>&amp;quot;Firma correcta&amp;quot;</em> (Good signature). Una firma incorrecta significa que el archivo pudo haber sido alterado. Si ve una firma incorrecta, envíe los detalles del lugar de donde descargó el paquete, cómo verificó la firma, y la salida de GnuPG, en un correo a help-es@rt.torproject.org .</p>
-    <p>Una vez que ha verificado la firma y ha visto la confirmación <em>&amp;quot;Firma correcta&amp;quot;</em> ('Good signature'), proceda y descomprima el paquete de archivos. Debería ver entonces un directorio con un nombre similar a <strong>tor-browser_es-ES</strong>. Dentro de ese directorio encontrará otro llamado <strong>Docs</strong>, la cual contiene un archivo llamado <strong>changelog</strong>. Debe asegurarse de que el número de versión en la primera línea del archivo changelog corresponde con el número de versión en el nombre del archivo.</p>
-    <h3 id="how-to-use-the-tor-browser-bundle">Cómo usar el Paquete de Navegador Tor</h3>
+    <p>Una vez que ha verificado la firma y ha visto la confirmación <em>&amp;quot;Firma correcta&amp;quot;</em> ('Good signature'), proceda y descomprima el paquete. Entonces debería ver un directorio con un nombre similar a <strong>tor-browser_es-ES</strong>. Dentro de ese directorio encontrará otro llamado <strong>Docs</strong>, que contiene un archivo llamado <strong>changelog</strong>. Debe asegurarse de que el número de versión en la primera línea del archivo changelog corresponde con el número de versión en el nombre del archivo.</p>
+    <h3 id="how-to-use-the-tor-browser-bundle">Cómo usar el Paquete de Navegación Tor</h3>
     <p>Después de descargar el Paquete de Navegador Tor y extraer el paquete, debe tener un directorio con algunos ficheros en ella. Uno de los ficheros es un ejecutable llamado "Start Tor Browser" (o "start-tor-browser", dependiendo de su sistema operativo).</p>
-    <p>Cuando inicie el Paquete de Navegador Tor, verá primero iniciarse el programa Vidalia que le conecta a la red Tor. Después, verá un navegador confirmando que usted ya se encuentre utilizando Tor. Esto lo hace mostrando la página <a href="https://check.torproject.org/?lang=es">https://check.torproject.org/?lang=es</a>. A partir de ese momento podrá navegar por Internet a través de Tor.</p>
+    <p>Cuando inicie el Paquete de Navegador Tor, verá primero iniciarse el programa Vidalia que le conecta a la red Tor. Después, verá un aviso confirmando que usted ya se encuentre utilizando Tor. Esto lo hace mostrando la página <a href="https://check.torproject.org/?lang=es">https://check.torproject.org/</a>. A partir de ese momento podrá navegar por Internet a través de Tor.</p>
     <p>
-      <em>Observe que es importante que utilice el navegador que viene con el paquete, y no su propio navegador.</em>
+      <em>Por favor, es importante que utilice el navegador que viene con el paquete y no su propio navegador.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Qué hacer cuando Tor no se conecta</h3>
-    <p>Algunos usuarios notarán que Vidalia se paraliza cuando intenta conectar a la red Tor. Si esto sucede, asegúrese de estar conectado a la Internet. Si necesita conectar a Tor indirectamente a través de un servidor proxy abierto (en Internet), vea <em>Cómo usar un proxy abierto</em> debajo.</p>
+    <p>Algunos usuarios notarán que Vidalia se paraliza cuando intenta conectar a la red Tor. Si esto sucede, asegúrese de estar conectado a la Internet. Si necesita conectar a Tor indirectamente a través de un servidor proxy (en Internet), vea <em>Cómo usar un proxy abierto</em> debajo.</p>
     <p>Si su conexión normal a Internet está funcionando, pero Tor sigue sin poder conectarse, intente lo siguiente: abra el Panel de Control de Vidalia, haga clic en <em>Registro de Mensajes</em> ('message log') y seleccione la pestaña <em>Avanzadas</em>. Puede ser que Tor no conecte porque:</p>
     <p><strong>Su reloj de sistema está desajustado</strong>: Asegúrese que la fecha y hora en su sistema sea correcta, y reinicie Tor. Puede ser que necesite sincronizar su reloj de sistema con un servidor de hora en Internet.</p>
-    <p><strong>Está tras un cortafuegos ('firewall') restrictivo</strong>: Para decirle a Tor que trate de usar sólo los puertos 80 y 443, abra el Panel de Control de Vidalia, y haga clic en <em>Preferencias</em> y luego en <em>Red</em>, y ahí marque la casilla que dice <em>Mi firewall sólo me permite conectar a ciertos puertos</em>.</p>
+    <p><strong>Está tras un cortafuegos ('firewall') restrictivo</strong>: Para decirle a Tor que trate de usar sólo los puertos 80 y 443, abra el Panel de Control de Vidalia, y haga clic en <em>Preferencias</em> y luego en <em>Red</em> y ahí marque la casilla que dice <em>Mi firewall sólo me permite conectar a ciertos puertos</em>.</p>
     <p><strong>Su anti-virus está bloqueando Tor</strong>: Asegúrese de que su programa anti-virus no esté impidiendo que Tor realice conexiones a la red.</p>
-    <p>Si Tor sigue sin funcionar, es probable que su Proveedor de Servicios de Internet (ISP) esté bloqueando Tor. Frecuentemente se puede evitar esto mediante el uso de <strong>puentes ('bridges')</strong>, repetidores ocultos (de acceso a la red Tor) que no son tan fáciles de bloquear.</p>
+    <p>Si Tor sigue sin funcionar, es probable que su Proveedor de Servicios de Internet (ISP) esté bloqueando Tor. Frecuentemente se puede evitar esto mediante el uso de <strong>puentes Tor ('Tor bridges')</strong>, repetidores ocultos (de acceso a la red Tor) que no son tan fáciles de bloquear.</p>
     <p>Si necesita ayuda para averiguar por qué Tor no puede conectarse, envíe un correo a help-es@rt.torproject.org e incluya las partes relevantes del archivo de registro de mensajes ('message log').</p>
     <h3 id="how-to-find-a-bridge">Cómo encontrar un puente ('bridge')</h3>
-    <p>Para usar un puente ('bridge', acceso a Tor de publicitación restringida) necesita primero encontrar uno; puede ir a <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, o puede enviar un correo a bridges@torproject.org . Si decide enviar el correo, asegúrese de escribir <strong>get bridges</strong> en el cuerpo del correo. Sin esta línea, no obtendrá respuesta alguna. Observe que es preciso enviar este correo desde una dirección gmail.com o yahoo.com .</p>
-    <p>Configurar más de un una dirección de puente ('bridge', acceso a Tor de publicitación restringida) hará su conexión Tor más estable en caso de que algunos de los puentes se vuelvan inaccesibles. No hay garantías de que un puente que use hoy funcione mañana, así que debe hacerse al hábito de actualizar su lista de puentes con regularidad.</p>
-    <h3 id="how-to-use-a-bridge">Cómo usar un puente</h3>
-    <p>Una vez que ha recibido los puentes a utilizar, abra el Panel de Control de Vidalia y haga clic en <em>Preferencias</em>, luego en <em>Red</em> y marque la casilla que dice <em>Mi proveedor de Internet (ISP) bloquea las conexiones con la red Tor</em>. Introduzca los repetidores puente en el campo de debajo, pulse <em>Aceptar</em> y reinicie Tor de nuevo.</p>
+    <p>Para usar un puente ('bridge', acceso a Tor de publicitación restringida) necesita primero encontrar uno; puede ir a <a href="https://bridges.torproject.org/">bridges.torproject.org</a>, o puede enviar un correo a bridges@torproject.org . Si decide enviar el correo, asegúrese de escribir <strong>get bridges</strong> en el cuerpo del correo. Sin esta línea, no obtendrá respuesta alguna. Observe que es preciso enviar este correo desde una dirección gmail.com o yahoo.com.</p>
+    <p>Configurar más de una dirección de puente ('bridge') hará su conexión Tor más estable en caso de que alguno de los puentes se vuelva inaccesible. No hay garantías de que un puente que use hoy funcione mañana, así que debe hacerse al hábito de actualizar su lista de puentes con regularidad.</p>
+    <h3 id="how-to-use-a-bridge">Cómo usar un puente ('bridge')</h3>
+    <p>Una vez que ha recibido los puentes a utilizar, abra el Panel de Control de Vidalia y haga clic en <em>Preferencias</em>, luego en <em>Red</em> y marque la casilla que dice <em>Mi proveedor de Internet (ISP) bloquea las conexiones con la red Tor</em>. Introduzca los puentes en el campo de debajo, pulse <em>Aceptar</em> e inicie Tor de nuevo.</p>
     <h3 id="how-to-use-an-open-proxy">Cómo usar un proxy abierto</h3>
     <p>Si usar un puente ('bridge', acceso a Tor de publicitación restringida) no funciona, intente configurar Tor para usar cualquier proxy abierto (en Internet) HTTPS o SOCKS para obtener acceso indirecto a la red Tor. Esto significa que incluso si Tor es bloqueado por su red local (o su ISP), los proxys abiertos le pueden dar acceso a la red Tor con seguridad, y a una Internet sin censura.</p>
     <p>Los pasos siguientes asumen que tiene una configuración de Tor/Vidalia funcional, y que ha encontrado una lista de proxys HTTPS, SOCKS4, o SOCKS5.</p>
