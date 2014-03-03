@@ -47,7 +47,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Erlaubte Anschlüsse:">
 <!ENTITY torsettings.useBridges.checkbox "Mein Internetdienstanbieter (ISP) blockiert Verbindungen zum Tor-Netzwerk">
 <!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
-<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
+<!ENTITY torsettings.useBridges.custom "Benutzerdefinierte Brücken benutzen">
 <!ENTITY torsettings.useBridges.label "Ein oder mehrere Brückenrelais eingeben (eins pro Zeile).">
 <!ENTITY torsettings.useBridges.placeholder "type address:port">
 
