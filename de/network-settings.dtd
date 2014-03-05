@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "Benutzt die Internetverbindung dieses Rechners eine Firewall, die nur Verbindungen zu bestimmten Anschlüssen zulässt?">
 <!ENTITY torSettings.firewallHelp "Wenn Sie sich nicht sicher sind, wählen Sie Nein. Wenn Sie dann Probleme haben eine Verbindung zum Tor-Netzwerk herzustellen, ändern Sie diese Einstellung.">
 <!ENTITY torSettings.enterFirewall "Geben Sie hier die Anschlüsse ein, die von der Firewall erlaubt werden. Trennen Sie die Anschlüsse jeweils mit einem Komma.">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeQuestion "Blockiert oder zensiert Ihr Internetdienstanbieter (ISP) Verbindungen zum Tor-Netzwerk?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
 
