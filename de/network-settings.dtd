@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Geben Sie hier die Anschlüsse ein, die von der Firewall erlaubt werden. Trennen Sie die Anschlüsse jeweils mit einem Komma.">
 <!ENTITY torSettings.bridgeQuestion "Blockiert oder zensiert Ihr Internetdienstanbieter (ISP) Verbindungen zum Tor-Netzwerk?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Sie können den Standardsatz von Brücken verwenden, oder Sie können einen benutzerdefinierten Satz von Brücken eingeben.">
 
 <!-- Other: -->
 
