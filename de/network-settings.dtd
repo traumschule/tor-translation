@@ -49,7 +49,7 @@
 <!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
 <!ENTITY torsettings.useBridges.custom "Benutzerdefinierte Brücken benutzen">
 <!ENTITY torsettings.useBridges.label "Ein oder mehrere Brückenrelais eingeben (eins pro Zeile).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "schreibe Adresse:Port">
 
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
