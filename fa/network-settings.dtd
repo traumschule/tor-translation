@@ -36,7 +36,7 @@
 <!ENTITY torsettings.useProxy.checkbox "این رایانه برای اتصال به اینترنت نیاز به استفاده از پراکسی دارد.">
 <!ENTITY torsettings.useProxy.type "نوع پراکسی:">
 <!ENTITY torsettings.useProxy.address "آدرس:">
-<!ENTITY torsettings.useProxy.address.placeholder "آدرس آی پی یا نام میزبان">
+<!ENTITY torsettings.useProxy.address.placeholder "آدرس آی‌پی یا نام میزبان">
 <!ENTITY torsettings.useProxy.port "پورت:">
 <!ENTITY torsettings.useProxy.username "نام کاربری:">
 <!ENTITY torsettings.useProxy.password "رمز عبور">
@@ -46,16 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "به نظر می رسد شبکه ارتباطی شما به اینترنت، از یک فایروال استفاده می کند. یعنی فقط اجازه اتصال از یک سری درگاه های به خصوص را می دهد.">
 <!ENTITY torsettings.firewall.allowedPorts "پورت های مجاز:">
 <!ENTITY torsettings.useBridges.checkbox "‫سرویس دهنده اینترنت (ISP) من اتصال به شبکه تور را مسدود می‌کند.">
-<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
-<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
+<!ENTITY torsettings.useBridges.default "از پل‌های پیش‌فرض از این نوع استفاده کن:">
+<!ENTITY torsettings.useBridges.custom "استفاده از پل‌های شخصی">
 <!ENTITY torsettings.useBridges.label "یک یا چند پل ارتباطی را وارد نمایید. (در هر خط یکی)">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "آدرس آی‌پی:پورت را وارد کنید">
 
 <!ENTITY torsettings.copyLog "کپی گزارش وقایع تور">
 <!ENTITY torsettings.bridgeHelpTitle "کمک برای پل ارتباطی">
 <!ENTITY torsettings.bridgeHelp1 "اگر نمی توانید به شبکه تور متصل شوید، ممکن است به این دلیل باشد که شرکت ارایه کننده اینترنت شما(ISP) و یا سازمان های دیگر شبکه تور را بسته اند.&amp;#160;
 غالباً می توانید این محدودیت را با استفاده از «پل» های تور دور بزنید. پل ها مسیرهای اضافی دور زدن فیلتر هستند که لیست آن در دسترس نیست و فیلتر کردن آن ها بسیار مشکل است.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "شما می‌توانید از پل‌های تنظیم‌شده قبلی یا مجموعهٔ پیش‌فرض پل‌ها استفاده کنید. برای به‌دست آوردن مجموعه آدرس‌های جدید می‌توانید از یکی از سه روش زیر استفاده کنید:">
 <!ENTITY torsettings.bridgeHelp2Heading "از طریق اینترنت">
 <!ENTITY torsettings.bridgeHelp2 "با استفاده از یک مرورگر به آدرس https://bridges.torproject.org بروید.">
 <!ENTITY torsettings.bridgeHelp3Heading "از طریق آدرس ایمیل پاسخگوی خودکار">
