@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "آیا در مسیر ارتباط شما به اینترنت یک فایروال وجود دارد؟ و فقط اجازه اتصال از یک درگاه خاص را می دهد؟">
 <!ENTITY torSettings.firewallHelp "اگر مطمئن نیستید چه جوابی به این سوال دهید، «نه» و یا «خیر» را انتخاب کنید. سپس اگر مشکلی در ارتباط با شبکه تور داشتید، این مورد را تغییر دهید.">
 <!ENTITY torSettings.enterFirewall "یک لیست جداشده با ویرگول از پورت‌هایی که توسط فایروال مجاز هستند.">
-<!ENTITY torSettings.bridgeQuestion "اگر اینترنت شما سانسور شده و فیلتر می شود، شما لازم دارید از «مسیرهای دور زدن فیلتر» استفاده کنید.&amp;#160; اگر نه، کافیست روی «اتصال» و یا «وصل شدن» کلیک کنید.">
+<!ENTITY torSettings.bridgeQuestion "آیا شرکتی که از آن اینترنت گرفته اید (ISP)، دسترسی به شبکه تور را فیلتر، سانسور و یا مسدود می کند؟">
+<!ENTITY torSettings.bridgeHelp "اگر مطمئن نیستید چطور به این سوال پاسخ دهید، «نه» یا انتخاب کنید.&amp;#160; اگر «بله» را انتخاب کنید، می بایست تنظیمات مربوط به «پل های» تور را انجام دهید. پل ها مسیرهای دور زدن فیلتر هستند که لیست مشخصی از آن ها وجود ندارد و فیلتر کردن آن ها بسیار مشکل است.">
+<!ENTITY torSettings.bridgeSettingsPrompt "شما می توانید از پل‌های پیش فرض استفاده کنید و یا به پل های دیگر دسترسی پیدا کرده و آن ها را تنظیم کنید.">
 
 <!-- Other: -->
 
@@ -34,7 +36,7 @@
 <!ENTITY torsettings.useProxy.checkbox "این رایانه برای اتصال به اینترنت نیاز به استفاده از پراکسی دارد.">
 <!ENTITY torsettings.useProxy.type "نوع پراکسی:">
 <!ENTITY torsettings.useProxy.address "آدرس:">
-<!ENTITY torsettings.useProxy.address.placeholder "آدرس آی پی یا نام میزبان">
+<!ENTITY torsettings.useProxy.address.placeholder "آدرس آی‌پی یا نام میزبان">
 <!ENTITY torsettings.useProxy.port "پورت:">
 <!ENTITY torsettings.useProxy.username "نام کاربری:">
 <!ENTITY torsettings.useProxy.password "رمز عبور">
@@ -44,14 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "به نظر می رسد شبکه ارتباطی شما به اینترنت، از یک فایروال استفاده می کند. یعنی فقط اجازه اتصال از یک سری درگاه های به خصوص را می دهد.">
 <!ENTITY torsettings.firewall.allowedPorts "پورت های مجاز:">
 <!ENTITY torsettings.useBridges.checkbox "‫سرویس دهنده اینترنت (ISP) من اتصال به شبکه تور را مسدود می‌کند.">
+<!ENTITY torsettings.useBridges.default "از پل‌های پیش‌فرض از این نوع استفاده کن:">
+<!ENTITY torsettings.useBridges.custom "استفاده از پل‌های شخصی">
 <!ENTITY torsettings.useBridges.label "یک یا چند پل ارتباطی را وارد نمایید. (در هر خط یکی)">
-<!ENTITY torsettings.useBridges.placeholder "address:port یا transport address:port">
+<!ENTITY torsettings.useBridges.placeholder "آدرس آی‌پی:پورت را وارد کنید">
 
 <!ENTITY torsettings.copyLog "کپی گزارش وقایع تور">
 <!ENTITY torsettings.bridgeHelpTitle "کمک برای پل ارتباطی">
 <!ENTITY torsettings.bridgeHelp1 "اگر نمی توانید به شبکه تور متصل شوید، ممکن است به این دلیل باشد که شرکت ارایه کننده اینترنت شما(ISP) و یا سازمان های دیگر شبکه تور را بسته اند.&amp;#160;
 غالباً می توانید این محدودیت را با استفاده از «پل» های تور دور بزنید. پل ها مسیرهای اضافی دور زدن فیلتر هستند که لیست آن در دسترس نیست و فیلتر کردن آن ها بسیار مشکل است.">
-<!ENTITY torsettings.bridgeHelp1B "سه راه برای به دست آوردن پل ها وجود دارد:">
+<!ENTITY torsettings.bridgeHelp1B "شما می‌توانید از پل‌های تنظیم‌شده قبلی یا مجموعهٔ پیش‌فرض پل‌ها استفاده کنید. برای به‌دست آوردن مجموعه آدرس‌های جدید می‌توانید از یکی از سه روش زیر استفاده کنید:">
 <!ENTITY torsettings.bridgeHelp2Heading "از طریق اینترنت">
 <!ENTITY torsettings.bridgeHelp2 "با استفاده از یک مرورگر به آدرس https://bridges.torproject.org بروید.">
 <!ENTITY torsettings.bridgeHelp3Heading "از طریق آدرس ایمیل پاسخگوی خودکار">
