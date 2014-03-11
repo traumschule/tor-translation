@@ -46,16 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "Cet ordinateur passe par un pare-feu qui n'autorise que les connexions à certains ports">
 <!ENTITY torsettings.firewall.allowedPorts "Ports autorisés :">
 <!ENTITY torsettings.useBridges.checkbox "Mon fournisseur d'accès à Internet (FAI) bloque les connexions au réseau Tor">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.default "Se connecter avec les ponts fournis">
+<!ENTITY torsettings.useBridges.type "Type de transport :">
+<!ENTITY torsettings.useBridges.custom "Saisir les ponts personnalisés">
 <!ENTITY torsettings.useBridges.label "Saisir un ou plusieurs relais-ponts (un par ligne).">
 <!ENTITY torsettings.useBridges.placeholder "type adresse:port">
 
 <!ENTITY torsettings.copyLog "Copier le journal de Tor dans le presse-papier">
 <!ENTITY torsettings.bridgeHelpTitle "Aide pour les relais-ponts">
 <!ENTITY torsettings.bridgeHelp1 "Si vous ne pouvez pas vous connecter au réseau Tor, il se peut que votre fournisseur d'accès à Internet (FAI) ou une autre agence bloque Tor.&amp;#160; Vous pouvez souvent le contourner en utilisant des ponts Tor qui sont des relais non répertoriés, plus difficiles à bloquer.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "Vous pouvez utiliser le jeu préconfiguré d'adresses de ponts fourni ou vous pouvez obtenir un jeu personnalisé d'adresses en utilisant une de ces trois méthodes :">
 <!ENTITY torsettings.bridgeHelp2Heading "par le Web">
 <!ENTITY torsettings.bridgeHelp2 "en utilisant un navigateur Web pour visiter https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "par le répondeur automatique de courriel">
