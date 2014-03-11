@@ -23,7 +23,7 @@
 <!ENTITY torSettings.firewallHelp "Wenn Sie sich nicht sicher sind, wählen Sie Nein. Wenn Sie dann Probleme haben eine Verbindung zum Tor-Netzwerk herzustellen, ändern Sie diese Einstellung.">
 <!ENTITY torSettings.enterFirewall "Geben Sie hier die Anschlüsse ein, die von der Firewall erlaubt werden. Trennen Sie die Anschlüsse jeweils mit einem Komma.">
 <!ENTITY torSettings.bridgeQuestion "Blockiert oder zensiert Ihr Internetdienstanbieter (ISP) Verbindungen zum Tor-Netzwerk?">
-<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeHelp "Wenn Sie sich nicht sicher sind, wie Sie diese Frage beantworten sollen, wählen Sie Nr.&amp;#160; Wenn Sie Ja wählen, werden Sie aufgefordert, die Torbrücken zu konfigurieren. Die nicht aufgeführte Relais sind, was es schwieriger macht, Verbindungen zum Tor-Netzwerk zu blockieren.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Sie könne den bereitgestellten Satz an Brücken verwenden oder Sie können welche erhalten, und geben einen benutzerdefinierten Satz an Brücken ein.">
 
 <!-- Other: -->
