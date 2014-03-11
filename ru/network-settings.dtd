@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Сетевые настройки Tor">
+<!ENTITY torsettings.dialog.title "Tor Browser Network Settings">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Прежде чем пакет Tor Browser попытается соединиться с сетью Tor, вам нужно указать информацию об интернет-соединении этого компьютера">
+<!ENTITY torsettings.prompt "Before the Tor Browser tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "Да">
 <!ENTITY torSettings.no "Нет">
@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Введите список портов через запятую, которые брандмауэр не блокирует.">
 <!ENTITY torSettings.bridgeQuestion "Ваш провайдер (ISP) блокирует или как-либо цензурирует подключения к сети Tor?">
 <!ENTITY torSettings.bridgeHelp "Если вы не знаете, как ответить на этот вопрос, выбирайте Нет.&amp;#160; Если вы выберете Да, вас попросят настроить мосты Tor, которые являются неопубликованными маршрутизаторами, что затрудняет их блокировку.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Вы можете использовать стандартный набор мостов или получить и ввести список мостов вручную.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -46,15 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "Мой сетевой экран позволяет мне подключиться только к определенным портам">
 <!ENTITY torsettings.firewall.allowedPorts "Разрешенные порты:">
 <!ENTITY torsettings.useBridges.checkbox "Мой провайдер блокирует доступ к сети Tor">
-<!ENTITY torsettings.useBridges.default "По умолчанию использовать мосты типа">
-<!ENTITY torsettings.useBridges.custom "Использовать мосты, настроенные вручную">
+<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Введите один или несколько ретрансляторов типа мост (один на строку)">
 <!ENTITY torsettings.useBridges.placeholder "введите адрес:порт">
 
 <!ENTITY torsettings.copyLog "Скопировать журнал Tor в буфер обмена">
 <!ENTITY torsettings.bridgeHelpTitle "Помощь по ретрансляторам типа мост">
 <!ENTITY torsettings.bridgeHelp1 "Если вы не можете подключиться к сети Tor, возможно ваш провайдер (ISP) или иная организация блокирует Tor.&amp;#160; Часто эту проблему можно обойти при помощи мостов Tor, не перечисленных в публичных списках, которые сложнее заблокировать.">
-<!ENTITY torsettings.bridgeHelp1B "Вы можете использовать стандартный набор мостов или получить и ввести список мостов вручную при помощи одного из этих трёх методов:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Из Веб">
 <!ENTITY torsettings.bridgeHelp2 "Откройте в веб-браузере https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Через автоответчик электронной почты">

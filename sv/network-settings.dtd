@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Nätverksinställningar för Tor">
+<!ENTITY torsettings.dialog.title "Tor Browser Network Settings">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Innan Tor Browser Bundle försöker ansluta till Tor-nätverket måste du uppge information om din dators internetanslutning.">
+<!ENTITY torsettings.prompt "Before the Tor Browser tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "Ja">
 <!ENTITY torSettings.no "Nej">
@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Ange en komma-separerad lista över portar som brandväggen tillåter.">
 <!ENTITY torSettings.bridgeQuestion "Blockerar eller censurerar din internetleverantör anslutningar till Tor-nätverket?">
 <!ENTITY torSettings.bridgeHelp "Om du är osäker på hur du ska svara på den här frågan, välj Nej.&amp;#160; Om du väljer Ja kommer du ombes att konfigurera Tor-bryggor, vilka är olistade reläer som gör det svårare att blockera anslutningar till Tor-nätverket.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Du kan använda de förkonfigurerade bryggorna, eller skaffa och ange bryggor själv.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -46,15 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "Denna dator går genom en brandvägg som bara tillåter anslutningar på vissa specifika portar.">
 <!ENTITY torsettings.firewall.allowedPorts "Tillåtna portar:">
 <!ENTITY torsettings.useBridges.checkbox "Min internetleverantör blockerar anslutningar till Tor-nätverket">
-<!ENTITY torsettings.useBridges.default "Använd förkonfigurerade bryggor av typen">
-<!ENTITY torsettings.useBridges.custom "Använd egna bryggor">
+<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Ange en eller flera Tor-bryggor (en per rad).">
 <!ENTITY torsettings.useBridges.placeholder "typ adress:port">
 
 <!ENTITY torsettings.copyLog "Kopiera Tor-loggen till urklippet">
 <!ENTITY torsettings.bridgeHelpTitle "Hjälp om bryggor">
 <!ENTITY torsettings.bridgeHelp1 "Om du inte kan ansluta till Tor-nätverket är det möjligt att din internetleverantör eller annan myndighet blockerar Tor.&amp;#160; Ofta kan du kringgå detta problem genom att använda Tor-bryggor, vilka är olistade reläer som är mer svårblockerade.">
-<!ENTITY torsettings.bridgeHelp1B "Du kan använda de förkonfigurerade bryggadresserna, eller skaffa bryggadresser själv på något av följande sätt:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Via nätet">
 <!ENTITY torsettings.bridgeHelp2 "Använd en webbläsare för att besöka https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via e-post autosvar">

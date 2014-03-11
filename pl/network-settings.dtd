@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Ustawienia Sieci">
+<!ENTITY torsettings.dialog.title "Tor Browser Network Settings">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Przed połączeniem z siecią Tor musisz podać informacje o połączeniu internetowym tego komputera.">
+<!ENTITY torsettings.prompt "Before the Tor Browser tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "Tak">
 <!ENTITY torSettings.no "Nie">
@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Wprowadź listę portów dozwolonych przez zaporę (kolejne porty oddzielaj przecinkiem).">
 <!ENTITY torSettings.bridgeQuestion "Czy Twój dostawca usług internetowych (ISP) blokuje lub ocenzurowuje połączenia sieci Tor?">
 <!ENTITY torSettings.bridgeHelp "Jeśli nie jesteś pewny odpowiedzi na to pytanie proszę wybrać odpowiedź Nie.&amp;#160; Jeśli wybierzesz Tak, to będziesz poproszony o skonfigurowanie mostków Tora, które nie są publicznie wymienione, dzięki czemu będzie trudniej zablokować połączenia do sieci Tor.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Możesz wybrać domyślny zestaw mostków, albo możesz uzyskać i wprowadzić niestandardowy zestaw mostów.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -46,15 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "Ten komputer pozwala na połączenie z ustalonymi portami">
 <!ENTITY torsettings.firewall.allowedPorts "Dozwolone porty:">
 <!ENTITY torsettings.useBridges.checkbox "Mój dostawca internetu blokuje połączenia do sieci Tor">
-<!ENTITY torsettings.useBridges.default "Użyj Domyślnych Mostów z Typu">
-<!ENTITY torsettings.useBridges.custom "Użyj Domyślnych Mostków">
+<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Dodaj jeden lub więcej przekaźników mostowych (jeden w każdej linijce)">
 <!ENTITY torsettings.useBridges.placeholder "wpisz adres:port">
 
 <!ENTITY torsettings.copyLog "Skopiuj log do schowka">
 <!ENTITY torsettings.bridgeHelpTitle "Pomoc Przekaźników Mostkowych">
 <!ENTITY torsettings.bridgeHelp1 "Jeśli nie jesteś w stanie połączyć się z siecią Tor, może to oznaczać, że Twój Dostawca Usług Internetowych (ISP) lub inna agencja blokuje dostęp do sieci Tor.&amp;#160; Często można obejść ten problem używając Mostów Tor, które są nienotowanymi przekaźnikami, dzięki czemu trudniej je zablokować.">
-<!ENTITY torsettings.bridgeHelp1B "Możesz użyć wstępnie skonfigurowany, domyślny zestaw adresów mostów lub możesz uzyskać własny zestaw adresów za pomocą jednej z tych trzech metod:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Za pośrednictwem sieci Web">
 <!ENTITY torsettings.bridgeHelp2 "Użyj przeglądarki internetowej do odwiedzenia https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Poprzez Email Autoresponder">

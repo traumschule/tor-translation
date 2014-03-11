@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Tor 네트워크 설정">
+<!ENTITY torsettings.dialog.title "Tor Browser Network Settings">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Tor 브라우저 번들은 Tor 네트워크에 연결을 시도하기 전에, 이 컴퓨터의 인터넷 연결에 대한 정보를 제공해야합니다.">
+<!ENTITY torsettings.prompt "Before the Tor Browser tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "예">
 <!ENTITY torSettings.no "아니오">
@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "방화벽에 따라 허가되고 있는 포트 목록 입력해 주세요. 포트 번호는 콤마로 구분됩니다.">
 <!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the default set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -46,15 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "이 컴퓨터는 특정 포트만 통과하는 방화벽을 지나 연결됩니다.">
 <!ENTITY torsettings.firewall.allowedPorts "허용된 포트:">
 <!ENTITY torsettings.useBridges.checkbox "인터넷 서비스 공급자(ISP)가 Tor 네트워크 접속을 차단합니다.">
-<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
-<!ENTITY torsettings.useBridges.custom "Use Custom Bridges">
+<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
 <!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Tor log를 클립보드에 복사하기">
 <!ENTITY torsettings.bridgeHelpTitle "브릿지 중계 서버 도움말">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&amp;#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
 <!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">

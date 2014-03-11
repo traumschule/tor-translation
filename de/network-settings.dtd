@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Tor-Netzwerkeinstellungen">
+<!ENTITY torsettings.dialog.title "Tor Browser Network Settings">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Bevor das Tor-Browser-Paket versucht eine Verbindung zum Tor-Netzwerk herzustellen, müssen Sie Informationen über ihren Internetanschluss bereitstellen.">
+<!ENTITY torsettings.prompt "Before the Tor Browser tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "Ja">
 <!ENTITY torSettings.no "Nein">
@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Geben Sie hier die Anschlüsse ein, die von der Firewall erlaubt werden. Trennen Sie die Anschlüsse jeweils mit einem Komma.">
 <!ENTITY torSettings.bridgeQuestion "Blockiert oder zensiert Ihr Internetdienstanbieter (ISP) Verbindungen zum Tor-Netzwerk?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&amp;#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Sie können den Standardsatz von Brücken verwenden, oder Sie können einen benutzerdefinierten Satz von Brücken eingeben.">
+<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
 
@@ -46,15 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "Die Verbindung dieses Rechner geht durch eine Firewall, die nur bestimmte Anschlüsse zulässt">
 <!ENTITY torsettings.firewall.allowedPorts "Erlaubte Anschlüsse:">
 <!ENTITY torsettings.useBridges.checkbox "Mein Internetdienstanbieter (ISP) blockiert Verbindungen zum Tor-Netzwerk">
-<!ENTITY torsettings.useBridges.default "Use Default Bridges of Type">
-<!ENTITY torsettings.useBridges.custom "Benutzerdefinierte Brücken benutzen">
+<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Ein oder mehrere Brückenrelais eingeben (eins pro Zeile).">
 <!ENTITY torsettings.useBridges.placeholder "schreibe Adresse:Port">
 
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
 <!ENTITY torsettings.bridgeHelp1 "Sollten Sie sich nicht mit dem Tor-Netzwerk verbinden können, ist es möglich, dass Ihr Internetdienstanbieter (ISP) oder eine andere Organisation, Tor blockiert.&amp;#160; Dieses Problem kann meist mit der Benutzung von Torbrücken umgangen werden, das sind versteckte Relais und damit schwerer zu blocken.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, default set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Durch das Internet">
 <!ENTITY torsettings.bridgeHelp2 "Benutzen Sie einen Browser und besuchen Sie https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Durch die automatische E-Mail-Antwort">
