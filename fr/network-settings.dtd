@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Tor Browser Network Settings">
+<!ENTITY torsettings.dialog.title "Paramètres réseau du navigateur Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before the Tor Browser tries to connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Vous devez fournir des informations concernant la connexion à Internet de cet ordinateur afin que le navigateur Tor puisse se connecter au réseau Tor.">
 
 <!ENTITY torSettings.yes "Oui">
 <!ENTITY torSettings.no "Non">
@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Entrez la liste de ports, séparés par des virgules, qui sont autorisés par le pare-feu.">
 <!ENTITY torSettings.bridgeQuestion "Est-ce que votre Fournisseur d'Accès Internet (FAI) bloque les connexions au réseau Tor ?">
 <!ENTITY torSettings.bridgeHelp "Si vous ne savez pas comment répondre à cette question, choisissez le numéro &amp;#160; Si vous choisissez Oui, il vous sera demandé de configurer les bridges Tor qui sont des relais non listés et qui rendent plus difficile le blocage du réseau Tor.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser les bridges fournis ou bien saisir votre liste de bridges personnels.">
 
 <!-- Other: -->
 
@@ -47,8 +47,8 @@
 <!ENTITY torsettings.firewall.allowedPorts "Ports autorisés :">
 <!ENTITY torsettings.useBridges.checkbox "Mon Fournisseur d'Accès à Internet (FAI) bloque les connexions au réseau Tor">
 <!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.type "Mode de transport:">
+<!ENTITY torsettings.useBridges.custom "Entrez vos bridges personnels">
 <!ENTITY torsettings.useBridges.label "Saisir un ou davantage de bridges relais (un par ligne).">
 <!ENTITY torsettings.useBridges.placeholder "type adresse:port">
 
