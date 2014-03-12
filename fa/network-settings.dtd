@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "تنظیمات مرورگر تور">
+<!ENTITY torsettings.dialog.title "تنظیمات شبکه تور">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "قبل از تلاش مرورگر برای ارتباط با شبکهٔ تور، شما باید اطلاعات ارتباطی این رایانه را مشخص کنید.">
+<!ENTITY torsettings.prompt "قبل از اتصال به شبکه تور، باید اطلاعاتی از نحوه اتصال این کامپیوتر به اینترنت فراهم کنید.">
 
 <!ENTITY torSettings.yes "بله">
 <!ENTITY torSettings.no "نه">
