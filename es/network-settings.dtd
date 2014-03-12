@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Preferencias de red del Navegador Tor">
+<!ENTITY torsettings.dialog.title "Configuración de red de Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Antes de que el Navegador Tor intente conectar a la red Tor, necesita proporcionar información acerca de la conexión a Internet de esta computadora.">
+<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
 <!ENTITY torSettings.yes "Sí">
 <!ENTITY torSettings.no "No">
