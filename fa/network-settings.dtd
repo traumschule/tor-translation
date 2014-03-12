@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "قبل از اتصال به شبکه تور، باید اطلاعاتی از نحوه اتصال این کامپیوتر به اینترنت فراهم کنید.">
 
 <!ENTITY torSettings.yes "بله">
 <!ENTITY torSettings.no "نه">
