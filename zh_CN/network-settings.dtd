@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "在您连接到Tor网络之前，需要提供本机的英特网连接信息。">
 
 <!ENTITY torSettings.yes "是">
 <!ENTITY torSettings.no "否">
@@ -22,9 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "该计算机的防火墙是否仅允许特定端口的互联网连接？">
 <!ENTITY torSettings.firewallHelp "如果不知道如何回答该问题，请选择否。如果连接 Tor 网络时出现问题，请更改该设置。">
 <!ENTITY torSettings.enterFirewall "请输入防火墙允许的端口，中间用逗号隔开。">
-<!ENTITY torSettings.bridgeQuestion "您的互联网服务提供商 (ISP) 阻挡或干扰到达 Tor 网络的连接吗？">
-<!ENTITY torSettings.bridgeHelp "如果您不知道此问题的答案，请选择否。&amp;#160; 如果您选择是，您将被要求配置 Tor 网桥，它们是未被公开的中继点，可使他人更难阻挡您连接到 Tor 网络。">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeQuestion "您的互联网服务提供商 (ISP) 阻挡或审查与 Tor 网络的连接吗？">
+<!ENTITY torSettings.bridgeHelp "如果您不知道此问题的答案，请选择否。&amp;#160; 如果您选择是，您将被要求配置 Tor 网桥，它们是未被公开的中继点，可以使得 Tor 网络的连接更难以被封掉。">
+<!ENTITY torSettings.bridgeSettingsPrompt "您可以使用网桥的默认设置，您也可以获取和输入自定义的网桥地址。">
 
 <!-- Other: -->
 
@@ -46,9 +46,9 @@
 <!ENTITY torsettings.firewall.checkbox "该计算机的防火墙仅允许特定端口的互联网连接">
 <!ENTITY torsettings.firewall.allowedPorts "允许的端口：">
 <!ENTITY torsettings.useBridges.checkbox "我的互联网服务提供商 (ISP) 封锁了 Tor 网络连接">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.default "使用提供的网桥连接">
+<!ENTITY torsettings.useBridges.type "传输类型：">
+<!ENTITY torsettings.useBridges.custom "输入自定义网桥">
 <!ENTITY torsettings.useBridges.label "输入一个或多个网桥中继(一行一个)。">
 <!ENTITY torsettings.useBridges.placeholder "输入 地址:端口">
 
