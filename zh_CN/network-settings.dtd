@@ -55,7 +55,7 @@
 <!ENTITY torsettings.copyLog "请将 Tor 日志复制到剪贴板">
 <!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
 <!ENTITY torsettings.bridgeHelp1 "如果您无法连接到 Tor 网络，可能是您的互联网服务提供商 (ISP) 或其他机构在阻挡 Tor。&amp;#160; 通常来说，你可以使用 Tor 网桥解决此问题，因为它们是未公开的中继点，更不容易被封锁。">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "您可以使用预先配置好的默认设置的网桥地址；或者，您也可以使用以下三种方法之一获取自定义的地址。">
 <!ENTITY torsettings.bridgeHelp2Heading "通过万维网">
 <!ENTITY torsettings.bridgeHelp2 "使用网页浏览器访问 https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "通过电子邮件自动回复系统">
