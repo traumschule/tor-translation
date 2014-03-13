@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "在 Tor 瀏覽器套件嘗試連結到 Tor 網路前，您需要提供關於此電腦的網路連結資訊。">
+<!ENTITY torsettings.prompt "當您連接到 Tor 網路之前，您必須提供關於這部電腦的網路連線資訊">
 
 <!ENTITY torSettings.yes "確定">
 <!ENTITY torSettings.no "取消">
@@ -22,7 +22,9 @@
 <!ENTITY torSettings.firewallQuestion "此電腦的網路連線，是否通過只允許連結特定連線埠的防火牆？">
 <!ENTITY torSettings.firewallHelp "若您無法確定如何回答這個問題，請選擇「否」。若您在連結至 Tor 網路時遭遇問題，請再改變此設定。">
 <!ENTITY torSettings.enterFirewall "請輸入防火牆允許的連線埠（請以逗號分隔）。">
-<!ENTITY torSettings.bridgeQuestion "若此電腦的網路連結被審查，您將需要取得和使用橋接中繼&amp;#160;。若沒有，只需點擊「連線」。">
+<!ENTITY torSettings.bridgeQuestion "您的網路供應商 (ISP) 阻擋或者審查 Tor 網路連線？">
+<!ENTITY torSettings.bridgeHelp "如果你不知道如何回答這個問題，請選擇「否」&amp;#160；如果你選擇選擇「是」，你將被要求設定Tor網橋，這可以讓阻擋客戶端與Tor伺服器的連接更困難。">
+<!ENTITY torSettings.bridgeSettingsPrompt "您可以使用預設的網橋或者你可以使用自定義設置的網橋。">
 
 <!-- Other: -->
 
@@ -44,13 +46,16 @@
 <!ENTITY torsettings.firewall.checkbox "這台電腦通過只允許連結至特定連線埠的防火牆">
 <!ENTITY torsettings.firewall.allowedPorts "允許的連接埠:">
 <!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)封鎖連結到Tor網絡">
+<!ENTITY torsettings.useBridges.default "連線並提供網橋">
+<!ENTITY torsettings.useBridges.type "連線類型：">
+<!ENTITY torsettings.useBridges.custom "進入客製化網橋">
 <!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼 (每行一個)。">
-<!ENTITY torsettings.useBridges.placeholder "「地址:連線埠」或「傳輸地址:連線埠」">
+<!ENTITY torsettings.useBridges.placeholder "類型 address:port">
 
 <!ENTITY torsettings.copyLog "複製 Tor 記錄到剪貼簿">
 <!ENTITY torsettings.bridgeHelpTitle "橋接中繼說明">
 <!ENTITY torsettings.bridgeHelp1 "若您無法連接到 Tor 網路，可能是您的網際網路服務提供者 (ISP) 或其他機構已封鎖 Tor。&amp;#160; 通常你可以使用更難以封鎖之隱藏中繼的 Tor 橋接來解決問題。">
-<!ENTITY torsettings.bridgeHelp1B "有三種方式可以取得橋接位址:">
+<!ENTITY torsettings.bridgeHelp1B "你可能會使用預設，提供網橋地址或是你可能使用一個客製化的地址選擇由以下三者之中選一：">
 <!ENTITY torsettings.bridgeHelp2Heading "透過網路">
 <!ENTITY torsettings.bridgeHelp2 "使用網路瀏覽器造訪 https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "透過 Email 自動回覆">
