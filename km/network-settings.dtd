@@ -46,9 +46,9 @@
 <!ENTITY torsettings.firewall.checkbox "កុំព្យូទ័រ​នេះ​ឆ្លង​កាត់ជញ្ជាំង​ភ្លើង​ដែល​អនុញ្ញាត​តែ​ការ​​ភ្ជាប់ទៅ​ច្រកជាក់លាក់">
 <!ENTITY torsettings.firewall.allowedPorts "ច្រក​បាន​អនុញ្ញាត៖">
 <!ENTITY torsettings.useBridges.checkbox "ក្រុមហ៊ុន​ផ្ដល់​សេវាកម្ម​អ៊ីនធឺណិត (ISP)​ របស់​ខ្ញុំ​ទប់ស្កាត់ការភ្ជាប់​ទៅ​បណ្ដាញ Tor ។">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.default "ភ្ជាប់​ជា​មួយ​ប៊្រីត​បាន​ផ្ដល់">
+<!ENTITY torsettings.useBridges.type "ប្រភេទ​បញ្ជូន៖">
+<!ENTITY torsettings.useBridges.custom "បញ្ចូល​ប៊្រីត​ផ្ទាល់​ខ្លួន">
 <!ENTITY torsettings.useBridges.label "បញ្ចូល​ការ​បញ្ជូន​ប្រ៊ីត​បន្ត​មួយ ឬ​ច្រើន (មួយ​ក្នុង​មួយ​ជួរ)។">
 <!ENTITY torsettings.useBridges.placeholder "បញ្ចូល address:port">
 
