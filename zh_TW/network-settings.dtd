@@ -46,9 +46,9 @@
 <!ENTITY torsettings.firewall.checkbox "這台電腦通過只允許連結至特定連線埠的防火牆">
 <!ENTITY torsettings.firewall.allowedPorts "允許的連接埠:">
 <!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)封鎖連結到Tor網絡">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.default "連線並提供網橋">
+<!ENTITY torsettings.useBridges.type "連線類型：">
+<!ENTITY torsettings.useBridges.custom "進入客製化網橋">
 <!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼 (每行一個)。">
 <!ENTITY torsettings.useBridges.placeholder "類型 address:port">
 
