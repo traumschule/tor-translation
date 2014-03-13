@@ -1,8 +1,8 @@
-<!ENTITY torsettings.dialog.title "Ustawienia Sieciowe Przeglądarki Tor">
+<!ENTITY torsettings.dialog.title "Ustawienia Sieci">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Zanim Przeglądarka Tor spróbuje połączyć się z siecią Tor, będziesz musiał podać informacje o połączeniu internetowym Twojego komputera.">
+<!ENTITY torsettings.prompt "Zanim podłączysz się do sieci Tor, uzupełnij informacje o parametrach połączenia tego komputera z internetem.">
 
 <!ENTITY torSettings.yes "Tak">
 <!ENTITY torSettings.no "Nie">
