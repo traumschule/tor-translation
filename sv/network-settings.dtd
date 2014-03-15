@@ -47,7 +47,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Tillåtna portar:">
 <!ENTITY torsettings.useBridges.checkbox "Min internetleverantör blockerar anslutningar till Tor-nätverket">
 <!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.type "Transport-typ:">
 <!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Ange en eller flera Tor-bryggor (en per rad).">
 <!ENTITY torsettings.useBridges.placeholder "typ adress:port">
