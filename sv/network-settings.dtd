@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Innan Tor Browser Bundle försöker ansluta till Tor-nätverket måste du uppge information om din dators internetanslutning.">
+<!ENTITY torsettings.prompt "Innan du ansluter till Tor-nätverket så behöver du lämna information om den här datorns internetanslutning.">
 
 <!ENTITY torSettings.yes "Ja">
 <!ENTITY torSettings.no "Nej">
@@ -46,8 +46,9 @@
 <!ENTITY torsettings.firewall.checkbox "Denna dator går genom en brandvägg som bara tillåter anslutningar på vissa specifika portar.">
 <!ENTITY torsettings.firewall.allowedPorts "Tillåtna portar:">
 <!ENTITY torsettings.useBridges.checkbox "Min internetleverantör blockerar anslutningar till Tor-nätverket">
-<!ENTITY torsettings.useBridges.default "Använd förkonfigurerade bryggor av typen">
-<!ENTITY torsettings.useBridges.custom "Använd egna bryggor">
+<!ENTITY torsettings.useBridges.default "Anslut med tillgängliga bryggor">
+<!ENTITY torsettings.useBridges.type "Transport-typ:">
+<!ENTITY torsettings.useBridges.custom "Fyll i anpassade bryggor">
 <!ENTITY torsettings.useBridges.label "Ange en eller flera Tor-bryggor (en per rad).">
 <!ENTITY torsettings.useBridges.placeholder "typ adress:port">
 
