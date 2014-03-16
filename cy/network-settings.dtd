@@ -15,11 +15,11 @@
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Cysylltu">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "A oes y cyfrifiadur hwn angen ddirprwy i gyrchu'r Rhyngrwyd?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
 <!ENTITY torSettings.enterProxy "Rhowch osodiadau'r dirprwy.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
+<!ENTITY torSettings.firewallQuestion "A yw cysylltiad Rhyngrwyd y cyfrifiadur hwn yn mynd trwy mur gwarchod sy'n caniatau cysylltiadau i rai pyrth penodol?">
 <!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
 <!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
 <!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
@@ -34,7 +34,7 @@
 <!ENTITY torsettings.optional "Dewisiol">
 
 <!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
+<!ENTITY torsettings.useProxy.type "Math Dirprwy:">
 <!ENTITY torsettings.useProxy.address "Cyfeiriad:">
 <!ENTITY torsettings.useProxy.address.placeholder "Cyfeiriad IP neu enw gwesteiwr">
 <!ENTITY torsettings.useProxy.port "Porth:">
