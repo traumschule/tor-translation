@@ -18,7 +18,7 @@
 <!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
+<!ENTITY torSettings.enterProxy "Rhowch osodiadau'r dirprwy.">
 <!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
 <!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
 <!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
