@@ -7,7 +7,7 @@
     <h1 id="the-short-user-manual">Короткий посібник користувача</h1>
     <p>Цей посібник користувача містить інформацію про те, як завантажити та використовувати Tor, про те, що робити, коли Tor не може під'єднатися до мережі. Якщо ви не можете знайти відповідь на своє питання у цьому посібнику, напишіть електронного листа на адресу help@rt.torproject.org.</p>
     <p>Майте на увазі, що ми надаємо технічну підтримку на волонтерських засадах, та щодня отримуємо багато електронних листів. Нема причин турбуватися, якщо ми не відповімо вам відразу.</p>
-    <h2 id="how-tor-works">Як Tor працює</h2>
+    <h2 id="how-tor-works">Як працює Tor</h2>
     <p>Tor є мережа віртуальних тунелів, яка дозволяє поліпшити Вашу конфіденційність і безпеку в Інтернеті. Перш ніж трафік потрапить у публічний Інтернет, Tor надсилає трафік через три випадкових сервери (також відомі як <em>ретранслятори</em>), що знаходяться у його мережі.</p>
     <p>На рисунку вище зображено як виглядає перегляд веб-сайтів через мережу Tor. Зелені монітори представляють собою ретранслятори в мережі Tor, в той час як три ключа - це шари шифрування між користувачем і кожним ретранслятором.</p>
     <p>Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination.</p>
@@ -24,7 +24,7 @@
     <p>You can get Tor on your Android device by installing the package named <em>Orbot</em>. For information about how to download and install Orbot, please see the <a href="https://www.torproject.org/docs/android.html.en">Tor Project website</a>.</p>
     <p>У нас також є тестові пакети для <a href="https://www.torproject.org/docs/N900.html.en">Nokia Maemo/N900</a> and <a href="http://sid77.slackware.it/iphone/">Apple iOS</a>.</p>
     <h3 id="how-to-verify-that-you-have-the-right-version">Як перевірити, що Ви маєте правильну версію</h3>
-    <p>Before running the Tor Browser Bundle, you should make sure that you have the right version.</p>
+    <p>Перед запуском Tor Browser Bundle, Ви повинні переконатися, що у Вас встановлена правильна версія.</p>
     <p>The software you receive is accompanied by a file with the same name as the bundle and the extension <strong>.asc</strong>. This .asc file is a GPG signature, and will allow you to verify the file you've downloaded is exactly the one that we intended you to get.</p>
     <p>Перш ніж Ви зможете перевірити підпис, Вам доведеться завантажити і встановити GnuPG:</p>
     <p><strong>Windows</strong>: <a href="http://gpg4win.org/download.html">http://gpg4win.org/download.html</a><br/><strong>Mac OS X</strong>: <a href="http://macgpg.sourceforge.net/">http://macgpg.sourceforge.net/</a><br/><strong>Linux</strong>: Більшість Linux дистрибутивів включає попередньо встановлений GnuPG.</p>
@@ -61,7 +61,7 @@ sub 2048R/EB399FD7 2003-10-16
     <p>Після завантаження Tor Browser Bundle і розпакування пакету, у Вас з'явиться директорія з декількома файлами всередині. Один з файлів є виконуваним і називається "Start Tor Browser" (або "start-tor-browser", в залежності від Вашої операційної системи).</p>
     <p>When you start the Tor Browser Bundle, you will first see Vidalia start up and connect you to the Tor network. After that, you will see a browser confirming that you are now using Tor. This is done by displaying <a href="https://check.torproject.org/">https://check.torproject.org/</a>. You can now browse the Internet through Tor.</p>
     <p>
-      <em>Please note that it is important that you use the browser that comes with the bundle, and not your own browser.</em>
+      <em>Зверніть увагу на те, що дуже важливо, щоб Ви використовували браузер, який поставляється з пакетом, а не свій власний браузер.</em>
     </p>
     <h3 id="what-to-do-when-tor-does-not-connect">Що робити, якщо Tor не підключається до мережі</h3>
     <p>Some users will notice that Vidalia gets stuck when trying to connect to the Tor network. If this happens, make sure that you are connected to the Internet. If you need to connect to a proxy server, see <em>How to use an open proxy</em> below.</p>
@@ -81,48 +81,48 @@ sub 2048R/EB399FD7 2003-10-16
     <p>The steps below assume you have a functional Tor/Vidalia configuration, and you have found a list of HTTPS, SOCKS4, or SOCKS5 proxies.</p>
     <ol style="list-style-type: decimal">
       <li>Відкрийте панель налаштувань Vidalia, натисніть <em>Налаштування</em>.</li>
-      <li>Click <em>Network</em>. Select <em>I use a proxy to access the Internet</em>.</li>
-      <li>On the <em>Address</em> line, enter the open proxy address. This can be a hostname or an IP Address.</li>
+      <li>Натисніть <em>Мережа</em>. Виберіть <em>Я використовую проксі для доступу в Інтернет</em>.</li>
+      <li>У стрічці <em>Адреса</em> введіть відкритий адрес проксі. Це може бути ім'я хосту або IP-адреса.</li>
       <li>Введіть порт proxy.</li>
-      <li>Generally, you do not need a username and password. If you do, enter the information in the proper fields.</li>
+      <li>Як правило, Вам не потрібно вводити ім'я користувача та пароль. Якщо ця інформація все ж таки знадобиться, то введіть її у відповідні поля.</li>
       <li>Оберіть <em>Тип</em> проксі, який Ви використовуєте HTTP/HTTPS, SOCKS4 або SOCKS5.</li>
-      <li>Push the <em>OK</em> button. Vidalia and Tor are now configured to use a proxy to access the rest of the Tor network.</li>
+      <li>Натисніть кнопку <em>OK</em>. Vidalia і Tor тепер налаштовані на використання проксі для доступу до іншої частини мережі Tor.</li>
     </ol>
     <h2 id="frequently-asked-questions">Питання, які часто ставляться</h2>
-    <p>This section will answer some of the most common questions. If your question is not mentioned here, please send an email to help@rt.torproject.org.</p>
+    <p>У цьому розділі розміщені відповіді на деякі з найбільш поширених питань. Якщо Ваше питання не згадується, будь ласка, надішліть листа на help@rt.torproject.org.</p>
     <h3 id="unable-to-extract-the-archive">Не вдається відкрити архів</h3>
-    <p>If you are using Windows and find that you cannot extract the archive, download and install <a href="http://www.7-zip.org/">7-Zip</a>.</p>
+    <p>Якщо Ви використовуєте Windows, і виявилося, що Ви не можете розпакувати архів, завантажте і встановіть <a href="http://www.7-zip.org/">7-Zip</a>.</p>
     <p>If you are unable to download 7-Zip, try to rename the file from .z to .zip and use winzip to extract the archive. Before renaming the file, tell Windows to show file extensions:</p>
     <h4 id="windows-xp">Windows XP</h4>
     <ol style="list-style-type: decimal">
       <li>Відкрити <em>Мій комп'ютер</em></li>
-      <li>Click on <em>Tools</em> and choose <em>Folder Options...</em> in the menu</li>
+      <li>Натисніть на <em>Інструменти</em>&gt; та виберіть у меню <em>Властивості папки...</em></li>
       <li>Натисніть на вкладку <em>Перегляд</em></li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Зніміть відмітку <em>Приховувати розширення для зареєстрованих типів файлів</em> і натисніть <em>OK</em></li>
     </ol>
     <h4 id="windows-vista">Windows Vista</h4>
     <ol style="list-style-type: decimal">
       <li>Відкрити <em>Мій комп'ютер</em></li>
       <li>Натисніть на <em>Організувати</em> і оберіть у меню <em>Директорію і налаштування пошуку</em></li>
       <li>Натисніть на вкладку <em>Перегляд</em></li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Зніміть відмітку <em>Приховувати розширення для зареєстрованих типів файлів</em> і натисніть <em>OK</em></li>
     </ol>
     <h4 id="windows-7">Windows 7</h4>
     <ol style="list-style-type: decimal">
       <li>Відкрити <em>Мій комп'ютер</em></li>
       <li>Натисніть на <em>Організувати</em> і оберіть у меню <em>Директорію і налаштування пошуку</em></li>
       <li>Натисніть на вкладку <em>Перегляд</em></li>
-      <li>Uncheck <em>Hide extensions for known file types</em> and click <em>OK</em></li>
+      <li>Зніміть відмітку <em>Приховувати розширення для зареєстрованих типів файлів</em> і натисніть <em>OK</em></li>
     </ol>
     <h3 id="vidalia-asks-for-a-password">Vidalia просить пароль</h3>
-    <p>You should not have to enter a password when starting Vidalia. If you are prompted for one, you are likely affected by one of these problems:</p>
+    <p>Ви не повинні вводити пароль при запуску Vidalia. Якщо у Вас його запитують, то ймовірно Ви стикнулися з однією з проблем:</p>
     <p><strong>You are already running Vidalia and Tor</strong>: For example, this situation can happen if you installed the Vidalia bundle and now you're trying to run the Tor Browser Bundle. In that case, you will need to close the old Vidalia and Tor before you can run this one.</p>
     <p><strong>Vidalia crashed, but left Tor running</strong>: If the dialog that prompts you for a control password has a Reset button, you can click the button and Vidalia will restart Tor with a new random control password. If you do not see a Reset button, or if Vidalia is unable to restart Tor for you; go into your process or task manager, and terminate the Tor process. Then use Vidalia to restart Tor.</p>
     <p>Для отримання додаткової інформації, перегляньте <a href="https://torproject.org/docs/faq.html#VidaliaPassword">FAQ</a> на сторінці Tor Project.</p>
     <h3 id="flash-does-not-work">Flash не працює</h3>
-    <p>For security reasons, Flash, Java, and other plugins are currently disabled for Tor. Plugins operate independently from Firefox and can perform activity on your computer that ruins your anonymity.</p>
-    <p>Most YouTube videos work with HTML5, and it is possible to view these videos over Tor. You need to join the <a href="https://www.youtube.com/html5">HTML5 trial</a> on the YouTube website before you can use the HTML5 player.</p>
-    <p>Note that the browser will not remember that you joined the trial once you close it, so you will need to re-join the trial the next time you run the Tor Browser Bundle.</p>
+    <p>З міркувань безпеки, Flash, Java та інші плагіни в даний час відключені для Tor. Плагіни працюють незалежно від Firefox і можуть здійснювати на Вашому комп'ютері діяльність, що порушує анонімність.</p>
+    <p>Більшість відео у YouTube працює з HTML5, і ці відео можна дивитися через Tor. Вам потрібно увімкнути <a href="https://www.youtube.com/html5">HTML5 тріал</a> на сайті YouTube, перш ніж Ви зможете використовувати HTML5 плеєр.</p>
+    <p>Зверніть увагу, що браузер не пам'ятатиме, що Ви приєдналися до тріалу, коли Ви його закриєте, тому Вам буде необхідно знову приєднатися до тріалу наступного разу при запуску Tor Browser Bundle.</p>
     <p>Будь-ласка, перегляньте <a href="https://www.torproject.org/torbutton/torbutton-faq.html#noflash">Torbutton FAQ</a> для отримання додаткової інформації.</p>
     <h3 id="i-want-to-use-another-browser">Я хочу використовувати інший браузер</h3>
     <p>У цілях безпеки, ми рекомендуємо Вам переглядати веб-сторінки тільки через Tor з використанням Tor Browser Bundle. Технічно можливо використовувати Tor з іншими браузерами, проте роблячи це, Ви наражаєтесь на потенційні атаки.</p>
