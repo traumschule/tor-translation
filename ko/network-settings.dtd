@@ -9,7 +9,7 @@
 
 <!ENTITY torSettings.firstQuestion "어떤 것이 귀하의 상황에 가깝습니까?">
 <!ENTITY torSettings.configurePrompt1 "이 컴퓨터의 인터넷 연결은 검열되거나 필터링되거나 프록시를 사용하고 있습니다.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "브릿지, 방화벽, 프록시 설정 구성을 해야 합니다.">
 <!ENTITY torSettings.configure "구성">
 <!ENTITY torSettings.connectPrompt2 "Tor 네트워크에 직접 연결하고 싶습니다.">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
