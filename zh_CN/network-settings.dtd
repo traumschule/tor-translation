@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "在您连接到Tor网络之前，需要提供本机的英特网连接信息。">
+<!ENTITY torsettings.prompt "在连接 Tor 网络之前，需提供相关的网络连接信息。">
 
 <!ENTITY torSettings.yes "是">
 <!ENTITY torSettings.no "否">
