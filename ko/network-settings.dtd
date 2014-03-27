@@ -46,9 +46,9 @@
 <!ENTITY torsettings.firewall.checkbox "이 컴퓨터는 특정 포트만 통과하는 방화벽을 지나 연결됩니다.">
 <!ENTITY torsettings.firewall.allowedPorts "허용된 포트:">
 <!ENTITY torsettings.useBridges.checkbox "인터넷 서비스 공급자(ISP)가 Tor 네트워크 접속을 차단합니다.">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.default "제공된 브릿지에 연결">
 <!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.custom "이용자 브릿지 접속">
 <!ENTITY torsettings.useBridges.label "1개 이상의 브릿지 중계 서버를 입력해 주세요. (각 줄에 한 개씩)">
 <!ENTITY torsettings.useBridges.placeholder "주소 입력 : 포트 번호">
 
