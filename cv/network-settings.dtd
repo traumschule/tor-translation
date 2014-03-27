@@ -4,8 +4,8 @@
 
 <!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
-<!ENTITY torSettings.yes "Yes">
-<!ENTITY torSettings.no "No">
+<!ENTITY torSettings.yes "Çапла">
+<!ENTITY torSettings.no "Çук">
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
@@ -13,7 +13,7 @@
 <!ENTITY torSettings.configure "Configure">
 <!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
-<!ENTITY torSettings.connect "Connect">
+<!ENTITY torSettings.connect "Çыхăнтар">
 
 <!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
@@ -34,12 +34,12 @@
 <!ENTITY torsettings.optional "Optional">
 
 <!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.address "Address:">
+<!ENTITY torsettings.useProxy.type "Прокси:">
+<!ENTITY torsettings.useProxy.address "Адрĕс:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
-<!ENTITY torsettings.useProxy.port "Port:">
+<!ENTITY torsettings.useProxy.port "Порчĕ:">
 <!ENTITY torsettings.useProxy.username "Username:">
-<!ENTITY torsettings.useProxy.password "Password:">
+<!ENTITY torsettings.useProxy.password "Кĕме сăмах:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
