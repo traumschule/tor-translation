@@ -46,7 +46,8 @@
 <!ENTITY torsettings.firewall.checkbox "Questo computer passa attraverso un firewall che permette le connessioni solo ad alcune porte">
 <!ENTITY torsettings.firewall.allowedPorts "Porte consentite:">
 <!ENTITY torsettings.useBridges.checkbox "Il mio fornitore di servizi Internet (ISP) blocca le connessioni alla rete Tor">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.default "
+">
 <!ENTITY torsettings.useBridges.type "Tipo di trasporto:">
 <!ENTITY torsettings.useBridges.custom "Inserire bridge personaizzati">
 <!ENTITY torsettings.useBridges.label "Inserisci uno o più bridge relay (uno per riga)">
