@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Gépelj be egy vesszővel elválasztott listát a portokról amik engedélyezve vannak a tűzfal által.">
 <!ENTITY torSettings.bridgeQuestion "Az internet szolgáltatód (ISP) blokkolja vagy cenzúrázza a kapcsolatot a Tor hálózathoz?">
 <!ENTITY torSettings.bridgeHelp "Ha nem vagy biztos a válaszban, válaszd a Nem-et.&amp;#160; Ha az Igen-t választod neked kell konfigurálni a Tor bridges amik nem listázott átjátszók és nehezebbé teszik a Tor hálózat kapcsolódásának a blokkolását.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Használhatod a szolgáltatott bridge címeket vagy beszerezhetsz egyedi bridge címeket.">
 
 <!-- Other: -->
 
@@ -46,9 +46,9 @@
 <!ENTITY torsettings.firewall.checkbox "A számítógép egy tűzfalon keresztül kommunikál ami csak adott portokon keresztül engedélyezi a kapcsolatotokat.">
 <!ENTITY torsettings.firewall.allowedPorts "Engedélyezett portok:">
 <!ENTITY torsettings.useBridges.checkbox "Az internet szolgáltatóm (ISP) blokkolja a Tor hálózathoz való csatlakozásokat">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.default "Csatlakozás a szolgáltatott bridge címekkel.">
+<!ENTITY torsettings.useBridges.type "Átvitel típusa:">
+<!ENTITY torsettings.useBridges.custom "Addj meg egyedi bridge címeket">
 <!ENTITY torsettings.useBridges.label "Addj meg egy vagy több bridge relay címet (soronként egy)">
 <!ENTITY torsettings.useBridges.placeholder "Írd cím:port">
 
