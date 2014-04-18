@@ -46,12 +46,11 @@
 <!ENTITY torsettings.firewall.checkbox "Questo computer passa attraverso un firewall che permette le connessioni solo ad alcune porte">
 <!ENTITY torsettings.firewall.allowedPorts "Porte consentite:">
 <!ENTITY torsettings.useBridges.checkbox "Il mio fornitore di servizi Internet (ISP) blocca le connessioni alla rete Tor">
-<!ENTITY torsettings.useBridges.default "
-">
+<!ENTITY torsettings.useBridges.default "Collegati usando i bridge preconfigurati">
 <!ENTITY torsettings.useBridges.type "Tipo di trasporto:">
 <!ENTITY torsettings.useBridges.custom "Inserire bridge personaizzati">
 <!ENTITY torsettings.useBridges.label "Inserisci uno o più bridge relay (uno per riga)">
-<!ENTITY torsettings.useBridges.placeholder "Tipo indirizzo:porta">
+<!ENTITY torsettings.useBridges.placeholder "Inserisci indirizzo:porta">
 
 <!ENTITY torsettings.copyLog "Copia il log di Tor negli &quot;appunti&quot; di sistema">
 <!ENTITY torsettings.bridgeHelpTitle "Aiuto per i ponti relé">
