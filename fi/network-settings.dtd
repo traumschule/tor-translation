@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Torin Verkko Asetukset">
 
 <!-- For "first run" wizard: -->
 
@@ -15,10 +15,10 @@
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Yhdistä">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "Tarvitseeko tämä tietokone proxya päästäkseen internettiin?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
+<!ENTITY torSettings.enterProxy "Mene proxy asetuksiin.">
 <!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
 <!ENTITY torSettings.firewallHelp "Ellet ole varma kuinka vastata tähän kysymykseen, valitse Ei. Muuta tätä asetusta jos yhteyden saamisessa Tor-verkkoon on ongelmia.">
 <!ENTITY torSettings.enterFirewall "Luettele pilkuin erotettuina ne portit, jotka palomuuri sallii. ">
@@ -36,7 +36,7 @@
 <!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
 <!ENTITY torsettings.useProxy.type "Proxy Type:">
 <!ENTITY torsettings.useProxy.address "Osoite:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
+<!ENTITY torsettings.useProxy.address.placeholder "IP osoite tai isännän nimi">
 <!ENTITY torsettings.useProxy.port "Portti:">
 <!ENTITY torsettings.useProxy.username "Käyttäjänimi:">
 <!ENTITY torsettings.useProxy.password "Salasana:">
