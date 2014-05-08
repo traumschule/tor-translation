@@ -22,8 +22,8 @@
 <!ENTITY torSettings.firewallQuestion "Bu bilgisayarın İnternet bağlantısı, sadece belirli bağlantı noktalarına izin veren bir güvenlik duvarından geçiyor mu?">
 <!ENTITY torSettings.firewallHelp "Eğer bu soruya nasıl cevap vereceğinizden emin değilseniz, Hayır seçin. Eğer Tor ağına bağlanırken sorunla karşılaşırsanız, bu ayarı değiştirin.">
 <!ENTITY torSettings.enterFirewall "Güvenlik duvarı tarafından izin verilen bağlantı noktalarının virgülle ayrılmış bir listesini girin.">
-<!ENTITY torSettings.bridgeQuestion "İnternet Servis Sağlayıcınızı (ISS) engellesin veya ayrıcaTor Bağlantınızı sansürlesin mi?">
-<!ENTITY torSettings.bridgeHelp "Bu soruyu nasıl cevaplayacağınızdan emin değilseniz Hayır 'ı Seçin.&amp;#160; Eğer Evet'i seçerseniz, Tor Ağına bağlantıyı engellemeyi daha zor hale getiren listelenmeyen aktarıcılar olan Tor Köprülerini yapılandırmanız istenecektir.">
+<!ENTITY torSettings.bridgeQuestion "İnternet Servis Sağlayıcınız (ISS) Tor Ağına bağlantıları engelliyor veya sansürlüyor mu?">
+<!ENTITY torSettings.bridgeHelp "Bu soruyu nasıl cevaplayacağınızdan emin değilseniz Hayır'ı Seçin.&amp;#160; Eğer Evet'i seçerseniz, Tor Ağına bağlantıyı engellemeyi daha zor hale getiren listelenmeyen aynalar olan Tor Köprülerini yapılandırmanız istenecektir.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Sağlanan köprülerin kümesini kullanabilirsiniz veya özel bir köprü seti girebilir veya sağlayabilirsiniz.">
 
 <!-- Other: -->
@@ -47,14 +47,14 @@
 <!ENTITY torsettings.firewall.allowedPorts "İzin verilen portlar:">
 <!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
 <!ENTITY torsettings.useBridges.default "Sağlanan köprüler ile bağlan">
-<!ENTITY torsettings.useBridges.type "Taşıma türü:">
+<!ENTITY torsettings.useBridges.type "Aktarım türü:">
 <!ENTITY torsettings.useBridges.custom "Özel köprüler girin">
-<!ENTITY torsettings.useBridges.label "Bir veya daha fazla köprü aktarıcısı girin (her satıra bir tane).">
-<!ENTITY torsettings.useBridges.placeholder "adresi yazın:port">
+<!ENTITY torsettings.useBridges.label "Bir veya daha fazla köprü aynası girin (her satıra bir tane).">
+<!ENTITY torsettings.useBridges.placeholder "adresi:port şeklinde yazın">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
-<!ENTITY torsettings.bridgeHelpTitle "Köprü Aktarıcı Yardımı">
-<!ENTITY torsettings.bridgeHelp1 "Tor ağına bağlanamıyorsanız, kullandığınız İnternet Servis Sağlayıcısı (ISS) veya başka bir kurum Tor'u engelliyor olabilir.&amp;#160; Çoğunlukla bu problemi engellenmesi daha zor listelenmeyen aktarıcılar olan Tor köprülerini kullanarak çözebilirisiniz.">
+<!ENTITY torsettings.bridgeHelpTitle "Köprü Ayna Yardımı">
+<!ENTITY torsettings.bridgeHelp1 "Tor ağına bağlanamıyorsanız, kullandığınız İnternet Servis Sağlayıcısı (ISS) veya başka bir kurum Tor'u engelliyor olabilir.&amp;#160; Çoğunlukla bu problemi, engellenmesi daha zor listelenmeyen aynalar olan Tor Köprülerini kullanarak çözebilirsiniz.">
 <!ENTITY torsettings.bridgeHelp1B "Önceden yapılandırılan sağlanan köprü adresleri setini kullanabilirsiniz veya bu üç yöntemden birini kullanarak adres kümesinden özel bir set sağlayabilirsiniz:">
 <!ENTITY torsettings.bridgeHelp2Heading "Web aracılığıyla.">
 <!ENTITY torsettings.bridgeHelp2 "https://bridges.torproject.org sitesini ziyaret etmek için web tarayıcısı kullanın.">
