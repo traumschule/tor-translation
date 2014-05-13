@@ -17,11 +17,11 @@
 
 <!ENTITY torSettings.proxyQuestion "Necessita aquest ordinador usar un proxy per accedir a internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a proxy.">
+<!ENTITY torSettings.proxyHelp "Si no estas segur de com respondre a aquesta pregunta, observa els paràmetres d'Internet en un altre navegador per veure si està configurat per utilitzar un proxy.">
 <!ENTITY torSettings.enterProxy "Introdueix les opcions del proxy.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
-<!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
-<!ENTITY torSettings.enterFirewall "Enter a comma-separated list of ports that are allowed by the firewall.">
+<!ENTITY torSettings.firewallQuestion "La connexió d'aquest ordinador va a través d'un firewall que només permet les connexions per certs ports?">
+<!ENTITY torSettings.firewallHelp "Si no estas segur de com respondre a aquesta pregunta, selecciona no. Si tens problemes de connexió per la xarxa Tor, canvia aquest paràmetre.">
+<!ENTITY torSettings.enterFirewall "Escriviu una llista separada per comes dels ports que estan permesos pel proxy.">
 <!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
@@ -34,7 +34,7 @@
 <!ENTITY torsettings.optional "Opcional
 ">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Aquest ordinador ha de fer servir un proxy per accedir a Internet">
 <!ENTITY torsettings.useProxy.type "Tipus de Proxy:">
 <!ENTITY torsettings.useProxy.address "Adreça:">
 <!ENTITY torsettings.useProxy.address.placeholder "Direcció IP o nom del host">
@@ -44,14 +44,14 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
+<!ENTITY torsettings.firewall.checkbox "Aquest ordinador va a través d'un proxy que només permet connexions a certs ports">
 <!ENTITY torsettings.firewall.allowedPorts "Ports permesos:">
 <!ENTITY torsettings.useBridges.checkbox "El meu proveidor d'internet (ISP) bloqueja les conexions a la xarxa Tor">
 <!ENTITY torsettings.useBridges.default "Connect with provided bridges">
 <!ENTITY torsettings.useBridges.type "Transport type:">
 <!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Entra en un o més repetidors (un per linia).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "introdueix adreça:port">
 
 <!ENTITY torsettings.copyLog "Copiar el Log al portapapers">
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Repetidors">
