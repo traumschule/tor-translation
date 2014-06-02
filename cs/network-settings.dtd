@@ -54,7 +54,7 @@
 
 <!ENTITY torsettings.copyLog "Zkopíruj logový soubor Toru do schránky">
 <!ENTITY torsettings.bridgeHelpTitle "Nápověda o  mostních relé">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1 "Pokud nejste schopni se připojit k síti TORu, může to být způsobeno tím, že váš posktytovatel internetu (ISP) nebo nějaká jiná služba blokuje Tor.&#160; Většinou můžete obejít tento problém použitím Mostů TORu, což jsou přenašeče neuvedené v seznamu, které je složitější zablokovat.">
 <!ENTITY torsettings.bridgeHelp1B "Můžete použít přednastavenou, poskytnutou sadu síťových mostů, nebo můžete získat vlastní sadu adres použitím jedné z těchto tří metod:">
 <!ENTITY torsettings.bridgeHelp2Heading "Přes síť">
 <!ENTITY torsettings.bridgeHelp2 "Použijte internetový prohlížeč k návštěvě https://bridges.torproject.org">
