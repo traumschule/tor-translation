@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Configurações de Rede Tor">
+<!ENTITY torsettings.dialog.title "Configurações da Rede Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente para certas portas?">
 <!ENTITY torSettings.firewallHelp "Se você não tiver certeza sobre como responder a esta questão, escolha Não. Em caso de dificuldades de conexão à rede Tor, modifique esta configuração.">
 <!ENTITY torSettings.enterFirewall "Insira, separando-a por vírgulas, uma lista de portas habilitadas pelo firewall. ">
-<!ENTITY torSettings.bridgeQuestion "Seu provedor de serviços de internet (ISP) bloqueiam ou censuram conexões à rede Tor?">
+<!ENTITY torSettings.bridgeQuestion "Seu provedor de serviços de internet (ISP) bloqueia ou censura conexões à rede Tor?">
 <!ENTITY torSettings.bridgeHelp "Se você não está seguro de como responder esta questão, escolha No.&#160; Se você escolher Sim, você será perguntado para configurar pontes Tor, que são relays não listados que dificultam o bloqueio a rede Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Você pode usar o conjunto de bridges fornecido ou pode obter e digitar um personalizado.">
 
@@ -54,10 +54,10 @@
 
 <!ENTITY torsettings.copyLog "Copiar o Log do Tor na área de transferência">
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
-<!ENTITY torsettings.bridgeHelp1 "Se for impossível conectar-se à rede Tor, talvez o seu Provedor de Internet (ISP) ou outra instância esteja bloqueando o Tor.&#160; Normalmente, é possível contornar esse problema utilizando Pontes Tor, que são retransmissores ocultos, mais difíceis de bloquear.">
+<!ENTITY torsettings.bridgeHelp1 "Se for impossível conectar-se à rede Tor, talvez o seu Provedor de Internet (ISP) ou outra instância esteja bloqueando o Tor.&amp;#160. Normalmente, é possível contornar esse problema utilizando Pontes Tor, que são retransmissores ocultos (não listados), mais difíceis de bloquear.">
 <!ENTITY torsettings.bridgeHelp1B "Você pode usar o conjunto fornecido pré-configurado de endereços de bridges ou pode obter um personalizado usando um desses três métodos:">
 <!ENTITY torsettings.bridgeHelp2Heading "Através da Web">
-<!ENTITY torsettings.bridgeHelp2 "Use um navegador de internet e visite ">
+<!ENTITY torsettings.bridgeHelp2 "Use um navegador internet  para visitar https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Através do Email Autoresponder">
 <!ENTITY torsettings.bridgeHelp3 "Envie um e-mail para bridges@torproject.org com a mensagem 'get bridges'.&#160; Contudo, para tornar mais difícil para um invasor descobrir uma grande quantidade de endereços, você deve enviar esse pedido a partir do gmail.com ou yahoo.com.">
 <!ENTITY torsettings.bridgeHelp4Heading "Através do ">
