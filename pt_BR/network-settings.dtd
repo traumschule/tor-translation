@@ -19,9 +19,9 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Caso você não tenha certeza sobre como responder a essa questão, consulte as configurações de rede em um outro browser para saber se ele está configurado para usar um proxy.">
 <!ENTITY torSettings.enterProxy "Insira as configurações de proxy.">
-<!ENTITY torSettings.firewallQuestion "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente para certas portas?">
+<!ENTITY torSettings.firewallQuestion "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente a certas portas?">
 <!ENTITY torSettings.firewallHelp "Se você não tiver certeza sobre como responder a esta questão, escolha Não. Em caso de dificuldades de conexão à rede Tor, modifique esta configuração.">
-<!ENTITY torSettings.enterFirewall "Insira, separando-a por vírgulas, uma lista de portas habilitadas pelo firewall. ">
+<!ENTITY torSettings.enterFirewall "Insira, separando-as por vírgulas, uma lista de portas habilitadas pelo firewall. ">
 <!ENTITY torSettings.bridgeQuestion "Seu provedor de serviços de internet (ISP) bloqueia ou censura conexões à rede Tor?">
 <!ENTITY torSettings.bridgeHelp "Se você não estiver seguro sobre como responder a essa questão, escolha Não&#160;. Se você escolher Sim, será preciso configurar pontes Tor, que são retransmissores não-listados que dificultam possíveis bloqueios à rede Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Você pode usar o conjunto de pontes fornecidas ou obter e adicionar um conjunto de pontes personalizadas. ">
@@ -43,14 +43,14 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente para determinadas portas.">
+<!ENTITY torsettings.firewall.checkbox "A conexão Internet deste computador é filtrada por uma firewall que autoriza conexões somente a determinadas portas.">
 <!ENTITY torsettings.firewall.allowedPorts "Portas habilitadas:">
 <!ENTITY torsettings.useBridges.checkbox "Meu Provedor de Serviços Internet (ISP) bloqueia as conexões à rede Tor">
 <!ENTITY torsettings.useBridges.default "Conectar com as pontes fornecidas">
 <!ENTITY torsettings.useBridges.type "Tipo de transporte:">
 <!ENTITY torsettings.useBridges.custom "Adicionar pontes personalizadas">
 <!ENTITY torsettings.useBridges.label "Insira um ou mais retransmissores de pontes (um por linha).">
-<!ENTITY torsettings.useBridges.placeholder "tipo endereço:porta">
+<!ENTITY torsettings.useBridges.placeholder "tipo de endereço:porta">
 
 <!ENTITY torsettings.copyLog "Copiar o Log do Tor na área de transferência">
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
