@@ -52,7 +52,7 @@
 <!ENTITY torsettings.useBridges.label "Insira um ou mais retransmissores de pontes (um por linha).">
 <!ENTITY torsettings.useBridges.placeholder "tipo de endereço:porta">
 
-<!ENTITY torsettings.copyLog "Copiar o Log do Tor na área de transferência">
+<!ENTITY torsettings.copyLog "Copiar o registro do Tor na área de transferência">
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
 <!ENTITY torsettings.bridgeHelp1 "Se for impossível conectar-se à rede Tor, talvez o seu Provedor de Internet (ISP) ou outra instância esteja bloqueando o Tor.&#160;. Normalmente, é possível contornar esse problema utilizando Pontes Tor, que são retransmissores ocultos (não listados), mais difíceis de bloquear.">
 <!ENTITY torsettings.bridgeHelp1B "Você pode usar o conjunto de endereços de pontes fornecidas, já configuradas, ou pode obter um conjunto personalizado, usando um desses três métodos:">
