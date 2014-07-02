@@ -2,10 +2,10 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "當您連接到 Tor 網路之前，您必須提供關於這部電腦的網路連線資訊">
+<!ENTITY torsettings.prompt "在您連接到 Tor 網路前，您需要提供這台電腦網路連線的相關資訊">
 
-<!ENTITY torSettings.yes "確定">
-<!ENTITY torSettings.no "取消">
+<!ENTITY torSettings.yes "是">
+<!ENTITY torSettings.no "否">
 
 <!ENTITY torSettings.firstQuestion "下列哪一項最符合您的情況？">
 <!ENTITY torSettings.configurePrompt1 "此電腦的網路連結被審查、過濾、或經過代理。">
@@ -15,12 +15,12 @@
 <!ENTITY torSettings.connectPrompt3 "這能在大部分狀況中生效">
 <!ENTITY torSettings.connect "連結">
 
-<!ENTITY torSettings.proxyQuestion "這台電腦是否需要透過代理伺服器存取網際網路？">
+<!ENTITY torSettings.proxyQuestion "這台電腦需要使用代理伺服器來存取網際網路嗎?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "若您無法確定如何回答這個問題，請查看其他瀏覽器的網路設定，看它是否設定為透過代理伺服器連線。">
+<!ENTITY torSettings.proxyHelp "若您不確定如何回答此問題，請查看其他瀏覽器的網際網路設定，看看它是否設定成使用代理伺服器連線。">
 <!ENTITY torSettings.enterProxy "輸入代理伺服器設定。">
-<!ENTITY torSettings.firewallQuestion "此電腦的網路連線，是否通過只允許連結特定連線埠的防火牆？">
-<!ENTITY torSettings.firewallHelp "若您無法確定如何回答這個問題，請選擇「否」。若您在連結至 Tor 網路時遭遇問題，請再改變此設定。">
+<!ENTITY torSettings.firewallQuestion "這台電腦的網際網路連線，要通過只允許連接特定連線埠的防火牆嗎?">
+<!ENTITY torSettings.firewallHelp "若您不確定如何回答此問題，請選擇「否」。若您連接至 Tor 網路時遭遇問題，請變更此設定。">
 <!ENTITY torSettings.enterFirewall "請輸入防火牆允許的連線埠（請以逗號分隔）。">
 <!ENTITY torSettings.bridgeQuestion "您的網路供應商 (ISP) 阻擋或者審查 Tor 網路連線？">
 <!ENTITY torSettings.bridgeHelp "如果你不知道如何回答這個問題，請選擇「否」&#160; 如果你選擇選擇「是」，你將被要求設定Tor網橋，這可以讓阻擋客戶端與Tor伺服器的連接更困難。">
