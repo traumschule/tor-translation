@@ -18,9 +18,9 @@
 <!ENTITY torSettings.proxyQuestion "Potrebuje tento počítač použiť proxy pre prístup na internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ak si nie ste istý odpoveďou na túto otázku, pozrite na nastavenie internetu v inom prehliadači, či je konfigurovaný pre použitie proxy.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
+<!ENTITY torSettings.enterProxy "Zadajte nastavenia proxy.">
 <!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
-<!ENTITY torSettings.firewallHelp "If you are not sure how to answer this question, choose No. If you encounter problems connecting to the Tor network, change this setting.">
+<!ENTITY torSettings.firewallHelp "Ak neviete, ako máte odpovedať na túto otázku, zvoľte Nie. Ak sa vyskytne problém s pripojením do Tor network, zmeňte toto nastavenie.">
 <!ENTITY torSettings.enterFirewall "Zadajte čísla portov oddelené medzerou, ktoré sú povolené na firewalle.">
 <!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
@@ -29,7 +29,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čakanie na štart Toru...">
-<!ENTITY torsettings.restart "Restart">
+<!ENTITY torsettings.restart "Reštartovať">
 
 <!ENTITY torsettings.optional "Voliteľne">
 
