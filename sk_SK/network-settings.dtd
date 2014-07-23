@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
 <!ENTITY torSettings.firewallHelp "Ak neviete, ako máte odpovedať na túto otázku, zvoľte Nie. Ak sa vyskytne problém s pripojením do Tor network, zmeňte toto nastavenie.">
 <!ENTITY torSettings.enterFirewall "Zadajte čísla portov oddelené medzerou, ktoré sú povolené na firewalle.">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeQuestion "Blokuje váš poskytovateľ internetového pripojenia (ISP) alebo inak cenzuruje pripojenia do siete Tor Network?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
