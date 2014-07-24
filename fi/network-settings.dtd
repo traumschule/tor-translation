@@ -24,7 +24,7 @@
 <!ENTITY torSettings.enterFirewall "Luettele pilkuin erotettuina ne portit, jotka palomuuri sallii. ">
 <!ENTITY torSettings.bridgeQuestion "Sensuroiko tai estääkö sinun operaattorisi (ISP) yhteydet Tor-verkkoon?">
 <!ENTITY torSettings.bridgeHelp "Ellet ole varma kuinka vastata tähän kysymykseen, valitse No.&#160; Jos valitset Kyllä, sinua pyydetään määrittämään Torin Sillat, jotka ovat listaamattomia releitä, jotta yhteyksiä olisi vaikeampi estää Torin verkkoon yhdistettäessä.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Voit käyttää edellytettyjä silta-yhteyksiä tai voit saada ja osallistua mukautettuihin siltasarjaan.">
 
 <!-- Other: -->
 
@@ -54,11 +54,11 @@
 
 <!ENTITY torsettings.copyLog "Kopioi Torin Loki Leikepöydälle">
 <!ENTITY torsettings.bridgeHelpTitle "Siltarele-apu">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp1 "Jos et pysty yhdistämään Torin verkkoon, syy voi olla, että Internet palveluntarjoajasi (ISP) tai muu taho estää Tor.&#160; Usein, voit kiertää tämän ongelman käyttämällä Torin siltoja, jotka ovat listaamattomia releitä, jotka on vaikeampi estää.">
+<!ENTITY torsettings.bridgeHelp1B "Voit käyttää esimääritettyjä, edellytettyjä siltaosoitesarjoja tai voit saada mukautetun osoitesarjan käyttämällä näitä kolmea menetelmää:">
+<!ENTITY torsettings.bridgeHelp2Heading "Verkon yli">
+<!ENTITY torsettings.bridgeHelp2 "Käytä internet-selainta vieraillaksesi osoitteessa: https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Sähköpostin Automaattivastaajan läpi">
 <!ENTITY torsettings.bridgeHelp3 "Lähetä sähköpostia: bridges@torproject.org tekstin kanssa 'get bridges'  160">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4Heading "Neuvontapisteen läpi">
+<!ENTITY torsettings.bridgeHelp4 "Viimeisenä keinona voit pyytää siltaosoitteita lähettämällä kohteliaan viestin osoitteeseen: help@rt.torproject.org.&#160; Huomioi, että henkilön tulee vastata kuhunkin pyyntöön.">
