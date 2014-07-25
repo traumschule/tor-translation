@@ -32,7 +32,7 @@ blokiranje konekcija s Tor mrežom">
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čekanje da se Tor pokrene...">
-<!ENTITY torsettings.restart "Ponovno pokreni ">
+<!ENTITY torsettings.restartTor "Restart Tor">
 
 <!ENTITY torsettings.optional "Opcionalno">
 
