@@ -17,9 +17,9 @@
 
 <!ENTITY torSettings.proxyQuestion "Potrebuje tento počítač použiť proxy pre prístup na internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Ak si nie ste istý odpoveďou na túto otázku, pozrite na nastavenie internetu v inom prehliadači, či je konfigurovaný pre použitie proxy.">
+<!ENTITY torSettings.proxyHelp "Ak si nie ste istý odpoveďou na túto otázku, skontrolujte nastavenia Internetu v inom prehliadači, aby ste zistili, či je nastavený pre použitie proxy.">
 <!ENTITY torSettings.enterProxy "Zadajte nastavenia proxy.">
-<!ENTITY torSettings.firewallQuestion "Does this computer's Internet connection go through a firewall that only allows connections to certain ports?">
+<!ENTITY torSettings.firewallQuestion "Je pripojenie tohto počítača na Internet vedené cez firewall, ktorý povoľuje spojenia len na určité porty?">
 <!ENTITY torSettings.firewallHelp "Ak neviete, ako máte odpovedať na túto otázku, zvoľte Nie. Ak sa vyskytne problém s pripojením do Tor network, zmeňte toto nastavenie.">
 <!ENTITY torSettings.enterFirewall "Zadajte čísla portov oddelené medzerou, ktoré sú povolené na firewalle.">
 <!ENTITY torSettings.bridgeQuestion "Blokuje váš poskytovateľ internetového pripojenia (ISP) alebo inak cenzuruje pripojenia do siete Tor Network?">
