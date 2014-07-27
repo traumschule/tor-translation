@@ -1,15 +1,15 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Nastavenia Tor Network">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Pred tým, než sa pripojíte k Tor network, je potrebné poskytnúť informácie o pripojení tohto počítača na Internet.">
 
 <!ENTITY torSettings.yes "Áno">
 <!ENTITY torSettings.no "Nie">
 
-<!ENTITY torSettings.firstQuestion "Ktorá z nasledujúcich situácií najlepšie popisuje Vašu?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
+<!ENTITY torSettings.firstQuestion "Ktorá z nasledujúcich situácií najlepšie popisuje vašu?">
+<!ENTITY torSettings.configurePrompt1 "Pripojenie tohto počítača je cenzurované, filtrované alebo vedené cez proxy.">
+<!ENTITY torSettings.configurePrompt2 "Potrebujem nastaviť bridge, firewall alebo proxy.">
 <!ENTITY torSettings.configure "Konfigurovať">
 <!ENTITY torSettings.connectPrompt2 "Rád by som sa pripojil priamo do siete Tor.">
 <!ENTITY torSettings.connectPrompt3 "Toto by vo väčšine prípadov malo fungovať.">
