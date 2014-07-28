@@ -29,7 +29,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Odotetaan Torin käynnistymistä...">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Käynnistä Tor uudelleen">
 
 <!ENTITY torsettings.optional "Vaihtoehtoinen">
 
