@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Pred tým, než sa pripojíte k Tor network, je potrebné poskytnúť informácie o pripojení tohto počítača na Internet.">
+<!ENTITY torsettings.prompt "Pred tým, než sa pripojíte k sieti Tor, je potrebné poskytnúť informácie o pripojení tohto počítača na Internet.">
 
 <!ENTITY torSettings.yes "Áno">
 <!ENTITY torSettings.no "Nie">
@@ -20,7 +20,7 @@
 <!ENTITY torSettings.proxyHelp "Ak si nie ste istý odpoveďou na túto otázku, skontrolujte nastavenia Internetu v inom prehliadači, aby ste zistili, či je nastavený pre použitie proxy.">
 <!ENTITY torSettings.enterProxy "Zadajte nastavenia proxy.">
 <!ENTITY torSettings.firewallQuestion "Je pripojenie tohto počítača na Internet vedené cez firewall, ktorý povoľuje spojenia len na určité porty?">
-<!ENTITY torSettings.firewallHelp "Ak neviete, ako máte odpovedať na túto otázku, zvoľte Nie. Ak sa vyskytne problém s pripojením do Tor network, zmeňte toto nastavenie.">
+<!ENTITY torSettings.firewallHelp "Ak neviete, ako máte odpovedať na túto otázku, zvoľte Nie. Ak sa vyskytne problém s pripojením do siete Tor, zmeňte toto nastavenie.">
 <!ENTITY torSettings.enterFirewall "Zadajte čísla portov oddelené medzerou, ktoré sú povolené na firewalle.">
 <!ENTITY torSettings.bridgeQuestion "Blokuje váš poskytovateľ internetového pripojenia (ISP) alebo inak cenzuruje pripojenia do siete Tor Network?">
 <!ENTITY torSettings.bridgeHelp "Ak si nie ste istí, ako odpovedať, zvoľte Nie.&#160; Ak zvolíte Áno, bude potrebné nakonfigurovať Tor Bridges, čo sú nikde nezapísané relé, použitie ktorých robí blokovanie pripojenia do Tor Network ešte obtiažnejším.">
@@ -46,7 +46,7 @@
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
 <!ENTITY torsettings.firewall.allowedPorts "Povolené porty:">
 <!ENTITY torsettings.useBridges.checkbox "Môj poskytovateľ internetového pripojenia blokuje spojenie do siete Tor">
-<!ENTITY torsettings.useBridges.default "Pripojiť sa cez dodané bridges">
+<!ENTITY torsettings.useBridges.default "Pripojiť sa cez dodané premostenia">
 <!ENTITY torsettings.useBridges.type "Typ transportu:">
 <!ENTITY torsettings.useBridges.custom "Zadajte vlastné premostenia">
 <!ENTITY torsettings.useBridges.label "Zadaj jedno alebo viac premostení relé (jedno na riadok).">
@@ -54,7 +54,7 @@
 
 <!ENTITY torsettings.copyLog "Kopírovať log Toru do schránky">
 <!ENTITY torsettings.bridgeHelpTitle "Pomocník pre premostenia relé">
-<!ENTITY torsettings.bridgeHelp1 "Ak nie ste schopní sa pripojiť do Tor network, je možné, že váš poskytovateľ internetového pripojenia (ISP) alebo iný správny orgán blokuje Tor.&#160; Väčšinou je možné tento problém obísť použitím Tor Bridges, čo sú nikde nezapísané relé, ktoré je obtiažne blokovať.">
+<!ENTITY torsettings.bridgeHelp1 "Ak nie ste schopní sa pripojiť do siete Tor, je možné, že váš poskytovateľ internetového pripojenia (ISP) alebo iný správny orgán blokuje Tor.&#160; Väčšinou je možné tento problém obísť použitím Tor Bridges, čo sú nikde nezapísané relé, ktoré je obtiažne blokovať.">
 <!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
 <!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
