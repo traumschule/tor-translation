@@ -29,7 +29,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Tor'un başlaması bekleniyor...">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Tor'u Yeniden Başlat">
 
 <!ENTITY torsettings.optional "İsteğe Bağlı">
 
