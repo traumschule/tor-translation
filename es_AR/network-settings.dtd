@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Configuraciones de la red Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -7,7 +7,7 @@
 <!ENTITY torSettings.yes "Si">
 <!ENTITY torSettings.no "No">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
+<!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes opciones describe mejor su situación?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Configurar">
