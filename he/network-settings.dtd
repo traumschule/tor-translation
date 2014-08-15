@@ -29,7 +29,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "ממתין כעת עבור Tor כדי להתחיל…">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "התחל מחדש את Tor">
 
 <!ENTITY torsettings.optional "רשות">
 
