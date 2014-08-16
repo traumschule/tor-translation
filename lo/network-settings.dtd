@@ -7,7 +7,7 @@
 <!ENTITY torSettings.yes "ແມ່ນ">
 <!ENTITY torSettings.no "ບໍ່">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
+<!ENTITY torSettings.firstQuestion "ອັນໃດ ຕໍ່ໄປນີ້ ທີ່ ບັນຍາຍ ຢ່າງ ລະອຽດ ທີ່ສຸດ ກ່ຽວກັບ ສະພາບ ຂອງ ທ່ານ?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge, firewall, or proxy settings.">
 <!ENTITY torSettings.configure "Configure">
