@@ -1,11 +1,11 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "ການຕັ້ງຄ່າເຄືອຂ່າຍ Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "ກ່ອນທີ່ທ່ານຈະເຊື່ອມຕໍ່ເຂົ້າເຄືອຂ່າຍ Tor, ທ່ານຕ້ອງໄດ້ໃຫ້ລາຍລະອຽດກ່ຽວກັບ ການເຊື່ອມຕໍ່ ອິນເຕີເນັດ ຂອງ ຄັອມພິວເຕີຣ໌ ນີ້ກ່ອນ.">
 
-<!ENTITY torSettings.yes "Yes">
-<!ENTITY torSettings.no "No">
+<!ENTITY torSettings.yes "ແມ່ນ">
+<!ENTITY torSettings.no "ບໍ່">
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored, filtered, or proxied.">
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.useProxy.type "Proxy Type:">
 <!ENTITY torsettings.useProxy.address "Address:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
-<!ENTITY torsettings.useProxy.port "Port:">
+<!ENTITY torsettings.useProxy.port "ພັອດ:">
 <!ENTITY torsettings.useProxy.username "Username:">
 <!ENTITY torsettings.useProxy.password "Password:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
