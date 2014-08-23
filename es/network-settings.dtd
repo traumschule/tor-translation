@@ -34,7 +34,7 @@
 <!ENTITY torsettings.optional "Opcional">
 
 <!ENTITY torsettings.useProxy.checkbox "Esta computadora necesita usar usar un proxy de acceso a Internet">
-<!ENTITY torsettings.useProxy.type "Tipo de Proxy:">
+<!ENTITY torsettings.useProxy.type "Tipo de proxy:">
 <!ENTITY torsettings.useProxy.address "Dirección:">
 <!ENTITY torsettings.useProxy.address.placeholder "Dirección IP o nombre de máquina ('hostname')">
 <!ENTITY torsettings.useProxy.port "Puerto:">
@@ -50,10 +50,10 @@
 <!ENTITY torsettings.useBridges.type "Tipo de transporte:">
 <!ENTITY torsettings.useBridges.custom "Introducir puentes personalizados">
 <!ENTITY torsettings.useBridges.label "Introduzca uno o más repetidores puente ('bridge', uno por línea).">
-<!ENTITY torsettings.useBridges.placeholder "ingrese dirección:puerto">
+<!ENTITY torsettings.useBridges.placeholder "introduzca dirección:puerto">
 
 <!ENTITY torsettings.copyLog "Copiar el registro de mensajes ('log') de Tor al portapapeles">
-<!ENTITY torsettings.bridgeHelpTitle "Ayuda de Repetidores Puente ('Bridge Relays')">
+<!ENTITY torsettings.bridgeHelpTitle "Ayuda de repetidores de puente ('Bridge Relays')">
 <!ENTITY torsettings.bridgeHelp1 "Si no puede conectar a la red Tor, podría ser que su proveedor de servicios de Internet (ISP) u otra agencia, esté bloqueando Tor.&#160; A menudo, puede evitar este problema usando puentes ('bridges') de Tor, que son repetidores ('relays') de salida de la red Tor que no son publicitados, y es más difícil que sean bloqueados.">
 <!ENTITY torsettings.bridgeHelp1B "Puede usar el juego de direcciones de repetidores puente ('bridge') preconfigurado proporcionado, o puede obtener un juego de direcciones personalizado usando uno de estos tres métodos:">
 <!ENTITY torsettings.bridgeHelp2Heading "Mediante la web">
