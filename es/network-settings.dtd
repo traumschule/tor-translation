@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Configuración de red de Tor">
+<!ENTITY torsettings.dialog.title "Configuración de red Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -59,7 +59,8 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Mediante la web">
 <!ENTITY torsettings.bridgeHelp2 "Use un navegador web para visitar https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Mediante el correo electrónico automático">
-<!ENTITY torsettings.bridgeHelp3 "Envíe un correo a bridges@torproject.org con la línea 'get bridges' por si misma en el cuerpo del mensaje.&#160; Sin embargo, para hacer más difícil a un atacante aprender muchas direcciones de puentes, ha de enviar esta solicitud desde una dirección de correo de gmail.com o yahoo.com .">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Envíe un correo electrónico a bridges@torproject.org con unicamente la línea 'get bridges' en el cuerpo del mensaje.&#160; Sin embargo, para hacer más difícil a un atacante que conozca muchas direcciones puente, debe enviar esta petición desde uno de los siguientes proveedores de correo electrónico (listados en orden de preferencia):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com o https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Mediante el gabinete de ayuda">
 <!ENTITY torsettings.bridgeHelp4 "Como último recurso, puede pedir direcciones de repetidores puente enviando un cortés mensaje de correo a help@rt.torproject.org .&#160;
 Por favor observe que es una persona la que tendrá que responder a cada petición.">

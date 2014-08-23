@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "ウェブ経由">
 <!ENTITY torsettings.bridgeHelp2 "ウェブを使用して、https://bridges.torproject.orgを開く">
 <!ENTITY torsettings.bridgeHelp3Heading "メール自動応答システム経由">
-<!ENTITY torsettings.bridgeHelp3 "メッセージの本文に 'get bridges' という行を付けて bridges@torproject.org にメールを送信する。.&#160;ただし、攻撃者が多くのブリッジアドレスを把握するのを困難にするために、 gmail.com または yahoo.com のメールアドレスからこのリクエストを送信する必要があります。">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "ヘルプデスク経由">
 <!ENTITY torsettings.bridgeHelp4 "最後の頼みの綱として、 help@rt.torproject.org に丁寧なメールメッセージを送信して、ブリッジアドレスをリクエストすることができます。&#160; 人間が各リクエストに対応する必要があることにご注意ください。">

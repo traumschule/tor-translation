@@ -63,9 +63,8 @@ vlastiti set adresa koristeći jednu od ove tri metode:">
 <!ENTITY torsettings.bridgeHelp2Heading "Kroz Web">
 <!ENTITY torsettings.bridgeHelp2 "Koristite web preglednik kako bi posjetili https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Kroz Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3 "Pošaljite email na bridges@torproject.org samo s tekstom 'get bridges' u sadržaju
-poruke.&#160; No, kako bi napadačima bilo teže naučiti mnogo bridge adresa, morate
-poslati ovaj zahtjev sa gmail.com ili yahoo.com email adrese.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Pomoću Help Deska">
 <!ENTITY torsettings.bridgeHelp4 "U najgorem slučaju, možete zatražiti bridge adrese tako što pošaljete pristojan email na help@rt.torproject.org.&#160; Imajte na umu da neće odgovoriti na svaki
 zahtjev.">

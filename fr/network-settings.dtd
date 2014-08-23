@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Par le Web">
 <!ENTITY torsettings.bridgeHelp2 "Utilisez un navigateur web pour visiter https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Par l'auto-répondeur de courrier électronique">
-<!ENTITY torsettings.bridgeHelp3 "Envoyer un email à bridges@torproject.org avec la ligne 'get bridges' en elle-même obtiennent dans le corps du message.&#160; Cependant, pour rendre plus difficile à un attaquant d'apprendre beaucoup d'adresses de pont, vous devez envoyer cette demande depuis une adresse électronique gmail.com ou yahoo.com.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Par le bureau d'aide">
 <!ENTITY torsettings.bridgeHelp4 "En dernier ressort, vous pouvez demander des adresses de pont en envoyant un message électronique poli à help@rt.torproject.org.&#160; Veuillez noter qu'une personne devra répondre à chaque demande.">

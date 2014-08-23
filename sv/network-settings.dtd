@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Via nätet">
 <!ENTITY torsettings.bridgeHelp2 "Använd en webbläsare för att besöka https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via e-post autosvar">
-<!ENTITY torsettings.bridgeHelp3 "Skicka ett e-post meddelande till bridges@torproject.org med endast raden &quot;get bridges&quot; i texten.&#160; Emellertid, för att göra det svårare för en angripare är ta reda på en massa bryggadresser, måste du skicka detta meddelande från ett gmail.com eller yahoo.com konto.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Via supporten">
 <!ENTITY torsettings.bridgeHelp4 "Som en sista utväg kan du skicka ett artigt e-post meddelande på engelska till help@rt.torproject.org, och fråga efter bryggadresser.&#160; Tänk på att en person måste svara på varje sådan förfrågan.">

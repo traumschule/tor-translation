@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Prin Web">
 <!ENTITY torsettings.bridgeHelp2 "Folosiți un webbrowser pentru a vizita https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Prin email automat">
-<!ENTITY torsettings.bridgeHelp3 "Trimiteți email la bridges@torproject.org cu 'get bridges' singură în corpul mesajului.&#160; Oricum, pentru a face mai greu pentru un atacator să afle multe adrese de punți, trebuie să trimiteți această cerere de la o adresă gmail.com sau yahoo.com.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Prin Help Desk">
 <!ENTITY torsettings.bridgeHelp4 "Ca o ultimă soluție, puteți cere adrese de punți trimițînd un email politicos la help@rt.torproject.org.&#160; Remarcați că o persoană trebuie să răspundă la fiecare cerere.">
