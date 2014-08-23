@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Через Веб">
 <!ENTITY torsettings.bridgeHelp2 "Відвідайте сторінку https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Через автовідповідач електронної пошти">
-<!ENTITY torsettings.bridgeHelp3 "Надішліть повідомлення на адресу bridges@torproject.org зі стрічкою &quot;get bridges&quot; у тілі повідомлення.&#160; Проте, для того, щоб ускладнити визначення великої кількості адрес мостів зловмисниками, необхідно відправити цей запит від поштової скриньки gmail.com або yahoo.com.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Надішліть повідомлення на адресу bridges@torproject.org із рядком &quot;get bridges&quot; у тілі повідомлення.&#160; Проте, для того, щоб ускладнити визначення великої кількості адрес мостів зловмисниками, необхідно відправити цей запит від поштової скриньки одного з наступних постачальників (перераховано у порядку пріоритетності):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com або https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Через допомогу">
 <!ENTITY torsettings.bridgeHelp4 "У крайньому випадку, Ви можете отримати адресу мосту, відправивши ввічливе повідомлення на адресу  help@rt.torproject.org.&#160; Зверніть увагу на те, що кожен запит обробляється людиною.">
