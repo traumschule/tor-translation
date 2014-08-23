@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Door middel van het Web">
 <!ENTITY torsettings.bridgeHelp2 "Gebruik een browser om https://bridges.torproject.org te bezoeken">
 <!ENTITY torsettings.bridgeHelp3Heading "Door middel van de E-mail Autoresponder">
-<!ENTITY torsettings.bridgeHelp3 "Zend een e-mail naar bridges@torproject.org met als inhoud van de mail de tekst 'get bridges'.&#160; Let wel, om het aanvallers te bemoeilijken informatie te krijgen over bridge adressen, dient u uw aanvraag te versturen van een gmail.com of yahoo.com e-mailadres.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Zend een e-mail naar bridges@torproject.org met als inhoud van de mail de tekst 'get bridges'.&#160; Let wel, om het aanvallers te bemoeilijken informatie te verkrijgen over bridge adressen, dient u uw aanvraag te versturen van een gmail.com of yahoo.com e-mailadres( gerangschikt in voorkeurs volgorde).">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Door middel van de helpdesk">
 <!ENTITY torsettings.bridgeHelp4 "Als laatste redmiddel, kan u bridge adressen aanvraag door een zeer vriendelijke e-mail te sturen naar help@rt.torproject.org.&#160; Houd er wel rekening mee dat deze persoon elke aanvraag moet behandelen.">
