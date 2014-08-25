@@ -59,7 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Web aracılığıyla.">
 <!ENTITY torsettings.bridgeHelp2 "https://bridges.torproject.org sitesini ziyaret etmek için web tarayıcısı kullanın.">
 <!ENTITY torsettings.bridgeHelp3Heading "E-posta Otomatik Cevaplandırıcı Aracılığıyla">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "bridges@torproject.org adresine, iletide sadece 'get bridges' satırını yazarak bir e-posta gönderin.&#160; Ancak, bir saldırganın çok sayıda köprü adresi öğrenmesini zorlaştırmak için bu e-postayı aşağıdaki e-posta sağlayıcılarından yollamanız gerekmektedir (tercih sırasına göre listelenmiştir):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com veya https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Help Desk aracılığıyla.">
 <!ENTITY torsettings.bridgeHelp4 "Son bir çare olarak köprü adres taleplerini help@rt.torproject.org adresine posta göndererek rica edebilirsiniz.&#160; Birisinin bu talebi cevaplayacağını unutmayın.">
