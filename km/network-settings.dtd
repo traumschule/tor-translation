@@ -29,7 +29,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "កំពុង​រង់ចាំ Tor ចាប់ផ្ដើម...">
-<!ENTITY torsettings.restart "ចាប់ផ្ដើម​ឡើងវិញ">
+<!ENTITY torsettings.restartTor "ចាប់ផ្ដើម Tor ឡើង​វិញ">
 
 <!ENTITY torsettings.optional "ជា​ជម្រើស">
 
@@ -59,6 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "តាម​រយៈ​បណ្ដាញ">
 <!ENTITY torsettings.bridgeHelp2 "ប្រើ​កម្មវិធីរុករកបណ្ដាញ ដើម្បីមើល https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "តាមរយៈ​ការឆ្លើយតប​ដោយ​ស្វ័យ​ប្រវត្តិ​របស់​អ៊ីមែល">
-<!ENTITY torsettings.bridgeHelp3 "ផ្ញើ​អ៊ីមែល​ទៅ bridges@torproject.org ដោយ​មាន​ឃ្លា 'get bridges' ដោយ​ខ្លួន​វា​ក្នុង​តួ​សារ។&#160; ទោះ​ជា​យ៉ាង​ណា​ក៏​ដោយ ដើម្បី​ធ្វើ​ឲ្យ​វា​​កាន់តែ​ពិបាក​សម្រាប់​អ្នក​វាយ​ប្រហារ ដើម្បី​សិក្សា​ច្រើន​អំពី​អាសយដ្ឋាន​​​ប៊្រីត អ្នក​ត្រូវ​ផ្ញើ​សំណើ​នេះ​ពី​អាសយដ្ឋាន gmail.com ឬ yahoo.com ។">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "តាមរយៈ​ជំនួយ​">
 <!ENTITY torsettings.bridgeHelp4 "នៅ​ជម្រើស​ចុងក្រោយ អ្នក​អាច​ស្នើ​​អាសយដ្ឋាន​ប៊្រីត​ដោយ​ផ្ញើ​សារ​អ៊ីមែល​គួរសម​ទៅ help@rt.torproject.org.&#160; សូម​ចំណាំ​ថា មនុស្ស​​ម្នាក់​នឹង​ត្រូវ​ឆ្លើយតប​ទៅ​សំណើ​នីមួយៗ។">
