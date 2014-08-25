@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "عليك توفير معلومات حول اتصال هذا الحاسب بالإنترنت قبل أن تحاول الاتصال بشبكة Tor.">
+<!ENTITY torsettings.prompt "عليك توفير معلومات حول اتصال هذا الحاسب بالإنترنت قبل أن تحاول الاتصال بشبكة تور.">
 
 <!ENTITY torSettings.yes "نعم">
 <!ENTITY torSettings.no "لا">
@@ -59,7 +59,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "من خلال الويب">
 <!ENTITY torsettings.bridgeHelp2 "استخدم متصفح ويب لزيارة https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "من خلال المستجيب التلقائي للبريد الإلكتروني">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "ارسل رساله الى bridges@torproject.org مع العباره &quot;get bridges&quot; في وسط الصفحه .&amp;#160 , ولكن بأمكانك ان تجعل الرساله اكثر امناً و مستصعبه للمخترق (الهاكر) ان يراها عن طريق استخدام من المواقع الريد المشهوره Gmail و Yahoo ">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "من خلال مكتب المساعدة">
 <!ENTITY torsettings.bridgeHelp4 "يمكنك طلب عناوين الجسر، كحل أخير، من خلال إرسال رسالة بريد إلكتروني مهذبة إلى help@rt.torproject.org.&#160; يرجى ملاحظة أنه يجب أن يرد شخص ما على كل طلب.">
