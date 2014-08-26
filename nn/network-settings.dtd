@@ -13,7 +13,7 @@
 <!ENTITY torSettings.configure "Configure">
 <!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
-<!ENTITY torSettings.connect "Connect">
+<!ENTITY torSettings.connect "Kopla til">
 
 <!ENTITY torSettings.proxyQuestion "Does this computer need to use a proxy to access the Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
@@ -29,25 +29,25 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Waiting for Tor to start…">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Start Tor på nytt">
 
 <!ENTITY torsettings.optional "Optional">
 
 <!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
 <!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.address "Address:">
+<!ENTITY torsettings.useProxy.address "Addresse:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
 <!ENTITY torsettings.useProxy.port "Port:">
-<!ENTITY torsettings.useProxy.username "Username:">
+<!ENTITY torsettings.useProxy.username "Brukarnamn:">
 <!ENTITY torsettings.useProxy.password "Passord:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
-<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.useProxy.type.http "HTTP/HTTPS">
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
+<!ENTITY torsettings.firewall.allowedPorts "Tillatne portar:">
 <!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
 <!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.type "Transporttype:">
 <!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
 <!ENTITY torsettings.useBridges.placeholder "type address:port">
