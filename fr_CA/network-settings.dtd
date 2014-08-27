@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Non">
 
 <!ENTITY torSettings.firstQuestion "Laquelle des suivantes décrit le mieux votre situation?">
-<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée, filtrée ou relayée par un serveur mandataire.">
-<!ENTITY torSettings.configurePrompt2 "Je dois configurer des paramètres de pont, de coupe-feu ou de serveur mandataire.">
+<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée ou relayée.">
+<!ENTITY torSettings.configurePrompt2 "Je dois configurer des paramètres de pont ou de serveur mandataire.">
 <!ENTITY torSettings.configure "Configurer">
 <!ENTITY torSettings.connectPrompt2 "Je voudrais me connecter directement au réseau Tor.">
 <!ENTITY torSettings.connectPrompt3 "Ceci fonctionnera dans la plupart des situations.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Si vous ne savez pas comment répondre à cette question, regarder les paramètres Internet d'un autre navigateur afin de voir s'il est configuré pour utiliser un mandataire.">
 <!ENTITY torSettings.enterProxy "Saisir les paramètres du serveur mandataire.">
-<!ENTITY torSettings.firewallQuestion "Est-ce que la connexion Internet de cet ordinateur passe par un pare-feu qui n'autorise les connexions que vers certains ports?">
-<!ENTITY torSettings.firewallHelp "Si vous ne savez par comment répondre à cette question, choisissez Non. Si vous éprouvez des difficultés à vous connecter au réseau Tor, changer ce paramètre.">
-<!ENTITY torSettings.enterFirewall "Saisir une liste de ports, séparés par des virgules, qui sont autorisés par le pare-feu.">
 <!ENTITY torSettings.bridgeQuestion "Votre fournisseur de service Internet (FSI) bloque-t-il ou censure-t-il vos connexions au réseau Tor?">
 <!ENTITY torSettings.bridgeHelp "Si vous ne savez pas comment répondre à cette question, choisissez Non.&#160; Si vous choisissez Oui, on vous demandera de configurer les ponts Tor qui sont des relais non listés rendant le bloquage des connexions au réseau Tor plus difficile.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser le jeu de ponts fourni ou vous pouvez obtenir et saisir un jeu de ponts personnalisé.">
