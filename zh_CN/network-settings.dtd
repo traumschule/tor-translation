@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "否">
 
 <!ENTITY torSettings.firstQuestion "以下哪个描述与你的情况最为匹配？">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
+<!ENTITY torSettings.configurePrompt1 "网络连接受到审查或需要代理。">
+<!ENTITY torSettings.configurePrompt2 "我需要添加网桥或对代理设定进行配置。">
 <!ENTITY torSettings.configure "配置">
 <!ENTITY torSettings.connectPrompt2 "我想要直接连接 Tor 网络。">
 <!ENTITY torSettings.connectPrompt3 "通常这种方式是有效的。">
