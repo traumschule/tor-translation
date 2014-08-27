@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Hayır">
 
 <!ENTITY torSettings.firstQuestion "Aşağıdakilerden hangisi durumunuzu en iyi açıklıyor?">
-<!ENTITY torSettings.configurePrompt1 "Bu bilgisayarın internet bağlantısı sansürlü yada vekil sunucu arkasında.">
-<!ENTITY torSettings.configurePrompt2 "Köprü yada vekil sunucu ayarlarını yapılandırmam gerekli.">
+<!ENTITY torSettings.configurePrompt1 "Bu bilgisayarın internet bağlantısı sansürlü veya vekil sunucu arkasında.">
+<!ENTITY torSettings.configurePrompt2 "Köprü veya vekil sunucu ayarlarını yapılandırmam gerekli.">
 <!ENTITY torSettings.configure "Yapılandır">
 <!ENTITY torSettings.connectPrompt2 "Doğrudan Tor ağına bağlanmak istiyorum">
 <!ENTITY torSettings.connectPrompt3 "Bu çoğu durumda çalışır.">
