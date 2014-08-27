@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Ei">
 
 <!ENTITY torSettings.firstQuestion "Mikä seuraavista kuvailee parhaiten tilannettasi?">
-<!ENTITY torSettings.configurePrompt1 "Tämän tietokoneen internet-yhteys on sensuroitu, suodatettu tai kulkee välityspalvelimen kautta.">
-<!ENTITY torSettings.configurePrompt2 "Minun on määriteltävä silta-, palomuuri- tai välityspalvelinasetuksia.">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "Määritä">
 <!ENTITY torSettings.connectPrompt2 "Haluan yhdistää suoraan Tor-verkkoon.">
 <!ENTITY torSettings.connectPrompt3 "Tämä toimii useimmissa tilanteissa.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ellet ole varma, kuinka vastata tähän kysymykseen, katso Internet-asetukset toisessa selaimessa nähdäksesi onko se määritetty käyttämään välityspalvelinta.">
 <!ENTITY torSettings.enterProxy "Kirjoita välityspalvelinasetukset.">
-<!ENTITY torSettings.firewallQuestion "Kulkeeko tietokoneen Internet-yhteys palomuurin läpi, joka hyväksyy yhteydet ainoastaan tiettyihin portteihin?">
-<!ENTITY torSettings.firewallHelp "Ellet ole varma kuinka vastata tähän kysymykseen, valitse Ei. Muuta tätä asetusta jos yhteyden saamisessa Tor-verkkoon on ongelmia.">
-<!ENTITY torSettings.enterFirewall "Luettele pilkuin erotettuina ne portit, jotka palomuuri sallii. ">
 <!ENTITY torSettings.bridgeQuestion "Sensuroiko tai estääkö sinun operaattorisi (ISP) yhteydet Tor-verkkoon?">
 <!ENTITY torSettings.bridgeHelp "Ellet ole varma kuinka vastata tähän kysymykseen, valitse No.&#160; Jos valitset Kyllä, sinua pyydetään määrittämään Torin Sillat, jotka ovat listaamattomia releitä, jotta yhteyksiä olisi vaikeampi estää Torin verkkoon yhdistettäessä.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Voit käyttää edellytettyjä silta-yhteyksiä tai voit saada ja osallistua mukautettuihin siltasarjaan.">

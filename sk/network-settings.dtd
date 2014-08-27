@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Nie">
 
 <!ENTITY torSettings.firstQuestion "Ktoré z nasledujúcich možností najlepšie opisuje Vašu situáciu?">
-<!ENTITY torSettings.configurePrompt1 "Internetové pripojenie tohto počítača je cenzurované, filtrované alebo sprostredkované.">
-<!ENTITY torSettings.configurePrompt2 "Potrebujem nakonfigurovať nastavenia mostu, firewallu alebo proxy.">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurácia">
 <!ENTITY torSettings.connectPrompt2 "Chcem sa pripojiť priamo do siete Tor.">
 <!ENTITY torSettings.connectPrompt3 "Toto bude vo väčšine prípadov fungovať.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ak si nieste istý ako odpovedať na túto otázku, pozrite sa či máte nastavené používanie proxy v inom Internetovom prehliadači.">
 <!ENTITY torSettings.enterProxy "Vstúpiť do nastavení proxy.">
-<!ENTITY torSettings.firewallQuestion "Používa Internetové pripojenie tohto počítača bránu firewall, ktorá povoľuje pripojenia len na niektoré porty?">
-<!ENTITY torSettings.firewallHelp "Ak si nieste istý ako odpovedať na túto otázku, zvoľte Nie. Ak narazíte na problémy s pripojením do siete Tor, zmeňte toto nastavenie.">
-<!ENTITY torSettings.enterFirewall "Vložte zoznam portov oddelený čiarkou, ktoré sú povolené firewallom.">
 <!ENTITY torSettings.bridgeQuestion "Blokuje alebo nejak cenzuruje váš Poskytovateľ Internetu (ISP) pripojenia k Sieti Tor?">
 <!ENTITY torSettings.bridgeHelp "Ak ste si nie istý ako zodpovedať túto otázku, zvoľte Nie.&#160; Ak zvolíte Áno, budete vyzvaný na konfiguráciu Mostov Toru, čo sú nezaradené relé značne sťažujúce blokovanie pripojení k Sieti Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Môžete použiť poskytnutú sadu mostov alebo získať a vložiť vlastnú sadu.">

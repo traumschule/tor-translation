@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "لا">
 
 <!ENTITY torSettings.firstQuestion "أي مما يلي يعتبر وصف افضل لموقفك؟">
-<!ENTITY torSettings.configurePrompt1 " اتصال الإنترنت لهذا الكمبيوتر مُراقب، أو مصفى، أو يعمل ببروكسي.">
-<!ENTITY torSettings.configurePrompt2 "علي تكوين إعدادات الجسر أو جدار الحماية أو الوكيل.">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "تكوين">
 <!ENTITY torSettings.connectPrompt2 "أود الاتصال مباشرة إلى شبكة تور.">
 <!ENTITY torSettings.connectPrompt3 "سيفيد هذا في معظم الحالات.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "إذا لم تكن متأكدا من كيفية الإجابة على هذا السؤال، إلقي نظرة على إعدادات الإنترنت في متصفح آخر حتي تتأكد إذا كان يستخدام بروكسي.">
 <!ENTITY torSettings.enterProxy "أدخل إعدادات البروكسي.">
-<!ENTITY torSettings.firewallQuestion "هل اتصال الإنترنت لهذا الكمبيوتر يمر بجدار حماية يسمح بالاتصال فقط من خلال منافذ معينة؟">
-<!ENTITY torSettings.firewallHelp "إذا لم تكن متأكدا من كيفية الإجابة على هذا السؤال، اختار لا. إذا واجهتك مشاكل في الاتصال بشبكة تور, غيير هذا الإعداد.">
-<!ENTITY torSettings.enterFirewall "إدخل قائمة مفصولة بفواصل من المنافذ التي يسمح بها جدار الحماية.">
 <!ENTITY torSettings.bridgeQuestion "هل يقوم مقدم خدمة الإنترنت (ISP) الذي تتعامل معه بحجب الاتصالات بشبكة Tor أو مراقبتها بطريقة أخرى؟">
 <!ENTITY torSettings.bridgeHelp "إذا لم تكن متأكدا من إجابة هذا السؤال، قم باختيار لا. &#160; إذا قمت باختيار نعم، فسيطلب منك تكوين جسور Tor والتي هي منافذ ترحيل غير مدرجة تصعب عملية حظر الاتصالات بشبكة Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "يمكنك استخدام مجموعة الجسور المتوفرة أو الحصول على مجموعة مخصصة من الجسور.">

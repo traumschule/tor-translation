@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Ne">
 
 <!ENTITY torSettings.firstQuestion "Která možnost nejlépe popisuje Vaši situaci?">
-<!ENTITY torSettings.configurePrompt1 "Toto připojení počítače k internetu je cenzurováno, filtrováno, nebo zprostředkováno.">
-<!ENTITY torSettings.configurePrompt2 "Potřebuji nastavit síťový most, firewall, nebo nastavní proxy.">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurovat">
 <!ENTITY torSettings.connectPrompt2 "Chtěl bych se přímo připojit k Tor síti.">
 <!ENTITY torSettings.connectPrompt3 "Toto bude fungovat ve většině případů.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Jestli nevíte jak odpovědět na tuto otázku, podívejte se na internetové nastavení v jiném prohlížeči, aby jste zjistili, zda je nakonfigurován k použití proxy.">
 <!ENTITY torSettings.enterProxy "Zadejte nastavení serveru proxy.">
-<!ENTITY torSettings.firewallQuestion "Je počítač připojen k internetu přes firewall, který povoluje připojení pouze přes některé porty?">
-<!ENTITY torSettings.firewallHelp "Jestli si nejste jisti, jak odpovědět na otázku, odpovězte NE. Jestliže narazíte na problémy s připojením k Tor síti, změňte toto nastavení.">
-<!ENTITY torSettings.enterFirewall "Zadejte čárkami oddělený seznam portů, které jsou povoleny firewallem.">
 <!ENTITY torSettings.bridgeQuestion "Blokuje nebo jinak cenzuruje váš poskytovatel internetového připojení (ISP) spojení se sítí TORu?">
 <!ENTITY torSettings.bridgeHelp "Pokud si nejste jistí jak odpovědět na tuto otázku, zvolte No.&#160; Pokud vyberete Ano, budete vyzváni k nastavení Mostů TORu, což jsou přenašeče neuvedené v seznamu, které dělají blokování spojení se sítí TORu složitější.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Můžete použít poskytnutou sadu síťových mostů nebo můžete získat a zadat vlastní sadu.">

@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "No">
 
 <!ENTITY torSettings.firstQuestion "Quale delle seguenti descrizioni raffigura meglio la tua situazione?">
-<!ENTITY torSettings.configurePrompt1 "La connessione ad Internet di questo computer è censurata, filtrata, o passa attraverso un proxy.">
-<!ENTITY torSettings.configurePrompt2 "Ho bisogno di configurare un bridge, firewall o settaggi proxy.">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "Configura">
 <!ENTITY torSettings.connectPrompt2 "Vorrei connettermi direttamente alla rete Tor.">
 <!ENTITY torSettings.connectPrompt3 "Questo funzionerà nella maggior parte delle situazioni.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Se non sei sicuro su come rispondere a questa domanda, controlla le impostazioni Internet di un altro browser web per vedere se sia configurato l'uso di un proxy.">
 <!ENTITY torSettings.enterProxy "Inserisci le impostazioni del proxy.">
-<!ENTITY torSettings.firewallQuestion "La connessione ad Internet di questo computer passa attraverso un firewall che permette le connessioni solo ad alcune porte?">
-<!ENTITY torSettings.firewallHelp "Se non sei sicuro su come rispondere a questa domanda, seleziona No. Nel caso in cui si verifichino problemi di connessione alla rete Tor, cambia queste impostazioni.">
-<!ENTITY torSettings.enterFirewall "Inserisci una lista di porte consentite dal firewall, separate da una virgola.">
 <!ENTITY torSettings.bridgeQuestion "Il tuo fornitore di servizi internet (ISP) blocca o censura la connessione alla rete Tor?">
 <!ENTITY torSettings.bridgeHelp "Se non sei sicuro di come rispondere alla domanda, scegli No.&#160; Se scegli Sì, ti verrà chiesto di configurare Tor Bridges, che consiste in relay non elencati che rendono più difficile bloccare le connessioni alla Rete Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Puoi usare il set preconfigurato di bridge o ottenere ed inserire un set personale di bridge.">

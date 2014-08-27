@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Nē">
 
 <!ENTITY torSettings.firstQuestion "Kura situācija vislabāk atbilst jūsējai?">
-<!ENTITY torSettings.configurePrompt1 "Šī datora interneta savienojums tiek vai nu cenzēts, vai filtrēts, vai arī realizēts caur starpnieku.">
-<!ENTITY torSettings.configurePrompt2 "Man jākonfigurē tilta, ugunsmūra vai starpniekservera iestatījumi.">
+<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "Konfigurēt">
 <!ENTITY torSettings.connectPrompt2 "Es vēlos tieši pieslēgties tīklam Tor.">
 <!ENTITY torSettings.connectPrompt3 "Šis strādās vairumā gadījumu.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ja neesat pārliecināts kāda ir pareizā atbilde, apskatiet cita pārlūka interneta iestatījumus, lai redzētu vai tas ir konfigurēts izmantot starpnieku.">
 <!ENTITY torSettings.enterProxy "Ievadiet starpnieka iestatījumus.">
-<!ENTITY torSettings.firewallQuestion "Vai šī datora interneta savienojums iet caur ugunsmūri, kurš atļauj savienojumus tikai ar atsevišķiem portiem?">
-<!ENTITY torSettings.firewallHelp "Ja neesat pārliecināts par pareizo atbildi, izvēlieties atbildi &quot;Nē&quot;. Ja rodas problēmas pievienojoties tīklam Tor, mainiet šo iestatījumu.">
-<!ENTITY torSettings.enterFirewall "Ievadiet ar komatiem atdalītu ugusnmūra atļauto portu sarakstu.">
 <!ENTITY torSettings.bridgeQuestion "Vai Jūsu interneta pakalpojumu sniedzējs (ISP) bloķē vai savādāk cenzē savienojumus ar tīklu Tor?">
 <!ENTITY torSettings.bridgeHelp "Ja nezināt atbildi, izvēlieties No.&#160; ja izvēlēsities Jā, Jums lūgs konfigurēt Tor tiltus jeb Tor Bridges, proti, neuzskaitītus retranslatorus, kuri apgrūtina savienojumu bloķēšanu ar tīklu Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Jūs varat izmantot piedāvāto tiltu kopumu vai varat ievadīt tiltu pielāgotu sarakstu. ">
