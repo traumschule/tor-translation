@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Non">
 
 <!ENTITY torSettings.firstQuestion "Laquelle des suivantes décrit le mieux votre situation?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
+<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée ou relayée.">
+<!ENTITY torSettings.configurePrompt2 "Je dois configurer des paramètres de pont ou de serveur mandataire.">
 <!ENTITY torSettings.configure "Configurer">
 <!ENTITY torSettings.connectPrompt2 "Je voudrais me connecter directement au réseau Tor.">
 <!ENTITY torSettings.connectPrompt3 "Ceci fonctionnera dans la plupart des situations.">
