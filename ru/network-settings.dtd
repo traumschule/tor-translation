@@ -57,6 +57,6 @@
 <!ENTITY torsettings.bridgeHelp2 "Откройте в веб-браузере https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Через автоответчик электронной почты">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, или https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "В справочной службе">
 <!ENTITY torsettings.bridgeHelp4 "В крайнем случае, Вы можете вежливо попросить адреса мостов по адресу help@rt.torproject.org.&#160; Пожалуйста, имейте в виду, что каждый запрос обрабатывается человеком.">
