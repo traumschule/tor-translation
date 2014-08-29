@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "いいえ">
 
 <!ENTITY torSettings.firstQuestion "以下のうちあなたの状態に最も適しているのはどれですか？">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
+<!ENTITY torSettings.configurePrompt1 "このコンピュータのインターネット接続は、検閲されているかプロキシを通します。">
+<!ENTITY torSettings.configurePrompt2 "ブリッジやプロキシの設定を構成する必要があります。">
 <!ENTITY torSettings.configure "構成">
 <!ENTITY torSettings.connectPrompt2 "Torネットワークへ直接接続します。">
 <!ENTITY torSettings.connectPrompt3 "これはほとんどの状況で動作します。">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "ウェブ経由">
 <!ENTITY torsettings.bridgeHelp2 "ウェブを使用して、https://bridges.torproject.orgを開く">
 <!ENTITY torsettings.bridgeHelp3Heading "メール自動応答システム経由">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "bridges@torproject.org宛にget bridgesという本文のメールを送信してください。&#160; ただし、攻撃者にブリッジのアドレスを知られないため、このリクエストを以下のEメールプロバイダーのいずれかから送信する必要があります。(設定の順に表示):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "ヘルプデスク経由">
 <!ENTITY torsettings.bridgeHelp4 "最後の頼みの綱として、 help@rt.torproject.org に丁寧なメールメッセージを送信して、ブリッジアドレスをリクエストすることができます。&#160; 人間が各リクエストに対応する必要があることにご注意ください。">
