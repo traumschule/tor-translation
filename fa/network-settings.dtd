@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "نه">
 
 <!ENTITY torSettings.firstQuestion "کدام یک از موارد زیر وضعیت شما را بهتر بیان می‌کند؟">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
+<!ENTITY torSettings.configurePrompt1 "اتصال به اینترنت این کامپیوتر یا فیلترینگ شدید دارد و یا پراکسی دارد.">
+<!ENTITY torSettings.configurePrompt2 "من نیاز به پیکربندی پل و یا تنظیمات پروکسی دارم.">
 <!ENTITY torSettings.configure "پیکربندی">
 <!ENTITY torSettings.connectPrompt2 "تمایل دارم مستقیما به شبکه‌ی تور متصل شوم.">
 <!ENTITY torSettings.connectPrompt3 "این در بیشتر مواقع کار خواهد کرد.">
@@ -58,6 +58,6 @@
 <!ENTITY torsettings.bridgeHelp2 "با استفاده از یک مرورگر به آدرس https://bridges.torproject.org بروید.">
 <!ENTITY torsettings.bridgeHelp3Heading "از طریق آدرس ایمیل پاسخگوی خودکار">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, یا https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "از طریق واحد کمک رسانی">
 <!ENTITY torsettings.bridgeHelp4 "اگر از طریق هیچ کدام از راه حل های فوق به نتیجه نرسیدید، یک درخواست مودبانه به آدرس help@rt.torproject.org ارسال کنید.&#160; در نظر داشته باشید که یک نفر باید ایمیل شما را بخواند و به آن پاسخ دهد. پس صبور باشید.">
