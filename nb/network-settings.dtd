@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Nei">
 
 <!ENTITY torSettings.firstQuestion "Hvilket av følgende beskriver best din situasjon?">
-<!ENTITY torSettings.configurePrompt1 "Denne datamaskinens Internett-tilkobling er sensurert, filtrert, eller går gjennom en proxy.">
-<!ENTITY torSettings.configurePrompt2 "Jeg må konfigurere bro, brannmur eller proxy innstillinger.">
+<!ENTITY torSettings.configurePrompt1 "Computeren's internett tilkobling er sensurert eller under proxy.">
+<!ENTITY torSettings.configurePrompt2 "Jeg må konfigurere brdige eller proxy instillinger.">
 <!ENTITY torSettings.configure "Konfigurer">
 <!ENTITY torSettings.connectPrompt2 "Jeg vil koble direkte til Tor-nettverket.">
 <!ENTITY torSettings.connectPrompt3 "Dette vil fungere i de fleste situasjoner.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Hvis du ikke er sikker på hvordan du skal svare på dette spørsmålet, se på Internett-innstillingene i en annen nettleser for å se om den er konfigurert til å bruke en proxy.">
 <!ENTITY torSettings.enterProxy "Skriv inn proxy-innstillingene.">
-<!ENTITY torSettings.firewallQuestion "Går denne datamaskinens Internett-tilkobling gjennom en brannmur som kun tillater forbindelser til visse porter?">
-<!ENTITY torSettings.firewallHelp "Hvis du ikke er sikker på hvordan du skal svare på dette spørsmålet, velg nei. Hvis du støter på problemer med å koble til Tor-nettverket, endrer du denne innstillingen.">
-<!ENTITY torSettings.enterFirewall "Skriv inn en liste, adskilt med komma, over porter som er tillatt av brannmuren.">
 <!ENTITY torSettings.bridgeQuestion "Blokkerer eller sensurerer internettleverandøren (ISP) din tilkoblinger til Tor-nettverket?">
 <!ENTITY torSettings.bridgeHelp "Hvis du er usikker på hva du skal svare på dette spørsmålet, velg Nei.&#160; Hvis du velger Ja, vil du bli bedt om å konfigurere Tor-broer, som er ulistede reléer som gjør det vanskeligere å blokkere tilkoblinger til Tor-nettverket.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruke de angitte broene eller du kan skaffe og oppgi egendefinerte broer.">
