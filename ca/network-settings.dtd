@@ -57,7 +57,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "A través del web">
 <!ENTITY torsettings.bridgeHelp2 "Utilitza un navegador web o vés a: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "A través del mail d'autorresposta.">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Envieu un e-mail a bridges@torproject.org només amb el text 'get bridges' al cos del missatge.&#160; No obstant, per a fer més difícil per a l'atacant d'aprendre moltes adreces pont, heu d'enviar aquesta petició des d'un dels proveïdors de correu següents (llistats en ordre de preferència):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, o https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "A través del Escriptori d'Ajuda">
 <!ENTITY torsettings.bridgeHelp4 "Com a última opció, pots demanar adreces de repetidors enviant un missatge a help@rt.torproject.org.&#160; siusplau recorda que serà una persona qui et respondrà, siguis pacient i amable.">
