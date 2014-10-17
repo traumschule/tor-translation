@@ -26,7 +26,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Tor'un başlaması bekleniyor...">
-<!ENTITY torsettings.restartTor "Tor'u Yeniden Başlat">
+<!ENTITY torsettings.restartTor "Tor'u yeniden başlat">
 
 <!ENTITY torsettings.optional "İsteğe Bağlı">
 
