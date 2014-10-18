@@ -4,7 +4,7 @@
 
 <!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
 
-<!ENTITY torSettings.yes "Yes">
+<!ENTITY torSettings.yes "Jes">
 <!ENTITY torSettings.no "Ne">
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
@@ -36,7 +36,7 @@
 <!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
 <!ENTITY torsettings.useProxy.port "Pordo:">
 <!ENTITY torsettings.useProxy.username "Username:">
-<!ENTITY torsettings.useProxy.password "Password:">
+<!ENTITY torsettings.useProxy.password "Pasvorto:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
