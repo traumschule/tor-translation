@@ -21,7 +21,7 @@
 <!ENTITY torSettings.enterProxy "Sartu proxy ezarpenak.">
 <!ENTITY torSettings.bridgeQuestion "Zure Interneteko Zerbitzu Hornitzaileak (ISP ingeleraz) Tor sarera doazen konexioak blokeatu edo zentsuratu egiten ditu?">
 <!ENTITY torSettings.bridgeHelp "Galdera hau nola erantzuteaz ziur ez bazaude, aukeratu Ez.&#160; Bai aukeratzen baduzu, Tor zubiak konfigura ditzazun eskatuko zaizu, hau da zerrendatuta ez dauden eta Tor sarera doazen konexioak blokeatzea zailago egiten duten erreleak.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Emandako zubi paketea erabili dezakezu edo zubi pakete pertsonalizatua eskuratu eta sar dezakezu.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Emandako zubi taldea erabili dezakezu edo zubi talde pertsonalizatua eskuratu eta sar dezakezu.">
 
 <!-- Other: -->
 
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Webean bidez">
 <!ENTITY torsettings.bridgeHelp2 "Erabili ezazu web nabigatzaile bat https://bridges.torproject.org bisitatzeko">
 <!ENTITY torsettings.bridgeHelp3Heading "Email erantzule automatikoaren bidez">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Bidali ezazu mezu bat bridges@torproject.org-era mezuaren gorputzean 'get bridges' esaldiarekin.&#160; Hala ere, erasotzaile batentzat zubi helbide asko ikastea zailago izan dadin, eskakizun hau hurrengo domeinuetako eposta helbide batetik bidali behar duzu (lehentasunaren arabera zerrendatuta):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Laguntza mahaiaren bidez">
 <!ENTITY torsettings.bridgeHelp4 "Azken aukera bezala, zubi erreleak eska ditzakezu mezu adeitsu bat help@rt.torproject.org-era bidaliz.&#160; Mesedez, kontuan izan pertsona batek eskarea bakoitza erantzun beharko duela.">
