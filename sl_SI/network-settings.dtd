@@ -26,7 +26,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Waiting for Tor to start…">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Ponovno zaženite Tor">
 
 <!ENTITY torsettings.optional "Optional">
 
