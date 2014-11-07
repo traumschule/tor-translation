@@ -30,27 +30,27 @@
 
 <!ENTITY torsettings.optional "Po izbiri">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a proxy to access the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.address "Address:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
+<!ENTITY torsettings.useProxy.checkbox "Računalnik rabi uporabo proxy-ja za dostop na internet">
+<!ENTITY torsettings.useProxy.type "Proxy tip:">
+<!ENTITY torsettings.useProxy.address "Naslov:">
+<!ENTITY torsettings.useProxy.address.placeholder "IP naslov ali ime domene">
 <!ENTITY torsettings.useProxy.port "Vhod:">
-<!ENTITY torsettings.useProxy.username "Username:">
+<!ENTITY torsettings.useProxy.username "Uporabniško ime:">
 <!ENTITY torsettings.useProxy.password "Geslo:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
-<!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.firewall.checkbox "Računalnik uporablja požarni zid, ki dovoljuje povezavo le na določena vrata">
+<!ENTITY torsettings.firewall.allowedPorts "Dovoljena vrata:">
+<!ENTITY torsettings.useBridges.checkbox "Moj internetni ponudnik (ISP) blokira povezave na Tor omrežje">
+<!ENTITY torsettings.useBridges.default "Povezava z ponujeno premostitvijo">
+<!ENTITY torsettings.useBridges.type "Tip prometa:">
+<!ENTITY torsettings.useBridges.custom "Vnesite običajne premostitve">
+<!ENTITY torsettings.useBridges.label "Vnesite enega ali več premostitvenih vozlišč (vsakega v svojo vrsto)">
+<!ENTITY torsettings.useBridges.placeholder "vpišite naslov:vrata">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.copyLog "Kopirajte Tor poročilo v odložišče">
+<!ENTITY torsettings.bridgeHelpTitle "Pomoč premostitveno vozlišče">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
 <!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
