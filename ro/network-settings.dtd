@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Nu">
 
 <!ENTITY torSettings.firstQuestion "Care din următoarele descrie cel mai bine situația dvs?">
-<!ENTITY torSettings.configurePrompt1 "Conexiunea acestui computer la Internet este cenzurată, filtrată sau cu proxy.">
-<!ENTITY torSettings.configurePrompt2 "Trebuie să configurez punte, firewall sau proxy.">
+<!ENTITY torSettings.configurePrompt1 "Această conexiune la internet a computerului este cenzurată sau prin proxy.">
+<!ENTITY torSettings.configurePrompt2 "Trebuie să configurez puntea sau configurări proxy.">
 <!ENTITY torSettings.configure "Configuraţi ">
 <!ENTITY torSettings.connectPrompt2 "Vreau sa ma conectez direct la reţeaua Tor .">
 <!ENTITY torSettings.connectPrompt3 "Aceasta funcționează în cele mai multe situații.">
@@ -19,9 +19,6 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Dacă nu sînteți siguri cum să răspundeți la întrebarea aceasta, uitați-vă la setările de Internet din alt browser pentru a vedea dacă este configurat să folosească un proxy.">
 <!ENTITY torSettings.enterProxy "Introduceţi setările pentru proxy .">
-<!ENTITY torSettings.firewallQuestion "Conexiunea la Internet a acestui computer iese printr-un firewall care permite doar conexiuni către anumite porturi?">
-<!ENTITY torSettings.firewallHelp "Dacă nu sînteți sigur cum să răspundeți la această întrebare, alegeți Nu. Dacă întîlniți probleme conectîndu-vă la rețeaua Tor, schimbați aceste setări.">
-<!ENTITY torSettings.enterFirewall "Introduceți o listă separată cu virgule de porturi care sînt permise de firewall.">
 <!ENTITY torSettings.bridgeQuestion "Internet Service Providerul (ISP) dvs blochează sau cenzurează conexiunile către rețeaua Tor?">
 <!ENTITY torSettings.bridgeHelp "Dacă nu sînteți sigur cum să răspundeți la această întrebare, alegeți Nu.&#160; Dacă alegeți Da, vi se va cere să configurați punțile Tor, care sînt relayuri nelistate care fac mai dificilă blocarea conexiunilor la rețeaua Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Puteți folosi setul de punți oferit sau puteți obține și introduce un set particular de punți.">
@@ -59,6 +56,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Prin Web">
 <!ENTITY torsettings.bridgeHelp2 "Folosiți un webbrowser pentru a vizita https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Prin email automat">
-<!ENTITY torsettings.bridgeHelp3 "Trimiteți email la bridges@torproject.org cu 'get bridges' singură în corpul mesajului.&#160; Oricum, pentru a face mai greu pentru un atacator să afle multe adrese de punți, trebuie să trimiteți această cerere de la o adresă gmail.com sau yahoo.com.">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Trimiteți email la bridges@torproject.org cu linia 'get bridges' inclusă în contextul message.&#160; Totuși, pentru a face dificil unui atacator să învețe cât mai multe adrese de punți, trebuie să trimiteți această cerere de la unul dintre următorii furnizori de servicii email (listați în ordinea preferinței):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, sau https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Prin Help Desk">
 <!ENTITY torsettings.bridgeHelp4 "Ca o ultimă soluție, puteți cere adrese de punți trimițînd un email politicos la help@rt.torproject.org.&#160; Remarcați că o persoană trebuie să răspundă la fiecare cerere.">
