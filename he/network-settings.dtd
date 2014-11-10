@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "לא">
 
 <!ENTITY torSettings.firstQuestion "אילו מן הבאים מתאר את המצב שלך באופן הטוב ביותר?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
+<!ENTITY torSettings.configurePrompt1 "חיבור האינטרנט של המחשב הזה מצונזר או עובר בשרת פרוקסי">
+<!ENTITY torSettings.configurePrompt2 "אני צריך להגדיר גשר או הגדרות פרוקסי">
 <!ENTITY torSettings.configure "הגדר">
 <!ENTITY torSettings.connectPrompt2 "ברצוני להתחבר ישירות אל הרשת Tor.">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
