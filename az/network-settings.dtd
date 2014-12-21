@@ -7,11 +7,11 @@
 <!ENTITY torSettings.yes "Bəli">
 <!ENTITY torSettings.no "Xeyr">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.firstQuestion "Aşağıdakılardan hansı sizin vəziyyətinizi tam təsvir edir?">
+<!ENTITY torSettings.configurePrompt1 "Bu kompüterin internet şəbəkəsi senzorlu vəya proksilidir.">
 <!ENTITY torSettings.configurePrompt2 "Mən proksi və ya körpü quraşdırmalıyam.">
 <!ENTITY torSettings.configure "Quraşdır">
-<!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Mən birbaşa Tor şəbəkəsinə qoşulmaq istəyirəm.">
 <!ENTITY torSettings.connectPrompt3 "Bu əksər hallarda işləyir.">
 <!ENTITY torSettings.connect "Qoşul">
 
@@ -19,7 +19,7 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Əgər siz bu suala nə cavab verəcəyinizə əmin deyilsinizsə, proksinin necə konfiqurasiya edildiyini öyrənmək üçün başqa bir brauzerin parametrlərinə nəzər salın ">
 <!ENTITY torSettings.enterProxy "Proksy parametrlərini daxil edin">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeQuestion "Sizin internet provayderiniz(İSP) Tor şəbəkəsinə hər-hansı qadağa qoyub?">
 <!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
