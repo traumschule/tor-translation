@@ -20,8 +20,9 @@
 <!ENTITY torSettings.proxyHelp "Əgər siz bu suala nə cavab verəcəyinizə əmin deyilsinizsə, proksinin necə konfiqurasiya edildiyini öyrənmək üçün başqa bir brauzerin parametrlərinə nəzər salın ">
 <!ENTITY torSettings.enterProxy "Proksy parametrlərini daxil edin">
 <!ENTITY torSettings.bridgeQuestion "Sizin internet provayderiniz(İSP) Tor şəbəkəsinə hər-hansı qadağa qoyub?">
-<!ENTITY torSettings.bridgeHelp "If you are not sure how to answer this question, choose No.&#160; If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeHelp "Əgər bu saula nə cavab verəcəyinizi bilirsinizsə Xeyr seçin.No.&#160;
+Əgər bəli seçsəniz, sizdən Tor körpüsü quraşdırmağınız tələb olunacaq,hansı ki bunlar qeydə alınmamış, qarşısının alınması daha çətin olan vasitələrdir.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Siz təmin olunmuş körpü dəstindən istifadə edə, və ya özünüz şəxsi körpü dəsti daxil edə bilərsiz.">
 
 <!-- Other: -->
 
@@ -41,11 +42,11 @@
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
+<!ENTITY torsettings.firewall.allowedPorts "İczaə verilən portlar:">
 <!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
+<!ENTITY torsettings.useBridges.default "Təmin olunmuş köpüdən istifadə et">
 <!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.custom "Körpü daxil edin">
 <!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
 <!ENTITY torsettings.useBridges.placeholder "type address:port">
 
