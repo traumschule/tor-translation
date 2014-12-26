@@ -7,7 +7,7 @@
 <!ENTITY torSettings.yes "Oo">
 <!ENTITY torSettings.no "Wala">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
+<!ENTITY torSettings.firstQuestion "Alin dito ang pinaka angkop na nagsasaad ng iyong sitwasyon?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge or proxy settings.">
 <!ENTITY torSettings.configure "Configure">
