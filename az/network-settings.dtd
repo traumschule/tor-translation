@@ -53,11 +53,11 @@
 <!ENTITY torsettings.copyLog "Tor bort jurnalını panoya kopyalayın">
 <!ENTITY torsettings.bridgeHelpTitle "Körpü Keçid Dəstəyi">
 <!ENTITY torsettings.bridgeHelp1 "Əgər sən Tor şəbəkəsinə qoşula bilmirsənsə, ola bilsin ki, sənin İnternet Xidmət Provayderin (İXP) və ya digər agentlik Tor-la əlaqəni bloklayır.&#160; Çox hallarda sən bu problemdən qaçınmaq üçün Tor Körpülərini istifadə edə bilərsən. Onların tapılıb bloklanması qat-qat çətin başa gəlir. ">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
+<!ENTITY torsettings.bridgeHelp1B "Aşağıdakı üç üsuldan birini istifadə etməklə əvvəlcədən konfiqurasiya edilmiş körpü ünvanları dəstini və ya istəyinə uyğun ünvan dəstini istifadə edə bilərsən:">
 <!ENTITY torsettings.bridgeHelp2Heading "Bilavasitə web ilə">
 <!ENTITY torsettings.bridgeHelp2 "web brauzer istifadə edərək bu səhifəni ziyarət edin https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3Heading "Email Avtocavablayıcı Vasitəsilə">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Mətnində 'körpü əldə et' yazaraq bridges@torproject.org ünvanına email göndər.&#160; Casus və ya hücumçunun körpü ünvanlarını aşkarlamasının qarşısını almaq üçün aşağıda sıralanmış email ünvanlardan (üstünlüyə uyğun sıralanmışdır) bu tələbi göndərməlisən:">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, və ya https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4Heading "Dəstək Masası Vasitəsilə">
+<!ENTITY torsettings.bridgeHelp4 "Son çarə olaraq körpü ünvanlarını help@rt.torproject.org ünvanına mədəni tələb emaili göndərməklə əldə edə bilərsən.&#160; Lütfən, unutma ki, yazdığın insan hər bir tələbə ayrı ayrı cavab yazacaq.">
