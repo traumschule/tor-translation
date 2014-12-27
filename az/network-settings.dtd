@@ -41,7 +41,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
+<!ENTITY torsettings.firewall.checkbox "Bu kompüter yalnız müəyyən portlarla əlaqəyə icazə verən təhlükəsizlik divarindan keçir">
 <!ENTITY torsettings.firewall.allowedPorts "İczaə verilən portlar:">
 <!ENTITY torsettings.useBridges.checkbox "Mənim İnternet provayderim(İSP) Tor şəbəkəsinə qoşulmağı qadağan edir">
 <!ENTITY torsettings.useBridges.default "Təmin olunmuş köpüdən istifadə et">
@@ -51,8 +51,8 @@
 <!ENTITY torsettings.useBridges.placeholder "type address:port">
 
 <!ENTITY torsettings.copyLog "Tor bort jurnalını panoya kopyalayın">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelpTitle "Körpü Keçid Dəstəyi">
+<!ENTITY torsettings.bridgeHelp1 "Əgər sən Tor şəbəkəsinə qoşula bilmirsənsə, ola bilsin ki, sənin İnternet Xidmət Provayderin (İXP) və ya digər agentlik Tor-la əlaqəni bloklayır.&#160; Çox hallarda sən bu problemdən qaçınmaq üçün Tor Körpülərini istifadə edə bilərsən. Onların tapılıb bloklanması qat-qat çətin başa gəlir. ">
 <!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Bilavasitə web ilə">
 <!ENTITY torsettings.bridgeHelp2 "web brauzer istifadə edərək bu səhifəni ziyarət edin https://bridges.torproject.org">
