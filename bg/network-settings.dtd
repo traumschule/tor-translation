@@ -1,0 +1,62 @@
+<!ENTITY torsettings.dialog.title "Настройки на Tor мрежата">
+
+<!-- For "first run" wizard: -->
+
+<!ENTITY torsettings.prompt "Преди да се свържете към Tor мрежата,вие трябва да предоставите информация относно интернет връзката на този компютър">
+
+<!ENTITY torSettings.yes "Да">
+<!ENTITY torSettings.no "Не">
+
+<!ENTITY torSettings.firstQuestion "Кое от следните описва най-добре вашата ситуация?">
+<!ENTITY torSettings.configurePrompt1 "Интернет връзката на този компютър е цензурирана или минава през proxy сървър.">
+<!ENTITY torSettings.configurePrompt2 "Трябва да конфигурирам bridge или proxy настройки.">
+<!ENTITY torSettings.configure "Конфигурирай">
+<!ENTITY torSettings.connectPrompt2 "Бих искал да се свържа директно към Tor мрежата.">
+<!ENTITY torSettings.connectPrompt3 "Това ще работи при повечето ситуации.">
+<!ENTITY torSettings.connect "Свържи се">
+
+<!ENTITY torSettings.proxyQuestion "Нуждае ли се този компютър от прокси за свързване към Интернет?">
+<!-- see https://www.torproject.org/docs/proxychain.html.en -->
+<!ENTITY torSettings.proxyHelp "Ако не сте сигурни как да отговорите на този въпрос проверете интернет настройките на друг браузър,за да видите дали е настроен да използва прокси.">
+<!ENTITY torSettings.enterProxy "Въведете настройките за прокси.">
+<!ENTITY torSettings.bridgeQuestion "Блокирани или цензурирани ли са връзките към Tor Мрежата от вашият Интернет Доставчик(ISP)?">
+<!ENTITY torSettings.bridgeHelp "Ако не сте сигурни как да отговорите на този въпрос, изберете No.&#160; Ако изберете Yes, вие ще бъдете помолен да конфигурирате Tor Bridges, непубликувани relays които правят блокирането на връзката към Tor Network по трудна.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Вие може да използвате предложените комплекти от bridges или може да изисквате персонализиран комплект от тях.">
+
+<!-- Other: -->
+
+<!ENTITY torsettings.startingTor "Изчакване на Tor да стартира...">
+<!ENTITY torsettings.restartTor "Рестартирайте Тор">
+
+<!ENTITY torsettings.optional "Допълнителен">
+
+<!ENTITY torsettings.useProxy.checkbox "Този компютър се нуждае от прокси за да се свърже към Интернет.">
+<!ENTITY torsettings.useProxy.type "Прокси Тип:">
+<!ENTITY torsettings.useProxy.address "Адрес:">
+<!ENTITY torsettings.useProxy.address.placeholder "IP адрес или хост">
+<!ENTITY torsettings.useProxy.port "Порт:">
+<!ENTITY torsettings.useProxy.username "Потребителско име:">
+<!ENTITY torsettings.useProxy.password "Парола:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.firewall.checkbox "Този компютър се свързва през firewall,който позволява връзки само към определени портове.">
+<!ENTITY torsettings.firewall.allowedPorts "Позволени портове:">
+<!ENTITY torsettings.useBridges.checkbox "Моят Интернет Доставчик (ISP) блокира връзките към Tor мрежата">
+<!ENTITY torsettings.useBridges.default "Свържи се с предоставените bridges">
+<!ENTITY torsettings.useBridges.type "Тип транспортиране:">
+<!ENTITY torsettings.useBridges.custom "Въведи персонални bridges">
+<!ENTITY torsettings.useBridges.label "Въведи един или повече bridge relays (по един на линия).">
+<!ENTITY torsettings.useBridges.placeholder "въведете адрес:порт">
+
+<!ENTITY torsettings.copyLog "Копирай Tor лога в клипборда">
+<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay помощ">
+<!ENTITY torsettings.bridgeHelp1 "Ако не може да се свържете към Tor network, причината може да бъде във вашия Интернет доставчик (ISP) или определена агенция интернет наблюдение блокира Tor.&#160; Често, вие може да заобиколите този проблем с използване на Tor Bridges, които са непубликувани relays и са много по трудни за блокиране.">
+<!ENTITY torsettings.bridgeHelp1B "Вие може да използвате пре-конфигурирани, предоставени комплекти от bridge адреси или може да изисквате собствен персонализиран комплект от адреси като използвате един от следните три метода:">
+<!ENTITY torsettings.bridgeHelp2Heading "През Web">
+<!ENTITY torsettings.bridgeHelp2 "Използвайте уеб браузър за да посетите https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "През автоматично отговарящия у-мейл">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Пратете и-мейл до  bridges@torproject.org с ред  'get bridges' в съдържанието на съобщението.&#160; Така или иначе за да направите по трудно за атакуващия да научи повече от bridge адреса, вие трябва да пратите молба от един от следните и-мейл доставчици (подредени по реда на предпочитания):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, или https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp4Heading "През Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "Като последна стъпка, вие може да изисквате адреси чрез пращане на учтив и-мейл до help@rt.torproject.org.&#160; Моля обърнете внимание, че на всяка молба за bridge се отговаря персонално.">
