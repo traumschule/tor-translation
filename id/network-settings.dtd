@@ -2,13 +2,13 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Sebelum anda menyambung ke jaringan Tor, anda perlu memberikan informasi tentang koneksi internet komputer ini.">
 
 <!ENTITY torSettings.yes "Ya">
 <!ENTITY torSettings.no "Tidak">
 
 <!ENTITY torSettings.firstQuestion "Yang mana dari di bawah ini cocok dengan situasi anda?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.configurePrompt1 "Koneksi internet komputer ini disensor atau terproksi.">
 <!ENTITY torSettings.configurePrompt2 "Saya perlu mengkonfigurasi setelan Bridge atau proxy.">
 <!ENTITY torSettings.configure "Konfigur">
 <!ENTITY torSettings.connectPrompt2 "Saya ingin menghubungkan secara langsung ke jaringan Tor.">
