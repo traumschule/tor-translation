@@ -56,7 +56,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Cez Web">
 <!ENTITY torsettings.bridgeHelp2 "Použite webový prehliadač na navštívenie https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Cez Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Pošlite email na adresu bridges@torproject.org obsahujúcu jeden riadok 'get bridges' ako telo správy.&#160; Avšak, aby bolo pre útočníkov náročnejšie odhaliť veľa mostových adries, musíte túto žiadosť poslať z adresy z jedných týchto poskytovateľov:">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Pošlite email na adresu bridges@torproject.org obsahujúcu jeden riadok 'get bridges' ako telo správy.&#160; Avšak, aby bolo pre útočníkov náročnejšie odhaliť veľa mostových adries, musíte túto žiadosť poslať z adresy z jedných týchto poskytovateľov (zoradené podľa obľúbenosti ):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, alebo https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Cez Help Desk">
 <!ENTITY torsettings.bridgeHelp4 "Ako poslednú možnosť si môžete vyžiadať adresy mostov zaslaním zdvorilého emailu na adresu help@rt.torproject.org.&#160; Prosíme berte na vedomie, že príslušná osoba musí odpovedať na každú jednu podobnú žiadosť.">
