@@ -46,13 +46,13 @@
 <!ENTITY torsettings.useBridges.default "Yhdistä tarjotuilla silloilla">
 <!ENTITY torsettings.useBridges.type "Siirtotyyppi:">
 <!ENTITY torsettings.useBridges.custom "Kirjoita omat sillat">
-<!ENTITY torsettings.useBridges.label "Mene yhteen tai useampaan silta releeseen (yksi per rivi).">
+<!ENTITY torsettings.useBridges.label "Kirjoita yksi tai useampi siltarele (yksi per rivi).">
 <!ENTITY torsettings.useBridges.placeholder "kirjoita osoite:portti">
 
 <!ENTITY torsettings.copyLog "Kopioi Tor-loki leikepöydälle">
 <!ENTITY torsettings.bridgeHelpTitle "Siltareleopaste">
-<!ENTITY torsettings.bridgeHelp1 "Jos et pysty yhdistämään Torin verkkoon, syy voi olla, että Internet palveluntarjoajasi (ISP) tai muu taho estää Tor.&#160; Usein, voit kiertää tämän ongelman käyttämällä Torin siltoja, jotka ovat listaamattomia releitä, jotka on vaikeampi estää.">
-<!ENTITY torsettings.bridgeHelp1B "Voit käyttää esimääritettyjä, edellytettyjä siltaosoitesarjoja tai voit saada mukautetun osoitesarjan käyttämällä näitä kolmea menetelmää:">
+<!ENTITY torsettings.bridgeHelp1 "Jos et pysty yhdistämään Tor-verkkoon, syy voi olla, että Internet palveluntarjoajasi (ISP) tai muu taho estää Torin.&#160; Usein voit kiertää tämän ongelman käyttämällä Tor-siltoja, jotka ovat listaamattomia releitä, joita on vaikeampi estää.">
+<!ENTITY torsettings.bridgeHelp1B "Voit käyttää esiasetettuja, tarjottuja siltaosoitejoukkoja tai voit hankkia oman osoitejoukon käyttämällä yhtä näistä kolmesta menetelmästä:">
 <!ENTITY torsettings.bridgeHelp2Heading "Verkon yli">
 <!ENTITY torsettings.bridgeHelp2 "Käytä internet-selainta vieraillaksesi osoitteessa: https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Sähköpostin Automaattivastaajan läpi">
