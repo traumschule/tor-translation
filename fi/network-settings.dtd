@@ -55,8 +55,8 @@
 <!ENTITY torsettings.bridgeHelp1B "Voit käyttää esiasetettuja, tarjottuja siltaosoitejoukkoja tai voit hankkia oman osoitejoukon käyttämällä yhtä näistä kolmesta menetelmästä:">
 <!ENTITY torsettings.bridgeHelp2Heading "Verkon yli">
 <!ENTITY torsettings.bridgeHelp2 "Käytä internet-selainta vieraillaksesi osoitteessa: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Sähköpostin Automaattivastaajan läpi">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Lähetä sähköpostia osoitteeseen bridges@torproject.org käyttäen viestissä tekstiä 'get bridges' pelkästään viestin rungossa.&#160; Kuitenkin, tehdäksesi vaikeammaksi siltaosoitteiden opettelu hyökkääjälle sinun on lähetettävä tämä pyyntö yhdestä seuraavista sähköpostipalveluiden tarjoajan osoitteesta (listattu suosion mukaisessa järjestyksessä):">
+<!ENTITY torsettings.bridgeHelp3Heading "Sähköpostin automaattivastaajan läpi">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Lähetä sähköpostia osoitteeseen bridges@torproject.org käyttäen viestissä tekstiä 'get bridges' pelkästään viestin rungossa.&#160; Jotta hyökkääjälle olisi kuitenkin vaikeampaa monien siltaosoiteiden oppiminen, sinun on lähetettävä pyyntö yhden seuraavan sähköpostitarjoajan kautta (lueteltu suosion mukaisessa järjestyksessä):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com tai https:://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Neuvontapisteen läpi">
 <!ENTITY torsettings.bridgeHelp4 "Viimeisenä keinona voit pyytää siltaosoitteita lähettämällä kohteliaan viestin osoitteeseen: help@rt.torproject.org.&#160; Huomioi, että henkilön tulee vastata kuhunkin pyyntöön.">
