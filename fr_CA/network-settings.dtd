@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Paramètres réseau de Tor">
+<!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -17,7 +17,7 @@
 
 <!ENTITY torSettings.proxyQuestion "Cet ordinateur doit-il utiliser un serveur mandataire local pour accéder à Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a local proxy.">
+<!ENTITY torSettings.proxyHelp "Si vous n'êtes pas certain de connaître la réponse à cette question, vérifiez les paramètres Internet d'un autre navigateur pour voir s'il est configuré pour utiliser un mandataire local.">
 <!ENTITY torSettings.enterProxy "Saisir les paramètres du serveur mandataire.">
 <!ENTITY torSettings.bridgeQuestion "Votre fournisseur de service Internet (FSI) bloque-t-il ou censure-t-il vos connexions au réseau Tor?">
 <!ENTITY torSettings.bridgeHelp "Si vous ne savez pas comment répondre à cette question, choisissez Non.&#160; Si vous choisissez Oui, on vous demandera de configurer les ponts Tor qui sont des relais non listés rendant le bloquage des connexions au réseau Tor plus difficile.">
@@ -30,7 +30,7 @@
 
 <!ENTITY torsettings.optional "Optionnel">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a local proxy to access the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Cet ordinateur doit utiliser un mandataire local pour accéder à Internet">
 <!ENTITY torsettings.useProxy.type "Type de mandataire :">
 <!ENTITY torsettings.useProxy.address "Adresse :">
 <!ENTITY torsettings.useProxy.address.placeholder "Adresse IP ou nom d'hôte">
