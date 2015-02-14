@@ -9,13 +9,13 @@
 
 <!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes describe mejor su situación?">
 <!ENTITY torSettings.configurePrompt1 "La conexión a Internet de este equipo está censurada o proxyficada.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "Necesito ajustar la configuración de repetidor puente (bridge) o de proxy local.">
 <!ENTITY torSettings.configure "Configurar">
 <!ENTITY torSettings.connectPrompt2 "Me gustaría conectar directamente a la red Tor.">
 <!ENTITY torSettings.connectPrompt3 "Esto funcionará en la mayoría de las situaciones.">
 <!ENTITY torSettings.connect "Conectar">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "¿Necesita mi computadora utilizar un proxy (interpuesto) local para acceder a Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a local proxy.">
 <!ENTITY torSettings.enterProxy "Introduzca los ajustes del proxy.">
