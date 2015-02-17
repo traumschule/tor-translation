@@ -9,13 +9,13 @@
 
 <!ENTITY torSettings.firstQuestion "کدام یک از موارد زیر وضعیت شما را بهتر بیان می‌کند؟">
 <!ENTITY torSettings.configurePrompt1 "اتصال به اینترنت این کامپیوتر یا فیلترینگ شدید دارد و یا پراکسی دارد.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings.">
+<!ENTITY torSettings.configurePrompt2 "من نیاز به پیکربندی پل و یا تنظیمات پروکسی محلی دارم.">
 <!ENTITY torSettings.configure "پیکربندی">
 <!ENTITY torSettings.connectPrompt2 "تمایل دارم مستقیما به شبکه‌ی تور متصل شوم.">
 <!ENTITY torSettings.connectPrompt3 "این در بیشتر مواقع کار خواهد کرد.">
 <!ENTITY torSettings.connect "اتصال">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "آیا این کامپیوتر نیاز به استفاده از یک پروکسی محلی برای دسترسی به اینترنت دارد؟">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a local proxy.">
 <!ENTITY torSettings.enterProxy "تنظیمات پراکسی را وارد کنید.">
@@ -30,7 +30,7 @@
 
 <!ENTITY torsettings.optional "اختیاری">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a local proxy to access the Internet">
+<!ENTITY torsettings.useProxy.checkbox "این کامپیوتر نیاز به استفاده از یک پروکسی محلی برای دسترسی به اینترنت دارد">
 <!ENTITY torsettings.useProxy.type "نوع پراکسی:">
 <!ENTITY torsettings.useProxy.address "آدرس:">
 <!ENTITY torsettings.useProxy.address.placeholder "آدرس آی‌پی یا نام میزبان">
