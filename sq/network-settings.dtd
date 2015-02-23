@@ -25,7 +25,7 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Duke pritur që Tor të nisë...">
+<!ENTITY torsettings.startingTor "Duke pritur që Tor-i të nisë...">
 <!ENTITY torsettings.restartTor "Restart Tor">
 
 <!ENTITY torsettings.optional "Fakultativ">
