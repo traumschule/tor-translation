@@ -52,11 +52,11 @@
 <!ENTITY torsettings.copyLog "Kopjojeni Regjistrin e Tor-it në Kujtuesin e fragmenteve">
 <!ENTITY torsettings.bridgeHelpTitle "Ndihma mbi Relenë e Urë">
 <!ENTITY torsettings.bridgeHelp1 "Nëse s'mundeni të lidheni me rrjetin Tor, mund të jetë sepse Ofruesi juaj i Shërbimit të Internetit (ISP), ose ndonjë agjenci tjetër po pengojnë Tor-in.&#160; Shpesh, ju mund ta shmangni këtë problem, duke përdorur urat e Tor-it, të cilat janë rele të palistuara, që janë shumë më të vështira për t'u penguar.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these three methods:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp1B "Ju mund të përdorni grupin e ofruar e të parakonfiguruar të adresave ura, ose mund të përftoni një grup adresash të përshtatura, duke përdorur një nga këto tre metoda:">
+<!ENTITY torsettings.bridgeHelp2Heading "Përmes Web-it">
+<!ENTITY torsettings.bridgeHelp2 "Përdorni një shfletues web-i që të vizitoni https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Përmes Vetëpërgjigjes se E-postës">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Dërgoni e-postë tek bridges@torproject.org me reshtin 'get bridges' të veçuar në trupin e mesazhit.&#160; Megjithatë, për ta bërë më të vështirë që një sulmues të mësojë shumë adresa ura, ju duhet ta dërgoni këtë kërkesë nga njëri prej ofruesve të e-postës (listuar sipas rendit të parapëlqimit):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4Heading "Përmes Help Desk-ut">
+<!ENTITY torsettings.bridgeHelp4 "Si mjet të fundit, ju mund të kërkoni adresat urë, duke dërguar një mesazh e-poste me politesë tek help@rt.torproject.org.&#160; Ju lutemi vini re se një person do të duhet t'i përgjigjet çdo kërkese.">
