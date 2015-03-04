@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Configuración de red de Tor">
+<!ENTITY torsettings.dialog.title "Configuración de la red Tor">
 
 <!-- For "first run" wizard: -->
 
@@ -7,11 +7,11 @@
 <!ENTITY torSettings.yes "Si">
 <!ENTITY torSettings.no "No">
 
-<!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes describe mejor su situación?">
-<!ENTITY torSettings.configurePrompt1 "La conexión a Internet de este equipo está censurada o proxyficada.">
-<!ENTITY torSettings.configurePrompt2 "Necesito ajustar la configuración de repetidor puente (bridge) o de proxy local.">
+<!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes opciones describe mejor su situación?">
+<!ENTITY torSettings.configurePrompt1 "La conexión a Internet de este equipo está censurada o proxificada.">
+<!ENTITY torSettings.configurePrompt2 "Necesito ajustar la configuración del repetidor puente(bridge) o del proxy local.">
 <!ENTITY torSettings.configure "Configurar">
-<!ENTITY torSettings.connectPrompt2 "Me gustaría conectar directamente a la red Tor.">
+<!ENTITY torSettings.connectPrompt2 "Me gustaría conectarme directamente a la red Tor.">
 <!ENTITY torSettings.connectPrompt3 "Esto funcionará en la mayoría de las situaciones.">
 <!ENTITY torSettings.connect "Conectar">
 
