@@ -9,15 +9,15 @@
 
 <!ENTITY torSettings.firstQuestion "Kura situācija vislabāk atbilst jūsējai?">
 <!ENTITY torSettings.configurePrompt1 "Datora savienojums ar internetu ir cenzēts vai starpniekots.">
-<!ENTITY torSettings.configurePrompt2 "Man jākonfigurē tiltu vai starpniekserveru iestatījumi.">
+<!ENTITY torSettings.configurePrompt2 "Man jānokonfigurē tiltu vai lokālo starpniekserveru iestatījumi.">
 <!ENTITY torSettings.configure "Konfigurēt">
 <!ENTITY torSettings.connectPrompt2 "Es vēlos tieši pieslēgties tīklam Tor.">
 <!ENTITY torSettings.connectPrompt3 "Šis strādās vairumā gadījumu.">
 <!ENTITY torSettings.connect "Veidot savienojumu">
 
-<!ENTITY torSettings.proxyQuestion "Vai šim datoram ir jālieto starpnieks, lai piekļūtu internetam?">
+<!ENTITY torSettings.proxyQuestion "Vai šim datoram jāizmanto lokālais starpniekserveris, lai piekļūtu internetam?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Ja neesat pārliecināts kāda ir pareizā atbilde, apskatiet cita pārlūka interneta iestatījumus, lai redzētu vai tas ir konfigurēts izmantot starpnieku.">
+<!ENTITY torSettings.proxyHelp "Ja neesat pārliecināts par atbildi uz šo jautājumu, apskatiet cita pārlūka interneta iestatījumus, lai redzētu vai pārlūks ir nokonfigurēts lokāla starpniekservera izmantošanai. ">
 <!ENTITY torSettings.enterProxy "Ievadiet starpnieka iestatījumus.">
 <!ENTITY torSettings.bridgeQuestion "Vai Jūsu interneta pakalpojumu sniedzējs (ISP) bloķē vai savādāk cenzē savienojumus ar tīklu Tor?">
 <!ENTITY torSettings.bridgeHelp "Ja nezināt atbildi, izvēlieties No.&#160; ja izvēlēsities Jā, Jums lūgs konfigurēt Tor tiltus jeb Tor Bridges, proti, neuzskaitītus retranslatorus, kuri apgrūtina savienojumu bloķēšanu ar tīklu Tor.">
@@ -30,7 +30,7 @@
 
 <!ENTITY torsettings.optional "Neobligāts">
 
-<!ENTITY torsettings.useProxy.checkbox "Šim datoram jālieto starpnieks, lai piekļūtu internetam">
+<!ENTITY torsettings.useProxy.checkbox "Šajā datorā interneta piekļuvei ir jāizmanto lokālais starpniekserveris.">
 <!ENTITY torsettings.useProxy.type "Starpnieka tips:">
 <!ENTITY torsettings.useProxy.address "Adrese:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adrese vai resursdatora nosaukums">
