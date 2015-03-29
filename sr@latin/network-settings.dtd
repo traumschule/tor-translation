@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Pre nego što se konektujete na Tor mrežu, potrebno je da pružite informacije o internet konekciji ovog kompjutera.">
 
 <!ENTITY torSettings.yes "Da">
 <!ENTITY torSettings.no "Ne">
@@ -10,12 +10,12 @@
 <!ENTITY torSettings.firstQuestion "Koji od ponuđenih najbolje opisuje vašu situaciju?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings.">
-<!ENTITY torSettings.configure "Configure">
-<!ENTITY torSettings.connectPrompt2 "I would like to connect directly to the Tor network.">
+<!ENTITY torSettings.configure "Konfiguriši">
+<!ENTITY torSettings.connectPrompt2 "Želim da se direktno povežem na Tor mrežu.">
 <!ENTITY torSettings.connectPrompt3 "Ovo će raditi u većini situacija.">
-<!ENTITY torSettings.connect "Connect">
+<!ENTITY torSettings.connect "Povezivanje">
 
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyQuestion "Da li ovaj kompjuter koristi lokalni proksi za pristup internetu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "If you are not sure how to answer this question, look at the Internet settings in another browser to see whether it is configured to use a local proxy.">
 <!ENTITY torSettings.enterProxy "Unesite vaša proksi podešavanja.">
@@ -26,9 +26,9 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Waiting for Tor to start…">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Restartovanje Tor-a">
 
-<!ENTITY torsettings.optional "Optional">
+<!ENTITY torsettings.optional "Opciono">
 
 <!ENTITY torsettings.useProxy.checkbox "This computer needs to use a local proxy to access the Internet">
 <!ENTITY torsettings.useProxy.type "Proxy Type:">
@@ -37,11 +37,11 @@
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Korisničko ime:">
 <!ENTITY torsettings.useProxy.password "Lozinka:">
-<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
-<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
-<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4 ">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5 ">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS ">
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
+<!ENTITY torsettings.firewall.allowedPorts "Dozvoljeni portovi: ">
 <!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
 <!ENTITY torsettings.useBridges.default "Connect with provided bridges">
 <!ENTITY torsettings.useBridges.type "Transport type:">
