@@ -15,7 +15,7 @@
 <!ENTITY torSettings.connectPrompt3 "Това ще работи при повечето ситуации.">
 <!ENTITY torSettings.connect "Свържи се">
 
-<!ENTITY torSettings.proxyQuestion "Нуждае ли се този компютър от прокси за свързване към Интернет?">
+<!ENTITY torSettings.proxyQuestion "Този компютър използва ли локално прокси за достъп до Интернет?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ако не сте сигурни как да отговорите на този въпрос проверете интернет настройките на друг браузър,за да видите дали е настроен да използва прокси.">
 <!ENTITY torSettings.enterProxy "Въведете настройките за прокси.">
@@ -30,7 +30,7 @@
 
 <!ENTITY torsettings.optional "Допълнителен">
 
-<!ENTITY torsettings.useProxy.checkbox "Този компютър се нуждае от прокси за да се свърже към Интернет.">
+<!ENTITY torsettings.useProxy.checkbox "Необходимо е използването на локален прокси сървър за достъп до Интернет">
 <!ENTITY torsettings.useProxy.type "Прокси Тип:">
 <!ENTITY torsettings.useProxy.address "Адрес:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP адрес или хост">
