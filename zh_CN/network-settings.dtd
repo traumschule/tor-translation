@@ -47,7 +47,7 @@
 <!ENTITY torsettings.useBridges.type "传输类型：">
 <!ENTITY torsettings.useBridges.custom "输入自定义网桥">
 <!ENTITY torsettings.useBridges.label "输入一个或多个网桥中继(一行一个)。">
-<!ENTITY torsettings.useBridges.placeholder "输入 地址:端口">
+<!ENTITY torsettings.useBridges.placeholder "类型 地址:端口">
 
 <!ENTITY torsettings.copyLog "点击复制 Tor 日志">
 <!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
