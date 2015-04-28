@@ -7,7 +7,7 @@
 <!ENTITY torSettings.yes "Da">
 <!ENTITY torSettings.no "Ne">
 
-<!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
+<!ENTITY torSettings.firstQuestion "Što od sljedećeg najbolje opisuje tvoju situaciju?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings.">
 <!ENTITY torSettings.configure "Configure">
