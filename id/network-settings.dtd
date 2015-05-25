@@ -56,7 +56,7 @@
 <!ENTITY torsettings.bridgeHelp2Heading "Lewat web">
 <!ENTITY torsettings.bridgeHelp2 "Menggunakan applikasi penjelajah interet untuk mengunjungi https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Melalui Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Kieim email ke  bridges@torproject.org dengan jalur  'get bridges' itu sendiri di bodi dari pesan &#160; Walau bagaimana , untuk membuatnya lebih keras bagi para penyerang untuk mempelajari beberapa alamat  bridge , anda harus mengirim permintaan ini dari salah satu Provider-provider email berikut  (terdaftar di urutan preferensi):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, atau https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Melalui Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4 "Sebagai pilihan terakhir anda dapat meminta alamat bridge dengan mengirimkan pesan email dengan sopan ke help@rt.torproject.org.&#160; Silakan catat bahwa petugas akan merespon masing-masing permintaan">
