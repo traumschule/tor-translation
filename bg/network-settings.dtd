@@ -15,10 +15,12 @@
 <!ENTITY torSettings.connectPrompt3 "Това ще работи при повечето ситуации.">
 <!ENTITY torSettings.connect "Свържи се">
 
+<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
 <!ENTITY torSettings.proxyQuestion "Този компютър използва ли локално прокси за достъп до Интернет?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Ако не сте сигурни как да отговорите на този въпрос проверете интернет настройките на друг браузър,за да видите дали е настроен да използва прокси.">
 <!ENTITY torSettings.enterProxy "Въведете настройките за прокси.">
+<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
 <!ENTITY torSettings.bridgeQuestion "Блокирани или цензурирани ли са връзките към Tor Мрежата от вашият Интернет Доставчик(ISP)?">
 <!ENTITY torSettings.bridgeHelp "Ако не сте сигурни как да отговорите на този въпрос, изберете No.&#160; Ако изберете Yes, вие ще бъдете помолен да конфигурирате Tor Bridges, непубликувани relays които правят блокирането на връзката към Tor Network по трудна.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Вие може да използвате предложените комплекти от bridges или може да изисквате персонализиран комплект от тях.">

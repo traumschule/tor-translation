@@ -15,10 +15,12 @@
 <!ENTITY torSettings.connectPrompt3 "Dit zal in de meeste omstandigheden werken">
 <!ENTITY torSettings.connect "Verbind">
 
+<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
 <!ENTITY torSettings.proxyQuestion "Heeft deze computer een lokale proxy nodig om toegang tot het internet te krijgen?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Als je niet zeker weet hoe deze vraag te beantwoorden, kijk naar de internet instellingen in een andere browser om te zien of deze is geconfigureerd om een lokale proxy te gebruiken.">
 <!ENTITY torSettings.enterProxy "Voer de proxy-instellingen in.">
+<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
 <!ENTITY torSettings.bridgeQuestion "Doet je Internet Service Provider (ISP) het Tor netwerk verbieden of filteren?">
 <!ENTITY torSettings.bridgeHelp "Als je niet zeker weet hoe je deze vraag moet beantwoorden, kies dan Nee.&#160; Als je Ja kiest, moet je Tor bridges instellen, die doordat ze geen bekende relays zijn het dus moeilijker maken om verbinding te maken met het Tor Netwerk. ">
 <!ENTITY torSettings.bridgeSettingsPrompt "Je kunt de ingegeven bridges gebruiken, of je kunt een eigen bridge instellen. ">
