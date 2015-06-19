@@ -20,7 +20,7 @@
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Si vous n'êtes pas sure de la réponse à cette question, regardez les paramètres internet dans un autre navigateur pour voir si il est configuré pour l'utilisation d'un proxy.">
 <!ENTITY torSettings.enterProxy "Entrez les paramètres de votre proxy.">
-<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
+<!ENTITY torSettings.bridgePageTitle "Configuration Tor Bridges">
 <!ENTITY torSettings.bridgeQuestion "Est-ce que votre Fournisseur d'Accès Internet (FAI) bloque les connexions au réseau Tor ?">
 <!ENTITY torSettings.bridgeHelp "Si vous ne savez pas comment répondre à cette question, choisissez Non.&#160; Si vous choisissez Oui, il vous sera demandé de configurer les bridges Tor qui sont des relais non listés et qui rendent plus difficile le blocage du réseau Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser les bridges fournis ou bien saisir votre liste de bridges personnels.">
