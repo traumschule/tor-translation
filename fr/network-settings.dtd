@@ -15,7 +15,7 @@
 <!ENTITY torSettings.connectPrompt3 "Cela fonctionnera dans la plupart des situations.">
 <!ENTITY torSettings.connect "Se connecter">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
+<!ENTITY torSettings.proxyPageTitle "Configuration du Proxy local">
 <!ENTITY torSettings.proxyQuestion "Est-ce que cet ordinateur a besoin d'utiliser un proxy pour accéder à internet ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Si vous n'êtes pas sure de la réponse à cette question, regardez les paramètres internet dans un autre navigateur pour voir si il est configuré pour l'utilisation d'un proxy.">
