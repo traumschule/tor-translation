@@ -1,10 +1,10 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Configuraciones de red de Tor">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Antes de conectar con la red de Tor, necesitas proveer informacion acerca de la coneccion de internet de este computador.">
 
-<!ENTITY torSettings.yes "Yes">
+<!ENTITY torSettings.yes "Si">
 <!ENTITY torSettings.no "No">
 
 <!ENTITY torSettings.firstQuestion "Which of the following best describes your situation?">
