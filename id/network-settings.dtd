@@ -8,8 +8,8 @@
 <!ENTITY torSettings.no "Tidak">
 
 <!ENTITY torSettings.firstQuestion "Mana dari yang berikut ini tepat menjelaskan situasi Anda?">
-<!ENTITY torSettings.configurePrompt1 "Koneksi internet komputer ini disensor atau terproksi.">
-<!ENTITY torSettings.configurePrompt2 "Saya membutuhkan konfigurasi jembatan atau seting proksi lokal">
+<!ENTITY torSettings.configurePrompt1 "Koneksi Internet komputer ini disensor atau terproksi.">
+<!ENTITY torSettings.configurePrompt2 "Saya perlu mengonfigurasi pengaturan jembatan atau proksi lokal.">
 <!ENTITY torSettings.configure "Konfigur">
 <!ENTITY torSettings.connectPrompt2 "Saya ingin menghubungkan secara langsung ke jaringan Tor.">
 <!ENTITY torSettings.connectPrompt3 "Hal ini akan bekerja dalam kebanyakan situasi.">
