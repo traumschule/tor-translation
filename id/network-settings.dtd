@@ -11,7 +11,7 @@
 <!ENTITY torSettings.configurePrompt1 "Koneksi Internet komputer ini disensor atau terproksi.">
 <!ENTITY torSettings.configurePrompt2 "Saya perlu mengonfigurasi pengaturan jembatan atau proksi lokal.">
 <!ENTITY torSettings.configure "Konfigur">
-<!ENTITY torSettings.connectPrompt2 "Saya ingin menghubungkan secara langsung ke jaringan Tor.">
+<!ENTITY torSettings.connectPrompt2 "Saya ingin terhubung secara langsung ke jaringan Tor.">
 <!ENTITY torSettings.connectPrompt3 "Hal ini akan bekerja dalam kebanyakan situasi.">
 <!ENTITY torSettings.connect "Hubungi">
 
