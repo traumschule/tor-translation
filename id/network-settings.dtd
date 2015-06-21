@@ -7,7 +7,7 @@
 <!ENTITY torSettings.yes "Ya">
 <!ENTITY torSettings.no "Tidak">
 
-<!ENTITY torSettings.firstQuestion "Yang mana dari di bawah ini cocok dengan situasi anda?">
+<!ENTITY torSettings.firstQuestion "Mana dari yang berikut ini tepat menjelaskan situasi Anda?">
 <!ENTITY torSettings.configurePrompt1 "Koneksi internet komputer ini disensor atau terproksi.">
 <!ENTITY torSettings.configurePrompt2 "Saya membutuhkan konfigurasi jembatan atau seting proksi lokal">
 <!ENTITY torSettings.configure "Konfigur">
