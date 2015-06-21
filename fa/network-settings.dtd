@@ -15,7 +15,7 @@
 <!ENTITY torSettings.connectPrompt3 "این در بیشتر مواقع کار خواهد کرد.">
 <!ENTITY torSettings.connect "اتصال">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
+<!ENTITY torSettings.proxyPageTitle "پیکربندی پراکسی محلی">
 <!ENTITY torSettings.proxyQuestion "آیا این کامپیوتر نیاز به استفاده از یک پروکسی محلی برای دسترسی به اینترنت دارد؟">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "اگر شما مطمئن نیستید که چگونه به این سوال پاسخ دهید، به تنظیمات سایر مرورگرهای خود نگاهی بیاندازید تا متوجه شوید که آیا باید یک پروکسی محلی استفاده شود؟">
