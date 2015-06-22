@@ -12,8 +12,8 @@
 <!ENTITY torSettings.configurePrompt2 "Saya perlu mengonfigurasi pengaturan jembatan atau proksi lokal.">
 <!ENTITY torSettings.configure "Konfigur">
 <!ENTITY torSettings.connectPrompt2 "Saya ingin terhubung secara langsung ke jaringan Tor.">
-<!ENTITY torSettings.connectPrompt3 "Hal ini akan bekerja dalam kebanyakan situasi.">
-<!ENTITY torSettings.connect "Hubungi">
+<!ENTITY torSettings.connectPrompt3 "Ini akan bekerja dalam kebanyakan situasi.">
+<!ENTITY torSettings.connect "Sambung">
 
 <!ENTITY torSettings.proxyPageTitle "Konfigurasi Proxy Lokal">
 <!ENTITY torSettings.proxyQuestion "Apakah komputer ini membutuhkan proksi lokal untuk dapat mengakses internet ?">
