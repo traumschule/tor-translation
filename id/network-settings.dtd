@@ -15,7 +15,7 @@
 <!ENTITY torSettings.connectPrompt3 "Ini akan bekerja dalam kebanyakan situasi.">
 <!ENTITY torSettings.connect "Sambung">
 
-<!ENTITY torSettings.proxyPageTitle "Konfigurasi Proxy Lokal">
+<!ENTITY torSettings.proxyPageTitle "Konfigurasi Proksi Lokal">
 <!ENTITY torSettings.proxyQuestion "Apakah komputer ini membutuhkan proksi lokal untuk dapat mengakses internet ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "Jika anda tidak yakin untuk menjawab pertanyaan ini, llihatlah pada setelan jaringan di browser lain apakah terkonfigurasi dengan proksi lokal.">
