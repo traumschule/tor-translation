@@ -23,7 +23,7 @@
 <!ENTITY torSettings.bridgePageTitle "Konfigurasi Jembatan Tor">
 <!ENTITY torSettings.bridgeQuestion "Apakah Penyedia Layanan Internet (ISP) Anda memblokir atau menyensor sambungan ke Jaringan Tor?">
 <!ENTITY torSettings.bridgeHelp "Jika Anda tidak yakin bagaimana untuk menjawab pertanyaan ini, pilih No.&#160; Jika Anda memilih Ya, Anda akan diminta untuk mengkonfigurasi Jembatan Tor, yang merupakan relai tidak terdaftar yang akan membuat semakin sulit untuk memblokir sambungan ke Jaringan Tor.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Anda dapat menggunakan set bridge yang disediakan atau Anda dapat memperoleh dan memasukkan seperangkat bridge yang biasa digunakan.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Anda dapat menggunakan setelan jembatan yang disediakan atau Anda dapat memperoleh dan memasukkan setelan jembatan ubahsuai.">
 
 <!-- Other: -->
 
