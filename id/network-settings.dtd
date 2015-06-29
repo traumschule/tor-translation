@@ -32,8 +32,8 @@
 
 <!ENTITY torsettings.optional "Opsional">
 
-<!ENTITY torsettings.useProxy.checkbox "Komputer ini perlu menggunakan proxy lokal untuk mengakses internet">
-<!ENTITY torsettings.useProxy.type "Tipe Proxy:">
+<!ENTITY torsettings.useProxy.checkbox "Komputer ini perlu menggunakan proksi lokal untuk mengakses Internet">
+<!ENTITY torsettings.useProxy.type "Tipe Proksi:">
 <!ENTITY torsettings.useProxy.address "Alamat:">
 <!ENTITY torsettings.useProxy.address.placeholder "alamat IP atau nama host">
 <!ENTITY torsettings.useProxy.port "Port:">
