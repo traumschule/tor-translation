@@ -28,7 +28,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Menunggu Tor untuk memulai...">
-<!ENTITY torsettings.restartTor "Muat ulang Tor">
+<!ENTITY torsettings.restartTor "Muat Ulang Tor">
 
 <!ENTITY torsettings.optional "Opsional">
 
