@@ -9,16 +9,18 @@
 
 <!ENTITY torSettings.firstQuestion "Care din următoarele descrie cel mai bine situația dvs?">
 <!ENTITY torSettings.configurePrompt1 "Această conexiune la internet a computerului este cenzurată sau prin proxy.">
-<!ENTITY torSettings.configurePrompt2 "Trebuie să configurez puntea sau configurări proxy.">
+<!ENTITY torSettings.configurePrompt2 "Am nevoie să configurez puntea sau configurările locale proxy.">
 <!ENTITY torSettings.configure "Configuraţi ">
 <!ENTITY torSettings.connectPrompt2 "Vreau sa ma conectez direct la reţeaua Tor .">
 <!ENTITY torSettings.connectPrompt3 "Aceasta funcționează în cele mai multe situații.">
 <!ENTITY torSettings.connect "Conectare">
 
-<!ENTITY torSettings.proxyQuestion "Computerul dumneavoastră are nevoie de un proxy sa acceseze Internet-ul ?">
+<!ENTITY torSettings.proxyPageTitle "Configurare Proxy local">
+<!ENTITY torSettings.proxyQuestion "Are nevoie acest computer să utilizeze un proxy local pentru accesarea internetului?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Dacă nu sînteți siguri cum să răspundeți la întrebarea aceasta, uitați-vă la setările de Internet din alt browser pentru a vedea dacă este configurat să folosească un proxy.">
+<!ENTITY torSettings.proxyHelp "Dacă nu știi sigur cum să răspunzi la această întrebare, uită-te la setările de Internet într-un alt browser pentru a vedea dacă este configurat să folosească un proxy local.">
 <!ENTITY torSettings.enterProxy "Introduceţi setările pentru proxy .">
+<!ENTITY torSettings.bridgePageTitle "Configurare Punți Tor ">
 <!ENTITY torSettings.bridgeQuestion "Internet Service Providerul (ISP) dvs blochează sau cenzurează conexiunile către rețeaua Tor?">
 <!ENTITY torSettings.bridgeHelp "Dacă nu sînteți sigur cum să răspundeți la această întrebare, alegeți Nu.&#160; Dacă alegeți Da, vi se va cere să configurați punțile Tor, care sînt relayuri nelistate care fac mai dificilă blocarea conexiunilor la rețeaua Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Puteți folosi setul de punți oferit sau puteți obține și introduce un set particular de punți.">
@@ -30,7 +32,7 @@
 
 <!ENTITY torsettings.optional "Opțional">
 
-<!ENTITY torsettings.useProxy.checkbox "Acest computer are nevoie să folosească un proxy pentru a accesa Internetul">
+<!ENTITY torsettings.useProxy.checkbox "Acest computer are nevoie să utilizeze un proxy local pentru accesarea internetului.">
 <!ENTITY torsettings.useProxy.type "Tip proxy:">
 <!ENTITY torsettings.useProxy.address "Adresă:">
 <!ENTITY torsettings.useProxy.address.placeholder "Adresă IP sau hostname">
