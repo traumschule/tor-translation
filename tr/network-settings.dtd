@@ -2,7 +2,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Tor ağa bağlanmadan önce, bu bilgisayarın İnternet bağlantısı hakkında bilgi vermeniz gerekir.">
+<!ENTITY torsettings.prompt "Tor ağına bağlanmadan önce, bu bilgisayarın Internet bağlantısı hakkında bilgi vermeniz gerekir.">
 
 <!ENTITY torSettings.yes "Evet">
 <!ENTITY torSettings.no "Hayır">
