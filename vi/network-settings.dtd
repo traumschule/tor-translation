@@ -45,9 +45,9 @@
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
 <!ENTITY torsettings.firewall.allowedPorts "Những Cổng Được phép:">
 <!ENTITY torsettings.useBridges.checkbox "Nhà cung cấp dịch vụ của tôi (ISP) đã chặn kết nối đến mạng Tor">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
+<!ENTITY torsettings.useBridges.default "Kết nối với những cầu được cung cấp">
+<!ENTITY torsettings.useBridges.type "Loại hình vận chuyển:">
+<!ENTITY torsettings.useBridges.custom "Nhập những cầu quen thuộc">
 <!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
 <!ENTITY torsettings.useBridges.placeholder "type address:port">
 
