@@ -2,27 +2,27 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "לפני שאתה מתחבר לרשת ה-Tor, אתה צריך לספק מידע על חיבור האינטרנט של מחשב זה.">
+<!ENTITY torsettings.prompt "לפני שתתחבר לרשת Tor, עליך לספק מידע על חיבור האינטרנט של מחשב זה.">
 
 <!ENTITY torSettings.yes "כן">
 <!ENTITY torSettings.no "לא">
 
 <!ENTITY torSettings.firstQuestion "אילו מן הבאים מתאר את המצב שלך באופן הטוב ביותר?">
-<!ENTITY torSettings.configurePrompt1 "חיבור האינטרנט של המחשב הזה מצונזר או עובר בשרת פרוקסי">
+<!ENTITY torSettings.configurePrompt1 "חיבור האינטרנט של מחשב זה מסונן או עובר דרך שרת פרוקסי.">
 <!ENTITY torSettings.configurePrompt2 "ברצוני להגדיר גשר או שרת פרוקסי מקומי.">
 <!ENTITY torSettings.configure "הגדר">
-<!ENTITY torSettings.connectPrompt2 "ברצוני להתחבר ישירות אל הרשת Tor.">
-<!ENTITY torSettings.connectPrompt3 "זה יעבוד ברוב המקרים.">
+<!ENTITY torSettings.connectPrompt2 "ברצוני להתחבר ישירות לרשת Tor.">
+<!ENTITY torSettings.connectPrompt3 "דבר זה יעבוד במרבית המקרים.">
 <!ENTITY torSettings.connect "התחבר">
 
 <!ENTITY torSettings.proxyPageTitle "הגדרות שרת פרוקסי מקומי">
-<!ENTITY torSettings.proxyQuestion "האם מחשב זה נדרש להשתמש בשרת פרוקסי מקומי על מנת להתחבר לאינטרנט?">
+<!ENTITY torSettings.proxyQuestion "האם מחשב זה חייב להשתמש בשרת פרוקסי מקומי כדי לקבל גישה לאינטרנט?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "אם אינך בטוח כיצד להשיב לשאלה זו, בחן את הגדרות האינטרנט בדפדפן אחר כדי לראות האם הגדרות ההתחברות שלו כוללות שימוש בשרת פרוקסי מקומי.">
 <!ENTITY torSettings.enterProxy "הזן את הגדרות הפרוקסי.">
 <!ENTITY torSettings.bridgePageTitle "הגדרת גשרים ל-Tor">
-<!ENTITY torSettings.bridgeQuestion "האם ספק שירותי האינטרנט (ISP) שלך חוסם או מצנזר אחרת חיבורים לרשת Tor ?">
-<!ENTITY torSettings.bridgeHelp "אם אינך בטוח איך לענות לשאלה הזו, בחר No.&#160; במידה ותבחר כן, תתבקש להגדיר את גשרי Tor, שהם ממסרים לא רשומים שמקשים לחסום חיבורים לרשת Tor.">
+<!ENTITY torSettings.bridgeQuestion "האם ספק שירותי האינטרנט (ISP) שלך חוסם או מסנן חיבורים לרשת Tor ?">
+<!ENTITY torSettings.bridgeHelp "160 אם אינך בטוח כיצד לענות לשאלה זו, בחר ב-'לא'. אם תבחר ב-'כן', תתבקש להגדיר גשרים ל-Tor, שהם שרתים לא פומביים המסייעים לעקוף חסימות גישה לרשת Tor. ">
 <!ENTITY torSettings.bridgeSettingsPrompt "באפשרותך להשתמש ברשימת הגשרים המוכנה או להשיג בעצמך ולהזין רשימת גשרים חדשה.">
 
 <!-- Other: -->
@@ -33,7 +33,7 @@
 <!ENTITY torsettings.optional "רשות">
 
 <!ENTITY torsettings.useProxy.checkbox "מחשב זה חייב להשתמש בשרת פרוקסי מקומי על מנת להתחבר לאינטרנט">
-<!ENTITY torsettings.useProxy.type "טיפוס פרוקסי:">
+<!ENTITY torsettings.useProxy.type "סוג פרוקסי:">
 <!ENTITY torsettings.useProxy.address "כתובת:">
 <!ENTITY torsettings.useProxy.address.placeholder "כתובת IP או שם מארח">
 <!ENTITY torsettings.useProxy.port "יציאה:">
@@ -42,13 +42,13 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "מחשב זה עובר דרך חומת אש שרק מאפשר חיבורים ליציאות מסוימות">
+<!ENTITY torsettings.firewall.checkbox "מחשב זה מחובר לאינטרנט דרך חומת אש המאפשר חיבורים רק לפורטים מסויימים ">
 <!ENTITY torsettings.firewall.allowedPorts "יציאות מורשות:">
 <!ENTITY torsettings.useBridges.checkbox "ספק האינטרנט שלי (ISP) חוסם חיבורים אל הרשת Tor">
 <!ENTITY torsettings.useBridges.default "התחבר באמצעות הגשרים המוכנים">
 <!ENTITY torsettings.useBridges.type "סוג מסווה תעבורה:">
 <!ENTITY torsettings.useBridges.custom "הזן רשימת גשרים חדשה">
-<!ENTITY torsettings.useBridges.label "הקלד אחד או יותר ממסרי גשר (אחד לכל שורה)">
+<!ENTITY torsettings.useBridges.label "הזן פרטי גשר אחד לפחות (אחד לכל שורה)">
 <!ENTITY torsettings.useBridges.placeholder "הזן כתובת:פורט address:port">
 
 <!ENTITY torsettings.copyLog "העתק את יומן Tor אל לוח גזירה">
