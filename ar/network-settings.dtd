@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "إعدادات الشبكة الخاصة بتور">
+<!ENTITY torsettings.dialog.title "إعدادات الشبكة">
 
 <!-- For "first run" wizard: -->
 
@@ -9,16 +9,18 @@
 
 <!ENTITY torSettings.firstQuestion "أي مما يلي يعتبر وصف افضل لموقفك؟">
 <!ENTITY torSettings.configurePrompt1 "اتصال هذا الحاسب بالإنترنت محجوب أو له بروكسي.">
-<!ENTITY torSettings.configurePrompt2 "علي تكوين إعدادات الجسر أو بروكسي.">
+<!ENTITY torSettings.configurePrompt2 "أحتاج لإعداد جسر أو بروكسي محلي.">
 <!ENTITY torSettings.configure "تكوين">
 <!ENTITY torSettings.connectPrompt2 "أود الاتصال مباشرة إلى شبكة تور.">
 <!ENTITY torSettings.connectPrompt3 "سيصلح هذا في معظم الحالات.">
 <!ENTITY torSettings.connect "اتصل">
 
-<!ENTITY torSettings.proxyQuestion "هل يحتاج هذا الجهاز إلي بروكسي حتي يصل إلي شبكة الإنترنت؟">
+<!ENTITY torSettings.proxyPageTitle "إعداد البروكسي المحلّي">
+<!ENTITY torSettings.proxyQuestion "هل يحتاج هذا الكمبيوتر لاستخدام وكيل محلي للاتصال بالإنترنت؟">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "إذا لم تكن متأكدا من كيفية الإجابة على هذا السؤال، إلقي نظرة على إعدادات الإنترنت في متصفح آخر حتي تتأكد إذا كان يستخدام بروكسي.">
+<!ENTITY torSettings.proxyHelp "إذا كنت غير متأكد من كيفية الإجابة على هذا السؤال، أنظر الى إعدادات الإنترنت في متصفح آخر لمعرفة ما إذا تمت تهيئتة لاستخدام وكيل محلي.">
 <!ENTITY torSettings.enterProxy "أدخل إعدادات البروكسي.">
+<!ENTITY torSettings.bridgePageTitle "إعداد جسور تور.">
 <!ENTITY torSettings.bridgeQuestion "هل يقوم مقدم خدمة الإنترنت (ISP) الذي تتعامل معه بحجب الاتصالات بشبكة Tor أو مراقبتها بطريقة أخرى؟">
 <!ENTITY torSettings.bridgeHelp "إذا لم تكن متأكدا من إجابة هذا السؤال، قم باختيار لا. &#160; إذا قمت باختيار نعم، فسيطلب منك تكوين جسور Tor والتي هي منافذ ترحيل غير مدرجة تصعب عملية حظر الاتصالات بشبكة Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "يمكنك استخدام مجموعة الجسور المتوفرة أو الحصول على مجموعة مخصصة من الجسور.">
@@ -30,7 +32,7 @@
 
 <!ENTITY torsettings.optional "اختياري">
 
-<!ENTITY torsettings.useProxy.checkbox "يحتاج هذا الجهاز إلي استخدام بروكسي للوصل إلي شبكة الإنترنت">
+<!ENTITY torsettings.useProxy.checkbox "يحتاج هذا الكمبيوتر لاستخدام وكيل محلي للاتصال بالإنترنت">
 <!ENTITY torsettings.useProxy.type "نوع البروكسي:">
 <!ENTITY torsettings.useProxy.address "العنوان:">
 <!ENTITY torsettings.useProxy.address.placeholder "عنوان الإنترنت IP أو اسم المضيف">
