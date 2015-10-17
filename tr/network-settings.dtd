@@ -1,5 +1,9 @@
 <!ENTITY torsettings.dialog.title "Tor Ağı Ayarları">
 
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
+<!ENTITY torlauncher.localePicker.prompt "Please select a language.">
+
 <!-- For "first run" wizard: -->
 
 <!ENTITY torsettings.prompt "Tor ağına bağlanmadan önce, bu bilgisayarın Internet bağlantısı hakkında bilgi vermeniz gerekiyor.">

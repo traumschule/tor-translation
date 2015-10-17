@@ -1,5 +1,9 @@
 <!ENTITY torsettings.dialog.title "Síťové nastavení TORu">
 
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
+<!ENTITY torlauncher.localePicker.prompt "Please select a language.">
+
 <!-- For "first run" wizard: -->
 
 <!ENTITY torsettings.prompt "Než se připojíte s síti TORu je potřeba poskytnout údaje o internetovém připojení tohoto počítače.">
