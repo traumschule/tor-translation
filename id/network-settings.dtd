@@ -1,8 +1,8 @@
 <!ENTITY torsettings.dialog.title "Pengaturan Jaringan Tor">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
-<!ENTITY torlauncher.localePicker.prompt "Please select a language.">
+<!ENTITY torlauncher.localePicker.title "Bahasa Peramban Tor">
+<!ENTITY torlauncher.localePicker.prompt "Silahkan pilih bahasa.">
 
 <!-- For "first run" wizard: -->
 
