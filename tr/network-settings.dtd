@@ -48,21 +48,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Bu bilgisayar yalnız belirli bağlantı noktalarına bağlanmaya izin veren bir güvenlik duvarı kullanıyor">
 <!ENTITY torsettings.firewall.allowedPorts "İzin Verilen Bağlantı Noktaları:">
-<!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
+<!ENTITY torsettings.useBridges.checkbox "Internet Servis Sağlayıcım (ISS) Tor ağına olan bağlantıları engelliyor">
 <!ENTITY torsettings.useBridges.default "Sağlanan köprüler ile bağlan">
 <!ENTITY torsettings.useBridges.type "Aktarım tipi:">
 <!ENTITY torsettings.useBridges.custom "Özel köprüler yazın">
-<!ENTITY torsettings.useBridges.label "Bir ya da bir kaç köprü aktarıcısı yazın (her satıra bir tane).">
-<!ENTITY torsettings.useBridges.placeholder "adres:kapı şeklinde yazın">
+<!ENTITY torsettings.useBridges.label "Bir ya da birkaç köprü aktarıcısı yazın (her satıra bir tane).">
+<!ENTITY torsettings.useBridges.placeholder "adres:bağlantı noktası şeklinde yazın">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Aktarıcı Yardımı">
-<!ENTITY torsettings.bridgeHelp1 "Tor ağına bağlanamıyorsanız, kullandığınız İnternet Servis Sağlayıcısı (ISS) veya başka bir kurum Tor yazılımını engelliyor olabilir.&#160; Bu sorunu çoğunlukla, engellenmesi daha zor olan listelenmeyen aktarıcılar, Tor Köprülerini kullanarak çözebilirsiniz.">
-<!ENTITY torsettings.bridgeHelp1B "Önceden ayarlanmış ve sunulmuş köprü adresleri kümesini kullanabilir ya da şu üç yöntemden birini kullanarak özel bir adres kümesi edinebilirsiniz:">
+<!ENTITY torsettings.bridgeHelp1 "Tor ağına bağlanamıyorsanız, kullandığınız Internet Servis Sağlayıcısı (ISS) ya da başka bir kurum Tor&#160;'u engelliyor olabilir. Bu sorunu çoğunlukla, engellenmesi daha zor olan listelenmeyen aktarıcılar, Tor Köprülerini kullanarak çözebilirsiniz.">
+<!ENTITY torsettings.bridgeHelp1B "Önceden ayarlanmış ve sunulmuş köprü adreslerini kullanabilir ya da şu üç yöntemden birini kullanarak özel adresler edinebilirsiniz:">
 <!ENTITY torsettings.bridgeHelp2Heading "Web yoluyla">
-<!ENTITY torsettings.bridgeHelp2 "Web tarayıcınız ile https://bridges.torproject.org sitesine bakın">
+<!ENTITY torsettings.bridgeHelp2 "Bir web tarayıcısı kullanarak https://bridges.torproject.org adresini ziyaret edin">
 <!ENTITY torsettings.bridgeHelp3Heading "Otomatik e-posta yanıtı yoluyla">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "bridges@torproject.org adresine, ileti içeriğine yalnız 'get bridges' yazarak bir e-posta gönderin.&#160; Bir saldırganın çok sayıda köprü adresi öğrenmesini zorlaştırmak için bu e-postayı aşağıdaki e-posta sağlayıcılarının birinden yollmalısınız (yeğlenme sırasına göre listelenmiştir):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com ya da https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "bridges@torproject.org adresine, ileti içeriğine yalnız 'get bridges' yazarak bir e-posta gönderin.&#160; Bir saldırganın çok sayıda köprü adresi öğrenmesini zorlaştırmak için bu e-postayı aşağıdaki e-posta sağlayıcılarının birinden göndermelisiniz (yeğlenme sırasına göre listelenmiştir):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, ya da https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Yardım masası yoluyla">
 <!ENTITY torsettings.bridgeHelp4 "Son yol olarak, köprü adreslerini help@rt.torproject.org adresine göndereceğiniz nazik bir e-posta ile isteyebilirsiniz.&#160; Her isteği bir kişinin yanıtlayacağını unutmayın.">
