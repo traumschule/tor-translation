@@ -26,28 +26,28 @@
 <!ENTITY torSettings.enterProxy "Vekil sunucu ayarlarını girin.">
 <!ENTITY torSettings.bridgePageTitle "Tor Köprüleri Ayarları">
 <!ENTITY torSettings.bridgeQuestion "Internet Servis Sağlayıcınız (ISS) Tor Ağına bağlantıları engelliyor ya da sansürlüyor mu?">
-<!ENTITY torSettings.bridgeHelp "Bu soruyu nasıl cevaplayacağınızdan emin değilseniz Hayır seçin.&#160; Evet seçerseniz, Tor Ağı bağlantılarının engellenmesini daha zor hale getiren, listelenmeyen aktarıcılar olan Tor Köprülerini ayarlamanız istenir.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Sağlanan köprüler kümesini kullanabilir ya da özel bir köprü kümesi edinip yazabilirsiniz.">
+<!ENTITY torSettings.bridgeHelp "Bu soruyu nasıl yanıtlayacağınızı bilmiyorsanız, Hayır&#160;'ı seçin. Evet'i seçerseniz, Tor Ağı bağlantılarının engellenmesini daha zor hale getiren, listelenmeyen aktarıcılar olan Tor Köprülerini ayarlamanız istenir.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Sağlanan köprüleri kullanabilir ya da özel köprüler edinip yazabilirsiniz.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Tor yazılımının başlaması bekleniyor...">
-<!ENTITY torsettings.restartTor "Tor Yazılımını Yeniden Başlat">
+<!ENTITY torsettings.startingTor "Tor'un başlaması bekleniyor…">
+<!ENTITY torsettings.restartTor "Tor'u Yeniden Başlat">
 
-<!ENTITY torsettings.optional "İsteğe Bağlı">
+<!ENTITY torsettings.optional "İsteğe bağlı">
 
-<!ENTITY torsettings.useProxy.checkbox "Bu bilgisayar İnternet erişimi için yerel bir vekil sunucu kullanıyor.">
+<!ENTITY torsettings.useProxy.checkbox "Bu bilgisayarın Internet'e erişmesi için bir yerel vekil sunucu kullanması gerekiyor">
 <!ENTITY torsettings.useProxy.type "Vekil Sunucu Tipi:">
 <!ENTITY torsettings.useProxy.address "Adres:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresi ya da sunucu adı">
-<!ENTITY torsettings.useProxy.port "Kapı:">
+<!ENTITY torsettings.useProxy.port "Bağlantı noktası:">
 <!ENTITY torsettings.useProxy.username "Kullanıcı adı:">
 <!ENTITY torsettings.useProxy.password "Parola:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "Bu bilgisayar, yalnız belirli kapılara bağlanma izin veren bir güvenlik duvarı kullanıyor ">
-<!ENTITY torsettings.firewall.allowedPorts "İzin Verilen Kapılar:">
+<!ENTITY torsettings.firewall.checkbox "Bu bilgisayar yalnız belirli bağlantı noktalarına bağlanmaya izin veren bir güvenlik duvarı kullanıyor">
+<!ENTITY torsettings.firewall.allowedPorts "İzin Verilen Bağlantı Noktaları:">
 <!ENTITY torsettings.useBridges.checkbox "İnternet Servis Sağlayıcım (İSS) Tor Ağı ile bağlantılarımı engelliyor">
 <!ENTITY torsettings.useBridges.default "Sağlanan köprüler ile bağlan">
 <!ENTITY torsettings.useBridges.type "Aktarım tipi:">
