@@ -25,7 +25,7 @@
 <!ENTITY torSettings.proxyHelp "Bu soruyu nasıl yanıtlayacağınızı bilmiyorsanız, başka bir tarayıcıda Internet ayarlarına bakarak bir yerel vekil sunucu kullanılıp kullanılmadığını görün.">
 <!ENTITY torSettings.enterProxy "Vekil sunucu ayarlarını girin.">
 <!ENTITY torSettings.bridgePageTitle "Tor Köprüleri Ayarları">
-<!ENTITY torSettings.bridgeQuestion "Internet Servis Sağlayıcınız (ISS) Tor Ağına bağlantıları engelliyor ya da sansürlüyor mu?">
+<!ENTITY torSettings.bridgeQuestion "Internet Servis Sağlayıcınız (ISS) Tor Ağına olan bağlantıları engelliyor ya da sansürlüyor mu?">
 <!ENTITY torSettings.bridgeHelp "Bu soruyu nasıl yanıtlayacağınızı bilmiyorsanız, Hayır&#160;'ı seçin. Evet'i seçerseniz, Tor Ağı bağlantılarının engellenmesini daha zor hale getiren, listelenmeyen aktarıcılar olan Tor Köprülerini ayarlamanız istenir.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Sağlanan köprüleri kullanabilir ya da özel köprüler edinip yazabilirsiniz.">
 
