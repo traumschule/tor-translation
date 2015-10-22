@@ -1,5 +1,9 @@
 <!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Language du navigateur Tor">
+<!ENTITY torlauncher.localePicker.prompt "Merci de sélectionner une langue.">
+
 <!-- For "first run" wizard: -->
 
 <!ENTITY torsettings.prompt "Vous devez fournir des informations concernant la connexion à Internet de cet ordinateur afin de pouvoir vous connecter au réseau Tor.">
