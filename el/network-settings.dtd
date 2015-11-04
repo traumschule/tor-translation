@@ -1,5 +1,9 @@
 <!ENTITY torsettings.dialog.title "Tor Ρυθμίσεις Δικτύου ">
 
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Γλώσσα του Tor Browser">
+<!ENTITY torlauncher.localePicker.prompt "Παρακαλώ επέλεξε μια γλώσσα.">
+
 <!-- For "first run" wizard: -->
 
 <!ENTITY torsettings.prompt "Πριν συνδεθείτε στο δίκτυο Tor, θα χρειαστούμε λίγες πληροφορίες για το πώς συνδέεστε στο Internet.">
