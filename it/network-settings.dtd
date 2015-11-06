@@ -1,5 +1,9 @@
 <!ENTITY torsettings.dialog.title "Impostazioni rete Tor">
 
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Lingua per il Tor Browser">
+<!ENTITY torlauncher.localePicker.prompt "Selezionare una lingua.">
+
 <!-- For "first run" wizard: -->
 
 <!ENTITY torsettings.prompt "Prima di connetterti alla rete Tor, devi fornire le informazioni riguardo la connessione internet di questo computer.">
