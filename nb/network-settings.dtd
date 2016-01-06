@@ -60,7 +60,7 @@
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke får koblet til Tor-nettverket, kan det være at internettleverandøren din (ISP), eller et annet byrå/institusjon/etat blokkerer Tor.&#160; Som regel kan du omgå dette problemet ved å bruke Tor-broer, som er ulistede reléer og derfor vanskeligere å blokkere.">
 <!ENTITY torsettings.bridgeHelp1B "Du kan bruke de prekonfigurerte, angitte bro-adressene eller du kan skaffe deg egendefinerte adresser ved å bruke en av følgende tre metoder:">
 <!ENTITY torsettings.bridgeHelp2Heading "Via nettet">
-<!ENTITY torsettings.bridgeHelp2 "Bruk en nettleser for å besøke https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp2 "Bruk en nettleser for å besøke https://bridges.torproject.org/?lang=nb">
 <!ENTITY torsettings.bridgeHelp3Heading "Via e-post autosvar">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send en e-post til bridges@torproject.org med 'get bridges' enten i emnefeltet eller i meldingen.&#160; For å gjøre det vanskeligere for en angriper å ta rede på en mengde bro-adresser, må du sende denne forespørselen fra en av følgende i listen over e-posttilbydere (opplistet etter preferanse):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, eller https://mail.yahoo.com">
