@@ -1,8 +1,8 @@
 <!ENTITY torsettings.dialog.title "Tor 네트워크 설정">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
-<!ENTITY torlauncher.localePicker.prompt "Please select a language.">
+<!ENTITY torlauncher.localePicker.title "Tor 브라우저 언어">
+<!ENTITY torlauncher.localePicker.prompt "언어를 선택해 주십시오.">
 
 <!-- For "first run" wizard: -->
 
