@@ -47,22 +47,22 @@
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "這台電腦通過只允許連接至特定連線埠的防火牆">
-<!ENTITY torsettings.firewall.allowedPorts "允許的連接埠:">
-<!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)阻止連接至 Tor 網路">
-<!ENTITY torsettings.useBridges.default "使用提供的橋接連線">
-<!ENTITY torsettings.useBridges.type "傳輸類型:">
-<!ENTITY torsettings.useBridges.custom "輸入自訂橋接">
-<!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼 (每行一個)。">
-<!ENTITY torsettings.useBridges.placeholder "輸入位址:連接埠">
+<!ENTITY torsettings.firewall.allowedPorts "允許的連接埠：">
+<!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)會過濾阻擋連接至洋蔥路由的網路活動">
+<!ENTITY torsettings.useBridges.default "使用提供的橋接器連線">
+<!ENTITY torsettings.useBridges.type "傳輸類型：">
+<!ENTITY torsettings.useBridges.custom "輸入自訂的橋接器">
+<!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼器 (每行一個)。">
+<!ENTITY torsettings.useBridges.placeholder "請輸入  位址:連接埠">
 
-<!ENTITY torsettings.copyLog "將 Tor 記錄複製到剪貼簿">
-<!ENTITY torsettings.bridgeHelpTitle "橋接中繼說明">
-<!ENTITY torsettings.bridgeHelp1 "若您無法連接到 Tor 網路，可能是您的網際網路服務提供者 (ISP) 或其它機構已封鎖 Tor。&#160; 通常您可以使用更難以封鎖之隱藏中繼的 Tor 橋接來解決此問題。">
-<!ENTITY torsettings.bridgeHelp1B "您可以使用預先設定，提供橋接位址或您可以使用下列三種方法其中之一獲取一組自訂的位址:">
+<!ENTITY torsettings.copyLog "將洋蔥路由的訊息記錄複製到剪貼簿">
+<!ENTITY torsettings.bridgeHelpTitle "橋接中繼器之說明">
+<!ENTITY torsettings.bridgeHelp1 "若您無法連接到洋蔥路由網路，可能是因為您的網際網路服務提供者 (ISP) 或其它機構正在封鎖洋蔥路由網路。&#160; 通常您可以使用更難以被封鎖之橋接中繼器來連上洋蔥路由，以便解決此問題。">
+<!ENTITY torsettings.bridgeHelp1B "您可以使用預先設定好的橋接器位址，或您也可以使用下列三種方法的任一種以獲取一組自訂的位址：">
 <!ENTITY torsettings.bridgeHelp2Heading "透過網路">
 <!ENTITY torsettings.bridgeHelp2 "使用網路瀏覽器造訪 https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "透過電子郵件自動回覆">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "傳送郵件到 bridges@torproject.org 並在內文中輸入 'get bridges'。&#160; 然而，要使得駭客更難學習有關橋接位址，您必須是使用以下電子郵件提供者之一來寄送本要求 (列表順序是依照優先偏好)：">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, 或者 https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "傳送郵件到 bridges@torproject.org 並在內文中輸入「get bridges」字串。&#160; 然而，要使得網路攻擊者更難取得橋接器位址，您必須是使用以下電子郵件提供者之一來寄送本要求 (列表順序是依照優先偏好)：">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com 或者 https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "透過服務台">
-<!ENTITY torsettings.bridgeHelp4 "最後的方法是:您可以發送一封正常的郵件到 help@rt.torproject.org。&#160; 請注意我們需要一封封地手動回覆郵件。">
+<!ENTITY torsettings.bridgeHelp4 "最後的方法是：您可以發送一封禮貌性的郵件到 help@rt.torproject.org。&#160; 請注意，對於此類郵件我們必需要一封封地手動回覆。">
