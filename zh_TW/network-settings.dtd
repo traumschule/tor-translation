@@ -1,48 +1,48 @@
-<!ENTITY torsettings.dialog.title "Tor 網路設定">
+<!ENTITY torsettings.dialog.title "洋蔥路由網路設定">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
-<!ENTITY torlauncher.localePicker.prompt "Please select a language.">
+<!ENTITY torlauncher.localePicker.title "洋蔥路由瀏覽器之語言">
+<!ENTITY torlauncher.localePicker.prompt "請選擇一種語言。">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "在您連接到 Tor 網路前，您需要提供這台電腦網路連線的相關資訊">
+<!ENTITY torsettings.prompt "在您連接到洋蔥路由網路前，您需要提供這台電腦網路連線的相關資訊。">
 
 <!ENTITY torSettings.yes "是">
 <!ENTITY torSettings.no "否">
 
-<!ENTITY torSettings.firstQuestion "下列哪一項最符合您的情況?">
-<!ENTITY torSettings.configurePrompt1 "這部電腦的網路連線是被審查或是有代理的。">
-<!ENTITY torSettings.configurePrompt2 "我需要設定橋接或本地代理設定">
+<!ENTITY torSettings.firstQuestion "下列哪一項敘述最符合您的實際情況？">
+<!ENTITY torSettings.configurePrompt1 "這部電腦的網路連線有被監控過濾或是有透過代理伺服器。">
+<!ENTITY torSettings.configurePrompt2 "我需要設定橋接器或本地代理設定">
 <!ENTITY torSettings.configure "設定">
-<!ENTITY torSettings.connectPrompt2 "我想直接連接到 Tor 網路。">
-<!ENTITY torSettings.connectPrompt3 "這將在大多數情況下生效。">
+<!ENTITY torSettings.connectPrompt2 "我想要直接連上洋蔥路由網路。">
+<!ENTITY torSettings.connectPrompt3 "這將在大多數情況下正常運作。">
 <!ENTITY torSettings.connect "連接">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
+<!ENTITY torSettings.proxyPageTitle "本地端代理伺服器的設定">
 <!ENTITY torSettings.proxyQuestion "這台電腦需要使用本地代理伺服器來存取網路嗎？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyHelp "若您無法確定如何回答這個問題，請查看其他瀏覽器的網路設定，看它是否設定為透過代理伺服器連線。">
 <!ENTITY torSettings.enterProxy "輸入代理伺服器設定。">
-<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
-<!ENTITY torSettings.bridgeQuestion "您的網際網路服務提供者(ISP)阻擋或審查員連接到 Tor 網路?">
-<!ENTITY torSettings.bridgeHelp "如果您不確定如何回答此問題，請選擇「否」。&#160; 如果您選擇「是」，您將被要求設定Tor 橋接，這讓阻止連接到 Tor 網路更加困難。">
-<!ENTITY torSettings.bridgeSettingsPrompt "您可以使用提供的橋接或您可以輸入一組自訂的橋接。">
+<!ENTITY torSettings.bridgePageTitle "洋蔥路由橋接器的設定">
+<!ENTITY torSettings.bridgeQuestion "您的網際網路服務提供者(ISP)是否會阻擋或監控過濾連接到洋蔥路由的網路活動？">
+<!ENTITY torSettings.bridgeHelp "如果您不確定如何回答此問題，請選擇「否」。&#160; 如果您選擇「是」，您將被要求設定洋蔥路由的橋接器，這會讓對於˙洋蔥路由網路連線的阻擋更加困難。">
+<!ENTITY torSettings.bridgeSettingsPrompt "您可以使用提供的橋接器，您也可以輸入一組自訂的橋接器。">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "正在等待 Tor 啟動…">
-<!ENTITY torsettings.restartTor "重新啟動 Tor">
+<!ENTITY torsettings.startingTor "正在等待洋蔥路由啟動…">
+<!ENTITY torsettings.restartTor "重新啟動洋蔥路由">
 
 <!ENTITY torsettings.optional "選用">
 
-<!ENTITY torsettings.useProxy.checkbox "這台電腦需要使用代理伺服器存取網際網路">
-<!ENTITY torsettings.useProxy.type "代理伺服器類型:">
-<!ENTITY torsettings.useProxy.address "位址:">
+<!ENTITY torsettings.useProxy.checkbox "這台電腦需要透過代理伺服器存取網際網路">
+<!ENTITY torsettings.useProxy.type "代理伺服器類型：">
+<!ENTITY torsettings.useProxy.address "位址：">
 <!ENTITY torsettings.useProxy.address.placeholder "IP 位址或主機名稱">
-<!ENTITY torsettings.useProxy.port "連接埠:">
-<!ENTITY torsettings.useProxy.username "使用者名稱:">
-<!ENTITY torsettings.useProxy.password "密碼:">
+<!ENTITY torsettings.useProxy.port "連接埠：">
+<!ENTITY torsettings.useProxy.username "使用者名稱：">
+<!ENTITY torsettings.useProxy.password "密碼：">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
