@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "Aşağıdakilerden hangisi durumunuzu en iyi açıklıyor?">
 <!ENTITY torSettings.configurePrompt1 "Bu bilgisayarın İnternet bağlantısı sansürlü ya da vekil sunucu arkasında.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "Tor&#160;ağına bağlanmadan önce köprü ya da yerel vekil sunucu ayarlarını yapmalıyım">
 <!ENTITY torSettings.configure "Yapılandır">
 <!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
 <!ENTITY torSettings.connectPrompt3 "Bu çoğu durumda çalışır.">
