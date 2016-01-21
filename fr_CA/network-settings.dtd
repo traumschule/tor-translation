@@ -13,29 +13,29 @@
 
 <!ENTITY torSettings.firstQuestion "Laquelle des suivantes décrit le mieux votre situation?">
 <!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée ou relayée.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "Je dois paramétrer un pont ou un mandataire local avant de me connecter au réseau Tor.">
 <!ENTITY torSettings.configure "Configurer">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "J'aimerais établir une connexion directe vers le réseau Tor.">
 <!ENTITY torSettings.connectPrompt3 "Ceci fonctionnera dans la plupart des situations.">
 <!ENTITY torSettings.connect "Se connecter">
 
 <!ENTITY torSettings.proxyPageTitle "Configuration du mandataire local">
 <!ENTITY torSettings.proxyQuestion "Cet ordinateur doit-il utiliser un serveur mandataire local pour accéder à Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation1 "Dans la plupart des cas, un serveur mandataire local n'est pas requis, mais il pourrait être exigé pour une connexion par un réseau d'entreprise, d'école ou d'université.">
+<!ENTITY torSettings.proxyExplanation2 "Si vous n'êtes pas certain de savoir comment répondre à cette question, vérifiez les paramètres Internet d'un autre navigateur ou vérifier les paramètres réseau de votre système pour voir su un serveur mandataire local est requis..">
 <!ENTITY torSettings.enterProxy "Saisir les paramètres du serveur mandataire.">
 <!ENTITY torSettings.bridgePageTitle "Configuration des ponts Tor">
 <!ENTITY torSettings.bridgeQuestion "Votre fournisseur de service Internet (FSI) bloque-t-il ou censure-t-il vos connexions au réseau Tor?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation1 "Si vous n'êtes pas certain de savoir comment répondre à cette question, Choisissez Non (si vous n'arrivez pas à vous connecter au réseau Tor sans pont, pour pourrez en ajouter un ultérieurement).">
+<!ENTITY torSettings.bridgeExplanation2 "Si vous choisissez Oui, l'on vous demandera de configurer des ponts Tor, qui sont des relais non répertoriés rendant le blocage des connexions au réseau Tor plus difficile.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser le jeu de ponts fourni ou vous pouvez obtenir et saisir un jeu de ponts personnalisé.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "En attente du démarrage de Tor...">
 <!ENTITY torsettings.restartTor "Redémarrer Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Reconfigurer">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
 <!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
