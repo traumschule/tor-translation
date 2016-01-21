@@ -15,7 +15,7 @@
 <!ENTITY torSettings.configurePrompt1 "Die Internetverbindung dieses Rechner ist zensiert oder vermittelt.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
 <!ENTITY torSettings.configure "Konfigurieren">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Ich würde gerne eine direkte Verbindung mit dem Tor-Netzwerk  herstellen">
 <!ENTITY torSettings.connectPrompt3 "Das wird in den meisten Situationen funktionieren.">
 <!ENTITY torSettings.connect "Verbinden">
 
@@ -35,10 +35,10 @@
 
 <!ENTITY torsettings.startingTor "Auf den Start von Tor wird gewartet …">
 <!ENTITY torsettings.restartTor "Tor neu starten">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Neu einstellen">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.proceed "Einstellungen entfernen und verbinden">
 
 <!ENTITY torsettings.optional "Optional">
 
