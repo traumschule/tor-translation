@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "下列哪一項敘述最符合您的實際情況？">
 <!ENTITY torSettings.configurePrompt1 "這部電腦的網路連線有被監控過濾或是有透過代理伺服器。">
-<!ENTITY torSettings.configurePrompt2 "我需要設定橋接器或本地代理設定">
+<!ENTITY torSettings.configurePrompt2 "我必須要在連上洋蔥路由&#160;網路之前，先設定好橋接器或本地端代理伺服器。">
 <!ENTITY torSettings.configure "設定">
 <!ENTITY torSettings.connectPrompt2 "我想要直接連上洋蔥路由網路。">
 <!ENTITY torSettings.connectPrompt3 "這將在大多數情況下正常運作。">
@@ -22,17 +22,23 @@
 <!ENTITY torSettings.proxyPageTitle "本地端代理伺服器的設定">
 <!ENTITY torSettings.proxyQuestion "這台電腦需要使用本地代理伺服器來存取網路嗎？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "若您無法確定如何回答這個問題，請查看其他瀏覽器的網路設定，看它是否設定為透過代理伺服器連線。">
+<!ENTITY torSettings.proxyExplanation1 "在大部分的情況中是不需要本地端代理伺服器的，但是當所使用的網路服務是公司企業或學校等之內部網路時，就有可能會需要。">
+<!ENTITY torSettings.proxyExplanation2 "如果您不確定如何回答這個問題的話，可以參考其他網路瀏覽器的網際網路設定或者是作業系統中的網路相關設定，以確定是否需要設定本地端代理伺服器。">
 <!ENTITY torSettings.enterProxy "輸入代理伺服器設定。">
 <!ENTITY torSettings.bridgePageTitle "洋蔥路由橋接器的設定">
 <!ENTITY torSettings.bridgeQuestion "您的網際網路服務提供者(ISP)是否會阻擋或監控過濾連接到洋蔥路由的網路活動？">
-<!ENTITY torSettings.bridgeHelp "如果您不確定如何回答此問題，請選擇「否」。&#160; 如果您選擇「是」，您將被要求設定洋蔥路由的橋接器，這會讓對於˙洋蔥路由網路連線的阻擋更加困難。">
+<!ENTITY torSettings.bridgeExplanation1 "若您不確定如何回答這個問題的話，請選擇「否」(若之後您發現沒有使用橋接器無法連上洋蔥路由網路的話，可以再回頭來增加此設定)。">
+<!ENTITY torSettings.bridgeExplanation2 "若您選擇「是」的話，您將必須要進行洋蔥路由的橋接器設定，橋接器是未被列表的祕密洋蔥路由節點，它可以讓對通往洋蔥路由網路連線的阻擋，變得更加困難。">
 <!ENTITY torSettings.bridgeSettingsPrompt "您可以使用提供的橋接器，您也可以輸入一組自訂的橋接器。">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "正在等待洋蔥路由啟動…">
 <!ENTITY torsettings.restartTor "重新啟動洋蔥路由">
+<!ENTITY torsettings.reconfigTor "重新設定">
+
+<!ENTITY torsettings.discardSettings.prompt "您已經有設定洋蔥路由的橋接器或本地端代理伺服器。&#160; 若想要直接連上洋蔥路由網路的話，必須要先移除這部份的設定。">
+<!ENTITY torsettings.discardSettings.proceed "移除設定值並且連線">
 
 <!ENTITY torsettings.optional "選用">
 
@@ -50,6 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "允許的連接埠：">
 <!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)會過濾阻擋連接至洋蔥路由的網路活動">
 <!ENTITY torsettings.useBridges.default "使用提供的橋接器連線">
+<!ENTITY torsettings.useBridges.note "每種橋接器都使用不同的方式去規避網路封包過濾，&#160; 如果發現使用了某個橋接器仍然無法順利連上線的話，可以更換另一個橋接器再行嘗試。">
 <!ENTITY torsettings.useBridges.type "傳輸類型：">
 <!ENTITY torsettings.useBridges.custom "輸入自訂的橋接器">
 <!ENTITY torsettings.useBridges.label "輸入一個或多個橋接中繼器 (每行一個)。">
