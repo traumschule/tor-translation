@@ -23,7 +23,7 @@
 <!ENTITY torSettings.proxyQuestion "Heeft deze computer een lokale proxy nodig om toegang tot het internet te krijgen?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation2 "Als je niet zeker bent over het antwoord op deze vraag, bekijk dan de verbindingsinstellingen van een andere browser om te zien of die is ingesteld om gebruik te maken van een proxy.">
 <!ENTITY torSettings.enterProxy "Voer de proxy-instellingen in.">
 <!ENTITY torSettings.bridgePageTitle "Tor bridge-configuratie">
 <!ENTITY torSettings.bridgeQuestion "Blokkeert of filtert je Internet Service Provider (ISP) verbindingen met het Tor-netwerk?">
