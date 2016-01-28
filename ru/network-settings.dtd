@@ -35,10 +35,10 @@
 
 <!ENTITY torsettings.startingTor "Ожидание запуска Tor...">
 <!ENTITY torsettings.restartTor "Перезапустить Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Изменить конфигурацию">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.proceed "Удалить настройки и подключиться">
 
 <!ENTITY torsettings.optional "Необязательно">
 

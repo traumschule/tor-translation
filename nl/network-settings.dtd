@@ -22,7 +22,7 @@
 <!ENTITY torSettings.proxyPageTitle "Lokale proxy-configuratie">
 <!ENTITY torSettings.proxyQuestion "Heeft deze computer een lokale proxy nodig om toegang tot het internet te krijgen?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
+<!ENTITY torSettings.proxyExplanation1 "In de meeste gevallen is een locale proxy niet nodig, maar kan het wel worden vereist bij het verbinden met een bedrijf, school of universitair netwerk.">
 <!ENTITY torSettings.proxyExplanation2 "Als je niet zeker bent over het antwoord op deze vraag, bekijk dan de verbindingsinstellingen van een andere browser om te zien of die is ingesteld om gebruik te maken van een proxy.">
 <!ENTITY torSettings.enterProxy "Voer de proxy-instellingen in.">
 <!ENTITY torSettings.bridgePageTitle "Tor bridge-configuratie">
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "Herstart Tor">
 <!ENTITY torsettings.reconfigTor "Herconfigureer">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "U heeft Tor bridges geconfigureerd of u heeft locale proxy instellingen ingevuld.&#160; Om een directe verbinding tot het Tor netwerk te kunnen maken, dient u deze instellingen te verwijderen.">
 <!ENTITY torsettings.discardSettings.proceed "Instellingen Verwijderen en Verbinden">
 
 <!ENTITY torsettings.optional "Facultatief">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Toegestane poorten:">
 <!ENTITY torsettings.useBridges.checkbox "Mijn Internet Service Provider (ISP) blokkeert verbindingen naar het Tor-netwerk">
 <!ENTITY torsettings.useBridges.default "Verbinden met ingestelde bridges">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "Elk type bridge gebruikt een verschillende methode om censorship te voorkomen.&#160; Als een van de bridges niet werkt, probeert u het dan opnieuw met een andere.">
 <!ENTITY torsettings.useBridges.type "Transporttype:">
 <!ENTITY torsettings.useBridges.custom "Eigen bridge-instellingen">
 <!ENTITY torsettings.useBridges.label "Voer een of meer bridge relays in (een per regel).">
