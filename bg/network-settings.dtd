@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "Кое от следните описва най-добре вашата ситуация?">
 <!ENTITY torSettings.configurePrompt1 "Интернет връзката на този компютър е цензурирана или минава през proxy сървър.">
-<!ENTITY torSettings.configurePrompt2 "Трябва да конфигурирам bridge или proxy настройки.">
+<!ENTITY torSettings.configurePrompt2 "Трябва да конфигурират bridge или proxy настройки преди свързване към Tor&#160;мрежата.">
 <!ENTITY torSettings.configure "Конфигурирай">
 <!ENTITY torSettings.connectPrompt2 "Бих искал да се свържа директно към Tor мрежата.">
 <!ENTITY torSettings.connectPrompt3 "Това ще работи при повечето ситуации.">
@@ -22,17 +22,23 @@
 <!ENTITY torSettings.proxyPageTitle "Локални прокси настройки">
 <!ENTITY torSettings.proxyQuestion "Този компютър използва ли локално прокси за достъп до Интернет?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Ако не сте сигурни как да отговорите на този въпрос проверете интернет настройките на друг браузър,за да видите дали е настроен да използва прокси.">
+<!ENTITY torSettings.proxyExplanation1 "В повечето случаи не е необходима локално прокси, но то може да се изисква, когато се свързвате от корпоративна, училищна или университетска мрежа.">
+<!ENTITY torSettings.proxyExplanation2 "Ако не сте сигурни как да отговорите на този въпрос, погледнете настройките на Интернет в друг браузър или проверете мрежовите настройки на вашата система, за да видите дали е необходимо локално прокси.">
 <!ENTITY torSettings.enterProxy "Въведете настройките за прокси.">
 <!ENTITY torSettings.bridgePageTitle "Настройки на Тор бриджове">
 <!ENTITY torSettings.bridgeQuestion "Блокирани или цензурирани ли са връзките към Tor Мрежата от вашият Интернет Доставчик(ISP)?">
-<!ENTITY torSettings.bridgeHelp "Ако не сте сигурни как да отговорите на този въпрос, изберете No.&#160; Ако изберете Yes, вие ще бъдете помолен да конфигурирате Tor Bridges, непубликувани relays които правят блокирането на връзката към Tor Network по трудна.">
+<!ENTITY torSettings.bridgeExplanation1 "Ако не сте сигурни как да отговори на този въпрос, изберете Не (ако не сте в състояние да се свържете с Tor мрежата без bridge, може да го добавите по-късно).">
+<!ENTITY torSettings.bridgeExplanation2 "Ако изберете Да, ще бъдете помолени да изберете Tor Bridges, които са неофициални relays, което прави по-трудно да се блокира връзката към Tor мрежата.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Вие може да използвате предложените комплекти от bridges или може да изисквате персонализиран комплект от тях.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Изчакване на Tor да стартира...">
 <!ENTITY torsettings.restartTor "Рестартирайте Тор">
+<!ENTITY torsettings.reconfigTor "Преконфигуриране">
+
+<!ENTITY torsettings.discardSettings.prompt "Вие сте конфигурирали Tor bridges или сте въвели местните настройките на прокси сървъра.&#160; За да направите директно свързване към Tor мрежата, тези настройки трябва да бъдат отстранени.">
+<!ENTITY torsettings.discardSettings.proceed "Премахване на Настройките и Свързване">
 
 <!ENTITY torsettings.optional "Допълнителен">
 
@@ -50,6 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Позволени портове:">
 <!ENTITY torsettings.useBridges.checkbox "Моят Интернет Доставчик (ISP) блокира връзките към Tor мрежата">
 <!ENTITY torsettings.useBridges.default "Свържи се с предоставените bridges">
+<!ENTITY torsettings.useBridges.note "Всеки вид bridge използва различен метод, за да се избегне цензурата.&#160; Ако един bridge не работи, опитайте отново като използвате друг.">
 <!ENTITY torsettings.useBridges.type "Тип транспортиране:">
 <!ENTITY torsettings.useBridges.custom "Въведи персонални bridges">
 <!ENTITY torsettings.useBridges.label "Въведи един или повече bridge relays (по един на линия).">
