@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "Riavvia Tor">
 <!ENTITY torsettings.reconfigTor "Riconfigura">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "Tu hai configurato i bridge Tor o hai inserito le impostazioni per il proxy locale.&#160; Per effettuare una connessione diretta alla rete Tor, queste impostazioni devono essere rimosse.">
 <!ENTITY torsettings.discardSettings.proceed "Rimuovi Impostazioni e Connetti">
 
 <!ENTITY torsettings.optional "Facoltativo">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Porte consentite:">
 <!ENTITY torsettings.useBridges.checkbox "Il mio fornitore di servizi Internet (ISP) blocca le connessioni alla rete Tor">
 <!ENTITY torsettings.useBridges.default "Collegati usando i bridge preconfigurati">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "Ogni tipo di bridge usa un metodo differente per scavalcare la censura.&#160; Se un bridge non funziona, prova di nuovo usandone uno diverso. ">
 <!ENTITY torsettings.useBridges.type "Tipo di trasporto:">
 <!ENTITY torsettings.useBridges.custom "Inserire bridge personaizzati">
 <!ENTITY torsettings.useBridges.label "Inserisci uno o più bridge relay (uno per riga)">
