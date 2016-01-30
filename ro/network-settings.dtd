@@ -13,26 +13,32 @@
 
 <!ENTITY torSettings.firstQuestion "Care din următoarele descrie cel mai bine situația dvs?">
 <!ENTITY torSettings.configurePrompt1 "Această conexiune la internet a computerului este cenzurată sau prin proxy.">
-<!ENTITY torSettings.configurePrompt2 "Am nevoie să configurez puntea sau configurările locale proxy.">
+<!ENTITY torSettings.configurePrompt2 "Trebuie să configurez setările bridge sau proxy locale înainte de conectarea la rețeaua Tor&#160;">
 <!ENTITY torSettings.configure "Configuraţi ">
-<!ENTITY torSettings.connectPrompt2 "Vreau sa ma conectez direct la reţeaua Tor .">
+<!ENTITY torSettings.connectPrompt2 "Aș dori o conexiune directă la rețeaua Tor.">
 <!ENTITY torSettings.connectPrompt3 "Aceasta funcționează în cele mai multe situații.">
 <!ENTITY torSettings.connect "Conectare">
 
 <!ENTITY torSettings.proxyPageTitle "Configurare Proxy local">
 <!ENTITY torSettings.proxyQuestion "Are nevoie acest computer să utilizeze un proxy local pentru accesarea internetului?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Dacă nu știi sigur cum să răspunzi la această întrebare, uită-te la setările de Internet într-un alt browser pentru a vedea dacă este configurat să folosească un proxy local.">
+<!ENTITY torSettings.proxyExplanation1 "În cele mai multe cazuri un proxy local nu este necesar dar poate fi necesară atunci când conectarea se face printr-o rețea a unei firme, școli sau universități.">
+<!ENTITY torSettings.proxyExplanation2 "Dacă nu sunteți sigur cum să răspundeți la această întrebare uitași-vă la setările de internet în alt browser sau verificați setările de rețea ale sistemului dvs. pentru a vedea dacă este nevoie de un proxy local.">
 <!ENTITY torSettings.enterProxy "Introduceţi setările pentru proxy .">
 <!ENTITY torSettings.bridgePageTitle "Configurare Punți Tor ">
 <!ENTITY torSettings.bridgeQuestion "Internet Service Providerul (ISP) dvs blochează sau cenzurează conexiunile către rețeaua Tor?">
-<!ENTITY torSettings.bridgeHelp "Dacă nu sînteți sigur cum să răspundeți la această întrebare, alegeți Nu.&#160; Dacă alegeți Da, vi se va cere să configurați punțile Tor, care sînt relayuri nelistate care fac mai dificilă blocarea conexiunilor la rețeaua Tor.">
+<!ENTITY torSettings.bridgeExplanation1 "Dacă nu sunteți sigur cum să răspundeți la această întrebare, alegeți Nu (dacă nu vă puteți conecta la rețeaua Tor fără un bridge, puteți adăuga unul mai târziu).">
+<!ENTITY torSettings.bridgeExplanation2 "Dacă alegeți Da vi se va cere să configurați Tor Bridges, care sunt relee nelistate ce fac mai dificilă blocarea conexiunilor la Rețeaua Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Puteți folosi setul de punți oferit sau puteți obține și introduce un set particular de punți.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Aștept Tor să pornească...">
 <!ENTITY torsettings.restartTor "Repornește Tor">
+<!ENTITY torsettings.reconfigTor "Reconfigurare">
+
+<!ENTITY torsettings.discardSettings.prompt "Ați configurat bridge-uri Tor sau ați introdus setări proxu locale.&#160; Pentru a face o conexiune directă la rețeaua Tor aceste setări trebuiesc eliminate.">
+<!ENTITY torsettings.discardSettings.proceed "Eliminați Setări și Conectare">
 
 <!ENTITY torsettings.optional "Opțional">
 
@@ -50,6 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Porturi permise:">
 <!ENTITY torsettings.useBridges.checkbox "Internet Service Providerul (ISP) meu blochează conexiunile către rețeaua Tor">
 <!ENTITY torsettings.useBridges.default "Conectați-vă punțile oferite">
+<!ENTITY torsettings.useBridges.note "Fiecare tip de bridge folosește o metodă diferită de a evita cenzura.&#160; Dacă un bridge nu funcționează, încercați să folosiți unul diferit.">
 <!ENTITY torsettings.useBridges.type "Tip de transport:">
 <!ENTITY torsettings.useBridges.custom "Introduceți punți personalizate">
 <!ENTITY torsettings.useBridges.label "Introduceți una sau mai multe bridge relays (una pe linie).">
