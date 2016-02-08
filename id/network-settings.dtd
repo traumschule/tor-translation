@@ -13,26 +13,32 @@
 
 <!ENTITY torSettings.firstQuestion "Mana dari yang berikut ini tepat menjelaskan situasi Anda?">
 <!ENTITY torSettings.configurePrompt1 "Koneksi Internet komputer ini disensor atau terproksi.">
-<!ENTITY torSettings.configurePrompt2 "Saya perlu mengonfigurasi pengaturan jembatan atau proksi lokal.">
+<!ENTITY torSettings.configurePrompt2 "Saya perlu untuk mengatur jembatan atau pengaturan proksi lokal sebelum saya terkoneksi ke jaringan&#160;Tor.">
 <!ENTITY torSettings.configure "Konfigur">
-<!ENTITY torSettings.connectPrompt2 "Saya ingin terhubung secara langsung ke jaringan Tor.">
+<!ENTITY torSettings.connectPrompt2 "Saya ingin membuat koneksi langsung ke jaringan Tor.">
 <!ENTITY torSettings.connectPrompt3 "Ini akan bekerja dalam kebanyakan situasi.">
 <!ENTITY torSettings.connect "Sambung">
 
 <!ENTITY torSettings.proxyPageTitle "Konfigurasi Proksi Lokal">
 <!ENTITY torSettings.proxyQuestion "Apakah komputer ini memerlukan proksi lokal untuk dapat mengakses Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Jika Anda tidak yakin bagaimana menjawab pertanyaan ini, llihatlah pengaturan Internet di peramban lain untuk memastikan apakah dikonfigurasi untuk menggunakan proksi lokal.">
+<!ENTITY torSettings.proxyExplanation1 "Dalam banyak kasus proksi lokal tidah dibutuhkan, tapi mungkin dibutuhkan ketika menghubungkan lewat jaringan perusahaan, sekolah, atau universitas.">
+<!ENTITY torSettings.proxyExplanation2 "Jika anda tidak yakin bagaimana untuk menjawab pertanyaan ini, lihat dipengaturan Internet diperamban lainnya atau periksa pengaturan sistem jaringan anda untuk melihat apakah proksi lokal dibutuhkan.">
 <!ENTITY torSettings.enterProxy "Masuk ke pengaturan proksi.">
 <!ENTITY torSettings.bridgePageTitle "Konfigurasi Jembatan Tor">
 <!ENTITY torSettings.bridgeQuestion "Apakah Penyedia Layanan Internet (ISP) Anda memblokir atau menyensor sambungan ke Jaringan Tor?">
-<!ENTITY torSettings.bridgeHelp "Jika Anda tidak yakin bagaimana untuk menjawab pertanyaan ini, pilih No.&#160; Jika Anda memilih Ya, Anda akan diminta untuk mengkonfigurasi Jembatan Tor, yang merupakan relai tidak terdaftar yang akan membuat semakin sulit untuk memblokir sambungan ke Jaringan Tor.">
+<!ENTITY torSettings.bridgeExplanation1 "Jika anda tidak yakin bagaimana untuk menjawab pertanyaan ini, pilih Tidak (jika anda tidak dapat menyambungkan ke jaringan Tor tanpa jembatan, anda dapat menambahkannya nanti).">
+<!ENTITY torSettings.bridgeExplanation2 "Jika anda pilih Ya, anda akan ditanyakan untuk mengatur Tor Bridges, dimana relai tak terdaftar yang membuatnya lebih susah untuk menghalangi koneksi ke Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Anda dapat menggunakan setelan jembatan yang disediakan atau Anda dapat memperoleh dan memasukkan setelan jembatan ubahsuai.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Menunggu Tor untuk memulai...">
 <!ENTITY torsettings.restartTor "Muat Ulang Tor">
+<!ENTITY torsettings.reconfigTor "Konfigurasi ulang">
+
+<!ENTITY torsettings.discardSettings.prompt "Kamu telah mengatur jembatan Tor atau kamu telah memasukkan pengaturan proksi lokal.&#160; Untuk membuat koneksi langsung ke jaringan Tor, pengaturan ini harus dihapus.">
+<!ENTITY torsettings.discardSettings.proceed "Buang Pengaturan dan Sambung">
 
 <!ENTITY torsettings.optional "Opsional">
 
@@ -50,6 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Port yang diizinkan:">
 <!ENTITY torsettings.useBridges.checkbox "Internet Service Provider (ISP) saya memblokir koneksi ke jaringan Tor">
 <!ENTITY torsettings.useBridges.default "Terhubung dengan bridge yang disediakan">
+<!ENTITY torsettings.useBridges.note "Setiap tipe jembatan menggunakan metode berbeda untuk menghindari penyaringan.&#160; Jika satu jembatan tidak dapat bekerja, coba gunakan lagi jembatan lainnya.">
 <!ENTITY torsettings.useBridges.type "Jenis Transport :">
 <!ENTITY torsettings.useBridges.custom "Masukkan bridge yang biasa digunakan">
 <!ENTITY torsettings.useBridges.label "Masukkan satu atau beberapa jembatan penyambung (satu per baris).">
