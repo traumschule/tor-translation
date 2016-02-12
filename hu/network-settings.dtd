@@ -23,11 +23,11 @@
 <!ENTITY torSettings.proxyQuestion "Ez a számítgép helyi proxyn keresztül éri el az Internetet? ">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "A helyi proxy a legtöbb esetben nem kell, de vállalati, iskolai vagy egyetemi hálózat esetén elfordulhat, hogy szükséges beállítani.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation2 "Ha nem vagy biztos benne, hogyan válaszolj erre a kérdésre, akkor nézd meg egy másik böngésző vagy a rendszer hálózati beállításait, hogy szükséges-e proxyt beállítani.">
 <!ENTITY torSettings.enterProxy "Adja meg a proxy beállításokat.">
 <!ENTITY torSettings.bridgePageTitle "Tor hidak konfigurálása">
 <!ENTITY torSettings.bridgeQuestion "Az internet szolgáltatód (ISP) blokkolja vagy cenzúrázza a kapcsolatot a Tor hálózathoz?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
+<!ENTITY torSettings.bridgeExplanation1 "Ha nem vagy biztos benne, hogyan válaszolj erre a kérdésre, válaszd a Nem lehetőséget (ha hálózati híd nélkül nem tudsz kapcsolódni a Tor hálózathoz, akkor később is hozzáadhatsz egyet).">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Használhatod a szolgáltatott bridge címeket vagy beszerezhetsz egyedi bridge címeket.">
 
