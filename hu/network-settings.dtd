@@ -13,16 +13,16 @@
 
 <!ENTITY torSettings.firstQuestion "A következők közül melyik illik jobban a szituációhoz?">
 <!ENTITY torSettings.configurePrompt1 "Ennek a számítógépnek a forgalma cenzorált vagy proxizott.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "A Tor&#160; hálózathoz való csatlakozás előtt be kell állítanom a hálózati hidat vagy a helyi proxyt.">
 <!ENTITY torSettings.configure "Beállít">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Közvetlen kapcsolatot szeretnék létesíteni a Tor hálózattal.">
 <!ENTITY torSettings.connectPrompt3 "A legtöbb esetben ez működni fog.">
 <!ENTITY torSettings.connect "Csatlakozás">
 
 <!ENTITY torSettings.proxyPageTitle "Helyi proxybeállítások">
 <!ENTITY torSettings.proxyQuestion "Ez a számítgép helyi proxyn keresztül éri el az Internetet? ">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
+<!ENTITY torSettings.proxyExplanation1 "A helyi proxy a legtöbb esetben nem kell, de vállalati, iskolai vagy egyetemi hálózat esetén elfordulhat, hogy szükséges beállítani.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
 <!ENTITY torSettings.enterProxy "Adja meg a proxy beállításokat.">
 <!ENTITY torSettings.bridgePageTitle "Tor hidak konfigurálása">
