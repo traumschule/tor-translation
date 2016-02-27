@@ -52,7 +52,7 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "這台電腦通過只允許連接至特定連線埠的防火牆">
+<!ENTITY torsettings.firewall.checkbox "這台電腦通過某個只允許連接至特定連線埠的防火牆">
 <!ENTITY torsettings.firewall.allowedPorts "允許的連接埠：">
 <!ENTITY torsettings.useBridges.checkbox "我的網際網路服務提供者(ISP)會過濾阻擋連接至洋蔥路由的網路活動">
 <!ENTITY torsettings.useBridges.default "使用提供的橋接器連線">
@@ -64,7 +64,7 @@
 
 <!ENTITY torsettings.copyLog "將洋蔥路由的訊息記錄複製到剪貼簿">
 <!ENTITY torsettings.bridgeHelpTitle "橋接中繼器之說明">
-<!ENTITY torsettings.bridgeHelp1 "若您無法連接到洋蔥路由網路，可能是因為您的網際網路服務提供者 (ISP) 或其它機構正在封鎖洋蔥路由網路。&#160; 通常您可以使用更難以被封鎖之橋接中繼器來連上洋蔥路由，以便解決此問題。">
+<!ENTITY torsettings.bridgeHelp1 "若您無法連接到洋蔥路由網路，可能是因為您的網際網路服務提供者 (ISP) 或其它機構正在封鎖洋蔥路由網路。&#160; 通常您可以使用橋接中繼器來連上洋蔥路由網路，以便解決此問題。該種中繼器是未被羅列於清單中的秘密中繼節點，非常難以被過濾阻擋。">
 <!ENTITY torsettings.bridgeHelp1B "您可以使用預先設定好的橋接器位址，或您也可以使用下列三種方法的任一種以獲取一組自訂的位址：">
 <!ENTITY torsettings.bridgeHelp2Heading "透過網路">
 <!ENTITY torsettings.bridgeHelp2 "使用網路瀏覽器造訪 https://bridges.torproject.org">
