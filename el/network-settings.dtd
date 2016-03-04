@@ -15,7 +15,7 @@
 <!ENTITY torSettings.configurePrompt1 "Σύνδεση στο Internet αυτού του υπολογιστή λογοκρίνεται ή προσεγγίζεται">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
 <!ENTITY torSettings.configure "Ρύθμιση ">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Θέλω να συνδεθώ απ'ευθείας στο δίκτυο Tor.">
 <!ENTITY torSettings.connectPrompt3 "Αυτό θα λειτουργήσει στις περισσότερες περιπτώσεις.">
 <!ENTITY torSettings.connect "Σύνδεση">
 
