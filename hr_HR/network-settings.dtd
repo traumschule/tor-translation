@@ -14,27 +14,33 @@ internetskoj vezi ovog računala.">
 
 <!ENTITY torSettings.firstQuestion "Koje od sljedećeg najbolje opisuje Vašu situaciju?">
 <!ENTITY torSettings.configurePrompt1 "Veza ovog računal s Internetom je cenzurirana ili iza proxy-a.">
-<!ENTITY torSettings.configurePrompt2 "Trebam konfigurirati postavke mosta ili lokalnog proxy-a.">
+<!ENTITY torSettings.configurePrompt2 "Trebam konfigurirati postavke mosta ili lokalnog proxy-a prije nego se spojim na Tor&#160;mrežu.">
 <!ENTITY torSettings.configure "Podesi">
-<!ENTITY torSettings.connectPrompt2 "Želim se izravno spojiti na Tor mrežu.">
+<!ENTITY torSettings.connectPrompt2 "Želim direktnu vezu s Tor mrežom.">
 <!ENTITY torSettings.connectPrompt3 "Ovo će raditi u većini situacija.">
 <!ENTITY torSettings.connect "Spajanje">
 
 <!ENTITY torSettings.proxyPageTitle "Konfiguracija lokalnog proxy-a">
 <!ENTITY torSettings.proxyQuestion "Treba li ovo računalo koristiti lokalni proxy da pristupi Internetu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Ako niste sigurni kako odgovoriti na ovo pitanje, pogledajte Internet postavke u drugom pregledniku da vidite jeli postavljen da koristi lokalni proxy.">
+<!ENTITY torSettings.proxyExplanation1 "U većini slučaja lokalni proxy nije potreban, ali može biti kad se spajate kroz mržu tvrtke, škole ili fakulteta.">
+<!ENTITY torSettings.proxyExplanation2 "Ako niste sigurni kako odgovoriti na ovo pitanje, pogledajte Internet postavke u drugom pregledniku i provjerite mrežne postavke Vašeg sustava kako bi vidjeli da li je potreban lokalni proxy.">
 <!ENTITY torSettings.enterProxy "Unesite postavke proxyj-a.">
 <!ENTITY torSettings.bridgePageTitle "Konfiguracija Tor mostova">
 <!ENTITY torSettings.bridgeQuestion "Blokira li Vaš davetelj Internet usluge (ISP) ili drugačije cenzurira veze
 s Tor mrežom?">
-<!ENTITY torSettings.bridgeHelp "Ako niste sigurni kako da odgovorite na ovo pitanje, odaberite Ne.&#160; Ako odaberete Da, od Vas će se tražiti da konfigurirate Tor Mostove, koji su neizlistani releji koji otežavaju blokiranje povezivanja s Tor mrežom.">
+<!ENTITY torSettings.bridgeExplanation1 "Ako niste sigurni kako odgovoriti na ovo pitanje, odaberite Ne (ako se ne možete spojiti na Tor mrežu bez mosta, možete kasnije dodati jedan).">
+<!ENTITY torSettings.bridgeExplanation2 "Ako odaberete Da, od Vas će se tražiti da konfigurirate Tor mostove, koji su nepopisani releji koji otežavaju blokiranje veza na Tor mrežu.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Možete koristiti osigurani set adresa mostova ili možete unijeti vlasiti set mostova.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Čekanje da se Tor pokrene...">
 <!ENTITY torsettings.restartTor "Ponovno pokreni Tor">
+<!ENTITY torsettings.reconfigTor "Rekonfiguriraj">
+
+<!ENTITY torsettings.discardSettings.prompt "Konfigurirali ste Tor mostove ili ste unijeli postavke lokalnog proxy-a.&#160; Kako bi ostvarili direktnu vezu s Tor mrežom, ove postavke moraju biti uklonjene.">
+<!ENTITY torsettings.discardSettings.proceed "Ukloni postavke i poveži">
 
 <!ENTITY torsettings.optional "Opcionalno">
 
@@ -52,6 +58,7 @@ s Tor mrežom?">
 <!ENTITY torsettings.firewall.allowedPorts "Dozvoljeni portovi:">
 <!ENTITY torsettings.useBridges.checkbox "Moj pružatelj internetskih usluga (ISP) blokira veze prema Tor mreži">
 <!ENTITY torsettings.useBridges.default "Spoji se s osiguranim mostovima">
+<!ENTITY torsettings.useBridges.note "Svaka vrsta mosta koristi drugačiju metodu kako bi izbjegla cenzuru.&amp;#160: Ako jedan most ne radi, probajte koristiti drugi.">
 <!ENTITY torsettings.useBridges.type "Tip transporta:">
 <!ENTITY torsettings.useBridges.custom "Unesi vlastite mostove">
 <!ENTITY torsettings.useBridges.label "Unesite jedan ili više mostova (jedan po retku).">
