@@ -28,7 +28,7 @@
 <!ENTITY torSettings.bridgePageTitle "Tor hidak konfigurálása">
 <!ENTITY torSettings.bridgeQuestion "Az internet szolgáltatód (ISP) blokkolja vagy cenzúrázza a kapcsolatot a Tor hálózathoz?">
 <!ENTITY torSettings.bridgeExplanation1 "Ha nem vagy biztos benne, hogyan válaszolj erre a kérdésre, válaszd a Nem lehetőséget (ha hálózati híd nélkül nem tudsz kapcsolódni a Tor hálózathoz, akkor később is hozzáadhatsz egyet).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation2 " Ha az Igen-t választod neked kell konfigurálni a Tor Hidak-et, maleyek nem listázott csomópontok, így lehetővé nehezebbé teszik a Tor hálózathoz kapcsolódás blokkolását.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Használhatod a szolgáltatott bridge címeket vagy beszerezhetsz egyedi bridge címeket.">
 
 <!-- Other: -->
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "Tor újraindítása">
 <!ENTITY torsettings.reconfigTor "Újrakonfigurál">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "Beállított Tor Hidakat, vagy megadott egy helyi proxy-t.&#160; A közvetlen kapcsolódáshoz ezeket a beállításokat el kell távolítania.">
 <!ENTITY torsettings.discardSettings.proceed "Beállítások eltávolítása és Csatlakozás">
 
 <!ENTITY torsettings.optional "Opcionális">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Engedélyezett portok:">
 <!ENTITY torsettings.useBridges.checkbox "Az internet szolgáltatóm (ISP) blokkolja a Tor hálózathoz való csatlakozásokat">
 <!ENTITY torsettings.useBridges.default "Csatlakozás a szolgáltatott bridge címekkel.">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "Minden híd más megoldást használ a cenzorálás elkerülésére.&#160; Ha egyik nem működik, próbálkozzon újra egy másikkal.">
 <!ENTITY torsettings.useBridges.type "Átvitel típusa:">
 <!ENTITY torsettings.useBridges.custom "Addj meg egyedi bridge címeket">
 <!ENTITY torsettings.useBridges.label "Addj meg egy vagy több bridge relay címet (soronként egy)">
