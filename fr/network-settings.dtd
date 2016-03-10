@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Language du navigateur Tor">
+<!ENTITY torlauncher.localePicker.title "Langue du Navigateur Tor">
 <!ENTITY torlauncher.localePicker.prompt "Merci de sélectionner une langue.">
 
 <!-- For "first run" wizard: -->
@@ -27,9 +27,9 @@
 <!ENTITY torSettings.enterProxy "Entrez les paramètres de votre proxy.">
 <!ENTITY torSettings.bridgePageTitle "Configuration des relais TOR">
 <!ENTITY torSettings.bridgeQuestion "Est-ce que votre Fournisseur d'Accès Internet (FAI) bloque les connexions au réseau Tor ?">
-<!ENTITY torSettings.bridgeExplanation1 "Si vous ne savez par comment répondre à cette question, choisissez Non (si vous ne pouvez pas vous connecter au réseau Tor sans un pont réseau, vous pourrez le rajouter plus tard).">
-<!ENTITY torSettings.bridgeExplanation2 "Si vous choisissez Oui, il vous sera demandé de configurer les ponts Tor qui sont des relais non listés et qui rendent plus difficile le blocage du réseau Tor.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser les ponts fournis ou bien saisir votre liste de ponts personnels.">
+<!ENTITY torSettings.bridgeExplanation1 "Si vous ne savez par comment répondre à cette question, choisissez Non (si vous ne pouvez pas vous connecter au réseau Tor sans un bridge, vous pourrez le rajouter plus tard).">
+<!ENTITY torSettings.bridgeExplanation2 "Si vous choisissez Oui, il vous sera demandé de configurer les bridges Tor qui sont des relais non listés et qui rendent plus difficile le blocage du réseau Tor.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Vous pouvez utiliser les bridges fournis ou bien saisir votre liste de bridges personnels.">
 
 <!-- Other: -->
 
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "Relancer Tor">
 <!ENTITY torsettings.reconfigTor "Reconfigurer">
 
-<!ENTITY torsettings.discardSettings.prompt "Vous avez configuré les ponts Tor ou vous avez entré les paramètres de proxy local. Pour faire une connexion directe avec le réseau Tor, ces configurations doivent être supprimés.">
+<!ENTITY torsettings.discardSettings.prompt "Vous avez configuré les bridges Tor ou vous avez entré les paramètres de proxy local. Pour faire une connexion directe avec le réseau Tor, ces configurations doivent être supprimés.">
 <!ENTITY torsettings.discardSettings.proceed "Supprimer les paramètres et se connecter">
 
 <!ENTITY torsettings.optional "Optionnel">
