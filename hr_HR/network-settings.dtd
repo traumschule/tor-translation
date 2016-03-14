@@ -24,7 +24,7 @@ internetskoj vezi ovog računala.">
 <!ENTITY torSettings.proxyQuestion "Treba li ovo računalo koristiti lokalni proxy da pristupi Internetu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "U većini slučaja lokalni proxy nije potreban, ali može biti kad se spajate kroz mržu tvrtke, škole ili fakulteta.">
-<!ENTITY torSettings.proxyExplanation2 "Ako niste sigurni kako odgovoriti na ovo pitanje, pogledajte Internet postavke u drugom pregledniku i provjerite mrežne postavke Vašeg sustava kako bi vidjeli da li je potreban lokalni proxy.">
+<!ENTITY torSettings.proxyExplanation2 "Ako niste sigurni kako odgovoriti na ovo pitanje, pogledajte Internet postavke u drugom pregledniku ili provjerite mrežne postavke Vašeg sustava kako bi vidjeli da li je potreban lokalni proxy.">
 <!ENTITY torSettings.enterProxy "Unesite postavke proxyj-a.">
 <!ENTITY torSettings.bridgePageTitle "Konfiguracija Tor mostova">
 <!ENTITY torSettings.bridgeQuestion "Blokira li Vaš davetelj Internet usluge (ISP) ili drugačije cenzurira veze
