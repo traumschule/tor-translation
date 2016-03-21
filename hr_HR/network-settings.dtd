@@ -18,7 +18,7 @@ internetskoj vezi ovog računala.">
 <!ENTITY torSettings.configure "Podesi">
 <!ENTITY torSettings.connectPrompt2 "Želim direktnu vezu s Tor mrežom.">
 <!ENTITY torSettings.connectPrompt3 "Ovo će raditi u većini situacija.">
-<!ENTITY torSettings.connect "Spajanje">
+<!ENTITY torSettings.connect "Spoji">
 
 <!ENTITY torSettings.proxyPageTitle "Konfiguracija lokalnog proxy-a">
 <!ENTITY torSettings.proxyQuestion "Treba li ovo računalo koristiti lokalni proxy da pristupi Internetu?">
