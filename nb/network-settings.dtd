@@ -14,7 +14,7 @@
 <!ENTITY torSettings.firstQuestion "Hvilket av følgende beskriver best din situasjon?">
 <!ENTITY torSettings.configurePrompt1 "Datamaskinens Internett-tilkobling er sensurert eller under mellomtjener.">
 <!ENTITY torSettings.configurePrompt2 "Jeg trenger å sette opp bro eller lokale mellomtjenerinnstillinger før jeg kobler til Tor&#160;nettverket.">
-<!ENTITY torSettings.configure "Konfigurer">
+<!ENTITY torSettings.configure "Sett opp">
 <!ENTITY torSettings.connectPrompt2 "Jeg ønsker å gjøre en direkte forbindelse til Tor-nettverket.">
 <!ENTITY torSettings.connectPrompt3 "Dette vil fungere i de fleste situasjoner.">
 <!ENTITY torSettings.connect "Koble til">
@@ -28,16 +28,16 @@
 <!ENTITY torSettings.bridgePageTitle "Oppsett av Tor-broer.">
 <!ENTITY torSettings.bridgeQuestion "Blokkerer eller sensurerer internettleverandøren (ISP) din tilkoblinger til Tor-nettverket?">
 <!ENTITY torSettings.bridgeExplanation1 "Hvis du er usikker på hvordan du skal svare på dette spørsmålet, velg Nei (hvis du ikke klarer å koble til Tor nettverket uten en bro, kan du legge til en senere).">
-<!ENTITY torSettings.bridgeExplanation2 "Hvis du velger Ja, vil du bli bedt om å konfigurere Tor Bridges, som er unoterte releer som gjør det vanskeligere å blokkere tilkoblinger til Tor-nettverket.">
+<!ENTITY torSettings.bridgeExplanation2 "Hvis du velger Ja, vil du bli bedt om å sette opp Tor-broer, som er unoterte relé-er som gjør det vanskeligere å blokkere tilkoblinger til Tor-nettverket.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruke de angitte broene eller du kan skaffe og oppgi egendefinerte broer.">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Venter på at Tor skal starte...">
 <!ENTITY torsettings.restartTor "Omstart av Tor">
-<!ENTITY torsettings.reconfigTor "Rekonfigurer">
+<!ENTITY torsettings.reconfigTor "Sett opp på ny">
 
-<!ENTITY torsettings.discardSettings.prompt "Du har konfigurert Tor broer eller du har angitt lokale mellomtjeningsinnstillinger. &#160; For å gjøre en direkte forbindelse til Tor-nettverket, må disse innstillingene fjernes.">
+<!ENTITY torsettings.discardSettings.prompt "Du har satt opp Tor-broer eller du har angitt lokale mellomtjeningsinnstillinger. &#160; For å gjøre en direkte forbindelse til Tor-nettverket, må disse innstillingene fjernes.">
 <!ENTITY torsettings.discardSettings.proceed "Fjern Innstillinger og koble">
 
 <!ENTITY torsettings.optional "Valgfritt">
@@ -65,7 +65,7 @@
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relé Hjelp">
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke får koblet til Tor-nettverket, kan det være at internettleverandøren din (ISP), eller et annet byrå/institusjon/etat blokkerer Tor.&#160; Som regel kan du omgå dette problemet ved å bruke Tor-broer, som er ulistede reléer og derfor vanskeligere å blokkere.">
-<!ENTITY torsettings.bridgeHelp1B "Du kan bruke de prekonfigurerte, angitte bro-adressene eller du kan skaffe deg egendefinerte adresser ved å bruke en av følgende tre metoder:">
+<!ENTITY torsettings.bridgeHelp1B "Du kan bruke forvalgsoppsatte bro-adressene eller du kan skaffe deg egendefinerte adresser ved å bruk av en av følgende tre metoder:">
 <!ENTITY torsettings.bridgeHelp2Heading "Via nettet">
 <!ENTITY torsettings.bridgeHelp2 "Bruk en nettleser for å besøke https://bridges.torproject.org/?lang=nb">
 <!ENTITY torsettings.bridgeHelp3Heading "Via e-post autosvar">
