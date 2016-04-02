@@ -53,7 +53,7 @@
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Denne datamaskinen går gjennom en brannmur som kun tillater tilkoblinger til visse porter">
-<!ENTITY torsettings.firewall.allowedPorts "Tillatte Porter:">
+<!ENTITY torsettings.firewall.allowedPorts "Tillatte porter:">
 <!ENTITY torsettings.useBridges.checkbox "Min Internettleverandør (ISP) blokkerer tilkoblinger til Tor-nettverket">
 <!ENTITY torsettings.useBridges.default "Koble til med angitte broer">
 <!ENTITY torsettings.useBridges.note "Hver type bro bruker en annen metode for å unngå sensur.&#160; Hvis en bro ikke virker, prøv på nytt med en annen.">
