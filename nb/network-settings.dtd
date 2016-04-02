@@ -15,7 +15,7 @@
 <!ENTITY torSettings.configurePrompt1 "Datamaskinens Internett-tilkobling er sensurert eller bak mellomtjener.">
 <!ENTITY torSettings.configurePrompt2 "Jeg trenger å sette opp bro eller lokale mellomtjenerinnstillinger før jeg kobler til Tor&#160;nettverket.">
 <!ENTITY torSettings.configure "Sett opp">
-<!ENTITY torSettings.connectPrompt2 "Jeg ønsker å gjøre en direkte forbindelse til Tor-nettverket.">
+<!ENTITY torSettings.connectPrompt2 "Jeg ønsker å opprette en direkte forbindelse til Tor-nettverket.">
 <!ENTITY torSettings.connectPrompt3 "Dette vil fungere i de fleste situasjoner.">
 <!ENTITY torSettings.connect "Koble til">
 
@@ -26,19 +26,19 @@
 <!ENTITY torSettings.proxyExplanation2 "Hvis du er usikker på hvordan du skal svare på dette spørsmålet, se på Internett-innstillingene i en annen nettleser eller sjekk nettverksinnstillingene systemets å se om en lokal mellomtjener er nødvendig.">
 <!ENTITY torSettings.enterProxy "Skriv inn mellomtjenings-innstillingene.">
 <!ENTITY torSettings.bridgePageTitle "Oppsett av Tor-broer.">
-<!ENTITY torSettings.bridgeQuestion "Blokkerer eller sensurerer internettleverandøren (ISP) din tilkoblinger til Tor-nettverket?">
-<!ENTITY torSettings.bridgeExplanation1 "Hvis du er usikker på hvordan du skal svare på dette spørsmålet, velg Nei (hvis du ikke klarer å koble til Tor nettverket uten en bro, kan du legge til en senere).">
+<!ENTITY torSettings.bridgeQuestion "Blokkerer eller på annet vis sensurerer Internettleverandøren (ISP) dine tilkoblinger til Tor-nettverket?">
+<!ENTITY torSettings.bridgeExplanation1 "Hvis du er usikker på hvordan du skal svare på dette spørsmålet, velg Nei (hvis du ikke klarer å koble til Tor-nettverket uten en bro, kan du legge til en senere).">
 <!ENTITY torSettings.bridgeExplanation2 "Hvis du velger Ja, vil du bli bedt om å sette opp Tor-broer, som er unoterte rutingsstafettoppsett som gjør det vanskeligere å blokkere tilkoblinger til Tor-nettverket.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruke de angitte broene eller du kan skaffe og oppgi egendefinerte broer.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Venter på at Tor skal starte...">
+<!ENTITY torsettings.startingTor "Venter på at Tor skal starte…">
 <!ENTITY torsettings.restartTor "Omstart av Tor">
 <!ENTITY torsettings.reconfigTor "Sett opp på ny">
 
 <!ENTITY torsettings.discardSettings.prompt "Du har satt opp Tor-broer eller du har angitt lokale mellomtjeningsinnstillinger. &#160; For å gjøre en direkte forbindelse til Tor-nettverket, må disse innstillingene fjernes.">
-<!ENTITY torsettings.discardSettings.proceed "Fjern Innstillinger og koble">
+<!ENTITY torsettings.discardSettings.proceed "Fjern innstillinger og koble til">
 
 <!ENTITY torsettings.optional "Valgfritt">
 
