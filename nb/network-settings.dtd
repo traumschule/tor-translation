@@ -12,7 +12,7 @@
 <!ENTITY torSettings.no "Nei">
 
 <!ENTITY torSettings.firstQuestion "Hvilket av følgende beskriver best din situasjon?">
-<!ENTITY torSettings.configurePrompt1 "Datamaskinens Internett-tilkobling er sensurert eller under mellomtjener.">
+<!ENTITY torSettings.configurePrompt1 "Datamaskinens Internett-tilkobling er sensurert eller bak mellomtjener.">
 <!ENTITY torSettings.configurePrompt2 "Jeg trenger å sette opp bro eller lokale mellomtjenerinnstillinger før jeg kobler til Tor&#160;nettverket.">
 <!ENTITY torSettings.configure "Sett opp">
 <!ENTITY torSettings.connectPrompt2 "Jeg ønsker å gjøre en direkte forbindelse til Tor-nettverket.">
