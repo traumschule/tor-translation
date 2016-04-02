@@ -6,7 +6,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Før du kan koble til Tor-nettverket, må du gi informasjon om denne datamaskinens internett-tilkobling.">
+<!ENTITY torsettings.prompt "Før du kan koble til Tor-nettverket, må du gi informasjon om denne datamaskinens Internett-tilkobling.">
 
 <!ENTITY torSettings.yes "Ja">
 <!ENTITY torSettings.no "Nei">
