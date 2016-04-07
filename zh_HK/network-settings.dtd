@@ -13,10 +13,10 @@
 
 <!ENTITY torSettings.firstQuestion "下列那項最符合你嘅實際情況？">
 <!ENTITY torSettings.configurePrompt1 "呢部電腦嘅網絡連線有被監控過濾或係透過代理伺服器。">
-<!ENTITY torSettings.configurePrompt2 "我必要於連上Tor洋蔥路由&#160;網絡之前，先設定好橋接器或本地代理伺服器。">
+<!ENTITY torSettings.configurePrompt2 "我必要喺連上Tor洋蔥路由&#160;網絡之前，先設定好橋接器或本地代理伺服器。">
 <!ENTITY torSettings.configure "設定">
 <!ENTITY torSettings.connectPrompt2 "我想直接連上Tor洋蔥路由網絡">
-<!ENTITY torSettings.connectPrompt3 "呢樣可於大多數情況下正常運作。">
+<!ENTITY torSettings.connectPrompt3 "呢樣可以喺大多數情況下正常運作。">
 <!ENTITY torSettings.connect "連接">
 
 <!ENTITY torSettings.proxyPageTitle "設定本地代理伺服器">
