@@ -8,12 +8,12 @@
 
 <!ENTITY torsettings.prompt "連接到Tor洋蔥路由網絡前，請提供呢台電腦網絡連線嘅相關資訊。">
 
-<!ENTITY torSettings.yes "係">
-<!ENTITY torSettings.no "唔係">
+<!ENTITY torSettings.yes "是">
+<!ENTITY torSettings.no "否">
 
-<!ENTITY torSettings.firstQuestion "下列那項最符合你嘅實際情況？">
+<!ENTITY torSettings.firstQuestion "下列邊項最符合你嘅實際情況？">
 <!ENTITY torSettings.configurePrompt1 "呢部電腦嘅網絡連線有被監控過濾或係透過代理伺服器。">
-<!ENTITY torSettings.configurePrompt2 "我必要喺連上Tor洋蔥路由&#160;網絡之前，先設定好橋接器或本地代理伺服器。">
+<!ENTITY torSettings.configurePrompt2 "我必須喺連上Tor洋蔥路由&#160;網絡之前，先設定好橋接器或本地代理伺服器。">
 <!ENTITY torSettings.configure "設定">
 <!ENTITY torSettings.connectPrompt2 "我想直接連上Tor洋蔥路由網絡">
 <!ENTITY torSettings.connectPrompt3 "呢樣可以喺大多數情況下正常運作。">
@@ -23,12 +23,12 @@
 <!ENTITY torSettings.proxyQuestion "呢台電腦需要使用本地代理伺服器嚟存取網絡嗎？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "大部份情況係不需要本地代理伺服器，但當使用嘅係企業或學校等嘅內部網絡時，就有可能需要。">
-<!ENTITY torSettings.proxyExplanation2 "如果不確定，可參考其他網絡瀏覽器嘅網際網絡設定或者作業系統嘅網絡相關設定，以確定係唔係需要設定本地代理伺服器。">
+<!ENTITY torSettings.proxyExplanation2 "如果唔確定，可參考其他網絡瀏覽器嘅網際網絡設定或者作業系統嘅網絡相關設定，以確定係唔係需要設定本地代理伺服器。">
 <!ENTITY torSettings.enterProxy "輸入代理伺服器設定。">
 <!ENTITY torSettings.bridgePageTitle "設定Tor洋蔥路由橋接器">
 <!ENTITY torSettings.bridgeQuestion "你嘅互聯網服務提供者(ISP)會唔會阻擋或過濾連接到Tor洋蔥路由嘅網絡活動？">
-<!ENTITY torSettings.bridgeExplanation1 "唔確定，請選「唔係」(往後若發現唔使用橋接器無法連上Tor洋蔥路由網絡嘅話，可以返嚟加入此設定)。">
-<!ENTITY torSettings.bridgeExplanation2 "若選取「係」，則須進行Tor洋蔥路由橋接器設定。橋接器係未被列表嘅祕密Tor洋蔥路由節點，可令阻擋連接Tor洋蔥路由網絡更加困難。">
+<!ENTITY torSettings.bridgeExplanation1 "唔確定，請選「否」(往後若發現唔使用橋接器無法連上Tor洋蔥路由網絡嘅話，可以返嚟加入此設定)。">
+<!ENTITY torSettings.bridgeExplanation2 "若選取「是」，則須進行Tor洋蔥路由橋接器設定。橋接器係未被列表嘅祕密Tor洋蔥路由節點，可令阻擋連接Tor洋蔥路由網絡更加困難。">
 <!ENTITY torSettings.bridgeSettingsPrompt "你可以使用提供嘅橋接器，也可輸入一組自訂嘅橋接器。">
 
 <!-- Other: -->
