@@ -55,7 +55,7 @@
 <!ENTITY torsettings.firewall.checkbox "该计算机的防火墙仅允许特定端口的互联网连接">
 <!ENTITY torsettings.firewall.allowedPorts "允许的端口：">
 <!ENTITY torsettings.useBridges.checkbox "我的互联网服务提供商 (ISP) 封锁了 Tor 网络连接">
-<!ENTITY torsettings.useBridges.default "使用集成的网桥进行连接">
+<!ENTITY torsettings.useBridges.default "使用集成的网桥连接">
 <!ENTITY torsettings.useBridges.note "每种网桥使用不同的方法以避免被封锁。如果某个网桥不工作，请换用另一种重试。">
 <!ENTITY torsettings.useBridges.type "传输类型：">
 <!ENTITY torsettings.useBridges.custom "输入自定义网桥">
