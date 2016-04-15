@@ -6,13 +6,13 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "連接到Tor洋蔥路由網絡前，請提供呢台電腦網絡連線嘅相關資訊。">
+<!ENTITY torsettings.prompt "連接到Tor洋蔥路由網絡前，請提供呢部電腦網絡連線嘅相關資訊。">
 
 <!ENTITY torSettings.yes "是">
 <!ENTITY torSettings.no "否">
 
 <!ENTITY torSettings.firstQuestion "下列邊項最符合你嘅實際情況？">
-<!ENTITY torSettings.configurePrompt1 "呢部電腦嘅網絡連線有被監控過濾或係透過代理伺服器。">
+<!ENTITY torSettings.configurePrompt1 "呢部電腦嘅網絡連線有被監控過濾或有透過代理伺服器。">
 <!ENTITY torSettings.configurePrompt2 "我必須喺連上Tor洋蔥路由&#160;網絡之前，先設定好橋接器或本地代理伺服器。">
 <!ENTITY torSettings.configure "設定">
 <!ENTITY torSettings.connectPrompt2 "我想直接連上Tor洋蔥路由網絡">
