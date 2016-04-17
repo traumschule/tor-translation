@@ -28,7 +28,7 @@
 <!ENTITY torSettings.bridgePageTitle "設定Tor洋蔥路由橋接器">
 <!ENTITY torSettings.bridgeQuestion "你嘅互聯網服務提供者(ISP)會唔會阻擋或過濾連接到Tor洋蔥路由嘅網絡活動？">
 <!ENTITY torSettings.bridgeExplanation1 "唔確定，請選「否」(往後若發現唔使用橋接器無法連上Tor洋蔥路由網絡嘅話，可以返嚟加入此設定)。">
-<!ENTITY torSettings.bridgeExplanation2 "若選取「是」，則須進行Tor洋蔥路由橋接器設定。橋接器係未被列表嘅祕密Tor洋蔥路由節點，可令阻擋連接Tor洋蔥路由網絡更加困難。">
+<!ENTITY torSettings.bridgeExplanation2 "若選取「是」，則須進行Tor洋蔥路由橋接器設定。橋接器係未被列表嘅秘密Tor洋蔥路由節點，可令阻擋連接Tor洋蔥路由網絡更加困難。">
 <!ENTITY torSettings.bridgeSettingsPrompt "你可以使用提供嘅橋接器，也可輸入一組自訂嘅橋接器。">
 
 <!-- Other: -->
