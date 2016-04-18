@@ -59,12 +59,12 @@
 <!ENTITY torsettings.useBridges.note "每種橋接器都使用唔同嘅方式去規避網絡封包過濾，&#160; 如果發現使用咗某個橋接器仍無法順利連線嘅話，可以更換另一個橋接器再行嘗試。">
 <!ENTITY torsettings.useBridges.type "傳輸類型：">
 <!ENTITY torsettings.useBridges.custom "輸入自訂嘅橋接器">
-<!ENTITY torsettings.useBridges.label "輸入一個或多個橋接轉向點(每行一個)。">
+<!ENTITY torsettings.useBridges.label "輸入一個或多個橋接轉向站(每行一個)。">
 <!ENTITY torsettings.useBridges.placeholder "請輸入「位址:連接埠」">
 
 <!ENTITY torsettings.copyLog "將Tor洋蔥路由嘅日誌複製到剪貼簿">
-<!ENTITY torsettings.bridgeHelpTitle "橋接轉向點嘅說明">
-<!ENTITY torsettings.bridgeHelp1 "若無法連接到Tor洋蔥路由網絡，可能係因為你嘅互聯網服務提供者(ISP)或其他機構正在封鎖Tor洋蔥路由網絡。&#160; 通常你可以使用橋接器連上Tor洋蔥路由網絡，以解決此問題。呢類橋接器係未被羅列於清單中嘅秘密轉向點，非常難以被過濾阻擋。">
+<!ENTITY torsettings.bridgeHelpTitle "橋接轉向站嘅說明">
+<!ENTITY torsettings.bridgeHelp1 "若無法連接到Tor洋蔥路由網絡，可能係因為你嘅互聯網服務提供者(ISP)或其他機構正在封鎖Tor洋蔥路由網絡。&#160; 通常你可以使用橋接器連上Tor洋蔥路由網絡，以解決此問題。呢類橋接器係未被羅列於清單中嘅秘密轉向站，非常難以被過濾阻擋。">
 <!ENTITY torsettings.bridgeHelp1B "你可使用預先設定好嘅橋接器位址，或使用下列三種方法嘅任何一種以取得一組自訂嘅位址：">
 <!ENTITY torsettings.bridgeHelp2Heading "透過網絡">
 <!ENTITY torsettings.bridgeHelp2 "使用瀏覽器到訪 https://bridges.torproject.org">
