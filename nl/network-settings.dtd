@@ -65,7 +65,7 @@
 <!ENTITY torsettings.copyLog "Kopieer Tor-log naar het klembord">
 <!ENTITY torsettings.bridgeHelpTitle "Bridge relay-hulp">
 <!ENTITY torsettings.bridgeHelp1 "Indien je geen verbinding kan maken met het Tor-netwerk, zou het kunnen dat je Internet Service Provider (ISP) of een andere instelling Tor blokkeert.&#160; Vaak kan je dit omzeilen door gebruik te maken van Tor-bridges, dit zijn ongeregistreerde relays die moeilijker te blokkeren zijn.">
-<!ENTITY torsettings.bridgeHelp1B "Je kan de voorgeconfigureerde bridge-adresinstellingen gebruiken, of je kan hier zelf een eigen adres instellen met een van de volgende drie methodes: ">
+<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Door middel van het Web">
 <!ENTITY torsettings.bridgeHelp2 "Gebruik een browser om https://bridges.torproject.org te bezoeken">
 <!ENTITY torsettings.bridgeHelp3Heading "Door middel van de e-mail-autoresponder">
