@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "Quina de les següuens descriula teva situació?">
 <!ENTITY torSettings.configurePrompt1 "La connexió a internet d'aquest ordinador està censurada o configurada amb un proxy. ">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "Necessito configurar el pont o el servidor proxy local abans de connectar a la red Tor&amp;#160">
 <!ENTITY torSettings.configure "Configura">
 <!ENTITY torSettings.connectPrompt2 "M'agradaria fer una connexió directa a la red Tor.">
 <!ENTITY torSettings.connectPrompt3 "Això funciona en la majoria dels casos.">
@@ -35,10 +35,10 @@
 
 <!ENTITY torsettings.startingTor "Esperant a Tor per començar...">
 <!ENTITY torsettings.restartTor "Reinicia Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Reconfigurar">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.proceed "Elimina el ajusts i connecta">
 
 <!ENTITY torsettings.optional "Opcional
 ">
