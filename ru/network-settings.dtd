@@ -12,8 +12,8 @@
 <!ENTITY torSettings.no "Нет">
 
 <!ENTITY torSettings.firstQuestion "Что лучше описывает вашу ситуацию?">
-<!ENTITY torSettings.configurePrompt1 "Интернет-соединение этого компьютера цензурируется или находится за прокси.">
-<!ENTITY torSettings.configurePrompt2 "Необходимо настроить параметры моста или локальный прокси, прежде чем подключаться к сети Tor.&#160;">
+<!ENTITY torSettings.configurePrompt1 "Интернет-соединение этого компьютера цензурируется или включает прокси-сервер.">
+<!ENTITY torSettings.configurePrompt2 "Необходимо настроить параметры моста или локальный прокси-сервер, прежде чем подключаться к сети Tor.&#160;">
 <!ENTITY torSettings.configure "Настроить">
 <!ENTITY torSettings.connectPrompt2 "Я хочу напрямую подключиться к сети Tor.">
 <!ENTITY torSettings.connectPrompt3 "Это должно работать в большинстве ситуаций.">
