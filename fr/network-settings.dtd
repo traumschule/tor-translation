@@ -59,7 +59,7 @@
 <!ENTITY torsettings.useBridges.note "Chaque type de bridge utilise une méthode différente pour éviter la censure. Si un bridge ne marche pas, essayez de nouveau avec un autre.">
 <!ENTITY torsettings.useBridges.type "Mode de transport:">
 <!ENTITY torsettings.useBridges.custom "Entrez vos ponts personnels">
-<!ENTITY torsettings.useBridges.label "Saisir un ou davantage de ponts relais (un par ligne).">
+<!ENTITY torsettings.useBridges.label "Saisir un ou davantage de relais bridges (un par ligne).">
 <!ENTITY torsettings.useBridges.placeholder "tapez adresse:port">
 
 <!ENTITY torsettings.copyLog "Copier le journal des messages de Tor dans le presse-papier">
