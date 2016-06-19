@@ -45,7 +45,7 @@
 <!ENTITY torsettings.useProxy.checkbox "Šis kompiuteris turi naudoti vietinį įgaliotąjį serverį, kad gautų prieigą prie internetą.">
 <!ENTITY torsettings.useProxy.type "Įgaliotojo serverio tipas:">
 <!ENTITY torsettings.useProxy.address "Adresas:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
+<!ENTITY torsettings.useProxy.address.placeholder "IP adresas arba serverio vardas">
 <!ENTITY torsettings.useProxy.port "Prievadas:">
 <!ENTITY torsettings.useProxy.username "Vartotojo vardas:">
 <!ENTITY torsettings.useProxy.password "Slaptažodis:">
