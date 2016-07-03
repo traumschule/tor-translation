@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "Mikä seuraavista kuvailee parhaiten tilannettasi?">
 <!ENTITY torSettings.configurePrompt1 "Tämän tietokoneen internet-yhteys on sensuroitu tai kulkee välityspalvelimen kautta.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "Minun täytyy configuroida joko silta- tai paikallinen välityspalvelimen asetukset ennen kuin yhdistän Tor&#160;verkkoon.">
 <!ENTITY torSettings.configure "Määritä">
 <!ENTITY torSettings.connectPrompt2 "Haluan tehdä suoran yhteyden Tor-verkkoon.">
 <!ENTITY torSettings.connectPrompt3 "Tämä toimii useimmissa tilanteissa.">
@@ -22,7 +22,7 @@
 <!ENTITY torSettings.proxyPageTitle "Paikallisen välityspalvelimen määritys">
 <!ENTITY torSettings.proxyQuestion "Tarvitseeko tämän tietokoneen käyttää paikallista välityspalvelinta Internet-pääsyyn?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
+<!ENTITY torSettings.proxyExplanation1 "Yleensä paikallista välityspalvelinta ei tarvita mutta se voidaan tarvia jos yhdistetään yrityksen, koulun tai yliopistpjen verkon kautta.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
 <!ENTITY torSettings.enterProxy "Kirjoita välityspalvelinasetukset.">
 <!ENTITY torSettings.bridgePageTitle "Tor-siltojen määritys">
