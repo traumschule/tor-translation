@@ -13,21 +13,21 @@
 
 <!ENTITY torSettings.firstQuestion "以下のうちあなたの状態に最も適しているのはどれですか？">
 <!ENTITY torSettings.configurePrompt1 "このコンピュータのインターネット接続は、検閲されているかプロキシを通します。">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "Torネットワークに接続する前にブリッジやローカルプロキシを設定する必要があります。&#160;">
 <!ENTITY torSettings.configure "構成">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Torネットワークに直接接続します。">
 <!ENTITY torSettings.connectPrompt3 "これはほとんどの状況で動作します。">
 <!ENTITY torSettings.connect "接続">
 
 <!ENTITY torSettings.proxyPageTitle "ローカルプロキシの設定">
 <!ENTITY torSettings.proxyQuestion "インターネットに接続するためにローカルプロキシを通す必要がありますか？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation1 "ほとんどの場合ローカルプロキシは必要ありません。ただし、会社、学校、大学などのネットワークを通して接続する場合に必要となることがあるかもしれません。">
+<!ENTITY torSettings.proxyExplanation2 "もし分からなければ、他のブラウザーのインターネット設定やシステムのネットワーク設定を確認して、ローカルプロキシが必要かどうか確認してください。">
 <!ENTITY torSettings.enterProxy "プロキシ設定を入力">
 <!ENTITY torSettings.bridgePageTitle "Torブリッジの設定">
 <!ENTITY torSettings.bridgeQuestion "あなたのインターネットサービスプロバイダー (ISP) は Tor ネットワークへの接続をブロックしているか、あるいは別のやり方で検閲していますか？">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
+<!ENTITY torSettings.bridgeExplanation1 "もし分からなければ「いいえ」を選択してください。(ブリッジなしでTorネットワークに接続することができなかった場合、後で追加できます)">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "提供されたブリッジのセットを使用するか、あるいはカスタムのブリッジのセットを取得して入力することができます。">
 
