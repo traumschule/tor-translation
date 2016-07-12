@@ -28,7 +28,7 @@
 <!ENTITY torSettings.bridgePageTitle "Torブリッジの設定">
 <!ENTITY torSettings.bridgeQuestion "あなたのインターネットサービスプロバイダー (ISP) は Tor ネットワークへの接続をブロックしているか、あるいは別のやり方で検閲していますか？">
 <!ENTITY torSettings.bridgeExplanation1 "もし分からなければ「いいえ」を選択してください。(ブリッジなしでTorネットワークに接続することができなかった場合、後で追加できます)">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation2 "「はい」を選択した場合、TorブリッジすなわちTorネットワークへの接続をブロックすることを難しくするリストされていないリレーを設定するよう求められます。">
 <!ENTITY torSettings.bridgeSettingsPrompt "提供されたブリッジのセットを使用するか、あるいはカスタムのブリッジのセットを取得して入力することができます。">
 
 <!-- Other: -->
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "Torを再起動する">
 <!ENTITY torsettings.reconfigTor "再設定">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "Torブリッジが設定されるか、ローカルプロキシ設定が入力されるかしました。&#160; Torネットワークに直接接続するためには、これらの設定は削除する必要があります。">
 <!ENTITY torsettings.discardSettings.proceed "設定と接続を削除">
 
 <!ENTITY torsettings.optional "オプション">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "許可されたポート:">
 <!ENTITY torsettings.useBridges.checkbox "私のインターネットサービスプロバイダ(ISP)はTorネットワークへの接続をブロックします">
 <!ENTITY torsettings.useBridges.default "提供されたブリッジで接続">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "それぞれの種類のブリッジは検閲を避けるために異なった方法を使用します。&#160;もしひとつのブリッジが機能しなければ、別のもので再度試してみてください。">
 <!ENTITY torsettings.useBridges.type "トランスポートタイプ:">
 <!ENTITY torsettings.useBridges.custom "カスタムブリッジを入力">
 <!ENTITY torsettings.useBridges.label "1つ以上のブリッジリレーを入力してください(行あたり1つ)。">
@@ -65,7 +65,7 @@
 <!ENTITY torsettings.copyLog "Torのログをクリップボードにコピー">
 <!ENTITY torsettings.bridgeHelpTitle "ブリッジリレーのヘルプ">
 <!ENTITY torsettings.bridgeHelp1 "Tor ネットワークに接続できないなら、あなたのインターネットサービスプロバイダー(ISP)や別の機関が Tor をブロックしている可能性があります。&#160; ブロックが比較的困難なリストされていないリレーである Tor ブリッジを使用することでこの問題を回避できることもあります。">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
+<!ENTITY torsettings.bridgeHelp1B "設定済みのデフォルトの設定を利用するか、以下のうちのいずれかの方法によってカスタムのアドレスセットを取得することができます。">
 <!ENTITY torsettings.bridgeHelp2Heading "ウェブ経由">
 <!ENTITY torsettings.bridgeHelp2 "ウェブを使用して、https://bridges.torproject.orgを開く">
 <!ENTITY torsettings.bridgeHelp3Heading "メール自動応答システム経由">
