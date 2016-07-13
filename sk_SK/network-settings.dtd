@@ -60,16 +60,16 @@
 <!ENTITY torsettings.useBridges.type "Typ transportu:">
 <!ENTITY torsettings.useBridges.custom "Zadajte vlastné premostenia">
 <!ENTITY torsettings.useBridges.label "Zadaj jedno alebo viac premostení relé (jedno na riadok).">
-<!ENTITY torsettings.useBridges.placeholder "adresa:port">
+<!ENTITY torsettings.useBridges.placeholder "Typ adresy:port">
 
 <!ENTITY torsettings.copyLog "Kopírovať log Toru do schránky">
 <!ENTITY torsettings.bridgeHelpTitle "Pomocník pre premostenia relé">
 <!ENTITY torsettings.bridgeHelp1 "Ak nie ste schopní sa pripojiť do siete Tor, je možné, že váš poskytovateľ internetového pripojenia (ISP) alebo iný správny orgán blokuje Tor.&#160; Väčšinou je možné tento problém obísť použitím Tor Bridges, čo sú nikde nezapísané relé, ktoré je obtiažne blokovať.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
+<!ENTITY torsettings.bridgeHelp1B "Môžete použiť prednastavené, vopred poskytnuté adresy premostení alebo môžete získať vlastný set adries použitím jednej z nasledujúcich metód:">
+<!ENTITY torsettings.bridgeHelp2Heading "Prostredníctvom internetu">
 <!ENTITY torsettings.bridgeHelp2 "Navštívte https://bridges.torproject.org pomocou webového prehliadača">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3Heading "Cez automatickú emailovú odpoveď">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Pošlite email na bridges@torproject.org len s textom 'get bridges'  v tele správy.&#160; Bohužiaľ, aby sa zabránilo útočníkom získať množstvo adries premostení, musíte požiadavku poslať z emailu nasledovných poskytovateľov (zoradené podľa preferencií): ">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.bridgeHelp4Heading "Prostredníctvom Help Desk">
 <!ENTITY torsettings.bridgeHelp4 "Ako posledné východisko, môžete poslať milý e-mail na help@rt.torproject.org a požiadať o adresy premostenia.&#160; Berte, prosím, na vedomie, že niekto bude musieť na každú požiadavku samostatne reagovať.">
