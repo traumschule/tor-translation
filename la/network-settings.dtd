@@ -1,7 +1,7 @@
-<!ENTITY torsettings.dialog.title "Tor Network Settings">
+<!ENTITY torsettings.dialog.title "Praeferentiae coniunctionis in Tor">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
+<!ENTITY torlauncher.localePicker.title "Lingua Tor navis">
 <!ENTITY torlauncher.localePicker.prompt "Elige linguam, quaeso.">
 
 <!-- For "first run" wizard: -->
