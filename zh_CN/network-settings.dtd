@@ -2,7 +2,7 @@
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser 语言">
-<!ENTITY torlauncher.localePicker.prompt "请选择一个语言。">
+<!ENTITY torlauncher.localePicker.prompt "请选择一种语言。">
 
 <!-- For "first run" wizard: -->
 
@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "以下哪个描述与你的情况最为匹配？">
 <!ENTITY torSettings.configurePrompt1 "网络连接受到审查或需要代理。">
-<!ENTITY torSettings.configurePrompt2 "我需要配置网桥或本地代理设置才能连接到 Tor 网络。">
+<!ENTITY torSettings.configurePrompt2 "我需要配置网桥或设置本地代理才能连接到 Tor 网络。">
 <!ENTITY torSettings.configure "配置">
 <!ENTITY torSettings.connectPrompt2 "我想直接连接 Tor 网络。">
 <!ENTITY torSettings.connectPrompt3 "通常这种方式是有效的。">
@@ -22,7 +22,7 @@
 <!ENTITY torSettings.proxyPageTitle "本地代理配置">
 <!ENTITY torSettings.proxyQuestion "是否需要本地代理访问互联网？">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "大多数情况下不需要使用本地代理，但在使用公司、校园等网络时这可能必需。">
+<!ENTITY torSettings.proxyExplanation1 "大多数情况下并不需要使用本地代理，但在公司、学校等网络时这可能需要。">
 <!ENTITY torSettings.proxyExplanation2 "如果您不确定此问题的答案，请查看其他网络浏览器或者您的系统中的网络设置，检查其是否使用了一个本地代理。">
 <!ENTITY torSettings.enterProxy "输入代理设置。">
 <!ENTITY torSettings.bridgePageTitle "Tor 网桥配置">
