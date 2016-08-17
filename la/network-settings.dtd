@@ -16,35 +16,36 @@
 <!ENTITY torSettings.configurePrompt2 "Pontes aut praeferentias clavis in loco configurara debeo, ante Tor&#160;coniunctionem coniungo.">
 <!ENTITY torSettings.configure "Configurare">
 <!ENTITY torSettings.connectPrompt2 "Coniunctionem linearem Tor coniunctione facere volo.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
-<!ENTITY torSettings.connect "Connect">
+<!ENTITY torSettings.connectPrompt3 "In parte maximo id aget.">
+<!ENTITY torSettings.connect "Coniungere">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyPageTitle "Configuratio in loco clavis">
+<!ENTITY torSettings.proxyQuestion "Egetne is computator usationem clavis pro petitione coniunctionis computatorum?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
-<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.proxyExplanation1 "Saepe clavis in loco non egitur, sed cum per coniunctionem societatis aut scolae aut universitatis coniungis, egere potes.">
+<!ENTITY torSettings.proxyExplanation2 "Si responsum eae rogationis nescis, vide praeferentias coniunctionis computatorum in nave alia aut praeferentias coniunctionis systematis, tum videbis, egiturne clavis in loco.">
+<!ENTITY torSettings.enterProxy "Inda praeferentias clavis.">
+<!ENTITY torSettings.bridgePageTitle "Configuratio pontium Tor">
+<!ENTITY torSettings.bridgeQuestion "Clauditne, mutatne Provisor Coniunctionum Computaroris (ISP) coniunctinis
+ad Tor coniunctionem?">
+<!ENTITY torSettings.bridgeExplanation1 "Si responsum eae rogationis nescis, responde &quot;Non&quot; (si Tor coniunctione coniungere sine ponte non potes, addere potebis.).">
+<!ENTITY torSettings.bridgeExplanation2 "Si &quot;Sic est&quot; eliges, configurebis pontes Tor, quae transmittores sine ordine sunt et dificilior faciunt coniunctiones Tor coniunctione claudere.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Collationem pontium datum usare aut collationem tuam pontium habere indareque potes.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Waiting for Tor to start…">
-<!ENTITY torsettings.restartTor "Restart Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.startingTor "Initium Toris expectamus...">
+<!ENTITY torsettings.restartTor "Tor reinire">
+<!ENTITY torsettings.reconfigTor "Reconfigurare">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.prompt "Tor pontes configuravisti aut praeferentias clavis in loco indedisti.&#160; Ut coniunctionem linearem ad Tor coniunctionem facias, eas praeferentias delere debes.">
+<!ENTITY torsettings.discardSettings.proceed "Praeferentias delere coniungereque">
 
-<!ENTITY torsettings.optional "Optional">
+<!ENTITY torsettings.optional "Optione">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a local proxy to access the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.address "Address:">
+<!ENTITY torsettings.useProxy.checkbox "Is computator usationem clavis pro petitione coniunctionis computatorum eget.">
+<!ENTITY torsettings.useProxy.type "Classis clavis:">
+<!ENTITY torsettings.useProxy.address "Sententia loci:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Username:">
