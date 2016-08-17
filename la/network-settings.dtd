@@ -46,31 +46,31 @@ ad Tor coniunctionem?">
 <!ENTITY torsettings.useProxy.checkbox "Is computator usationem clavis pro petitione coniunctionis computatorum eget.">
 <!ENTITY torsettings.useProxy.type "Classis clavis:">
 <!ENTITY torsettings.useProxy.address "Sententia loci:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
-<!ENTITY torsettings.useProxy.port "Port:">
-<!ENTITY torsettings.useProxy.username "Username:">
-<!ENTITY torsettings.useProxy.password "Password:">
+<!ENTITY torsettings.useProxy.address.placeholder "Sententia loci IP aut nomen depositionis">
+<!ENTITY torsettings.useProxy.port "Porta:">
+<!ENTITY torsettings.useProxy.username "Nomen usatoris:">
+<!ENTITY torsettings.useProxy.password "Verbum transilindi">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
-<!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
-<!ENTITY torsettings.useBridges.default "Connect with provided bridges">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
-<!ENTITY torsettings.useBridges.type "Transport type:">
-<!ENTITY torsettings.useBridges.custom "Enter custom bridges">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.firewall.checkbox "Is computator per murum ignis it, itaque coniunctiones ad nonnullas portas tantum licent.">
+<!ENTITY torsettings.firewall.allowedPorts "Portae acceptatione:">
+<!ENTITY torsettings.useBridges.checkbox "Provisor Coniunctionum Computatoris (ISP) coniunctiones ad Tor coniunctionem claudit.">
+<!ENTITY torsettings.useBridges.default "Pontibus datis coniungere">
+<!ENTITY torsettings.useBridges.note "Omnis classis pontis modo alio censuram circumvenit.&#160; Si pons una non agit tempta usationem aliae.">
+<!ENTITY torsettings.useBridges.type "Classis transportationis:">
+<!ENTITY torsettings.useBridges.custom "Inda pontes tuas">
+<!ENTITY torsettings.useBridges.label "Inda transmittoris pontium (unus in linea).">
+<!ENTITY torsettings.useBridges.placeholder "classis address:port">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
-<!ENTITY torsettings.bridgeHelp2Heading "Through the Web">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
+<!ENTITY torsettings.copyLog "Transscribe scriptum actionum Toris ad memoriam temporariam">
+<!ENTITY torsettings.bridgeHelpTitle "Auxilium transmittorum pontium">
+<!ENTITY torsettings.bridgeHelp1 "Si Tor coniunctione coniungere non potes, fortasse Provisor Coniunctionum Computatoris (ISP) aut societas alia Tor claudit.&#160; Saepe id problema pontibus Tor circumvenire potes, quae transmittores sine ordine sunt et dificilior est eos claudere.">
+<!ENTITY torsettings.bridgeHelp1B "Collationem pontium datum usare aut collationem tuam pontium habere eis modis potes:">
+<!ENTITY torsettings.bridgeHelp2Heading "Per coniunctionem computatorum">
+<!ENTITY torsettings.bridgeHelp2 "Usa navem pro visitiones  de https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Per-se-responsore litteris in linea">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Litteram in linea mitte ad bridges@torproject.org linea 'get bridges' in corpore litterarum.&#160; Ut dificilior sit temptatori multos sententias loci pontium scire, rogatio de uno eorum datorum litterarum in linea missa esse debet (in ordine praeferentiae rati sunt):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, aut https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp4Heading "Per tabulam auxilii">
 <!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
