@@ -26,7 +26,7 @@
 <!ENTITY torSettings.proxyExplanation2 "Si responsum eae rogationis nescis, vide praeferentias coniunctionis computatorum in nave alia aut praeferentias coniunctionis systematis, tum videbis, egiturne clavis in loco.">
 <!ENTITY torSettings.enterProxy "Inda praeferentias clavis.">
 <!ENTITY torSettings.bridgePageTitle "Configuratio pontium Tor">
-<!ENTITY torSettings.bridgeQuestion "Clauditne, mutatne Provisor Coniunctionum Computaroris (ISP) coniunctinis
+<!ENTITY torSettings.bridgeQuestion "Clauditne, mutatne Provisor Coniunctionum Computatoris (ISP) coniunctinis
 ad Tor coniunctionem?">
 <!ENTITY torSettings.bridgeExplanation1 "Si responsum eae rogationis nescis, responde &quot;Non&quot; (si Tor coniunctione coniungere sine ponte non potes, addere potebis.).">
 <!ENTITY torSettings.bridgeExplanation2 "Si &quot;Sic est&quot; eliges, configurebis pontes Tor, quae transmittores sine ordine sunt et dificilior faciunt coniunctiones Tor coniunctione claudere.">
