@@ -14,7 +14,7 @@ internetskoj vezi ovog računala.">
 
 <!ENTITY torSettings.firstQuestion "Koje od sljedećeg najbolje opisuje Vašu situaciju?">
 <!ENTITY torSettings.configurePrompt1 "Veza ovog računal s Internetom je cenzurirana ili iza proxy-a.">
-<!ENTITY torSettings.configurePrompt2 "Trebam konfigurirati postavke mosta ili lokalnog proxy-a prije nego se spojim na Tor&#160;mrežu.">
+<!ENTITY torSettings.configurePrompt2 "Trebam konfigurirati postavke mosta ili lokalnog proxya prije nego se spojim na Tor&#160;mrežu.">
 <!ENTITY torSettings.configure "Podesi">
 <!ENTITY torSettings.connectPrompt2 "Želim direktnu vezu s Tor mrežom.">
 <!ENTITY torSettings.connectPrompt3 "Ovo će raditi u većini situacija.">
