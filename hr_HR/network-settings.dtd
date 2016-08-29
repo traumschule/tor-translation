@@ -39,13 +39,13 @@ s Tor mrežom?">
 <!ENTITY torsettings.restartTor "Ponovno pokreni Tor">
 <!ENTITY torsettings.reconfigTor "Rekonfiguriraj">
 
-<!ENTITY torsettings.discardSettings.prompt "Konfigurirali ste Tor mostove ili ste unijeli postavke lokalnog proxy-a.&#160; Kako bi ostvarili direktnu vezu s Tor mrežom, ove postavke moraju biti uklonjene.">
+<!ENTITY torsettings.discardSettings.prompt "Konfigurirali ste Tor mostove ili ste unijeli postavke lokalnog proxya.&#160; Kako bi ostvarili direktnu vezu s Tor mrežom, ove postavke moraju biti uklonjene.">
 <!ENTITY torsettings.discardSettings.proceed "Ukloni postavke i poveži">
 
 <!ENTITY torsettings.optional "Opcionalno">
 
 <!ENTITY torsettings.useProxy.checkbox "Ovo računalo treba koristiti lokalni proxy za pristup Internetu.">
-<!ENTITY torsettings.useProxy.type "Tip proxyj-a:">
+<!ENTITY torsettings.useProxy.type "Tip proxya:">
 <!ENTITY torsettings.useProxy.address "Adresa:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresa ili hostname">
 <!ENTITY torsettings.useProxy.port "Port:">
