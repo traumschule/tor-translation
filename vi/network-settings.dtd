@@ -16,11 +16,11 @@
 <!ENTITY torSettings.configurePrompt2 "Tôi cần cấu hình cầu nối hoặc những cài đặt ủy quyền cục bộ trước khi tôi kết nối tới Tor&#160;network.">
 <!ENTITY torSettings.configure "Cấu hình">
 <!ENTITY torSettings.connectPrompt2 "Tôi muốn tạo kết nối trực tiếp với mạng lưới Tor.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Việc này sẽ hoạt động trong hầu hết các tình huống.">
 <!ENTITY torSettings.connect "Kết nối">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyPageTitle "Cấu hình ủy quyền nội bộ">
+<!ENTITY torSettings.proxyQuestion "Máy tính này có cần sử dụng ủy quyền nội bộ để kết nối Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
