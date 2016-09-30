@@ -65,11 +65,11 @@
 <!ENTITY torsettings.copyLog "Chép nhật ký của Tor vào Clipboard">
 <!ENTITY torsettings.bridgeHelpTitle "Giúp đỡ về Tiếp sức cầu nối">
 <!ENTITY torsettings.bridgeHelp1 "Nếu như bạn không thể kết nối đến mạng Tor, có thể là nhà cung cấp dịch vụ của bạn (ISP) hoặc cơ quan khác đã chặn kết nối đến Tor. Thông thường, bạn có thể giải quyết vấn này bằng cách sử dụng Tor Bridges, các Tor Bridges này sẽ không được liệt kê để làm cho việc ngăn chặn khó khăn hơn.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
+<!ENTITY torsettings.bridgeHelp1B "Bạn có thể sử dụng bộ cầu nối đã được cấu hình trước, được cung cấp hoặc bạn có thể lấy một bộ địa chỉ riêng bằng cách sử dụng một trong những phương pháp:">
 <!ENTITY torsettings.bridgeHelp2Heading "Đi qua Web">
 <!ENTITY torsettings.bridgeHelp2 "Sử dụng trình duyệt web truy cập vào https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Thông qua Hệ thống tự động trả lời email">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Gửi email tới bridges@torproject.org với dòng 'get bridges' bởi bản thân nó trong phần thân thông điệp.&#160; Tuy nhiên, để làm khó hơn cho một kẻ tấn công có thể hiểu nhiều về địa chỉ cầu nối, bạn phải gửi yêu cầu này từ một trong những nhà cung cấp email dưới đây (được liệt kê theo sự ưa thích):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4Heading "Thông qua Help Desk">
+<!ENTITY torsettings.bridgeHelp4 "Như là phương thức cuối cùng, bạn có thể yêu cầu địa chỉ cầu nối bằng cách gửi một email lịch sự tới help@rt.torproject.org.&#160; Vui lòng lưu ý rằng một người cần phải phản hồi tới từng yêu cầu.">
