@@ -52,24 +52,24 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCK 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCK 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
+<!ENTITY torsettings.firewall.checkbox "Máy tính này đi qua một tường lửa mà chỉ cho phép tới một vài cổng">
 <!ENTITY torsettings.firewall.allowedPorts "Những Cổng Được phép:">
 <!ENTITY torsettings.useBridges.checkbox "Nhà cung cấp dịch vụ của tôi (ISP) đã chặn kết nối đến mạng Tor">
 <!ENTITY torsettings.useBridges.default "Kết nối với những cầu được cung cấp">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "Mỗi loại cầu nối sử dụng một phương pháp khác nhau để tránh việc kiểm duyệt.&#160; Nếu một cầu nối không hoạt động, thử lại bằng một cái khác.">
 <!ENTITY torsettings.useBridges.type "Loại hình vận chuyển:">
 <!ENTITY torsettings.useBridges.custom "Nhập những cầu quen thuộc">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.label "Nhập một hoăc nhiều hơn những tiếp sức cầu nối (một cái trên mỗi dòng).">
+<!ENTITY torsettings.useBridges.placeholder "nhập address:port">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.copyLog "Chép nhật ký của Tor vào Clipboard">
+<!ENTITY torsettings.bridgeHelpTitle "Giúp đỡ về Tiếp sức cầu nối">
 <!ENTITY torsettings.bridgeHelp1 "Nếu như bạn không thể kết nối đến mạng Tor, có thể là nhà cung cấp dịch vụ của bạn (ISP) hoặc cơ quan khác đã chặn kết nối đến Tor. Thông thường, bạn có thể giải quyết vấn này bằng cách sử dụng Tor Bridges, các Tor Bridges này sẽ không được liệt kê để làm cho việc ngăn chặn khó khăn hơn.">
 <!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
 <!ENTITY torsettings.bridgeHelp2Heading "Đi qua Web">
 <!ENTITY torsettings.bridgeHelp2 "Sử dụng trình duyệt web truy cập vào https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3Heading "Thông qua Hệ thống tự động trả lời email">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Gửi email tới bridges@torproject.org với dòng 'get bridges' bởi bản thân nó trong phần thân thông điệp.&#160; Tuy nhiên, để làm khó hơn cho một kẻ tấn công có thể hiểu nhiều về địa chỉ cầu nối, bạn phải gửi yêu cầu này từ một trong những nhà cung cấp email dưới đây (được liệt kê theo sự ưa thích):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, or https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
 <!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
