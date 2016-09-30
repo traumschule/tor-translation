@@ -35,14 +35,14 @@
 
 <!ENTITY torsettings.startingTor "Chờ đợi để Tor khởi động..">
 <!ENTITY torsettings.restartTor "Khởi động lại Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Cấu hình lại">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.prompt "Bạn phải cấu hình cầu nối Tor hoặc bạn phải nhập cài đặt ủy quyền nội bộ.&#160; Để tạo một kết nối trực tiếp tới mạng lưới Tor, những cài đặt này phải được loại bỏ.">
+<!ENTITY torsettings.discardSettings.proceed "Loại bỏ những cài đặt và kết nối">
 
 <!ENTITY torsettings.optional "Tuỳ chọn">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a local proxy to access the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Máy tính này cần sử dụng một ủy quyền nội bộ để truy cập Internet">
 <!ENTITY torsettings.useProxy.type "Dạng proxy:">
 <!ENTITY torsettings.useProxy.address "Địa chỉ:">
 <!ENTITY torsettings.useProxy.address.placeholder "Địa chỉ IP hoặc hostname">
