@@ -1,8 +1,8 @@
 <!ENTITY torsettings.dialog.title "Cài đặt mạng Tor">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser Language">
-<!ENTITY torlauncher.localePicker.prompt "Please select a language.">
+<!ENTITY torlauncher.localePicker.title "Ngôn ngữ Trình duyệt Tor">
+<!ENTITY torlauncher.localePicker.prompt "Vui lòng chọn một ngôn ngữ.">
 
 <!-- For "first run" wizard: -->
 
@@ -12,10 +12,10 @@
 <!ENTITY torSettings.no "Không">
 
 <!ENTITY torSettings.firstQuestion "Những mục này có miêu tả đúng vị trí của bạn không?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt1 "Việc kết nối Internet của máy tính này bị kiểm duyệt và ủy quyền.">
+<!ENTITY torSettings.configurePrompt2 "Tôi cần cấu hình cầu nối hoặc những cài đặt ủy quyền cục bộ trước khi tôi kết nối tới Tor&#160;network.">
 <!ENTITY torSettings.configure "Cấu hình">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Tôi muốn tạo kết nối trực tiếp với mạng lưới Tor.">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Kết nối">
 
