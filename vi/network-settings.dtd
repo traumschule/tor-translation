@@ -22,14 +22,14 @@
 <!ENTITY torSettings.proxyPageTitle "Cấu hình ủy quyền nội bộ">
 <!ENTITY torSettings.proxyQuestion "Máy tính này có cần sử dụng ủy quyền nội bộ để kết nối Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
-<!ENTITY torSettings.enterProxy "Enter the proxy settings.">
-<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
+<!ENTITY torSettings.proxyExplanation1 "Trong hầu hết các tình huống, một sự ủy quyền nội bộ là không cần thiết, nhưng nó có thể cần thiết khi kết nối thông qua một công ty, trường học, hoặc mạng lưới trường đại học.">
+<!ENTITY torSettings.proxyExplanation2 "Nếu bạn không chắc cách trả lời câu hỏi này, xem cài đặt Internet trong một trình duyệt khác hoặc kiểm tra cài đặt mạng lưới của hệ thống của bạn để xem sự ủy quyền nội bộ có cần thiết không.">
+<!ENTITY torSettings.enterProxy "Nhập những cài đặt ủy quyền.">
+<!ENTITY torSettings.bridgePageTitle "Cấu hình cầu nối Tor">
 <!ENTITY torSettings.bridgeQuestion "Nhà cung cấp dịch vụ (ISP) của bạn có ngăn chặn hoặc kiểm duyệt kết nối đến mạng Tor không?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
-<!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
+<!ENTITY torSettings.bridgeExplanation1 "Nếu bạn không chắc cách trả lời câu hỏi này, chọn Không (nếu bạn không thể kết nối mạng lưới Tor mà không có cầu nối, bạn có thể thêm một cái sau đó).">
+<!ENTITY torSettings.bridgeExplanation2 "Nếu bạn chọn Có, bạn sẽ được hỏi để cấu hình Cầu nối Tor, những sự lặp không được liệt kê mà làm cho khó khăn khi chặn kết nối tới Mạng lưới Tor.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Bạn có thể sử dụng bộ cầu nối đã được cung cấp hoặc bạn có thể lấy và nhập một bộ cầu nối riêng.">
 
 <!-- Other: -->
 
