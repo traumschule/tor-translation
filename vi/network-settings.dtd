@@ -11,9 +11,9 @@
 <!ENTITY torSettings.yes "Có">
 <!ENTITY torSettings.no "Không">
 
-<!ENTITY torSettings.firstQuestion "Những mục này có miêu tả đúng vị trí của bạn không?">
-<!ENTITY torSettings.configurePrompt1 "Việc kết nối Internet của máy tính này bị kiểm duyệt và ủy quyền.">
-<!ENTITY torSettings.configurePrompt2 "Tôi cần cấu hình cầu nối hoặc những cài đặt ủy quyền cục bộ trước khi tôi kết nối tới Tor&#160;network.">
+<!ENTITY torSettings.firstQuestion "Những thứ nào dưới đây mô tả đúng nhất về tình huống của bạn?">
+<!ENTITY torSettings.configurePrompt1 "Việc kết nối Internet của máy tính này bị kiểm duyệt và được đại diện.">
+<!ENTITY torSettings.configurePrompt2 "Tôi cần cấu hình cầu nối hoặc những cài đặt đại diện nội bộ trước khi tôi kết nối tới Tor&#160;network.">
 <!ENTITY torSettings.configure "Cấu hình">
 <!ENTITY torSettings.connectPrompt2 "Tôi muốn tạo kết nối trực tiếp với mạng lưới Tor.">
 <!ENTITY torSettings.connectPrompt3 "Việc này sẽ hoạt động trong hầu hết các tình huống.">
