@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Cài đặt mạng Tor">
+<!ENTITY torsettings.dialog.title "Những cài đặt của mạng Tor">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Ngôn ngữ Trình duyệt Tor">
