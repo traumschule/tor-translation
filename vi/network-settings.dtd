@@ -6,7 +6,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Trước khi kết nối đến mạng lưới Tor, bạn cần phải cung cấp thông tin về kết nối Internet của máy tính này.">
+<!ENTITY torsettings.prompt "Trước khi bạn kết nối với mạng lưới Tor, bạn cần phải cung cấp thông tin về kết nối Internet của máy tính này.">
 
 <!ENTITY torSettings.yes "Có">
 <!ENTITY torSettings.no "Không">
