@@ -13,7 +13,7 @@
 
 <!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes opciones describe mejor su situación?">
 <!ENTITY torSettings.configurePrompt1 "La conexión a Internet de este equipo está censurada o proxificada.">
-<!ENTITY torSettings.configurePrompt2 "Necesito configurar bridge o los ajustes del proxy local antes de conectar a la red Tor. ">
+<!ENTITY torSettings.configurePrompt2 "Necesito configurar los ajustes de puente de red o proxy local antes de conectar a la red Tor. ">
 <!ENTITY torSettings.configure "Configurar">
 <!ENTITY torSettings.connectPrompt2 "Quisiera hacer una conexión directa a la red Tor.">
 <!ENTITY torSettings.connectPrompt3 "Esto funcionará en la mayoría de las situaciones.">
@@ -25,11 +25,11 @@
 <!ENTITY torSettings.proxyExplanation1 "En la mayoría de los casos no se requiere un proxy (interpuesto) local, pero puede ser necesario al realizar una conexión a través de una red de empresa, de escuela, o universitaria. ">
 <!ENTITY torSettings.proxyExplanation2 "Si no está seguro de cómo responder a esta pregunta, mire la configuración de Internet en otro navegador o compruebe la configuración de red de su sistema para ver si un proxy local es necesario.">
 <!ENTITY torSettings.enterProxy "Introduzca los ajustes del proxy.">
-<!ENTITY torSettings.bridgePageTitle "Configuración de puentes Tor">
+<!ENTITY torSettings.bridgePageTitle "Configuración de puentes de red Tor">
 <!ENTITY torSettings.bridgeQuestion "Su proveedor de servicios de Internet (ISP) bloquea o censura de alguna forma las conexiones hacia la red Tor?">
-<!ENTITY torSettings.bridgeExplanation1 "Si no está seguro de cómo responder a esta pregunta, elija No (si no puede conectarse a la red Tor sin un puente (bridge), puede añadir uno más adelante).">
-<!ENTITY torSettings.bridgeExplanation2 "Si elige Sí, se le pedirá que configure los puentes (bridges) de Tor, que son repetidores no listados que dificultan el bloqueo de conexiones hacia la red Tor.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Puede utilizar el conjunto de repetidores puente (bridge) proporcionado, o puede obtener e introducir un juego de puentes personalizado.">
+<!ENTITY torSettings.bridgeExplanation1 "Si no está seguro de cómo responder a esta pregunta, elija No (si no puede conectarse a la red Tor sin un puente de red (bridge), puede añadir uno más adelante).">
+<!ENTITY torSettings.bridgeExplanation2 "Si elige Sí, se le pedirá que configure los puentes de red (bridges) de Tor, que son repetidores no listados que dificultan el bloqueo de conexiones hacia la red Tor.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Puede utilizar el conjunto de puentes de red (bridges) proporcionado, o puede obtener e introducir un juego de puentes personalizado.">
 
 <!-- Other: -->
 
