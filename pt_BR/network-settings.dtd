@@ -28,7 +28,7 @@
 <!ENTITY torSettings.bridgePageTitle "Configuração de Pontes Tor">
 <!ENTITY torSettings.bridgeQuestion "Seu provedor de serviços de internet (ISP) bloqueia ou censura conexões à rede Tor?">
 <!ENTITY torSettings.bridgeExplanation1 "Se você não tem certeza de como responder essa questão, escolha Não (se você não conseguir conectar à rede Tor sem uma conexão de ponte, você pode adicionar uma mais tarde).">
-<!ENTITY torSettings.bridgeExplanation2 "Se você escolher Sim, será solicitado que você configure Conexões de Ponte Tor, que são transmissores não-listados que dificultam mais o bloqueio de conexões à Rede Tor.">
+<!ENTITY torSettings.bridgeExplanation2 "Ao escolher Sim, o próximo passo a seguir será configurar Tor Bridges, que são transmissores não listados que dificultam o bloqueio de conexões à rede Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Você pode usar o conjunto de pontes fornecidas ou obter e adicionar um conjunto de pontes personalizadas. ">
 
 <!-- Other: -->
