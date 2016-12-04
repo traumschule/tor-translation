@@ -59,7 +59,7 @@
 <!ENTITY torsettings.useBridges.note "Cada tipo de conexão de ponte usa um método diferente para evitar censura.&#160; Se uma não funcionar, tente novamente usando uma diferente.">
 <!ENTITY torsettings.useBridges.type "Tipo de transporte:">
 <!ENTITY torsettings.useBridges.custom "Adicionar pontes personalizadas">
-<!ENTITY torsettings.useBridges.label "Insirerir um ou mais retransmissores de pontes (um por linha).">
+<!ENTITY torsettings.useBridges.label "Inserir um ou mais retransmissores de pontes (um por linha).">
 <!ENTITY torsettings.useBridges.placeholder "tipo de endereço:porta">
 
 <!ENTITY torsettings.copyLog "Copiar o registro do Tor na área de transferência">
