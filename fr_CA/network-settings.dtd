@@ -40,7 +40,7 @@
 <!ENTITY torsettings.discardSettings.prompt "Vous avez configuré des ponts Tor ou vous avez saisi des paramètres de mandataire local.&#160; Pour établir une connexion directe vers le réseau Tor, ces paramètres doivent être supprimés.">
 <!ENTITY torsettings.discardSettings.proceed "Supprimer les paramètres et se connecter">
 
-<!ENTITY torsettings.optional "Optionnel">
+<!ENTITY torsettings.optional "Facultatif">
 
 <!ENTITY torsettings.useProxy.checkbox "Cet ordinateur doit utiliser un mandataire local pour accéder à Internet">
 <!ENTITY torsettings.useProxy.type "Type de mandataire :">
@@ -71,5 +71,5 @@
 <!ENTITY torsettings.bridgeHelp3Heading "Par le répondeur automatique de courriel">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Envoyez un courriel à bridges@torproject.org avec la ligne « get bridges » seule dans le corps du message.&#160; Cependant, afin qu'il soit plus difficile pour un attaquant de découvrir de nombreuses adresses de ponts, vous devez envoyer cette demande à partir d'un des fournisseurs de courriel suivants (listés par ordre de préférence) :">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com ou https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "par le centre d'assistance">
+<!ENTITY torsettings.bridgeHelp4Heading "Par le centre d'assistance">
 <!ENTITY torsettings.bridgeHelp4 "En dernier recours, vous pouvez demander des adresses de ponts en envoyant un courriel poli à help@rt.torproject.org.&#160; Veuillez remarquer qu'une personne devra répondre à chaque demande.">
