@@ -1,26 +1,26 @@
 <!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Langue du Navigateur Tor">
-<!ENTITY torlauncher.localePicker.prompt "Merci de sélectionner une langue.">
+<!ENTITY torlauncher.localePicker.title "Langue du navigateur Tor">
+<!ENTITY torlauncher.localePicker.prompt "Veuillez choisir une langue.">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Vous devez fournir des informations concernant la connexion à Internet de cet ordinateur afin de pouvoir vous connecter au réseau Tor.">
+<!ENTITY torsettings.prompt "Avant de vous connecter au réseau Tor, vous devez fournir des informations sur la connexion Internet de cet ordinateur.">
 
 <!ENTITY torSettings.yes "Oui">
 <!ENTITY torSettings.no "Non">
 
-<!ENTITY torSettings.firstQuestion "Laquelle des phrases suivantes décrit le mieux votre situation ?">
-<!ENTITY torSettings.configurePrompt1 "Le connexion internet de cet ordinateur est restreinte (censurée) ou passe par un proxy.">
+<!ENTITY torSettings.firstQuestion "Laquelle des suivantes décrit le mieux votre situation ?">
+<!ENTITY torSettings.configurePrompt1 "La connexion Internet de cet ordinateur est censurée ou relayée.">
 <!ENTITY torSettings.configurePrompt2 "Je dois paramétrer un pont ou un mandataire local avant de me connecter au réseau&#160;Tor.">
 <!ENTITY torSettings.configure "Configurer">
-<!ENTITY torSettings.connectPrompt2 "Je voudrais faire une connexion directe au réseau Tor.">
+<!ENTITY torSettings.connectPrompt2 "J'aimerais établir une connexion directe vers le réseau Tor.">
 <!ENTITY torSettings.connectPrompt3 "Cela fonctionnera dans la plupart des situations.">
 <!ENTITY torSettings.connect "Se connecter">
 
-<!ENTITY torSettings.proxyPageTitle "Configuration du proxy local">
-<!ENTITY torSettings.proxyQuestion "Est-ce que cet ordinateur a besoin d'utiliser un proxy pour accéder à internet ?">
+<!ENTITY torSettings.proxyPageTitle "Configuration du mandataire local">
+<!ENTITY torSettings.proxyQuestion "Cet ordinateur doit-il utiliser un serveur mandataire local pour accéder à Internet ?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "Dans la plupart des cas le proxy local n'est pas nécessaire, mais il peut être exigé pour une connexion dans un réseau d'entreprise, d'école ou universitaire.">
 <!ENTITY torSettings.proxyExplanation2 "Si vous n'êtes pas certain de savoir comment répondre à cette question, vérifiez les paramètres Internet d'un autre navigateur ou les paramètres réseau de votre système pour voir si un serveur mandataire local est requis.">
