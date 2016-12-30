@@ -25,7 +25,7 @@
 <!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
 <!ENTITY torSettings.enterProxy "ใส่ค่าติดตั้งพร็อกซี">
-<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
+<!ENTITY torSettings.bridgePageTitle "การตั้งค่า Tor Bridges">
 <!ENTITY torSettings.bridgeQuestion "ผู้ให้บริการอินเตอร์เน็ต (ISP) ของคุณปิดกั้นหรือคัดกรองการเชื่อมต่อไปยังเครือข่าย Tor หรือไม่?">
 <!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
@@ -60,7 +60,7 @@
 <!ENTITY torsettings.useBridges.type "Transport type:">
 <!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "ใส่สะพานรีเลย์อย่างน้อยหนึ่งอัน (บรรทัดละอัน)">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.placeholder "พิมพ์ address:port">
 
 <!ENTITY torsettings.copyLog "คัดลอกปูม Tor ไปที่คลิปบอร์ด">
 <!ENTITY torsettings.bridgeHelpTitle "การช่วยเหลือรีเลย์สะพาน">
