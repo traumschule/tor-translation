@@ -15,7 +15,7 @@
 <!ENTITY torSettings.configurePrompt1 "La conexión de Internet de esta computadora esta censurada o en un proxy">
 <!ENTITY torSettings.configurePrompt2 "Necesito configurar un puente o ajustes del proxy local antes de que me conecte a la red Tor&#160;network.">
 <!ENTITY torSettings.configure "Configurar">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Me gustaría realizar una conexión directa a la red Tor. ">
 <!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
 <!ENTITY torSettings.connect "Conectar">
 
