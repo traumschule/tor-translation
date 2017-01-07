@@ -19,8 +19,8 @@
 <!ENTITY torSettings.connectPrompt3 "Esto funcionara en la mayoría de las situaciones.">
 <!ENTITY torSettings.connect "Conectar">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyPageTitle "Configuración del Proxy Local">
+<!ENTITY torSettings.proxyQuestion "Esta computadora necesita usar un proxy local para accesar el Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
