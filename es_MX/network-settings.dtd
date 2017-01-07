@@ -16,7 +16,7 @@
 <!ENTITY torSettings.configurePrompt2 "Necesito configurar un puente o ajustes del proxy local antes de que me conecte a la red Tor&#160;network.">
 <!ENTITY torSettings.configure "Configurar">
 <!ENTITY torSettings.connectPrompt2 "Me gustaría realizar una conexión directa a la red Tor. ">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Esto funcionara en la mayoría de las situaciones.">
 <!ENTITY torSettings.connect "Conectar">
 
 <!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
