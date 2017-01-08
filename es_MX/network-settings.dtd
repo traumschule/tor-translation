@@ -25,8 +25,8 @@
 <!ENTITY torSettings.proxyExplanation1 "La mayoría de los casos no requieren un proxy local, pero si podría ser requerido cuando te conectas por medio de una compañia, escuela, o red universitaria.">
 <!ENTITY torSettings.proxyExplanation2 "Si no estas seguro de como contestar esta pregunta, ve tu configuración de Internet en otro explorador o checa tu configuración de red del sistema para ver si necesitas un proxy local o no. ">
 <!ENTITY torSettings.enterProxy "Introduce la configuración de proxy">
-<!ENTITY torSettings.bridgePageTitle "Tor Bridges Configuration">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgePageTitle "Configuracion de puentes Tor">
+<!ENTITY torSettings.bridgeQuestion "Tu proveedor de servicio de Internet (ISP) bloquea o censura conexiones a la red de Tor?">
 <!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
