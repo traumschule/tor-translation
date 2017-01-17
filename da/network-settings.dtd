@@ -15,7 +15,7 @@
 <!ENTITY torSettings.configurePrompt1 "Denne computers internetforbindelse er censureret eller er etableret gennem en proxy.">
 <!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
 <!ENTITY torSettings.configure "Indstil">
-<!ENTITY torSettings.connectPrompt2 "I would like to make a direct connection to the Tor network.">
+<!ENTITY torSettings.connectPrompt2 "Jeg vil foretage en direkte forbindelse til Tor-netværket.">
 <!ENTITY torSettings.connectPrompt3 "Dette vil virker i de fleste situationer">
 <!ENTITY torSettings.connect "Tilslut">
 
@@ -35,10 +35,10 @@
 
 <!ENTITY torsettings.startingTor "Venter på at Tor starter...">
 <!ENTITY torsettings.restartTor "Genstart Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Genkonfigurer">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.proceed "Fjern indstillinger og opret forbindelse">
 
 <!ENTITY torsettings.optional "Valgfri">
 
