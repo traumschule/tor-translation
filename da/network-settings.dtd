@@ -28,7 +28,7 @@
 <!ENTITY torSettings.bridgePageTitle "Tor bridge konfiguration">
 <!ENTITY torSettings.bridgeQuestion "Blokerer eller censurerer din internetudbyder (ISP) forbindelser til Tor-netværket?">
 <!ENTITY torSettings.bridgeExplanation1 "Hvis du ikke er sikker på hvad du skal svare til dette spørgsmål, så vælg Nej (hvis du ikke er i stand til at oprette forbindelse til Tor-netværket gennem en bro, så kan du tilføje en senere).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation2 "Hvis du vælger Ja, så vil du blive spurgt om at konfigurere Tor-broer, hvilket er ulistede relæer som gøre det svære at blokere forbindelser til Tor-netværket.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruge det tildelte sæt broer eller du kan hente og indtaste et skræddersyet sæt broer.">
 
 <!-- Other: -->
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "Genstart Tor">
 <!ENTITY torsettings.reconfigTor "Genkonfigurer">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "Du har konfigureret Tor-broer eller du har indtastet lokale proxyindstillinger.&#160; For at kunne foretage direkte forbindelse til Tor-netværket, skal disse indstillinger fjernes.">
 <!ENTITY torsettings.discardSettings.proceed "Fjern indstillinger og opret forbindelse">
 
 <!ENTITY torsettings.optional "Valgfri">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min udbyder (ISP) blokerer forbindelse til Tor-netværket">
 <!ENTITY torsettings.useBridges.default "Forbind med tildelte broer">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "Hver type bro bruger forskellige metoder for at undgå censurering.&#160; Hvis en bro ikke virker, så prøv igen med en anden.">
 <!ENTITY torsettings.useBridges.type "Transport type:">
 <!ENTITY torsettings.useBridges.custom "Indtast skræddersyede broer">
 <!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et per linie)">
@@ -65,7 +65,7 @@
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan forbinde dig til Tor-netværket er det muligt at din internetudbyder (ISP) eller anden myndighed blokerer Tor. &#160; Det er ofte muligt at komme rundt om en blokade ved at bruge en Tor bro. En bro er et relæ som ikke er på den offentliggjorte liste og som derfor er sværere at blokkere.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
+<!ENTITY torsettings.bridgeHelp1B "Du kan bruge de prækonfigurerede, tildelte sæt af broadresser eller du kan få fat i et tilpasset sæt af adresser, ved at bruge en af disse metoder:">
 <!ENTITY torsettings.bridgeHelp2Heading "På nettet">
 <!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske email service">
