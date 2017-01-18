@@ -48,7 +48,7 @@
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresse eller værtsnavn">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Brugernavn:">
-<!ENTITY torsettings.useProxy.password "Kodeord:">
+<!ENTITY torsettings.useProxy.password "Adgangskode:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
