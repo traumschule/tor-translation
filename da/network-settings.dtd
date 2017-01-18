@@ -22,12 +22,12 @@
 <!ENTITY torSettings.proxyPageTitle "Lokale proxy indstillinger">
 <!ENTITY torSettings.proxyQuestion "Behøver denne computer bruge en lokal proxy for at tilgå Internettet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation1 "I de fleste tilfælde er en lokal proxy ikke nødvendig, men det kan være krævet når der oprettes forbindelse gennem netværket i et firma, skole eller universitet.">
+<!ENTITY torSettings.proxyExplanation2 "Hvis du ikke er sikker på hvad du skal svare til dette spørgsmål, så kig i internetindstillingerne i en anden browser og tjek dit systems netværksindstillinger, for at se hvorvidt det er nødvendigt med en lokal proxy.">
 <!ENTITY torSettings.enterProxy "Indtast proxy-indstillinger.">
 <!ENTITY torSettings.bridgePageTitle "Tor bridge konfiguration">
 <!ENTITY torSettings.bridgeQuestion "Blokerer eller censurerer din internetudbyder (ISP) forbindelser til Tor-netværket?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
+<!ENTITY torSettings.bridgeExplanation1 "Hvis du ikke er sikker på hvad du skal svare til dette spørgsmål, så vælg Nej (hvis du ikke er i stand til at oprette forbindelse til Tor-netværket gennem en bro, så kan du tilføje en senere).">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruge det tildelte sæt broer eller du kan hente og indtaste et skræddersyet sæt broer.">
 
