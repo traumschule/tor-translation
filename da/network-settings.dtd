@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor netværksindstillinger">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser Sprog">
+<!ENTITY torlauncher.localePicker.title "Tor Browser sprog">
 <!ENTITY torlauncher.localePicker.prompt "Vælg venligst et sprog.">
 
 <!-- For "first run" wizard: -->
