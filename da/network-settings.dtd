@@ -66,7 +66,7 @@
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
 <!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan oprette forbindelse til Tor-netværket er det muligt at din internetudbyder (ISP) eller anden myndighed blokerer Tor. &#160; Det er ofte muligt at omgå problemet ved at bruge Tor-broer. En bro er et relæ som ikke er på den offentliggjorte liste og som derfor er sværere at blokkere.">
 <!ENTITY torsettings.bridgeHelp1B "Du kan bruge de prækonfigurerede, tildelte sæt af broadresser eller du kan få fat i et tilpasset sæt af adresser, ved at bruge en af disse metoder:">
-<!ENTITY torsettings.bridgeHelp2Heading "På nettet">
+<!ENTITY torsettings.bridgeHelp2Heading "Gennem webbet">
 <!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske e-mail-service">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send e-mail til bridges@torproject.org med linjen &quot;get bridges&quot; som det eneste i beskedteksten.&#160; Men, for at gøre det sværere for en angriber at få kendskab til en masse broadresser, skal du sende din forespørgsel fra en af de følgende e-mailudbydere (i foretrukket rækkefølge):">
