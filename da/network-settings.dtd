@@ -20,7 +20,7 @@
 <!ENTITY torSettings.connect "Tilslut">
 
 <!ENTITY torSettings.proxyPageTitle "Lokale proxy indstillinger">
-<!ENTITY torSettings.proxyQuestion "Behøver denne computer bruge en lokal proxy for at tilgå Internettet?">
+<!ENTITY torSettings.proxyQuestion "Behøver denne computer bruge en lokal proxy for at tilgå internettet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "I de fleste tilfælde er en lokal proxy ikke nødvendig, men det kan være krævet når der oprettes forbindelse gennem netværket i en virksomhed, skole eller universitet.">
 <!ENTITY torSettings.proxyExplanation2 "Hvis du ikke er sikker på hvad du skal svare til dette spørgsmål, så kig i internetindstillingerne i en anden browser og tjek dit systems netværksindstillinger, for at se hvorvidt det er nødvendigt med en lokal proxy.">
@@ -42,7 +42,7 @@
 
 <!ENTITY torsettings.optional "Valgfri">
 
-<!ENTITY torsettings.useProxy.checkbox "Denne computer skal bruge en lokal proxy for at tilgå Internettet">
+<!ENTITY torsettings.useProxy.checkbox "Denne computer skal bruge en lokal proxy for at tilgå internettet">
 <!ENTITY torsettings.useProxy.type "Proxy type:">
 <!ENTITY torsettings.useProxy.address "Adresse:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresse eller værtsnavn">
