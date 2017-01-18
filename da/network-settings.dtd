@@ -51,7 +51,7 @@
 <!ENTITY torsettings.useProxy.password "Adgangskode:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
-<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.useProxy.type.http "HTTP/HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Denne computer går gennem en firewall som kun tillader forbindelse til specifikke porte">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
 <!ENTITY torsettings.useBridges.checkbox "Min internetudbyder (ISP) blokerer forbindelser til Tor-netværket">
@@ -59,7 +59,7 @@
 <!ENTITY torsettings.useBridges.note "Hver type bro bruger forskellige metoder for at undgå censurering.&#160; Hvis en bro ikke virker, så prøv igen med en anden.">
 <!ENTITY torsettings.useBridges.type "Transport type:">
 <!ENTITY torsettings.useBridges.custom "Indtast skræddersyede broer">
-<!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et per linje)">
+<!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et pr. linje)">
 <!ENTITY torsettings.useBridges.placeholder "type adresse:port">
 
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
