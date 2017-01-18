@@ -68,8 +68,8 @@
 <!ENTITY torsettings.bridgeHelp1B "Du kan bruge de prækonfigurerede, tildelte sæt af broadresser eller du kan få fat i et tilpasset sæt af adresser, ved at bruge en af disse metoder:">
 <!ENTITY torsettings.bridgeHelp2Heading "På nettet">
 <!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske email service">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send e-mail til bridges@torproject.org med linjen 'get bridges' som det eneste i beskedteksten.&#160; Men, for at gøre det sværere for en angriber at få kendskab til en masse broadresser, skal du sende din forespørgsel fra en af de følgende e-mailudbydere (i foretrukket rækkefølge):">
+<!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske e-mail-service">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Send e-mail til bridges@torproject.org med linjen &quot;get bridges&quot; som det eneste i beskedteksten.&#160; Men, for at gøre det sværere for en angriber at få kendskab til en masse broadresser, skal du sende din forespørgsel fra en af de følgende e-mailudbydere (i foretrukket rækkefølge):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com eller https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Via vores Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "Som en sidste mulighed kan du bede om at få en bro adresse tilsendt ved at sende en venlig email to help@rt.torproject.org.&#160; Bemærk venligst at alle emails besvares manuelt.">
+<!ENTITY torsettings.bridgeHelp4 "Som en sidste mulighed kan du bede om at få en bro adresse tilsendt ved at sende en venlig e-mail to help@rt.torproject.org.&#160; Bemærk venligst at alle e-mails besvares manuelt.">
