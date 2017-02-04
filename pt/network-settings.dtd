@@ -22,12 +22,12 @@
 <!ENTITY torSettings.proxyPageTitle "Configuração do Proxy Local">
 <!ENTITY torSettings.proxyQuestion "Este computador precisa de utilizar um proxy para aceder à Internet?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation1 "Na maioria dos casos não é necessário um proxy local, mas poderá ser necessário ao ligar-se através da rede de uma empresa, escola ou universidade.">
+<!ENTITY torSettings.proxyExplanation2 "Se você não tem a certeza de como responder a esta pergunta, consulte as definições de Internet noutro navegador ou verifique as definições de rede do seu sistema para certificar-se de que necessita de um proxy local.">
 <!ENTITY torSettings.enterProxy "Insira as definições do proxy.">
 <!ENTITY torSettings.bridgePageTitle "Configuração das Pontes Tor">
 <!ENTITY torSettings.bridgeQuestion "O seu Provedor de Serviços da Internet (ISP) bloqueia ou então censura as ligações à Rede Tor?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
+<!ENTITY torSettings.bridgeExplanation1 "Se você não tem a certeza sobre como responder a esta questão, escolha Não (se não consegue ligar-se à rede Tor sem uma ponte, você pode adicionar uma mais tarde).">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Poderá utilizar o conjunto de pontes fornecido ou poderá obter um conjunto de pontes personalizadas.">
 
