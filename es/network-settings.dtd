@@ -13,9 +13,9 @@
 
 <!ENTITY torSettings.firstQuestion "¿Cuál de las siguientes opciones describe mejor su situación?">
 <!ENTITY torSettings.configurePrompt1 "La conexión a Internet de este equipo está censurada o proxificada.">
-<!ENTITY torSettings.configurePrompt2 "Necesito configurar los ajustes de puente de red o proxy local antes de conectar a la red Tor. ">
+<!ENTITY torSettings.configurePrompt2 "Necesito configurar puentes de red o proxy local antes de conectar a la red Tor. ">
 <!ENTITY torSettings.configure "Configurar">
-<!ENTITY torSettings.connectPrompt2 "Quisiera hacer una conexión directa a la red Tor.">
+<!ENTITY torSettings.connectPrompt2 "Me gustaría conectar directamente a la red Tor.">
 <!ENTITY torSettings.connectPrompt3 "Esto funcionará en la mayoría de las situaciones.">
 <!ENTITY torSettings.connect "Conectar">
 
