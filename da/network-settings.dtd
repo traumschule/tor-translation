@@ -68,7 +68,7 @@
 <!ENTITY torsettings.bridgeHelp1B "Du kan bruge de prækonfigurerede, tildelte sæt af broadresser eller du kan få fat i et tilpasset sæt af adresser, ved at bruge en af disse metoder:">
 <!ENTITY torsettings.bridgeHelp2Heading "Gennem webbet">
 <!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske e-mail-service">
+<!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske e-mailservice">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send e-mail til bridges@torproject.org med linjen &quot;get bridges&quot; som det eneste i beskedteksten.&#160; Men, for at gøre det sværere for en angriber at få kendskab til en masse broadresser, skal du sende din forespørgsel fra en af de følgende e-mailudbydere (i foretrukket rækkefølge):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com eller https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Via vores Help Desk">
