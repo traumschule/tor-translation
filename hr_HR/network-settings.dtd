@@ -1,4 +1,4 @@
-<!ENTITY torsettings.dialog.title "Tor mrežne postavke">
+<!ENTITY torsettings.dialog.title "Postavke Tor mreže">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Jezik Tor Browsera">
