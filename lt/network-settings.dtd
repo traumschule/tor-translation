@@ -35,7 +35,7 @@
 
 <!ENTITY torsettings.startingTor "Waiting for Tor to start…">
 <!ENTITY torsettings.restartTor "Pakartotinai paleisti Tor">
-<!ENTITY torsettings.reconfigTor "Reconfigure">
+<!ENTITY torsettings.reconfigTor "Konfigūruoti iš naujo">
 
 <!ENTITY torsettings.discardSettings.prompt "Jūs esate sukofigūravę Tor tinklų tiltus arba esate įrašę vietinio įgaliotojo serverio nustatymus.&#160; Tam, kad galėtumėte tiesiogiai prisijungti prie Tor tinklo, šie nustatymai privalo būti pašalinti.">
 <!ENTITY torsettings.discardSettings.proceed "Šalinti nustatymus ir prisijungti">
@@ -57,7 +57,7 @@
 <!ENTITY torsettings.useBridges.checkbox "Mano interneto paslaugų tiekėjas (ISP) blokuoja prisijungimus prie Tor tinklo">
 <!ENTITY torsettings.useBridges.default "Connect with provided bridges">
 <!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
-<!ENTITY torsettings.useBridges.type "Transport type:">
+<!ENTITY torsettings.useBridges.type "Perdavimo tipas:">
 <!ENTITY torsettings.useBridges.custom "Enter custom bridges">
 <!ENTITY torsettings.useBridges.label "Įveskite vieną ar daugiau tinklų tilto retransliavimus (kiekvieną atskiroje eilutėje).">
 <!ENTITY torsettings.useBridges.placeholder "įrašykite adresą:prievadą">
