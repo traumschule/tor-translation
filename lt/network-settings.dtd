@@ -11,7 +11,7 @@
 <!ENTITY torSettings.yes "Taip">
 <!ENTITY torSettings.no "Ne">
 
-<!ENTITY torSettings.firstQuestion "Kuris iš žemiau pateiktų apibrėžimų labiausiai atspindi Jūsų padėtį?">
+<!ENTITY torSettings.firstQuestion "Kuris iš žemiau pateiktų apibrėžimų labiausiai atspindi jūsų padėtį?">
 <!ENTITY torSettings.configurePrompt1 "Šio kompiuterio interneto ryšys yra cenzūruojamas arba jungiamas per įgaliotąjį serverį.">
 <!ENTITY torSettings.configurePrompt2 "Prieš jungiantis prie Tor&#160;tinklo, man reikia sukonfigūruoti tinklų tiltą ar vietinius įgaliotojo serverio nustatymus.">
 <!ENTITY torSettings.configure "Konfigūruoti">
@@ -25,10 +25,10 @@
 <!ENTITY torSettings.proxyExplanation1 "Daugeliu atveju, vietinis įgaliotasis serveris yra nereikalingas, tačiau jo gali prireikti, jungiantis per kompanijos, mokyklos ar universiteto tinklą.">
 <!ENTITY torSettings.proxyExplanation2 "Jeigu nesate tikri kaip atsakyti į šį klausimą, pažiūrėkite interneto nustatymus kitoje naršyklėje arba patikrinkite savo sistemos tinklo nustatymus, kad pamatytumėte ar vietinis įgaliotasis serveris yra reikalingas.">
 <!ENTITY torSettings.enterProxy "Įrašykite įgaliotojo serverio nustatymus.">
-<!ENTITY torSettings.bridgePageTitle "Tor tiltų konfigūracija">
+<!ENTITY torSettings.bridgePageTitle "Tor tinklų tiltų konfigūracija">
 <!ENTITY torSettings.bridgeQuestion "Ar jūsų interneto paslaugų tiekėjas (ISP) blokuoja ar kitaip cenzūruoja prisijungimus prie Tor tinklo?">
 <!ENTITY torSettings.bridgeExplanation1 "Jeigu nesate tikri kaip atsakyti į šį klausimą, pasirinkite Ne (jeigu negalėsite prisijungti prie Tor tinklo be tinklų tilto, tuomet galėsite jį pridėti vėliau).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation2 "Jeigu pasirinksite Taip, jūsų bus paprašyta sukonfigūruoti Tor tinklų tiltus, kurie yra neišvardyti retransliavimai, trukdantys blokuoti ryšius su Tor tinklu.">
 <!ENTITY torSettings.bridgeSettingsPrompt "You may use the provided set of bridges or you may obtain and enter a custom set of bridges.">
 
 <!-- Other: -->
