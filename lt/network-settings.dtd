@@ -59,7 +59,7 @@
 <!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
 <!ENTITY torsettings.useBridges.type "Transport type:">
 <!ENTITY torsettings.useBridges.custom "Enter custom bridges">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
+<!ENTITY torsettings.useBridges.label "Įveskite vieną ar daugiau tinklų tilto retransliavimus (kiekvieną atskiroje eilutėje).">
 <!ENTITY torsettings.useBridges.placeholder "įrašykite adresą:prievadą">
 
 <!ENTITY torsettings.copyLog "Kopijuoti Tor žurnalą į iškarpinę">
