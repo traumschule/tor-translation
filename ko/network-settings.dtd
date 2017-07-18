@@ -6,7 +6,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Tor 네트워크에 연결을 시도하기 전에, 이 컴퓨터의 인터넷 연결에 대한 정보를 제공해야합니다.">
+<!ENTITY torsettings.prompt "Tor 네트워크에 연결을 시도하기 전에, 이 컴퓨터의 인터넷 연결에 대한 정보를 제공해야 합니다.">
 
 <!ENTITY torSettings.yes "예">
 <!ENTITY torSettings.no "아니오">
@@ -27,9 +27,9 @@
 <!ENTITY torSettings.enterProxy "프록시 설정에 들어갑니다.">
 <!ENTITY torSettings.bridgePageTitle "Tor 브릿지 설정">
 <!ENTITY torSettings.bridgeQuestion "인터넷 서비스 공급자(ISP)가 Tor 네트워크 접속을 차단하거나 검열하고 있나요?">
-<!ENTITY torSettings.bridgeExplanation1 "이 질문에 대답하는 방법을 모르면 아니오를 선택하십시오 (브릿지 없이 Tor 네트워크에 연결할 수 없는 경우 나중에 추가 할 수 있습니다).">
+<!ENTITY torSettings.bridgeExplanation1 "이 질문에 대답하는 방법을 모르면 아니오를 선택하십시오 (브리지 없이 Tor 네트워크에 연결할 수 없는 경우 나중에 추가 할 수 있습니다).">
 <!ENTITY torSettings.bridgeExplanation2 "예를 선택하면 Tor 네트워크에 대한 연결을 차단하기가 더 어려워지는 목록에 없는 릴레이 인 Tor 브리지를 구성하라는 메시지가 표시됩니다.">
-<!ENTITY torSettings.bridgeSettingsPrompt "제공된 브릿지 세트를 사용하거나 사용자 지정 브릿지 세트를 취득하여 입력 할 수 있습니다.">
+<!ENTITY torSettings.bridgeSettingsPrompt "제공된 브리지 세트를 사용하거나 사용자 지정 브리지 세트를 취득하여 입력 할 수 있습니다.">
 
 <!-- Other: -->
 
@@ -72,4 +72,4 @@
 <!ENTITY torsettings.bridgeHelp3.emailDesc "공개 브릿지 주소를 찾는 또 하나의 방법은 본문에 'get bridges'라고 적은 E-mail을 bridges@torproject.org 앞으로 보내는 것입니다.&#160; 단, 브릿지 주소를 크래커들이 수집하기 어렵게 하기 위해  아래의 이메일(우선순위대로 기재되어 있음)으로 보내주시면 감사하겠습니다.">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, 또는 https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "헬프 데스크를 통해">
-<!ENTITY torsettings.bridgeHelp4 "최후의 수단으로 help@rt.torproject.org에 정중 한 메일 메시지를 보내 브릿지 주소를 요청할 수 있습니다.&#160; 사람이 각 요청에 대응할 필요가 있다는 점에 주의해주십시오">
+<!ENTITY torsettings.bridgeHelp4 "최후의 수단으로 help@rt.torproject.org에 정중한 메일 메시지를 보내 브릿지 주소를 요청할 수 있습니다.&#160; 사람이 각 요청에 대응할 필요가 있다는 점에 주의 해주십시오">
