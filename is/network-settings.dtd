@@ -19,8 +19,8 @@
 <!ENTITY torSettings.connectPrompt3 "Þetta mun virka í flestum tilfellum.">
 <!ENTITY torSettings.connect "Tengjast">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyPageTitle "Uppsetning á staðværum milliþjóni (local proxy)">
+<!ENTITY torSettings.proxyQuestion "Þarf þessi tölva staðværan milliþjón (local proxy) til að fá aðgang að Internetinu?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
