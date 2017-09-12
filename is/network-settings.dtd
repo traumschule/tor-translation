@@ -6,7 +6,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Before you connect to the Tor network, you need to provide information about this computer's Internet connection.">
+<!ENTITY torsettings.prompt "Áður en þú tengist Tor-netinu, verðurðu að gefa upplýsingar um Internet-tengingu tölvunnar.">
 
 <!ENTITY torSettings.yes "Já">
 <!ENTITY torSettings.no "Nei">
