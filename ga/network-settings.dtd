@@ -59,10 +59,10 @@
 <!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
 <!ENTITY torsettings.useBridges.type "Cineál iompair:">
 <!ENTITY torsettings.useBridges.custom "Cuir isteach droichid saincheaptha">
-<!ENTITY torsettings.useBridges.label "Enter one or more bridge relays (one per line).">
-<!ENTITY torsettings.useBridges.placeholder "type address:port">
+<!ENTITY torsettings.useBridges.label "Cuir isteach droichead nó droichid (ceann amháin ar gach líne).">
+<!ENTITY torsettings.useBridges.placeholder "cineál seoladh:port">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
+<!ENTITY torsettings.copyLog "Cóipeáil an Logchomhad Tor go dtí an Ghearrthaisce">
 <!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
 <!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
