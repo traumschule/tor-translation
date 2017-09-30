@@ -28,7 +28,7 @@
 <!ENTITY torSettings.bridgePageTitle "תצורת גשרי Tor">
 <!ENTITY torSettings.bridgeQuestion "האם ספק שירותי האינטרנט (ISP) שלך חוסם או מצנזר חיבורים לרשת Tor?">
 <!ENTITY torSettings.bridgeExplanation1 "אם אינך בטוח כיצד לענות על שאלה זו, בחר לא (אם אינך מסוגל להתחבר לרשת Tor ללא גשר, אתה יכול להוסיף אחד אחר כך).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation2 "אם תבחר כן, תתבקש להגדיר גשרי Tor, שהם ממסרים שאינם ברשימה המקשים עוד יותר לחסום חיבורים לרשת Tor.">
 <!ENTITY torSettings.bridgeSettingsPrompt "אתה יכול להשתמש בסדרת הגשרים המסופקת או שאתה יכול לקבל ולהכניס סדרת גשרים מותאמת.">
 
 <!-- Other: -->
@@ -37,7 +37,7 @@
 <!ENTITY torsettings.restartTor "הפעל מחדש את Tor">
 <!ENTITY torsettings.reconfigTor "הגדר מחדש">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "הגדרת גשרי Tor או הכנסת הגדרות ייפוי-כוח מקומי.&#160; כדי לעשות חיבור ישיר לרשת Tor, הגדרות אלו חייבות להיות מוסרות.">
 <!ENTITY torsettings.discardSettings.proceed "הסר הגדרות והתחבר">
 
 <!ENTITY torsettings.optional "רשותי">
@@ -56,7 +56,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "פתחות מותרות:">
 <!ENTITY torsettings.useBridges.checkbox "ספק שירותי האינטרנט שלי (ISP) חוסם חיבורים לרשת Tor">
 <!ENTITY torsettings.useBridges.default "התחבר עם גשרים מסופקים">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "כל סוג של גשר משתמש בשיטה שונה כדי למנוע צנזורה.&#160; אם גשר אחד אינו עובד, נסה שוב ע&quot;י שימוש באחד אחר.">
 <!ENTITY torsettings.useBridges.type "סוג תעבורה:">
 <!ENTITY torsettings.useBridges.custom "הכנס גשרים מותאמים">
 <!ENTITY torsettings.useBridges.label "הכנס ממסר גשר אחד או יותר (אחד לשורה):">
@@ -65,7 +65,7 @@
 <!ENTITY torsettings.copyLog "העתק את יומן Tor ללוח החיתוך">
 <!ENTITY torsettings.bridgeHelpTitle "עזרת ממסרי גשר">
 <!ENTITY torsettings.bridgeHelp1 "אם אין באפשרותך להתחבר לרשת Tor, ייתכן שהסיבה לכך היא שספק האינטרנט שלך או גורם אחר חוסמים את Tor. לעתים קרובות, ניתן להתגבר על בעיה זו באמצעות שימוש בגשרים, שהם שרתים חסויים שקשה יותר לחסום אותם.">
-<!ENTITY torsettings.bridgeHelp1B "You may use the preconfigured, provided set of bridge addresses or you may obtain a custom set of addresses by using one of these methods:">
+<!ENTITY torsettings.bridgeHelp1B "אתה יכול להשתמש בסדרה המוגדרת מראש המסופקת של כתובות גשר או שאתה יכול לקבל סדרת כתובות מותאמת ע&quot;י שימוש באחת משיטות אלו:">
 <!ENTITY torsettings.bridgeHelp2Heading "באמצעות רשת האינטרנט">
 <!ENTITY torsettings.bridgeHelp2 "השתמש בדפדפן רשת כדי לבקר ב-https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "באמצעות מגיב הדוא&quot;לים האוטומטי">
