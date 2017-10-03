@@ -54,7 +54,7 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
 <!ENTITY torsettings.firewall.allowedPorts "Poirt Cheadaithe:">
-<!ENTITY torsettings.useBridges.checkbox "My Internet Service Provider (ISP) blocks connections to the Tor network">
+<!ENTITY torsettings.useBridges.checkbox "Cuireann mo Sholáthraí Seirbhís Idirlín (ISP) cosc ar cheangail le líonra Tor">
 <!ENTITY torsettings.useBridges.default "Ceangail le droichead ionsuite">
 <!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
 <!ENTITY torsettings.useBridges.type "Cineál iompair:">
@@ -67,8 +67,8 @@
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
 <!ENTITY torsettings.bridgeHelp1B "Is féidir leat na droichid ionsuite réamhshocraithe a úsáid, nó seoltaí de do chuid féin a fháil trí cheann de na bealaí seo a leanas:">
 <!ENTITY torsettings.bridgeHelp2Heading "Tríd an nGréasán">
-<!ENTITY torsettings.bridgeHelp2 "Use a web browser to visit https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Through the Email Autoresponder">
+<!ENTITY torsettings.bridgeHelp2 "Úsáid brabhsálaí Gréasáin chun cuairt a thabhairt ar https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Le Brabhsálaí Tor a íoslódáil trí Satori:">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, nó https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
