@@ -13,14 +13,14 @@
 
 <!ENTITY torSettings.firstQuestion "Cé acu díobh seo a leanas a dhéanann an cur síos is fearr ar an bhfadhb atá agat?">
 <!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
-<!ENTITY torSettings.configurePrompt2 "I need to configure bridge or local proxy settings before I connect to the Tor&#160;network.">
+<!ENTITY torSettings.configurePrompt2 "Caithfidh mé droichead nó seachfhreastalaí áitiúil a chumrú sula ndéanfaidh mé ceangal le líonra&amp;160;Tor.">
 <!ENTITY torSettings.configure "Cumraigh">
 <!ENTITY torSettings.connectPrompt2 "Ba mhaith liom ceangal go díreach le líonra Tor.">
-<!ENTITY torSettings.connectPrompt3 "This will work in most situations.">
+<!ENTITY torSettings.connectPrompt3 "Oibreoidh sé seo an chuid is mó den am.">
 <!ENTITY torSettings.connect "Ceangail">
 
-<!ENTITY torSettings.proxyPageTitle "Local Proxy Configuration">
-<!ENTITY torSettings.proxyQuestion "Does this computer need to use a local proxy to access the Internet?">
+<!ENTITY torSettings.proxyPageTitle "Cumraíocht Sheachfhreastalaí Áitiúil">
+<!ENTITY torSettings.proxyQuestion "An bhfuil seachfhreastalaí áitiúil ag teastáil ón ríomhaire seo le ceangal leis an Idirlíon?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
 <!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
 <!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
