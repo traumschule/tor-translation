@@ -68,7 +68,7 @@
 <!ENTITY torsettings.bridgeHelp1B "Is féidir leat na droichid ionsuite réamhshocraithe a úsáid, nó seoltaí de do chuid féin a fháil trí cheann de na bealaí seo a leanas:">
 <!ENTITY torsettings.bridgeHelp2Heading "Tríd an nGréasán">
 <!ENTITY torsettings.bridgeHelp2 "Úsáid brabhsálaí Gréasáin chun cuairt a thabhairt ar https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Le Brabhsálaí Tor a íoslódáil trí Satori:">
+<!ENTITY torsettings.bridgeHelp3Heading "Tríd an Uathfhreagróir Ríomhphoist">
 <!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, nó https://mail.yahoo.com">
 <!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
