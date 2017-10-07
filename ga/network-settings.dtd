@@ -22,11 +22,11 @@
 <!ENTITY torSettings.proxyPageTitle "Cumraíocht Sheachfhreastalaí Áitiúil">
 <!ENTITY torSettings.proxyQuestion "An bhfuil seachfhreastalaí áitiúil ag teastáil ón ríomhaire seo le ceangal leis an Idirlíon?">
 <!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In most cases a local proxy is not needed, but it may be required when connecting through a company, school, or university network.">
-<!ENTITY torSettings.proxyExplanation2 "If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a local proxy is needed.">
+<!ENTITY torSettings.proxyExplanation1 "Ní bhíonn seachfhreastalaí áitiúil ag teastáil an chuid is mó den am, ach b'fhéidir go mbeadh gá leis dá mbeifeá ag ceangal trí chomhlacht, scoil, nó ollscoil.">
+<!ENTITY torSettings.proxyExplanation2 "Mura bhfuil tú cinnte faoin fhreagra ba chóir duit a thabhairt, caith súil ar na socruithe Idirlín i mbrabhsálaí eile, nó ar shocruithe líonra do chórais, le fáil amach an bhfuil seachfhreastalaí de dhíth.">
 <!ENTITY torSettings.enterProxy "Cuir isteach socruithe an tseachfhreastalaí.">
 <!ENTITY torSettings.bridgePageTitle "Cumraíocht Droichead Tor">
-<!ENTITY torSettings.bridgeQuestion "Does your Internet Service Provider (ISP) block or otherwise censor connections to the Tor Network?">
+<!ENTITY torSettings.bridgeQuestion "An bhfuil do Sholáthraí Seirbhíse Idirlín (ISP) ag cur cosc ar, nó ag déanamh cinsireacht ar Líonra Tor?">
 <!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
 <!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Is féidir leat na droichid ionsuite a úsáid, nó droichid de do chuid féin a fháil agus a chur isteach.">
