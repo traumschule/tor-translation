@@ -11,8 +11,8 @@
 <!ENTITY torSettings.yes "Tá">
 <!ENTITY torSettings.no "Níl">
 
-<!ENTITY torSettings.firstQuestion "Cé acu díobh seo a leanas a dhéanann an cur síos is fearr ar an bhfadhb atá agat?">
-<!ENTITY torSettings.configurePrompt1 "This computer's Internet connection is censored or proxied.">
+<!ENTITY torSettings.firstQuestion "Cé acu díobh seo a leanas a dhéanann an cur síos is fearr ar do chás-sa?">
+<!ENTITY torSettings.configurePrompt1 "Úsáideann an ríomhaire seo ceangal Idirlín faoi chinsireacht nó úsáideann sé seachfhreastalaí.">
 <!ENTITY torSettings.configurePrompt2 "Caithfidh mé droichead nó seachfhreastalaí áitiúil a chumrú sula ndéanfaidh mé ceangal le líonra&amp;160;Tor.">
 <!ENTITY torSettings.configure "Cumraigh">
 <!ENTITY torSettings.connectPrompt2 "Ba mhaith liom ceangal go díreach le líonra Tor.">
