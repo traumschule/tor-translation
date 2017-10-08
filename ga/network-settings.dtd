@@ -37,12 +37,12 @@
 <!ENTITY torsettings.restartTor "Atosaigh Tor">
 <!ENTITY torsettings.reconfigTor "Athchumraigh">
 
-<!ENTITY torsettings.discardSettings.prompt "Chumraigh tú droichid Tor nó shocraigh tú seachfhreastalaí áitiúil roimhe seo.&amp;160;Chun ceangal díreach le líonra Tor a bhunú, caithfidh tú na socruithe seo a scriosadh.">
+<!ENTITY torsettings.discardSettings.prompt "Chumraigh tú droichid Tor nó shocraigh tú seachfhreastalaí áitiúil roimhe seo.&amp;160; Chun ceangal díreach le líonra Tor a bhunú, caithfidh tú na socruithe seo a scriosadh.">
 <!ENTITY torsettings.discardSettings.proceed "Scrios na Socruithe agus Ceangail">
 
 <!ENTITY torsettings.optional "Roghnach">
 
-<!ENTITY torsettings.useProxy.checkbox "Teastaíonn seachfhreastalaí ón ríomhaire seo chun ceangal leis an Idirlíon">
+<!ENTITY torsettings.useProxy.checkbox "Teastaíonn seachfhreastalaí áitiúil ón ríomhaire seo chun ceangal leis an Idirlíon">
 <!ENTITY torsettings.useProxy.type "Cineál an tSeachfhreastalaí:">
 <!ENTITY torsettings.useProxy.address "Seoladh:">
 <!ENTITY torsettings.useProxy.address.placeholder "Seoladh IP nó óstainm">
@@ -64,12 +64,12 @@
 
 <!ENTITY torsettings.copyLog "Cóipeáil an Logchomhad Tor go dtí an Ghearrthaisce">
 <!ENTITY torsettings.bridgeHelpTitle "Cabhair le Droichid">
-<!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
+<!ENTITY torsettings.bridgeHelp1 "Mura bhfuil tú in ann ceangal le líonra Tor, b'fhéidir go bhfuil do Sholáthraí Seirbhíse Idirlín (ISP) nó eagraíocht eile ag cur cosc ar Tor.&amp;160; Go minic, is féidir Droichid Tor a úsáid chun an fhadhb seo a sheachaint, toisc go bhfuil sé níos deacra cosc a chur orthu.">
 <!ENTITY torsettings.bridgeHelp1B "Is féidir leat na droichid ionsuite réamhshocraithe a úsáid, nó seoltaí de do chuid féin a fháil trí cheann de na bealaí seo a leanas:">
 <!ENTITY torsettings.bridgeHelp2Heading "Tríd an nGréasán">
 <!ENTITY torsettings.bridgeHelp2 "Úsáid brabhsálaí Gréasáin chun cuairt a thabhairt ar https://bridges.torproject.org">
 <!ENTITY torsettings.bridgeHelp3Heading "Tríd an Uathfhreagróir Ríomhphoist">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send email to bridges@torproject.org with the line 'get bridges' by itself in the body of the message.&#160; However, to make it harder for an attacker to learn a lot of bridge addresses, you must send this request from one of the following email providers (listed in order of preference):">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Seol teachtaireacht ríomhphoist chuig bridges@torproject.org leis an líne amháin 'get bridges' i gcorp na teachtaireachta.&amp;160; Ionas go mbeidh sé níos deacra d'ionsaitheoir go leor seoltaí droichid a fhoghlaim, ní mór duit an t-iarratas seo a sheoladh ó cheann de na soláthraithe rphoist seo a leanas (in ord tosaíochta):">
 <!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, nó https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Through the Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "As a last resort, you can request bridge addresses by sending a polite email message to help@rt.torproject.org.&#160; Please note that a person will need to respond to each request.">
+<!ENTITY torsettings.bridgeHelp4Heading "Tríd an Deasc Chabhrach">
+<!ENTITY torsettings.bridgeHelp4 "Mar an rogha dheiridh, is féidir leat seoltaí droichid a iarraidh trí theachtaireacht dhea-bhéasach a sheoladh chuig help@rt.torproject.org.&#160; Tabhair faoi deara gurb é neach daonna a thabharfaidh freagra ar gach iarratas.">
