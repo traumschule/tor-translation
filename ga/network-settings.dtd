@@ -1,0 +1,75 @@
+<!ENTITY torsettings.dialog.title "Socruithe Líonra Tor">
+
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Teanga Bhrabhsálaí Tor">
+<!ENTITY torlauncher.localePicker.prompt "Roghnaigh teanga.">
+
+<!-- For "first run" wizard: -->
+
+<!ENTITY torsettings.prompt "Sular féidir leat ceangal a bhunú le líonra Tor, caithfidh tú tuilleadh eolais a sholáthar maidir le ceangal Idirlín an ríomhaire seo.">
+
+<!ENTITY torSettings.yes "Tá">
+<!ENTITY torSettings.no "Níl">
+
+<!ENTITY torSettings.firstQuestion "Cé acu díobh seo a leanas a dhéanann an cur síos is fearr ar do chás-sa?">
+<!ENTITY torSettings.configurePrompt1 "Úsáideann an ríomhaire seo ceangal Idirlín faoi chinsireacht nó úsáideann sé seachfhreastalaí.">
+<!ENTITY torSettings.configurePrompt2 "Caithfidh mé droichead nó seachfhreastalaí áitiúil a chumrú sula ndéanfaidh mé ceangal le líonra&amp;160;Tor.">
+<!ENTITY torSettings.configure "Cumraigh">
+<!ENTITY torSettings.connectPrompt2 "Ba mhaith liom ceangal go díreach le líonra Tor.">
+<!ENTITY torSettings.connectPrompt3 "Oibreoidh sé seo an chuid is mó den am.">
+<!ENTITY torSettings.connect "Ceangail">
+
+<!ENTITY torSettings.proxyPageTitle "Cumraíocht Sheachfhreastalaí Áitiúil">
+<!ENTITY torSettings.proxyQuestion "An bhfuil seachfhreastalaí áitiúil ag teastáil ón ríomhaire seo le ceangal leis an Idirlíon?">
+<!-- see https://www.torproject.org/docs/proxychain.html.en -->
+<!ENTITY torSettings.proxyExplanation1 "Ní bhíonn seachfhreastalaí áitiúil ag teastáil an chuid is mó den am, ach b'fhéidir go mbeadh gá leis dá mbeifeá ag ceangal trí chomhlacht, scoil, nó ollscoil.">
+<!ENTITY torSettings.proxyExplanation2 "Mura bhfuil tú cinnte faoin fhreagra ba chóir duit a thabhairt, caith súil ar na socruithe Idirlín i mbrabhsálaí eile, nó ar shocruithe líonra do chórais, le fáil amach an bhfuil seachfhreastalaí de dhíth.">
+<!ENTITY torSettings.enterProxy "Cuir isteach socruithe an tseachfhreastalaí.">
+<!ENTITY torSettings.bridgePageTitle "Cumraíocht Droichead Tor">
+<!ENTITY torSettings.bridgeQuestion "An bhfuil do Sholáthraí Seirbhíse Idirlín (ISP) ag cur cosc ar, nó ag déanamh cinsireacht ar Líonra Tor?">
+<!ENTITY torSettings.bridgeExplanation1 "Mura bhfuil tú cinnte faoin fhreagra ba chóir duit a thabhairt, roghnaigh &quot;Níl&quot; (agus mura bhfuil tú in ann ceangal le líonra Tor gan droichead a úsáid, beidh tú ábalta ceann a shocrú ar ball).">
+<!ENTITY torSettings.bridgeExplanation2 "Má roghnaíonn tú &quot;Tá&quot;, iarrfar ort Droichid Tor a chumrú. Tá sé níos deacra cosc a chur ar cheangail le Líonra Tor nuair a úsáideann tú na hathsheachadáin neamhliostaithe seo.">
+<!ENTITY torSettings.bridgeSettingsPrompt "Is féidir leat na droichid ionsuite a úsáid, nó droichid de do chuid féin a fháil agus a chur isteach.">
+
+<!-- Other: -->
+
+<!ENTITY torsettings.startingTor "An fanacht go dtosóidh Tor...">
+<!ENTITY torsettings.restartTor "Atosaigh Tor">
+<!ENTITY torsettings.reconfigTor "Athchumraigh">
+
+<!ENTITY torsettings.discardSettings.prompt "Chumraigh tú droichid Tor nó shocraigh tú seachfhreastalaí áitiúil roimhe seo.&amp;160; Chun ceangal díreach le líonra Tor a bhunú, caithfidh tú na socruithe seo a scriosadh.">
+<!ENTITY torsettings.discardSettings.proceed "Scrios na Socruithe agus Ceangail">
+
+<!ENTITY torsettings.optional "Roghnach">
+
+<!ENTITY torsettings.useProxy.checkbox "Teastaíonn seachfhreastalaí áitiúil ón ríomhaire seo chun ceangal leis an Idirlíon">
+<!ENTITY torsettings.useProxy.type "Cineál an tSeachfhreastalaí:">
+<!ENTITY torsettings.useProxy.address "Seoladh:">
+<!ENTITY torsettings.useProxy.address.placeholder "Seoladh IP nó óstainm">
+<!ENTITY torsettings.useProxy.port "Port:">
+<!ENTITY torsettings.useProxy.username "Ainm úsáideora:">
+<!ENTITY torsettings.useProxy.password "Focal faire:">
+<!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
+<!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
+<!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
+<!ENTITY torsettings.firewall.checkbox "Téann an ríomhaire seo trí bhalla dóiteáin nach gceadaíonn ceangail ach le poirt áirithe">
+<!ENTITY torsettings.firewall.allowedPorts "Poirt Cheadaithe:">
+<!ENTITY torsettings.useBridges.checkbox "Cuireann mo Sholáthraí Seirbhís Idirlín (ISP) cosc ar cheangail le líonra Tor">
+<!ENTITY torsettings.useBridges.default "Ceangail le droichead ionsuite">
+<!ENTITY torsettings.useBridges.note "Úsáideann gach cineál droichid modh difriúil leis an gcinsireacht a sheachaint.&amp;160; Mura n-oibríonn droichead amháín, bain triail as ceann eile.">
+<!ENTITY torsettings.useBridges.type "Cineál iompair:">
+<!ENTITY torsettings.useBridges.custom "Cuir isteach droichid saincheaptha">
+<!ENTITY torsettings.useBridges.label "Cuir isteach droichead nó droichid (ceann amháin ar gach líne).">
+<!ENTITY torsettings.useBridges.placeholder "cineál seoladh:port">
+
+<!ENTITY torsettings.copyLog "Cóipeáil an Logchomhad Tor go dtí an Ghearrthaisce">
+<!ENTITY torsettings.bridgeHelpTitle "Cabhair le Droichid">
+<!ENTITY torsettings.bridgeHelp1 "Mura bhfuil tú in ann ceangal le líonra Tor, b'fhéidir go bhfuil do Sholáthraí Seirbhíse Idirlín (ISP) nó eagraíocht eile ag cur cosc ar Tor.&amp;160; Go minic, is féidir Droichid Tor a úsáid chun an fhadhb seo a sheachaint, toisc go bhfuil sé níos deacra cosc a chur orthu.">
+<!ENTITY torsettings.bridgeHelp1B "Is féidir leat na droichid ionsuite réamhshocraithe a úsáid, nó seoltaí de do chuid féin a fháil trí cheann de na bealaí seo a leanas:">
+<!ENTITY torsettings.bridgeHelp2Heading "Tríd an nGréasán">
+<!ENTITY torsettings.bridgeHelp2 "Úsáid brabhsálaí Gréasáin chun cuairt a thabhairt ar https://bridges.torproject.org">
+<!ENTITY torsettings.bridgeHelp3Heading "Tríd an Uathfhreagróir Ríomhphoist">
+<!ENTITY torsettings.bridgeHelp3.emailDesc "Seol teachtaireacht ríomhphoist chuig bridges@torproject.org leis an líne amháin 'get bridges' i gcorp na teachtaireachta.&amp;160; Ionas go mbeidh sé níos deacra d'ionsaitheoir go leor seoltaí droichid a fhoghlaim, ní mór duit an t-iarratas seo a sheoladh ó cheann de na soláthraithe rphoist seo a leanas (in ord tosaíochta):">
+<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, nó https://mail.yahoo.com">
+<!ENTITY torsettings.bridgeHelp4Heading "Tríd an Deasc Chabhrach">
+<!ENTITY torsettings.bridgeHelp4 "Mar an rogha dheiridh, is féidir leat seoltaí droichid a iarraidh trí theachtaireacht dhea-bhéasach a sheoladh chuig help@rt.torproject.org.&#160; Tabhair faoi deara gurb é neach daonna a thabharfaidh freagra ar gach iarratas.">
