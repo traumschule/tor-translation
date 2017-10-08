@@ -27,22 +27,22 @@
 <!ENTITY torSettings.enterProxy "Cuir isteach socruithe an tseachfhreastalaí.">
 <!ENTITY torSettings.bridgePageTitle "Cumraíocht Droichead Tor">
 <!ENTITY torSettings.bridgeQuestion "An bhfuil do Sholáthraí Seirbhíse Idirlín (ISP) ag cur cosc ar, nó ag déanamh cinsireacht ar Líonra Tor?">
-<!ENTITY torSettings.bridgeExplanation1 "If you are not sure how to answer this question, choose No (if you are unable to connect to the Tor network without a bridge, you can add one later).">
-<!ENTITY torSettings.bridgeExplanation2 "If you choose Yes, you will be asked to configure Tor Bridges, which are unlisted relays that make it more difficult to block connections to the Tor Network.">
+<!ENTITY torSettings.bridgeExplanation1 "Mura bhfuil tú cinnte faoin fhreagra ba chóir duit a thabhairt, roghnaigh &quot;Níl&quot; (agus mura bhfuil tú in ann ceangal le líonra Tor gan droichead a úsáid, beidh tú ábalta ceann a shocrú ar ball).">
+<!ENTITY torSettings.bridgeExplanation2 "Má roghnaíonn tú &quot;Tá&quot;, iarrfar ort Droichid Tor a chumrú. Tá sé níos deacra cosc a chur ar cheangail le Líonra Tor nuair a úsáideann tú na hathsheachadáin neamhliostaithe seo.">
 <!ENTITY torSettings.bridgeSettingsPrompt "Is féidir leat na droichid ionsuite a úsáid, nó droichid de do chuid féin a fháil agus a chur isteach.">
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "Waiting for Tor to start…">
+<!ENTITY torsettings.startingTor "An fanacht go dtosóidh Tor...">
 <!ENTITY torsettings.restartTor "Atosaigh Tor">
 <!ENTITY torsettings.reconfigTor "Athchumraigh">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
-<!ENTITY torsettings.discardSettings.proceed "Remove Settings and Connect">
+<!ENTITY torsettings.discardSettings.prompt "Chumraigh tú droichid Tor nó shocraigh tú seachfhreastalaí áitiúil roimhe seo.&amp;160;Chun ceangal díreach le líonra Tor a bhunú, caithfidh tú na socruithe seo a scriosadh.">
+<!ENTITY torsettings.discardSettings.proceed "Scrios na Socruithe agus Ceangail">
 
 <!ENTITY torsettings.optional "Roghnach">
 
-<!ENTITY torsettings.useProxy.checkbox "This computer needs to use a local proxy to access the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Teastaíonn seachfhreastalaí ón ríomhaire seo chun ceangal leis an Idirlíon">
 <!ENTITY torsettings.useProxy.type "Cineál an tSeachfhreastalaí:">
 <!ENTITY torsettings.useProxy.address "Seoladh:">
 <!ENTITY torsettings.useProxy.address.placeholder "Seoladh IP nó óstainm">
@@ -52,18 +52,18 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
+<!ENTITY torsettings.firewall.checkbox "Téann an ríomhaire seo trí bhalla dóiteáin nach gceadaíonn ceangail ach le poirt áirithe">
 <!ENTITY torsettings.firewall.allowedPorts "Poirt Cheadaithe:">
 <!ENTITY torsettings.useBridges.checkbox "Cuireann mo Sholáthraí Seirbhís Idirlín (ISP) cosc ar cheangail le líonra Tor">
 <!ENTITY torsettings.useBridges.default "Ceangail le droichead ionsuite">
-<!ENTITY torsettings.useBridges.note "Each type of bridge uses a different method to avoid censorship.&#160; If one bridge does not work, try again using a different one.">
+<!ENTITY torsettings.useBridges.note "Úsáideann gach cineál droichid modh difriúil leis an gcinsireacht a sheachaint.&amp;160; Mura n-oibríonn droichead amháín, bain triail as ceann eile.">
 <!ENTITY torsettings.useBridges.type "Cineál iompair:">
 <!ENTITY torsettings.useBridges.custom "Cuir isteach droichid saincheaptha">
 <!ENTITY torsettings.useBridges.label "Cuir isteach droichead nó droichid (ceann amháin ar gach líne).">
 <!ENTITY torsettings.useBridges.placeholder "cineál seoladh:port">
 
 <!ENTITY torsettings.copyLog "Cóipeáil an Logchomhad Tor go dtí an Ghearrthaisce">
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.bridgeHelpTitle "Cabhair le Droichid">
 <!ENTITY torsettings.bridgeHelp1 "If you are unable to connect to the Tor network, it could be that your Internet Service Provider (ISP) or another agency is blocking Tor.&#160; Often, you can work around this problem by using Tor Bridges, which are unlisted relays that are more difficult to block.">
 <!ENTITY torsettings.bridgeHelp1B "Is féidir leat na droichid ionsuite réamhshocraithe a úsáid, nó seoltaí de do chuid féin a fháil trí cheann de na bealaí seo a leanas:">
 <!ENTITY torsettings.bridgeHelp2Heading "Tríd an nGréasán">
