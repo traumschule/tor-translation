@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Paramètres du réseau Tor">
 <!ENTITY torsettings.wizard.title.default "Se connecter à Tor">
 <!ENTITY torsettings.wizard.title.configure "Paramètres du réseau Tor">
-<!ENTITY torsettings.wizard.title.connecting "Établissement d’une connection">
+<!ENTITY torsettings.wizard.title.connecting "Établissement d’une connexion">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Langue du navigateur Tor">
@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Cliquez sur « Se connecter » pour vous connecter à Tor.">
-<!ENTITY torSettings.configurePrompt "Cliquez sur « Configurer » pour ajuster les paramètres du réseau si vous êtes dans un pays  qui censure Tor ( tel que la Chine, l'Iran, la Syrie) ou si vous vous connectez d’un réseau privé qui exige un mandataire.">
+<!ENTITY torSettings.configurePrompt "Cliquez sur « Configurer » pour ajuster les paramètres du réseau si vous êtes dans un pays qui censure Tor (tel que la Chine, l’Iran, la Syrie) ou si vous vous connectez d’un réseau privé qui exige un mandataire.">
 <!ENTITY torSettings.configure "Configurer">
 <!ENTITY torSettings.connect "Se connecter">
 
@@ -25,7 +25,7 @@
 
 <!ENTITY torsettings.optional "Facultatif">
 
-<!ENTITY torsettings.useProxy.checkbox "J'utilise un mandataire pour accéder à Internet">
+<!ENTITY torsettings.useProxy.checkbox "J’utilise un mandataire pour accéder à Internet">
 <!ENTITY torsettings.useProxy.type "Type de mandataire :">
 <!ENTITY torsettings.useProxy.type.placeholder "sélectionner un type de mandataire">
 <!ENTITY torsettings.useProxy.address "Adresse :">
@@ -42,17 +42,17 @@
 <!ENTITY torsettings.useBridges.default "Sélectionner un pont intégré">
 <!ENTITY torsettings.useBridges.default.placeholder "sélectionner un pont">
 <!ENTITY torsettings.useBridges.custom "Fournir un pont que je connais">
-<!ENTITY torsettings.useBridges.label "Saisir des informations de pont provenant d'une source fiable">
+<!ENTITY torsettings.useBridges.label "Saisir des informations de pont provenant d’une source fiable">
 <!ENTITY torsettings.useBridges.placeholder "type adresse:port (un par ligne)">
 
 <!ENTITY torsettings.copyLog "Copier le journal de Tor dans le presse-papiers">
 
-<!ENTITY torsettings.proxyHelpTitle "Aide sur le mandataire">
-<!ENTITY torsettings.proxyHelp1 "Un mandataire local est requis lors d'une connexion par un réseau d'entreprise, d'école ou d’université.&#160;Si vous n’êtes pas certain de savoir comment répondre à cette question, vérifiez les paramètres Internet d’un autre navigateur ou les paramètres réseau de votre système pour voir si un mandataire est requis.">
+<!ENTITY torsettings.proxyHelpTitle "Aide sur les mandataires">
+<!ENTITY torsettings.proxyHelp1 "Un mandataire local est requis lors d’une connexion par un réseau d’entreprise, d’école ou d’université.&#160;Si vous n’êtes pas certain de savoir comment répondre à cette question, vérifiez les paramètres Internet d’un autre navigateur ou les paramètres réseau de votre système pour voir si un mandataire est requis.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Aide sur les relais-ponts">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "Les ponts sont des relais non référencés qui rendent les connexions au Tor réseau plus difficile à bloquer.&#160; Chaque type de pont utilise un moyen différent pour éviter la censure.&#160; Avec les ponts obfs, votre trafic ressemble à du bruit aléatoire et avec les ponts meek, il semble que votre trafic se connecte à ce service plutôt qu’à Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Dans la mesure où certains pays essaient de bloquer Tor, certains ponts fonctionnent dans certains pays, mais pas dans d’autres.&#160; Si vous ne savez pas quels ponts fonctionnent dans votre pays, visitez torproject.org/about/contact.html#support">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "Veuillez patienter pendant que nous établissons une connexion vers le réseau Tor.&#160; Cela pourrait prendre plusieurs minutes.">
