@@ -1,4 +1,7 @@
 <!ENTITY torsettings.dialog.title "הגדרות רשת Tor">
+<!ENTITY torsettings.wizard.title.default "התחבר אל Tor">
+<!ENTITY torsettings.wizard.title.configure "הגדרות רשת Tor">
+<!ENTITY torsettings.wizard.title.connecting "מקים חיבור">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "שפת דפדפן Tor">
@@ -6,30 +9,10 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "לפני שתתחבר לרשת Tor, אתה צריך לספק מידע על חיבור האינטרנט של מחשב זה.">
-
-<!ENTITY torSettings.yes "כן">
-<!ENTITY torSettings.no "לא">
-
-<!ENTITY torSettings.firstQuestion "אילו מן הבאים מתאר באופן הטוב ביותר את מצבך?">
-<!ENTITY torSettings.configurePrompt1 "חיבור האינטרנט של מחשב זה מסונן או עובר דרך ייפוי-כוח.">
-<!ENTITY torSettings.configurePrompt2 "אני צריך להגדיר הגדרות של גשר או ייפוי-כוח מקומי לפני שאתחבר לרשת&#160;Tor.">
+<!ENTITY torSettings.connectPrompt "לחץ על “התחבר“ כדי להתחבר אל Tor.">
+<!ENTITY torSettings.configurePrompt "לחץ על “הגדר“ כדי להתאים הגדרות רשת אם אתה במדינה שמצנזרת את Tor (למשל סין, איראן או סוריה) או אם אתה מתחבר מרשת פרטית שדורשת ייפוי-כוח.">
 <!ENTITY torSettings.configure "הגדר">
-<!ENTITY torSettings.connectPrompt2 "אני מעונין לעשות חיבור ישיר לרשת Tor.">
-<!ENTITY torSettings.connectPrompt3 "זה יעבוד במרבית המצבים.">
 <!ENTITY torSettings.connect "התחבר">
-
-<!ENTITY torSettings.proxyPageTitle "תצורת ייפוי-כוח מקומי">
-<!ENTITY torSettings.proxyQuestion "האם מחשב זה צריך להשתמש בייפוי-כוח מקומי כדי להשיג גישה לאינטרנט?">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "ברוב המקרים ייפוי-כוח מקומי אינו נחוץ, אבל הוא עלול להיות דרוש בעת התחברות דרך רשת של חברה, בית ספר או אוניברסיטה.">
-<!ENTITY torSettings.proxyExplanation2 "אם אינך בטוח כיצד לענות על שאלה זו, הבט בהגדרות האינטרנט בדפדפן אחר או בדוק בהגדרות הרשת של מערכתך כדי לראות האם ייפוי-כוח מקומי נחוץ.">
-<!ENTITY torSettings.enterProxy "הכנס את הגדרות ייפוי-הכוח.">
-<!ENTITY torSettings.bridgePageTitle "תצורת גשרי Tor">
-<!ENTITY torSettings.bridgeQuestion "האם ספק שירותי האינטרנט (ISP) שלך חוסם או מצנזר חיבורים לרשת Tor?">
-<!ENTITY torSettings.bridgeExplanation1 "אם אינך בטוח כיצד לענות על שאלה זו, בחר לא (אם אינך מסוגל להתחבר לרשת Tor ללא גשר, אתה יכול להוסיף אחד אחר כך).">
-<!ENTITY torSettings.bridgeExplanation2 "אם תבחר כן, תתבקש להגדיר גשרי Tor, שהם ממסרים שאינם ברשימה המקשים עוד יותר לחסום חיבורים לרשת Tor.">
-<!ENTITY torSettings.bridgeSettingsPrompt "אתה יכול להשתמש בסדרת הגשרים המסופקת או שאתה יכול לקבל ולהכניס סדרת גשרים מותאמת.">
 
 <!-- Other: -->
 
@@ -42,8 +25,9 @@
 
 <!ENTITY torsettings.optional "רשותי">
 
-<!ENTITY torsettings.useProxy.checkbox "מחשב זה צריך להשתמש בייפוי-כוח מקומי כדי להשיג גישה לאינטרנט">
+<!ENTITY torsettings.useProxy.checkbox "אני משתמש בייפוי-כוח כדי להתחבר לאינטרנט">
 <!ENTITY torsettings.useProxy.type "סוג ייפוי-כוח:">
+<!ENTITY torsettings.useProxy.type.placeholder "בחר סוג ייפוי-כוח">
 <!ENTITY torsettings.useProxy.address "כתובת:">
 <!ENTITY torsettings.useProxy.address.placeholder "כתובת IP או שם מארח">
 <!ENTITY torsettings.useProxy.port "פתחה:">
@@ -54,22 +38,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "מחשב זה עובר דרך חומת אש המתירה חיבורים רק אל פתחות מסוימות">
 <!ENTITY torsettings.firewall.allowedPorts "פתחות מותרות:">
-<!ENTITY torsettings.useBridges.checkbox "ספק שירותי האינטרנט שלי (ISP) חוסם חיבורים לרשת Tor">
-<!ENTITY torsettings.useBridges.default "התחבר עם גשרים מסופקים">
-<!ENTITY torsettings.useBridges.note "כל סוג של גשר משתמש בשיטה שונה כדי למנוע צנזורה.&#160; אם גשר אחד אינו עובד, נסה שוב ע&quot;י שימוש באחד אחר.">
-<!ENTITY torsettings.useBridges.type "סוג תעבורה:">
-<!ENTITY torsettings.useBridges.custom "הכנס גשרים מותאמים">
-<!ENTITY torsettings.useBridges.label "הכנס ממסר גשר אחד או יותר (אחד לשורה):">
-<!ENTITY torsettings.useBridges.placeholder "הכנס כתובת:יציאה">
+<!ENTITY torsettings.useBridges.checkbox "Tor מצונזר במדינה שלי">
+<!ENTITY torsettings.useBridges.default "בחר גשר מובנה">
+<!ENTITY torsettings.useBridges.default.placeholder "בחר גשר">
+<!ENTITY torsettings.useBridges.custom "סַפֵּק גשר שאני מכיר">
+<!ENTITY torsettings.useBridges.label "הכנס מידע גשר ממקור מהימן.">
+<!ENTITY torsettings.useBridges.placeholder "הכנס כתובת:פתחה (אחד לשורה)">
 
 <!ENTITY torsettings.copyLog "העתק את יומן Tor ללוח החיתוך">
+
+<!ENTITY torsettings.proxyHelpTitle "עזרת ייפוי-כוח">
+<!ENTITY torsettings.proxyHelp1 "ייפוי-כוח מקומי נדרש בעת התחברות דרך רשת של חברה, בית-ספר או אוניברסיטה.&#160;אם אינך בטוח כיצד לענות על שאלה זו, הבט בהגדרות האינטרנט בדפדפן אחר או בדוק בהגדרות הרשת של מערכתך כדי לראות האם ייפוי-כוח מקומי נחוץ.">
+
 <!ENTITY torsettings.bridgeHelpTitle "עזרת ממסרי גשר">
-<!ENTITY torsettings.bridgeHelp1 "אם אין באפשרותך להתחבר לרשת Tor, ייתכן שהסיבה לכך היא שספק האינטרנט שלך או גורם אחר חוסמים את Tor. לעתים קרובות, ניתן להתגבר על בעיה זו באמצעות שימוש בגשרים, שהם שרתים חסויים שקשה יותר לחסום אותם.">
-<!ENTITY torsettings.bridgeHelp1B "אתה יכול להשתמש בסדרה המוגדרת מראש המסופקת של כתובות גשר או שאתה יכול לקבל סדרת כתובות מותאמת ע&quot;י שימוש באחת משיטות אלו:">
-<!ENTITY torsettings.bridgeHelp2Heading "באמצעות רשת האינטרנט">
-<!ENTITY torsettings.bridgeHelp2 "השתמש בדפדפן רשת כדי לבקר ב-https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "באמצעות מגיב הדוא&quot;לים האוטומטי">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "שלח דוא&quot;ל אל bridges@torproject.org עם השורה 'get bridges' לבדה בגוף ההודעה.&#160; אולם, כדי להקשות עוד יותר על תוקף ללמוד רבות על כתובות גשר, אתה חייב לשלוח בקשה זו מאחד מספקי הדוא&quot;ל הבאים (כתובים ברשימה לפי סדר עדיפות):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com או https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "באמצעות מרכז התמיכה">
-<!ENTITY torsettings.bridgeHelp4 "כמוצא אחרון, אתה יכול לבקש כתובות גשר ע&quot;י שליחה של הודעת דוא&quot;ל מנומסת אל help@rt.torproject.org. אנא שים לב שבן-אדם יצטרך להגיב לכל בקשה.">
+<!ENTITY torsettings.bridgeHelp1 "גשרים הם ממסרים לא ברשימה אשר מקשים לחסום חיבורים אל רשת Tor.&#160; כל סוג של גשר משתמש בשיטה שונה כדי למנוע צינזור&#160; ה-obfs גורם לתעבורה שלך להיראות כרעש אקראי, וה-meek גורם לתעבורה שלך להיראות כאילו היא מתחברת אל שירות זה במקום אל Tor.">
+<!ENTITY torsettings.bridgeHelp2 "מפאת כיצד מדינות מסוימות מנסות לחסום את Tor, גשרים מסוימים עובדים במדינות מסוימות אבל לא באחרות.&#160; אם אינך בטוח לגבי אילו גשרים עובדים במדינתך, בקר ב-torproject.org/about/contact.html#support">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "אנא המתן בזמן שאנחנו מקימים חיבור אל רשת Tor.&#160; זה עשוי לקחת מספר דקות.">
