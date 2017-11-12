@@ -51,8 +51,8 @@
 <!ENTITY torsettings.proxyHelp1 "Um proxy local é necessário para conectar-se por meio de uma rede de empresa, escola ou universidade.&#160;Se você não tiver certeza se um proxy é necessário no seu caso, verifique as configurações de Internet em um outro navegador ou consulte as suas configurações de sistema de rede. ">
 
 <!ENTITY torsettings.bridgeHelpTitle "Ajuda Retransmissor de Ponte">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "Pontes são retransmissores não listados que dificultam o bloqueio de conexões à Rede Tor.&#160; Cada tipo de ponte usa um método diferente para evitar censura.&#160; Obfs faz com que o seu tráfego online pareca um barulho aleatório, e as de tipo meek fazem o seu tráfego online parecer como se estivesse conectando-se a um outro serviço e não ao Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Por causa do modo como certos países tentam bloquear Tor, certas pontes funcionam em alguns países, mas não em outros.&#160; Caso você não tenha certeza sobre como pontes funcionam no país onde você está, consulte torproject.org/about/contact.html#support">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Por favor, aguarde enquanto estabelecemos uma conexão com a rede Tor.&#160; Isso pode demorar alguns minutos.">
