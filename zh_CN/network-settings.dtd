@@ -48,7 +48,7 @@
 <!ENTITY torsettings.copyLog "点击复制 Tor 日志">
 
 <!ENTITY torsettings.proxyHelpTitle "代理帮助">
-<!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
+<!ENTITY torsettings.proxyHelp1 "从公司或学校网络连接互联网时，有时需使用本地代理。&#160;如果不确定如何回答该问题，请查看其他浏览器的互联网设置，或者查看系统网络设置是否需要代理。">
 
 <!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
 <!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
