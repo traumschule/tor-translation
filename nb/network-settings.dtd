@@ -1,6 +1,6 @@
 <!ENTITY torsettings.dialog.title "Nettverksinnstillinger for Tor">
 <!ENTITY torsettings.wizard.title.default "Koble til Tor">
-<!ENTITY torsettings.wizard.title.configure "Tor Network Settings">
+<!ENTITY torsettings.wizard.title.configure "Nettverksinnstillinger for Tor">
 <!ENTITY torsettings.wizard.title.connecting "Etablering av tilkobling">
 
 <!-- For locale picker: -->
@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Klikk &quot;koble til&quot; for å koble til Tor.">
-<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
+<!ENTITY torSettings.configurePrompt "Klikk &quot;sett opp&quot; for å justere nettverksinnstillinger hvis du er i et land som sensurerer Tor (som Kina, Iran, Syria,) eller hvis du kobler til fra et privat nettverk som krever en mellomtjener.">
 <!ENTITY torSettings.configure "Sett opp">
 <!ENTITY torSettings.connect "Koble til">
 
@@ -25,7 +25,7 @@
 
 <!ENTITY torsettings.optional "Valgfritt">
 
-<!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Jeg bruker en mellomtjener for å koble til Internett">
 <!ENTITY torsettings.useProxy.type "Mellomtjeningstype:">
 <!ENTITY torsettings.useProxy.type.placeholder "velg en mellomtjenertype">
 <!ENTITY torsettings.useProxy.address "Adresse:">
@@ -48,7 +48,7 @@
 <!ENTITY torsettings.copyLog "Kopier Torloggen til Utklippstavlen">
 
 <!ENTITY torsettings.proxyHelpTitle "Mellomtjenerhjelp">
-<!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
+<!ENTITY torsettings.proxyHelp1 "En lokal mellomtjener trengs når du kobler til fra et bedrifts-, skole-, eller universitets-nettverk.&#160;Hvis du ikke er sikker på hvordan du besvarer dette spørsmålet, sjekk internettinnstillingene i en annen nettleser, eller sjekk nettverksinnstillingene på systemet ditt for å se hvorvidt en mellomtjener behøves.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Hjelp med Bro-rutingsstafettoppsett">
 <!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
