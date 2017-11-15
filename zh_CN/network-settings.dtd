@@ -51,8 +51,8 @@
 <!ENTITY torsettings.proxyHelp1 "从公司或学校网络连接互联网时，有时需使用本地代理。&#160;如果不确定如何回答该问题，请查看其他浏览器的互联网设置，或者查看系统网络设置是否需要代理。">
 
 <!ENTITY torsettings.bridgeHelpTitle "网桥中继帮助">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "网桥指未公开的 Tor 节点，通过这种节点连接 Tor 网络时更难以封锁。每种网桥使用不同的方式来突破审查。obfs 类型的网桥使通信看起来像随机信号，而 meek 网桥看起来像连接到相应的服务而不是 Tor 网络。">
+<!ENTITY torsettings.bridgeHelp2 "由于封锁方式不同，某种网桥在一些国家可用，但其他国家可能不可用。如果无法确定您应该使用哪种网桥，请访问 torproject.org/about/contact.html#support">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
