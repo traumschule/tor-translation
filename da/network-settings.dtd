@@ -1,4 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor netværksindstillinger">
+<!ENTITY torsettings.wizard.title.default "Opret forbindelse til Tor">
+<!ENTITY torsettings.wizard.title.configure "Tor netværksindstillinger">
+<!ENTITY torsettings.wizard.title.connecting "Etablerer en forbindelse">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser sprog">
@@ -6,30 +9,10 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Før du opretter forbindelse til Tor-netværket, skal du indtaste information om denne computers internetforbindelse.">
-
-<!ENTITY torSettings.yes "Ja">
-<!ENTITY torSettings.no "Nej">
-
-<!ENTITY torSettings.firstQuestion "Hvilke af de følgende beskriver bedst din situation?">
-<!ENTITY torSettings.configurePrompt1 "Denne computers internetforbindelse er censureret eller er etableret gennem en proxy.">
-<!ENTITY torSettings.configurePrompt2 "Jeg skal konfigurerer bro- og lokal proxyindstillinger før jeg opretter forbindelse til Tor-netværket.">
+<!ENTITY torSettings.connectPrompt "Klik på “Opret forbindelse” for at oprette forbindelse til Tor.">
+<!ENTITY torSettings.configurePrompt "Klik på “Konfigurer” for at justere netværksindstillinger, hvis du befinder dig i et land som censurerer Tor (såsom kina, iran og syrien) eller hvis du har oprettet forbindelse fra et privat netværk som kræver en proxy.">
 <!ENTITY torSettings.configure "Indstil">
-<!ENTITY torSettings.connectPrompt2 "Jeg vil foretage en direkte forbindelse til Tor-netværket.">
-<!ENTITY torSettings.connectPrompt3 "Dette vil virker i de fleste situationer">
 <!ENTITY torSettings.connect "Tilslut">
-
-<!ENTITY torSettings.proxyPageTitle "Lokale proxy indstillinger">
-<!ENTITY torSettings.proxyQuestion "Behøver denne computer bruge en lokal proxy for at tilgå internettet?">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "I de fleste tilfælde er en lokal proxy ikke nødvendig, men det kan være krævet når der oprettes forbindelse gennem netværket i en virksomhed, skole eller universitet.">
-<!ENTITY torSettings.proxyExplanation2 "Hvis du ikke er sikker på hvad du skal svare til dette spørgsmål, så kig i internetindstillingerne i en anden browser og tjek dit systems netværksindstillinger, for at se hvorvidt det er nødvendigt med en lokal proxy.">
-<!ENTITY torSettings.enterProxy "Indtast proxy-indstillinger.">
-<!ENTITY torSettings.bridgePageTitle "Tor bridge konfiguration">
-<!ENTITY torSettings.bridgeQuestion "Blokerer eller censurerer din internetudbyder (ISP) forbindelser til Tor-netværket?">
-<!ENTITY torSettings.bridgeExplanation1 "Hvis du ikke er sikker på hvad du skal svare til dette spørgsmål, så vælg Nej (hvis du ikke er i stand til at oprette forbindelse til Tor-netværket gennem en bro, så kan du tilføje en senere).">
-<!ENTITY torSettings.bridgeExplanation2 "Hvis du vælger Ja, så vil du blive spurgt om at konfigurere Tor-broer, hvilket er ulistede relæer som gøre det svære at blokere forbindelser til Tor-netværket.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Du kan bruge det tildelte sæt broer eller du kan hente og indtaste et skræddersyet sæt broer.">
 
 <!-- Other: -->
 
@@ -42,8 +25,9 @@
 
 <!ENTITY torsettings.optional "Valgfri">
 
-<!ENTITY torsettings.useProxy.checkbox "Denne computer skal bruge en lokal proxy for at tilgå internettet">
+<!ENTITY torsettings.useProxy.checkbox "Jeg bruger en proxy til at oprette forbindelse til internettet">
 <!ENTITY torsettings.useProxy.type "Proxy type:">
+<!ENTITY torsettings.useProxy.type.placeholder "vælg en proxytype">
 <!ENTITY torsettings.useProxy.address "Adresse:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP adresse eller værtsnavn">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -54,22 +38,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP/HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Denne computer går gennem en firewall som kun tillader forbindelse til specifikke porte">
 <!ENTITY torsettings.firewall.allowedPorts "Tilladte Porte:">
-<!ENTITY torsettings.useBridges.checkbox "Min internetudbyder (ISP) blokerer forbindelser til Tor-netværket">
-<!ENTITY torsettings.useBridges.default "Forbind med tildelte broer">
-<!ENTITY torsettings.useBridges.note "Hver type bro bruger forskellige metoder for at undgå censurering.&#160; Hvis en bro ikke virker, så prøv igen med en anden.">
-<!ENTITY torsettings.useBridges.type "Transporttype:">
-<!ENTITY torsettings.useBridges.custom "Indtast skræddersyede broer">
-<!ENTITY torsettings.useBridges.label "Indtast et eller flere bro-relæer (et pr. linje)">
-<!ENTITY torsettings.useBridges.placeholder "type adresse:port">
+<!ENTITY torsettings.useBridges.checkbox "Tor er censureret i mit land">
+<!ENTITY torsettings.useBridges.default "Vælg en indbygget bro">
+<!ENTITY torsettings.useBridges.default.placeholder "vælg en bro">
+<!ENTITY torsettings.useBridges.custom "Formidl en bro jeg kender">
+<!ENTITY torsettings.useBridges.label "Indtast broinformation fra en betroet kilde.">
+<!ENTITY torsettings.useBridges.placeholder "skriv adresse:port (én pr. linje)">
 
 <!ENTITY torsettings.copyLog "Kopier Tor loggen til udklipsholderen">
+
+<!ENTITY torsettings.proxyHelpTitle "Hjælp til proxy">
+<!ENTITY torsettings.proxyHelp1 "Det er nødvendigt med en lokal proxy når der oprettes forbindelse gennem et firma-, skole- eller universitetsnetværk.&#160;Hvis du i tvivl om hvordan du skal svarer på sprøgsmålet, så kig i internetindstillingerne i en anden browser eller tjek dit systems netværksindstillinger, for at se om det er nødvendigt med en proxy.">
+
 <!ENTITY torsettings.bridgeHelpTitle "Bro-relæ hjælp">
-<!ENTITY torsettings.bridgeHelp1 "Hvis du ikke kan oprette forbindelse til Tor-netværket er det muligt at din internetudbyder (ISP) eller anden myndighed blokerer Tor. &#160; Det er ofte muligt at omgå problemet ved at bruge Tor-broer. En bro er et relæ som ikke er på den offentliggjorte liste og som derfor er sværere at blokkere.">
-<!ENTITY torsettings.bridgeHelp1B "Du kan bruge de prækonfigurerede, tildelte sæt af broadresser eller du kan få fat i et tilpasset sæt af adresser, ved at bruge en af disse metoder:">
-<!ENTITY torsettings.bridgeHelp2Heading "Gennem webbet">
-<!ENTITY torsettings.bridgeHelp2 "Brug en browser og besøg https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Via den automatiske e-mailservice">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Send e-mail til bridges@torproject.org med linjen &quot;get bridges&quot; som det eneste i beskedteksten.&#160; Men, for at gøre det sværere for en angriber at få kendskab til en masse broadresser, skal du sende din forespørgsel fra en af de følgende e-mailudbydere (i foretrukket rækkefølge):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com eller https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Via vores Help Desk">
-<!ENTITY torsettings.bridgeHelp4 "Som en sidste mulighed kan du bede om at få en bro adresse tilsendt ved at sende en venlig e-mail to help@rt.torproject.org.&#160; Bemærk venligst at alle e-mails besvares manuelt.">
+<!ENTITY torsettings.bridgeHelp1 "Broer er ulistede relæer som gør det sværrer at blokere forbindelser til Tor-netværket.&#160; Hver type bro bruger en anderledes metode for at undgå censur.&#160; Dem med obfs får din netværkstrafik til at ligne tilfældig støj og dem med meek får din netværkstrafik til at se ud som om den er forbundet til tjenesten i stedet for Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Pga. den måde bestemte lande prøver at blokere Tor, vil bestemte broer virke i nogle lande men ikke andre.&#160; Besøg torproject.org/about/contact.html#support hvis du er i tvivl om hvilke broer der virker i dit land.">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "Vent venligst mens der etableres forbindelse til Tor-netværket.&#160; Det kan tage flere minutter.">
