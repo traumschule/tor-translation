@@ -55,4 +55,4 @@
 <!ENTITY torsettings.bridgeHelp2 "由于封锁方式不同，某种网桥在一些国家可用，但其他国家可能不可用。如果无法确定您应该使用哪种网桥，请访问 torproject.org/about/contact.html#support">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "正在连接 Tor 网络，可能需几分钟，请稍等。">
