@@ -52,7 +52,7 @@
 
 <!ENTITY torsettings.bridgeHelpTitle "Bridge Relay помощ">
 <!ENTITY torsettings.bridgeHelp1 "Бриджовете са не публикуване релеи, които правят блокирването на връзката до Tor мрежата много по-трудно.&#160;Всеки тип бридж използва различен метод да заообиколи цензурата.&#160;Тези, използващи obfs маскират интернет трафика като произволен шум, базираните на meek маскират трафика да излглежда, че се свързва с услугата, а не с Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp2 "Поради методите, които определени държави използват, за да блокират Tor,  някои бриджове работят в определени държаи, но не и в други.&#160;Ако не сте сигурни кои бриджове работят във Вашата държа, посетете torproject.org/about/contact.html#support.">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Моля изчакайте, докато установим връзка с Тор мрежата..&#160; Toва може да отнеме няколко минути.">
