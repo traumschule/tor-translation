@@ -9,15 +9,15 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Click “Connect” to connect to Tor.">
+<!ENTITY torSettings.connectPrompt "Klik &quot;Sambung&quot; untuk melancarkan Tor.">
 <!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Konfigurasi">
-<!ENTITY torSettings.connect "Menyambung">
+<!ENTITY torSettings.connect "Sambung">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Menunggu Tor untuk dimulakan...">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Mulakan semula Tor">
 <!ENTITY torsettings.reconfigTor "Reconfigure">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
@@ -27,9 +27,9 @@
 
 <!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
 <!ENTITY torsettings.useProxy.type "Jenis Proksi:">
-<!ENTITY torsettings.useProxy.type.placeholder "select a proxy type">
+<!ENTITY torsettings.useProxy.type.placeholder "Sila memilih jenis proksi">
 <!ENTITY torsettings.useProxy.address "Alamat:">
-<!ENTITY torsettings.useProxy.address.placeholder "Alamat IP atau nama host">
+<!ENTITY torsettings.useProxy.address.placeholder "Alamat IP atau nama hos">
 <!ENTITY torsettings.useProxy.port "Port:">
 <!ENTITY torsettings.useProxy.username "Kata pengguna:">
 <!ENTITY torsettings.useProxy.password "Kata laluan:">
