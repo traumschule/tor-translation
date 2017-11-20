@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Socruithe Líonra Tor">
-<!ENTITY torsettings.wizard.title.default "Connect to Tor">
-<!ENTITY torsettings.wizard.title.configure "Tor Network Settings">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.default "Ceangail le Tor">
+<!ENTITY torsettings.wizard.title.configure "Socruithe Líonra Tor">
+<!ENTITY torsettings.wizard.title.connecting "Ceangal á bhunú">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Teanga Bhrabhsálaí Tor">
@@ -9,8 +9,8 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Click “Connect” to connect to Tor.">
-<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
+<!ENTITY torSettings.connectPrompt "Cliceáil “Ceangail” chun ceangal a bhunú le Tor.">
+<!ENTITY torSettings.configurePrompt "Cliceáil “Cumraigh” chun na socruithe líonra a athrú má tá tú i do chónaí i dtír a dhéanann cinsireacht ar Tor (mar shampla an tSín, an Iaráin, nó an tSiria), nó má tá tú ag ceangal ó líonra príobháideach a úsáideann seachfhreastalaí.">
 <!ENTITY torSettings.configure "Cumraigh">
 <!ENTITY torSettings.connect "Ceangail">
 
@@ -25,9 +25,9 @@
 
 <!ENTITY torsettings.optional "Roghnach">
 
-<!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Úsáidim seachfhreastalaí chun ceangal leis an Idirlíon">
 <!ENTITY torsettings.useProxy.type "Cineál an tSeachfhreastalaí:">
-<!ENTITY torsettings.useProxy.type.placeholder "select a proxy type">
+<!ENTITY torsettings.useProxy.type.placeholder "roghnaigh cineál an tseachfhreastalaí">
 <!ENTITY torsettings.useProxy.address "Seoladh:">
 <!ENTITY torsettings.useProxy.address.placeholder "Seoladh IP nó óstainm">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -38,17 +38,17 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Téann an ríomhaire seo trí bhalla dóiteáin nach gceadaíonn ceangail ach le poirt áirithe">
 <!ENTITY torsettings.firewall.allowedPorts "Poirt Cheadaithe:">
-<!ENTITY torsettings.useBridges.checkbox "Tor is censored in my country">
-<!ENTITY torsettings.useBridges.default "Select a built-in bridge">
-<!ENTITY torsettings.useBridges.default.placeholder "select a bridge">
-<!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
-<!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
-<!ENTITY torsettings.useBridges.placeholder "type address:port (one per line)">
+<!ENTITY torsettings.useBridges.checkbox "Déanann an tír seo cinsireacht ar Tor">
+<!ENTITY torsettings.useBridges.default "Roghnaigh droichead ionsuite">
+<!ENTITY torsettings.useBridges.default.placeholder "roghnaigh droichead">
+<!ENTITY torsettings.useBridges.custom "Úsáid droichead ar m'eolas">
+<!ENTITY torsettings.useBridges.label "Cuir isteach eolas faoin droichead ó fhoinse iontaofa.">
+<!ENTITY torsettings.useBridges.placeholder "clóscríobh seoladh:port (ceann amháin ar gach líne)">
 
 <!ENTITY torsettings.copyLog "Cóipeáil an Logchomhad Tor go dtí an Ghearrthaisce">
 
-<!ENTITY torsettings.proxyHelpTitle "Proxy Help">
-<!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
+<!ENTITY torsettings.proxyHelpTitle "Cabhair le Seachfhreastalaithe">
+<!ENTITY torsettings.proxyHelp1 "Úsáidtear seachfhreastalaí áitiúil nuair a cheanglaítear ó chomhlacht, scoil, nó ollscoil. Mura bhfuil tú cinnte faoin fhreagra ba chóir duit a thabhairt, caith súil ar na socruithe Idirlín i mbrabhsálaí eile, nó ar shocruithe líonra do chórais, le fáil amach an bhfuil seachfhreastalaí de dhíth.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Cabhair le Droichid">
 <!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
