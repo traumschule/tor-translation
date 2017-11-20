@@ -52,7 +52,7 @@
 
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
 <!ENTITY torsettings.bridgeHelp1 "Bridges sind nicht aufgeführte Vermittler die es schwieriger machen Verbindungen zum Tornetzwerk zu blockieren.&#160; Jeder Typ einer Bridge nutzt eine andere Methode um Zensur zu verhindern.&#160; Die vom Typ obfs lassen Ihren Datenverkehr wie Zufallsrauschen aussehen und die vom Typ meek lassen Ihren Datenverkehr aussehen, als ob Sie eine Verbindung zu diesem  jeweiligen Dienst herstellen anstatt zu Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp2 "Je nach dem, wie bestimmte Länder versuchen Tor zu blockieren, funktionieren auch nur bestimmte Bridges, wohingegen andere nicht funktionieren..&#160; Wenn Sie sich nicht sicher sind, welche Bridges in Ihrem Land funktionieren, besuchen Sie torproject.org/about/contact.html#support">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "Bitte warten Sie, während eine Verbindung zum Tor-Netzwerk hergestellt wird.&#160; Das kann einige Minuten dauern.">
