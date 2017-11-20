@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "&quot;Connect&quot; anklicken, um mit Tor zu verbinden.">
-<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
+<!ENTITY torSettings.configurePrompt "Klicken Sie auf “Konfigurieren” um die Netzwerkeinstellungen anzupassen wenn Sie sich in einem Land befinden das Tor zensiert (wie China, Iran, Syrien) oder von einem privaten Netzwerk aus verbinden, das einen Proxy verwendet.">
 <!ENTITY torSettings.configure "Konfigurieren">
 <!ENTITY torSettings.connect "Verbinden">
 
@@ -48,10 +48,10 @@
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 
 <!ENTITY torsettings.proxyHelpTitle "Proxy-Hilfe">
-<!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
+<!ENTITY torsettings.proxyHelp1 "Ein lokaler Proxy wird verwendet, wenn Sie sich aus einem Unternehmens-, Schul- oder Universitätsnetzwerk heraus verbinden.&#160;Wenn Sie sich nicht sicher sind, wie Sie diese Frage beantworten sollen, sehen Sie sich die Interneteinstellungen in einem anderen Browser an oder überprüfen Sie die Netzwerkeinstellungen des Systems um zu bestimmen, ob sie einen lokalen Proxyserver benötigen.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
+<!ENTITY torsettings.bridgeHelp1 "Bridges sind nicht aufgeführte Vermittler die es schwieriger machen Verbindungen zum Tornetzwerk zu blockieren.&#160; Jeder Typ einer Bridge nutzt eine andere Methode um Zensur zu verhindern.&#160; Die vom Typ obfs lassen Ihren Datenverkehr wie Zufallsrauschen aussehen und die vom Typ meek lassen Ihren Datenverkehr aussehen, als ob Sie eine Verbindung zu diesem  jeweiligen Dienst herstellen anstatt zu Tor.">
 <!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
 
 <!-- Progress -->
