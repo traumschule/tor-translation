@@ -41,8 +41,8 @@
 <!ENTITY torsettings.useBridges.checkbox "我所在国家对 Tor 进行了封锁">
 <!ENTITY torsettings.useBridges.default "选择内置网桥">
 <!ENTITY torsettings.useBridges.default.placeholder "选择网桥">
-<!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
-<!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
+<!ENTITY torsettings.useBridges.custom "输入获取的网桥">
+<!ENTITY torsettings.useBridges.label "输入可信来源提供的网桥：">
 <!ENTITY torsettings.useBridges.placeholder "输入地址:端口（每行一个）">
 
 <!ENTITY torsettings.copyLog "点击复制 Tor 日志">
