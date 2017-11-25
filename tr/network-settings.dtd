@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor Ağı Ayarları">
 <!ENTITY torsettings.wizard.title.default "Tor'a bağlan">
 <!ENTITY torsettings.wizard.title.configure "Tor ağı ayarları">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.connecting "Bir Bağlantı kuruluyor">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser Dili">
@@ -39,8 +39,8 @@
 <!ENTITY torsettings.firewall.checkbox "Bu bilgisayar yalnız belirli bağlantı noktalarına bağlanmaya izin veren bir güvenlik duvarı kullanıyor">
 <!ENTITY torsettings.firewall.allowedPorts "İzin Verilen Bağlantı Noktaları:">
 <!ENTITY torsettings.useBridges.checkbox "Tor is censored in my country">
-<!ENTITY torsettings.useBridges.default "Select a built-in bridge">
-<!ENTITY torsettings.useBridges.default.placeholder "select a bridge">
+<!ENTITY torsettings.useBridges.default "Bir dahili köprü seç">
+<!ENTITY torsettings.useBridges.default.placeholder "bir köprü seç">
 <!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
 <!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
 <!ENTITY torsettings.useBridges.placeholder "type address:port (one per line)">
