@@ -1,4 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor netwerkinstellingen">
+<!ENTITY torsettings.wizard.title.default "Verbind met Tor">
+<!ENTITY torsettings.wizard.title.configure "Tor Netwerk Instellingen">
+<!ENTITY torsettings.wizard.title.connecting "Creëer een verbinding">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor-browsertaal">
@@ -6,30 +9,10 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Voordat je verbindt met het Tor-netwerk moet je eerst wat meer informatie geven over de internetverbinding van deze computer.">
-
-<!ENTITY torSettings.yes "Ja">
-<!ENTITY torSettings.no "Nee">
-
-<!ENTITY torSettings.firstQuestion "Welke van de volgende beschrijft het best jouw situatie?">
-<!ENTITY torSettings.configurePrompt1 "De internetverbinding van deze computer is gecensureerd of loopt via een proxy.">
-<!ENTITY torSettings.configurePrompt2 "Ik moet een bridge of lokale proxy instellen voordat ik verbinding kan maken met het Tor&#160;netwerk.">
+<!ENTITY torSettings.connectPrompt "Klik &quot;Verbind&quot; om met Tor te verbinden.">
+<!ENTITY torSettings.configurePrompt "Klik &quot;Configureer&quot; om netwerk instellingen aan te passen als u in een land bent dat Tor censureert (zoals China, Iran, Syrië) of als u verbindt vanaf een privé netwerk dat een proxy vereist.">
 <!ENTITY torSettings.configure "Configureren">
-<!ENTITY torSettings.connectPrompt2 "Ik wil een directe verbinding met het Tor netwerk maken.">
-<!ENTITY torSettings.connectPrompt3 "Dit zal in de meeste omstandigheden werken.">
 <!ENTITY torSettings.connect "Verbinden">
-
-<!ENTITY torSettings.proxyPageTitle "Lokale proxy-configuratie">
-<!ENTITY torSettings.proxyQuestion "Heeft deze computer een lokale proxy nodig om toegang tot het internet te krijgen?">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "In de meeste gevallen is een locale proxy niet nodig, maar kan het wel worden vereist bij het verbinden met een bedrijf, school of universitair netwerk.">
-<!ENTITY torSettings.proxyExplanation2 "Als je niet zeker bent over het antwoord op deze vraag, bekijk dan de verbindingsinstellingen van een andere browser om te zien of die is ingesteld om gebruik te maken van een proxy.">
-<!ENTITY torSettings.enterProxy "Voer de proxy-instellingen in.">
-<!ENTITY torSettings.bridgePageTitle "Tor bridge-configuratie">
-<!ENTITY torSettings.bridgeQuestion "Blokkeert of filtert je Internet Service Provider (ISP) verbindingen met het Tor-netwerk?">
-<!ENTITY torSettings.bridgeExplanation1 "Als je niet zeker bent hoe je deze vraag moet beantwoorden, kies dan Nee (als je niet kunt verbinden met het Tor netwerk zonder een bridge, kun je later een toevoegen).">
-<!ENTITY torSettings.bridgeExplanation2 "Als je Ja kiest, moet je zelf Tor Bridges instellen, maar omdat het geen vertrouwde relays zijn is het moeilijker om verbindingen te blokkeren naar het Tor Netwerk.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Je ka de opgegeven bridges gebruiken, of je kan je eigen bridges verkrijgen en instellen. ">
 
 <!-- Other: -->
 
@@ -42,8 +25,9 @@
 
 <!ENTITY torsettings.optional "Optioneel">
 
-<!ENTITY torsettings.useProxy.checkbox "Deze computer heeft een lokale proxy nodig om toegang te krijgen tot het internet">
+<!ENTITY torsettings.useProxy.checkbox "I gebruik een proxy om met het internet te verbinden.">
 <!ENTITY torsettings.useProxy.type "Proxytype:">
+<!ENTITY torsettings.useProxy.type.placeholder "Selecteer een proxy type">
 <!ENTITY torsettings.useProxy.address "Adres:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP-adres of hostnaam">
 <!ENTITY torsettings.useProxy.port "Poort:">
@@ -54,22 +38,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Deze computer gebruikt een firewall die enkel verbindingen tot bepaalde poorten toestaat">
 <!ENTITY torsettings.firewall.allowedPorts "Toegestane poorten:">
-<!ENTITY torsettings.useBridges.checkbox "Mijn Internet Service Provider (ISP) blokkeert verbindingen naar het Tor-netwerk">
-<!ENTITY torsettings.useBridges.default "Verbinden met ingestelde bridges">
-<!ENTITY torsettings.useBridges.note "Elk type bridge gebruikt een verschillende methode om censorship te voorkomen.&#160; Als een van de bridges niet werkt, probeert u het dan opnieuw met een andere.">
-<!ENTITY torsettings.useBridges.type "Transporttype:">
-<!ENTITY torsettings.useBridges.custom "Eigen bridge-instellingen">
-<!ENTITY torsettings.useBridges.label "Voer een of meer bridge relays in (een per regel).">
-<!ENTITY torsettings.useBridges.placeholder "type adres:poortnummer">
+<!ENTITY torsettings.useBridges.checkbox "Tor is geblokkeerd in mijn land.">
+<!ENTITY torsettings.useBridges.default "Selecteer een ingebouwde bridge">
+<!ENTITY torsettings.useBridges.default.placeholder "Kies een bridge">
+<!ENTITY torsettings.useBridges.custom "Geef een bridge weer die ik ken">
+<!ENTITY torsettings.useBridges.label "Voer bridge informatie van een vertrouwde bron in.">
+<!ENTITY torsettings.useBridges.placeholder "type adres:poort (een per lijn)">
 
 <!ENTITY torsettings.copyLog "Kopieer Tor-log naar het klembord">
+
+<!ENTITY torsettings.proxyHelpTitle "Proxy Help">
+<!ENTITY torsettings.proxyHelp1 "Een lokale proxy is nodig wanneer u verbind door het netwerk van uw werk, school, universiteit.&#160;Als u niet zeker bent hoe u deze vraag zou beantwoorden, kijk naar uw internet instellingen in een andere browser of controleer uw systeem zijn netwerk instellingen om te zien of een proxy nodig is.">
+
 <!ENTITY torsettings.bridgeHelpTitle "Bridge relay-hulp">
-<!ENTITY torsettings.bridgeHelp1 "Indien je geen verbinding kan maken met het Tor-netwerk, zou het kunnen dat je Internet Service Provider (ISP) of een andere instelling Tor blokkeert.&#160; Vaak kan je dit omzeilen door gebruik te maken van Tor-bridges, dit zijn ongeregistreerde relays die moeilijker te blokkeren zijn.">
-<!ENTITY torsettings.bridgeHelp1B "Je kunt voorgedefinieerde set met bridge-adressen gebruiken of je kunt een maatwerk adressenset krijgen via een van deze methoden:">
-<!ENTITY torsettings.bridgeHelp2Heading "Door middel van het Web">
-<!ENTITY torsettings.bridgeHelp2 "Gebruik een browser om https://bridges.torproject.org te bezoeken">
-<!ENTITY torsettings.bridgeHelp3Heading "Door middel van de e-mail-autoresponder">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Stuur een e-mail naar bridges@torproject.org met als inhoud van de mail enkel de tekst 'get bridges'.&#160; Let wel, om het aanvallers te bemoeilijken informatie te verkrijgen over bridge-adressen dien je  je aanvraag te versturen van een van de volgende e-mailproviders (gerangschikt in volgorde naar voorkeur):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, of https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "Door middel van de helpdesk">
-<!ENTITY torsettings.bridgeHelp4 "Als laatste redmiddel kan je bridge-adressen aanvragen door een vriendelijke e-mail te sturen naar help@rt.torproject.org.&#160; Houd er wel rekening mee dat deze persoon elke aanvraag moet behandelen.">
+<!ENTITY torsettings.bridgeHelp1 "Bridges zijn niet vermelde relays die het moeilijk maken om verbindingen naar het Tor Network te blokkeren.&#160; Elk van deze bridges gebruikt een andere methode om censuur te vermijden.&#160; Degene die obfs gebruiken, zien eruit gelijk willekeurige ruis, en de andere laten uw netwerk verkeer eruit zien alsof u verbind met een andere service in plaats van met Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Omdat bepaalde landen proberen Tor te blokkeren, sommige bridges zullen in bepaalde landen werken maar niet in andere.&#160; Als u niet zeker bent over welke bridges werken in uw land, ga naar torproject.org/about/contact.html#support">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "Even geduld terwijl we een verbinding maken met het Tor network.&#160; Dit kan enkele minuten duren.">
