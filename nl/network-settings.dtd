@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor netwerkinstellingen">
-<!ENTITY torsettings.wizard.title.default "Connect to Tor">
-<!ENTITY torsettings.wizard.title.configure "Tor Network Settings">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.default "Verbind met Tor">
+<!ENTITY torsettings.wizard.title.configure "Tor Netwerk Instellingen">
+<!ENTITY torsettings.wizard.title.connecting "Creëer een verbinding">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor-browsertaal">
@@ -9,7 +9,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Click “Connect” to connect to Tor.">
+<!ENTITY torSettings.connectPrompt "Klik &quot;Verbind&quot; om met Tor te verbinden.">
 <!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Configureren">
 <!ENTITY torSettings.connect "Verbinden">
