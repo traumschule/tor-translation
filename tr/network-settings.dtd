@@ -25,7 +25,7 @@
 
 <!ENTITY torsettings.optional "İsteğe bağlı">
 
-<!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Internete erişmek için vekil sunucu kullanıyorum">
 <!ENTITY torsettings.useProxy.type "Vekil Sunucu Türü:">
 <!ENTITY torsettings.useProxy.type.placeholder "Proxy türü seçin">
 <!ENTITY torsettings.useProxy.address "Adres:">
