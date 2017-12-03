@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor Ağı Ayarları">
-<!ENTITY torsettings.wizard.title.default "Tor'a bağlan">
-<!ENTITY torsettings.wizard.title.configure "Tor ağı ayarları">
-<!ENTITY torsettings.wizard.title.connecting "Bir Bağlantı kuruluyor">
+<!ENTITY torsettings.wizard.title.default "Tor Ağına Bağlan">
+<!ENTITY torsettings.wizard.title.configure "Tor Ağı Ayarları">
+<!ENTITY torsettings.wizard.title.connecting "Bağlantı kuruluyor">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser Dili">
@@ -9,8 +9,8 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Tor'a bağlanmak için &quot;Bağlan&quot;a tıkla">
-<!ENTITY torSettings.configurePrompt "Toru sansürleyen bir ülkeyseniz (Çin, İran, Suriye gibi) veya bir proxy gerektiren özel bir ağdan bağlanıyorsanız, ağ ayarlarını yapmak için &quot;Yapılandır&quot; seçeneğini tıklayın.">
+<!ENTITY torSettings.connectPrompt "Tor ağına bağlanmak için &quot;Bağlan&quot; üzerine tıklayın.">
+<!ENTITY torSettings.configurePrompt "Tor ağını engelleyen bir ülkedeyseniz (Çin, İran, Suriye gibi) ya da vekil sunucu kullanılması gereken özel bir ağdan bağlanıyorsanız, ağ ayarlarını yapmak için &quot;Yapılandır&quot; üzerine tıklayın.">
 <!ENTITY torSettings.configure "Yapılandır">
 <!ENTITY torSettings.connect "Bağlan">
 
