@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Tor'a bağlanmak için &quot;Bağlan&quot;a tıkla">
-<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
+<!ENTITY torSettings.configurePrompt "Toru sansürleyen bir ülkeyseniz (Çin, İran, Suriye gibi) veya bir proxy gerektiren özel bir ağdan bağlanıyorsanız, ağ ayarlarını yapmak için &quot;Yapılandır&quot; seçeneğini tıklayın.">
 <!ENTITY torSettings.configure "Yapılandır">
 <!ENTITY torSettings.connect "Bağlan">
 
@@ -38,21 +38,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Bu bilgisayar yalnız belirli bağlantı noktalarına bağlanmaya izin veren bir güvenlik duvarı kullanıyor">
 <!ENTITY torsettings.firewall.allowedPorts "İzin Verilen Bağlantı Noktaları:">
-<!ENTITY torsettings.useBridges.checkbox "Tor is censored in my country">
+<!ENTITY torsettings.useBridges.checkbox "Tor beniim ülkemde sansürlüdür">
 <!ENTITY torsettings.useBridges.default "Bir dahili köprü seç">
 <!ENTITY torsettings.useBridges.default.placeholder "bir köprü seç">
-<!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
-<!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
-<!ENTITY torsettings.useBridges.placeholder "type address:port (one per line)">
+<!ENTITY torsettings.useBridges.custom "Bildiğim bir köprü sağla">
+<!ENTITY torsettings.useBridges.label "Güvenli bir kaynaktan gelen köprü bilgisini gir">
+<!ENTITY torsettings.useBridges.placeholder "adres:bağlantı noktası şeklinde yazın (her satıra bir tane)">
 
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 
 <!ENTITY torsettings.proxyHelpTitle "Proxy yardımı">
-<!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
+<!ENTITY torsettings.proxyHelp1 "Bir şirket, okul veya üniversite ağı aracılığıyla bağlanırken yerel bir vekil sunucu gereklidir.&#160;Bu sorunun nasıl yanıtlanacağından emin değilseniz, başka bir tarayıcıdaki İnternet ayarlarına bakın veya vekil sunucunun gerekip gerekmediğini görmek için sisteminizin ağ ayarlarını gözden geçirin.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Aktarıcı Yardımı">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "Köprüler, Tor Ağına bağlantıların engellenmesini zorlaştıran listelenmemiş rölelerdir.&#160; Her tür köprü, sansürden kaçınmak için farklı bir yöntem kullanıyor.&#160; Obfs olanlar, trafiğinizi rastgele gürültü gibi gösterir ve mütevazı olanlarsa, trafiğinizi Tor yerine o servise bağlanmış gibi gösterir.">
+<!ENTITY torsettings.bridgeHelp2 "Bazı ülkelerin Tor'u engellemeye çalışma yöntemi nedeniyle bazı köprüler bazı ülkelerde çalışıyor ancak diğer ülkelerde çalışmıyor.&#160; Ülkenizdeki köprüler hakkında emin değilseniz, torproject.org/about/contact.html#support adresini ziyaret edin.">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Lütfen Tor&#160;ağı ile bağlantı kurulurken bekleyin. Bu işlem birkaç dakika sürebilir.">
