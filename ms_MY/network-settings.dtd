@@ -1,15 +1,15 @@
 <!ENTITY torsettings.dialog.title "Tetapan Rangkaian Tor">
-<!ENTITY torsettings.wizard.title.default "Sambung ke Tor">
+<!ENTITY torsettings.wizard.title.default "Sambung denganTor">
 <!ENTITY torsettings.wizard.title.configure "Tor Network Settings">
 <!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser Language">
-<!ENTITY torlauncher.localePicker.prompt "Sila pilih bahasa">
+<!ENTITY torlauncher.localePicker.prompt "Sila pilih satu bahasa.">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Klik &quot;Sambung&quot; untuk melancarkan Tor.">
+<!ENTITY torSettings.connectPrompt "Klik &quot;Sambung&quot; untuk bersambung dengan Tor.">
 <!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Konfigurasi">
 <!ENTITY torSettings.connect "Sambung">
