@@ -27,7 +27,7 @@
 
 <!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
 <!ENTITY torsettings.useProxy.type "Jenis Proksi:">
-<!ENTITY torsettings.useProxy.type.placeholder "Sila memilih jenis proksi">
+<!ENTITY torsettings.useProxy.type.placeholder "pilih sejenis proksi">
 <!ENTITY torsettings.useProxy.address "Alamat:">
 <!ENTITY torsettings.useProxy.address.placeholder "Alamat IP atau nama hos">
 <!ENTITY torsettings.useProxy.port "Port:">
