@@ -1,55 +1,58 @@
 <!ENTITY torsettings.dialog.title "Tetapan Rangkaian Tor">
+<!ENTITY torsettings.wizard.title.default "Sambung denganTor">
+<!ENTITY torsettings.wizard.title.configure "Tetapan Rangkaian Tor">
+<!ENTITY torsettings.wizard.title.connecting "Menjalinkan Sambungan">
+
+<!-- For locale picker: -->
+<!ENTITY torlauncher.localePicker.title "Bahasa Pelayar Tor">
+<!ENTITY torlauncher.localePicker.prompt "Sila pilih satu bahasa.">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Sebelum Bundle Pelayar Tor cuba untuk menyambung kepada rangkaian Tor, anda perlu memberi maklumat mengenai sambungan internet komputer anda.">
-
-<!ENTITY torSettings.yes "Ya">
-<!ENTITY torSettings.no "Tidak">
-
-<!ENTITY torSettings.firstQuestion "Antara berikut yang manakah terbaik menerangkan keadaan anda?">
-<!ENTITY torSettings.configurePrompt1 "Sambungan internet komputer ini telpas ditapis, atau di-proxied.">
-<!ENTITY torSettings.configurePrompt2 "Saya perlu mengkonfigurasi tetapan rangkaian.">
-<!ENTITY torSettings.configure "Konfigurasi">
-<!ENTITY torSettings.connectPrompt1 "Sambungan internet komputer ini tiada apa-apa halangan.">
-<!ENTITY torSettings.connectPrompt2 "Saya ingin berhubung terus kepada rangkaian Tor.">
-<!ENTITY torSettings.connect "Menyambung">
-
-<!ENTITY torSettings.proxyQuestion "Adakah komputer ini perlu menggunakan proksi untuk mengakses Internet?">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyHelp "Jika anda tidak pasti bagaimana untuk menjawab soalan ini, lihat tetapan Internet dalam pelayar yang lain untuk melihat sama ada ia dikonfigurasi untuk menggunakan proksi.">
-<!ENTITY torSettings.enterProxy "Masukkan tetapan proksi.">
-<!ENTITY torSettings.firewallQuestion "Adakah sambungan internet komputer ini melalui firewall yang hanya membenarkan sambungan ke port tertentu?">
-<!ENTITY torSettings.firewallHelp "Jika anda tidak pasti bagaimana untuk menjawab soalan ini, pilih Tidak. Jika anda menghadapi masalah untuk menyambung kepada rangkaian Tor, tukar tetapan ini.">
-<!ENTITY torSettings.enterFirewall "Masukkan senarai port yang dipisahkan melalui koma yang dibenarkan oleh firewall.">
-<!ENTITY torSettings.bridgeQuestion "Jika sambungan Internet komputer ini adalah ditapis, anda akan perlu untuk mendapatkan dan menggunakan bridge relays.&amp;#160; Jika tidak, hanya klik Sambung.">
+<!ENTITY torSettings.connectPrompt "Klik &quot;Sambung&quot; untuk bersambung dengan Tor.">
+<!ENTITY torSettings.configurePrompt "Klik &quot;Konfigur&quot; untuk laraskan tetapan rangkaian jika anda berada di negara yang melarang penggunaan Tor (seperti China, Iran, Syria) atau jika anda menyambung dengan rangkaian persendirian yang memerlukan proksi.">
+<!ENTITY torSettings.configure "Konfigur">
+<!ENTITY torSettings.connect "Sambung">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Menunggu Tor untuk dimulakan...">
-<!ENTITY torsettings.restart "Restart">
+<!ENTITY torsettings.restartTor "Mula Semula Tor">
+<!ENTITY torsettings.reconfigTor "Konfigur Semula">
 
-<!ENTITY torsettings.optional "Optional">
+<!ENTITY torsettings.discardSettings.prompt "Anda telah mengkonfigur titi Tor atau telah memasukkan tetapan proksi setempat.&#160; Untuk membuat sambungan terus dengan rangkaian Tor. tetapan ini mesti dibuang.">
+<!ENTITY torsettings.discardSettings.proceed "Buang Tetapan dan Sambung">
 
-<!ENTITY torsettings.useProxy.checkbox "Komputer ini perlu menggunakan proksi untuk mengakses Internet">
+<!ENTITY torsettings.optional "Pilihan">
+
+<!ENTITY torsettings.useProxy.checkbox "Saya guna proksi untuk bersambung dengan Internet">
 <!ENTITY torsettings.useProxy.type "Jenis Proksi:">
+<!ENTITY torsettings.useProxy.type.placeholder "pilih sejenis proksi">
 <!ENTITY torsettings.useProxy.address "Alamat:">
-<!ENTITY torsettings.useProxy.address.placeholder "Alamat IP atau nama host">
+<!ENTITY torsettings.useProxy.address.placeholder "Alamat IP atau nama hos">
 <!ENTITY torsettings.useProxy.port "Port:">
-<!ENTITY torsettings.useProxy.username "Kata pengguna:">
-<!ENTITY torsettings.useProxy.password "Kata laluan:">
+<!ENTITY torsettings.useProxy.username "Nama Pengguna:">
+<!ENTITY torsettings.useProxy.password "Kata Laluan:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "Komputer ini melalui firewall yang hanya membenarkan sambungan ke port tertentu">
-<!ENTITY torsettings.firewall.allowedPorts "Port yang dibenarkan:">
-<!ENTITY torsettings.useBridges.checkbox "Pembekal Perkhidmatan Internet saya (ISP) menghalang sambungan kepada rangkaian Tor">
-<!ENTITY torsettings.useBridges.label "Masukkan satu atau lebih bridge relay (satu per baris).">
-<!ENTITY torsettings.useBridges.placeholder "alamat:port ATAU transport alamat:port">
+<!ENTITY torsettings.firewall.checkbox "Komputer ini melalui tembok api yang hanya membolehkan sambungan ke port tertentu">
+<!ENTITY torsettings.firewall.allowedPorts "Port Dibenarkan:">
+<!ENTITY torsettings.useBridges.checkbox "Tor dilarang penggunaannya di negara saya">
+<!ENTITY torsettings.useBridges.default "Pilih satu titi terbina-dalam">
+<!ENTITY torsettings.useBridges.default.placeholder "pilih satu titi">
+<!ENTITY torsettings.useBridges.custom "Sediakan satu titi yang saya tahu">
+<!ENTITY torsettings.useBridges.label "Masukkan maklumat titi dari sumber yang dipercayai.">
+<!ENTITY torsettings.useBridges.placeholder "taip alamat:port (satu per baris)">
 
-<!ENTITY torsettings.copyLog "Salin log Tor ke clipboard">
-<!ENTITY torsettings.bridgeHelpTitle "Bantuan Bridge Relay">
-<!ENTITY torsettings.bridgeHelp1 "Jika anda tidak dapat menyambung kepada rangkaian Tor, ia mungkin bahawa Pembekal Perkhidmatan Internet (ISP) atau agensi lain menyekat Tor.&amp;#160; Selalunya, anda boleh menyelesaikan masalah ini dengan menggunakanTor Bridges yang mempunyai relay tersembunyi yang lebih sukar untuk menyekat.">
-<!ENTITY torsettings.bridgeHelp2 "Untuk mendapatkan beberapa bridge relays, gunakan pelayar web untuk melawat halaman berikut: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Satu lagi cara untuk mencari alamat public bridge adalah dengan menghantar mel kepada bridges@torproject.org dengan garis 'get bridges' dalam badan mesej.&amp;#160; Walau bagaimanapun, untuk membuat ia lebih sukar bagi penyerang untuk mengetahui banyak alamat bridge, anda mesti menghantar permintaan ini dari alamat e-mel di salah satu daripada domain berikut: gmail.com atau yahoo.com.">
-<!ENTITY torsettings.bridgeHelp4 "Anda juga boleh meminta bridge relays dengan menghantar e-mel kepada help@rt.torproject.org.">
+<!ENTITY torsettings.copyLog "Salin log Tor ke Papan Keratan">
+
+<!ENTITY torsettings.proxyHelpTitle "Bantuan Proksi">
+<!ENTITY torsettings.proxyHelp1 "Satu proksi setempat diperlukan semasa menyambung dengan rangkaian syarikat, sekolah, atau universiti.&#160;Jika anda tidak pasti bagaimana untuk menjawab soalan ini, lihat tetapan Internet dalam pelayar yang lain atau periksa tetapan rangkaian sistem anda untuk melihat sama ada proksi diperlukan.">
+
+<!ENTITY torsettings.bridgeHelpTitle "Bantuan Geganti Titi">
+<!ENTITY torsettings.bridgeHelp1 "Titi adalah geganti tidak tersenarai yang menjadikannya lebih sukar menyekat sambungan dengan Rangkaian Tor.&#160; Setiap jenis titi menggunakan kaedah berbeza untuk menghindari sekatan.&#160; Obf menjadikan trafik anda seakan-akan hingar rawak, dan paling teruk menjadikan trafik anda kelihatan mahu bersambung dengan perkhidmatan lain selain dari Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Oleh kerana terdapat beberapa negara menyekat Tor, sesetengah titi berfungsi di negara tertentu tetapi tidak pada negar lain.&#160; Jika anda tidak pasti titi yang manakah sesuai untuk negara anda, sila lawati torproject.org/about/contact.html#support">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "Tunggu sebentar sementara kami menjalinkan sambungan dengan rangkaian Tor.&#160; Ia mengambil masa beberapa minit.">
