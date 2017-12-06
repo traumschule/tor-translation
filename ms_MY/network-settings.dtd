@@ -45,7 +45,7 @@
 <!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
 <!ENTITY torsettings.useBridges.placeholder "type address:port (one per line)">
 
-<!ENTITY torsettings.copyLog "Salin log Tor ke clipboard">
+<!ENTITY torsettings.copyLog "Salin log Tor ke Papan Keratan">
 
 <!ENTITY torsettings.proxyHelpTitle "Proxy Help">
 <!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
