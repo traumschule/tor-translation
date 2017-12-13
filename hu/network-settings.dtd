@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor hálózati beállítások">
-<!ENTITY torsettings.wizard.title.default "Connect to Tor">
-<!ENTITY torsettings.wizard.title.configure "Tor Network Settings">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.default "Csatalkozás a Tor-hoz">
+<!ENTITY torsettings.wizard.title.configure "Tor hálózati beállítások">
+<!ENTITY torsettings.wizard.title.connecting "Kapcsolat létrehozása">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser nyelv">
@@ -9,8 +9,8 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Click “Connect” to connect to Tor.">
-<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as China, Iran, Syria) or if you are connecting from a private network that requires a proxy.">
+<!ENTITY torSettings.connectPrompt "Kattintson a &quot;Csatlakozásra&quot; hogy csatlakozzon a Tor-hoz.">
+<!ENTITY torSettings.configurePrompt "Kattintson a &quot;Konfigurálásra&quot; hogy változtasson a hálózati beállításokon amennyiben olyan országban él amelyek cenzúrázzák a Tor-t(Mint például Kína, Irán,Szíria) vagy ammenyiben olyan privát hálózatról kíván csatlakozni amelynek proxy-ra van szüksége.">
 <!ENTITY torSettings.configure "Beállít">
 <!ENTITY torSettings.connect "Csatlakozás">
 
@@ -25,9 +25,9 @@
 
 <!ENTITY torsettings.optional "Opcionális">
 
-<!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Proxy-t használok az Internetre való kapcsolódáshoz">
 <!ENTITY torsettings.useProxy.type "Proxy Típus:">
-<!ENTITY torsettings.useProxy.type.placeholder "select a proxy type">
+<!ENTITY torsettings.useProxy.type.placeholder " válaszon ki egy proxy típust">
 <!ENTITY torsettings.useProxy.address "Cím:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP cím vagy gépnév">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -47,7 +47,7 @@
 
 <!ENTITY torsettings.copyLog "A Tor log Vágólapra másolása">
 
-<!ENTITY torsettings.proxyHelpTitle "Proxy Help">
+<!ENTITY torsettings.proxyHelpTitle "Proxy segítség">
 <!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Híd kapcsoló súgó">
@@ -55,4 +55,4 @@
 <!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Kérlek várj, amíg létrehozunk egy kapcsolatot a Tor hálózathoz.&#160; Ez eltarthat néhány percig.">
