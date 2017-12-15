@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Cliquez sur « Se connecter » pour vous connecter à Tor.">
-<!ENTITY torSettings.configurePrompt "Cliquez sur « Configurer » pour ajuster les paramètres du réseau si vous êtes dans un pays qui censure Tor (tel que la Chine, l’Iran, la Syrie) ou si vous vous connectez d’un réseau privé qui exige un mandataire.">
+<!ENTITY torSettings.configurePrompt "Cliquez sur « Configurer » pour ajuster les paramètres du réseau si vous êtes dans un pays qui censure Tor (tel que la Chine, l’Iran, la Turquie) ou si vous vous connectez d’un réseau privé qui exige un mandataire.">
 <!ENTITY torSettings.configure "Configurer">
 <!ENTITY torSettings.connect "Se connecter">
 
