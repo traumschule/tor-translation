@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "לחץ על “התחבר“ כדי להתחבר אל Tor.">
-<!ENTITY torSettings.configurePrompt "לחץ על “הגדר“ כדי להתאים הגדרות רשת אם אתה במדינה שמצנזרת את Tor (למשל סין, איראן או סוריה) או אם אתה מתחבר מרשת פרטית שדורשת ייפוי-כוח.">
+<!ENTITY torSettings.configurePrompt "לחץ על “הגדר“ כדי להתאים הגדרות רשת אם אתה במדינה שמצנזרת את Tor (למשל מצרים, סין וטורקיה) או אם אתה מתחבר מרשת פרטית הדורשת ייפוי-כוח.">
 <!ENTITY torSettings.configure "הגדר">
 <!ENTITY torSettings.connect "התחבר">
 
