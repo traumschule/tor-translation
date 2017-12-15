@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Klicka på &quot;Anslut&quot; för att ansluta till Tor.">
-<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
+<!ENTITY torSettings.configurePrompt "Klicka &quot;Konfigurera&quot; för att justera nätverks inställningar ifall du är i ett land som censurerar Tor( som Egypten, Kina och Turkiet) eller ifall du ansluter från ett privat nätverk som kräver en proxy.">
 <!ENTITY torSettings.configure "Konfigurera">
 <!ENTITY torSettings.connect "Anslut">
 
@@ -41,7 +41,7 @@
 <!ENTITY torsettings.useBridges.checkbox "Tor är censurerat i mitt land">
 <!ENTITY torsettings.useBridges.default "Välj en inbyggd brygga">
 <!ENTITY torsettings.useBridges.default.placeholder "Välj en brygga">
-<!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
+<!ENTITY torsettings.useBridges.custom "Använd en egen brygga">
 <!ENTITY torsettings.useBridges.label "Ange brygg informationen från en trodd källa">
 <!ENTITY torsettings.useBridges.placeholder "skriv adress:port (en per rad)">
 
@@ -51,8 +51,8 @@
 <!ENTITY torsettings.proxyHelp1 "En lokal proxy behövs när du ansluter via ett företag, skola eller universitets nätverk. &#160; Om du inte är säker på hur du ska svara på denna frågan, se Internet inställningar i en annan webbläsaren eller kolla ditt systems nätverks inställningar för att se ifall en proxy behövs.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Hjälp om bryggor">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "Bryggor är olistade reläer som gör det svårare att blockera anslutningar till Tor nätverket. &#160; Var typ av brygga använder sig av olika metoder för att unvika censur. &#160; Obfs gör att din trafik ser ut som brus och meek gör att din trafik ser ut som att du ansluter till tjänsten istället för Tor.">
+<!ENTITY torsettings.bridgeHelp2 "I och med att vissa länder försöker blockera Tor fungerar inte alla bryggor i alla länder. &#160; Ifall du är osäker på vilka bryggor som fungerar i ditt land besök torproject.org/about/contact.html#support">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Var god och vänta medans vi etablerar en anslutning till Tor nätverket. &#160; Detta kan ta upp till flera minuter.">
