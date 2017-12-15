@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Norėdami prisijungti prie Tor, spustelėkite &quot;Prisijungti&quot;.">
-<!ENTITY torSettings.configurePrompt "Spustelėkite &quot;Konfigūruoti&quot;, norėdami reguliuoti tinklo nustatymus, jeigu esate šalyje kuri cenzūruoja Tor (tokioje kaip Kinija, Iranas, Sirija) arba jeigu jungiatės iš privačiojo tinklo, kuris reikalauja įgaliotojo serverio.">
+<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Konfigūruoti">
 <!ENTITY torSettings.connect "Prisijungti">
 

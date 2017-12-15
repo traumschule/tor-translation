@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Klikněte na „Připojit“ pro připojení k Toru.">
-<!ENTITY torSettings.configurePrompt "Klikněte na „Konfigurovat“ pro upravení síťových nastavení v zemi, která blokuje Tor (jako je Čína, Írán nebo Sýrie), nebo pokud se připojujete z privátní sítě která vyžaduje proxy.">
+<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Konfigurovat">
 <!ENTITY torSettings.connect "Připojit">
 

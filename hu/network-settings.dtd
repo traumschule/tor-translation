@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Kattintson a &quot;Csatlakozásra&quot; hogy csatlakozzon a Tor-hoz.">
-<!ENTITY torSettings.configurePrompt "Kattintson a &quot;Konfigurálásra&quot; hogy változtasson a hálózati beállításokon amennyiben olyan országban él amelyek cenzúrázzák a Tor-t(Mint például Kína, Irán,Szíria) vagy ammenyiben olyan privát hálózatról kíván csatlakozni amelynek proxy-ra van szüksége.">
+<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Beállít">
 <!ENTITY torSettings.connect "Csatlakozás">
 

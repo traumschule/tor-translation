@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "请点击“连接”以连接至 Tor 网络。">
-<!ENTITY torSettings.configurePrompt "如果您所在国家（如中国、伊朗和叙利亚）对 Tor 进行封锁，或者需要代理访问互联网，请点击“配置”，对网络设置进行调整。">
+<!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "配置">
 <!ENTITY torSettings.connect "连接">
 
