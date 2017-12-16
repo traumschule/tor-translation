@@ -9,8 +9,8 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "&quot;Connect&quot; anklicken, um mit Tor zu verbinden.">
-<!ENTITY torSettings.configurePrompt "Klicken Sie auf “Konfigurieren” um die Netzwerkeinstellungen anzupassen wenn Sie sich in einem Land befinden das Tor zensiert (wie China, Iran, Syrien) oder von einem privaten Netzwerk aus verbinden, das einen Proxy verwendet.">
+<!ENTITY torSettings.connectPrompt "Klicken Sie auf &quot;Verbinden&quot;, um eine Verbindung zu Tor herzustellen.">
+<!ENTITY torSettings.configurePrompt "Klicken Sie auf &quot;Konfigurieren&quot;, um die Netzwerkeinstellungen anzupassen, wenn Sie sich in einem Land befinden, das Tor blockiert (z.B. Ägypten, China, Türkei) oder wenn Sie sich von einem privaten Netzwerk aus verbinden, das einen Proxy benötigt.">
 <!ENTITY torSettings.configure "Konfigurieren">
 <!ENTITY torSettings.connect "Verbinden">
 
@@ -27,7 +27,7 @@
 
 <!ENTITY torsettings.useProxy.checkbox "Ich benutze einen Proxy, um mich mit dem Internet zu verbinden">
 <!ENTITY torsettings.useProxy.type "Proxy-Typ:">
-<!ENTITY torsettings.useProxy.type.placeholder "Einen Proxy-Typ auswählen">
+<!ENTITY torsettings.useProxy.type.placeholder "Proxy-Typ auswählen">
 <!ENTITY torsettings.useProxy.address "Adresse:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP-Adresse oder Rechnername">
 <!ENTITY torsettings.useProxy.port "Anschluss:">
@@ -38,12 +38,12 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "Die Verbindung dieses Rechner geht durch eine Firewall, die nur bestimmte Anschlüsse zulässt">
 <!ENTITY torsettings.firewall.allowedPorts "Erlaubte Anschlüsse:">
-<!ENTITY torsettings.useBridges.checkbox "Tor ist in meinem Land blockiert">
+<!ENTITY torsettings.useBridges.checkbox "Tor wird in meinem Land blockiert.">
 <!ENTITY torsettings.useBridges.default "Bereitgestellte Brücke auswählen">
 <!ENTITY torsettings.useBridges.default.placeholder "Brücke auswählen">
 <!ENTITY torsettings.useBridges.custom "Biete mir eine Brücke an, die ich kenne">
-<!ENTITY torsettings.useBridges.label "Brücken-Informationen aus verlässlicher Quelle eingeben">
-<!ENTITY torsettings.useBridges.placeholder "Schreibe Adresse:Port (eins pro Zeile)">
+<!ENTITY torsettings.useBridges.label "Geben Sie Brückeninformationen aus einer vertrauenswürdigen Quelle ein.">
+<!ENTITY torsettings.useBridges.placeholder "Tippen Sie Adresse:Port (eines pro Zeile)">
 
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 
@@ -51,8 +51,8 @@
 <!ENTITY torsettings.proxyHelp1 "Ein lokaler Proxy wird verwendet, wenn Sie sich aus einem Unternehmens-, Schul- oder Universitätsnetzwerk heraus verbinden.&#160;Wenn Sie sich nicht sicher sind, wie Sie diese Frage beantworten sollen, sehen Sie sich die Interneteinstellungen in einem anderen Browser an oder überprüfen Sie die Netzwerkeinstellungen des Systems um zu bestimmen, ob sie einen lokalen Proxyserver benötigen.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
-<!ENTITY torsettings.bridgeHelp1 "Bridges sind nicht aufgeführte Vermittler die es schwieriger machen Verbindungen zum Tornetzwerk zu blockieren.&#160; Jeder Typ einer Bridge nutzt eine andere Methode um Zensur zu verhindern.&#160; Die vom Typ obfs lassen Ihren Datenverkehr wie Zufallsrauschen aussehen und die vom Typ meek lassen Ihren Datenverkehr aussehen, als ob Sie eine Verbindung zu diesem  jeweiligen Dienst herstellen anstatt zu Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Je nach dem, wie bestimmte Länder versuchen Tor zu blockieren, funktionieren auch nur bestimmte Bridges, wohingegen andere nicht funktionieren..&#160; Wenn Sie sich nicht sicher sind, welche Bridges in Ihrem Land funktionieren, besuchen Sie torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "Brücken sind nicht aufgelistete Vermittler, die es schwieriger machen, Verbindungen zum Tor-Netzwerk zu blockieren.&#160; Jede Art von Brücke verwendet eine andere Methode, um Zensur zu vermeiden.&#160; Die vom Typ obfs lassen Ihren Datenverkehr wie Zufallsrauschen aussehen und die vom Typ meek lassen Ihren Datenverkehr aussehen, als ob Sie eine Verbindung zu diesem jeweiligen Dienst herstellen anstatt zu Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Aufgrund der Tatsache, dass bestimmte Länder versuchen, Tor zu blockieren, funktionieren bestimmte Brücken in bestimmten Ländern, aber nicht in anderen.&#160; Wenn Sie sich nicht sicher sind, welche Brücken in Ihrem Land funktionieren, besuchen Sie torproject.org/about/contact.html#support">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "Bitte warten Sie, während eine Verbindung zum Tor-Netzwerk hergestellt wird.&#160; Das kann einige Minuten dauern.">
