@@ -10,7 +10,7 @@
 <!-- For "first run" wizard: -->
 
 <!ENTITY torSettings.connectPrompt "Tor ağına bağlanmak için &quot;Bağlan&quot; üzerine tıklayın.">
-<!ENTITY torSettings.configurePrompt "Tor ağını engelleyen bir ülkedeyseniz (Çin, İran, Suriye gibi) ya da vekil sunucu kullanılması gereken özel bir ağdan bağlanıyorsanız, ağ ayarlarını yapmak için &quot;Yapılandır&quot; üzerine tıklayın.">
+<!ENTITY torSettings.configurePrompt "Tor'u sansürleyen bir ülkedeyseniz (örneğin Mısır, Çin, Türkiye) veya bir vekil sunucu gerektiren özel bir ağdan bağlanıyorsanız ağ ayarlarını yapmak için &quot;Yapılandır&quot; a tıklayın.">
 <!ENTITY torSettings.configure "Yapılandır">
 <!ENTITY torSettings.connect "Bağlan">
 
