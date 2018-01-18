@@ -25,14 +25,14 @@
 
 <!ENTITY torsettings.optional "Опционално">
 
-<!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
-<!ENTITY torsettings.useProxy.type "Proxy Type:">
-<!ENTITY torsettings.useProxy.type.placeholder "select a proxy type">
-<!ENTITY torsettings.useProxy.address "Address:">
-<!ENTITY torsettings.useProxy.address.placeholder "IP address or hostname">
+<!ENTITY torsettings.useProxy.checkbox "Користам прокси за поврзување на Интернет">
+<!ENTITY torsettings.useProxy.type "Тип на прокси:">
+<!ENTITY torsettings.useProxy.type.placeholder "одбери тип на прокси">
+<!ENTITY torsettings.useProxy.address "Адреси:">
+<!ENTITY torsettings.useProxy.address.placeholder "IP адреси или име на хост">
 <!ENTITY torsettings.useProxy.port "Порта:">
-<!ENTITY torsettings.useProxy.username "Username:">
-<!ENTITY torsettings.useProxy.password "Password:">
+<!ENTITY torsettings.useProxy.username "Корисничко име:">
+<!ENTITY torsettings.useProxy.password "Лозинка:">
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
