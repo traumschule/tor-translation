@@ -36,23 +36,23 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "This computer goes through a firewall that only allows connections to certain ports">
-<!ENTITY torsettings.firewall.allowedPorts "Allowed Ports:">
-<!ENTITY torsettings.useBridges.checkbox "Tor is censored in my country">
-<!ENTITY torsettings.useBridges.default "Select a built-in bridge">
-<!ENTITY torsettings.useBridges.default.placeholder "select a bridge">
-<!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
-<!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
-<!ENTITY torsettings.useBridges.placeholder "type address:port (one per line)">
+<!ENTITY torsettings.firewall.checkbox "Овој компјутер оди преку огнен ѕид кој дозволува конекции до одредени порти">
+<!ENTITY torsettings.firewall.allowedPorts "Дозволени порти:">
+<!ENTITY torsettings.useBridges.checkbox "Tor е цензуриран во мојата држава">
+<!ENTITY torsettings.useBridges.default "Одбери вграден мост">
+<!ENTITY torsettings.useBridges.default.placeholder "селектирај мост">
+<!ENTITY torsettings.useBridges.custom "Обезбеди мост кој го знам">
+<!ENTITY torsettings.useBridges.label "Внесете информации за мост од доверлив извор.">
+<!ENTITY torsettings.useBridges.placeholder "внеси адреса:порта (по една во секој ред)">
 
-<!ENTITY torsettings.copyLog "Copy Tor Log To Clipboard">
+<!ENTITY torsettings.copyLog "Внеси го Tor логот за залепување">
 
-<!ENTITY torsettings.proxyHelpTitle "Proxy Help">
-<!ENTITY torsettings.proxyHelp1 "A local proxy is needed when connecting through a company, school, or university network.&#160;If you are not sure how to answer this question, look at the Internet settings in another browser or check your system's network settings to see whether a proxy is needed.">
+<!ENTITY torsettings.proxyHelpTitle "Прокси помош">
+<!ENTITY torsettings.proxyHelp1 "Локален прокси е потребен кога се приклучувате преку компанија, училиште, или универзитетска морежа.&#160; Ако не сте сигурни како да одговорите на ова прашање, погледнете во Интернет поставките во друг Интернет прелистувач или проверете ги вашите системски мрежни поставки да видите дали е потребен прокси.">
 
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelpTitle "Мост јазол помош">
+<!ENTITY torsettings.bridgeHelp1 "Мостовите се инеизлистани јазли кои го прават потешко блокирањето на врските кон Tor мрежата.&#160; Секој тип на мост користи различен метод за избегнување на цензурирањето.&#160; obfs мостот го прави протокот на информации да изгледа нормален, како од е од некој стандарден прелистувач наместо од Tor.">
+<!ENTITY torsettings.bridgeHelp2 "Поради колку конкретно државите се обидуваат да го блокираат Tor, конкретни мостови работат во едни конкретни држави но не и во други.&#160; Ако не си сигурен кои мостови работат во твојата држава, посети torproject.org/about/contact.html#support">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "Ве молиме почекајте додека се воспостави конекција со Тор мрежата.&#160; Ова може да потрае неколку минути.">
