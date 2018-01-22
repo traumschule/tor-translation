@@ -1,11 +1,11 @@
 <!ENTITY torsettings.dialog.title "إعدادات شبكة تور">
 <!ENTITY torsettings.wizard.title.default "إتصل بشبكة تور">
 <!ENTITY torsettings.wizard.title.configure "إعدادات شبكة تور">
-<!ENTITY torsettings.wizard.title.connecting "عملية الربط جارية">
+<!ENTITY torsettings.wizard.title.connecting "يتم إنشاء اتصال">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "لغة متصفح تور">
-<!ENTITY torlauncher.localePicker.prompt "الرجاء اختيار لغة">
+<!ENTITY torlauncher.localePicker.prompt "الرجاء اختيار لغة.">
 
 <!-- For "first run" wizard: -->
 
@@ -52,7 +52,7 @@
 
 <!ENTITY torsettings.bridgeHelpTitle "المساعدة الخاصة بالجسور المُرحلة">
 <!ENTITY torsettings.bridgeHelp1 "الجسور هي تبديلات (ريلاي) غير مدرجة تجعل حجب الاتصالات إلى شبكة تور اصعب. كل نوع من الجسور يستخدم طريقة مختلفة لتجنب الرقابة. ذوات ال (obfs) تجعل حركة معلوماتك تبدوا كضجة عشوائية, وذوات ال (meek) تجعل حركة معلوماتك تبدوا كأنها تتصل لتلك الخدمة بدلا من تور.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp2 "بسبب طريقة حظر بعض البلدان لتور, بعض الجسور تعمل في بلدان معينة لكنها لا تعمل ببعضها الآخر. إن لم تكن متأكدا بشأن أي جسور تعمل في بلدك, زر الموقع torproject.org/about/contact.html">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "الرجاء الإنتظار في حين نقوم بإنشاء اتصال لشبكة تور. هذا قد يستغرق عدة دقائق.">
