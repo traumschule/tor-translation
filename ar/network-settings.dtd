@@ -1,35 +1,18 @@
 <!ENTITY torsettings.dialog.title "إعدادات شبكة تور">
+<!ENTITY torsettings.wizard.title.default "إتصل بشبكة تور">
+<!ENTITY torsettings.wizard.title.configure "إعدادات شبكة تور">
+<!ENTITY torsettings.wizard.title.connecting "يتم إنشاء اتصال">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "لغة متصفح تور">
-<!ENTITY torlauncher.localePicker.prompt "الرجاء اختيار لغة">
+<!ENTITY torlauncher.localePicker.prompt "الرجاء اختيار لغة.">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "عليك توفير معلومات حول اتصال هذا الحاسب بالإنترنت قبل أن تحاول الاتصال بشبكة تور.">
-
-<!ENTITY torSettings.yes "نعم">
-<!ENTITY torSettings.no "لا">
-
-<!ENTITY torSettings.firstQuestion "أي مما يلي يعتبر وصف افضل لموقفك؟">
-<!ENTITY torSettings.configurePrompt1 "اتصال هذا الحاسب بالإنترنت محجوب أو له بروكسي.">
-<!ENTITY torSettings.configurePrompt2 "احتاج الى موافقه جسر او إعدادات بروكسي موضعي قبل الاتصال بشبكه&#160; تور">
+<!ENTITY torSettings.connectPrompt "إنقر &quot;اتصل&quot; للإتصال بتور.">
+<!ENTITY torSettings.configurePrompt "إنقر &quot;اضبط&quot; لتعديل إعدادات الشبكة إن كنت في بلد يحجب تور (كمصر, الصين, تركيا) أو إن كنت تتصل من شبكة خاصة تتطلب بروكسي.">
 <!ENTITY torSettings.configure "تكوين">
-<!ENTITY torSettings.connectPrompt2 "اود انشاء اتصال مباشر بشبكه تور.">
-<!ENTITY torSettings.connectPrompt3 "سيصلح هذا في معظم الحالات.">
 <!ENTITY torSettings.connect "اتصل">
-
-<!ENTITY torSettings.proxyPageTitle "إعداد البروكسي المحلّي">
-<!ENTITY torSettings.proxyQuestion "هل يحتاج هذا الكمبيوتر لاستخدام وكيل محلي للاتصال بالإنترنت؟">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "في معضم الحالات لايوجب استخدام بروكسي محلي، ولكننى نوصي باستخدامه عند انشاء اتصال من شبكه شركه، مدرسه، او جامعه.">
-<!ENTITY torSettings.proxyExplanation2 "في حاله عدم معرفتك عن كيفيه اجابه هذا السؤال، يمكنك الاطلاع على متصفح آخر او اعدادات الشبكه لنظام التشغيل لمعرفه فيما اذا كان استخدام بروكسي مطلوب.">
-<!ENTITY torSettings.enterProxy "أدخل إعدادات البروكسي.">
-<!ENTITY torSettings.bridgePageTitle "إعداد جسور تور.">
-<!ENTITY torSettings.bridgeQuestion "هل يقوم مقدم خدمة الإنترنت (ISP) الذي تتعامل معه بحجب الاتصالات بشبكة Tor أو مراقبتها بطريقة أخرى؟">
-<!ENTITY torSettings.bridgeExplanation1 "اذا لم تكن متاكدا على كيفيه اجابه هذا السؤال، الرجاء اختيار لا( اذا لم تتمكن من الاتصال بشبكه تور بدون جسر، يمكنك اضافه جسر لاحق)">
-<!ENTITY torSettings.bridgeExplanation2 "اذا قمت باختيار نعم، سيتم سؤالك عن اعدادات جسر تور، حيث انها مرحلات غير مدرجة تصعب عمليه حجب الاتصال بشبكه تور.">
-<!ENTITY torSettings.bridgeSettingsPrompt "يمكنك استخدام مجموعة الجسور المتوفرة أو الحصول على مجموعة مخصصة من الجسور.">
 
 <!-- Other: -->
 
@@ -42,8 +25,9 @@
 
 <!ENTITY torsettings.optional "اختياري">
 
-<!ENTITY torsettings.useProxy.checkbox "يحتاج هذا الكمبيوتر لاستخدام وكيل محلي للاتصال بالإنترنت">
+<!ENTITY torsettings.useProxy.checkbox "إنني أستخدم وكيلا للبروكسي للإتصال بالأنترنت">
 <!ENTITY torsettings.useProxy.type "نوع البروكسي:">
+<!ENTITY torsettings.useProxy.type.placeholder "إختر نوع البروكسي">
 <!ENTITY torsettings.useProxy.address "العنوان:">
 <!ENTITY torsettings.useProxy.address.placeholder "عنوان الإنترنت IP أو اسم المضيف">
 <!ENTITY torsettings.useProxy.port "المنفذ:">
@@ -54,22 +38,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "اتصال الإنترنت لهذا الكمبيوتر يمر بجدار حماية يسمح بالاتصال فقط من خلال منافذ معينة">
 <!ENTITY torsettings.firewall.allowedPorts "المنافذ المسموح بها:">
-<!ENTITY torsettings.useBridges.checkbox "مزود خدمة الإنترنت الخاص بي (ISP) يمنع الاتصالات بشبكة تور">
-<!ENTITY torsettings.useBridges.default "الاتصال بالجسور المتوفرة">
-<!ENTITY torsettings.useBridges.note "كل جسر يستخدم طريقه مختلفه لتجنب الحجب.&#160; في حاله عدم نجاح احد الجسور في العمل، قم بتجربه جسر مختلف.">
-<!ENTITY torsettings.useBridges.type "نوع النقل:">
-<!ENTITY torsettings.useBridges.custom "إدخال جسور مخصصة">
-<!ENTITY torsettings.useBridges.label "ادخل جسر او اكثر (جسر واحد في كل سطر).">
-<!ENTITY torsettings.useBridges.placeholder "اكتب العنوان:المنفذ">
+<!ENTITY torsettings.useBridges.checkbox "تور محجوب في بلدي">
+<!ENTITY torsettings.useBridges.default "إختر جسرا مُدمَجا في البرنامج">
+<!ENTITY torsettings.useBridges.default.placeholder "إختر جسرا">
+<!ENTITY torsettings.useBridges.custom "إدخال عنوان جسرٍ أعرفه">
+<!ENTITY torsettings.useBridges.label "أدخل معلومات جسر (بريدج) من مصدر موثوق.">
+<!ENTITY torsettings.useBridges.placeholder "اكتب العنوان:المنفذ (واحد لكل سطر)">
 
 <!ENTITY torsettings.copyLog "نسخ سجل تور إلي الحافظة">
+
+<!ENTITY torsettings.proxyHelpTitle "مساعدة بروكسي">
+<!ENTITY torsettings.proxyHelp1 "تحتاج لبروكسي محلي عند الاتصال عبر شركة, مدرسة, أو شبكة جامعية. إذا لم تكن متأكدا من كيفية الإجابة على هذا السؤال, إلقي نظرة على إعدادات الإنترنت في متصفح آخر أو تحقق من إعدادات شبكة نظامك لتتأكد إن كان هناك حاجة لبروكسي.">
+
 <!ENTITY torsettings.bridgeHelpTitle "المساعدة الخاصة بالجسور المُرحلة">
-<!ENTITY torsettings.bridgeHelp1 "قد يكون السبب في عدم قدرتك علي الاتصال بشبكة تورهو ان مزود خدمة الإنترنت الخاص بك (ISP) أو منظمة اخري يمنع محاولات الاتصال بشبكة تور. وغالباً، تستطيع تخطي هذا المنع عن طريق استخدام جسور تور و الجسور عبارة عن مُرحلات مخفية صعب منعها.">
-<!ENTITY torsettings.bridgeHelp1B "تستطيع استخدام مجموعة من عناوين الجسور المتوفرة، والمكونة مسبقا، أو يمكنك الحصول على مجموعة من عناوين مخصصة باستخدام أحد هذه الأساليب:">
-<!ENTITY torsettings.bridgeHelp2Heading "من خلال الويب">
-<!ENTITY torsettings.bridgeHelp2 "استخدم متصفح ويب لزيارة https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "من خلال المستجيب التلقائي للبريد الإلكتروني">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "ارسل رساله الى bridges@torproject.org مع العباره &quot;get bridges&quot; في وسط الصفحه .&amp;#160 , ولكن بأمكانك ان تجعل الرساله اكثر امناً و مستصعبه للمخترق (الهاكر) ان يراها عن طريق استخدام من المواقع الريد المشهوره Gmail و Yahoo ">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net او https://mail.google.com, او https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "من خلال مكتب المساعدة">
-<!ENTITY torsettings.bridgeHelp4 "يمكنك طلب عناوين الجسر، كحل أخير، من خلال إرسال رسالة بريد إلكتروني مهذبة إلى help@rt.torproject.org.&#160; يرجى ملاحظة أنه يجب أن يرد شخص ما على كل طلب.">
+<!ENTITY torsettings.bridgeHelp1 "الجسور هي تبديلات (ريلاي) غير مدرجة تجعل حجب الاتصالات إلى شبكة تور اصعب. كل نوع من الجسور يستخدم طريقة مختلفة لتجنب الرقابة. ذوات ال (obfs) تجعل حركة معلوماتك تبدوا كضجة عشوائية, وذوات ال (meek) تجعل حركة معلوماتك تبدوا كأنها تتصل لتلك الخدمة بدلا من تور.">
+<!ENTITY torsettings.bridgeHelp2 "بسبب طريقة حظر بعض البلدان لتور, بعض الجسور تعمل في بلدان معينة لكنها لا تعمل ببعضها الآخر. إن لم تكن متأكدا بشأن أي جسور تعمل في بلدك, زر الموقع torproject.org/about/contact.html">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "الرجاء الإنتظار في حين نقوم بإنشاء اتصال لشبكة تور. هذا قد يستغرق عدة دقائق.">
