@@ -52,7 +52,7 @@
 
 <!ENTITY torsettings.bridgeHelpTitle "Bantuan Bridge Relay">
 <!ENTITY torsettings.bridgeHelp1 "Bridges adalah relays yang tidak terdaftar, yang membuat pemblokiran sambungan di Jaringan Tor lebih sulit dilakukan.&#160; Setiap jenis bridge menggunakan metode yang berbeda untuk menghindari sensor.&#160; Jenis obfs membuat sambungan Anda terlihat seperti kegiatan acak dan jenis meek membuat sambungan Anda terlihat tersambung ke layanan tersebut, bukan ke Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp2 "Karena beberapa negara mencoba untuk memblokir Tor, beberapa jenis bridge berfungsi di beberapa negara tapi tidak di negara lain.&#160; Jika Anda tidak yakin tentang jenis bridge yang berfungsi negara Anda, kunjungi torproject.org/about/contact.html#support">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Mohon menunggu sambil kami membuat sambungan ke jaringan TorJaringan Tor.&#160; Ini akan memakan waktu beberapa menit">
