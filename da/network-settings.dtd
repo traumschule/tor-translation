@@ -4,7 +4,7 @@
 <!ENTITY torsettings.wizard.title.connecting "Etablerer en forbindelse">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor Browser sprog">
+<!ENTITY torlauncher.localePicker.title "Tor Browser-sprog">
 <!ENTITY torlauncher.localePicker.prompt "Vælg venligst et sprog.">
 
 <!-- For "first run" wizard: -->
