@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Налаштування мережі Tor">
 <!ENTITY torsettings.wizard.title.default "З'єднатися з Tor ">
 <!ENTITY torsettings.wizard.title.configure "Параметри мережі Tor">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.connecting "Встановлення З'єднання">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Мова Tor Browser">
@@ -9,7 +9,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Click “Connect” to connect to Tor.">
+<!ENTITY torSettings.connectPrompt "Натисніть кнопку &quot;З'єднати&quot;, щоб з'єднатися з Tor.">
 <!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Налаштування">
 <!ENTITY torSettings.connect "З'єднатися">
