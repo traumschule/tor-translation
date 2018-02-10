@@ -1,4 +1,7 @@
 <!ENTITY torsettings.dialog.title "Torネットワーク設定">
+<!ENTITY torsettings.wizard.title.default "Tor に接続する">
+<!ENTITY torsettings.wizard.title.configure "Tor ネットワーク設定">
+<!ENTITY torsettings.wizard.title.connecting "接続を確立しています">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor ブラウザー言語">
@@ -6,30 +9,10 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Tor ネットワークに接続する前に、このコンピューターのインターネット接続についての情報を提供して頂く必要があります。">
-
-<!ENTITY torSettings.yes "はい">
-<!ENTITY torSettings.no "いいえ">
-
-<!ENTITY torSettings.firstQuestion "以下のうちあなたの状態に最も適しているのはどれですか？">
-<!ENTITY torSettings.configurePrompt1 "このコンピュータのインターネット接続は、検閲されているかプロキシを通します。">
-<!ENTITY torSettings.configurePrompt2 "Torネットワークに接続する前にブリッジやローカルプロキシを設定する必要があります。&#160;">
+<!ENTITY torSettings.connectPrompt "「接続」をクリックすると Tor に接続します。">
+<!ENTITY torSettings.configurePrompt "Tor による通信を検閲する国（エジプト、中国、トルコ等）にいる場合やプロキシを要求するプライベートネットワークから接続する場合、「設定」をクリックしてネットワーク設定を調整します。">
 <!ENTITY torSettings.configure "構成">
-<!ENTITY torSettings.connectPrompt2 "Torネットワークに直接接続します。">
-<!ENTITY torSettings.connectPrompt3 "これはほとんどの状況で動作します。">
 <!ENTITY torSettings.connect "接続">
-
-<!ENTITY torSettings.proxyPageTitle "ローカルプロキシの設定">
-<!ENTITY torSettings.proxyQuestion "インターネットに接続するためにローカルプロキシを通す必要がありますか？">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "ほとんどの場合ローカルプロキシは必要ありません。ただし、会社、学校、大学などのネットワークを通して接続する場合に必要となることがあるかもしれません。">
-<!ENTITY torSettings.proxyExplanation2 "もし分からなければ、他のブラウザーのインターネット設定やシステムのネットワーク設定を確認して、ローカルプロキシが必要かどうか確認してください。">
-<!ENTITY torSettings.enterProxy "プロキシ設定を入力">
-<!ENTITY torSettings.bridgePageTitle "Torブリッジの設定">
-<!ENTITY torSettings.bridgeQuestion "あなたのインターネットサービスプロバイダー (ISP) は Tor ネットワークへの接続をブロックしているか、あるいは別のやり方で検閲していますか？">
-<!ENTITY torSettings.bridgeExplanation1 "もし分からなければ「いいえ」を選択してください。(ブリッジなしでTorネットワークに接続することができなかった場合、後で追加できます)">
-<!ENTITY torSettings.bridgeExplanation2 "「はい」を選択した場合、TorブリッジすなわちTorネットワークへの接続をブロックすることを難しくするリストされていないリレーを設定するよう求められます。">
-<!ENTITY torSettings.bridgeSettingsPrompt "提供されたブリッジのセットを使用するか、あるいはカスタムのブリッジのセットを取得して入力することができます。">
 
 <!-- Other: -->
 
@@ -42,8 +25,9 @@
 
 <!ENTITY torsettings.optional "オプション">
 
-<!ENTITY torsettings.useProxy.checkbox "このコンピューターはインターネットに接続するためにローカルプロキシを通す必要があります。">
+<!ENTITY torsettings.useProxy.checkbox "インターネットに接続するのにプロキシを使用します">
 <!ENTITY torsettings.useProxy.type "Proxyの種類:">
+<!ENTITY torsettings.useProxy.type.placeholder "プロキシの種類を選択">
 <!ENTITY torsettings.useProxy.address "アドレス:">
 <!ENTITY torsettings.useProxy.address.placeholder "IPアドレス またはホストネーム">
 <!ENTITY torsettings.useProxy.port "ポート">
@@ -54,22 +38,21 @@
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
 <!ENTITY torsettings.firewall.checkbox "このコンピューターは特定のポートへの接続のみ許可するファイアーウォールを通します。">
 <!ENTITY torsettings.firewall.allowedPorts "許可されたポート:">
-<!ENTITY torsettings.useBridges.checkbox "私のインターネットサービスプロバイダ(ISP)はTorネットワークへの接続をブロックします">
-<!ENTITY torsettings.useBridges.default "提供されたブリッジで接続">
-<!ENTITY torsettings.useBridges.note "それぞれの種類のブリッジは検閲を避けるために異なった方法を使用します。&#160;もしひとつのブリッジが機能しなければ、別のもので再度試してみてください。">
-<!ENTITY torsettings.useBridges.type "トランスポートタイプ:">
-<!ENTITY torsettings.useBridges.custom "カスタムブリッジを入力">
-<!ENTITY torsettings.useBridges.label "1つ以上のブリッジリレーを入力してください(行あたり1つ)。">
-<!ENTITY torsettings.useBridges.placeholder "アドレス:ポートを 入力">
+<!ENTITY torsettings.useBridges.checkbox "Tor は私の国では検閲されています">
+<!ENTITY torsettings.useBridges.default "内蔵ブリッジを選択する">
+<!ENTITY torsettings.useBridges.default.placeholder "ブリッジを選択">
+<!ENTITY torsettings.useBridges.custom "知っているブリッジを使う">
+<!ENTITY torsettings.useBridges.label "信頼できる情報源からのブリッジ情報を入力してください。">
+<!ENTITY torsettings.useBridges.placeholder "アドレス:ポート を入力（1行につきひとつ）">
 
 <!ENTITY torsettings.copyLog "Torのログをクリップボードにコピー">
+
+<!ENTITY torsettings.proxyHelpTitle "プロキシヘルプ">
+<!ENTITY torsettings.proxyHelp1 "会社、学校、大学等のネットワークを通して接続する場合、ローカルプロクシが必要になります。&#160;もしこの質問にどう答えればよいかわからない場合は、他のブラウザのインターネット設定を見るか、システムのネットワーク設定を確認するかして、プロクシが必要であるかを調べてください。">
+
 <!ENTITY torsettings.bridgeHelpTitle "ブリッジリレーのヘルプ">
-<!ENTITY torsettings.bridgeHelp1 "Tor ネットワークに接続できないなら、あなたのインターネットサービスプロバイダー(ISP)や別の機関が Tor をブロックしている可能性があります。&#160; ブロックが比較的困難なリストされていないリレーである Tor ブリッジを使用することでこの問題を回避できることもあります。">
-<!ENTITY torsettings.bridgeHelp1B "設定済みのデフォルトの設定を利用するか、以下のうちのいずれかの方法によってカスタムのアドレスセットを取得することができます。">
-<!ENTITY torsettings.bridgeHelp2Heading "ウェブ経由">
-<!ENTITY torsettings.bridgeHelp2 "ウェブを使用して、https://bridges.torproject.orgを開く">
-<!ENTITY torsettings.bridgeHelp3Heading "メール自動応答システム経由">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "bridges@torproject.org宛にget bridgesという本文のメールを送信してください。&#160; ただし、攻撃者にブリッジのアドレスを知られないため、このリクエストを以下のEメールプロバイダーのいずれかから送信する必要があります。(設定の順に表示):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "ヘルプデスク経由">
-<!ENTITY torsettings.bridgeHelp4 "最後の頼みの綱として、 help@rt.torproject.org に丁寧なメールメッセージを送信して、ブリッジアドレスをリクエストすることができます。&#160; 人間が各リクエストに対応する必要があることにご注意ください。">
+<!ENTITY torsettings.bridgeHelp1 "ブリッジとはTorネットワークへの接続をブロックすることを難しくするためのリストされていないリレーです。&#160; それぞれの種類のブリッジは検閲を避けるための異なる手法を利用しています。&#160; obfsのものはあなたのトラフィックをランダムなノイズのように見せかけ，meekのものはあなたのトラフィックをTorではなくそのサービスへの接続であるように見せかけます。">
+<!ENTITY torsettings.bridgeHelp2 "その国がどのようにしてTorをブロックしようと試みているかによって、あるブリッジがある国では機能しても他の国では動かない場合があります。&#160; もしどのブリッジがあなたの国で機能するかわからない場合は torproject.org/about/contact.html#support にアクセスしてください。">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "Torネットワークへの接続が確立されるまでお待ちください。&#160; これには数分間かかることがあります。">
