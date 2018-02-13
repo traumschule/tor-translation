@@ -16,7 +16,7 @@
 
 <!-- Other: -->
 
-<!ENTITY torsettings.startingTor "En attente du démarrage de Tor...">
+<!ENTITY torsettings.startingTor "En attente du démarrage de Tor…">
 <!ENTITY torsettings.restartTor "Redémarrer Tor">
 <!ENTITY torsettings.reconfigTor "Reconfigurer">
 
