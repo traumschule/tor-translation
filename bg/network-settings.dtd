@@ -41,9 +41,9 @@
 <!ENTITY torsettings.useBridges.checkbox "Tor  е цензуриран в моята страна">
 <!ENTITY torsettings.useBridges.default "Избор на вграден бридж">
 <!ENTITY torsettings.useBridges.default.placeholder "изберете бридж">
-<!ENTITY torsettings.useBridges.bridgeDB "Request a bridge from torproject.org">
-<!ENTITY torsettings.useBridges.captchaSolution.placeholder "Enter the characters from the image">
-<!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Get a new challenge">
+<!ENTITY torsettings.useBridges.bridgeDB "Поискване на мост от torproject.org">
+<!ENTITY torsettings.useBridges.captchaSolution.placeholder "Въведете символите от изображението">
+<!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Нова картинка">
 <!ENTITY torsettings.useBridges.captchaSubmit "Изпрати">
 <!ENTITY torsettings.useBridges.custom "Задавне на бридж сега">
 <!ENTITY torsettings.useBridges.label "Въведете информация за бриджа от източник, на който вярвате.">
