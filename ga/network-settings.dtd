@@ -49,7 +49,7 @@
 <!ENTITY torsettings.useBridges.label "Cuir isteach eolas faoi dhroichead ó fhoinse iontaofa.">
 <!ENTITY torsettings.useBridges.placeholder "clóscríobh seoladh:port (ceann amháin ar gach líne)">
 
-<!ENTITY torsettings.copyLog "Cóipeáil an Logchomhad Tor go dtí an Ghearrthaisce">
+<!ENTITY torsettings.copyLog "Cóipeáil Logchomhad Tor go dtí an Ghearrthaisce">
 
 <!ENTITY torsettings.proxyHelpTitle "Cabhair le Seachfhreastalaithe">
 <!ENTITY torsettings.proxyHelp1 "Úsáidtear seachfhreastalaí áitiúil nuair a cheanglaítear ó líonra i gcomhlacht, i scoil, nó in ollscoil.&#160;Mura bhfuil tú cinnte faoin fhreagra ba chóir duit a thabhairt, caith súil ar na socruithe Idirlín i mbrabhsálaí eile, nó ar shocruithe líonra do chórais, le fáil amach an bhfuil seachfhreastalaí de dhíth.">
