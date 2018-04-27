@@ -41,7 +41,7 @@
 <!ENTITY torsettings.useBridges.checkbox "Tor is geblokkeerd in mijn land.">
 <!ENTITY torsettings.useBridges.default "Selecteer een ingebouwde bridge">
 <!ENTITY torsettings.useBridges.default.placeholder "Kies een bridge">
-<!ENTITY torsettings.useBridges.bridgeDB "Request a bridge from torproject.org">
+<!ENTITY torsettings.useBridges.bridgeDB "Vraag een bridge aan bij torproject.org">
 <!ENTITY torsettings.useBridges.captchaSolution.placeholder "Voer de tekens van het plaatje in">
 <!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Krijg een nieuwe uitdaging">
 <!ENTITY torsettings.useBridges.captchaSubmit "Verzenden">
