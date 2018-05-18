@@ -41,8 +41,8 @@
 <!ENTITY torsettings.useBridges.checkbox "Tor запрещён в моей стране">
 <!ENTITY torsettings.useBridges.default "Выбрать встроенный мост">
 <!ENTITY torsettings.useBridges.default.placeholder "выбрать мост">
-<!ENTITY torsettings.useBridges.bridgeDB "Request a bridge from torproject.org">
-<!ENTITY torsettings.useBridges.captchaSolution.placeholder "Enter the characters from the image">
+<!ENTITY torsettings.useBridges.bridgeDB "Запросить мост от torproject.org">
+<!ENTITY torsettings.useBridges.captchaSolution.placeholder "Введите символы с изображения">
 <!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Get a new challenge">
 <!ENTITY torsettings.useBridges.captchaSubmit "Передать">
 <!ENTITY torsettings.useBridges.custom "Указать мост, который я знаю">
