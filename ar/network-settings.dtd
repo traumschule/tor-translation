@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "إعدادات شبكة تور">
-<!ENTITY torsettings.wizard.title.default "إتصل بشبكة تور">
+<!ENTITY torsettings.wizard.title.default "اتصل بتور">
 <!ENTITY torsettings.wizard.title.configure "إعدادات شبكة تور">
-<!ENTITY torsettings.wizard.title.connecting "يتم إنشاء اتصال">
+<!ENTITY torsettings.wizard.title.connecting "يجري إنشاء اتصال">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "لغة متصفح تور">
@@ -9,16 +9,16 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "إنقر &quot;اتصل&quot; للإتصال بتور.">
-<!ENTITY torSettings.configurePrompt "إنقر &quot;اضبط&quot; لتعديل إعدادات الشبكة إن كنت في بلد يحجب تور (كمصر, الصين, تركيا) أو إن كنت تتصل من شبكة خاصة تتطلب بروكسي.">
+<!ENTITY torSettings.connectPrompt "انقر &quot;اتصل&quot; للاتصال بتور.">
+<!ENTITY torSettings.configurePrompt "انقر &quot;اضبط&quot; لضبط إعدادات الشبكة إن كنت في بلد يحجب تور (مثل مصر، والصين، وتركيا) أو إن كنت تتصل من شبكة خاصة تتطلب وسيط.">
 <!ENTITY torSettings.configure "تكوين">
 <!ENTITY torSettings.connect "اتصل">
 
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "في انتظار تور حتي يبدء بالعمل...">
-<!ENTITY torsettings.restartTor "إعادة تشغيل تور">
-<!ENTITY torsettings.reconfigTor "إعادة إعداد">
+<!ENTITY torsettings.restartTor "أعِد تشغيل تور">
+<!ENTITY torsettings.reconfigTor "أعِد ضبط">
 
 <!ENTITY torsettings.discardSettings.prompt "قمت بضبت جسر تور او ادخلت اعدادات بروكسي محلي.&#160; لانشاء اتصال مباشر بشبكه تور، يجب ازاله هذه الاعدادات.">
 <!ENTITY torsettings.discardSettings.proceed "ازل الاعدادات ثم اتصل">
