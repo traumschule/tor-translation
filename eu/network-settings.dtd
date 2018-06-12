@@ -25,7 +25,7 @@
 
 <!ENTITY torsettings.optional "Hautazkoa">
 
-<!ENTITY torsettings.useProxy.checkbox "I use a proxy to connect to the Internet">
+<!ENTITY torsettings.useProxy.checkbox "Proxy bat erabiltzen dut Internetera sartzeko">
 <!ENTITY torsettings.useProxy.type "Proxy mota:">
 <!ENTITY torsettings.useProxy.type.placeholder "proxy mota aukeratu">
 <!ENTITY torsettings.useProxy.address "Helbidea:">
@@ -40,7 +40,7 @@
 <!ENTITY torsettings.firewall.allowedPorts "Baimendutako atakak:">
 <!ENTITY torsettings.useBridges.checkbox "Tor zentsuratuta dago nire herrialdean">
 <!ENTITY torsettings.useBridges.default "Select a built-in bridge">
-<!ENTITY torsettings.useBridges.default.placeholder "select a bridge">
+<!ENTITY torsettings.useBridges.default.placeholder "aukeratu zubia">
 <!ENTITY torsettings.useBridges.bridgeDB "Request a bridge from torproject.org">
 <!ENTITY torsettings.useBridges.captchaSolution.placeholder "Sartu irudian agertzen diren karaktereak">
 <!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Lortu erronka berri bat">
