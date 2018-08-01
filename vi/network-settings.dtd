@@ -52,7 +52,7 @@
 <!ENTITY torsettings.copyLog "Chép nhật ký của Tor vào Clipboard">
 
 <!ENTITY torsettings.proxyHelpTitle "Trợ giúp proxy">
-<!ENTITY torsettings.proxyHelp1 "Một proxy địa phương là cần thiết khi kết nối thông qua mạng lưới của một công ty, trường học, hoặc trường đại học.&#160;Nếu bạn không chắc câu trả lời, hãy nhìn vào cài đặt mạng của trình duyệt khác hoặc kiểm tra cài đặt mạng hệ thống của bạn để xem liệu proxy là cần thiết.">
+<!ENTITY torsettings.proxyHelp1 "A local proxy might be needed when connecting through a company, school, or university network.&#160;If you are not sure whether a proxy is needed, look at the Internet settings in another browser or check your system's network settings.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Giúp đỡ về Tiếp sức cầu nối">
 <!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">

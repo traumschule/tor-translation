@@ -52,7 +52,7 @@
 <!ENTITY torsettings.copyLog "Tor-Protokoll in die Zwischenablage kopieren">
 
 <!ENTITY torsettings.proxyHelpTitle "Proxy-Hilfe">
-<!ENTITY torsettings.proxyHelp1 "Ein lokaler Proxy wird verwendet, wenn Sie sich aus einem Unternehmens-, Schul- oder Universitätsnetzwerk heraus verbinden.&#160;Wenn Sie sich nicht sicher sind, wie Sie diese Frage beantworten sollen, sehen Sie sich die Interneteinstellungen in einem anderen Browser an oder überprüfen Sie die Netzwerkeinstellungen des Systems um zu bestimmen, ob sie einen lokalen Proxyserver benötigen.">
+<!ENTITY torsettings.proxyHelp1 "A local proxy might be needed when connecting through a company, school, or university network.&#160;If you are not sure whether a proxy is needed, look at the Internet settings in another browser or check your system's network settings.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Hilfe zum Brückenrelais">
 <!ENTITY torsettings.bridgeHelp1 "Brücken sind nicht aufgelistete Vermittler, die es schwieriger machen, Verbindungen zum Tor-Netzwerk zu blockieren.&#160; Jede Art von Brücke verwendet eine andere Methode, um Zensur zu vermeiden.&#160; Die vom Typ obfs lassen Ihren Datenverkehr wie Zufallsrauschen aussehen und die vom Typ meek lassen Ihren Datenverkehr aussehen, als ob Sie eine Verbindung zu diesem jeweiligen Dienst herstellen anstatt zu Tor.">

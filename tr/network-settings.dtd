@@ -52,7 +52,7 @@
 <!ENTITY torsettings.copyLog "Tor Günlüğünü Panoya Kopyala">
 
 <!ENTITY torsettings.proxyHelpTitle "Vekil Sunucu Yardımı">
-<!ENTITY torsettings.proxyHelp1 "Bir kurum, okul ya da üniversite ağı aracılığıyla bağlanırken yerel bir vekil sunucu gereklidir.&#160;Bu soruyu nasıl yanıtlayacağınızdan emin değilseniz, başka bir tarayıcıdaki İnternet ayarlarına bakın ya da vekil sunucunun gerekip gerekmediğini görmek için sisteminizin ağ ayarlarını gözden geçirin.">
+<!ENTITY torsettings.proxyHelp1 "A local proxy might be needed when connecting through a company, school, or university network.&#160;If you are not sure whether a proxy is needed, look at the Internet settings in another browser or check your system's network settings.">
 
 <!ENTITY torsettings.bridgeHelpTitle "Köprü Aktarıcı Yardımı">
 <!ENTITY torsettings.bridgeHelp1 "Köprüler, Tor Ağına bağlantıların engellenmesini zorlaştıran listelenmemiş aktarıcılardır. &#160;Her köprü türü engellemeden kaçınmak için farklı bir yöntem kullanır.&#160; Obfs köprüler, trafiğinizi rastgele gürültü gibi gösterir ve meek köprüleri ise, trafiğinizi Tor yerine o hizmete bağlanmış gibi gösterir.">
