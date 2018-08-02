@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "تنظیمات شبکه تور">
 <!ENTITY torsettings.wizard.title.default "اتصال به تور">
 <!ENTITY torsettings.wizard.title.configure "تنظیمات شبکه Tor">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.connecting "ارتباط برقرار شده است .">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "زبان مرورگر تور">
