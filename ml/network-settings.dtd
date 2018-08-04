@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "ടോർ നെറ്റ്വർക്ക് ക്രമീകരണങ്ങൾ ...">
 <!ENTITY torsettings.wizard.title.default "'ടോർ 'ൽ പ്രവേശിക്കു ...">
 <!ENTITY torsettings.wizard.title.configure "ടോർ നെറ്റ്വർക്ക് ക്രമീകരണങ്ങൾ ...">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.connecting "ബന്ധപ്പെടുന്നു ...">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "ടോർ ബ്രൗസർ ഭാഷ ">
