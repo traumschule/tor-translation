@@ -17,7 +17,7 @@
 <!-- Other: -->
 
 <!ENTITY torsettings.startingTor "Waiting for Tor to start…">
-<!ENTITY torsettings.restartTor "Restart Tor">
+<!ENTITY torsettings.restartTor "Taaskäivita Tor">
 <!ENTITY torsettings.reconfigTor "Seadista uuesti">
 
 <!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
@@ -59,4 +59,4 @@
 <!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
 
 <!-- Progress -->
-<!ENTITY torprogress.pleaseWait "Please wait while we establish a connection to the Tor network.&#160; This may take several minutes.">
+<!ENTITY torprogress.pleaseWait "Palun oota, kuni loome ühenduse Tor-võrguga.&#160; See võib võtta mitu minutit.">
