@@ -380,7 +380,7 @@
 <!ENTITY pref_private_data_passwords2 "Saved logins">
 <!ENTITY pref_private_data_cache "Välimuisti">
 <!ENTITY pref_private_data_offlineApps "Offline website data">
-<!ENTITY pref_private_data_siteSettings2 "Site settings">
+<!ENTITY pref_private_data_siteSettings2 "Sivuston asetukset">
 <!ENTITY pref_private_data_downloadFiles2 "Lataukset">
 <!ENTITY pref_private_data_syncedTabs "Synced tabs">
 
