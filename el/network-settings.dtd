@@ -1,7 +1,7 @@
 <!ENTITY torsettings.dialog.title "Tor Ρυθμίσεις Δικτύου ">
 <!ENTITY torsettings.wizard.title.default "Σύνδεση στο Tor">
 <!ENTITY torsettings.wizard.title.configure "Ρυθμίσεις δικτύου Tor">
-<!ENTITY torsettings.wizard.title.connecting "Establishing a Connection">
+<!ENTITY torsettings.wizard.title.connecting "Δημιουργείται σύνδεση">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Γλώσσα του Tor Browser">
@@ -9,7 +9,7 @@
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torSettings.connectPrompt "Click “Connect” to connect to Tor.">
+<!ENTITY torSettings.connectPrompt "Πατήστε &quot;Σύνδεση&quot; για να συνδεθείτε στο Tor">
 <!ENTITY torSettings.configurePrompt "Click “Configure” to adjust network settings if you are in a country that censors Tor (such as Egypt, China, Turkey) or if you are connecting from a private network that requires a proxy.">
 <!ENTITY torSettings.configure "Ρύθμιση ">
 <!ENTITY torSettings.connect "Σύνδεση">
