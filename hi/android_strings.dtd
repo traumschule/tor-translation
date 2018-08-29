@@ -17,7 +17,7 @@
 <!ENTITY firstrun_data_title "Data">
 <!ENTITY firstrun_data_message "Less data, more savings">
 <!ENTITY firstrun_data_subtext2 "Turn off images to spend less data on every site you visit.">
-<!ENTITY firstrun_sync_title "Sync">
+<!ENTITY firstrun_sync_title "सिंक">
 <!ENTITY firstrun_sync_message2 "Pick up where you left off.">
 <!ENTITY firstrun_sync_subtext2 "Use Sync to find the bookmarks, passwords, and other things you save to &amp;brandShortName; on all your devices.">
 <!ENTITY firstrun_signin_message "Get connected, get started">
@@ -667,7 +667,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY doorhanger_tracking_message_disabled2 "This page includes elements that may track your browsing.">
 
 <!-- Common mixed and tracking content strings in site identity popup -->
-<!ENTITY learn_more "Learn More">
+<!ENTITY learn_more "और अधिक जानें">
 <!ENTITY enable_protection "Enable protection">
 <!ENTITY disable_protection "Disable protection">
 
