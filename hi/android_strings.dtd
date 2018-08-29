@@ -788,7 +788,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY restrictable_feature_private_browsing_description "Allows family members to browse without saving information about the sites and pages they\'ve visited.">
 <!ENTITY restrictable_feature_clear_history "Clear History">
 <!ENTITY restrictable_feature_clear_history_description "Allows family members to delete information about the sites and pages they\'ve visited.">
-<!ENTITY restrictable_feature_advanced_settings "Advanced Settings">
+<!ENTITY restrictable_feature_advanced_settings "एडवांस सेटिंग">
 <!ENTITY restrictable_feature_advanced_settings_description "This includes importing bookmarks, restoring tabs and automated updates. Turn off for simplified settings suitable for any family member.">
 <!ENTITY restrictable_feature_camera_microphone "Camera &amp; Microphone">
 <!ENTITY restrictable_feature_camera_microphone_description "Allows family members to engage in real time communication on websites.">
