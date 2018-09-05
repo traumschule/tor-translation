@@ -716,7 +716,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
      remotely advertised updates in the Nightly and Aurora channels. -->
 <!ENTITY updater_permission_text "To download files and updates, allow &amp;brandShortName; permission to access storage.">
 <!-- LOCALIZATION NOTE (updater_permission_allow): This action is shown in a snackbar along with updater_permission_text. -->
-<!ENTITY updater_permission_allow "Allow">
+<!ENTITY updater_permission_allow "Дозволи">
 
     <!-- Guest mode -->
 <!ENTITY new_guest_session "New Guest Session">
