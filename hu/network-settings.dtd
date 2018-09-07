@@ -41,13 +41,13 @@
 <!ENTITY torsettings.useBridges.checkbox "A Tor cenzúrázva van az országomban">
 <!ENTITY torsettings.useBridges.default "Válasszon ki egy beépített hidat">
 <!ENTITY torsettings.useBridges.default.placeholder "Válasszon ki egy hidat">
-<!ENTITY torsettings.useBridges.bridgeDB "Request a bridge from torproject.org">
+<!ENTITY torsettings.useBridges.bridgeDB "Híd kérése a torproject.org-tól">
 <!ENTITY torsettings.useBridges.captchaSolution.placeholder "Adja meg a karaktereket amik a fenti képen láthatóak">
-<!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Get a new challenge">
+<!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Új rejtvény kérése">
 <!ENTITY torsettings.useBridges.captchaSubmit "Elküld">
-<!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
-<!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
-<!ENTITY torsettings.useBridges.placeholder "type address:port (one per line)">
+<!ENTITY torsettings.useBridges.custom "Általam ismert híd megadása">
+<!ENTITY torsettings.useBridges.label "Adja meg a megbízható helyről származó híd adatokat.">
+<!ENTITY torsettings.useBridges.placeholder "írja be cím:port (egyet soronként)">
 
 <!ENTITY torsettings.copyLog "A Tor log Vágólapra másolása">
 
