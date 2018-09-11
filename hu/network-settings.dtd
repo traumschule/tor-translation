@@ -56,7 +56,7 @@
 
 <!ENTITY torsettings.bridgeHelpTitle "Híd kapcsoló súgó">
 <!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp2 "Annak a módja alapján, hogy egyes országok hogyan blokkolják a Tor-t, bizonyos hidak bizonyos országokban működnek, de másokban nem.&#160; Ha nem bztos abban, hogy mely hidak működnek az Ön országában, látogassa meg a torproject.org/about/contact.html#support oldalt.">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "Kérlek várj, amíg létrehozunk egy kapcsolatot a Tor hálózathoz.&#160; Ez eltarthat néhány percig.">
