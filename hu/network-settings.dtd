@@ -1,35 +1,18 @@
 <!ENTITY torsettings.dialog.title "Tor hálózati beállítások">
+<!ENTITY torsettings.wizard.title.default "Csatlakozás a Tor-hoz">
+<!ENTITY torsettings.wizard.title.configure "Tor hálózati beállítások">
+<!ENTITY torsettings.wizard.title.connecting "Kapcsolat létrehozása">
 
 <!-- For locale picker: -->
 <!ENTITY torlauncher.localePicker.title "Tor Browser nyelv">
-<!ENTITY torlauncher.localePicker.prompt "Kérlek válassz egy nyelvet.">
+<!ENTITY torlauncher.localePicker.prompt "Kérjük válasszon egy nyelvet.">
 
 <!-- For "first run" wizard: -->
 
-<!ENTITY torsettings.prompt "Mielőtt a Tor hálózatra csatlakoznál, információt kell adj a számítógép internet kapcsolatáról.">
-
-<!ENTITY torSettings.yes "Igen">
-<!ENTITY torSettings.no "Nem">
-
-<!ENTITY torSettings.firstQuestion "A következők közül melyik illik jobban a szituációhoz?">
-<!ENTITY torSettings.configurePrompt1 "Ennek a számítógépnek a forgalma cenzorált vagy proxizott.">
-<!ENTITY torSettings.configurePrompt2 "A Tor&#160; hálózathoz való csatlakozás előtt be kell állítanom a hálózati hidat vagy a helyi proxyt.">
+<!ENTITY torSettings.connectPrompt "Kattintson a &quot;Csatlakozásra&quot; hogy csatlakozzon a Tor-hoz.">
+<!ENTITY torSettings.configurePrompt "Kattintson a &quot;Konfigurálásra&quot; hogy változtasson a hálózati beállításokon, amennyiben olyan országban él amelyek cenzúrázzák a Tor-t, (mint például Egyiptom, Kína, Törökország) vagy amennyiben olyan privát hálózatról kíván csatlakozni, amelynek proxy-ra van szüksége.">
 <!ENTITY torSettings.configure "Beállít">
-<!ENTITY torSettings.connectPrompt2 "Közvetlen kapcsolatot szeretnék létesíteni a Tor hálózattal.">
-<!ENTITY torSettings.connectPrompt3 "A legtöbb esetben ez működni fog.">
 <!ENTITY torSettings.connect "Csatlakozás">
-
-<!ENTITY torSettings.proxyPageTitle "Helyi proxybeállítások">
-<!ENTITY torSettings.proxyQuestion "Ez a számítgép helyi proxyn keresztül éri el az Internetet? ">
-<!-- see https://www.torproject.org/docs/proxychain.html.en -->
-<!ENTITY torSettings.proxyExplanation1 "A helyi proxy a legtöbb esetben nem kell, de vállalati, iskolai vagy egyetemi hálózat esetén elfordulhat, hogy szükséges beállítani.">
-<!ENTITY torSettings.proxyExplanation2 "Ha nem vagy biztos benne, hogyan válaszolj erre a kérdésre, akkor nézd meg egy másik böngésző vagy a rendszer hálózati beállításait, hogy szükséges-e proxyt beállítani.">
-<!ENTITY torSettings.enterProxy "Adja meg a proxy beállításokat.">
-<!ENTITY torSettings.bridgePageTitle "Tor hidak konfigurálása">
-<!ENTITY torSettings.bridgeQuestion "Az internet szolgáltatód (ISP) blokkolja vagy cenzúrázza a kapcsolatot a Tor hálózathoz?">
-<!ENTITY torSettings.bridgeExplanation1 "Ha nem vagy biztos benne, hogyan válaszolj erre a kérdésre, válaszd a Nem lehetőséget (ha hálózati híd nélkül nem tudsz kapcsolódni a Tor hálózathoz, akkor később is hozzáadhatsz egyet).">
-<!ENTITY torSettings.bridgeExplanation2 " Ha az Igen-t választod neked kell konfigurálni a Tor Hidak-et, maleyek nem listázott csomópontok, így lehetővé nehezebbé teszik a Tor hálózathoz kapcsolódás blokkolását.">
-<!ENTITY torSettings.bridgeSettingsPrompt "Használhatod a szolgáltatott bridge címeket vagy beszerezhetsz egyedi bridge címeket.">
 
 <!-- Other: -->
 
@@ -42,8 +25,9 @@
 
 <!ENTITY torsettings.optional "Opcionális">
 
-<!ENTITY torsettings.useProxy.checkbox "Ez a számítógép helyi proxyn keresztül kell éri el az Internetet">
+<!ENTITY torsettings.useProxy.checkbox "Proxy-t használok az Internetre való kapcsolódáshoz">
 <!ENTITY torsettings.useProxy.type "Proxy Típus:">
+<!ENTITY torsettings.useProxy.type.placeholder " válaszon ki egy proxy típust">
 <!ENTITY torsettings.useProxy.address "Cím:">
 <!ENTITY torsettings.useProxy.address.placeholder "IP cím vagy gépnév">
 <!ENTITY torsettings.useProxy.port "Port:">
@@ -52,24 +36,27 @@
 <!ENTITY torsettings.useProxy.type.socks4 "SOCKS 4">
 <!ENTITY torsettings.useProxy.type.socks5 "SOCKS 5">
 <!ENTITY torsettings.useProxy.type.http "HTTP / HTTPS">
-<!ENTITY torsettings.firewall.checkbox "A számítógép egy tűzfalon keresztül kommunikál ami csak adott portokon keresztül engedélyezi a kapcsolatotokat.">
+<!ENTITY torsettings.firewall.checkbox "A számítógép egy tűzfalon keresztül kommunikál, ami csak adott portokon keresztül engedélyezi a kapcsolatotokat.">
 <!ENTITY torsettings.firewall.allowedPorts "Engedélyezett portok:">
-<!ENTITY torsettings.useBridges.checkbox "Az internet szolgáltatóm (ISP) blokkolja a Tor hálózathoz való csatlakozásokat">
-<!ENTITY torsettings.useBridges.default "Csatlakozás a szolgáltatott bridge címekkel.">
-<!ENTITY torsettings.useBridges.note "Minden híd más megoldást használ a cenzorálás elkerülésére.&#160; Ha egyik nem működik, próbálkozzon újra egy másikkal.">
-<!ENTITY torsettings.useBridges.type "Átvitel típusa:">
-<!ENTITY torsettings.useBridges.custom "Addj meg egyedi bridge címeket">
-<!ENTITY torsettings.useBridges.label "Addj meg egy vagy több bridge relay címet (soronként egy)">
-<!ENTITY torsettings.useBridges.placeholder "Írd cím:port">
+<!ENTITY torsettings.useBridges.checkbox "A Tor cenzúrázva van az országomban">
+<!ENTITY torsettings.useBridges.default "Válasszon ki egy beépített hidat">
+<!ENTITY torsettings.useBridges.default.placeholder "Válasszon ki egy hidat">
+<!ENTITY torsettings.useBridges.bridgeDB "Híd kérése a torproject.org-tól">
+<!ENTITY torsettings.useBridges.captchaSolution.placeholder "Adja meg a karaktereket amik a fenti képen láthatóak">
+<!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "Új rejtvény kérése">
+<!ENTITY torsettings.useBridges.captchaSubmit "Elküld">
+<!ENTITY torsettings.useBridges.custom "Általam ismert híd megadása">
+<!ENTITY torsettings.useBridges.label "Adja meg a megbízható helyről származó híd adatokat.">
+<!ENTITY torsettings.useBridges.placeholder "írja be cím:port (egyet soronként)">
 
 <!ENTITY torsettings.copyLog "A Tor log Vágólapra másolása">
-<!ENTITY torsettings.bridgeHelpTitle "Híd kapcsoló súgó">
-<!ENTITY torsettings.bridgeHelp1 "Ha nem tudsz csatlakozni a Tor.&#160; hálózathoz, akkor valószínű az internet szolgáltató (ISP) vagy egy másik szervezet blokkolja. Gyakran megkerülhető a probléma Tor bridges használatával. Ezek nem listázott átjátszók amiket sokkal nehezebb blokkolni.">
-<!ENTITY torsettings.bridgeHelp1B "Használhatod az előre konfigurált híd címeket, vagy beszerezhetsz egyedi címek készletét az alábbi módok egyikét használva:">
-<!ENTITY torsettings.bridgeHelp2Heading "Interneten keresztül">
-<!ENTITY torsettings.bridgeHelp2 "Használj egy böngészőt megnézni ezt az oldalt: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3Heading "Az automata email válaszok által.">
-<!ENTITY torsettings.bridgeHelp3.emailDesc "Küldjön emailt a bridges@torproject.org címre 'get bridges' szöveggel a levél törzsében.&#160; Ahhoz, hogy a híd címeket a támadók nehezeben tanulják meg, ezt a kérést az alábbi szolgáltatóktól kell küldenia (a javasolt sorrendben listázva):">
-<!ENTITY torsettings.bridgeHelp3.emailList "https://www.riseup.net, https://mail.google.com, vagy https://mail.yahoo.com">
-<!ENTITY torsettings.bridgeHelp4Heading "A támogatáson keresztül.">
-<!ENTITY torsettings.bridgeHelp4 "Utolsó lehetőségként küldj egy udvarias bridge igénylő emailt ide: help@rt.torproject.org.&#160; Légyszíves vedd figyelembe az adott személynek több emailt kell megválaszolnia.">
+
+<!ENTITY torsettings.proxyHelpTitle "Proxy segítség">
+<!ENTITY torsettings.proxyHelp1 "Egy helyi proxy lehet szükséges amennyiben olyan hálózaton keresztül csatlakozik amely, cégen, iskolán, vagy egyetemi hálózaton megy keresztül. &#160;Ha nem biztos benne, hogy szükséges-e proxyt beállítani, akkor nézze meg egy másik böngésző vagy a rendszer hálózati beállításait.">
+
+<!ENTITY torsettings.bridgeHelpTitle "Híd csomópont súgó">
+<!ENTITY torsettings.bridgeHelp1 "A hidak olyan nem listázott csomópontok, amik megnehezítik a Tor kapcsolatok blokkolását.&#160; Minden hídtípus más módszert használ a cezúra elhárítására.&#160; Az obfs fajták a hálózati forgalmat zajnak álcázzák, a meek fajták pedig egy  adott szolgáltatáshoz kapcsolódásnak látszanak a Tor szolgáltatás helyett.">
+<!ENTITY torsettings.bridgeHelp2 "Annak a módja alapján, hogy egyes országok hogyan blokkolják a Tor-t, bizonyos hidak bizonyos országokban működnek, de másokban nem.&#160; Ha nem bztos abban, hogy mely hidak működnek az Ön országában, látogassa meg a torproject.org/about/contact.html#support oldalt.">
+
+<!-- Progress -->
+<!ENTITY torprogress.pleaseWait "Kérlek várj, amíg létrehozunk egy kapcsolatot a Tor hálózathoz.&#160; Ez eltarthat néhány percig.">
