@@ -5,7 +5,7 @@
 <!ENTITY firstrun_panel_title_welcome "მოგესალმებით">
 <!ENTITY firstrun_urlbar_message2 "Thanks for choosing &amp;brandShortName;">
 <!ENTITY firstrun_urlbar_subtext2 "A modern mobile browser from Mozilla, the non-profit committed to a free and open web.">
-<!ENTITY firstrun_panel_title_privacy "Privacy">
+<!ENTITY firstrun_panel_title_privacy "პირადულობა">
 <!ENTITY firstrun_privacy_message "Browse like no one\'s watching">
 <!ENTITY firstrun_privacy_subtext "Private Browsing with Tracking Protection blocks trackers while you browse and won’t remember your history when you finish browsing.">
 <!ENTITY firstrun_panel_title_customize "Customize">
@@ -182,7 +182,7 @@
 <!ENTITY pref_category_search_summary2 "Add, set default, show suggestions">
 <!ENTITY pref_category_accessibility "Accessibility">
 <!ENTITY pref_category_accessibility_summary2 "Text size, zoom, voice input">
-<!ENTITY pref_category_privacy_short "Privacy">
+<!ENTITY pref_category_privacy_short "პირადულობა">
 <!ENTITY pref_category_privacy_summary4 "Tracking, logins, data choices">
 <!ENTITY pref_category_vendor2 "&amp;vendorShortName; &amp;brandShortName;">
 <!ENTITY pref_category_vendor_summary2 "About &amp;brandShortName;, FAQs, feedback">
@@ -244,7 +244,7 @@
 <!-- Localization note: These are shown in the left sidebar on tablets -->
 <!ENTITY pref_header_general "ზოგადი">
 <!ENTITY pref_header_search "ძებნა">
-<!ENTITY pref_header_privacy_short "Privacy">
+<!ENTITY pref_header_privacy_short "პირადულობა">
 <!ENTITY pref_header_accessibility "Accessibility">
 <!ENTITY pref_header_notifications "Notifications">
 <!ENTITY pref_header_advanced "Advanced">
