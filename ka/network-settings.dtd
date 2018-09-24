@@ -4,7 +4,7 @@
 <!ENTITY torsettings.wizard.title.connecting "კავშირის დამყარება">
 
 <!-- For locale picker: -->
-<!ENTITY torlauncher.localePicker.title "Tor-ის ბრაუზერის ენა">
+<!ENTITY torlauncher.localePicker.title "Tor-ბრაუზერის ენა">
 <!ENTITY torlauncher.localePicker.prompt "გთხოვთ, აირჩიოთ ენა.">
 
 <!-- For "first run" wizard: -->
