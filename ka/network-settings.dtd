@@ -55,8 +55,8 @@
 <!ENTITY torsettings.proxyHelp1 "ადგილობრივი პროქსი მაშინაა საჭირო, როცა ინტერნეტს უკავშირდებით კომპანიის, სკოლის ან უნივერსიტეტის ქსელის გავლით.&#160;თუ დარწმუნებული არ ხართ პროქსის საჭიროებაში, გადახედეთ ინტერნეტის პარამეტრებს სხვა ბრაუზერში ან იხილეთ სისტემის ქსელის პარამეტრები.">
 
 <!ENTITY torsettings.bridgeHelpTitle "დახმარება გადამცემი ხიდის თაობაზე">
-<!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
-<!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
+<!ENTITY torsettings.bridgeHelp1 "ხიდები წარმოადგენს აღუნუსხავ გადამცემებს, რომელთა გამოყენებაც ართულებს Tor-ქსელთან კავშირის შეზღუდვას.&#160; თითოეული სახის ხიდი იყენებს განსხვავებულ საშუალებებს, ცენზურის ასარიდებლად.&#160; obfs-გადამყვანი, გადაცემულ მონაცემებს წარმოადგენს შემთხვევითი ხმაურის სახით, ხოლო meek-გადამყვანი კი თქვენს მონაცემთა მიმოცვლას წარმოაჩენს ისე, თითქოს ცალკეულ მომსახურებას უკავშირდებით და არა Tor-ს.">
+<!ENTITY torsettings.bridgeHelp2 "იმისდა მიხედვით, თუ როგორ ზღუდავს ცალკეული ქვეყანა Tor-ს, გარკვეული სახის გადამცემი ხიდები, მხოლოდ შესაბამის ქვეყნებში იმუშავებს და არა სხგავან.&#160; თუ დანამდვილებით არ იცით, რომელი გადამცემი მუშაობს თქვენს ქვეყანაში, ეწვიეთ დახმარების გვერდს torproject.org/about/contact.html#support">
 
 <!-- Progress -->
 <!ENTITY torprogress.pleaseWait "გთხოვთ, მოითმინოთ სანამ დაუკავშირდება Tor-ქსელს.&#160; რამდენიმე წუთს შეიძლება გასტანოს.">
