@@ -20,7 +20,7 @@
 <!ENTITY torsettings.restartTor "Tor-ის ხელახლა გაშვება">
 <!ENTITY torsettings.reconfigTor "ხელახლა გამართვა">
 
-<!ENTITY torsettings.discardSettings.prompt "You have configured Tor bridges or you have entered local proxy settings.&#160; To make a direct connection to the Tor network, these settings must be removed.">
+<!ENTITY torsettings.discardSettings.prompt "თქვენ გამართული გაქვთ Tor-ის გადამცემი ხიდები ან მითითებული გაქვთ ადგილობრივი პროქსის პარამეტრები.&#160; Tor-ქსელთან პირდაპირ დასაკავშირებლად, საჭიროა ამ პარამეტრების მოცილება.">
 <!ENTITY torsettings.discardSettings.proceed "პარამეტრების მოცილება და დაკავშირება">
 
 <!ENTITY torsettings.optional "დამატებითი">
