@@ -39,14 +39,14 @@
 <!ENTITY torsettings.firewall.checkbox "კომპიუტერი ინტერნეტს უკავშირდება ქსელის ფარის გავლით, რომელშიც მხოლოდ ცალკეული პორტებია დაშვებული">
 <!ENTITY torsettings.firewall.allowedPorts "დაშვებული პორტები:">
 <!ENTITY torsettings.useBridges.checkbox "Tor შეზღუდულია ჩემს ქვეყანაში">
-<!ENTITY torsettings.useBridges.default "Select a built-in bridge">
-<!ENTITY torsettings.useBridges.default.placeholder "select a bridge">
-<!ENTITY torsettings.useBridges.bridgeDB "Request a bridge from torproject.org">
+<!ENTITY torsettings.useBridges.default "ჩაშენებული გადამცემი ხიდის მითითება">
+<!ENTITY torsettings.useBridges.default.placeholder "ხიდის მითითება">
+<!ENTITY torsettings.useBridges.bridgeDB "გადამცემი ხიდის მოთხოვნა საიტიდან torproject.org">
 <!ENTITY torsettings.useBridges.captchaSolution.placeholder "შეიყვანეთ სურათზე მოცემული სიმბოლოები">
 <!ENTITY torsettings.useBridges.reloadCaptcha.tooltip "ახალი გამოწვევა">
 <!ENTITY torsettings.useBridges.captchaSubmit "წარუდგინოს">
 <!ENTITY torsettings.useBridges.custom "Provide a bridge I know">
-<!ENTITY torsettings.useBridges.label "Enter bridge information from a trusted source.">
+<!ENTITY torsettings.useBridges.label "გადამცემი ხიდის მონაცემების მითითება სანდო წყაროდან.">
 <!ENTITY torsettings.useBridges.placeholder "აკრიფეთ მისამართი:პორტი (თითო ცალკე ხაზზე)">
 
 <!ENTITY torsettings.copyLog "Tor-ის აღრიცხვის ჩანაწერების დაკოპირება">
@@ -54,7 +54,7 @@
 <!ENTITY torsettings.proxyHelpTitle "პროქსი — დახმარება">
 <!ENTITY torsettings.proxyHelp1 "A local proxy might be needed when connecting through a company, school, or university network.&#160;If you are not sure whether a proxy is needed, look at the Internet settings in another browser or check your system's network settings.">
 
-<!ENTITY torsettings.bridgeHelpTitle "Bridge Relay Help">
+<!ENTITY torsettings.bridgeHelpTitle "დახმარება გადამცემი ხიდის თაობაზე">
 <!ENTITY torsettings.bridgeHelp1 "Bridges are unlisted relays that make it more difficult to block connections to the Tor Network.&#160; Each type of bridge uses a different method to avoid censorship.&#160; The obfs ones make your traffic look like random noise, and the meek ones make your traffic look like it's connecting to that service instead of Tor.">
 <!ENTITY torsettings.bridgeHelp2 "Because of how certain countries try to block Tor, certain bridges work in certain countries but not others.&#160; If you are unsure about which bridges work in your country, visit torproject.org/about/contact.html#support">
 
