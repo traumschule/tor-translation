@@ -435,7 +435,7 @@
      actual notification that an update is available. -->
 <!ENTITY pref_update_autodownload3 "Automatic updates">
 <!ENTITY pref_update_autodownload_wifi "Only over Wi-Fi">
-<!ENTITY pref_update_autodownload_never "Never">
+<!ENTITY pref_update_autodownload_never "Morse">
 <!ENTITY pref_update_autodownload_always "Always">
 
 <!-- Localization note (help_menu) : This string is used in the main menu-->
@@ -674,7 +674,7 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!ENTITY private_data_success "Private data cleared">
 <!ENTITY private_data_fail "Some private data could not be cleared">
 
-<!ENTITY bookmarkhistory_button_import "Import">
+<!ENTITY bookmarkhistory_button_import "Emporzhiañ">
 <!ENTITY bookmarkhistory_import_both "Importing bookmarks and history
                                       from Android">
 <!ENTITY bookmarkhistory_import_bookmarks "Importing bookmarks
