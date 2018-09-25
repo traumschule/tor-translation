@@ -441,7 +441,7 @@
 <!-- Localization note (help_menu) : This string is used in the main menu-->
 <!ENTITY help_menu "Help">
 
-<!ENTITY quit "Quit">
+<!ENTITY quit "დახურვა">
 
 <!ENTITY addons "Add-ons">
 <!ENTITY logins "Logins">
