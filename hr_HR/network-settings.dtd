@@ -58,7 +58,7 @@ s Tor mrežom?">
 <!ENTITY torsettings.firewall.allowedPorts "Dozvoljeni portovi:">
 <!ENTITY torsettings.useBridges.checkbox "Moj pružatelj internetskih usluga (ISP) blokira veze prema Tor mreži">
 <!ENTITY torsettings.useBridges.default "Spoji se s osiguranim mostovima">
-<!ENTITY torsettings.useBridges.note "Svaka vrsta mosta koristi drugačiju metodu kako bi izbjegla cenzuru.&amp;#160: Ako jedan most ne radi, probajte koristiti drugi.">
+<!ENTITY torsettings.useBridges.note "Svaka vrsta mosta koristi drugačiju metodu kako bi izbjegla cenzuru.&#160; Ako jedan most ne radi, probajte koristiti drugi.">
 <!ENTITY torsettings.useBridges.type "Tip transporta:">
 <!ENTITY torsettings.useBridges.custom "Unesi vlastite mostove">
 <!ENTITY torsettings.useBridges.label "Unesite jedan ili više mostova (jedan po retku).">
