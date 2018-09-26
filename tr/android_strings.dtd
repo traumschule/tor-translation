@@ -260,8 +260,8 @@ size. -->
      clicking this text in the promotions box will perform some action. Note
      that a non-breaking space (unicode= U+00A0) should be used between this
      character and the remainder of the string to prevent word wrap. -->
-<!ENTITY abouthome_about_sync3 "Yer imlerinize, tarama geçmişinize ve kullandığınız sekmelere diğer aygıtlardan erişmek için Firefox Sync özelliğini ayarlayın&amp;#x00A0;»">
-<!ENTITY abouthome_about_apps3 "Firefox Marketplace üzerinden uygulamalar alın ve olabilecek en iyi Web deneyimini yaşayın&amp;#x00A0;»">
+<!ENTITY abouthome_about_sync3 "Yer imlerinize, tarama geçmişinize ve kullandığınız sekmelere diğer aygıtlardan erişmek için Firefox Sync özelliğini ayarlayın&#x00A0;»">
+<!ENTITY abouthome_about_apps3 "Firefox Marketplace üzerinden uygulamalar alın ve olabilecek en iyi Web deneyimini yaşayın&#x00A0;»">
 <!-- Localization note (abouthome_sync_bold_name, abouthome_apps_bold_name):
      These strings are accentuated as bold text in the "abouthome_about_..."
      strings above. These strings should be a subset of the strings above and
