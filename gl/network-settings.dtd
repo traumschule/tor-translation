@@ -22,7 +22,7 @@
 <!ENTITY torSettings.firewallQuestion "A conexión á Internet deste computador pasa por unha devasa (firewall) que só permite conexións a certos portos?">
 <!ENTITY torSettings.firewallHelp "Se non está seguro de como responder a esta pregunta, seleccione Non. Se atopa problemas para conectarse á rede Tor, cambie esta configuración.">
 <!ENTITY torSettings.enterFirewall "Escriba unha lista separada por comas de portos permitidos pola devasa (firewall).">
-<!ENTITY torSettings.bridgeQuestion "Se a conexión deste computador a Internet é censurada, necesitará obter e utilizar repetidores ponte.&amp;#160; Se non, basta con premer en Conectar.">
+<!ENTITY torSettings.bridgeQuestion "Se a conexión deste computador a Internet é censurada, necesitará obter e utilizar repetidores ponte.&#160; Se non, basta con premer en Conectar.">
 
 <!-- Other: -->
 
@@ -48,7 +48,7 @@
 
 <!ENTITY torsettings.copyLog "Copia o rexistro do Tor ao portapapeis">
 <!ENTITY torsettings.bridgeHelpTitle "Axuda do Repetidor Ponte">
-<!ENTITY torsettings.bridgeHelp1 "Se non pode conectarse á rede Tor, pode ser que o seu provedor de servizos de Internet (ISP) ou outra axencia estea bloqueado Tor.&amp;#160; Moitas veces, pode evitar este problema usando Pontes Tor que son repetidores ocultos que son máis difíciles de bloquear.">
+<!ENTITY torsettings.bridgeHelp1 "Se non pode conectarse á rede Tor, pode ser que o seu provedor de servizos de Internet (ISP) ou outra axencia estea bloqueado Tor.&#160; Moitas veces, pode evitar este problema usando Pontes Tor que son repetidores ocultos que son máis difíciles de bloquear.">
 <!ENTITY torsettings.bridgeHelp2 "Para obter algúns repetidores ponte, use un navegador para visitar a páxina seguinte: https://bridges.torproject.org">
-<!ENTITY torsettings.bridgeHelp3 "Outra forma de atopar os enderezos de Pontes públicas é enviar correo-e a bridges@torproject.org coa liña 'get bridges', por si só no corpo da mensaxe.&amp;#160; Con todo, para facer máis difícil para un atacante aprender unha chea de enderezos de pontes, ten que enviar esta solicitude dende un enderezo de correo-e nun dos dominios seguintes: gmail.com ou yahoo.com.">
+<!ENTITY torsettings.bridgeHelp3 "Outra forma de atopar os enderezos de Pontes públicas é enviar correo-e a bridges@torproject.org coa liña 'get bridges', por si só no corpo da mensaxe.&#160; Con todo, para facer máis difícil para un atacante aprender unha chea de enderezos de pontes, ten que enviar esta solicitude dende un enderezo de correo-e nun dos dominios seguintes: gmail.com ou yahoo.com.">
 <!ENTITY torsettings.bridgeHelp4 "Tamén pode solicitar repetidores ponte enviando un correo-e a help@rt.torproject.org.">
