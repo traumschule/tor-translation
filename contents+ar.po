@@ -71,8 +71,8 @@ msgid ""
 "=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
 "مبدئيا لا يحفظ متصفّح تور تأريخ التصفح. صلاحية الكعكات جلسة واحدة فقط (حتى "
-"إغلاق متصفّح تور أو طلب </a>هويّة جديدة<a href=\"/managing-identities.html"
-"#new-identity\">)."
+"إغلاق متصفّح تور أو طلب<a href=\"/managing-identities.html#new-"
+"identity\">هويّة جديدة</a>)."
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid "##### How Tor works"

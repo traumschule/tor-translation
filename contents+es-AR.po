@@ -1842,11 +1842,14 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"Asegurate que cualquier programa antivirus que hayas instalado no esté "
+"previniendo a Tor de correr. Podés necesitar consultar la documentación para"
+" tu programa antivirus si no sabés cómo hacer esto."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* Deshabilita temporariamente tu cortafuegos."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1855,11 +1858,14 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* Borrá el navegador Tor e instalalo de nuevo. Si estás actualizando, no "
+"solamente sobreescribas tus archivos previos del navegador Tor; asegurate "
+"que están completamente borrados de antemano."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### ¿Tu conexión está censurada?"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1868,6 +1874,9 @@ msgid ""
 "censoring connections to the Tor network. Read the <a "
 "href=\"/circumvention\">Circumvention</a> section for possible solutions."
 msgstr ""
+"Si aún no podés conectarte, tu proveedor de servicio de Internet puede estar"
+" censurando conexiones a la red de Tor. Leé la sección <a "
+"href=\"/circumvention\">Evitando obstáculos</a> por posibles soluciones."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1882,11 +1891,15 @@ msgid ""
 "Issues</a> page to see if the problem you are experiencing is already listed"
 " there."
 msgstr ""
+"El navegador Tor está bajo desarrollo constante, y algunas dificultades son "
+"conocidas pero no están aún solucionadas. Por favor revisá la página <a href"
+"=\"/known-issues\">Dificultades conocidas</a> para ver si el problema que "
+"estás experimentando está ya listado ahí."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.seo_slug)
 msgid "troubleshooting"
-msgstr ""
+msgstr "solución-de-problemas"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.title)
@@ -1899,6 +1912,8 @@ msgstr "Dificultades conocidas"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"Tor necesita que tu reloj de sistema (y tu huso horario) estén ajustados en "
+"forma correcta."
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1906,26 +1921,28 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* De los siguientes programas cortafuegos ha sido conocido que interfieren "
+"con Tor y pueden necesitar ser deshabilitados temporariamente:"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus for Mac"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1933,11 +1950,13 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* Videos que requieren Adobe Flash no están disponibles. Flash está "
+"deshabilitado por razones de seguridad."
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "* Tor no puede usar un puente si hay un proxy configurado."
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1945,6 +1964,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* El paquete del navegador Tor está fechado 1 de Enero, 2000 00:00:00 UTC. "
+"Esto es para asegurar que cada compilación del programa sea exactamente "
+"reproducible."
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1954,6 +1976,11 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Para correr el navegador Tor en Ubuntu, los usuarios necesitan correr un "
+"archivo ejecutable por el intérprete de comandos. Abrí \"Archivos\" (en el "
+"explorador Unity), abrí \"Preferencias\" → pestaña \"Comportamiento\" → "
+"Ajustá \"Correr archivos de texto ejecutables cuando sean abiertos\" a "
+"\"Preguntar cada vez\", luego cerrá el diálogo."
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1961,18 +1988,21 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* El navegador Tor también puede ser arrancado desde la línea de comandos "
+"corriendo el siguiente comando desde dentro del directorio del navegador "
+"Tor:"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
 msgid "./start-tor-browser.desktop"
-msgstr ""
+msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.seo_slug)
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.seo_slug)
 msgid "uninstalling"
-msgstr ""
+msgstr "desinstalando"
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.title)
@@ -1998,7 +2028,7 @@ msgstr ""
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "Removing Tor Browser from your system is simple:"
-msgstr ""
+msgstr "Remover el navegador Tor de tu sistema es simple:"
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2008,16 +2038,20 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Localizá la carpeta de tu navegador Tor. La ubicación por defecto en "
+"Windows es el Escritorio; en Mac OS X es la carpeta Aplicaciones. En Linux, "
+"no hay una locación por defecto, sin embargo la carpeta será nombrada \"tor-"
+"browser_en-US\" si estás corriendo el navegador Tor en inglés."
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. Borrá la carpeta del navegador Tor."
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. Vaciá la basura"
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2055,7 +2089,7 @@ msgstr ""
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### Registrándose en Transifex"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2063,6 +2097,8 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
+"* Andá a la <a href=\"https://transifex.com/signup/\">página de registro de "
+"Transifex</a>."
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2072,7 +2108,7 @@ msgstr "Entrá tu información en los campos y cliqueá el botón 'Registrarse':
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2086,12 +2122,14 @@ msgstr ""
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
+"* En la siguiente página, seleccioná 'Unirse a un proyecto existente' y "
+"continuá."
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2099,6 +2137,8 @@ msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
+"* En la siguiente página, seleccioná los lenguajes que hablás con los menúes"
+" desplegables y continuá."
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2106,37 +2146,43 @@ msgid ""
 "* You are now signed up! Go to the <a "
 "href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>."
 msgstr ""
+"¡Ya estás registrado! Andá a la <a "
+"href=\"https://www.transifex.com/otf/torproject/\">página Tor de "
+"Transifex</a>."
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
-msgstr ""
+msgstr "* Cliqueá el botón azul 'Unirse a equipo' en el extremo derecho:"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
 msgstr ""
+"* Seleccioná el lenguaje que te gustaría traducir con los menúes "
+"desplegables:"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr ""
+"* Una notificación aparecerá ahora al tope de la página como la siguiente:"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2146,15 +2192,19 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"Luego que tu membresía sea aprobada, podés empezar a traducir; simplemente "
+"navegá hasta la <a href=\"https://www.transifex.com/otf/torproject/\">página"
+" Tor de Transifex</a> cuando estés listo para empezar. ¡Gracias por tu "
+"interés en ayudar al proyecto!"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
+msgstr "siendo-traductor-para-Tor"
 
 #: templates/footer.html:5
 msgid "Our mission:"
-msgstr ""
+msgstr "Nuestra misión:"
 
 #: templates/footer.html:5
 msgid ""
@@ -2163,36 +2213,41 @@ msgid ""
 "availability and use, and furthering their scientific and popular "
 "understanding."
 msgstr ""
+"avanzar los derechos y libertades humanas creando y desplegando tecnologías "
+"de anonimato y privacidad de fuente abierta, soportando su disponibilidad y "
+"uso irrestricto, y ampliando su entendimiento científico y popular."
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"
-msgstr ""
+msgstr "Suscribite a nuestro boletín informativo"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
-msgstr ""
+msgstr "Obtené actualizaciones y oportunidades mensuales del proyecto Tor"
 
 #: templates/footer.html:32
 msgid ""
 "Trademark, copyright notices, and rules for use by third parties can be "
 "found in our "
 msgstr ""
+"Las marcas registradas, notas de derechos de autor, y reglas de uso por "
+"terceros pueden ser encontradas en nuestro"
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
-msgstr ""
+msgstr "Proyecto Tor | Manual del navegador Tor"
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
-msgstr ""
+msgstr "Logo Tor"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
-msgstr ""
+msgstr "Descargar navegador Tor"
 
 #: templates/search.html:5
 msgid "Search"
-msgstr ""
+msgstr "Búsqueda"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
@@ -2200,4 +2255,4 @@ msgstr "Tópicos"
 
 #: templates/macros/topic.html:18
 msgid "Permalink"
-msgstr ""
+msgstr "Permalink"
