@@ -1,15 +1,15 @@
 # Translators:
-# Emma Peel, 2018
-# erinm, 2018
 # AO <ao@localizationlab.org>, 2018
+# erinm, 2018
+# Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: AO <ao@localizationlab.org>, 2018\n"
+"Last-Translator: Emma Peel, 2018\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,9 +153,10 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations, such as"
 " Dropbox, Google Drive and GitHub."
 msgstr ""
-"GetTor est un service qui repond automatiquement aux messages avec des liens"
-" pour la derniėre version de Tor Navigateur, hebergé a une variété de "
-"locations comme Dropbox, Google Drive et GitHub."
+"GetTor est un service qui répond automatiquement aux messages en incluant "
+"des liens vers la dernière version du Navigateur Tor, hébergée en divers "
+"endroits qui risquent moins d’être censurée, tels que Dropbox, le disque "
+"Google Drive ou GitHub."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via email:"
@@ -394,8 +395,8 @@ msgstr "Les ponts"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
@@ -631,7 +632,7 @@ msgid ""
 "WebRTC, a peer-to-peer protocol with built-in NAT punching."
 msgstr ""
 "Snowflake est une amélioration par rapport à Flashproxy. Il transmet votre "
-"trafic par WebRTC, un protocole pair-à-pair avec perçage intégré de trou "
+"trafic par WebRTC, un protocole pair-à-pair avec perçage intégré de trous "
 "dans la traduction d’adresses de réseau."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
@@ -679,8 +680,7 @@ msgid ""
 "that appears when you first run Tor Browser."
 msgstr ""
 "Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la"
-" fenêtre du lanceur Tor qui apparaît lors du premier lancement du "
-"navigateur."
+" fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -739,7 +739,7 @@ msgid ""
 "azure and Snowflake."
 msgstr ""
 "Si vous essayez de contourner pour la première fois une connexion bloquée, "
-"vous devriez essayer les différents transports : obfs3, obfs4, ScrambleSuit,"
+"vous devriez essayer les différents transports : obfs3, obfs4, ScrambleSuit,"
 " fte, meek-azure et Snowflake."
 
 #: http//localhost/circumvention/
@@ -1056,7 +1056,7 @@ msgid ""
 msgstr ""
 "Comme tout autre site Web, vous devrez connaître l’adresse d’un service "
 "onion afin de vous y connecter. Une adresse onion est une chaîne de 16 "
-"lettres et chiffres (ou 56 en formatV3) principalement générés au hasard, "
+"lettres et chiffres (ou 56 en format V3) principalement générés au hasard, "
 "suivie par « .onion »."
 
 #: http//localhost/onion-services/
@@ -1104,6 +1104,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"Vous pouvez aussi vérifier si vous arrivez à vous connecter à d’autres "
+"services onion en vous connectant au <link "
+"href=\"http://3g2upl4pq6kufc4m.onion/\">service onion de DuckDuckGo</a>."
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.seo_slug)
@@ -1209,7 +1212,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Site.com"
-msgstr ""
+msgstr "Site.com"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1240,7 +1243,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "utilisat./mdp"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1251,7 +1254,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "data"
-msgstr ""
+msgstr "données"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1261,7 +1264,7 @@ msgstr "Les données qui sont transmises."
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "location"
-msgstr ""
+msgstr "lieu"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1275,7 +1278,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1928,7 +1931,7 @@ msgstr "* Rendez-vous sur la page d'inscription de Transifex."
 msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr ""
 "Remplissez les champs avec vos renseignements et cliquez sur le bouton « "
-"S'inscrire » :"
+"S’inscrire » :"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -2019,9 +2022,10 @@ msgid ""
 "helping the project!"
 msgstr ""
 "Une fois que votre adhésion sera approuvée, vous pourrez commencer à "
-"traduire ; retournez simplement vers la page Transifex de Tor quand vous "
-"serez prêt à commencer. Nous vous remercions de votre intérêt à aider le "
-"projet !"
+"traduire ; retournez simplement vers la <link "
+"href=\"https://www.transifex.com/otf/torproject/\">page Transifex de Tor</a>"
+" quand vous serez prêt à commencer. Nous vous remercions de votre intérêt à "
+"aider le projet !"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.seo_slug)

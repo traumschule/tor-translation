@@ -1,14 +1,15 @@
 # Translators:
-# Emma Peel, 2018
 # erinm, 2018
+# Emma Peel, 2018
+# ION, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: erinm, 2018\n"
+"Last-Translator: ION, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/1519/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,7 +99,7 @@ msgstr ""
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.seo_slug)
 msgid "about"
-msgstr ""
+msgstr "אודות"
 
 #: http//localhost/downloading/
 #: (content/downloading/contents+en.lrtopic.title)
@@ -366,8 +367,8 @@ msgstr "גשרים"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
@@ -1133,7 +1134,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Site.com"
-msgstr ""
+msgstr "Site.com"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1164,7 +1165,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "משתמש / סיסמה"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1174,7 +1175,7 @@ msgstr "שם משתמש וסיסמה שהיו בשימוש עבור אימות."
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "data"
-msgstr ""
+msgstr "נתונים"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1184,7 +1185,7 @@ msgstr "נתונים משודרים."
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "location"
-msgstr ""
+msgstr "מיקום"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)

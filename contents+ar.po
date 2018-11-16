@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/1519/ar/)\n"
@@ -398,8 +398,8 @@ msgstr "الجسور"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
@@ -1096,6 +1096,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"يمكن أيضا التأكد من أنك تستطيع الاتصال بخدمات البصلة الأخرى، بالاتصال <a "
+"href=\"http://3g2upl4pq6kufc4m.onion/\">بخدمة البصلة لمحرك البحث "
+"DuckDuckGo</a>"
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.seo_slug)
@@ -1205,7 +1208,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Site.com"
-msgstr ""
+msgstr "Site.com"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1236,7 +1239,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "مستعمل / كلمة المرور"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1246,7 +1249,7 @@ msgstr "اسم المستخدم وكلمة السر المستخدمين للا�
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "data"
-msgstr ""
+msgstr "معطيات"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1256,7 +1259,7 @@ msgstr "البيانات المنقولة"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "location"
-msgstr ""
+msgstr "موقع"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1269,7 +1272,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Tor"
-msgstr ""
+msgstr "تور"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1850,6 +1853,9 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. اعثر على مجلد متصفح تور، ومكانه المبدئي في وندوز سطح المكتب، وفي ماك مجلد"
+" التطبيقات، ولا مكان مبدئي له في لينكس بكن اسم المجلد سيكون ”tor-browser_ar“"
+" للنسخة العربية أو ”tor-browser_en-US“ للنسخة الإنجليزية."
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -2029,7 +2035,7 @@ msgstr ""
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr ""
+msgstr "الموضوعات"
 
 #: templates/macros/topic.html:18
 msgid "Permalink"

@@ -1,4 +1,5 @@
 # Translators:
+# erinm, 2018
 # Zarko Gjurov <zarkogjurov@gmail.com>, 2018
 # Liljana Ackovska <liljanagjurova@gmail.com>, 2018
 # 
@@ -6,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Liljana Ackovska <liljanagjurova@gmail.com>, 2018\n"
 "Language-Team: Macedonian (https://www.transifex.com/otf/teams/1519/mk/)\n"
@@ -22,17 +23,21 @@ msgstr ""
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.title)
 msgid "About Tor Browser"
-msgstr ""
+msgstr "За Tor Browser"
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
+"Научете повеќе како Tor Browser може да ја штити вашата приватност и "
+"анонимност"
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
 "Tor Browser uses the Tor network to protect your privacy and anonymity. "
 "Using the Tor network has two main properties:"
 msgstr ""
+"Tor Browser ја користи Tor мрежата за да ја заштити вашата приватност и "
+"анонимност. Користењето на Tor мрежата има два главни параметри:"
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
@@ -54,6 +59,9 @@ msgid ""
 "In addition, Tor Browser is designed to prevent websites from "
 "“fingerprinting” or identifying you based on your browser configuration."
 msgstr ""
+"Во продолжение, Tor Browser е дизајниран да превенира веб страни кои прават "
+"ваше „отпечатување“ или идентификување базирајќи се на вашата конфигурација "
+"на прелистувачот."
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
@@ -100,12 +108,12 @@ msgstr ""
 #: http//localhost/downloading/
 #: (content/downloading/contents+en.lrtopic.title)
 msgid "Downloading"
-msgstr ""
+msgstr "Преземање"
 
 #: http//localhost/downloading/
 #: (content/downloading/contents+en.lrtopic.description)
 msgid "How to download Tor Browser"
-msgstr ""
+msgstr "Како да го преземете Tor Browser"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -137,6 +145,9 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations, such as"
 " Dropbox, Google Drive and GitHub."
 msgstr ""
+"GetTor е услуга која што автоматски одговара на пораки со линкови до "
+"најновите верзии на Tor Browser, хостирани на различни локации, како што се "
+"Dropbox, Google Drive and GitHub."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via email:"
@@ -148,6 +159,9 @@ msgid ""
 "simply write “windows”, “osx”, or “linux”, (without quotation marks) "
 "depending on your operating system."
 msgstr ""
+"Пратете е-пошта на gettor@torproject.org, и во пораката пишете единствено "
+"„windows“, „osx“, или „linux“, (без наводниците) зависно од вашиот "
+"оперативен систем."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -158,6 +172,12 @@ msgid ""
 "“32-bit” or “64-bit” software: this depends on the model of the computer you"
 " are using."
 msgstr ""
+"GetTor ќе ви одговори со е-пошта што содржи линкови од кои можете да го "
+"преземете Tor Browser пакетот, криптираниот потпис (потребен за верификација"
+" на преземањето), отпечатокот од клучот користен за создавање на потписот, и"
+" контолната сума или попозната како хаш вредноста на пакетот. Може ќе ви "
+"бидете понуден избор помеѓу 32-битен и 64-битен софтвер: ова зависи од "
+"моделот на компјутер кој го користите."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
@@ -169,6 +189,9 @@ msgid ""
 "Message to @get_tor with the words \"osx en\" in it (you don't need to "
 "follow the account)."
 msgstr ""
+"За да добиете линкови за преземање на Tor Browser на англиски за OS X, "
+"испратете директна порака на @get_tor со зборовите \"osx en\" во неа (не е "
+"потребено да го следите и сметката)."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
@@ -179,6 +202,8 @@ msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
 "message to gettor@torproject.org with the words \"linux zh\" in it."
 msgstr ""
+"За да добиете линкови за преземање на Tor Browser на кинески за Линукс, "
+"испратете порака на gettor@torproject.org со зборовите \"linux zh\" во неа."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "##### Satori"
@@ -189,18 +214,21 @@ msgid ""
 "Satori is an add-on for the Chrome or Chromium browsers that allows you to "
 "download several security and privacy programs from different sources."
 msgstr ""
+"Satori е проширување за Chrome или Chromium прелистувачите кои ви "
+"дозволуваат да преземете неколку програми од областа на безбедноста и "
+"приватноста од различни извори."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "To download Tor Browser using Satori:"
-msgstr ""
+msgstr "За да го преземете Tor Browser со користење на Satori:"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "Install Satori from the Chrome App Store."
-msgstr ""
+msgstr "Инсталирајте го Satori од Chrome продавницата за апликации."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "Select Satori from your browser’s Apps menu."
-msgstr ""
+msgstr "Одберете Satori од менито Апликации во вашиот прелистувач."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -210,12 +238,19 @@ msgid ""
 "after the name of the program — each one represents a different source from "
 "which to get the software. Your download will then begin."
 msgstr ""
+"Кога Satori ќе се отоври, кликнете на вашиот јазик. Ќе се отвори мени кое ќе"
+" ги излиста сите достапни преземања за тој јазик. Најдете го Tor Browser под"
+" името на вашиот оперативен систем. Одберете „A“ или „B“ по името на "
+"програмата - каде секое од нив се однесува на различен извор од кои ќе го "
+"добиете софтверот. Тогаш ќе започне вашето преземање."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
 "Wait for your download to finish, then find the “Generate Hash” section in "
 "Satori’s menu and click “Select Files”."
 msgstr ""
+"Почекајте преземањето да заврши, потоа најдете ја „Generate Hash“ секцијата "
+"во менито на Satori и кликнете „Select Files“."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -236,12 +271,12 @@ msgstr ""
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.title)
 msgid "Running Tor Browser for the first time"
-msgstr ""
+msgstr "Стартување на Tor Browser за прв пат"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.description)
 msgid "Learn how to use Tor Browser for the first time"
-msgstr ""
+msgstr "Научите како да го користите Tor Browser за прв пат"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -250,6 +285,10 @@ msgid ""
 "Settings window. This offers you the option to connect directly to the Tor "
 "network, or to configure Tor Browser for your connection."
 msgstr ""
+"Кога го вклучувате Tor Browser за прв пат,  ќе го видите прозорецот Tor "
+"мрежни поставки. Ова ви понудува опција да се поврзете директно на Tor "
+"мрежата, или да ги конфигурирате поставките на вашето Tor Browser "
+"поврзување."
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -293,6 +332,9 @@ msgid ""
 "select this option. Tor Browser will take you through a series of "
 "configuration options."
 msgstr ""
+"Ако знаете дека вашето поврзување е цензурирано, или користи прокси, тогаш "
+"одберете ја оваа опција. Tor Browser ќе ве води низ серии од поставувачки "
+"опции."
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -338,12 +380,12 @@ msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.title)
 msgid "Bridges"
-msgstr ""
+msgstr "Мостови"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
@@ -362,6 +404,9 @@ msgid ""
 "techniques that do not rely on bridges. You do not need to obtain bridge "
 "addresses in order to use these transports."
 msgstr ""
+"Други pluggable transports, како „meek“, користат различни анти-цензурни "
+"техники кои не се потпираат мостови. Не треба да добиете мост адреса за ги "
+"користите транспортите."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid "##### Getting bridge addresses"
@@ -372,6 +417,8 @@ msgid ""
 "Because bridge addresses are not public, you will need to request them "
 "yourself. You have two options:"
 msgstr ""
+"Поради тоа што мост адресите не се јавни, ќе морате да ги побарате сами. "
+"Имате две опции:"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -392,6 +439,8 @@ msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
 "into Tor Launcher."
 msgstr ""
+"Еднаш кога ќе ги добиете некои мост адреси, треба да ги внесете во Tor "
+"Launcher."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -448,6 +497,10 @@ msgid ""
 "Provider or other authority is actively blocking connections to the Tor "
 "network."
 msgstr ""
+"Pluggable Transports се алатки кои Tor може да ги користи за да го маскира "
+"сообраќајот што го испраќа. Ова може да биде корисно во ситуации кога "
+"Интернет Сервис Провајдерот или друг авторитет актвино ги блокира "
+"поврзувањата на Tor мрежата."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "##### Types of pluggable transport"
@@ -458,6 +511,7 @@ msgid ""
 "Currently there are six pluggable transports available, but more are being "
 "developed."
 msgstr ""
+"Моментално има достапни шест pluggable transports, но се развиваат и повеќе."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "<table>"
@@ -477,7 +531,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "obfs3"
-msgstr ""
+msgstr "obfs3"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</td>"
@@ -504,7 +558,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "obfs4"
-msgstr ""
+msgstr "obfs4"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -523,19 +577,19 @@ msgstr "Scramblesuit"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
-msgstr "Scramblesuit е сличен со obfs4 но има различен сет мостови."
+msgstr "Scramblesuit е сличен со obfs4 но има различен сет на мостови."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "FTE"
-msgstr ""
+msgstr "FTE"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
 "(HTTP) traffic."
 msgstr ""
-"FTE (формат-трансформабилна енкрипција) го маскира Tor сообраќајот како "
-"обичен веб (HTTP) сообраќај."
+"FTE (формат-трансформабилна енкрипција) го маскира Tor сообраќајот како да е"
+" обичен веб (HTTP) сообраќај."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "meek"
@@ -548,7 +602,7 @@ msgid ""
 "Web Services; meek-azure makes it look like you are using a Microsoft web "
 "site; and meek-google makes it look like you are using Google search."
 msgstr ""
-"Сите овие транспорти прават да изгледа дека вие прелистувате главна веб "
+"Сите овие транспорти прават да изгледа дека вие прелистувате позната веб "
 "страна наместо дека користите Tor. meek-amazon прави да изгледа дека "
 "користите Amazon Web Services; meek-azure прави да изгледа дека користите "
 "Микрософт веб страна; и meek-google прави да изгледа дека користите Google "
@@ -556,15 +610,15 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "Snowflake"
-msgstr "Снегулка"
+msgstr "Snowflake"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
 "WebRTC, a peer-to-peer protocol with built-in NAT punching."
 msgstr ""
-"Снегулка е подобрување на Flashproxy. Таа го испраќа вашиот сообраќај преку "
-"WebRTC, пеар-то-пеар протокол со вграден NET удирач."
+"Snowflake е подобрување на Flashproxy. Таа го испраќа вашиот сообраќај преку"
+" WebRTC, корисник-до-корисник протокол со вграден NET удирач."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</tbody>"
@@ -582,12 +636,12 @@ msgstr ""
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.title)
 msgid "Circumvention"
-msgstr ""
+msgstr "Заобиколување"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
-msgstr ""
+msgstr "Што да правите ако Tor мрежата е блокирана"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -610,6 +664,8 @@ msgid ""
 "To use pluggable transports, click \"Configure\" in the Tor Launcher window "
 "that appears when you first run Tor Browser."
 msgstr ""
+"За да ги користите pluggable transports кликнете „Конфигурирај“ во Tor "
+"Launcher прозорецот што се појавува кога прв пат ќе го уклучите Tor Browser."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -628,6 +684,8 @@ msgid ""
 "Select “yes” when asked if your Internet Service Provider blocks connections"
 " to the Tor network."
 msgstr ""
+"Одберете „да“ кога ќе бидете прашани дали вашиот Интернет сервис провајдер "
+"ги блокира поврзувања кон Tor мрежата."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -640,6 +698,8 @@ msgid ""
 "Select “Connect with provided bridges”. Tor Browser currently has six "
 "pluggable transport options to choose from."
 msgstr ""
+"Одбери „Поврзи со обезбедените мостови“. Tor Browser во моментот има 6 "
+"pluggable transport опции помеѓу кои можете да одберете."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -662,6 +722,9 @@ msgid ""
 " should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-"
 "azure and Snowflake."
 msgstr ""
+"Ако се обидувате да го заобиколите блокираното поврзување за првпат, треба "
+"да се обидете со поинкави транспорти: obfs3, obfs4, ScrambleSuit, fte, meek-"
+"azure и Snowflake."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -680,7 +743,7 @@ msgstr ""
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
 msgid "Managing identities"
-msgstr ""
+msgstr "Управување со идентитети"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.description)
@@ -698,6 +761,11 @@ msgid ""
 "trackers, and advertising beacons, all of which can link your activity "
 "across different sites."
 msgstr ""
+"Кога сте поврзани на веб страна, не се само операторите на таа веб страна "
+"тие кои ги снимаат информациите за вашата посета. Повеќето веб страни сега "
+"користат бројни услуги од 3-ти страни, вклучувајќи ги копчињата \"Ми се "
+"допаѓа\" од социјалните мрежи, аналитичките следачи, и рекламите, сите овие "
+"можат да ја поврзат вашата активност преку различни веб страни."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -708,6 +776,12 @@ msgid ""
 " Browser includes some additional features that help you control what "
 "information can be tied to your identity."
 msgstr ""
+"Користењето на Tor Browser ги запира набљудувачите да можат да ја откријат "
+"вашата точна локација или IP адреса, но дури и без овие информации тие би "
+"можеле да поврзат различни области од вашата активност заедно. Од оваа "
+"причина, Tor Browser вклучува некој дополнителни карактеристики кои ви "
+"помагаат да ги контролирате информациите кои што можат да бидат врзани за "
+"вашиот идентитет."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -723,6 +797,12 @@ msgid ""
 " be served over two different Tor circuits, so the tracker will not know "
 "that both connections originate from your browser."
 msgstr ""
+"Tor Browser го центрира вашето веб искуство околу вашата врска со веб "
+"страната во URL лентата. Дури и кога сте поврзани на две различни веб страни"
+" кои што користат иста услуга за следење од 3-та страна, Tor Browser ќе "
+"присили содржината да биде послужена преку два различни Tor круга, па така "
+"следачот нема да знае дека двете поврзувања потекнуваат од вашиот "
+"прелистувач."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -773,6 +853,10 @@ msgid ""
 "there may be situations in which it makes sense to use Tor with websites "
 "that require usernames, passwords, or other identifying information."
 msgstr ""
+"Иако Tor Browser е дизајниран за да му овозможи на корисникот целосна "
+"анонимност на веб, може да има ситуации во кои има смилса да користите Tor "
+"за веб страните кои бараат кориснички имиња, лозинки, или други информации "
+"за идентификување. "
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -852,6 +936,13 @@ msgid ""
 "connections. Tor Browser will warn you that all activity and downloads will "
 "be stopped, so take this into account before clicking “New Identity”."
 msgstr ""
+"Оваа опција е корисна ако сакате да спречите вашата последователна "
+"прелистувачка активност да биде поврзувана со она што сте го правеле "
+"претходно. Одбирајќи ја опцијата ќе ги затвори сите ваши отворени табови и "
+"прозорци ќе ги исчисти сите приватни информации како колачиња и историјата "
+"на прелистување и ќе користи нов Tor круг за сите поврзувања. Tor Browser ќе"
+" ве предупреди дека сите активности и преземања ќе бидат стопирани, па затоа"
+" земете го ова во предвид пред да кликенте на \"Нов идентитет\". "
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -890,7 +981,7 @@ msgstr ""
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.description)
 msgid "Services that are only accessible using Tor"
-msgstr ""
+msgstr "Услуги кои се достапни само ако користите Tor"
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -898,6 +989,8 @@ msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
 "websites) that are only accessible through the Tor network."
 msgstr ""
+"Onion услуги (порано познати како \"скриени услуги\") се услуги (како веб "
+"страни) кои се достапни само преку Tor мрежата."
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -905,6 +998,8 @@ msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
 "private web:"
 msgstr ""
+"Onion услугите нудат неколку предности во однос на вообичаените услуги на "
+"не-приватниот веб:"
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -969,6 +1064,9 @@ msgid ""
 "entered the onion address correctly: even a small mistake will stop Tor "
 "Browser from being able to reach the site."
 msgstr ""
+"Ако не можете да дојдете до onion услугата што ја барате, бидете сигурни "
+"дека сте ја внеле onion адресата точно: дури и мала грешка ќе го спречи Tor "
+"Browser да биде во можност да дојде до веб страната."
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -977,6 +1075,9 @@ msgid ""
 "later. There may be a temporary connection issue, or the site operators may "
 "have allowed it to go offline without warning."
 msgstr ""
+"Ако сеуште не можете да се поврзете со onion услугата, ве молиме обидете се "
+"подоцна повторно. Можеби има проблем со временото поврзување, или "
+"операторите на веб страната ја исклучиле без да предупредат за тоа."
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -994,7 +1095,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
 msgid "Secure Connections"
-msgstr ""
+msgstr "Безбедни поврзувања"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.description)
@@ -1013,12 +1114,13 @@ msgid ""
 " verify this in the URL bar: if your connection is encrypted, the address "
 "will begin with “https://”, rather than “http://”."
 msgstr ""
-"Ако личните информации како што се логин лозинката патуваат неенекриптирани "
-"преку Интернет, многу лесно може да бидат пресретнати од некој прислушувач. "
-"Ако се логирате на веб страна, треба да се осигурате дека страната нуди "
-"HTTPS енкрипција, која што ве заштитува од ваков вид на прислушувања. Ова "
-"можете да го потврдите во URL лентата: ако вашето поврзување е "
-"енекриптирарано, адресата започнува со “https://”, а не со “http://”."
+"Ако личните информации како што е лозинката за најавување патуваат "
+"неенекриптирани преку Интернет, многу лесно може да бидат пресретнати од "
+"некој прислушувач. Ако се најавите на веб страна, треба да се осигурате дека"
+" страната нуди HTTPS енкрипција, која што ве заштитува од ваков вид на "
+"прислушувања. Ова можете да го проверите во URL лентата: ако вашето "
+"поврзување е енкриптирарано, адресата започнува со “https://”, а не со "
+"“http://”."
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1031,8 +1133,8 @@ msgid ""
 "The following visualization shows what information is visible to "
 "eavesdroppers with and without Tor Browser and HTTPS encryption:"
 msgstr ""
-"Следната визуелеизација покажува кои информации се видливи за прислушувачите"
-" со и без Tor Browser и HTTPS енкрипција:"
+"Следната визуелизација покажува кои информации се видливи за прислушувачите "
+"со и без Tor Browser и HTTPS енкрипција:"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1108,7 +1210,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "The site being visited."
-msgstr ""
+msgstr "Веб страната е посетена."
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1125,7 +1227,7 @@ msgstr "корисник / pw"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Username and password used for authentication."
-msgstr ""
+msgstr "Корисничко име и лозинка користени за автентикација."
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1135,7 +1237,7 @@ msgstr "податоци"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Data being transmitted."
-msgstr ""
+msgstr "Податоци кои се пренесуваат."
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1154,12 +1256,12 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Tor"
-msgstr ""
+msgstr "Тор"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Whether or not Tor is being used."
-msgstr ""
+msgstr "Дали Tor е користен или не."
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1176,12 +1278,12 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.title)
 msgid "Security Slider"
-msgstr ""
+msgstr "Безбедносен Лизгач"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
-msgstr ""
+msgstr "Конфигурирање на Tor Browser за безбедност и употребливост"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1214,6 +1316,8 @@ msgstr ""
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
 msgstr ""
+"Безбедносниот Лизгач е лоциран во \"Безбедносните Поставки\" на Torbutton "
+"менито."
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1238,7 +1342,7 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "Safest"
-msgstr ""
+msgstr "Најбезбедно"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1261,7 +1365,7 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "Safer"
-msgstr ""
+msgstr "Побезбедно"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1277,7 +1381,7 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "Standard"
-msgstr ""
+msgstr "Стандардно"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1285,6 +1389,8 @@ msgid ""
 "At this level, all browser features are enabled. This is the most usable "
 "option."
 msgstr ""
+"На ова ниво, сите карактеристики на прелистувачот се оневозможени. Ова е "
+"најкористената опција."
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.seo_slug)
@@ -1293,12 +1399,12 @@ msgstr ""
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.title)
 msgid "Updating"
-msgstr "Надградување"
+msgstr "Ажурирање"
 
 #: http//localhost/updating/
 #: (content/updating/contents+en.lrtopic.description)
 msgid "How to update Tor Browser"
-msgstr "Како да го надградите Tor Browser"
+msgstr "Како да го ажурирате Tor Browser"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1308,7 +1414,7 @@ msgid ""
 msgstr ""
 "Tor Browser мора да биде ажуриран цело време. Ако продолжите да користите "
 "застарена верзија на софтверот, може да бидете ранливи на сериозни "
-"безбедносни мани кои ја компромитираат вашата приватност и анонимоност."
+"безбедносни пропусти кои ја компромитираат вашата приватност и анонимоност."
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1320,7 +1426,7 @@ msgstr ""
 "Tor Browser ќе ве извести да го ажурирате софтверот веднаш кога нова верзија"
 " ќе биде објавена: Torbutton иконата ќе појави жолт триаголник, а може ќе "
 "видите и пишан индикатор за ажурирање кога Tor Browser се отвора. Можете да "
-"ги ажурирате автоматски или рачно."
+"го ажурирате автоматски или рачно."
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
@@ -1335,8 +1441,8 @@ msgid ""
 "When you are prompted to update Tor Browser, click on the Torbutton icon, "
 "then select “Check for Tor Browser Update”."
 msgstr ""
-"Кога ќе бидете известени да го ажурирате Tor Browser. кликнете на Torbutton "
-"иконата, потоа одберете \"Провери за ажурирање на Tor Browser\""
+"Кога ќе бидете известени да го ажурирате Tor Browser, кликнете на Torbutton "
+"иконата, потоа одберете \"Провери за ажурирање на Tor Browser\"."
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
@@ -1395,11 +1501,11 @@ msgstr ""
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
-msgstr ""
+msgstr "Приклучоци, додатоци и JavaScript"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
-msgstr ""
+msgstr "Како Tor Browser се справува со додатоци, приклучоци и JavaScript"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### Flash Player"
@@ -1414,6 +1520,13 @@ msgid ""
 "operators, or to an outside observer. For this reason, Flash is disabled by "
 "default in Tor Browser, and enabling it is not recommended."
 msgstr ""
+"Видео веб страните, како што е Vimeo имаат потреба од Flash Player приклучок"
+" за да прикажат видео содржина. За жал, овој софтвер работи независно од Tor"
+" Browser и не може лесно да се принуди да ги почитува поставувањата на Tor "
+"Browser проксито. Затоа Flash Player може да им ги открие вашата реална "
+"лоакција и IP адреса на операторите на веб страните, или на некој надворешен"
+" набљудувач. Од оваа причина, Flash е стандардно оневозможен во Tor Browser,"
+" и неговото овозможување не се препорачува."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1421,6 +1534,9 @@ msgid ""
 "methods that do not use Flash. These methods may be compatible with Tor "
 "Browser."
 msgstr ""
+"Некои видео веб страни (како што е YouTube) нудат алтернативни методи за "
+"видео достава кои не користат Flash. Овие методи можат да бидат компатибилни"
+" со Tor Browser."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### JavaScript"
@@ -1470,6 +1586,9 @@ msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
 "compatible with Firefox can also be installed in Tor Browser."
 msgstr ""
+"Tor Browser е базиран на Firefox, и било кој додатоци за прелистувач или "
+"теми кои се компатибилни со Firefox можат да бидат инсталирани и на Tor "
+"Browser. "
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1479,6 +1598,12 @@ msgid ""
 " privacy and security. It is strongly discouraged to install additional add-"
 "ons, and the Tor Project will not offer support for these configurations."
 msgstr ""
+"Како и да е, единствените додатоци кои што се тестирани за употреба со Tor "
+"Browser се оние кои се стандардно вклучени во него. Инсталирањето на било "
+"кои други додатоци за прелистувач можат да ја прекинат функционалноста на "
+"Tor Browser или да предизвикаат сериозни проблеми кои ќе се одразат на "
+"вашата приватност и безбедност. Строго го обесхрабруваме инсталирањето на "
+"дополнителни додатоци и Tor Project не нуди поддршка за овие конфигурации."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.seo_slug)
 msgid "plugins"
@@ -1487,7 +1612,7 @@ msgstr ""
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.title)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Решавање проблеми"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.description)
@@ -1723,17 +1848,17 @@ msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
 msgstr ""
 "Забележете дека вашата стандардна \"Деинсталирај\" алатка во вашиот "
-"оперативен сситем не е користена."
+"оперативен систем не е користена."
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.title)
 msgid "Becoming a Tor Translator"
-msgstr ""
+msgstr "Станете Tor преведувач"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.description)
 msgid "Becoming a translator for the Tor Project"
-msgstr ""
+msgstr "Станете преведувач за Tor Project"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -1744,6 +1869,11 @@ msgid ""
 " third-party that faciliates our translations. Below is an outline of how to"
 " sign up and begin."
 msgstr ""
+"Ако сте заинтересирани да му помогнете на проектот со преведување на "
+"упатството или на Tor Browser на вашиот јазик, вашата помош ќе биде многу "
+"ценета! За да допринесете ќе треба да се најавите на Transifex, 3-та страна "
+"која ги олеснува нашите преведувања. Подолу има прелед за тоа како да се "
+"најавите и да започнете."
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -1889,7 +2019,7 @@ msgstr ""
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr ""
+msgstr "Теми"
 
 #: templates/macros/topic.html:18
 msgid "Permalink"

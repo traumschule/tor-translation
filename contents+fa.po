@@ -1,14 +1,16 @@
 # Translators:
+# BiSansor, 2018
 # erinm, 2018
 # Emma Peel, 2018
+# A.Mehraban <Mehr.Ban@chmail.ir>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: A.Mehraban <Mehr.Ban@chmail.ir>, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/1519/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -109,7 +111,7 @@ msgstr ""
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.seo_slug)
 msgid "about"
-msgstr ""
+msgstr "درباره"
 
 #: http//localhost/downloading/
 #: (content/downloading/contents+en.lrtopic.title)
@@ -371,12 +373,12 @@ msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.title)
 msgid "Bridges"
-msgstr ""
+msgstr "پل ها"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
@@ -516,7 +518,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "obfs3"
-msgstr ""
+msgstr "obfs3"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</td>"
@@ -539,7 +541,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "obfs4"
-msgstr ""
+msgstr "obfs4"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -550,7 +552,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "Scramblesuit"
-msgstr ""
+msgstr "Scramblesuit"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
@@ -558,7 +560,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "FTE"
-msgstr ""
+msgstr "FTE"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -568,7 +570,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "meek"
-msgstr ""
+msgstr "meek"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -604,12 +606,12 @@ msgstr ""
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.title)
 msgid "Circumvention"
-msgstr ""
+msgstr "دور زدن"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
-msgstr ""
+msgstr "چه کنیم اگر شبکه تور مسدود شد؟"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -632,6 +634,8 @@ msgid ""
 "To use pluggable transports, click \"Configure\" in the Tor Launcher window "
 "that appears when you first run Tor Browser."
 msgstr ""
+"برای استفاده از حمل و نقل قابل حمل، بر روی \"تنظیمات\" در پنجره پرتاب کننده "
+"Tor که در هنگام اولین بار مرورگر Tor را اجرا می کنید ظاهر می شود کلیک کنید."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -647,6 +651,8 @@ msgid ""
 "Select “yes” when asked if your Internet Service Provider blocks connections"
 " to the Tor network."
 msgstr ""
+"گزینه \"بله\" را انتخاب کنید هنگامی که سوال شد چنانچه سرویس دهنده شبکه شما, "
+"اتصال ها به شبکه تور را مسدود می کند"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -659,6 +665,8 @@ msgid ""
 "Select “Connect with provided bridges”. Tor Browser currently has six "
 "pluggable transport options to choose from."
 msgstr ""
+"گزینه \"اتصال با پل ها ی ارائه شده\" را انتخاب کنید. مرورگر Tor در حال حاضر دارای شش گزینه حمل و نقل قابل حمل\n"
+"برای انتخاب از آن می باشد."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -694,17 +702,19 @@ msgstr ""
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.seo_slug)
 msgid "circumvention"
-msgstr ""
+msgstr "دور زدن"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
 msgid "Managing identities"
-msgstr ""
+msgstr "مدیریت هویت"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.description)
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
+"یاد بگیرید چگونه هویت - حریم شخصی خود را در مرورگر تور در قسمت اطلاعات کنترل"
+" کنید"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -804,6 +814,7 @@ msgid ""
 "When you log in to a website over Tor, there are several points you should "
 "bear in mind:"
 msgstr ""
+"هنگامی که از طریق تور وارد یک سایت می شوید باید در نظر داشته باشید که:"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -893,7 +904,7 @@ msgstr ""
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.description)
 msgid "Services that are only accessible using Tor"
-msgstr ""
+msgstr "سرویس هایی که فقط با تور در دسترس هستند"
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -993,12 +1004,14 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.title)
 msgid "Secure Connections"
-msgstr ""
+msgstr "ارتباط های امن"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.description)
 msgid "Learn how to protect your data using Tor Browser and HTTPS"
 msgstr ""
+"یاد بگیرید که چگونه از داده های مورد استفاده خود در مروگر تور یا HTTP ها "
+"محافظت کنید"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1078,7 +1091,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Site.com"
-msgstr ""
+msgstr "Site.com"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1097,7 +1110,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "The site being visited."
-msgstr ""
+msgstr "این سایت در حال بازدید شدن است"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1109,44 +1122,44 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "نام کاربری / رمز"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Username and password used for authentication."
-msgstr ""
+msgstr "نام کاربری و رمز عبور استفاده شده برای احراز هویت"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "data"
-msgstr ""
+msgstr "داده‌ها"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Data being transmitted."
-msgstr ""
+msgstr "اطلاعات منتقل می شود"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "location"
-msgstr ""
+msgstr "مکان"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid ""
 "Network location of the computer used to visit the website (the public IP "
 "address)."
-msgstr ""
+msgstr "از مکان شبکه کامپیوتر برای بازدید سایت استفاده شده (IP آدرس عمومی)"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Whether or not Tor is being used."
-msgstr ""
+msgstr "هرچه یا تور درحال استفاده نیست."
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1163,12 +1176,12 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.title)
 msgid "Security Slider"
-msgstr ""
+msgstr "اسلایدر امنیتی"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
-msgstr ""
+msgstr "در حال پیکربندی مرورگر تور جهت امنیت و قابلیت استفاده بودن"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1216,7 +1229,7 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "Safest"
-msgstr ""
+msgstr "ایمن ترین "
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1232,7 +1245,7 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "Safer"
-msgstr ""
+msgstr "ایمن تر "
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1248,7 +1261,7 @@ msgstr ""
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "Standard"
-msgstr ""
+msgstr "استاندارد"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1256,6 +1269,8 @@ msgid ""
 "At this level, all browser features are enabled. This is the most usable "
 "option."
 msgstr ""
+"در این مرحله همه ی قابلیت های مرورگر فعال شدند.\n"
+"این پر استفاده ترین گزینه است."
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.seo_slug)
@@ -1264,12 +1279,12 @@ msgstr ""
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.title)
 msgid "Updating"
-msgstr ""
+msgstr "در حال بروز رسانی"
 
 #: http//localhost/updating/
 #: (content/updating/contents+en.lrtopic.description)
 msgid "How to update Tor Browser"
-msgstr ""
+msgstr "چگونه مرورگر تو را بروزرسانی کنید"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1360,11 +1375,11 @@ msgstr ""
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
-msgstr ""
+msgstr "پلاگین ها، افزونه ها و جاوا اسکریپت"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
-msgstr ""
+msgstr "مرورگر تور چگونه افزودنی, پلاگین ها و JavaScript را دسته بندی می کند"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### Flash Player"
@@ -1386,6 +1401,9 @@ msgid ""
 "methods that do not use Flash. These methods may be compatible with Tor "
 "Browser."
 msgstr ""
+"برخی از سایت های نمایش ویدیو (مانند یوتیوب) پیشنهاد جایگزین کردن متود های "
+"ارسال ویدیو که از فلش استفاده نمی کنند را می دهند. این متود ها ممکن است با "
+"مرورگر تور سازگار باشند."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### JavaScript"
@@ -1430,6 +1448,8 @@ msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
 "compatible with Firefox can also be installed in Tor Browser."
 msgstr ""
+"مرورگر تور بر پایه فایرفاکس است و هر افزودنی یا پوسته‌هایی که با فایرفاکس "
+"سازگار هستند نیز می‌توانند در مرورگر تور نصب شوند."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1447,12 +1467,12 @@ msgstr ""
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.title)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "عیب یابی"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.description)
 msgid "What to do if Tor Browser doesn’t work"
-msgstr ""
+msgstr "چه کنیم اگر مرورگر تور کار نکرد؟"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1461,6 +1481,9 @@ msgid ""
 " running the program, and clicking the “Connect” button if you are using it "
 "for the first time."
 msgstr ""
+"شما باید مدت کوتاهی پس از اجرا کردن برنامه مرورگر تور توانایی شروع کردن "
+"جستجو در شبکه را داشته باشید. و اگر برای اولین بار استفاده می کنید روی دکمه "
+"اتصال کلیک کنید"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1472,7 +1495,7 @@ msgstr "##### رفع های سریع"
 msgid ""
 "If Tor Browser doesn’t connect, there may be a simple solution. Try each of "
 "the following:"
-msgstr ""
+msgstr "اگر مرورگر تور وصل نشد, این راه حل ها را امتحان کنید:"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1548,7 +1571,7 @@ msgstr ""
 #: (content/known-issues/contents+en.lrtopic.title)
 #: (content/known-issues/contents+en.lrtopic.description)
 msgid "Known issues"
-msgstr ""
+msgstr "مشکلات شناخته شده"
 
 #: http//localhost/known-issues/
 #: (content/known-issues/contents+en.lrtopic.body)
@@ -1633,12 +1656,12 @@ msgstr ""
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.title)
 msgid "Uninstalling"
-msgstr ""
+msgstr "در حال حذف شدن"
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.description)
 msgid "How to remove Tor Browser from your system"
-msgstr ""
+msgstr "چگونه مرورگر تور را از سیستم خود حذف کنید"
 
 #: http//localhost/uninstalling/
 #: (content/uninstalling/contents+en.lrtopic.body)
@@ -1677,16 +1700,18 @@ msgstr ""
 msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
 msgstr ""
+"نکته:توجه داشته باشید که خدمت استاندارد حذف نصب نرم افزار سیستم عامل شما "
+"استفاده نمی شود"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.title)
 msgid "Becoming a Tor Translator"
-msgstr ""
+msgstr "مترجم تور شوید"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.description)
 msgid "Becoming a translator for the Tor Project"
-msgstr ""
+msgstr "شما هم جزو مترجمین پروژه تور شوید"
 
 #: http//localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lrtopic.body)
@@ -1844,7 +1869,7 @@ msgstr ""
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr ""
+msgstr "موضوعات"
 
 #: templates/macros/topic.html:18
 msgid "Permalink"

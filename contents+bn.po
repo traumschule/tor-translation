@@ -1,14 +1,15 @@
 # Translators:
-# Emma Peel, 2018
 # erinm, 2018
+# Emma Peel, 2018
+# nr072, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: erinm, 2018\n"
+"Last-Translator: nr072, 2018\n"
 "Language-Team: Bengali (https://www.transifex.com/otf/teams/1519/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -116,7 +117,7 @@ msgstr ""
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.seo_slug)
 msgid "about"
-msgstr ""
+msgstr "আমাদের সম্পর্কে"
 
 #: http//localhost/downloading/
 #: (content/downloading/contents+en.lrtopic.title)
@@ -400,11 +401,9 @@ msgstr "ব্রিজ"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
-"সর্বাধিক <a href=\"transports\">প্ল্যাগেবল ট্রান্সপোর্ট</a>, যেমন obfs3 এবং "
-"obfs4 হিসাবে, \"ব্রিজ\" relays ব্যবহারের উপর নির্ভর করে।"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -1235,7 +1234,7 @@ msgstr "<dt>"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Site.com"
-msgstr ""
+msgstr "Site.com"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1266,7 +1265,7 @@ msgstr "</dd>"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "user / pw"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1276,7 +1275,7 @@ msgstr "ব্যবহারকারীর নাম এবং পাসওয
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "data"
-msgstr ""
+msgstr "ডাটা"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1286,7 +1285,7 @@ msgstr "তথ্য প্রেরণ করা হচ্ছে।"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "location"
-msgstr ""
+msgstr "অবস্থান"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -2091,7 +2090,7 @@ msgstr "খুজুন"
 
 #: templates/sidenav.html:4 templates/sidenav.html:30
 msgid "Topics"
-msgstr ""
+msgstr "বিষয়শ্রেণী"
 
 #: templates/macros/topic.html:18
 msgid "Permalink"

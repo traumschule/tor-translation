@@ -1,13 +1,13 @@
 # Translators:
-# Emma Peel, 2018
 # erinm, 2018
+# Emma Peel, 2018
 # A. C., 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 08:42+CET\n"
+"POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: A. C., 2018\n"
 "Language-Team: Georgian (https://www.transifex.com/otf/teams/1519/ka/)\n"
@@ -426,11 +426,9 @@ msgstr "გადამცემი ხიდები"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
 msgid ""
-"Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
-"obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
+"“bridge” relays."
 msgstr ""
-"<a href=\"/transports\">მისაერთებელი გადამყვანების</a> დიდი ნაწილი, მათ "
-"შორის obfs3 და obfs4, ეფუძნება „ხიდურ“ გადამცემებს."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -1301,7 +1299,7 @@ msgstr "<dt>"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Site.com"
-msgstr ""
+msgstr "Site.com"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1332,7 +1330,7 @@ msgstr "</dd>"
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "მომხმარებელი/პაროლი"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1342,7 +1340,7 @@ msgstr "შესვლისას გამოყენებული მო�
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "data"
-msgstr ""
+msgstr "მონაცემი"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1352,7 +1350,7 @@ msgstr "გადაგზავნილი მონაცემები."
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "location"
-msgstr ""
+msgstr "ადგილმდებარეობა"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1366,7 +1364,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "Tor"
-msgstr ""
+msgstr "Tor"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
