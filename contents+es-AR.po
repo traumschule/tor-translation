@@ -1641,6 +1641,9 @@ msgid ""
 "(see the <a href='uninstalling'>Uninstalling</a> section for more "
 "information)."
 msgstr ""
+"Remové el navegador Tor de tu sistema borrando la carpeta que lo contiene "
+"(mirá la sección <a href='uninstalling'>Desinstalando</a> para más "
+"información)."
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1649,10 +1652,14 @@ msgid ""
 " and download a copy of the latest Tor Browser release, then install it as "
 "before."
 msgstr ""
+"Visitá <a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\">https://www.torproject.org/projects/torbrowser.html.en</a>"
+" y descargá una copia de la última versión del navegador Tor, luego instalá "
+"como antes."
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.seo_slug)
 msgid "updating"
-msgstr ""
+msgstr "actualizando"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
@@ -1664,7 +1671,7 @@ msgstr "Cómo maneja el navegador Tor adiciones, complementos y JavaScript"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Flash Player"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1695,7 +1702,7 @@ msgstr ""
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1717,10 +1724,14 @@ msgid ""
 "JavaScript (and other scripts) that runs on individual web pages, or block "
 "it entirely."
 msgstr ""
+"El navegador Tor incluye una adición llamada NoScript, accesible a través "
+"del icono \"S\" en la esquina superior derecha de la ventana, la cual te "
+"permite controlar al JavaScript (y otros scripts) que corre en páginas web "
+"individuales, o bloquearlo por completo."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1731,10 +1742,18 @@ msgid ""
 "websites from displaying correctly, so Tor Browser’s default setting is to "
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
+"Usuarios que requieren un alto grado de seguridad en su navegación web "
+"deberían ajustar la <a href=\"/security-slider\"> regla deslizante de "
+"seguridad</a> del navegador Tor a \"Más-Seguro\" (que deshabilita JavaScript"
+" para sitios web no-HTTPS) o \"El-Más-Seguro\" (que lo hace para todos los "
+"sitios web). Sin embargo, deshabilitando JavaScript evitará que muchos "
+"sitios web sean mostrados correctamente, de manera que el ajuste por defecto"
+" del navegador Tor es permitir a todos los sitios web correr código en "
+"JavaScript en el modo \"Estándar\"."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### Adiciones del navegador"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
@@ -1761,7 +1780,7 @@ msgstr ""
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.seo_slug)
 msgid "plugins"
-msgstr ""
+msgstr "complementos"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.title)
@@ -1787,7 +1806,7 @@ msgstr ""
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "##### Quick fixes"
-msgstr ""
+msgstr "##### Arreglos rápidos"
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1804,6 +1823,8 @@ msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
+"* El reloj de sistema de tu computadora debe estar ajustado correctamente, o"
+" Tor no será capaz de conectar."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
@@ -1811,6 +1832,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* Asegurate que otro navegador Tor no está corriendo también. Si no estás "
+"seguro si el navegador Tor está corriendo, reiniciá tu computadora."
 
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)

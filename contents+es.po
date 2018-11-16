@@ -500,6 +500,10 @@ msgid ""
 " of the URL bar, then select 'Tor Network Settings...' to access these "
 "options."
 msgstr ""
+"Cuando ejecutes el navegador Tor por primera vez, haz clic en 'Configurar' "
+"para abrir la ventana de Configuración de la Red Tor. De otra manera, haz "
+"clic en el Botón Tor a la izquierda de la barra URL, y luego selecciona "
+"'Configuración de la Red Tor...' para acceder a estas opciones."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -507,6 +511,9 @@ msgid ""
 "Then, select 'Provide a bridge I know' and enter each bridge address on a "
 "separate line."
 msgstr ""
+"En la ventana Configuración de la Red Tor, selecciona 'Tor está censurado en"
+" mi país'. Luego, selecciona 'Proveer un puente que conozco' e ingresa cada "
+"dirección de puente en una línea separada."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -521,6 +528,8 @@ msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
+"Haz clic en \"Aceptar\" para salvar tus ajustes. Usando puentes puede hacer "
+"la conexión más lenta comparado con el uso de repetidores Tor ordinarios."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -901,6 +910,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Puedes ver un diagrama del circuito que el Navegador Tor está usando para la"
+" pestaña actual en el menú de información del sitio, en la barra URL."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -913,6 +924,15 @@ msgid ""
 "href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
+"En el circuito, el nodo de entrada o Guarda es el primer nodo, y es "
+"aleatoria y automáticamente seleccionado por Tor. Pero es diferente de los "
+"otros nodos en el circuito. A los efectos de evitar ataques por perfilación,"
+" el nodo Guarda cambia solamente cada 2-3 meses, a diferencia de los otros "
+"nodos, que cambian con cada nuevo dominio. Para más información acerca de "
+"Guardas, consulta las <a "
+"href=\"https://www.torproject.org/docs/faq#EntryGuards\">Preguntas Más "
+"Frecuentes</a> y el <a "
+"href=\"https://support.torproject.org/tbb/tbb-2/\">Portal de Soporte</a>."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -1058,6 +1078,8 @@ msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
+"También puedes acceder a esta opción en el nuevo diagrama de circuito, "
+"dentro del menú de información del sitio, en la barra URL."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.seo_slug)
@@ -1153,6 +1175,11 @@ msgid ""
 "website with https and onion service, it will show an icon of a green onion "
 "and a padlock."
 msgstr ""
+"Cuando accedas a un sitio web que utiliza un servicio onion, el Navegador "
+"Tor mostrará en la barra de URL un icono de una pequeña cebolla verde que "
+"muestra el estado de tu conexión: segura y usando un servicio onion. Y si "
+"accedes a un sitio web con https y sevicio onion, mostrará un icono de una "
+"cebolla verde y un candado."
 
 #: http//localhost/onion-services/
 #: (content/onion-services/contents+en.lrtopic.body)
@@ -1228,7 +1255,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1243,7 +1270,7 @@ msgstr ""
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
 msgid "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
 
 #: http//localhost/secure-connections/
 #: (content/secure-connections/contents+en.lrtopic.body)
@@ -1423,7 +1450,7 @@ msgstr "##### Acceder al 'Control deslizante de seguridad'"
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1441,7 +1468,7 @@ msgstr "##### Niveles de seguridad"
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
 
 #: http//localhost/security-slider/
 #: (content/security-slider/contents+en.lrtopic.body)
@@ -1556,7 +1583,7 @@ msgstr "##### Actualizar automáticamente el Navegador Tor"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
-msgstr ""
+msgstr "<img width=\"400\" src=\"media/updating/update1.png\" />"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1568,7 +1595,7 @@ msgstr ""
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"media/updating/update3.png\" />"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1580,7 +1607,7 @@ msgstr ""
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"media/updating/update4.png\" />"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1697,7 +1724,7 @@ msgstr ""
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid ""
