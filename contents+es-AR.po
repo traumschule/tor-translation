@@ -19,7 +19,7 @@ msgstr ""
 
 #: http//localhost/ (content/contents+en.lrshowcase.title)
 msgid "How can we help?"
-msgstr ""
+msgstr "¿Cómo podemos ayudarte?"
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.title)
 msgid "About Tor Browser"
@@ -45,6 +45,9 @@ msgid ""
 "locally, will not be able to track your internet activity, including the "
 "names and addresses of the websites you visit."
 msgstr ""
+"Tu proveedor de internet, y cualquiera que esté observando tu conexión "
+"local, no podrá rastrear tu actividad en internet, incluyendo los nombres y "
+"direcciones de los sitios web que visités. "
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
@@ -53,6 +56,10 @@ msgid ""
 "your real Internet (IP) address, and will not know who you are unless you "
 "explicitly identify yourself."
 msgstr ""
+"Los operadores de los sitios web y servicios que usés, y cualquiera que los "
+"esté observando, verán una conexión proveniente de la red de Tor, en lugar "
+"de tu dirección (IP) real, y no sabrán  quién sos, a no ser que te "
+"identifiques explícitamente. "
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
@@ -69,10 +76,14 @@ msgid ""
 " valid for a single session (until Tor Browser is exited or a <a href"
 "=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"Por defecto, el Navegador Tor no guarda ningún historial de navegación. Las "
+"Cookies son válidas para una sola sesión (hasta que el Navegador Tor sea "
+"cerrado o una <link xref=\"managing-identities#new-identity\">Nueva "
+"Identidad</link>) sea solicitada."
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### Cómo funciona Tor"
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
@@ -93,6 +104,8 @@ msgid ""
 "<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
+"<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
 
 #: http//localhost/about/ (content/about/contents+en.lrtopic.body)
 msgid ""
@@ -147,7 +160,7 @@ msgstr ""
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "##### GetTor"
-msgstr ""
+msgstr "##### GetTor"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -161,7 +174,7 @@ msgstr ""
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### Usar GetTor vía correo electrónico:"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -191,7 +204,7 @@ msgstr ""
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### Usar GetTor vía Twitter:"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -205,7 +218,7 @@ msgstr ""
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
-msgstr ""
+msgstr "##### Usar GetTor vía Jabber/XMPP (Jitsi, CoyIM, etc.):"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -274,11 +287,19 @@ msgid ""
 "/first-time.html\">begin using Tor Browser</a>. If they do not match, you "
 "may need to try downloading again, or from a different source."
 msgstr ""
+"Seleccioná el archivo del navegador Tor descargado. Satori mostrará la suma "
+"de verificación del archivo, la cual debieras comparar con la suma de "
+"verificación original del programa: podés encontrar ésto cliqueando la "
+"palabra \"suma de verificación\" después del vínculo que cliqueaste para "
+"empezar la descarga. Si las sumas de verificación coinciden, tu descarga fue"
+" exitosa, y podés <a href=\"https://tb-manual.torproject.org/en-US/first-"
+"time.html\">empezar a usar el navegador Tor</a>. Si no coinciden, puede que "
+"necesités intentar descargarlo de nuevo, o de una fuente diferente."
 
 #: http//localhost/downloading/
 #: (content/downloading/contents+en.lrtopic.seo_slug)
 msgid "downloading"
-msgstr ""
+msgstr "descargando"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.title)
@@ -304,14 +325,14 @@ msgstr ""
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### Conectar"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 #: http//localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -323,18 +344,25 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"En la mayoría de los casos, eligiendo \"Conectar\" te permitirá conectar a "
+"la red de Tor sin ninguna configuración ulterior. Una vez cliqueado, "
+"aparecerá una barra de estado, mostrando el progreso de conexión de Tor. Si "
+"estás en una conexión relativamente rápida, pero esta barra pareciera quedar"
+" trabada en cierto punto, mirá la página <a "
+"href=\"/troubleshooting\">Resolución de problemas</a> por ayuda en cómo "
+"resolver el problema."
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### Configurar"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/configure.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/configure.png\">"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -357,6 +385,13 @@ msgid ""
 " You will then be taken to the <a href=\"/circumvention\">Circumvention</a> "
 "screen to configure a pluggable transport."
 msgstr ""
+"La primera pantalla pregunta si el acceso a la red de Tor está bloqueado o "
+"censurado en tu conexión. Si no creés que éste es el caso, seleccioná "
+"\"No\". Si sabés que tu conexión está censurada, o has intentado y fallado "
+"en conectar a la red de Tor y ninguna otra posibilidad ha funcionado, "
+"seleccioná \"Sí\". Luego serás llevado a la pantalla <a "
+"href=\"/circumvention\">Evitar obstáculos</a> para configurar un transporte "
+"insertable."
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -376,17 +411,17 @@ msgstr ""
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/proxy.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/proxy.png\">"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.seo_slug)
 msgid "running-tor-browser"
-msgstr ""
+msgstr "correr-navegador-tor"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.title)
 msgid "Bridges"
@@ -397,6 +432,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"La mayoría de los transportes insertables, tales como obfs3 y obfs4, se "
+"apoyan para su funcionamiento en el uso de relevos \"puente\"."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -407,6 +444,13 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"La mayoría de los <a href=\"/transports\">transportes insertables</a>, tales"
+" como obfs3 y obfs4, se apoyan para su funcionamiento en el uso de relevos "
+"\"puente\". Como los relevos Tor ordinarios, los puentes son operados por "
+"voluntarios; sin embargo, y a diferencia de éstos, no son listados "
+"públicamente, por lo que un adversario no puede identificarlos fácilmente. "
+"Usando puentes en combinación con transportes insertables ayuda a enmascarar"
+" el hecho de que estás usando Tor."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""

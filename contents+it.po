@@ -475,7 +475,7 @@ msgstr ""
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
-msgstr "Visita https://bridges.torproject.org/  e segui le istruzioni"
+msgstr "* Visita https://bridges.torproject.org/  e segui le istruzioni"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -528,6 +528,9 @@ msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
+"Se la connessione non va a buon fine, il ponte che hai ricevuto potrebbe "
+"essere disattivo. Utilizza uno dei metodi qui sopra per ottenere più ponti e"
+" riprova."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.seo_slug)
 msgid "bridges"
@@ -1552,7 +1555,7 @@ msgstr ""
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
-msgstr ""
+msgstr "##### Aggiorna il Browser Tor automaticamente"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
@@ -1592,7 +1595,7 @@ msgstr ""
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
-msgstr ""
+msgstr "##### Aggiorna il Browser Tor manualmente"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1608,6 +1611,9 @@ msgid ""
 "(see the <a href='uninstalling'>Uninstalling</a> section for more "
 "information)."
 msgstr ""
+"Rimuovi il browser Tor dal tuo sistema la cancellando la directory che lo "
+"contiene ( guarda la sezione <a href='uninstalling'>Disinstalla</a>  per "
+"maggiori informazioni)"
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
 msgid ""
@@ -1616,6 +1622,10 @@ msgid ""
 " and download a copy of the latest Tor Browser release, then install it as "
 "before."
 msgstr ""
+"Visitate <a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\">https://www.torproject.org/projects/torbrowser.html.en</a>"
+" e scaricate una copia dell'ultima versione del browser Tor, quindi "
+"installatela come prima."
 
 #: http//localhost/updating/ (content/updating/contents+en.lrtopic.seo_slug)
 msgid "updating"
@@ -1683,6 +1693,10 @@ msgid ""
 "JavaScript (and other scripts) that runs on individual web pages, or block "
 "it entirely."
 msgstr ""
+"Tor Browser include un componente aggiuntivo chiamato NoScript, accessibile "
+"tramite l'icona \"S\" in alto a destra della finestra. NoScript ti permette "
+"di controllare JavaScript (e altri script) che gira su singole pagine web, o"
+" di bloccarlo completamente."
 
 #: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
