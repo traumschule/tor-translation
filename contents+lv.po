@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 12:25+CET\n"
+"POT-Creation-Date: 2018-11-16 20:54+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: erinm, 2018\n"
 "Language-Team: Latvian (https://www.transifex.com/otf/teams/1519/lv/)\n"
@@ -15,21 +15,22 @@ msgstr ""
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
-#: http//localhost/ (content/contents+en.lrshowcase.title)
+#: http//localhost/en-US/ (content/contents+en-US.lrshowcase.title)
 msgid "How can we help?"
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.title)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.title)
 msgid "About Tor Browser"
 msgstr "Par pārlūku Tor"
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.description)
+#: http//localhost/en-US/about/
+#: (content/about/contents+en-US.lrtopic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 "Uzziniet, ko pārlūks Tor var paveikt, lai aizsargātu Jūsu privātumu\n"
 " un anonimitāti."
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser uses the Tor network to protect your privacy and anonymity. "
 "Using the Tor network has two main properties:"
@@ -37,14 +38,14 @@ msgstr ""
 "Pārlūks Tor izmanto Tor tīklu, lai aizsargātu Jūsu privātumu un anonimitāti."
 " Tor tīkla izmantošanai ir divas galvenās īpašības:"
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* Your internet service provider, and anyone watching your connection "
 "locally, will not be able to track your internet activity, including the "
 "names and addresses of the websites you visit."
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* The operators of the websites and services that you use, and anyone "
 "watching them, will see a connection coming from the Tor network instead of "
@@ -52,7 +53,7 @@ msgid ""
 "explicitly identify yourself."
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "In addition, Tor Browser is designed to prevent websites from "
 "“fingerprinting” or identifying you based on your browser configuration."
@@ -60,18 +61,18 @@ msgstr ""
 "Turklāt pārlūks Tor ir veidots, lai neļautu tīmekļa vietnēm Jūs identificēt "
 "pēc pārlūka konfigurācijas."
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
 "=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid "##### How Tor works"
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor is a network of virtual tunnels that allows you to improve your privacy "
 "and security on the Internet. Tor works by sending your traffic through "
@@ -80,13 +81,13 @@ msgid ""
 "public Internet."
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.body)
+#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "The image above illustrates a user browsing to different websites over Tor. "
 "The green middle computers represent relays in the Tor network, while the "
@@ -96,21 +97,23 @@ msgstr ""
 "Augstāk parādītais attēls rāda lietotāju, kas, lietojot Tor, pārlūko dažādas"
 " tīmekļa vietnes."
 
-#: http//localhost/about/ (content/about/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/about/
+#: (content/about/contents+en-US.lrtopic.seo_slug)
 msgid "about"
 msgstr ""
 
-#: http//localhost/downloading/
-#: (content/downloading/contents+en.lrtopic.title)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.title)
 msgid "Downloading"
 msgstr "Lejupielādē"
 
-#: http//localhost/downloading/
-#: (content/downloading/contents+en.lrtopic.description)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.description)
 msgid "How to download Tor Browser"
 msgstr "Kā lejupielādēt pārlūku Tor"
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "The safest and simplest way to download Tor Browser is from the official Tor"
 " Project website at https://www.torproject.org. Your connection to the site "
@@ -119,7 +122,8 @@ msgid ""
 "somebody to tamper with."
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "However, there may be times when you cannot access the Tor Project website: "
 "for example, it could be blocked on your network. If this happens, you can "
@@ -129,22 +133,26 @@ msgstr ""
 "vietnei, piemēram, Jūsu tīklā šī vietne var būt bloķēta. Šādā situācijā "
 "varat lietot kādu no turpmāk norādītajām lejuplādes metodēm. "
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "##### GetTor"
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor is a service that automatically responds to messages with links to "
 "the latest version of Tor Browser, hosted at a variety of locations, such as"
 " Dropbox, Google Drive and GitHub."
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via email:"
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Send an email to gettor@torproject.org, and in the body of the message "
 "simply write “windows”, “osx”, or “linux”, (without quotation marks) "
@@ -154,7 +162,8 @@ msgstr ""
 "Jūsu operētājsistēmas ierakstiet „windows“, „osx“ vai „linux“, (bez "
 "pēdiņām)."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor will respond with an email containing links from which you can "
 "download the Tor Browser package, the cryptographic signature (needed for "
@@ -170,11 +179,13 @@ msgstr ""
 " vai “64-bitu” programmatūru -- to jāizvēlas atkarībā no Jūsu lietotā "
 "datora."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in English for OS X, send a Direct "
 "Message to @get_tor with the words \"osx en\" in it (you don't need to "
@@ -183,11 +194,13 @@ msgstr ""
 "Lai saņemtu saites pārlūka Tor lejuplādei angļu valodā OS X, nosūtiet Tiešo "
 "ziņojumu uz @get_tor ar vārdiem „osx en“ (Jums nav jāseko kontam)."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
 "message to gettor@torproject.org with the words \"linux zh\" in it."
@@ -195,11 +208,13 @@ msgstr ""
 "Lai saņemtu saites pārlūka Tor lejuplādei ķīniešu valodā Linux, nosūtiet "
 "ziņojumu uz gettor@torproject.org at vārdiem  „linux zh“."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "##### Satori"
 msgstr ""
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Satori is an add-on for the Chrome or Chromium browsers that allows you to "
 "download several security and privacy programs from different sources."
@@ -207,19 +222,23 @@ msgstr ""
 "Satori ir Chrome un Chromium pārlūku pievienojums, kas ļauj no dažādiem "
 "avotiem lejuplādēt vairākas drošības un privātuma programmas. "
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "To download Tor Browser using Satori:"
 msgstr "Lejupielādēt pārlūku Tor ar Satori:"
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "Install Satori from the Chrome App Store."
 msgstr "Instalēt Satori no Chrome lietotņu veikala."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid "Select Satori from your browser’s Apps menu."
 msgstr "No Jūsu pārlūka lietotņu izvēlnes atlasīt Satori."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "When Satori opens, click on your preferred language. A menu will open "
 "listing the available downloads for that language. Find the entry for Tor "
@@ -233,7 +252,8 @@ msgstr ""
 " vai nu „A“, vai „B“ — katrs no tiem norāda uz citu avotu programmatūras "
 "lejuplādei. Tad sāksies lejuplāde."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Wait for your download to finish, then find the “Generate Hash” section in "
 "Satori’s menu and click “Select Files”."
@@ -241,7 +261,8 @@ msgstr ""
 "Pagaidiet kamēr lejuplāde ir beigusies, tad Satori izvēlnē atrodiet nodaļu "
 "“Ģenerēt jaucējkodu” un noklikšķiniet “Atlasīt datnes”."
 
-#: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Select the downloaded Tor Browser file. Satori will display the checksum of "
 "the file, which you should compare with the software’s original checksum: "
@@ -252,23 +273,23 @@ msgid ""
 "may need to try downloading again, or from a different source."
 msgstr ""
 
-#: http//localhost/downloading/
-#: (content/downloading/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.seo_slug)
 msgid "downloading"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.title)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.title)
 msgid "Running Tor Browser for the first time"
 msgstr "Pārlūka Tor pirmā palaišana"
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.description)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.description)
 msgid "Learn how to use Tor Browser for the first time"
 msgstr "Uzziniet kā pirmo reizi  izmantot pārlūku Tor"
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "When you run Tor Browser for the first time, you will see the Tor Network "
 "Settings window. This offers you the option to connect directly to the Tor "
@@ -278,20 +299,20 @@ msgstr ""
 "logu. Tanī piedāvās izveidot tiešu savienojumu ar tīklu Tor vai Jūsu "
 "savienojumam nokonfigurēt pārlūku Tor."
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Connect"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "In most cases, choosing \"Connect\" will allow you to connect to the Tor "
 "network without any further configuration. Once clicked, a status bar will "
@@ -301,20 +322,20 @@ msgid ""
 "problem."
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Configure"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/configure.png\">"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "If you know that your connection is censored, or uses a proxy, you should "
 "select this option. Tor Browser will take you through a series of "
@@ -323,8 +344,8 @@ msgstr ""
 "Ja Jums zināms, ka Jūsu savienojums tiek cenzēts vai lieto starpnieku, Jums "
 "jāatlasa šī izvēle. Parlūks Tor vadīs Jūs caur konfigurēšanas izvēlēm."
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The first screen asks if access to the Tor network is blocked or censored on"
 " your connection. If you do not believe this is the case, select “No”. If "
@@ -334,8 +355,8 @@ msgid ""
 "screen to configure a pluggable transport."
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The next screen asks if your connection uses a proxy. In most cases, this is"
 " not necessary. You will usually know if you need to answer “Yes”, as the "
@@ -349,32 +370,35 @@ msgstr ""
 "palūdziet padomu tīkla administratoram. Ja Jūsu savienojums nelieto "
 "starpnieku, noklikšķiniet „Turpināt”."
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.body)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/proxy.png\">"
 msgstr ""
 
-#: http//localhost/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/running-tor-browser/
+#: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.title)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.title)
 msgid "Bridges"
 msgstr "Tilti"
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.description)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.description)
 msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges"
@@ -384,7 +408,8 @@ msgid ""
 "are using Tor."
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Other pluggable transports, like meek, use different anti-censorship "
 "techniques that do not rely on bridges. You do not need to obtain bridge "
@@ -394,11 +419,13 @@ msgstr ""
 "tehnoloģijas, kas neizmanto tiltus. Jums nav nepieciešams iegūt tiltu "
 "adreses, lai lietotu šos transportus."
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Getting bridge addresses"
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Because bridge addresses are not public, you will need to request them "
 "yourself. You have two options:"
@@ -406,28 +433,33 @@ msgstr ""
 "Tādēļ, ka tiltu adreses netiek publicētas, Jums tās pašam būs jāpieprasa. "
 "Jums ir divas iespējas:"
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Entering bridge addresses"
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
 "into Tor Launcher."
 msgstr ""
 "kad Jums ir vairākas tiltu adreses, Jums tās vajadzēs ievadīt Tor palaidējā."
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If you're starting Tor Browser for the first time, click 'Configure' to open"
 " the Tor Network Settings window. Otherwise, click the Torbutton to the left"
@@ -435,47 +467,54 @@ msgid ""
 "options."
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "In the Tor Network Settings window, select 'Tor is censored in my country.' "
 "Then, select 'Provide a bridge I know' and enter each bridge address on a "
 "separate line."
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"col-md-6\" src=\"/static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
 
-#: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/bridges/
+#: (content/bridges/contents+en-US.lrtopic.seo_slug)
 msgid "bridges"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.title)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.title)
 msgid "Pluggable transports"
 msgstr ""
 
-#: http//localhost/transports/
-#: (content/transports/contents+en.lrtopic.description)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.description)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out."
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out. This can be useful in situations where an Internet Service "
@@ -486,61 +525,74 @@ msgstr ""
 "maskēšanai. Tas var būt derīgi, kad interneta pakalpojuma sniedzējs vai cita"
 " iestāde aktīvi bloķē savienojumus ar tīklu Tor."
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "##### Types of pluggable transport"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Currently there are six pluggable transports available, but more are being "
 "developed."
 msgstr ""
 "Šobrīd ir pieejami seši maināmi transporti, bet tiek veidoti arī jauni."
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "<table>"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tbody>"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"odd\">"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "<td>"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs3"
 msgstr "obfs3"
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "</td>"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs3 makes Tor traffic look random, so that it does not look like Tor or "
 "any other protocol. While still included by default, it is reccomended to "
 "use obfs4 instead, as it has several security improvements over obfs3."
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tr>"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"even\">"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs4"
 msgstr "obfs4"
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
 "from finding bridges by Internet scanning. obfs4 bridges are less likely to "
@@ -550,19 +602,23 @@ msgstr ""
 "izvēlētai un novērš, ka cenzori ar interneta skenēšanas palīdzību atrod "
 "tiltus. Ir ticami, ka obfs4 tiltus bloķēs mazāk par obfs3 tiltiem."
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "Scramblesuit"
 msgstr "Scramblesuit"
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
 msgstr "ScrambleSuit ir līdzīgs obfs4, bet tam ir cits tiltu kopums."
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
 "(HTTP) traffic."
@@ -570,11 +626,13 @@ msgstr ""
 "FTE (formātu pārveidojoša šifrēšana) maskē Tor datu plūsmu kā parastu "
 "tīmekļa (HTTP) datu plūsmu."
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "meek"
 msgstr "meek jeb rāms"
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "These transports all make it look like you are browsing a major web site "
 "instead of using Tor. meek-amazon makes it look like you are using Amazon "
@@ -587,41 +645,45 @@ msgstr ""
 "Microsoft tīmekļa vietnes izmantošanai un meek-google padarīs to līdzīgu "
 "tam, it kā Jūs lietotu Google meklēšanu."
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "Snowflake"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
 "WebRTC, a peer-to-peer protocol with built-in NAT punching."
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tbody>"
 msgstr ""
 
-#: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.body)
 msgid "</table>"
 msgstr ""
 
-#: http//localhost/transports/
-#: (content/transports/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/transports/
+#: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.title)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.title)
 msgid "Circumvention"
 msgstr "Apiešana"
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.description)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
 msgstr "Ko darīt, kad pārlūks ir bloķēts"
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
 "Service Provider or by a government. Tor Browser includes some circumvention"
@@ -630,13 +692,13 @@ msgid ""
 "for more information on the types of transport that are currently available."
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Using pluggable transports"
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "To use pluggable transports, click \"Configure\" in the Tor Launcher window "
 "that appears when you first run Tor Browser."
@@ -644,8 +706,8 @@ msgstr ""
 "Ja lietojat maināmus transportus, noklikšķiniet „Konfigurēt“ Tor palaidēja "
 "logā, kas redzams, kas pirmo reizi palaižat pārluku Tor."
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "You can also configure pluggable transports while Tor Browser is running, by"
 " clicking on the green onion near your address bar and selecting “Tor "
@@ -655,8 +717,8 @@ msgstr ""
 " To dara noklikšķinot uz zaļā sīpola blakus adreses joslai un izvēloties "
 "„Tīkla Tor iestatījumi“."
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “yes” when asked if your Internet Service Provider blocks connections"
 " to the Tor network."
@@ -664,13 +726,13 @@ msgstr ""
 "Atlasiet „jā“, kad tiek jautāts par to, vai Jūsu interneta pakalpojumu "
 "sniedzējs bloķē savienojumus ar tīklu Tor. "
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/bridges.png\">"
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “Connect with provided bridges”. Tor Browser currently has six "
 "pluggable transport options to choose from."
@@ -678,13 +740,13 @@ msgstr ""
 "Atlasiet „Veidot savienojumu ar piedāvātajiem tiltiem“. Pārlūkam Tor šobrīd "
 "ir sešas  maināmas transporta opcijas, kuras var izvēlēties."
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Which transport should I use?"
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
 "way (for more details, see the <a href=\"/transports\">Pluggable "
@@ -692,16 +754,16 @@ msgid ""
 "circumstances."
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
 " should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-"
 "azure and Snowflake."
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.body)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
 "need to enter bridge addresses manually. Read the <a "
@@ -709,24 +771,24 @@ msgid ""
 "obtain them."
 msgstr ""
 
-#: http//localhost/circumvention/
-#: (content/circumvention/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/circumvention/
+#: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.title)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.title)
 msgid "Managing identities"
 msgstr "Identitāšu pārvaldīšana"
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.description)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.description)
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
 "Iemācieties kā pārlūkā Tor pārvaldīt personu identificējošu informāciju "
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you connect to a website, it is not only the operators of that website "
 "who can record information about your visit. Most websites now use numerous "
@@ -740,8 +802,8 @@ msgstr ""
 "pogas „Patīk”, analītikas mērītājus un reklāmas bāksignālus, kuri visi var "
 "sniegt informāciju par Jūsu aktivitātēm dažādās vietnēs."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Using the Tor network stops observers from being able to discover your exact"
 " location and IP address, but even without this information they might be "
@@ -754,13 +816,13 @@ msgstr ""
 "aktivitātes dažādās jomās. Šī iemesla dēļ, pārlūkam Tor ir iezīmes, kas "
 "palīdz Jums kontrolēt Jūsu identitāti atklājošo informāciju."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### The URL bar"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser centers your web experience around your relationship with the "
 "website in the URL bar. Even if you connect to two different sites that use "
@@ -774,8 +836,8 @@ msgstr ""
 "pārlūks Tor nosūtīs saturu pa divām dažādām Tor ķēdēm, tādējādi mērītājs "
 "nezinās, ka abi savienojumu avots ir Jūsu pārlūks."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "On the other hand, all connections to a single website address will be made "
 "over the same Tor circuit, meaning you can browse different pages of a "
@@ -786,20 +848,20 @@ msgstr ""
 "Tor ķēdē, tādējādi ļaujot Jums atšķirīgās cilnēs un logos pārlūkot tīmekļa "
 "vietnes dažādas lapas un nezaudēt funkcionalitāti."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/circuit_full.png\">"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "In the circuit, the Guard or entry node is the first node and it's "
 "automatically and randomly selected by Tor. But it is different from the "
@@ -810,13 +872,13 @@ msgid ""
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Logging in over Tor"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Although Tor Browser is designed to enable total user anonymity on the web, "
 "there may be situations in which it makes sense to use Tor with websites "
@@ -827,8 +889,8 @@ msgstr ""
 " ar tīmekļa vietnēm, kas pieprasa lietotājvārdus, paroles vai citu "
 "identificējošu informāciju."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "If you log into a website using a regular browser, you also reveal your IP "
 "address and geographical location in the process. The same is often true "
@@ -844,8 +906,8 @@ msgstr ""
 "kuras pārlūkojat. Pieteikšanās ar pārlūku Tor ir arī noderīga, kad tīmekļa "
 "vietne, kuru vēlaties apskatīt, tiek Jūsu tīklā cenzēta."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you log in to a website over Tor, there are several points you should "
 "bear in mind:"
@@ -853,15 +915,15 @@ msgstr ""
 "Kad piesakāties tīmekļa vietnē, izmantojot Tor, jāpatur prātā vairākas "
 "lietas:"
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser often makes your connection appear as though it is coming from"
 " an entirely different part of the world. Some websites, such as banks or "
@@ -871,30 +933,30 @@ msgid ""
 "contacting the operators and explaining the situation."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Changing identities and circuits"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
 "options, located in the main menu (hamburger menu)."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Identity"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if you want to prevent your subsequent browser "
 "activity from being linkable to what you were doing before. Selecting it "
@@ -911,13 +973,13 @@ msgstr ""
 " visas aktivitātes un lejuplādes tiks apturētas, tāpēc ņemiet to vērā pirms "
 "noklikšķiniet „Jauna identitāte“."
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Tor circuit for this site"
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if the <a href=\"/about/#how-tor-works\">exit "
 "relay</a> you are using is unable to connect to the website you require, or "
@@ -928,30 +990,30 @@ msgid ""
 " activity, nor does it affect your current connections to other websites."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.body)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/managing-identities/
-#: (content/managing-identities/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/managing-identities/
+#: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.title)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.title)
 msgid "Onion Services"
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.description)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.description)
 msgid "Services that are only accessible using Tor"
 msgstr "Pakalpojumi, kam var piekļūt vienīgi ar Tor"
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
 "websites) that are only accessible through the Tor network."
@@ -959,8 +1021,8 @@ msgstr ""
 "Sīpolpakalpojumi (agrāk saukti „slēptie pkalapojumi”) ir pakalpojumi (tādi "
 "kā tīmekļa vietnes), kuriem var piekļūt vienīgi pa tīklu Tor."
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
 "private web:"
@@ -968,23 +1030,23 @@ msgstr ""
 "Sīpolpakalpojumiem ir vairākas priekšrocības salīdzinājumā ar ne-privātā "
 "tīmekļa parastajiem pakalpojumiem:"
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* The address of an onion service is automatically generated, so the "
 "operators do not need to purchase a domain name; the .onion URL also helps "
@@ -992,21 +1054,21 @@ msgid ""
 "connection is not being tampered with."
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### How to access an onion service"
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Just like any other website, you will need to know the address of an onion "
 "service in order to connect to it. An onion address is a string of 16 (and "
 "in V3 format, 56) mostly random letters and numbers, followed by “.onion”."
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "When accessing a website that uses an onion service, Tor Browser will show "
 "at the URL bar an icon of a little green onion displaying the state of your "
@@ -1015,21 +1077,21 @@ msgid ""
 "and a padlock."
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### Troubleshooting"
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you cannot reach the onion service you require, make sure that you have "
 "entered the onion address correctly: even a small mistake will stop Tor "
 "Browser from being able to reach the site."
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later. There may be a temporary connection issue, or the site operators may "
@@ -1040,31 +1102,31 @@ msgstr ""
 "problēmas, gadās, ka vietņu operatori pieļāvuši, ka vietne pārtraukusi "
 "darbu, bet nav par to snieguši brīdinājumu."
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.body)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "You can also ensure that you're able to access other onion services by "
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
 
-#: http//localhost/onion-services/
-#: (content/onion-services/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/onion-services/
+#: (content/onion-services/contents+en-US.lrtopic.seo_slug)
 msgid "onion-services"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.title)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.title)
 msgid "Secure Connections"
 msgstr "Droši savienojumi"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.description)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.description)
 msgid "Learn how to protect your data using Tor Browser and HTTPS"
 msgstr "Uzziniet kā, lietojot pārlūku Tor un HTTPS, aizsargāt savus datus, "
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "If personal information such as a login password travels unencrypted over "
 "the Internet, it can very easily be intercepted by an eavesdropper. If you "
@@ -1079,13 +1141,13 @@ msgstr ""
 " veida pārtveršanu. To varat verificēt URL joslā - ja Jūsu savienojums tiek "
 "šifrēts, adrese sāksies ar „https://”, nevis „http://”."
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "The following visualization shows what information is visible to "
 "eavesdroppers with and without Tor Browser and HTTPS encryption:"
@@ -1093,116 +1155,116 @@ msgstr ""
 "Attēls rāda, kādu informāciju redz pārtvērēji, ja tiek vai netiek izmantots "
 "pārlūks Tor un HTTPS šifrēšana:"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
 "you're using HTTPS. The button will turn green to indicate that HTTPS is on."
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are green, you see the data that is visible to observers"
 " when you are using both tools."
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "##### Potentially visible data"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<dl>"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<dt>"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Site.com"
 msgstr "Site.com"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "</dt>"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<dd>"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "The site being visited."
 msgstr "Vietne tiek apmeklēta."
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "</dd>"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "user / pw"
 msgstr "lietotājs / pw"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Username and password used for authentication."
 msgstr "Autentifikācijai izmantots lietotājvārds un parole."
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "data"
 msgstr "dati"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Data being transmitted."
 msgstr "Dati tiek pārsūtīti."
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "location"
 msgstr "vieta"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "Network location of the computer used to visit the website (the public IP "
 "address)."
@@ -1210,40 +1272,40 @@ msgstr ""
 "Tīmekļa vietnes apmeklēšanai lietotā datora tīkla atrašanās vieta (publiskā "
 "IP adrese). "
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Tor"
 msgstr "Tor"
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Whether or not Tor is being used."
 msgstr "Vai Tor tiek vai netiek izmantots."
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.body)
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "</dl>"
 msgstr ""
 
-#: http//localhost/secure-connections/
-#: (content/secure-connections/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/secure-connections/
+#: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.title)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.title)
 msgid "Security Slider"
 msgstr "Drošības slīdnis"
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.description)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr "Pārlūka Tor konfigurēšana drošībai un lietošanai"
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes a “Security Slider” that lets you increase your "
 "security by disabling certain web features that can be used to attack your "
@@ -1257,34 +1319,34 @@ msgstr ""
 "paaugstināšana pārtrauks dažu mājas lapu pareizu darbību, tādēļ Jums "
 "jāsamēro savas drošības vajadzības ar nepieciešamo lietojamības līmeni."
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid ""
 "Increasing the level of the Security Slider will disable or partially "
 "disable certain browser features to protect against possible attacks."
@@ -1292,13 +1354,13 @@ msgstr ""
 "Drošības slīdņa līmeņa paaugstināšana atspējos vai daļēji atspējos noteiktas"
 " pārlūka iezīmes, lai aizsargātu pret iespējamiem uzbrukumiem."
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "Safest"
 msgstr "Drošākais"
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
@@ -1314,13 +1376,13 @@ msgstr ""
 "noklusējuma visās vietnēs ir atspējots Javscript; vairums video un audio "
 "formātu ir atspējoti un daži fonti un ikonas var netikt attēloti pareizi. "
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "Safer"
 msgstr "Drošāk"
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
@@ -1330,13 +1392,13 @@ msgid ""
 "sites."
 msgstr ""
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "Standard"
 msgstr "Standarts"
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.body)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, all browser features are enabled. This is the most usable "
 "option."
@@ -1344,21 +1406,23 @@ msgstr ""
 "Šajā līmenī ir iespējotas visas pārlūka iezīmes. Šī ir vispiemērotāka "
 "opcija."
 
-#: http//localhost/security-slider/
-#: (content/security-slider/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/security-slider/
+#: (content/security-slider/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.title)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.title)
 msgid "Updating"
 msgstr "Jaunināšana"
 
-#: http//localhost/updating/
-#: (content/updating/contents+en.lrtopic.description)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.description)
 msgid "How to update Tor Browser"
 msgstr "Kā jaunināt pārlūku Tor"
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser must be kept updated at all times. If you continue to use an "
 "outdated version of the software, you may be vulnerable to serious security "
@@ -1368,7 +1432,8 @@ msgstr ""
 "programmatūras versiju, Jūsu sistēma var būt ievainojama nopietnu drošību "
 "nepilnību dēļ, kas apdraud Jūsu privātumu un anonimitāti."
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released: the Torbutton icon will display a yellow triangle, and you "
@@ -1380,15 +1445,18 @@ msgstr ""
 "pārlūkam Tor atveroties, iespējams, redzēsit rakstisku jauninājuma "
 "indikatoru. Jūs varat jaunināt vai nu automātiski, vai manuāli. "
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, click on the Torbutton icon, "
 "then select “Check for Tor Browser Update”."
@@ -1396,11 +1464,13 @@ msgstr ""
 "Kad Jums piedāvā jaunināt pārlūku Tor, noklikšķiniet uz Tor pogas ikonas, "
 "tad atlasiet „Pārbaudīt pārlūka Tor jauninājumu pieejamību\"."
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When Tor Browser has finished checking for updates, click on the “Update” "
 "button."
@@ -1408,11 +1478,13 @@ msgstr ""
 "Kad pārlūks Tor beidz pārbaudīt jauninājumu esamību, noklikšķiniet pogu "
 "„Jaunināt”."
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Wait for the update to download and install, then restart Tor Browser. You "
 "will now be running the latest version."
@@ -1420,11 +1492,13 @@ msgstr ""
 "Pagaidiet kamēr jauninājums tiek lejuplādēts un instalēts, tad pārstartējiet"
 " pārlūku Tor. Jūs tad izmantosit jaunāko versiju."
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, finish the browsing session and"
 " close the program."
@@ -1432,14 +1506,16 @@ msgstr ""
 "Kad tiek piedāvāts jaunināt pārlūku Tor, pabeidziet pārlūkošanas sesiju un "
 "aizveriet programmu."
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
 "(see the <a href='uninstalling'>Uninstalling</a> section for more "
 "information)."
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.body)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Visit <a "
 "href=\"https://www.torproject.org/projects/torbrowser.html.en\">https://www.torproject.org/projects/torbrowser.html.en</a>"
@@ -1447,23 +1523,28 @@ msgid ""
 "before."
 msgstr ""
 
-#: http//localhost/updating/ (content/updating/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.seo_slug)
 msgid "updating"
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.title)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
 msgstr "Spraudņi, pievienojumi un JavaScript"
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.description)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
 msgstr "Kā parlūks Tor strādā ar spraudņiem, pievienojumiem un JavaScript"
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Flash Player"
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Video websites, such as Vimeo make use of the Flash Player plugin to display"
 " video content. Unfortunately, this software operates independently of Tor "
@@ -1479,7 +1560,8 @@ msgstr ""
 "Jūsu patieso atrašanās vietu un IP adresi. Tādēļ pārlūkā Tor pēc noklusējuma"
 " ir atspējots Flash, bet tā iespējošana nav ieteicama."
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Some video websites (such as YouTube) offer alternative video delivery "
 "methods that do not use Flash. These methods may be compatible with Tor "
@@ -1489,11 +1571,13 @@ msgstr ""
 "piegādes metodes un neizmanto Flash. Šīs metodes var būt savietojamas ar "
 "pārlūku Tor."
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### JavaScript"
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "JavaScript is a programming language that websites use to offer interactive "
 "elements such as video, animation, audio, and status timelines. "
@@ -1505,7 +1589,8 @@ msgstr ""
 "mērogus. Diemžēl JavaScript var arī iespējot uzbrukumus pārlūka drošībai, "
 "kuri var izraisīt anonimitātes zaudēšanu."
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript, accessible through the “S” "
 "icon at the top-right of the window. NoScript allows you to control the "
@@ -1513,11 +1598,13 @@ msgid ""
 "it entirely."
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Users who require a high degree of security in their web browsing should set"
 " Tor Browser’s <a href=\"/security-slider\">Security Slider</a> to “Safer” "
@@ -1527,11 +1614,13 @@ msgid ""
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Browser Add-ons"
 msgstr ""
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
 "compatible with Firefox can also be installed in Tor Browser."
@@ -1539,7 +1628,8 @@ msgstr ""
 "Pārlūks Tor pamatā ir lietots Firefox, un pārlūkā Tor var instalēt visus ar "
 "Firefox savietojamus pārlūku pievienojumus vai tēmas."
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.body)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "However, the only add-ons that have been tested for use with Tor Browser are"
 " those included by default. Installing any other browser add-ons may break "
@@ -1554,22 +1644,23 @@ msgstr ""
 "stingri rekomendēts neinstalēt papildu pievienojumus, un Tor Projekts "
 "nepiedāvās šādu konfigurāciju atbalstu."
 
-#: http//localhost/plugins/ (content/plugins/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/plugins/
+#: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.title)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.title)
 msgid "Troubleshooting"
 msgstr "Problēmu novēršana"
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.description)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.description)
 msgid "What to do if Tor Browser doesn’t work"
 msgstr "Ko darīt tad, kad pārlūks Tor nestrādā"
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "You should be able to start browsing the web using Tor Browser shortly after"
 " running the program, and clicking the “Connect” button if you are using it "
@@ -1579,13 +1670,13 @@ msgstr ""
 "palaista programma un ir noklišķināta poga „Veidot savienojumu”, ja "
 "izmantojat to pirmo reizi."
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Quick fixes"
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If Tor Browser doesn’t connect, there may be a simple solution. Try each of "
 "the following:"
@@ -1593,61 +1684,61 @@ msgstr ""
 "Ja pārlūks Tor neizveido savienojumu, iespējams, ka ir vienkāršs risinājums."
 " Pamēģiniet kādu no šīm iespējām:"
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure that any antivirus program you have installed is not preventing "
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "* Temporarily disable your firewall."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Delete Tor Browser and install it again. If updating, do not just "
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Is your connection censored?"
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If you still can’t connect, your Internet Service Provider might be "
 "censoring connections to the Tor network. Read the <a "
 "href=\"/circumvention\">Circumvention</a> section for possible solutions."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Known issues"
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.body)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is under constant development, and some issues are known about "
 "but not yet fixed. Please check the <a href=\"/known-issues\">Known "
@@ -1655,71 +1746,71 @@ msgid ""
 " there."
 msgstr ""
 
-#: http//localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/troubleshooting/
+#: (content/troubleshooting/contents+en-US.lrtopic.seo_slug)
 msgid "troubleshooting"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.title)
-#: (content/known-issues/contents+en.lrtopic.description)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.title)
+#: (content/known-issues/contents+en-US.lrtopic.description)
 msgid "Known issues"
 msgstr "Zināmās problēmas"
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "
 "\"Files\" (Unity's explorer), open Preferences → Behavior Tab → Set \"Run "
@@ -1727,37 +1818,37 @@ msgid ""
 "click OK."
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.body)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
 msgstr ""
 
-#: http//localhost/known-issues/
-#: (content/known-issues/contents+en.lrtopic.seo_slug)
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.seo_slug)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
 msgid "uninstalling"
 msgstr ""
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.title)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.title)
 msgid "Uninstalling"
 msgstr "Atinstalēšana"
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.description)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.description)
 msgid "How to remove Tor Browser from your system"
 msgstr "Kā no Jūsu sistēmas noņemt pārlūku Tor"
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser does not affect any of the existing software or settings on your"
 " computer. Uninstalling Tor Browser will not affect your system’s software "
@@ -1767,13 +1858,13 @@ msgstr ""
 "Pārlūka Tor atinstalēšana neietekmēs Jūsu sistēmas programmatūru vai "
 "iestatījumus. "
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "Removing Tor Browser from your system is simple:"
 msgstr ""
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "1. Locate your Tor Browser folder. The default location on Windows is the "
 "Desktop; on Mac OS X it is the Applications folder. On Linux, there is no "
@@ -1781,36 +1872,36 @@ msgid ""
 "you are running the English Tor Browser."
 msgstr ""
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
 msgstr ""
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
 msgstr ""
 
-#: http//localhost/uninstalling/
-#: (content/uninstalling/contents+en.lrtopic.body)
+#: http//localhost/en-US/uninstalling/
+#: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
 msgstr ""
 "Ievērojiet, ka netiek lietota Jūsu operētājsistēmas standarta utilīta "
 "„Atinstalēt”."
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.title)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.title)
 msgid "Becoming a Tor Translator"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.description)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.description)
 msgid "Becoming a translator for the Tor Project"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "If you are interested in helping out the project by translating the manual "
 "or the Tor Browser to your language, your help would be greatly appreciated!"
@@ -1819,92 +1910,92 @@ msgid ""
 " sign up and begin."
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "##### Signing up on Transifex"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* You are now signed up! Go to the <a "
 "href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>."
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.body)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "After your membership is approved you can begin translating; simply navigate"
 " back to the <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
@@ -1912,9 +2003,34 @@ msgid ""
 "helping the project!"
 msgstr ""
 
-#: http//localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lrtopic.seo_slug)
+#: http//localhost/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
+msgstr ""
+
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
+msgid "<img width=\"600\" src=\"assets/static/images/update3.png\" />"
+msgstr ""
+
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
+msgid "<img width=\"600\" src=\"/assets/static/images/update3.png\" />"
+msgstr ""
+
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
+msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
+msgstr ""
+
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
+msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
+msgstr ""
+
+#: http//localhost/en-US/updating/
+#: (content/updating/contents+en-US.lrtopic.body)
+msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: templates/footer.html:5
