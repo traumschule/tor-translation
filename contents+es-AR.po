@@ -464,7 +464,7 @@ msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### Obteniendo direcciones de puentes"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -477,16 +477,18 @@ msgstr ""
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
-msgstr ""
+msgstr "* Visitá https://bridges.torproject.org/ y seguí las instrucciones, o"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
+"* Enviá un correo electrónico a bridges@torproject.org desde una dirección "
+"de Gmail, Yahoo o Riseup"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### Introduciendo direcciones de puente"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -503,6 +505,10 @@ msgid ""
 " of the URL bar, then select 'Tor Network Settings...' to access these "
 "options."
 msgstr ""
+"Si estás iniciando el navegador Tor por primera vez, cliqueá 'Configurar' "
+"para abrir la ventana Ajustes de red de Tor. De otra manera, cliqueá el "
+"Botón Tor a la izquierda de de la barra URL, luego seleccioná 'Ajustes de "
+"red de Tor...' para acceder a éstas opciones."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -510,32 +516,42 @@ msgid ""
 "Then, select 'Provide a bridge I know' and enter each bridge address on a "
 "separate line."
 msgstr ""
+"En la ventana Ajustes de red de Tor, seleccioná 'Tor está censurado en mi "
+"país'. Luego, seleccioná 'Proveer un puente que conozco' e ingresá cada "
+"dirección de puente en una línea separada."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "<img class=\"col-md-6\" src=\"/static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
+"<img class=\"col-md-6\" src=\"/static/images/tor-launcher-custom-"
+"bridges.png\">"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
+"Cliqueá \"Aceptar\" para salvar tus cambios. El uso de puentes puede hacer "
+"la conexión más lenta comparado con el uso de relevos Tor ordinarios."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
+"Si la conexión falla, los puentes que recibiste pueden estar caídos. Por "
+"favor usá uno de los métodos mencionados más arriba para obtener más "
+"direcciones de puente, y tratá de nuevo."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.seo_slug)
 msgid "bridges"
-msgstr ""
+msgstr "puentes"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.title)
 msgid "Pluggable transports"
-msgstr ""
+msgstr "Transportes insertables"
 
 #: http//localhost/transports/
 #: (content/transports/contents+en.lrtopic.description)
@@ -543,6 +559,8 @@ msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out."
 msgstr ""
+"Los transportes insertables son herramientas que Tor puede usar para "
+"enmascarar el tráfico saliente originado."
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -558,7 +576,7 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### Tipos de transporte insertable"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -570,19 +588,19 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "obfs3"
@@ -590,7 +608,7 @@ msgstr "obfs3"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid ""
@@ -605,11 +623,11 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "obfs4"
@@ -677,16 +695,16 @@ msgstr ""
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http//localhost/transports/ (content/transports/contents+en.lrtopic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http//localhost/transports/
 #: (content/transports/contents+en.lrtopic.seo_slug)
 msgid "plugable-transports"
-msgstr ""
+msgstr "transportes-insertables"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.title)
@@ -707,6 +725,12 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"El acceso directo a la red de Tor puede ser bloqueado a veces por tu "
+"Proveedor de Servicio de Internet o por un gobierno. El navegador Tor "
+"incluye algunas herramientas para evitar estos obstáculos. Estas "
+"herramientas son llamadas \"transportes insertables\". Mirá la página <a "
+"href=\"/transports\">Transportes Insertables</a> para más información sobre "
+"qué tipos de transporte están actualmente disponibles."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -745,7 +769,7 @@ msgstr ""
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/bridges.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/bridges.png\">"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -760,7 +784,7 @@ msgstr ""
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### ¿Qué transporte debería usar?"
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -770,6 +794,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Cada uno de los transportes listados en el menú del Lanzador de Tor trabaja "
+"de una manera diferente (para más detalles, mirá la página <a "
+"href=\"/transports\">Transportes Insertables</a>), y su efectividad depende "
+"de tus circunstancias individuales."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.body)
@@ -790,11 +818,15 @@ msgid ""
 "href=\"/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"Si tratás todas éstas opciones, y ninguna de ellas te permite estar en "
+"línea, necesitarás entrar direcciones de puente manualmente. Leé la sección "
+"<a href=\"/bridges/\">Puentes</a> para aprender qué son los puentes y cómo "
+"obtenerlos."
 
 #: http//localhost/circumvention/
 #: (content/circumvention/contents+en.lrtopic.seo_slug)
 msgid "circumvention"
-msgstr ""
+msgstr "Evitando obstáculos"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.title)
@@ -843,7 +875,7 @@ msgstr ""
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### La barra URL"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -877,7 +909,7 @@ msgstr ""
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/circuit_full.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/circuit_full.png\">"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -885,6 +917,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Podés ver un diagrama del cicuito que el navegador Tor está usando para la "
+"pestaña corriente en el menú de información del sitio, en la barra URL."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -897,11 +931,19 @@ msgid ""
 "href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
+"En el circuito, la Guarda o nodo de entrada es el primer nodo, y es "
+"seleccionado al azar automáticamente por Tor. Pero es diferente de los otros"
+" nodos en el cicuito. En orden a evitar ataques por perfilación, el nodo "
+"Guarda cambia sólo luego de 2-3 meses, a diferencia de los otros nodos, que "
+"cambian con cada nuevo dominio. Para más información acerca de Guardas, "
+"consultá <a href=\"https://www.torproject.org/docs/faq#EntryGuards\">PMF</a>"
+" y <a href=\"https://support.torproject.org/tbb/tbb-2/\">Portal de "
+"Soporte</a>."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### Iniciando sesiones sobre Tor"
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)
@@ -948,6 +990,9 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"* Mirá la página <a href=\"/secure-connections\">Conexiones Seguras</a> por "
+"información importante sobre cómo asegurar tu conexión cuando estés "
+"iniciando sesión."
 
 #: http//localhost/managing-identities/
 #: (content/managing-identities/contents+en.lrtopic.body)

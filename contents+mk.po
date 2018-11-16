@@ -2,6 +2,7 @@
 # erinm, 2018
 # Zarko Gjurov <zarkogjurov@gmail.com>, 2018
 # Liljana Ackovska <liljanagjurova@gmail.com>, 2018
+# Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-16 12:25+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Liljana Ackovska <liljanagjurova@gmail.com>, 2018\n"
+"Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Macedonian (https://www.transifex.com/otf/teams/1519/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,6 +124,12 @@ msgid ""
 "/secure-connections.html\">HTTPS</a>, which makes it much harder for "
 "somebody to tamper with."
 msgstr ""
+"Најбезбедниот и наједноставниот начин за преземање на Tor Browser е од "
+"официјалната Tor Project веб страна на https://www.torproject.org. Вашата "
+"конекција до страната ќе биде обезбедена со користење на <a href=\"https"
+"://tb-manual.torproject.org/en-US/secure-connections.html\">HTTPS</a>, што "
+"ќе направи да биде многу потешко за некој да го пресретне Интернет "
+"сообраќајот."
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -137,7 +144,7 @@ msgstr ""
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "##### GetTor"
-msgstr ""
+msgstr "##### GetTor"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -207,7 +214,7 @@ msgstr ""
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http//localhost/downloading/ (content/downloading/contents+en.lrtopic.body)
 msgid ""
@@ -293,7 +300,7 @@ msgstr ""
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### Поврзи"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -316,7 +323,7 @@ msgstr ""
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### Конфигурирај"
 
 #: http//localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lrtopic.body)
@@ -387,6 +394,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"Повеќето од Pluggable Transports , како obfs3 и obfs4, се потпираат на "
+"користење на „мостни / премостувачки“ релеа. "
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -397,6 +406,12 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"Повеќето од <a href=\"/transports\">Pluggable Transports</a> , како obfs3 и "
+"obfs4, се потпираат на користење на „мостни / премостувачки“ релеа. За "
+"разлика од обичните Tor релеа, овие не се излистани јавно, со што спротивно "
+"на другите овие не можат да бидат лесно идентификувани. Користењето на "
+"мостови во комбинација со pluggable transports помагаат во маскирањето на "
+"фактот дека користите Tor."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -410,7 +425,7 @@ msgstr ""
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### Добивање мост адреси"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -424,15 +439,18 @@ msgstr ""
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
+"Посетете https://bridges.torproject.org/  и следете ги инструкциите, или"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
+"* Е-пошта bridges@torproject.org од Gmail, Yahoo, or Riseup е-поштенска "
+"адреса"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### Внесување мост адреси"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
