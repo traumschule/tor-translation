@@ -469,7 +469,7 @@ msgstr ""
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
-msgstr "Visita https://bridges.torproject.org/ y sigue las instrucciones, o"
+msgstr "* Visita https://bridges.torproject.org/ y sigue las instrucciones, o"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""

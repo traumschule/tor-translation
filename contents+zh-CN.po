@@ -363,7 +363,7 @@ msgstr "网桥"
 msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
-msgstr ""
+msgstr "大多数 可插拔传输（诸如 obfs3 和 obfs4）依赖于使用“网桥”中继。"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -398,7 +398,7 @@ msgstr "因为网桥地址非公开，您需要自行请求。您有两个选项
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
-msgstr "访问 https://bridges.torproject.org/ 并按照流程操作，或者"
+msgstr "* 访问 https://bridges.torproject.org/ 并按照流程操作，或者"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""

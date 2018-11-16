@@ -414,6 +414,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"Úsáideann an chuid is mó de na Córais Iompair Ionphlugáilte, mar shampla "
+"obfs3 agus obfs4, athsheachadáin \"droichid\"."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -459,6 +461,8 @@ msgstr ""
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
+"* Tabhair cuairt ar https://bridges.torproject.org/ agus lean na treoracha, "
+"nó"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""

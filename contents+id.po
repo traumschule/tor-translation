@@ -428,6 +428,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"Kebanyakan Angkutan Colok, seperti obfs3 dan obfs4, bergantung pada "
+"penggunaan \"jembatan\" relay."
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
@@ -471,13 +473,14 @@ msgstr ""
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
-msgstr "Kunjungi https://bridges.torproject.org/ dan ikuti petunjuk, atau"
+msgstr "* Kunjungi https://bridges.torproject.org/ dan ikuti petunjuk, atau"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
-"Email bridges@torproject.org melalui alamat email Gmail, Yahoo, atau Riseup"
+"* Email bridges@torproject.org melalui alamat email Gmail, Yahoo, atau "
+"Riseup"
 
 #: http//localhost/bridges/ (content/bridges/contents+en.lrtopic.body)
 msgid "##### Entering bridge addresses"
