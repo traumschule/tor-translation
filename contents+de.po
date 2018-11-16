@@ -1,7 +1,7 @@
 # Translators:
 # erinm, 2018
-# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2018
 # Jim John <transifex@exware.de>, 2018
+# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2018
 # Oliver Parczyk, 2018
 # Emma Peel, 2018
 # 
@@ -515,7 +515,7 @@ msgstr ""
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
-"Besuche https://bridges.torproject.org/ und folge den Anweisungen oder"
+"* Besuche https://bridges.torproject.org/ und folge den Anweisungen oder"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -1642,7 +1642,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
-msgstr "Tor-Browser automatisch aktualisieren"
+msgstr "##### Tor-Browser automatisch aktualisieren"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1690,7 +1690,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
-msgstr "Tor-Browser manuell aktualisieren"
+msgstr "##### Tor-Browser manuell aktualisieren"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -2039,6 +2039,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* Das Tor-Browser-Paket ist auf den 1. January 2000 00:00:00 UTC datiert. "
+"Damit wird sichergestellt, dass jede Programmversion exakt reproduzierbar "
+"ist."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
