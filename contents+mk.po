@@ -96,6 +96,11 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"Tor е мрежа од виртуелни тунели кои ви дозволуваат да ја подобрите вашата "
+"приватност и безбедност на Интернет. Tor работи со праќање на вашиот "
+"сообраќај низ произволно избрани сервери (исто така познати како *релеа*) во"
+" Tor мрежата. Последното реле во кругот (излезното реле) го препраќа "
+"сообраќајот кон јавниот Интернет."
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
@@ -572,7 +577,7 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.title)
 msgid "Pluggable transports"
-msgstr ""
+msgstr "Pluggable Transports"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.description)
@@ -1961,6 +1966,8 @@ msgstr "Познати проблеми"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* На Tor му е потребно вашиот часовник (со вашата временска зона) на "
+"системот да биде наместен на точно време."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1968,26 +1975,28 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* Следниот софтвер за заштитен ѕид е познто дека влегува во конфликт со Tor "
+"и можеби треба да биде привремено оневозможен:"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus for Mac"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1995,11 +2004,13 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* Видеата кои бараат Adobe Flash се оневозможени. Flash е оневозможен од "
+"безбедносни причини."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "* Tor не може да користи мост ако има поставено прокси."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -2007,6 +2018,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* Tor Browser пакетот е датиран на 1-ви јануари 2000 година во 00:00:00 "
+"координирано универзално време. Ова е за да се обезбеди секоја верзија на "
+"софтверот да биде точно репродуцибилна."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
