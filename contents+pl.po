@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-17 09:35+CET\n"
+"POT-Creation-Date: 2018-11-17 19:04+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/otf/teams/1519/pl/)\n"
@@ -220,69 +220,6 @@ msgid ""
 msgstr ""
 "By uzyskać linki pozwalające na pobranie Tor Browser dla Linuksa po chińsku,"
 " wyślij wiadomość zawierającą wyrażenie „linux zh” na gettor@torproject.org."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "##### Satori"
-msgstr "##### Satori"
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Satori is an add-on for the Chrome or Chromium browsers that allows you to "
-"download several security and privacy programs from different sources."
-msgstr ""
-"Satori jest rozszerzeniem do przeglądarki Chrome i Chromium pozwalającym na "
-"pobranie kilku programów bezpieczeństwa i prywatności z wielu źródeł."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "To download Tor Browser using Satori:"
-msgstr "By pobrać Tor Browser poprzez Satori:"
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "Install Satori from the Chrome App Store."
-msgstr "Zainstaluj Satori z Chrome App Store."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "Select Satori from your browser’s Apps menu."
-msgstr "Wybierz Satori z menu rozszerzeń w przeglądarce."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"When Satori opens, click on your preferred language. A menu will open "
-"listing the available downloads for that language. Find the entry for Tor "
-"Browser under the name of your operating system. Select either “A” or “B” "
-"after the name of the program — each one represents a different source from "
-"which to get the software. Your download will then begin."
-msgstr ""
-"Po uruchomieniu Satori wybierz swój język. Pojawi się lista programów dla "
-"Twojego języka. Znajdź Tor Browser pod kategorią swojego systemu "
-"operacyjnego. Wybierz „A” lub „B” — każda litera oznacza osobne źródło, z "
-"którego możesz pobrać oprogramowanie. Po wybraniu źródła rozpocznie się "
-"pobieranie."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Wait for your download to finish, then find the “Generate Hash” section in "
-"Satori’s menu and click “Select Files”."
-msgstr ""
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Select the downloaded Tor Browser file. Satori will display the checksum of "
-"the file, which you should compare with the software’s original checksum: "
-"you can find this by clicking the word “checksum” after the link you clicked"
-" on to start the download. If the checksums match, your download was "
-"successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
-"you may need to try downloading again, or from a different source."
-msgstr ""
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-17 09:35+CET\n"
+"POT-Creation-Date: 2018-11-17 19:04+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: erinm, 2018\n"
 "Language-Team: Ukrainian (https://www.transifex.com/otf/teams/1519/uk/)\n"
@@ -211,71 +211,6 @@ msgstr ""
 "Щоб отримати посилання на завантаження браузера Tor Browser китайською мовою"
 " для Linux, надішліть повідмлення gettor@torproject.org зі словами «linux "
 "zh»."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "##### Satori"
-msgstr ""
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Satori is an add-on for the Chrome or Chromium browsers that allows you to "
-"download several security and privacy programs from different sources."
-msgstr ""
-"Satori — це додаток до браузерів Chrome чи Chromium, який дозволяє "
-"завантажити кілька програм безпеки та приватності з різних джерел."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "To download Tor Browser using Satori:"
-msgstr "Щоб завантажити Tor Browser через Satori:"
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "Install Satori from the Chrome App Store."
-msgstr "Встановіть Satori з Chrome App Store."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "Select Satori from your browser’s Apps menu."
-msgstr "Оберіть Satori у меню додатків свого браузера."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"When Satori opens, click on your preferred language. A menu will open "
-"listing the available downloads for that language. Find the entry for Tor "
-"Browser under the name of your operating system. Select either “A” or “B” "
-"after the name of the program — each one represents a different source from "
-"which to get the software. Your download will then begin."
-msgstr ""
-"Коли Satori відкриється, виберіть зручну для вас мову. Відкриється меню зі "
-"списком доступних завантажень цією мовою. Знайдіть Tor Browser під назвою "
-"вашої операційної системи. Оберіть «A» або «B» після назви програми — це "
-"різні джерела, з яких можна отримати програму. Тоді розпочнеться "
-"завантаження."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Wait for your download to finish, then find the “Generate Hash” section in "
-"Satori’s menu and click “Select Files”."
-msgstr ""
-"Зачекайте, поки завантаження завешиться, тоді знайдіть розділ «Генервати "
-"хеш» у меню Satori і натисніть «Обрати файли»."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Select the downloaded Tor Browser file. Satori will display the checksum of "
-"the file, which you should compare with the software’s original checksum: "
-"you can find this by clicking the word “checksum” after the link you clicked"
-" on to start the download. If the checksums match, your download was "
-"successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
-"you may need to try downloading again, or from a different source."
-msgstr ""
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)

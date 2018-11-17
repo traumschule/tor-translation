@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-17 09:35+CET\n"
+"POT-Creation-Date: 2018-11-17 19:04+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: scootergrisen, 2018\n"
 "Language-Team: Danish (https://www.transifex.com/otf/teams/1519/da/)\n"
@@ -195,64 +195,6 @@ msgid ""
 msgstr ""
 "Få links til at downloade Tor Browser på kinesisk til Linux ved at sende en "
 "meddelelse til gettor@torproject.org med ordene \"linux zh\"."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "##### Satori"
-msgstr ""
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Satori is an add-on for the Chrome or Chromium browsers that allows you to "
-"download several security and privacy programs from different sources."
-msgstr ""
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "To download Tor Browser using Satori:"
-msgstr "At downloade Tor Browser ved brug af Satori:"
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "Install Satori from the Chrome App Store."
-msgstr "Installer Satori fra Chrome App Store."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid "Select Satori from your browser’s Apps menu."
-msgstr "Vælg Satori fra din browsers Apps-menu."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"When Satori opens, click on your preferred language. A menu will open "
-"listing the available downloads for that language. Find the entry for Tor "
-"Browser under the name of your operating system. Select either “A” or “B” "
-"after the name of the program — each one represents a different source from "
-"which to get the software. Your download will then begin."
-msgstr ""
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Wait for your download to finish, then find the “Generate Hash” section in "
-"Satori’s menu and click “Select Files”."
-msgstr ""
-"Vent på at din download blive færdig og find så “Generer hash”-afsnittet i "
-"Satori’s menu og klik på “Vælg filer”."
-
-#: http//localhost/en-US/downloading/
-#: (content/downloading/contents+en-US.lrtopic.body)
-msgid ""
-"Select the downloaded Tor Browser file. Satori will display the checksum of "
-"the file, which you should compare with the software’s original checksum: "
-"you can find this by clicking the word “checksum” after the link you clicked"
-" on to start the download. If the checksums match, your download was "
-"successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
-"you may need to try downloading again, or from a different source."
-msgstr ""
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
