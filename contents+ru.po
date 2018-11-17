@@ -303,6 +303,14 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Выберите загруженный файл Tor Browser. Satori отобразит контрольную сумму "
+"этого файла, которые вы должны сравнить с оригинальной контрольной суммой "
+"программного обеспечения: вы можете найти ее, нажав фразу \"контрольная "
+"сумма\" рядом со ссылкой, на которую вы нажимали, чтобы начать загрузку. "
+"Если контрольные суммы совпадают, то ваша загрузка была успешной, и вы "
+"можете <a href=\"https://tb-manual.torproject.org/en-US/running-tor-"
+"browser/\">начать использовать Tor Browser</a>. Если они не совпадают, вам "
+"может потребоваться попробовать загрузить снова, либо из другого источника."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -439,6 +447,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"Большинство Pluggable Transports, такие как obfs3 и obfs4, полагаются на "
+"использование «мостовых» реле."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -744,6 +754,12 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Прямой доступ к сети Tor иногда может блокироваться вашим интернет-"
+"провайдером или правительством. Tor Browser включает некоторые инструменты "
+"обхода, чтобы обойти эти блокировки. Эти инструменты называются "
+"подключаемыми транспортами <a href=\"/en-US/transports\">«Pluggable "
+"Transports».</a> Дополнительную информацию о типах транспорта, доступных в "
+"настоящее время, смотрите на странице Pluggable Transports."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -805,6 +821,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Каждый из транспортов, перечисленных в меню запуска Tor, работает по-разному"
+" (более подробную информацию см. на странице <a href=\"/en-"
+"US/transports\">подключаемых транспортов</a>), и их эффективность зависит от"
+" конкретных обстоятельств."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -825,6 +845,10 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"Если вы попробуете все эти параметры, и ни один из них не поможет вам "
+"получить доступ в Интернет, вам нужно будет ввести адреса мостов вручную. "
+"Прочтите мосты -  <a href=\"/en-US/bridges/\">Bridges</a>, чтобы узнать, "
+"какие бывают мосты и как их получить."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)

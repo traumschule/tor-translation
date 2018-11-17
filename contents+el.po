@@ -864,6 +864,10 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"* Αν δοκιμάσετε όλες αυτές τις λύσεις, και παρ' όλα αυτά δεν καταφέρατε να "
+"συνδεθείτε, θα χρειαστεί να καταχωρίσετε χειροκίνητα τις διευθύνσεις "
+"γέφυρας. Διαβάστε την ενότητα <a href=\"/en-US/bridges/\"> Γέφυρες</a> για "
+"να μάθετε τι είναι οι γέφυρες και πώς να τις αποκτήσετε."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
