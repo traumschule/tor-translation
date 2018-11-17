@@ -2156,7 +2156,7 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
-"Tabhair cuairt ar <a href=\"https://transifex.com/signup/\">leathanach "
+"* Tabhair cuairt ar <a href=\"https://transifex.com/signup/\">leathanach "
 "cláraithe Transifex</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
