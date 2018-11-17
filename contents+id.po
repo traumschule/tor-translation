@@ -303,6 +303,14 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Pilih pengunduh file Tor Browser . Satori akan memunculkan checksum dari "
+"seuah fil, yang mana anda harus membandingkan dengan perangkat lunak "
+"checksum yang asli: anda dapat menemukannya dengan mengklik kata "
+"\"checksum\" setelah tautan yang ada klik mulai mengunduh. Jika the checksum"
+" cocok, anda telah berhasil mengunduh, sehingga anda dapat : <a href=\"https"
+"://tb-manual.torproject.org/en-US/running-tor-browser/\">memulai Tor "
+"Browser</a>,  jika tidak cocok, maka anda perlu mencoba mengunduh kembali, "
+"atau mencoba dari sumber yang berbeda. "
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
