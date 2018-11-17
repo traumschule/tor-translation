@@ -568,6 +568,9 @@ msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
+"Ако поврзувањето не успее, тогаш мостовите кои сте ги добиле може да се "
+"паднати т.е. да се надвор од функција. Користете еден од методите за да "
+"добиете повеќе мост адреси, и пробајте повторно."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
@@ -2030,6 +2033,10 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* За да се стартува Tor Browser на Ubuntu, корисниците треба да покренат "
+"shell скрипта. Отвори \"Датотеки\" (Unity's explorer), отвори Параметри → "
+"Таб Однесување → Поставете од \"Стартувај ги извршните текст датотеки кога "
+"се отворени\" на \"Прашај секогаш\", а потоа кликнете ОК."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -2037,18 +2044,20 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* Tor Browser исто така може да биде стартуван од командната линија со "
+"покренување на следната команда внатре од Tor Browser директориумот:"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
-msgstr ""
+msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
 msgid "uninstalling"
-msgstr ""
+msgstr "Деинсталирање"
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.title)
@@ -2084,16 +2093,20 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Најдете ја вашата Tor Browser папка. Стандардната локација на Windows е "
+"на вашата Работна површина; на Mac OS X е во папката Апликации. На Linux, "
+"нема стандардна локација, но како и да е папката ќе биде именувана како "
+"\"tor-browser_en-US\" ако користите Tor Browser на англиски јазик."
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. Избришете ја Tor Browser папката."
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. Испразнете го Ѓубрето"
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
@@ -2131,7 +2144,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### Најавување на Transifex"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2160,6 +2173,8 @@ msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
+"* Пополнете ја следната страна со вашето име и изберете \"Локализација\" и "
+"\"Преведувач\" од паѓачките менија:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2170,6 +2185,8 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
+"* На следната страна, изберете \"Придружи се на постоечки прект\" и "
+"продолжете."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2177,6 +2194,8 @@ msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
+"* На следната страна, изберете јазици кои ги зборувате од паѓачкото мени и "
+"продолжете."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2192,6 +2211,8 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
+"* Кликнете на плавото копче \"Придружете му се на тимот\" на крајната десна "
+"страна:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2202,7 +2223,7 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
-msgstr ""
+msgstr "* Изберете го јазикот на кој сакате да преведувате од паѓачкото мени:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2212,7 +2233,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
-msgstr ""
+msgstr "* Ќе ви се појави известување горе на веб страната како ова:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
