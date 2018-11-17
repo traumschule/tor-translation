@@ -1026,6 +1026,13 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* O Navegador Tor faz com que a sua conexão apareça como se estivesse vindo "
+"de uma parte do mundo totalmente diferente. Alguns sites, como bancos e "
+"provedores de e-mail, podem interpretar essa informação como um sinal de que"
+" a sua conta foi hackeada ou comprometida, e não permitirem que você a "
+"acesse. A única maneira de resolver esse problema é seguir o procedimento de"
+" recuperação de conta recomendado pelo site, ou contactar seus operadores e "
+"explicar a situação.   "
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1137,6 +1144,8 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
+"* A localização de um serviço onion e o endereço de IP são ocultos, tornando"
+" difícil para adversários censurará-lo ou identificarem seus operadores."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1157,6 +1166,10 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* O endereço de um serviço onion é gerado automaticamente, então operadores "
+"não precisam comprar um domínio; o URL .onion também ajuda o Tor a garantir "
+"que está se conectando ao lugar certo e que a conexão não está sendo "
+"adulterada."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1281,6 +1294,9 @@ msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
+"* Clique no botão \"Tor\" para ver quais dados são visíveis a observadores "
+"quando você usa o Tor. Esse botão ficará verde para indicar que o Tor está "
+"ativo."
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1288,6 +1304,9 @@ msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
 "you're using HTTPS. The button will turn green to indicate that HTTPS is on."
 msgstr ""
+"* Clique no botão \"HTTPS\" para ver quais dados são visíveis a observadores"
+" quando você usa HTTPS. Esse botão ficará verde para indicar que o HTTPS "
+"está ativo."
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1295,6 +1314,8 @@ msgid ""
 "* When both buttons are green, you see the data that is visible to observers"
 " when you are using both tools."
 msgstr ""
+"* Quando os dois botões estiverem verdes, você saberá quais dados são "
+"expostos a observadores quando você usar as duas ferramentas. "
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1302,6 +1323,8 @@ msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
+"* Quando os dois botões estiverem cinzas, você saberá quais dados são "
+"expostos a observadores quando você não nenhuma das duas ferramentas. "
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1830,6 +1853,8 @@ msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
+"* O relógio de sistema do seu computador tem de ser configurado "
+"corretamente. Caso contrário, o Tor nao conseguira se conectar. "
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1837,6 +1862,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* Certifique-se de que um outro Navegador Tor não esteja já em "
+"funcionamento. Se você não tiver certeza, reinicie o computador."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1845,11 +1872,14 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* Certifique-se de que nenhum programa antivírus instalado esteja impedindo "
+"o funcionamento do Tor. Caso não saiba como proceder, consulte a "
+"documentação do seu programa de antivírus. "
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* Desative temporariamente o seu firewall."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1858,6 +1888,9 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* Apague o Navegador Tor e instale-o novamente. Ao fazer uma atualização, em"
+" vez de simplesmente sobrepor novos arquivos aos antigos, verifique que "
+"estes sejam totalmente apagados."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1910,6 +1943,8 @@ msgstr "Problemas conhecidos"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* Tor precisa que o seu relógio de sistema (e a sua zona horária) estejam "
+"definidos corretamente."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1917,26 +1952,28 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* Os seguintes programas de firewall são conhecidos por interferirem no Tor "
+"e precisam ser desabilitados temporariamente:"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus for Mac"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1944,6 +1981,8 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* Vídeos que requerem Adobe Flash não são disponíveis. Flash foi "
+"desabilitado por questões de segurança. "
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1956,6 +1995,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* O pacote do Navegador Tor data de \"January 1, 2000 00:00:00 UTC\". Essa "
+"notação garante que todos as compilações do programa sejam reproduzíveis com"
+" exatidão."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1965,6 +2007,10 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Para rodar o Navegador Tor no Ubuntu, é preciso executar um shell script. "
+"Abra \"Files\" (Unity's explorer), abra Preferences → Behavior Tab → Defina "
+"\"Run executable text files when they are opened\" como \"Ask every time\", "
+"em seguida encerre o diálogo."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1972,6 +2018,8 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* O Navegador Tor também pode ser iniciado a partir da linha de comando, "
+"executando o seguinte comando no diretório do Navegador Tor:"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -2026,16 +2074,20 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Localize a pasta do seu Navegador Tor. O local padrão no Windows é o "
+"Desktop; no macOS, é a pasta de aplicações. No Linux, não há local padrão, "
+"mas, se você estiver usando o Navegador Tor em Inglês, a pasta é nomeada "
+"\"tor-browser_en-US\" ."
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. Apagar a pasta do Navegador Tor."
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. Limpar a lixeira"
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
@@ -2081,8 +2133,8 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
-"Dirija-se à <a href=\"https://transifex.com/signup/\">página de registro no "
-"Transifex</a>."
+"* Dirija-se à <a href=\"https://transifex.com/signup/\">página de registro "
+"no Transifex</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2112,6 +2164,8 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
+"* Na próxima página, selecione 'Participar de um projeto existente' e "
+"continue."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2119,6 +2173,8 @@ msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
+"* Na próxima página, selecione os idiomas que você fala a partir do menu "
+"suspenso e continue."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2133,7 +2189,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
-msgstr ""
+msgstr "* Clique no botão \"Junte-se a nós\" no canto direito."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2145,6 +2201,8 @@ msgstr ""
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
 msgstr ""
+"* Selecione o idioma que você gostaria de traduzir a partir do menu "
+"suspenso:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2155,6 +2213,8 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr ""
+"* Uma notificação será exibida na parte superior da página da seguinte "
+"maneira:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2214,7 +2274,7 @@ msgstr ""
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
-msgstr ""
+msgstr "Tor Project | Manual do Navegador Tor"
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
