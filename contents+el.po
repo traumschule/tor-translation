@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 20:54+CET\n"
+"POT-Creation-Date: 2018-11-17 09:35+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/1519/el/)\n"
@@ -305,18 +305,9 @@ msgid ""
 "you can find this by clicking the word “checksum” after the link you clicked"
 " on to start the download. If the checksums match, your download was "
 "successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/first-time.html\">begin using Tor Browser</a>. If they do not match, you "
-"may need to try downloading again, or from a different source."
+"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
+"you may need to try downloading again, or from a different source."
 msgstr ""
-"Επιλέξτε το αρχείο του Tor Browser που έχετε κατεβάσει. Το Satori θα "
-"εμφανίσει το άθροισμα ελέγχου του αρχείου, το οποίο θα πρέπει να συγκρίνετε "
-"με το αρχικό άθροισμα ελέγχου του λογισμικού: μπορείτε να το βρείτε κάνοντας"
-" κλικ στη λέξη \"checksum\" μετά τον σύνδεσμο στον οποίο κάνατε κλικ για να "
-"ξεκινήσει η λήψη. Εάν τα ποσά ελέγχου συμπίπτουν, η λήψη σας ήταν επιτυχής "
-"και μπορείτε να <a href=\"https://tb-manual.torproject.org/en-US/first-"
-"time.html\">ξεκινήσετε να χρησιμοποιείτε τον Tor Browser</a>. Αν δεν "
-"ταιριάζουν, ίσως χρειαστεί να δοκιμάσετε να κάνετε λήψη ξανά ή από "
-"διαφορετική πηγή."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -691,17 +682,6 @@ msgstr ""
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
-msgid "Scramblesuit"
-msgstr "Scramblesuit"
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
-msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
-msgstr ""
-"Το Scramblesuit μοιάζει με το obfs4 αλλά έχει διαφορετικού είδους γέφυρες."
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
@@ -778,15 +758,10 @@ msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
 "Service Provider or by a government. Tor Browser includes some circumvention"
 " tools for getting around these blocks. These tools are called “pluggable "
-"transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
-"for more information on the types of transport that are currently available."
+"transports”. See the <a href=\"/en-US/transports\">Pluggable Transports</a> "
+"page for more information on the types of transport that are currently "
+"available."
 msgstr ""
-"Η άμεση πρόσβαση στο δίκτυο Tor μπορεί μερικές φορές να παρεμποδίζεται από "
-"τον Πάροχο Υπηρεσιών Διαδικτύου (ISP) ή από κάποια κυβέρνηση. Ο Tor Browser "
-"περιλαμβάνει ορισμένα εργαλεία για την παράκαμψη των φραγμών αυτών. Αυτά τα "
-"εργαλεία ονομάζονται \"pluggable transports\". Για περισσότερες πληροφορίες "
-"σχετικά με τους τύπους των transport που είναι διαθέσιμα αυτήν τη στιγμή, "
-"ανατρέξτε στη σελίδα <a href=\"transports\">Pluggable Transports</a>."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -846,14 +821,10 @@ msgstr "##### Τι μέσο πρέπει να χρησιμοποιήσω;"
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
-"way (for more details, see the <a href=\"/transports\">Pluggable "
+"way (for more details, see the <a href=\"/en-US/transports\">Pluggable "
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
-"Κάθε ένα από τα transports που αναγράφονται στο μενού του Tor Launcher "
-"λειτουργεί με διαφορετικό τρόπο (για περισσότερες λεπτομέρειες, ανατρέξτε "
-"στη σελίδα <a href=\"transports\">Pluggable Transports</a>) και η "
-"αποτελεσματικότητά τους εξαρτάται από την περίπτωσή σας."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -870,14 +841,10 @@ msgstr ""
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
-"need to enter bridge addresses manually. Read the <a "
-"href=\"/bridges/\">Bridges</a> section to learn what bridges are and how to "
+"need to enter bridge addresses manually. Read the <a href=\"/en-"
+"US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
-"* Αν δοκιμάσετε όλες αυτές τις λύσεις, και παρ' όλα αυτά δεν καταφέρατε να "
-"συνδεθείτε, θα χρειαστεί να καταχωρίσετε χειροκίνητα τις διευθύνσεις "
-"γέφυρας. Διαβάστε την ενότητα <a href=\"bridges\"> Γέφυρες</a> για να μάθετε"
-" τι είναι οι γέφυρες και πώς να τις αποκτήσετε."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
@@ -1634,7 +1601,7 @@ msgstr "##### Ενημερώνοντας τον Tor Browser αυτόματα"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
+msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1648,7 +1615,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1662,7 +1629,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -2070,6 +2037,13 @@ msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
+msgid ""
+"* Torrenting over Tor [doesn't hide your IP "
+"address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
+msgstr ""
+
+#: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
@@ -2274,31 +2248,6 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: templates/footer.html:5

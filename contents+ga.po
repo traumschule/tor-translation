@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 20:54+CET\n"
+"POT-Creation-Date: 2018-11-17 09:35+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Irish (https://www.transifex.com/otf/teams/1519/ga/)\n"
@@ -301,18 +301,9 @@ msgid ""
 "you can find this by clicking the word “checksum” after the link you clicked"
 " on to start the download. If the checksums match, your download was "
 "successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/first-time.html\">begin using Tor Browser</a>. If they do not match, you "
-"may need to try downloading again, or from a different source."
+"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
+"you may need to try downloading again, or from a different source."
 msgstr ""
-"Roghnaigh an pacáiste do Bhrabhsálaí Tor a d'íoslódáil tú. Taispeánfaidh "
-"Satori suim sheiceála an phacáiste agus ba chóir duit í a chur i gcomparáid "
-"leis an tsuim sheiceála a tháinig leis an mbogearra féin. Is féidir leat an "
-"uimhir seo a fháil trí “checksum” a chliceáil in aice leis an nasc a d'úsáid"
-" tú chun an pacáiste a íoslódáil. Más ionann na suimeanna seiceála, d'éirigh"
-" leis an íoslódáil, agus tá tú in ann <a href=\"https://tb-"
-"manual.torproject.org/en-US/first-time.html\">Brabhsálaí Tor a úsáid</a>. "
-"Murab ionann iad, ba chóir duit an pacáiste a íoslódáil arís, b'fhéidir ó "
-"fhoinse difriúil."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -686,17 +677,6 @@ msgstr ""
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
-msgid "Scramblesuit"
-msgstr "Scramblesuit"
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
-msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
-msgstr ""
-"Córas cosúil le obfs4 é ScrambleSuit, ach úsáideann sé droichid dhifriúla."
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
@@ -774,15 +754,10 @@ msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
 "Service Provider or by a government. Tor Browser includes some circumvention"
 " tools for getting around these blocks. These tools are called “pluggable "
-"transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
-"for more information on the types of transport that are currently available."
+"transports”. See the <a href=\"/en-US/transports\">Pluggable Transports</a> "
+"page for more information on the types of transport that are currently "
+"available."
 msgstr ""
-"Uaireanta ní féidir leat rochtain dhíreach a fháil ar líonra Tor, mar gheall"
-" ar bhac a chuir do Sholáthraí Seirbhíse Idirlín nó rialtas romhat. Cuireann"
-" Brabhsálaí Tor roinnt uirlisí ar fáil a chabhraíonn leat na baic seo a "
-"sheachaint, darb ainm \"córais iompair ionphlugáilte\". Féach ar <a "
-"href=\"transports\">an leathanach seo</a> chun tuilleadh eolais a fháil faoi"
-" na córais iompair atá ar fáil faoi láthair."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -842,14 +817,10 @@ msgstr "##### Cén cineál iompair ba chóir dom a úsáid?"
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
-"way (for more details, see the <a href=\"/transports\">Pluggable "
+"way (for more details, see the <a href=\"/en-US/transports\">Pluggable "
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
-"Feidhmíonn gach ceann de na córais iompair i dTosaitheoir Tor ar bhealach "
-"difriúil (féach an leathanach <a href=\"transports\">Córais Iompair "
-"Ionphlugáilte</a> chun tuilleadh eolais a fháil), agus braitheann a "
-"n-éifeachtacht ar na cúinsí speisialta a bhaineann leatsa féin."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -866,14 +837,10 @@ msgstr ""
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
-"need to enter bridge addresses manually. Read the <a "
-"href=\"/bridges/\">Bridges</a> section to learn what bridges are and how to "
+"need to enter bridge addresses manually. Read the <a href=\"/en-"
+"US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
-"Má bhain tú triail as na roghanna seo go léir agus ní féidir leat dul ar "
-"líne fós, ní mór duit seoltaí droichid a chur isteach de láimh. Léigh an "
-"rannóg maidir le <a href=\"bridges\">Droichid</a> le foghlaim cad is "
-"droichead ann agus conas is féidir iad a fháil."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
@@ -1626,7 +1593,7 @@ msgstr "##### Nuashonrú uathoibríoch ar Bhrabhsálaí Tor"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
+msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1640,7 +1607,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1654,7 +1621,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -2058,6 +2025,13 @@ msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
+msgid ""
+"* Torrenting over Tor [doesn't hide your IP "
+"address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
+msgstr ""
+
+#: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
@@ -2257,31 +2231,6 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
 msgstr "Eolas maidir le haistriúchán Tor"
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
-msgstr ""
 
 #: templates/footer.html:5
 msgid "Our mission:"

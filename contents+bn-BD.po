@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 20:54+CET\n"
+"POT-Creation-Date: 2018-11-17 09:35+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: nr072, 2018\n"
 "Language-Team: Bengali (https://www.transifex.com/otf/teams/1519/bn/)\n"
@@ -292,8 +292,8 @@ msgid ""
 "you can find this by clicking the word “checksum” after the link you clicked"
 " on to start the download. If the checksums match, your download was "
 "successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/first-time.html\">begin using Tor Browser</a>. If they do not match, you "
-"may need to try downloading again, or from a different source."
+"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
+"you may need to try downloading again, or from a different source."
 msgstr ""
 
 #: http//localhost/en-US/downloading/
@@ -646,16 +646,6 @@ msgstr ""
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
-msgid "Scramblesuit"
-msgstr "Scramblesuit"
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
-msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
-msgstr "ScrambleSuit obfs4 অনুরূপ কিন্তু ব্রিজ একটি ভিন্ন সেট আছে।"
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
@@ -729,15 +719,10 @@ msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
 "Service Provider or by a government. Tor Browser includes some circumvention"
 " tools for getting around these blocks. These tools are called “pluggable "
-"transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
-"for more information on the types of transport that are currently available."
+"transports”. See the <a href=\"/en-US/transports\">Pluggable Transports</a> "
+"page for more information on the types of transport that are currently "
+"available."
 msgstr ""
-"টর নেটওয়ার্কে সরাসরি অ্যাক্সেসটি কখনও কখনও আপনার ইন্টারনেট সার্ভিস "
-"প্রোভাইডার বা সরকার কর্তৃক অবরুদ্ধ থাকে। টর ব্রাউজার এই ব্লক কাছাকাছি পেতে "
-"জন্য কিছু circumvention সরঞ্জাম অন্তর্ভুক্ত। এই সরঞ্জামগুলি <a "
-"href=\"transports\">\"প্লাগযোগ্য ট্রান্সপোর্টগুলি\"</a> বলা হয়। বর্তমানে "
-"উপলব্ধ যে ধরনের ধরনের উপর আরো তথ্যের জন্য প্ল্যাগেবল ট্রান্সফর্ম পৃষ্ঠা "
-"দেখুন."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -796,14 +781,10 @@ msgstr "##### কোন পরিবহন আমি ব্যবহার ক�
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
-"way (for more details, see the <a href=\"/transports\">Pluggable "
+"way (for more details, see the <a href=\"/en-US/transports\">Pluggable "
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
-"টর লঞ্চারের মেনুতে তালিকাভুক্ত প্রতিটি ট্রান্সলে একটি ভিন্ন উপায়ে কাজ করে "
-"(আরো বিশদ বিবরণের জন্য, <a href=\"transports\">প্ল্যাগেবল ট্রান্সফর্ম</a> "
-"পৃষ্ঠাটি দেখুন), এবং তাদের কার্যকারিতা আপনার ব্যক্তিগত পরিস্থিতির উপর নির্ভর"
-" করে।"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -820,14 +801,10 @@ msgstr ""
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
-"need to enter bridge addresses manually. Read the <a "
-"href=\"/bridges/\">Bridges</a> section to learn what bridges are and how to "
+"need to enter bridge addresses manually. Read the <a href=\"/en-"
+"US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
-"আপনি যদি এই সমস্ত বিকল্পগুলি ব্যবহার করেন, এবং তাদের কেউই আপনাকে অনলাইনে না "
-"পান, তবে আপনাকে ম্যানুয়ালি ব্রিজের ঠিকানাগুলি প্রবেশ করতে হবে। ব্রিজগুলি "
-"কীভাবে শিখছে এবং কিভাবে সেগুলি পেতে হয় তা শিখতে <a "
-"href=\"bridges\">ব্রিজেস</a> বিভাগটি পড়ুন।"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
@@ -1544,7 +1521,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
+msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1558,7 +1535,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1572,7 +1549,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1951,6 +1928,13 @@ msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
+msgid ""
+"* Torrenting over Tor [doesn't hide your IP "
+"address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
+msgstr ""
+
+#: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
@@ -2130,31 +2114,6 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: templates/footer.html:5

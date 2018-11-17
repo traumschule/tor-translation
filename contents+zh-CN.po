@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 20:54+CET\n"
+"POT-Creation-Date: 2018-11-17 09:35+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -261,13 +261,9 @@ msgid ""
 "you can find this by clicking the word “checksum” after the link you clicked"
 " on to start the download. If the checksums match, your download was "
 "successful, and you can <a href=\"https://tb-manual.torproject.org/en-US"
-"/first-time.html\">begin using Tor Browser</a>. If they do not match, you "
-"may need to try downloading again, or from a different source."
+"/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
+"you may need to try downloading again, or from a different source."
 msgstr ""
-"选择下载下来的 Tor 浏览器文件，此时 Satori "
-"将会自动为该文件计算出其总和检查码，您需要亲自核对此检查码与软件原本的检查码是否完全符合：您可以在您下载该文件的超链接旁边找到“checksum”字样，点击后就可以看到软件原本的检查码，若两组检查码完全一致的话，表示您的下载已经成功，此时您可以直接<a"
-" href=\"https://tb-manual.torproject.org/en-US/first-time.html\">开始使用 Tor "
-"浏览器</a>，若两组检查码不相符的话，您可能需要再重新下载，或者选择不同的下载来源重新尝试。"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -591,16 +587,6 @@ msgstr ""
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
-msgid "Scramblesuit"
-msgstr "Scramblesuit"
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
-msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
-msgstr "ScrambleSuit 类似 obfs4，但使用了不同的网桥。"
-
-#: http//localhost/en-US/transports/
-#: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
@@ -673,12 +659,10 @@ msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
 "Service Provider or by a government. Tor Browser includes some circumvention"
 " tools for getting around these blocks. These tools are called “pluggable "
-"transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
-"for more information on the types of transport that are currently available."
+"transports”. See the <a href=\"/en-US/transports\">Pluggable Transports</a> "
+"page for more information on the types of transport that are currently "
+"available."
 msgstr ""
-"有时候您的网络服务供应商（ISP）或政府单位会过滤阻挡通往洋葱路由网络的连接，因此 Tor "
-"浏览器有内置一些能够绕过这类过滤机制的规避工具，它们通常叫作“可插拔传输层”，您可以参考此网页<a "
-"href=\"transports\">可插拔传输层</a>以获取更多关于各种目前可以使用的规避工具。"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -728,12 +712,10 @@ msgstr "##### 我应该使用哪种传输？"
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
-"way (for more details, see the <a href=\"/transports\">Pluggable "
+"way (for more details, see the <a href=\"/en-US/transports\">Pluggable "
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
-"在洋葱路由启动器中所罗列的可插拔传输层，其运作原理各不相同（请参考 <a "
-"href=\"transports\">可插拔传输层</a>以了解更多相关信息），且产生的效果也会视您的的实际情况而定。"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -749,12 +731,10 @@ msgstr ""
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
-"need to enter bridge addresses manually. Read the <a "
-"href=\"/bridges/\">Bridges</a> section to learn what bridges are and how to "
+"need to enter bridge addresses manually. Read the <a href=\"/en-"
+"US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
-"如果您试过了上述的全部选项后还是不能上网，那就得手动输入网桥地址了。请参考<a "
-"href=\"bridges\">网桥</a>部分以进一步了解网桥的运作原理与获取方式。"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
@@ -1403,7 +1383,7 @@ msgstr "##### 自动更新 Tor 浏览器"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
+msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1415,7 +1395,7 @@ msgstr "在您被提示应更新 Tor 浏览器时，点击 Torbutton 图标，�
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1427,7 +1407,7 @@ msgstr "在 Tor 浏览器完成检查更新后，点击“更新”按钮。"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
+msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1768,6 +1748,13 @@ msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/en-US/known-issues/
+#: (content/known-issues/contents+en-US.lrtopic.body)
+msgid ""
+"* Torrenting over Tor [doesn't hide your IP "
+"address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
+msgstr ""
+
+#: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
@@ -1947,31 +1934,6 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/assets/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
-msgstr ""
-
-#: http//localhost/en-US/updating/
-#: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
 msgstr ""
 
 #: templates/footer.html:5
