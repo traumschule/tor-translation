@@ -1012,6 +1012,9 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"* Consulte a página <a href=\"/secure-connections\">Conexões seguras</a>  "
+"para obter informacoes importantes sobre como tornar sua conexão segura ao  "
+"registrar-se em sites."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1080,6 +1083,12 @@ msgid ""
 " reloaded. This option does not clear any private information or unlink your"
 " activity, nor does it affect your current connections to other websites."
 msgstr ""
+"Esta opção é útil se o <a href=\"/about/#how-tor-works\">retransmissor de "
+"saída</a> que você está usando não for capaz de conectar-se ao website que "
+"você deseja ou não estiver carregando adequadamente. Ao selecioná-la, a aba "
+"ou a janela atualmente ativa será recarregada através de um novo circuito "
+"Tor. Esta opção não apaga nenhuma informação privada, não desvincula sua "
+"atividade nem afeta suas conexões atuais a outros websites."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1136,6 +1145,9 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
+"* Todo o tráfego entre usuários do Tor e serviços onion é criptografado de "
+"ponta-a-ponta, então você não precisa se preocupar com <a href=\"/secure-"
+"connections\">conectar-se por HTTPS</a>."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1207,6 +1219,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"Você também pode certificar-se de que é possível acessar outros serviços "
+"onion conectando-se ao <a href=\"http://3g2upl4pq6kufc4m.onion/\">serviço "
+"onion do DuckDuckGo</a>."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
@@ -1495,6 +1510,12 @@ msgid ""
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
 "sites."
 msgstr ""
+"Nesse nível, mídias de vídeo e áudio HTML5 tornam-se clique-para-tocar "
+"através do NoScript; toda otimização de performance JavaScript é desativada;"
+" algumas equações matemáticas podem não ser exibidas corretamente; alguns "
+"componentes de processamento de fonte são desativados; alguns tipos de "
+"imagens são desativados; Javascript é desativado como padrão em todos os "
+"sites que não sejam <a href=\"/secure-connections\">HTTPS</a>."
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1617,6 +1638,9 @@ msgid ""
 "(see the <a href='uninstalling'>Uninstalling</a> section for more "
 "information)."
 msgstr ""
+"Remova o Navegador Tor do seu sistema apagando a pasta que o contém "
+"(consulte a seção <a href='uninstalling'>Como desinstalar Tor</a> para "
+"maiores informações)."
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1626,6 +1650,9 @@ msgid ""
 " and download a copy of the latest Tor Browser release, then install it as "
 "before."
 msgstr ""
+"Visite <a href=\"https://www.torproject.org/projects/torbrowser.html.en\"> "
+"https://www.torproject.org/projects/torbrowser.html.en</a>, baixe uma cópia "
+"da última versão do Navegador Tor e instale-a como antes."
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
@@ -1718,6 +1745,13 @@ msgid ""
 "websites from displaying correctly, so Tor Browser’s default setting is to "
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
+"O usuários que demandam um alto grau de segurança em sua navegação web devem"
+" ajustar o <a href=\"/security-slider\">Controle Deslizante de Segurança</a>"
+" até o ajuste \"Mais Seguro\" (que desabilita o Javascript em todos os "
+"websites sem HTTPS) ou \"Segurança Máxima\". Entretanto, desabilitar o "
+"JavaScript impedirá a exibição correta de diversos websites, de modo que a "
+"configuração padrão do Tor Browser permite que todos os websites rodem "
+"scripts no modo \"Padrão\"."
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1837,6 +1871,10 @@ msgid ""
 "censoring connections to the Tor network. Read the <a "
 "href=\"/circumvention\">Circumvention</a> section for possible solutions."
 msgstr ""
+"Se ainda assim você não conseguir se conectar, talvez o seu Provedor de "
+"Serviço de Internet esteja censurando conexões à rede Tor. Leia a seção <a "
+"href=\"/circumvention\">Driblar a censura</a> para encontrar possíveis "
+"soluções. "
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1851,6 +1889,10 @@ msgid ""
 "Issues</a> page to see if the problem you are experiencing is already listed"
 " there."
 msgstr ""
+"O Navegador Tor está em constante desenvolvimento. Alguns problemas são "
+"conhecidos, mas ainda não solucionados. Por favor, consulte a página <a href"
+"=\"/known-issues\">Problemas conhecidos</a> para ver se o problema que você "
+"está encontrando já foi listado lá."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.seo_slug)
@@ -2039,6 +2081,8 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
+"Dirija-se à <a href=\"https://transifex.com/signup/\">página de registro no "
+"Transifex</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2082,6 +2126,9 @@ msgid ""
 "* You are now signed up! Go to the <a "
 "href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>."
 msgstr ""
+"* Você agora está cadastrado! Vá para <a "
+"href=\"https://www.transifex.com/otf/torproject/\">página Tor Transifex "
+"</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2122,6 +2169,11 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"Depois que sua afiliação for aprovada, vocẽ poderá começar a traduzir; "
+"simplesmente navegue de volta à <a "
+"href=\"https://www.transifex.com/otf/torproject/\">Página do Tor no "
+"Transifex</a> quando estiver pronto para começar. Muito obrigado pelo seu "
+"interesse em ajudar o projeto!"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
