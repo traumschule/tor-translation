@@ -141,6 +141,11 @@ msgid ""
 "/secure-connections.html\">HTTPS</a>, which makes it much harder for "
 "somebody to tamper with."
 msgstr ""
+"Is é íoslódáil ó shuíomh oifigiúil Tor https://www.torproject.org an bealach"
+" is fusa is sábháilte chun Brabhsálaí Tor a fháil. Ceanglóidh tú leis an "
+"suíomh trí <a href=\"https://tb-manual.torproject.org/en-US/secure-"
+"connections.html\">HTTPS</a>, ionas go mbeidh sé níos deacra do bhradaí "
+"ionsaí a dhéanamh ar an gceangal. "
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -299,6 +304,15 @@ msgid ""
 "/first-time.html\">begin using Tor Browser</a>. If they do not match, you "
 "may need to try downloading again, or from a different source."
 msgstr ""
+"Roghnaigh an pacáiste do Bhrabhsálaí Tor a d'íoslódáil tú. Taispeánfaidh "
+"Satori suim sheiceála an phacáiste agus ba chóir duit í a chur i gcomparáid "
+"leis an tsuim sheiceála a tháinig leis an mbogearra féin. Is féidir leat an "
+"uimhir seo a fháil trí “checksum” a chliceáil in aice leis an nasc a d'úsáid"
+" tú chun an pacáiste a íoslódáil. Más ionann na suimeanna seiceála, d'éirigh"
+" leis an íoslódáil, agus tá tú in ann <a href=\"https://tb-"
+"manual.torproject.org/en-US/first-time.html\">Brabhsálaí Tor a úsáid</a>. "
+"Murab ionann iad, ba chóir duit an pacáiste a íoslódáil arís, b'fhéidir ó "
+"fhoinse difriúil."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -551,6 +565,9 @@ msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
+"Má theipeann ar an gceangal, b'fhéidir go bhfuil na droichid a fuair tú as "
+"fearas. Sa chás sin, ba chóir duit tuilleadh droichead a fháil trí cheann de"
+" na modhanna thuas, ansin iarracht eile a dhéanamh."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
@@ -1091,6 +1108,14 @@ msgid ""
 " reloaded. This option does not clear any private information or unlink your"
 " activity, nor does it affect your current connections to other websites."
 msgstr ""
+"Tá an rogha seo úsáideach mura bhfuil <a href=\"/about/#how-tor-works\">an "
+"t-athsheachadán amach</a>  a úsáideann tú in ann ceangal a bhunú leis an "
+"suíomh atá uait, nó mura bhfuil sé ag lódáil i gceart. Má roghnaíonn tú é "
+"seo, athlódálfar an cluaisín nó an fhuinneog ghníomhach ar chiorcad nua Tor."
+" Úsáidfidh cluaisíní nó fuinneoga oscailte eile ón suíomh céanna an ciorcad "
+"nua seo freisin chomh luath is a athlódálfar iad. Ní ghlanann an rogha seo "
+"aon fhaisnéis phríobháideach, ní dhínascann sé do ghníomhaíocht, agus ní "
+"théann sé i bhfeidhm ar cheangail le suímh eile."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1597,7 +1622,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
-msgstr ""
+msgstr "##### Nuashonrú uathoibríoch ar Bhrabhsálaí Tor"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1644,7 +1669,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
-msgstr ""
+msgstr "##### Nuashonrú de láimh ar Bhrabhsálaí Tor"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1662,6 +1687,9 @@ msgid ""
 "(see the <a href='uninstalling'>Uninstalling</a> section for more "
 "information)."
 msgstr ""
+"Chun Brabhsálaí Tor a bhaint de do chóras, scrios an fillteán ina bhfuil sé "
+"(féach ar <a href='uninstalling'>Díshuiteáil</a> le tuilleadh eolais a "
+"fháil)."
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1671,6 +1699,11 @@ msgid ""
 " and download a copy of the latest Tor Browser release, then install it as "
 "before."
 msgstr ""
+"Tabhair cuairt ar <a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\"> "
+"https://www.torproject.org/projects/torbrowser.html.en</a> agus íoslódáil "
+"cóip den leagan is déanaí de Bhrabhsálaí Tor, agus suiteáil é mar a rinne tú"
+" roimhe seo."
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
@@ -1766,6 +1799,13 @@ msgid ""
 "websites from displaying correctly, so Tor Browser’s default setting is to "
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
+"Ba chóir d'úsáideoirí a dteastaíonn slándáil an-daingean uathu an <a href"
+"=\"/security-slider\">Sleamhnán Slándála</a> i mBrabhsálaí Tor a shocrú go "
+"dtí “Níos Sábháilte” (a dhíchumasaíonn JavaScript ar shuímh nach n-úsáideann"
+" HTTPS) nó “Is Sábháilte” (a dhíchumasaíonn ar gach suíomh é). Ach, má "
+"dhíchumasaíonn tú JavaScript, ní fheidhmeoidh go leor suíomh mar is ceart, "
+"agus dá bharr sin ligeann Brabhsálaí Tor do gach suíomh scripteanna a rith "
+"de réir réamhshocraithe."
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -2116,6 +2156,8 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
+"Tabhair cuairt ar <a href=\"https://transifex.com/signup/\">leathanach "
+"cláraithe Transifex</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
