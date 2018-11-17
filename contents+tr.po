@@ -2155,6 +2155,8 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
+"* Sonraki sayfada 'Var olan bir projeye katılın' seçeneğini seçin ve "
+"ilerleyin."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2170,11 +2172,13 @@ msgid ""
 "* You are now signed up! Go to the <a "
 "href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>."
 msgstr ""
+"Hesabınız açıldı! <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
+"Transifex sayfasına</a> geçin."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
-msgstr ""
+msgstr "* Sağ taraftaki mavi 'Takıma Katılın' düğmesine tıklayın:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2185,7 +2189,7 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
-msgstr ""
+msgstr "* Açılan menüden çevirmek istediğiniz dili seçin:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
