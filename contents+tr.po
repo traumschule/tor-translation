@@ -1143,7 +1143,7 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
-"Tor kullanıcıları ile Onion hizmetleri arasındaki tüm trafik uçtan uca "
+"* Tor kullanıcıları ile Onion hizmetleri arasındaki tüm trafik uçtan uca "
 "şifrelenir. Bu nedenle <a href=\"/secure-connections\">HTTPS bağlantısı "
 "kurmak</a> hakkında endişelenmenize gerek yoktur."
 
@@ -2172,8 +2172,9 @@ msgid ""
 "* You are now signed up! Go to the <a "
 "href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>."
 msgstr ""
-"Hesabınız açıldı! <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
-"Transifex sayfasına</a> geçin."
+"* Hesabınız açıldı! <a "
+"href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex "
+"sayfasına</a> geçin."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2199,7 +2200,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
-msgstr ""
+msgstr "* Sayfanın üst bölümünde şu şekilde bir bildirim görüntülenir:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)

@@ -295,6 +295,14 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Sélectionnez le fichier du Navigateur Tor téléchargé. Satori affichera la "
+"somme de contrôle du fichier, que vous devrez comparer à la somme de "
+"contrôle originale du logiciel ; vous pourrez la trouver en cliquant sur le "
+"mot « somme de contrôle » (checksum) qui suit le lien de téléchargement du "
+"fichier. Si les sommes de contrôle correspondent, votre téléchargement est "
+"réussi et vous pouvez <a href=\"https://tb-manual.torproject.org/en-US"
+"/running-tor-browser/\">commencer à utiliser le Navigateur Tor</a>. Si elles"
+" diffèrent, retéléchargez le fichier ou changez de source."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)

@@ -264,6 +264,10 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"选择下载下来的 Tor 浏览器文件，此时 Satori "
+"将会自动为该文件计算出其总和检查码，您需要亲自核对此检查码与软件原本的检查码是否完全符合：您可以在您下载该文件的超链接旁边找到“checksum”字样，点击后就可以看到软件原本的检查码，若两组检查码完全一致的话，表示您的下载已经成功，此时您可以直接<a"
+" href=\"https://tb-manual.torproject.org/en-US/running-tor-browser/\">开始使用 "
+"Tor 浏览器</a>，若两组检查码不相符的话，您可能需要再重新下载，或者选择不同的下载来源重新尝试。"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)

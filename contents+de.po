@@ -314,6 +314,15 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Wähle die heruntergeladene Tor Browser Datei aus. Satori wird dann die "
+"Prüfsumme der Datei anzeigen, die du mit der Prüfsumme der originalen "
+"Software vergleichen solltest: Du kannst diese herausfinden, indem du nach "
+"dem Link, auf den du geklickt habst, um den Download zu starten, das Wort "
+"\"checksum\" anklickst. Wenn die Prüfsummen übereinstimmen, war dein "
+"Download erfolgreich, und du kannst beginnen, <a href=\"https://tb-"
+"manual.torproject.org/en-US/running-tor-browser/\">den Tor Browser zu "
+"benutzen</a>. Sollten die Prüfsummen nicht übereinstimmen, musst du die "
+"Datei eventuell erneut oder von einer anderen Quelle herunterladen."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)

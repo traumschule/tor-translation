@@ -308,6 +308,15 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Одберете ја преземената Tor Browser датотека. Satori ќе ја покаже "
+"контролната сума на датотеката, која ќе треба да ја споредите со "
+"оригиналната контролна сума на софтверот: што можете да ја најдете со "
+"кликање на зборот „checksum“ по линкот што го кликнавте за почеток на "
+"преземањето. Ако конктролните суми се исти, преземањето било успешно, и "
+"можете да <a href=\"https://tb-manual.torproject.org/en-US/running-tor-"
+"browser/\">почнете со користење на Tor Browser</a>. Доколку контролните суми"
+" не се исти, треба да пробате да го преземете повторно или за преземање да "
+"користите друг извор."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)

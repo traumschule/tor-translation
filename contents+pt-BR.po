@@ -308,6 +308,14 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Selecione o download do Tor Browser. Satori exibirá a soma de verificação do"
+" arquivo, que você deve comparar com a soma de verificação anterior do "
+"software: você pode encontrá-la clicando na palavra \"checksum\" depois do "
+"link que você terá clicado para começar o download. Se as somas de "
+"verificação forem iguais, é que o seu download foi bem-sucedido e você "
+"poderá<a href=\"https://tb-manual.torproject.org/en-US/running-tor-"
+"browser/\">começar a usar o Navegador Tor</a>.  Se eles não forem iguais, "
+"você terá de fazer o download novamente ou usar uma outra fonte."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -338,7 +346,7 @@ msgstr ""
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### Conectar"
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -357,11 +365,17 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"Na maior parte dos casos, escolher \"Conectar-se\" será o bastante para "
+"conectar-se à rede Tor sem necessidade de outras configurações. Após clicar "
+"em \"Conectar-se\" a barra de status aparecerá, mostrando a progressão da "
+"conexão. Se você dispuser de uma conexão rápida, mas essa barra parar a um "
+"certo ponto, consulte a página <a href=\"/troubleshooting\">Como solucionar "
+"problemas</a> para obter ajuda."
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### Configurar"
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -806,7 +820,7 @@ msgstr ""
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### Qual transportador utilizar?"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -894,7 +908,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### A barra URL"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -952,7 +966,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### Fazendo logging através do Tor"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1013,7 +1027,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Changing identities and circuits"
-msgstr ""
+msgstr "##### Como mudar identidades e circuitos"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1030,7 +1044,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Identity"
-msgstr ""
+msgstr "##### Nova Identidade"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1135,7 +1149,7 @@ msgstr ""
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### Como acessar um serviço onion"
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1277,7 +1291,7 @@ msgstr ""
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### Dados possivelmente visíveis"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1409,7 +1423,7 @@ msgstr ""
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
-msgstr ""
+msgstr "##### Acessando a Barra de Segurança"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1427,7 +1441,7 @@ msgstr ""
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
-msgstr ""
+msgstr "##### Níveis de segurança"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1538,7 +1552,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
-msgstr ""
+msgstr "##### Como atualizar o Navegador Tor automaticamente"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1585,7 +1599,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
-msgstr ""
+msgstr "##### Como atualizar o Navegador Tor manualmente"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1631,7 +1645,7 @@ msgstr "Como o Navegador Tor trata extensões, plugins e JavaScript"
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Flash Player"
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1665,7 +1679,7 @@ msgstr ""
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1708,7 +1722,7 @@ msgstr ""
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### Extensões de Navegador"
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1814,7 +1828,7 @@ msgstr ""
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### A sua conexão é censurada?"
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -2017,7 +2031,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### Registrando-se no Transifex"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)

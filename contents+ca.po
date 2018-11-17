@@ -303,6 +303,13 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Seleccioni l'arxiu del navegador Tor. Satori mostrarà la suma de verificació"
+" de l'arxiu, que haurà de comprar amb la suma que mostra el programari: "
+"accedint fent clic en la paraula \"suma de verificació\" després de començar"
+" al descàrrega. Si la suma coincideix, la descàrrega ha estat satisfactòria,"
+" i es podrà <a href=\"https://tb-manual.torproject.org/en-US/running-tor-"
+"browser/\">començar a utilitzar el navegador Tor</a>. Si no coincideixen, "
+"haurà de fer la descàrrega de nou, o potser des de una font diferent."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -2121,7 +2128,7 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
-"A la pàgina següent, seleccioneu \"Uniu-vos a un projecte existent\" i "
+"* A la pàgina següent, seleccioneu \"Uniu-vos a un projecte existent\" i "
 "continueu."
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -2130,8 +2137,8 @@ msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
-"A la pàgina següent, seleccioneu els idiomes que parleu al menú desplegable "
-"i continueu."
+"* A la pàgina següent, seleccioneu els idiomes que parleu al menú "
+"desplegable i continueu."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2156,7 +2163,7 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
-msgstr "Seleccioneu l'idioma que voleu traduir al menú desplegable:"
+msgstr "* Seleccioneu l'idioma que voleu traduir al menú desplegable:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
