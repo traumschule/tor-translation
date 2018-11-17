@@ -748,6 +748,11 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor "
+"d'Internet o pel govern. El navegador Tor incorpora una serie de programari "
+"per evitar-ho. Aquestes eines s'anomenen \"connectors de transport\". "
+"Consulti <a href=\"/en-US/transports\">connectors de transport</a> per a més"
+" informació del tipus de transport disponible."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -810,6 +815,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Cadascun dels transports llistat en el menú d'iniciador Tor treballa de "
+"manera diferent (per més informació, consultar <a href=\"/en-"
+"US/transports\">connectors de transport</a> pàgina) per saber la seva "
+"efectivitat depenen de les circumstàncies individuals. "
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)

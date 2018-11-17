@@ -757,6 +757,13 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Директниот пристап до Tor мрежата може понекогаш да биде блокиран од вашиот "
+"Интернет сервис провајдер или од Владата. Tor Browser вклучува некои "
+"заобиколувачки алатки за да ги заобиколите овие блокади. Овие алатки се "
+"наречени „pluggable transports“ што во превод значи „приклучни "
+"транспортери“. Погледнете ја <a href=\"/en-US/transports\">Pluggable "
+"Transports</a> страницата за повеќе информации кои типови на транспорт се "
+"моментално возможни."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -819,6 +826,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Секој од транспортите излистан во Tor Launcher менито работи на различен "
+"начин (за повеќе детали, видете <a href=\"/en-US/transports\">Pluggable "
+"Transports</a> страната), и нивниот ефект зависи конкретно од вашите "
+"околности."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)

@@ -663,6 +663,9 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"有时候您的网络服务供应商（ISP）或政府单位会过滤阻挡通往洋葱路由网络的连接，因此 Tor "
+"浏览器有内置一些能够绕过这类过滤机制的规避工具，它们通常叫作“可插拔传输层”，您可以参考此网页<a href=\"/en-"
+"US/transports\">可插拔传输层</a>以获取更多关于各种目前可以使用的规避工具。"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -716,6 +719,8 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"在洋葱路由启动器中所罗列的可插拔传输层，其运作原理各不相同（请参考 <a href=\"/en-"
+"US/transports\">可插拔传输层</a>以了解更多相关信息），且产生的效果也会视您的的实际情况而定。"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -735,6 +740,8 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"如果您试过了上述的全部选项后还是不能上网，那就得手动输入网桥地址了。请参考<a href=\"/en-"
+"US/bridges/\">网桥</a>部分以进一步了解网桥的运作原理与获取方式。"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)

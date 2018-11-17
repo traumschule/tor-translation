@@ -772,6 +772,12 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Der direkte Zugang zum Tor Netzwerk ist eventuell durch deinen "
+"Internetdienstanbieter oder die Regierung blockiert. Der Tor Browser enthält"
+" einige Werkzeuge, um diese Blockaden zu umgehen. Diese Werkzeugt werden "
+"\"austauschbare Übertragungsarten\" genannt. Schaue auf der Seite für <a "
+"href=\"/en-US/transports\">austauschbare Übertragungsarten</a> für mehr "
+"Informationen über die Typen von zur Zeit verfügbaren Übertragungsarten."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -834,6 +840,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Jede der im Tor Starter aufgeführten austauschbaren Übertragungsarten "
+"arbeitet auf eine unterschiedliche Weise (für mehr Informationen sieh dir "
+"die Seite <a href=\"/en-US/transports\">austauschbare Übertragungsarten</a> "
+"an) und ihre Effektivität hängt von deinen individuellen Umständen ab."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
