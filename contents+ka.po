@@ -306,6 +306,14 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"აირჩიეთ ჩამოტვირთული ფაილი Tor-ბრაუზერის. Satori გაჩვენებთ ფაილის სადარჯამს,"
+" რომელიც შეგიძლიათ შეადაროთ პროგრამის თავდაპირველი ვერსიის შესაბამის "
+"სადარჯამს: მისი მონახვა შეგიძლიათ სიტყვა „სადარჯამზე“ (checksum) დაწკაპებით,"
+" ჩამოტვირთვის დაწყებაზე დაწკაპების შემდგომ. თუ ისინი დაემთხვევა, თქვენი "
+"ჩამოტვირთვა წარმატებულია და შეგიძლიათ <a href=\"https://tb-"
+"manual.torproject.org/en-US/running-tor-browser/\">დაიწყოთ Tor-ბრაუზერის "
+"გამოყენება</a>. თუ არ დაემთხვა, მაშინ ხელახლა ჩამოტვირთვა იქნება საჭირო, "
+"სხვა წყაროდან."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -444,6 +452,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"მისაერთებელი გადამყვანების  დიდი ნაწილი, მათ შორის obfs3 და obfs4, ეფუძნება "
+"„ხიდურ“ გადამცემებს."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -494,6 +504,7 @@ msgstr ""
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
+"* ეწვიოთ https://bridges.torproject.org/ საიტს და მიჰყვეთ მითითებებს ან"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -752,6 +763,12 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Tor-ქსელთან პირდაპირი კავშირი ზოგჯერ შეზღუდულია ხოლმე ინტერნეტ-მომსახურების "
+"მომწოდებლის ან მთავრობის მიერ. Tor-ბრაუზერს გააჩნია გარკვეული სახის გვერდის "
+"ავლის საშუალებები, ამ შეზღუდვების ასარიდებლად. მათ ეწოდება „მისაერთებელი "
+"გადამყვანები“. იხილეთ გვერდი <a href=\"/en-US/transports\">მისაერთებელი "
+"გადამყვანები</a> დამატებითი ინფორმაციისთვის, თუ რა სახის გადამყვანებია "
+"ამჟამად ხელმისაწვდომი."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -814,6 +831,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Tor-ის გამშვების მენიუში მუშაობს მოცემული თითოეული გადამყვანი, "
+"სხვადასხვაგვარად (ვრცლად, იხილეთ <a href=\"/en-US/transports\">მისაერთებელი "
+"გადამყვანების</a> შესახებ გვერდი) და მათი შედეგიანობა დამოკიდებულია გვერდის "
+"ავლის თავისებურებებზე."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -834,6 +855,10 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"თუ ცდით ყველა მათგანს და ვერცერთი ვერ დაგაკავშირებთ ინტერნეტთან, დაგჭირდებათ"
+" გადამცემი ხიდის მისამართების ხელით მითითება. წაიკითხეთ <a href=\"/en-"
+"US/bridges/\">ხიდების</a> შესახებ განყოფილება და შეიტყვეთ, თუ რას "
+"წარმოადგენს ხიდები და როგორ ხდება მათი მოპოვება."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
@@ -1641,6 +1666,8 @@ msgid ""
 "(see the <a href='uninstalling'>Uninstalling</a> section for more "
 "information)."
 msgstr ""
+"ამოშალეთ Tor-ბრაუზერი სისტემიდან, მისი საქაღალდის წაშლით (იხილეთ განყოფილება"
+" <a href='uninstalling'>ამოშლა</a>, დამატებითი ინფორმაციისთვის)."
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1650,6 +1677,10 @@ msgid ""
 " and download a copy of the latest Tor Browser release, then install it as "
 "before."
 msgstr ""
+"ეწვიეთ გვერდს <a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\">https://www.torproject.org/projects/torbrowser.html.en</a>"
+" და ჩამოტვირთეთ Tor-ბრაუზერის უახლესი გამოშვება, შემდეგ კი ჩვეულებრივ "
+"დააყენეთ."
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
@@ -1743,6 +1774,13 @@ msgid ""
 "websites from displaying correctly, so Tor Browser’s default setting is to "
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
+"მომხმარებლები, რომლებსაც მაღალი ხარისხის უსაფრთხოებას ითხოვენ ვებგვერდების "
+"მონახულებისას, Tor-ბრაუზერის <a href=\"/security-slider\">უსაფრთხოების "
+"რბია</a> აუცილებლად უდნა დააყენონ „მეტად დაცულზე“ (რომელიც გათიშავს "
+"JavaScript-ს HTTPS-ს არმქონე საიტებზე) ან „სრულიად დაცულზე“ (რომელიც იმავეს "
+"გააკეთებს ყველა ვებსაიტზე). თუმცა, JavaScript-ის გათიშვა ხელს შეუშლის "
+"საიტების გამართულად მუშაობას, ასე რომ Tor-ბრაუზერში ნაგულისხმევად დაშვებულია"
+" ყველა საიტზე სკრიპტების გაშვება „ჩვეულებრივ“ რეჟიმში."
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -2099,6 +2137,8 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
+"* გადადით <a href=\"https://transifex.com/signup/\">Transifex-ის ანგარიშის "
+"შექმნის გვერდზე</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)

@@ -904,6 +904,8 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"* ראה את הדף </a>חיבורים מאובטחים<a href=\"/secure-connections\"> למידע חשוב"
+" על כיצד לאבטח את החיבור שלך בעת התחברות לאתרים."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)

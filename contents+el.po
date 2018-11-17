@@ -308,6 +308,15 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Επιλέξτε το αρχείο του Tor Browser που έχετε κατεβάσει. Το Satori θα "
+"εμφανίσει το άθροισμα ελέγχου του αρχείου, το οποίο θα πρέπει να συγκρίνετε "
+"με το αρχικό άθροισμα ελέγχου του λογισμικού: μπορείτε να το βρείτε κάνοντας"
+" κλικ στη λέξη \"checksum\" μετά τον σύνδεσμο στον οποίο κάνατε κλικ για να "
+"ξεκινήσει η λήψη. Εάν τα ποσά ελέγχου συμπίπτουν, η λήψη σας ήταν επιτυχής "
+"και μπορείτε να <a href=\"https://tb-manual.torproject.org/en-US/running-"
+"tor-browser/\">ξεκινήσετε να χρησιμοποιείτε τον Tor Browser</a>. Αν δεν "
+"ταιριάζουν, ίσως χρειαστεί να δοκιμάσετε να κάνετε λήψη ξανά ή από "
+"διαφορετική πηγή."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -762,6 +771,12 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Η άμεση πρόσβαση στο δίκτυο Tor μπορεί μερικές φορές να παρεμποδίζεται από "
+"τον Πάροχο Υπηρεσιών Διαδικτύου (ISP) ή από κάποια κυβέρνηση. Ο Tor Browser "
+"περιλαμβάνει ορισμένα εργαλεία για την παράκαμψη των φραγμών αυτών. Αυτά τα "
+"εργαλεία ονομάζονται \"pluggable transports\". Για περισσότερες πληροφορίες "
+"σχετικά με τους τύπους των transport που είναι διαθέσιμα αυτήν τη στιγμή, "
+"ανατρέξτε στη σελίδα <a href=\"/en-US/transports\">Pluggable Transports</a>."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -825,6 +840,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Κάθε ένα από τα transports που αναγράφονται στο μενού του Tor Launcher "
+"λειτουργεί με διαφορετικό τρόπο (για περισσότερες λεπτομέρειες, ανατρέξτε "
+"στη σελίδα <a href=\"/en-US/transports\">Pluggable Transports</a>) και η "
+"αποτελεσματικότητά τους εξαρτάται από την περίπτωσή σας."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)

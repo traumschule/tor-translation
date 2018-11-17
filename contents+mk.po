@@ -839,6 +839,10 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"Ако се обидовте со сите овие опции, и со ниту една не се поврзавте онлајн, "
+"треба рачно да внесете мост адреси. Прочитајте за <a href=\"/en-"
+"US/bridges/\">Мостови</a> секцијата и научете што се мостови и како да ги "
+"добиете."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)

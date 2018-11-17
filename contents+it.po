@@ -306,6 +306,15 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Seleziona il file Tor Browser scaricato. Satori visualizzerà il checksum del"
+" file, che dovreste confrontare con il checksum originale del software: "
+"questo lo potete trovare facendo clic sulla parola \"checksum\" dopo il "
+"collegamento su cui evete fatto clic per avviare il download. Se i due "
+"checksum corrispondono, il tuo download è andato a buon fine e puoi <a "
+"href=\"https://tb-manual.torproject.org/en-US/running-tor-"
+"browser/\">iniziare ad utilizzare il  Browser Tor</a>. Se non corrispondono,"
+" potrebbe essere necessario riprovare a riscaricarlo o a scaricarlo da "
+"un'altra fonte."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -756,6 +765,11 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"L'accesso diretto alla rete Tor potrebbe essere bloccato dal tuo Provider di"
+" servizi Internet o dal governo. Il browser Tor include alcune strumenti per"
+" superare questi ostacoli, e sono chiamati \"pluggable transports\". Vai "
+"alla pagina <a href=\"/en-US/transports\">Pluggable Transports</a> per "
+"ulteriori informazioni."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -819,6 +833,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Ciasacun trasporto riportato nel menu principale di Tor funziona in maniera "
+"differente ( per maggiori dettagli controlla la pagina <a href=\"/en-"
+"US/transports\">Pluggable transports</a>) e la loro efficacia dipende dalle "
+"diverse circostanze"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1772,6 +1790,13 @@ msgid ""
 "websites from displaying correctly, so Tor Browser’s default setting is to "
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
+"Gli utenti che richiedono un alto livello di sicurezza durante la "
+"navigazione dovrebbero impostare il <a href=\"/security-slider\">Livello di "
+"sicurezza</a> a \"Sicuro\" (che disattiva JavaScript per i siti non-HTTPS) o"
+" \"Molto sicuro\" (che lo fa per tutti i siti). Tuttavia, disattivando "
+"JavaScript, alcuni siti potrebbero avere problemi di visualizzazione, per "
+"cui le impostazioni predefinite di Tor Browser permettono a tutti i siti di "
+"eseguire script in modalità \"Standard\"."
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)

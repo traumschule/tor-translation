@@ -1,7 +1,7 @@
 # Translators:
 # erinm, 2018
-# Emma Peel, 2018
 # nr072, 2018
+# Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 09:35+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: nr072, 2018\n"
+"Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (https://www.transifex.com/otf/teams/1519/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -140,6 +140,11 @@ msgid ""
 "/secure-connections.html\">HTTPS</a>, which makes it much harder for "
 "somebody to tamper with."
 msgstr ""
+"টর ব্রাউজার ডাউনলোড করার সবচেয়ে নিরাপদ এবং সহজ উপায়টি হল "
+"https://www.torproject.org এ অফিসিয়াল টর প্রকল্প ওয়েবসাইট থেকে। সাইটটিতে "
+"আপনার সংযোগটি <a href=\"https://tb-manual.torproject.org/en-US/secure-"
+"connections.html\">HTTPS</a> ব্যবহার করে সুরক্ষিত থাকবে, যার সাহায্যে কাউকে "
+"কাউকে ছিঁড়ে ফেলা হবে।"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -295,6 +300,14 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"ডাউনলোড করা টর ব্রাউজার ফাইলটি নির্বাচন করুন। Satori ফাইলের চেকসাম প্রদর্শন "
+"করবে, যা আপনাকে সফটওয়্যারের মূল চেকসামের সাথে তুলনা করা উচিত: ডাউনলোডটি "
+"ডাউনলোড করার জন্য আপনি যে লিঙ্কটি ক্লিক করেছেন তার পরে আপনি \"চেকসাম\" "
+"শব্দটি ক্লিক করে এটি খুঁজে পেতে পারেন। যদি checksums মিলিত হয়, আপনার "
+"ডাউনলোড সফল হয়েছে, এবং আপনি <a href=\"https://tb-manual.torproject.org/en-"
+"US/running-tor-browser/\">টর ব্রাউজার</a> ব্যবহার করে শুরু করতে পারেন। যদি "
+"তারা মিলিত না হয়, তবে আপনাকে আবার ডাউনলোড করার চেষ্টা করতে হতে পারে, অথবা "
+"একটি ভিন্ন উৎস থেকে।"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -384,6 +397,12 @@ msgid ""
 " You will then be taken to the <a href=\"/circumvention\">Circumvention</a> "
 "screen to configure a pluggable transport."
 msgstr ""
+"টর নেটওয়ার্ক অ্যাক্সেস আপনার সংযোগ ব্লক বা সেন্সর করা হয় কিনা প্রথম পর্দা "
+"জিজ্ঞাসা। যদি আপনি বিশ্বাস করেন না এটি এই ক্ষেত্রে, \"না\" নির্বাচন করুন যদি"
+" আপনি জানেন যে আপনার সংযোগ সেন্সর করা হয়েছে, বা আপনি চেষ্টা করেছেন এবং টর "
+"নেটওয়ার্কে সংযোগ করতে ব্যর্থ হয়েছেন এবং অন্য কোনো সমাধান কাজ করেনি, "
+"\"হ্যাঁ\" নির্বাচন করুন। একটি প্ল্যাগেবল ট্রান্সপোর্ট কনফিগার করার জন্য আপনি"
+" তারপর <a href=\"/circumvention\">সার্কোমাম্পশন</a> স্ক্রীনে নিয়ে যাবেন।"
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -427,6 +446,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"সর্বাধিক প্ল্যাগেবল ট্রান্সপোর্ট, যেমন obfs3 এবং obfs4 হিসাবে, \"ব্রিজ\" "
+"relays ব্যবহারের উপর নির্ভর করে।"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -475,6 +496,7 @@ msgstr ""
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
+"* https://bridges.torproject.org/ দেখুন এবং নির্দেশাবলী অনুসরণ করুন, অথবা"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -535,6 +557,9 @@ msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
+"সংযোগ ব্যর্থ হলে, আপনি যে ব্রিজগুলি পেয়েছেন তা নিচে হতে পারে। আরও সেতু "
+"ঠিকানা প্রাপ্ত করার জন্য উপরের পদ্ধতিগুলির একটি ব্যবহার করুন, এবং আবার "
+"চেষ্টা করুন।"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
@@ -723,6 +748,11 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"টর নেটওয়ার্কে সরাসরি অ্যাক্সেসটি কখনও কখনও আপনার ইন্টারনেট সার্ভিস "
+"প্রোভাইডার বা সরকার কর্তৃক অবরুদ্ধ থাকে। টর ব্রাউজার এই ব্লক কাছাকাছি পেতে "
+"জন্য কিছু circumvention সরঞ্জাম অন্তর্ভুক্ত। এই সরঞ্জামগুলি <a href=\"/en-"
+"US/transports\">\"প্লাগযোগ্য ট্রান্সপোর্টগুলি\"</a> বলা হয়। বর্তমানে উপলব্ধ"
+" যে ধরনের ধরনের উপর আরো তথ্যের জন্য প্ল্যাগেবল ট্রান্সফর্ম পৃষ্ঠা দেখুন."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -785,6 +815,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"টর লঞ্চারের মেনুতে তালিকাভুক্ত প্রতিটি ট্রান্সলে একটি ভিন্ন উপায়ে কাজ করে "
+"(আরো বিশদ বিবরণের জন্য, <a href=\"/en-US/transports\">প্ল্যাগেবল "
+"ট্রান্সফর্ম</a> পৃষ্ঠাটি দেখুন), এবং তাদের কার্যকারিতা আপনার ব্যক্তিগত "
+"পরিস্থিতির উপর নির্ভর করে।"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -805,6 +839,10 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"আপনি যদি এই সমস্ত বিকল্পগুলি ব্যবহার করেন, এবং তাদের কেউই আপনাকে অনলাইনে না "
+"পান, তবে আপনাকে ম্যানুয়ালি ব্রিজের ঠিকানাগুলি প্রবেশ করতে হবে। ব্রিজগুলি "
+"কীভাবে শিখছে এবং কিভাবে সেগুলি পেতে হয় তা শিখতে <a href=\"/en-"
+"US/bridges/\">ব্রিজেস</a> বিভাগটি পড়ুন।"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
@@ -1161,6 +1199,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"আপনি নিশ্চিত করতে পারেন যে আপনি <a "
+"href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion</a> পরিষেবাতে "
+"সংযুক্ত করে অন্যান্য পেঁয়াজ পরিষেবাগুলি অ্যাক্সেস করতে সক্ষম হচ্ছেন"
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
@@ -1517,7 +1558,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
-msgstr ""
+msgstr "##### টর ব্রাউজার স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1564,7 +1605,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
-msgstr ""
+msgstr "##### টর ব্রাউজার আপডেট হচ্ছে ম্যানুয়ালি"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1591,6 +1632,10 @@ msgid ""
 " and download a copy of the latest Tor Browser release, then install it as "
 "before."
 msgstr ""
+"* <a "
+"href=\"https://www.torproject.org/projects/torbrowser.html.en\">https://www.torproject.org/projects/torbrowser.html</a>"
+" এ যান এবং সর্বশেষ টর ব্রাউজার রিলিজের একটি অনুলিপি ডাউনলোড করুন, তারপরে এটি"
+" আগের মতো ইনস্টল করুন"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)

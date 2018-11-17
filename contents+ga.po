@@ -304,6 +304,15 @@ msgid ""
 "/running-tor-browser/\">begin using Tor Browser</a>. If they do not match, "
 "you may need to try downloading again, or from a different source."
 msgstr ""
+"Roghnaigh an pacáiste do Bhrabhsálaí Tor a d'íoslódáil tú. Taispeánfaidh "
+"Satori suim sheiceála an phacáiste agus ba chóir duit í a chur i gcomparáid "
+"leis an tsuim sheiceála a tháinig leis an mbogearra féin. Is féidir leat an "
+"uimhir seo a fháil trí “checksum” a chliceáil in aice leis an nasc a d'úsáid"
+" tú chun an pacáiste a íoslódáil. Más ionann na suimeanna seiceála, d'éirigh"
+" leis an íoslódáil, agus tá tú in ann <a href=\"https://tb-"
+"manual.torproject.org/en-US/running-tor-browser/\">Brabhsálaí Tor a "
+"úsáid</a>. Murab ionann iad, ba chóir duit an pacáiste a íoslódáil arís, "
+"b'fhéidir ó fhoinse difriúil."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
@@ -758,6 +767,12 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Uaireanta ní féidir leat rochtain dhíreach a fháil ar líonra Tor, mar gheall"
+" ar bhac a chuir do Sholáthraí Seirbhíse Idirlín nó rialtas romhat. Cuireann"
+" Brabhsálaí Tor roinnt uirlisí ar fáil a chabhraíonn leat na baic seo a "
+"sheachaint, darb ainm \"córais iompair ionphlugáilte\". Féach ar <a href"
+"=\"/en-US/transports\">an leathanach seo</a> chun tuilleadh eolais a fháil "
+"faoi na córais iompair atá ar fáil faoi láthair."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -821,6 +836,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Feidhmíonn gach ceann de na córais iompair i dTosaitheoir Tor ar bhealach "
+"difriúil (féach an leathanach <a href=\"/en-US/transports\">Córais Iompair "
+"Ionphlugáilte</a> chun tuilleadh eolais a fháil), agus braitheann a "
+"n-éifeachtacht ar na cúinsí speisialta a bhaineann leatsa féin."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -841,6 +860,10 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"Má bhain tú triail as na roghanna seo go léir agus ní féidir leat dul ar "
+"líne fós, ní mór duit seoltaí droichid a chur isteach de láimh. Léigh an "
+"rannóg maidir le <a href=\"/en-US/bridges/\">Droichid</a> le foghlaim cad is"
+" droichead ann agus conas is féidir iad a fháil."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)

@@ -428,6 +428,8 @@ msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
 "“bridge” relays."
 msgstr ""
+"Većina priključnih transports, kao obfs3 i obfs4, se oslanja na korištenje "
+"\"mostova\" kao releja. "
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -722,6 +724,11 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"Direktni pristup Tor mreži može ponekad biti bolkiran od strane Vašeg "
+"davatelja internet usluge ili od strane vlade. Tro Browser uključuje neke "
+"alate za obilaženje tih blokada. Ovi alati se kolektivno zovu \"priključni "
+"transporti\". Pogledajte stranicu <a href=\"/en-US/transports\">priključni "
+"transporti</a> kako bi saznali više o trenutno dostupnim transportima."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -784,6 +791,10 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"Svaki transport izlistan izborniku Tor Launchera radi na drugačiji način (za"
+" više detalja, pogledajte stranicu o <a href=\"/en-"
+"US/transports\">priključnim transportima</a>), i njihova efikasnost ovisi o "
+"Vašim individualnim okolnostima."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -801,6 +812,9 @@ msgid ""
 "US/bridges/\">Bridges</a> section to learn what bridges are and how to "
 "obtain them."
 msgstr ""
+"Ako pokušate sve ove opcije i nijedna vas ne spoji, morat ćete ručno unijeti"
+" adrese mostova. Pročitajte dio o <a href=\"/en-US/bridges/\">Mostovima</a> "
+"kako bi naučili što su mostovi i kako ih dobiti."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
