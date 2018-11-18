@@ -79,7 +79,7 @@ msgid ""
 msgstr ""
 "De réir réamhshocraithe, ní choinníonn Brabhsálaí Tor aon stair bhrabhsála. "
 "Bíonn fianáin bailí ar feadh seisiúin amháin (go dtí go scoirfidh tú de Tor,"
-" nó go dtí go n-iarrfaidh tú <a href=\"managing-identities#new-"
+" nó go dtí go n-iarrfaidh tú <a href=\"/managing-identities.html#new-"
 "identity\">Aitheantas Nua</a>)."
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
@@ -96,8 +96,8 @@ msgid ""
 msgstr ""
 "Is líonra tollán fíorúil é Tor a chabhraíonn leat do phríobháideachas agus "
 "do shlándáil ar an Idirlíon a fheabhsú. Seolann Tor do chuid tráchta trí trí"
-" fhreastalaí randamacha (a dtugtar <em>athsheachadáin</em> orthu) i líonra "
-"Tor. Ansin seolann an t-athsheachadán deireanach sa chiorcad (\"an "
+" fhreastalaí randamacha (a dtugtar *athsheachadáin* orthu) i líonra Tor. "
+"Ansin seolann an t-athsheachadán deireanach sa chiorcad (\"an "
 "t-athsheachadán amach\") an trácht amach go dtí an tIdirlíon poiblí."
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
@@ -123,7 +123,7 @@ msgstr ""
 #: http//localhost/en-US/about/
 #: (content/about/contents+en-US.lrtopic.seo_slug)
 msgid "about"
-msgstr "maidir leis"
+msgstr "eolas"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.title)
@@ -245,7 +245,7 @@ msgstr ""
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
 msgid "downloading"
-msgstr "Íoslódáil"
+msgstr "downloading"
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.title)
@@ -294,7 +294,7 @@ msgstr ""
 "chliceáil, gan chumraíocht sa bhreis a dhéanamh. Ansin, feicfidh tú barra "
 "stádais a thaispeánann dul chun cinn an cheangail. Má théann an barra seo in"
 " abar agus ceangal Idirlín measartha maith agat, féach ar an leathanach <a "
-"href=\"troubleshooting\">Fabhtcheartú</a> chun cúnamh a fháil."
+"href=\"/troubleshooting\">Fabhtcheartú</a> chun cúnamh a fháil."
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -334,7 +334,7 @@ msgstr ""
 "roghnaigh “Níl”. Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht,"
 " nó má theip ort ceangal a bhunú le líonra Tor gan aon réiteach ar an "
 "bhfadhb, roghnaigh “Tá”. Sa chás sin, osclófar an scáileán <a "
-"href=\"circumvention\">Timpeallú</a>, áit ar féidir leat córas iompair "
+"href=\"/circumvention\">Timpeallú</a>, áit ar féidir leat córas iompair "
 "ionphlugáilte a shocrú."
 
 #: http//localhost/en-US/running-tor-browser/
@@ -894,6 +894,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Is féidir leat léaráid den chiorcad atá Brabhsálaí Tor ag úsáid sa chluaisín"
+" reatha a fháil sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -906,6 +908,15 @@ msgid ""
 "href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
+"Is é an Garda (nó an nód iontrála) an chéad athsheachadán sa chiorcad. "
+"Roghnaíonn Tor go huathoibríoch agus go randamach é. Ach ní ionann é agus na"
+" hathsheachadáin eile sa chiorcad. Mar chosaint ar ionsaí aitheanta "
+"próifílithe, fanfaidh sé mar an chéad nód i do chiorcad ar feadh 2-3 mhí, i "
+"gcomparáid leis na hathsheachadáin eile a athraíonn gach uair a dtugann tú "
+"cuairt ar shuíomh nua. Chun tuilleadh eolais maidir le Gardaí a fháil, féach"
+" na <a href=\"https://www.torproject.org/docs/faq#EntryGuards\">Ceisteanna "
+"Coitianta</a> agus an <a "
+"href=\"https://support.torproject.org/tbb/tbb-2/\">Suíomh Tacaíochta</a>."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -987,7 +998,7 @@ msgstr "##### Aitheantais agus ciorcaid a athrú"
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1052,6 +1063,8 @@ msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
+"Gheobhaidh tú an rogha seo freisin sa taispeáint ar chiorcaid nua, sa "
+"roghchlár a thugann eolas faoin suíomh, sa mbarra URL."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
@@ -1146,6 +1159,11 @@ msgid ""
 "website with https and onion service, it will show an icon of a green onion "
 "and a padlock."
 msgstr ""
+"Nuair a thugann tú cuairt ar shuíomh a úsáideann seirbhís onion, taispeánann"
+" Brabhsálaí Tor oinniún beag glas sa mbarra URL a léiríonn staid an "
+"cheangail: slán agus seirbhís onion i bhfeidhm. Agus nuair a thugann tú "
+"cuairt ar shuíomh a úsáideann https agus seirbhís onion, taispeánann sé "
+"oinniún beag glas agus glas fraincín."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1223,7 +1241,7 @@ msgstr ""
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1237,7 +1255,7 @@ msgstr ""
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1418,7 +1436,7 @@ msgstr "##### Rochtain ar an Sleamhnán Slándála"
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1436,7 +1454,7 @@ msgstr "##### Leibhéil Slándála"
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1556,7 +1574,7 @@ msgstr "##### Nuashonrú uathoibríoch ar Bhrabhsálaí Tor"
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
-msgstr ""
+msgstr "<img width=\"400\" src=\"/static/images/update1.png\" />"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1570,7 +1588,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"/static/images/update3.png\" />"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1584,7 +1602,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"/static/images/update4.png\" />"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1712,11 +1730,15 @@ msgid ""
 "JavaScript (and other scripts) that runs on individual web pages, or block "
 "it entirely."
 msgstr ""
+"Tá breiseán darb ainm NoScript ag gabháil le Brabhsálaí Tor, ar fáil tríd an"
+" deilbhín “S” ag barr na fuinneoige ar dheis. Ligeann NoScript duit smacht a"
+" choinneáil ar an gcód JavaScript (agus scripteanna eile) a ritheann ar "
+"leathanaigh ar leith, nó cosc iomlán a chur air."
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1770,7 +1792,7 @@ msgstr ""
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
-msgstr ""
+msgstr "breiseáin"
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.title)
@@ -1992,6 +2014,8 @@ msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"* Dá bharr sin, <mark><a href=\"https://blog.torproject.org/bittorrent-over-"
+"tor-isnt-good-idea\">níl sé sábháilte BitTorrent a úsáid le Tor</a></mark>."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
@@ -2103,7 +2127,7 @@ msgstr "Cuir do shonraí isteach agus cliceáil an cnaipe 'Sign Up':"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2117,7 +2141,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2153,7 +2177,7 @@ msgstr "* Cliceáil an cnaipe gorm 'Join Team' ar dheis ar fad:"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2164,7 +2188,7 @@ msgstr "* Roghnaigh do theanga ón roghchlár aníos:"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2174,7 +2198,7 @@ msgstr "* Feicfidh tú fógra ar bharr an leathanaigh mar seo:"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2229,7 +2253,7 @@ msgstr ""
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
-msgstr ""
+msgstr "Tionscadal Tor | Lámhleabhar Bhrabhsálaí Tor"
 
 #: templates/navbar.html:4
 msgid "Tor Logo"

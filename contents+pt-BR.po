@@ -541,22 +541,22 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
@@ -566,7 +566,7 @@ msgstr "obfs3"
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
@@ -584,12 +584,12 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
@@ -657,12 +657,12 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
