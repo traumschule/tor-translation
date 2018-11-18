@@ -1,9 +1,9 @@
 # Translators:
 # erinm, 2018
 # Jim John <transifex@exware.de>, 2018
-# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2018
 # Oliver Parczyk, 2018
 # Emma Peel, 2018
+# Curtis Baltimore <curtisbaltimore@protonmail.com>, 2018
 # 
 msgid ""
 msgstr ""
@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-18 08:51+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: Curtis Baltimore <curtisbaltimore@protonmail.com>, 2018\n"
 "Language-Team: German (https://www.transifex.com/otf/teams/1519/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -375,7 +375,7 @@ msgstr "<img class=\"col-md-6\" src=\"/static/images/proxy.png\">"
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
-msgstr ""
+msgstr "laufender-tor-browser"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
@@ -471,6 +471,10 @@ msgid ""
 " of the URL bar, then select 'Tor Network Settings...' to access these "
 "options."
 msgstr ""
+"Wenn du den Tor-Browser zum ersten Mal startest, klickst du auf "
+"\"Konfigurieren\", um das Fenster Tor-Netzwerkeinstellungen zu öffnen. "
+"Andernfalls klickst du auf den Torbutton links neben der URL-Leiste und "
+"wählst dann'Tor Network Settings...', um auf diese Optionen zuzugreifen."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -479,6 +483,9 @@ msgid ""
 "Then, select 'Provide a bridge I know' and enter each bridge address on a "
 "separate line."
 msgstr ""
+"Wähle im Fenster Tor-Netzwerkeinstellungen die Option \"Tor wird in meinem "
+"Land zensiert\". Wähle dann 'Eine mir bekannte Brücke bereitstellen' und gib"
+" jede Brückenadresse in eine separate Zeile ein."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -495,6 +502,9 @@ msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
+"Klicke auf \"OK\", um deine Einstellungen zu speichern. Die Verwendung von "
+"Brücken kann die Verbindung im Vergleich zu herkömmlichen Tor-Relays "
+"verlangsamen."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -683,7 +693,7 @@ msgstr "</table>"
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
-msgstr ""
+msgstr "steckbare-transporte"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
@@ -896,6 +906,9 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Du kannst ein Diagramm des Schaltkreises sehen, den Tor-Browser für die "
+"aktuelle Registerkarte im Seiteninformationsmenü in der URL-Leiste "
+"verwendet."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)

@@ -392,7 +392,7 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
-"Úsáideann an chuid is mó de na <a href=\"transports\">Córais Iompair "
+"Úsáideann an chuid is mó de na <a href=\"/transports\">Córais Iompair "
 "Ionphlugáilte</a>, mar shampla obfs3 agus obfs4, athsheachadáin "
 "\"droichid\". Cosúil le gnáth-athsheachadáin Tor, is iad saorálaithe atá i "
 "gceannas ar na droichid seo; ach, murab ionann is gnáth-athsheachadán, ní "
@@ -440,7 +440,7 @@ msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
 "* Seol ríomhphost chuig bridges@torproject.org ó sheoladh Gmail, Yahoo, nó "
-"Riseup, nó"
+"Riseup"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -511,7 +511,7 @@ msgstr ""
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
 msgid "bridges"
-msgstr "Droichid"
+msgstr "bridges"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.title)
@@ -684,7 +684,7 @@ msgstr "</table>"
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
-msgstr "Córais-Iompair-Ionphlugáilte"
+msgstr "plugable-transports"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
@@ -807,7 +807,7 @@ msgstr ""
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
-msgstr "Timpeallú"
+msgstr "circumvention"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.title)
@@ -908,7 +908,7 @@ msgid ""
 "href=\"https://www.torproject.org/docs/faq#EntryGuards\">FAQ</a> and <a "
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
-"Is é an Garda (nó an nód iontrála) an chéad athsheachadán sa chiorcad. "
+"Is é an Garda nó an nód iontrála an chéad athsheachadán sa chiorcad. "
 "Roghnaíonn Tor go huathoibríoch agus go randamach é. Ach ní ionann é agus na"
 " hathsheachadáin eile sa chiorcad. Mar chosaint ar ionsaí aitheanta "
 "próifílithe, fanfaidh sé mar an chéad nód i do chiorcad ar feadh 2-3 mhí, i "
@@ -930,7 +930,7 @@ msgid ""
 "there may be situations in which it makes sense to use Tor with websites "
 "that require usernames, passwords, or other identifying information."
 msgstr ""
-"Cé cur dearadh Brabhsálaí Tor chun cabhrú leat d'aitheantas a choinneáil i "
+"Cé gur dearadh Brabhsálaí Tor chun cabhrú leat d'aitheantas a choinneáil i "
 "bhfolach ar an nGréasán, uaireanta tá sé ciallmhar Tor a úsáid ar shuímh "
 "Ghréasáin a éilíonn ainm úsáideora, focal faire, nó faisnéis phearsanta "
 "eile."
@@ -968,8 +968,8 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
-"* Féach ar an leathanach <a href=\"secure-connections\">Ceangail Shlána</a> "
-"chun eolas tábhachtach a fháil maidir le conas is féidir do cheangal a "
+"* Féach ar an leathanach <a href=\"/secure-connections\">Ceangail Shlána</a>"
+" chun eolas tábhachtach a fháil maidir le conas is féidir do cheangal a "
 "dhaingniú nuair a logálann tú isteach."
 
 #: http//localhost/en-US/managing-identities/
@@ -1069,7 +1069,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
-msgstr "Aitheantais-a-bhainistiú"
+msgstr "managing-identities"
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
@@ -1117,7 +1117,7 @@ msgid ""
 " over HTTPS</a>."
 msgstr ""
 "* Déantar criptiú ar an trácht go léir idir úsáideoirí Tor agus seirbhísí "
-"Onion ó cheann go ceann, sa dóigh nach gá duit <a href=\"secure-"
+"Onion ó cheann go ceann, sa dóigh nach gá duit <a href=\"/secure-"
 "connections\">ceangal HTTPS a úsáid</a> riamh."
 
 #: http//localhost/en-US/onion-services/
@@ -1202,7 +1202,7 @@ msgid ""
 msgstr ""
 "Agus is féidir leat deimhniú go bhfuil tú in ann seirbhísí Onion eile a "
 "rochtain trí cheangal a bhunú le <a "
-"href=\"http://3g2upl4pq6kufc4m.onion\">Seirbhís Onion DuckDuckGo</a>"
+"href=\"http://3g2upl4pq6kufc4m.onion/\">Seirbhís Onion DuckDuckGo</a>"
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
@@ -1349,7 +1349,7 @@ msgstr "</dd>"
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "user / pw"
-msgstr "user / pw"
+msgstr "úsáideoir / focal faire"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1400,7 +1400,7 @@ msgstr "</dl>"
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
-msgstr "Ceangail-Shlána"
+msgstr "secure-connections"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
@@ -1510,7 +1510,7 @@ msgstr ""
 "gceart; ní úsáidtear gnéithe áirithe agus clófhoirne á dtarraingt ar an "
 "scáileán; ní thaispeántar cineálacha áirithe íomhá; agus tá JavaScript "
 "díchumasaithe de réir réamhshocraithe ar gach suíomh nach mbaineann úsáid as"
-" <a href=\"secure-connections\">HTTPS</a>."
+" <a href=\"/secure-connections\">HTTPS</a>."
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1528,7 +1528,7 @@ msgstr ""
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
-msgstr "An Sleamhnán Slándála"
+msgstr "security-slider"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.title)
@@ -1655,7 +1655,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
 msgid "updating"
-msgstr "Nuashonrú"
+msgstr "updating"
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.title)
@@ -1792,7 +1792,7 @@ msgstr ""
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
-msgstr "breiseáin"
+msgstr "plugins"
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.title)
@@ -1888,8 +1888,8 @@ msgid ""
 msgstr ""
 "Mura bhfuil tú in ann ceangal fós, b'fhéidir go bhfuil do Sholáthraí "
 "Seirbhíse Idirlín ag déanamh cinsireacht ar líonra Tor. Léigh an leathanach "
-"<a href=\"circumvention\">Timpeallú</a>le foghlaim conas is féidir an fhadhb"
-" a réiteach."
+"<a href=\"/circumvention\">Timpeallú</a> le foghlaim conas is féidir an "
+"fhadhb a réiteach."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1906,13 +1906,13 @@ msgid ""
 msgstr ""
 "Tá Brabhsálaí Tor á fhorbairt ar bhonn leanúnach, agus tá a fhios againn "
 "faoi roinnt fadhbanna nach bhfuil réiteach orthu fós. Féach ar an leathanach"
-" <a href=\"known-issues\">Fadhbanna ar eolas</a> le féachaint an bhfuil an "
+" <a href=\"/known-issues\">Fadhbanna ar eolas</a> le féachaint an bhfuil an "
 "fhadhb a fheiceann tusa ann cheana."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.seo_slug)
 msgid "troubleshooting"
-msgstr "Fabhtcheartú"
+msgstr "troubleshooting"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.title)
@@ -2022,7 +2022,7 @@ msgstr ""
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
 msgid "uninstalling"
-msgstr "Díshuiteáil"
+msgstr "uninstalling"
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.title)
@@ -2216,7 +2216,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr "Eolas maidir le haistriúchán Tor"
+msgstr "becoming-tor-translator"
 
 #: templates/footer.html:5
 msgid "Our mission:"
