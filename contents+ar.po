@@ -1,6 +1,7 @@
 # Translators:
 # erinm, 2018
 # Emma Peel, 2018
+# Mohamed El-Feky <elfeky.m@gmail.com>, 2018
 # 
 msgid ""
 msgstr ""
@@ -8,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-18 08:51+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: Mohamed El-Feky <elfeky.m@gmail.com>, 2018\n"
 "Language-Team: Arabic (https://www.transifex.com/otf/teams/1519/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.title)
 msgid "About Tor Browser"
-msgstr "حول متصفح تور"
+msgstr "عن متصفح تور"
 
 #: http//localhost/en-US/about/
 #: (content/about/contents+en-US.lrtopic.description)
@@ -96,7 +97,7 @@ msgstr ""
 msgid ""
 "<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
-msgstr ""
+msgstr "1"
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
@@ -112,7 +113,7 @@ msgstr ""
 #: http//localhost/en-US/about/
 #: (content/about/contents+en-US.lrtopic.seo_slug)
 msgid "about"
-msgstr ""
+msgstr "لمحه"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.title)
@@ -226,7 +227,7 @@ msgstr ""
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
 msgid "downloading"
-msgstr ""
+msgstr "تحميل"
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.title)
@@ -341,7 +342,7 @@ msgstr ""
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
-msgstr ""
+msgstr "تشغيل متصفح تور"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
@@ -641,6 +642,10 @@ msgid ""
 "page for more information on the types of transport that are currently "
 "available."
 msgstr ""
+"قد يحجب مزوّدك للإنترنت أو الدولة الولوج المباشر إلى شبكة تور. يشمل متصفّح "
+"تور بعض الأدوات لتجاوز هذا الحجب. تسمّى هذه الأدوات باسم ”النواقل الموصولة“."
+" توجّه إلى صفحة <a href=\"/transports\">النواقل الموصولة</a> للمزيد من "
+"المعلومات حول أنواع النقل المتوفّرة حالياً. "
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -700,6 +705,9 @@ msgid ""
 "Transports</a> page), and their effectiveness depends on your individual "
 "circumstances."
 msgstr ""
+"يعمل كل من النواقل الموجودة في قائمة مشغل تور بطريقة مختلفة (للمزيد من "
+"المعلومات توجّه إلى صفحة <a href=\"/transports\"> النواقل الموصولة</a> )، "
+"وتعتمد فعّالية كل منها على ظروفك الخاصة."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1000,6 +1008,8 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting"
 " over HTTPS</a>."
 msgstr ""
+"* كل حركة التصفح بين مستخدمي تور وخدمات البصلة معماة من الطرف للطرف، لذا لا "
+"تحتاج لأن تشغل بالك <a href=\"secure-connections\">بالاتصال عبر HTTPS</a>."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)

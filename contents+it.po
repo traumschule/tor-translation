@@ -769,6 +769,9 @@ msgid ""
 " should try the different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 msgstr ""
+"Se stai tentando di aggirare una connessione bloccata per la prima volta, "
+"dovresti provare i diversi tipi di trasporto: obfs3, obfs4, fte, meek-azure "
+"e Snowflake."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)

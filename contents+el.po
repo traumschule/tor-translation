@@ -776,6 +776,8 @@ msgid ""
 " should try the different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 msgstr ""
+"Αν προσπαθείς για πρώτη φορά να παρακάμψεις μία μπλοκαρισμένη σύνδεση, "
+"δοκίμασε τις μεταφορές: obfs3, obfs4, fte, meek-azure και Snowflake."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1986,6 +1988,9 @@ msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"* Το BitTorrent συγκεκριμένα <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">δεν είναι ανώνυμο μέσω του "
+"Tor</a></mark>."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)

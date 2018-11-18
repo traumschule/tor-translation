@@ -768,6 +768,9 @@ msgid ""
 " should try the different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 msgstr ""
+"Se você está tentando contornar uma conexão bloqueada pela primeira vez, "
+"você deve tentar diferentes transportes: obfs3, obfs4, fte, meek-azure e "
+"Snowflake."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1955,6 +1958,9 @@ msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"* BitTorrent, especificamente, <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">não é anônimo quando quando conecta-se"
+" via Tor</a></mark>."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)

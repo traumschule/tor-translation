@@ -671,6 +671,7 @@ msgid ""
 " should try the different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 msgstr ""
+"如果您第一次运行时希望规避审查，您应该尝试不同的可插拔传输层：obfs3, obfs4, fte, meek-azure 和 Snowflake."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1700,6 +1701,8 @@ msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"* <mark><a href=\"https://blog.torproject.org/bittorrent-over-tor-isnt-good-"
+"idea\">即使通过 Tor 网络，BitTorrent 也不是匿名的</a></mark>。"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)

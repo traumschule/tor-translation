@@ -767,6 +767,8 @@ msgid ""
 " should try the different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 msgstr ""
+"თუ თქვენი პირველი მცდელობაა შეზღუდვისთვის გვერდის ავლის, გირჩევთ სცადოთ "
+"სხვადასხვა გადამყვანები: obfs3, obfs4, fte, meek-azure და Snowflake."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1958,6 +1960,9 @@ msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"* ვრცლად, გთხოვთ გაეცნოთ ჩვენს <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">სვეტზე სტატიას მოცემულ "
+"თემაზე</a></mark>"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
