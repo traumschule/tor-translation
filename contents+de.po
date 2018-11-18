@@ -1729,6 +1729,13 @@ msgid ""
 "websites from displaying correctly, so Tor Browser’s default setting is to "
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
+"Benutzer, die ein hohes Maß an Sicherheit beim Surfen im Internet benötigen,"
+" sollten den <a href=\"/security-slider\">Security Slider</a> von Tor "
+"Browser auf \"Safer\" (deaktiviert JavaScript für Nicht-HTTPS-Websites) oder"
+" \"Safest\" (tut dies für alle Websites) einstellen. Das Deaktivieren von "
+"JavaScript verhindert jedoch, dass viele Websites korrekt angezeigt werden. "
+"Daher ist es die Standardeinstellung von Tor Browser, dass alle Websites "
+"Skripte im \"Standard\"-Modus ausführen können."
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1989,6 +1996,8 @@ msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
+"* BitTorrent im Besonderen ist <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">nicht anonym über Tor</a></mark>."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
