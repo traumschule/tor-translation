@@ -785,7 +785,7 @@ msgstr "Elusió"
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.title)
 msgid "Managing identities"
-msgstr "Administrador d'identitats"
+msgstr "Administrant identitats"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.description)
