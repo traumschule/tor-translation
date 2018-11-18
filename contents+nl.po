@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-17 19:04+CET\n"
+"POT-Creation-Date: 2018-11-18 08:51+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: bacovane <bart-ts@tushmail.com>, 2018\n"
 "Language-Team: Dutch (https://www.transifex.com/otf/teams/1519/nl/)\n"
@@ -702,12 +702,9 @@ msgstr ""
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
-" should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-"
-"azure and Snowflake."
+" should try the different transports: obfs3, obfs4, fte, meek-azure and "
+"Snowflake."
 msgstr ""
-"Als je voor de eerste keer een geblokkeerde verbinding probeert te omzeilen,"
-" probeer dan de verschillende transporten: obfs3, obfs4, ScrambleSuit, fte, "
-"meek-azure and Snowflake."
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -1794,8 +1791,8 @@ msgstr ""
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
-"* Torrenting over Tor [doesn't hide your IP "
-"address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea)."
+"* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
+"/bittorrent-over-tor-isnt-good-idea\">not anonymous over Tor</a></mark>."
 msgstr ""
 
 #: http//localhost/en-US/known-issues/
