@@ -2051,8 +2051,8 @@ msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
-"Passeu a la <a href=\"https://transifex.com/signup/\">pàgina d'inscripció de"
-" Transifex</a>."
+"* Passeu a la <a href=\"https://transifex.com/signup/\">pàgina d'inscripció "
+"de Transifex</a>."
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)

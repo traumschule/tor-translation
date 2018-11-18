@@ -754,6 +754,9 @@ msgid ""
 " should try the different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 msgstr ""
+"আপনি যদি প্রথমবারের মতো একটি অবরুদ্ধ সংযোগ স্থাপনের চেষ্টা করেন, তাহলে আপনার"
+" বিভিন্ন পরিবহনের চেষ্টা করা উচিত: obfs3, obfs4, fte, meek-azure এবং "
+"Snowflake ।"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
