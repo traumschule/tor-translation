@@ -1098,9 +1098,9 @@ msgid ""
 "in V3 format, 56) mostly random letters and numbers, followed by “.onion”."
 msgstr ""
 "Igual que qualsevol altre lloc web, haurà de conèixer l'adreça d'un servei "
-"de onion per connectar-s'hi. Una adreça de onion és una cadena de 16 "
-"caràcters (i en format V3, 56), principalment lletres i números aleatoris, "
-"seguit de \".onion\"."
+"ceba per connectar-s'hi. Una adreça de ceba és una cadena de 16 caràcters (i"
+" en format V3, 56), principalment lletres i números aleatoris, seguit de "
+"\".onion\"."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1124,9 +1124,9 @@ msgid ""
 "entered the onion address correctly: even a small mistake will stop Tor "
 "Browser from being able to reach the site."
 msgstr ""
-"Si no podeu arribar al servei de onion que necessiteu, assegureu-vos que heu"
-" introduït correctament l'adreça de onion: fins i tot un petit error deixarà"
-" que el navegador Tor no pugui accedir al lloc."
+"Si no podeu arribar al servei ceba que necessiteu, assegureu-vos que heu "
+"introduït correctament l'adreça de onion: fins i tot un petit error deixarà "
+"que el navegador Tor no pugui accedir al lloc."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1147,11 +1147,14 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"També podeu assegurar-vos que podeu accedir a altres serveis de onion "
+"connectant-vos al <a href=\"http://3g2upl4pq6kufc4m.onion/\">servei ceba de "
+"DuckDuckGo</a>."
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
 msgid "onion-services"
-msgstr "onion-services"
+msgstr "serveis-ceba"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.title)
