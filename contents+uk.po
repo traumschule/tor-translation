@@ -1,6 +1,7 @@
 # Translators:
 # Андрій Бандура <andriykopanytsia@gmail.com>, 2018
 # erinm, 2018
+# Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
@@ -8,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-18 22:16+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: erinm, 2018\n"
+"Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Ukrainian (https://www.transifex.com/otf/teams/1519/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,10 +69,14 @@ msgid ""
 " valid for a single session (until Tor Browser is exited or a <a href"
 "=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"За замовчуванням, Tor Browser не зберігає жодної історії відвіданих "
+"сторінок. Куки дійсні лише для одного сеансу (поки Tor Browser не буде "
+"закрито або не зробите запит на <a href=\"/managing-identities.html#new-"
+"identity\">нову ідентичність</a>)."
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### Як працює Tor"
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
@@ -81,6 +86,11 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"Tor — це мережа віртуальних тунелів, які дозволяють вам покращити свою "
+"приватність і безпеку в інтернеті. Tor працює таким чином, що надсилає ваш "
+"трафік через три випадкові сервери (також відомі як *реле*) у мережі Tor. "
+"Останнє реле в схемі («вихідне реле») потім надсилає трафік у публічний "
+"інтернет."
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
@@ -123,6 +133,11 @@ msgid ""
 "/secure-connections.html\">HTTPS</a>, which makes it much harder for "
 "somebody to tamper with."
 msgstr ""
+"Найбезпечніший і найпростіший спосіб завантажити Tor-браузер — зробити це з "
+"офіційного веб-сайту Tor Project: https://www.torproject.org. Ваш зв'язок з "
+"цим сайтом буде убезпечений з допомогою <a href=\"https://tb-"
+"manual.torproject.org/en-US/secure-connections.html\">HTTPS</a>, завдяки "
+"чому в нього буде складно комусь втрутитися."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -148,11 +163,14 @@ msgid ""
 "the latest version of Tor Browser, hosted at a variety of locations, such as"
 " Dropbox, Google Drive and GitHub."
 msgstr ""
+"GetTor — це сервіс, який автоматично відповідає на повідомлення посиланням "
+"на свіжу версію браузера Tor Browser, розміщену у різних місцях: на Dropbox,"
+" Google Drive та GitHub.."
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### Щоб скористатися GetTor електронною поштою:"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -184,7 +202,7 @@ msgstr ""
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### Щоб скористатися GetTor через Twitter:"
 
 #: http//localhost/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -241,7 +259,7 @@ msgstr ""
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### З'єднання"
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -260,6 +278,11 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"У більшості випадків, для з'єднання з мережею Tor достатньо натиснути "
+"«З'єднатися», без потреби додаткових налаштуван. Після натискання з'явиться "
+"панель прогресу підключення Tor. Якщо ви на відносно швидкому з'єднанні, але"
+" повзунок прогресу застряг на якійсь точці, ознайомтеся зі сторінкою <a "
+"href=\"/troubleshooting\">Вирішення проблем</a>, де є допоміжна інформація."
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -293,6 +316,12 @@ msgid ""
 " You will then be taken to the <a href=\"/circumvention\">Circumvention</a> "
 "screen to configure a pluggable transport."
 msgstr ""
+"На першому екрані вас запитують, чи доступ до мережі Tor блокується або "
+"цензурується у вашому з'єднанні. Якщо ви вважаєте, що ні, оберіть «Ні». Якщо"
+" ви знаєте, що ваше з'єднання цензурується, або ви невдало пробували "
+"під'єднатися до мережі Tor й інші рішення не допомогли, оберіть «Так». Далі "
+"ви перейдете на екран <a href=\"/circumvention\">обману</a>, де "
+"налаштовується вставних транспорт."
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
