@@ -1575,7 +1575,7 @@ msgid ""
 "information)."
 msgstr ""
 "Suprimir el navegador Tor del sistema amb la supressió de la carpeta que "
-"conté (consultar l'enllaç <a href=\"Desinstal·lar>Uninstalling</a> d'un "
+"conté (consultar l'enllaç <a href='uninstalling'>Uninstalling</a> d'un "
 "sistema operatiu)."
 
 #: http//localhost/en-US/updating/
