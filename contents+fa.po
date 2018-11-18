@@ -385,7 +385,7 @@ msgstr ""
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
-msgstr ""
+msgstr "* ایمیل bridges@torproject.org از جیمیل, یاهو, یا Riseup"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -480,22 +480,22 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
@@ -505,7 +505,7 @@ msgstr "obfs3"
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
@@ -518,12 +518,12 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
@@ -579,17 +579,17 @@ msgstr ""
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
-msgstr ""
+msgstr "با استفاده از حمل و نقل قابل حمل"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
@@ -883,7 +883,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
-msgstr ""
+msgstr "مدیریت هویت"
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
@@ -1061,21 +1061,21 @@ msgstr ""
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### اطلاعات منتقل می شود."
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<dl>"
-msgstr ""
+msgstr "<dl>"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1087,14 +1087,14 @@ msgstr "Site.com"
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "</dt>"
-msgstr ""
+msgstr "</dt>"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "<dd>"
-msgstr ""
+msgstr "<dd>"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1106,7 +1106,7 @@ msgstr "این سایت در حال بازدید شدن است."
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "</dd>"
-msgstr ""
+msgstr "</dd>"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1155,12 +1155,12 @@ msgstr "هرچه یا تور درحال استفاده نیست."
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
 msgid "</dl>"
-msgstr ""
+msgstr "</dl>"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
-msgstr ""
+msgstr "ارتباط های امن"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
@@ -1264,7 +1264,7 @@ msgstr ""
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
-msgstr ""
+msgstr "اسلایدر امنیتی"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.title)
@@ -1521,6 +1521,7 @@ msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
+"* ساعت کامپیوتر شما باید درست تنظیم شود, یا تور موفق به وصل شدن نشده است"
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1528,6 +1529,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* اطمینان حاصل کنید که یکی دیگر از مرورگرهای تور در حال اجرا نباشد. اگر "
+"مطمئن نیستید سیستم خود را ریستارت کنید"
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1536,11 +1539,14 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* اطمینان حاصل کنید که آنتی ویروس از اجرای تور جلوگیری نمی کند. اگر نمی "
+"دانید چه کاری باید انجام دهید, از مدارک و اسناد و راهنماهای آنتی ویروس خود "
+"استفاده کنید."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* به طور موقت فایروال خود را غیر فعال کنید."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1549,6 +1555,9 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* مرورگر تور را حذف کنید و دوباره نصل کنید. اگر بروزرسانی می کنید, نه تنها "
+"بازنویسی فایل های مرورگر قبلی خود را چک کنید بلکه مطمئن شوید که به طور کامل "
+"از قبل حذف شده است."
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
@@ -1596,6 +1605,8 @@ msgstr "مشکلات شناخته شده"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* تور برای تنظیم کردن زمان درست به ساعت سیستم شما (و ساعت منطقه شما) نیاز "
+"دارد."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1607,22 +1618,22 @@ msgstr ""
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus for Mac"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1630,11 +1641,13 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* ویدیوهایی که نیازمند Adobe Flash هستند غیر فعالند. Flash به دلایل امنیتی "
+"غیر فعال شده است."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "* اگر یک پروکسی تنظیم شده باشد تور نمی تواند از یک پل استفاده کند."
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1651,6 +1664,10 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* برای اجرای مرورگر تور در Ubuntu, کاربران نیاز به اجرای یک اسکریپت دارند. "
+"\"Files\" را باز کنید (جستجوگر Unity) و سپس Preferences را باز کنید. و سپس "
+"Behavior Tab و روی  \"Run executable text files when they are opened\" to "
+"\"Ask every time\" تنظیم کنید. در آخر برروی OK کلیک کنید"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1658,11 +1675,13 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* همچنین مرورگر تور می تواند از طریق خط فرمان با دستوری که گفته می شود از "
+"داخل دایرکتوری مرورگر تور اجرا شود:"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
-msgstr ""
+msgstr "./start-tor-browser.desktop"
 
 #: http//localhost/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1709,16 +1728,20 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"* محل مرورگر خودتان را پیدا کنید. به طور پیش فرض محل ویندوز دسکتاپ است؛ در "
+"مک اواس در داخل پوشه اپلیکیشن قرار دارد؛ در لینوکس هیچ محل پیشفرضی وجود "
+"ندارد. ولی اگر از نسخه انگلیسی مرورگر Tor استفاده می کنید نام فولدر باید "
+"\"tor-browser_en-US\" باشد."
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. حذف پوشه مرورگر تور"
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. خالی کردن زباله های خود"
 
 #: http//localhost/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
@@ -1780,6 +1803,8 @@ msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
+"* صفحه بعدی را با نام خود تکمیل و از منوی کشویی «محلی سازی» و «مترجم» را "
+"انتخاب کنید:"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
