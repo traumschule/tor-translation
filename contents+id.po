@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 08:51+CET\n"
+"POT-Creation-Date: 2018-11-18 22:16+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/otf/teams/1519/id/)\n"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgstr "##### Sambung"
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
@@ -303,7 +303,7 @@ msgstr "##### Konfigurasikan"
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/configure.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
@@ -353,12 +353,12 @@ msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/proxy.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
@@ -471,7 +471,7 @@ msgstr ""
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"col-md-6\" src=\"/static/images/tor-launcher-custom-"
+"<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
 
@@ -723,7 +723,7 @@ msgstr ""
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/bridges.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 msgstr ""
 
 #: http//localhost/en-US/circumvention/
@@ -858,7 +858,7 @@ msgstr ""
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/circuit_full.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 msgstr ""
 
 #: http//localhost/en-US/managing-identities/
@@ -958,7 +958,7 @@ msgstr "##### Mengubah identitas dan sirkuit"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 msgstr ""
 
 #: http//localhost/en-US/managing-identities/
@@ -1183,7 +1183,7 @@ msgstr ""
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 msgstr ""
 
 #: http//localhost/en-US/secure-connections/
@@ -1197,7 +1197,7 @@ msgstr ""
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-msgid "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
+msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 msgstr ""
 
 #: http//localhost/en-US/secure-connections/
@@ -1249,6 +1249,8 @@ msgstr "##### Data berpotensi ditampilkan."
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dl>"
 msgstr "<dl>"
 
@@ -1256,6 +1258,8 @@ msgstr "<dl>"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dt>"
 msgstr "<dt>"
 
@@ -1268,6 +1272,8 @@ msgstr "Situs.com"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dt>"
 msgstr "</dt>"
 
@@ -1275,6 +1281,8 @@ msgstr "</dt>"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dd>"
 msgstr "<dd>"
 
@@ -1287,6 +1295,8 @@ msgstr "Situs telah dikunjungi."
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dd>"
 msgstr "</dd>"
 
@@ -1338,6 +1348,8 @@ msgstr "Apakah Tor sedang dipakai atau tidak."
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dl>"
 msgstr "</dl>"
 
@@ -1348,16 +1360,22 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.title)
 msgid "Security Slider"
 msgstr "Security Slider"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.description)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr "Mengkonfigurasi Tor Browser untuk keamanan dan kegunaan"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes a “Security Slider” that lets you increase your "
 "security by disabling certain web features that can be used to attack your "
@@ -1373,32 +1391,44 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
 msgstr "##### Mengakses Security Slider"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
 msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
 msgstr "##### Tingkat Keamanan"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Increasing the level of the Security Slider will disable or partially "
 "disable certain browser features to protect against possible attacks."
@@ -1409,11 +1439,15 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safest"
 msgstr "Paling aman"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
@@ -1433,11 +1467,15 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safer"
 msgstr "Lebih aman"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
@@ -1455,11 +1493,15 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Standard"
 msgstr "Standar"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, all browser features are enabled. This is the most usable "
 "option."
@@ -1469,6 +1511,8 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
 msgstr ""
 
@@ -1513,7 +1557,7 @@ msgstr "##### Pembaruan Tor Browser secara otomatis"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
+msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1527,7 +1571,7 @@ msgstr ""
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
+msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1539,7 +1583,7 @@ msgstr "Saat Tor Browser telah selesai untuk pembaruan, click tombol \"Update\".
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
+msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1667,7 +1711,7 @@ msgstr ""
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 msgstr ""
 
 #: http//localhost/en-US/plugins/
@@ -2048,7 +2092,7 @@ msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -2060,7 +2104,7 @@ msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -2089,7 +2133,7 @@ msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -2100,7 +2144,7 @@ msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -2110,7 +2154,7 @@ msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/

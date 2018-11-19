@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 08:51+CET\n"
+"POT-Creation-Date: 2018-11-18 22:16+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
@@ -239,7 +239,7 @@ msgstr "##### 连接"
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
@@ -264,7 +264,7 @@ msgstr "##### 配置"
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/configure.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
@@ -301,12 +301,12 @@ msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/proxy.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 msgstr ""
 
 #: http//localhost/en-US/running-tor-browser/
@@ -404,7 +404,7 @@ msgstr ""
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"col-md-6\" src=\"/static/images/tor-launcher-custom-"
+"<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
 
@@ -638,7 +638,7 @@ msgstr "在询问您的互联网服务提供商 (ISP) 是否封锁了 Tor 网络
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/bridges.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 msgstr ""
 
 #: http//localhost/en-US/circumvention/
@@ -753,7 +753,7 @@ msgstr ""
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/circuit_full.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 msgstr ""
 
 #: http//localhost/en-US/managing-identities/
@@ -835,7 +835,7 @@ msgstr "##### 变更身份和线路"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 msgstr ""
 
 #: http//localhost/en-US/managing-identities/
@@ -1035,7 +1035,7 @@ msgstr ""
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 msgstr ""
 
 #: http//localhost/en-US/secure-connections/
@@ -1047,7 +1047,7 @@ msgstr "下方的展示呈现了有使用以及没有使用 Tor 浏览器与 HTT
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-msgid "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
+msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 msgstr ""
 
 #: http//localhost/en-US/secure-connections/
@@ -1090,6 +1090,8 @@ msgstr "##### 潜在的可见数据"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dl>"
 msgstr "<dl>"
 
@@ -1097,6 +1099,8 @@ msgstr "<dl>"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dt>"
 msgstr "<dt>"
 
@@ -1109,6 +1113,8 @@ msgstr "网站.com"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dt>"
 msgstr "</dt>"
 
@@ -1116,6 +1122,8 @@ msgstr "</dt>"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dd>"
 msgstr "<dd>"
 
@@ -1128,6 +1136,8 @@ msgstr "被访问的网站。"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dd>"
 msgstr "</dd>"
 
@@ -1177,6 +1187,8 @@ msgstr "是否使用了 Tor。"
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dl>"
 msgstr "</dl>"
 
@@ -1187,16 +1199,22 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.title)
 msgid "Security Slider"
 msgstr "安全滑块"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.description)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr "为安全和易用而配置 Tor 浏览器"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes a “Security Slider” that lets you increase your "
 "security by disabling certain web features that can be used to attack your "
@@ -1209,32 +1227,44 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
 msgstr "##### 操作安全滑块"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
 msgstr "安全滑块位于 TorButton 中菜单中的 “安全设置” 内。"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
 msgstr "##### 安全级别"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
+msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Increasing the level of the Security Slider will disable or partially "
 "disable certain browser features to protect against possible attacks."
@@ -1242,11 +1272,15 @@ msgstr "增加安全级别将禁用或部分禁用某些浏览器功能以防止
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safest"
 msgstr "最高安全性"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
@@ -1261,11 +1295,15 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safer"
 msgstr "中等安全性"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
@@ -1280,11 +1318,15 @@ msgstr ""
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Standard"
 msgstr "标准安全性"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, all browser features are enabled. This is the most usable "
 "option."
@@ -1292,6 +1334,8 @@ msgstr "在此安全性等级下，所有浏览器的功能都将被启用，这
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
+#: http//localhost/en-US/security-slider.html
+#: (content/security-slider.html/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
 msgstr ""
 
@@ -1331,7 +1375,7 @@ msgstr "##### 自动更新 Tor 浏览器"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"400\" src=\"/static/images/update1.png\" />"
+msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1343,7 +1387,7 @@ msgstr "在您被提示应更新 Tor 浏览器时，点击 Torbutton 图标，�
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update3.png\" />"
+msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1355,7 +1399,7 @@ msgstr "在 Tor 浏览器完成检查更新后，点击“更新”按钮。"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
-msgid "<img width=\"600\" src=\"/static/images/update4.png\" />"
+msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 msgstr ""
 
 #: http//localhost/en-US/updating/
@@ -1467,7 +1511,7 @@ msgstr ""
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 msgstr ""
 
 #: http//localhost/en-US/plugins/
@@ -1802,7 +1846,7 @@ msgstr "输入您的信息并点击 \"Sign Up\" 按钮："
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -1814,7 +1858,7 @@ msgstr "* 在下一页中填写您的名字，从下拉菜单中选择 \"Localiz
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr2.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -1845,7 +1889,7 @@ msgstr "* 点击最右端的蓝色 'Join Team' 按钮"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -1856,7 +1900,7 @@ msgstr "* 在下拉菜单中选择你想要翻译的语言："
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
@@ -1866,7 +1910,7 @@ msgstr "* 在屏幕上端会有这样的通知出现："
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
+msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 msgstr ""
 
 #: http//localhost/en-US/becoming-tor-translator/
