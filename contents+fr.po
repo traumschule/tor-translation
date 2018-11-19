@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 22:16+CET\n"
+"POT-Creation-Date: 2018-11-19 14:20+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: French (https://www.transifex.com/otf/teams/1519/fr/)\n"
@@ -17,22 +17,25 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: http//localhost/en-US/ (content/contents+en-US.lrshowcase.title)
+#: https//tb-manual.torproject.org/en-US/
+#: (content/contents+en-US.lrshowcase.title)
 msgid "How can we help?"
 msgstr "Comment pouvons-nous vous aider ?"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.title)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.title)
 msgid "About Tor Browser"
 msgstr "À propos du Navigateur Tor"
 
-#: http//localhost/en-US/about/
+#: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 "Apprenez ce que le navigateur Tor peut faire pour protéger vos données "
 "personnelles et votre anonymat"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser uses the Tor network to protect your privacy and anonymity. "
 "Using the Tor network has two main properties:"
@@ -41,7 +44,8 @@ msgstr ""
 "personnelles et votre anonymat. L’utilisation du réseau Tor présente deux "
 "atouts principaux :"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* Your internet service provider, and anyone watching your connection "
 "locally, will not be able to track your internet activity, including the "
@@ -51,7 +55,8 @@ msgstr ""
 "connexion localement ne pourra pas suivre à la trace votre activité sur "
 "Internet ni les noms et adresses des sites Web que vous visitez."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* The operators of the websites and services that you use, and anyone "
 "watching them, will see a connection coming from the Tor network instead of "
@@ -63,7 +68,8 @@ msgstr ""
 "Tor au lieu de votre adresse internet (IP) réelle, et ne saurons pas qui "
 "vous êtes à moins que vous vous identifiiez explicitement."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "In addition, Tor Browser is designed to prevent websites from "
 "“fingerprinting” or identifying you based on your browser configuration."
@@ -72,22 +78,21 @@ msgstr ""
 "numérique unique ou votre identification par les sites Web d’après la "
 "configuration de votre navigateur."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
+"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
-"Par défaut, le Navigateur Tor ne conserve aucun historique de navigation. "
-"Les fichiers témoins ne sont valides que le temps d’une seule session "
-"(jusqu’à la fermeture de Tor ou jusqu’à ce qu’une <a href=\"/managing-"
-"identities#new-identity\">nouvelle identité</a> soit demandée)."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid "##### How Tor works"
 msgstr "##### Comment Tor fonctionne-t-il ?"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor is a network of virtual tunnels that allows you to improve your privacy "
 "and security on the Internet. Tor works by sending your traffic through "
@@ -101,13 +106,15 @@ msgstr ""
 "appelés *relais*) dans le réseau Tor. Le dernier relais du circuit (le « "
 "relais de sortie ») envoie ensuite le trafic vers l’Internet public."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "The image above illustrates a user browsing to different websites over Tor. "
 "The green middle computers represent relays in the Tor network, while the "
@@ -119,22 +126,22 @@ msgstr ""
 "relais du réseau Tor, alors que les trois clés représentent les couches de "
 "chiffrement entre l’utilisateur et chaque relais."
 
-#: http//localhost/en-US/about/
+#: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.seo_slug)
 msgid "about"
 msgstr ""
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.title)
 msgid "Downloading"
 msgstr "Téléchargement"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.description)
 msgid "How to download Tor Browser"
 msgstr "Comment télécharger le Navigateur Tor ?"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "The safest and simplest way to download Tor Browser is from the official Tor"
@@ -149,7 +156,7 @@ msgstr ""
 "connections\">HTTPS</a> et il sera ainsi plus difficile pour quelqu’un de "
 "l’altérer."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "However, there may be times when you cannot access the Tor Project website: "
@@ -161,12 +168,12 @@ msgstr ""
 "produit, vous pouvez utiliser une des méthodes de téléchargement "
 "répertoriées ci-dessous."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "##### GetTor"
 msgstr "##### GetTor"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor is a service that automatically responds to messages with links to "
@@ -178,12 +185,12 @@ msgstr ""
 "endroits qui risquent moins d’être censurée, tels que Dropbox, le disque "
 "Google Drive ou GitHub."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via email:"
 msgstr "###### Pour utiliser GetTor par courriel :"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Send an email to gettor@torproject.org, and in the body of the message "
@@ -194,7 +201,7 @@ msgstr ""
 "écrivez simplement « windows », « osx » « linux » (sans guillemet) selon "
 "votre système d’exploitation."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor will respond with an email containing links from which you can "
@@ -211,12 +218,12 @@ msgstr ""
 "Selon le modèle d’ordinateur que vous utilisez, le choix entre un logiciel "
 "32 bits ou 64 bits vous sera proposé."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
 msgstr "###### Pour utiliser GetTor par Twitter :"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in English for OS X, send a Direct "
@@ -227,12 +234,12 @@ msgstr ""
 "OS X, envoyez un message direct à @get_tor avec les mots « osx en » (vous "
 "n’avez pas à suivre le compte)."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr "###### Pour utiliser GetTor par Jabber/XMPP (Jitsi, CoyIM, etc.) :"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
@@ -242,22 +249,22 @@ msgstr ""
 "Linux, envoyez un message à gettor@torproject.org avec les mots « linux zh "
 "»."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
 msgid "downloading"
 msgstr "Téléchargement"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.title)
 msgid "Running Tor Browser for the first time"
 msgstr "Premier lancement du Navigateur Tor"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.description)
 msgid "Learn how to use Tor Browser for the first time"
 msgstr "Apprenez à utiliser le Navigateur Tor pour la première fois"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "When you run Tor Browser for the first time, you will see the Tor Network "
@@ -268,19 +275,19 @@ msgstr ""
 "paramètres du réseau Tor. Elle vous proposera soit de vous connecter "
 "directement, soit de configurer le Navigateur Tor pour votre connexion."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Connect"
 msgstr "##### Connecter"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "In most cases, choosing \"Connect\" will allow you to connect to the Tor "
@@ -297,19 +304,19 @@ msgstr ""
 "à un certain niveau, la page <a href=\"/troubleshooting\">Dépannage</a> vous"
 " aidera à régler le problème."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Configure"
 msgstr "##### Configurer"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "If you know that your connection is censored, or uses a proxy, you should "
@@ -320,7 +327,7 @@ msgstr ""
 "vous devriez sélectionner cette option. Le Navigateur Tor vous fera passer "
 "en revue une série d’options de configuration."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The first screen asks if access to the Tor network is blocked or censored on"
@@ -338,7 +345,7 @@ msgstr ""
 "href=\"/circumvention\">Contournement</a> apparaîtra alors afin que vous "
 "configuriez un transport enfichable."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The next screen asks if your connection uses a proxy. In most cases, this is"
@@ -354,27 +361,27 @@ msgstr ""
 "posez la question à votre administrateur réseau. Si votre connexion "
 "n’utilise pas de mandataire, cliquez sur « Continuer »."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
 msgstr "Premier-lancement-du-navigateur-Tor"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
 msgid "Bridges"
 msgstr "Les ponts"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.description)
 msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
@@ -383,7 +390,7 @@ msgstr ""
 "La plupart des transports enfichables, tels que obfs3 et obfs4, reposent sur"
 " l’utilisation de relais-ponts."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
@@ -401,7 +408,7 @@ msgstr ""
 "L’utilisation de ponts combinée à des transports enfichables aide à "
 "dissimuler le fait que vous utilisez Tor."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Other pluggable transports, like meek, use different anti-censorship "
@@ -412,12 +419,12 @@ msgstr ""
 "techniques d’anticensure qui ne reposent pas sur des ponts. Vous ne devez "
 "pas obtenir des adresses de ponts  pour utiliser ces transports."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Getting bridge addresses"
 msgstr "##### Obtenir des adresses de ponts"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Because bridge addresses are not public, you will need to request them "
@@ -426,14 +433,14 @@ msgstr ""
 "Les adresses de ponts n’étant pas publiques, vous devrez les demander. Deux "
 "options s’offrent à vous :"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
 "* Visitez https://bridges.torproject.org/ et suivez les instructions, ou"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
@@ -441,12 +448,12 @@ msgstr ""
 "* Envoyez un courriel à bridges@torproject.org à partir d'une adresse "
 "courriel Gmail, Yahoo ou Riseup."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Entering bridge addresses"
 msgstr "##### Saisir des adresses de ponts"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -455,7 +462,7 @@ msgstr ""
 "Une fois que vous aurez obtenu des adresses de ponts, vous devrez les saisir"
 " dans le lanceur Tor."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If you're starting Tor Browser for the first time, click 'Configure' to open"
@@ -464,7 +471,7 @@ msgid ""
 "options."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "In the Tor Network Settings window, select 'Tor is censored in my country.' "
@@ -472,21 +479,21 @@ msgid ""
 "separate line."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
@@ -496,17 +503,17 @@ msgstr ""
 "service. Utilisez l'une des méthodes ci-dessus afin d'obtenir d'autres "
 "adresses de ponts et ressayez."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
 msgid "bridges"
 msgstr "Les ponts"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.title)
 msgid "Pluggable transports"
 msgstr "Les transports enfichables"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.description)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
@@ -515,7 +522,7 @@ msgstr ""
 "Les transports enfichables sont des outils que Tor peut utiliser pour "
 "déguiser le trafic qu’il envoie."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
@@ -528,12 +535,12 @@ msgstr ""
 "où un fournisseur d’accès à Internet ou une autre autorité bloque activement"
 " les connexions vers le réseau Tor."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "##### Types of pluggable transport"
 msgstr "##### Les types de transports enfichables"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Currently there are six pluggable transports available, but more are being "
@@ -542,37 +549,37 @@ msgstr ""
 "Six transports enfichables sont proposés actuellement, mais d’autres sont en"
 " cours de développement."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<table>"
 msgstr "<table>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tbody>"
 msgstr "<tbody>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"odd\">"
 msgstr "<tr class=\"odd\">"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<td>"
 msgstr "<td>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs3"
 msgstr "obfs3"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</td>"
 msgstr "</td>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs3 makes Tor traffic look random, so that it does not look like Tor or "
@@ -584,22 +591,22 @@ msgstr ""
 "encore inclus par défaut, il est plutôt recommandé d’utiliser obfs4, car il "
 "comporte plusieurs améliorations de sécurité par rapport à obfs3."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tr>"
 msgstr "</tr>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"even\">"
 msgstr "<tr class=\"even\">"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs4"
 msgstr "obfs4"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
@@ -610,12 +617,12 @@ msgstr ""
 "empêche aussi les censeurs de trouver des ponts en balayant l’Internet. Les "
 "ponts obfs4 sont moins susceptibles d’être bloqués que les ponts obfs3."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
@@ -624,12 +631,12 @@ msgstr ""
 "FTE (chiffrement par transformation du format) déguise le trafic Tor en "
 "trafic Web ordinaire (HTTP)."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "meek"
 msgstr "meek"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "These transports all make it look like you are browsing a major web site "
@@ -643,12 +650,12 @@ msgstr ""
 "utilisez un site Web de Microsoft ; et meek-google l’impression que vous "
 "utilisez la recherche Google."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "Snowflake"
 msgstr "Snowflake"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
@@ -658,32 +665,32 @@ msgstr ""
 "trafic par WebRTC, un protocole pair-à-pair avec perçage intégré de trous "
 "dans la traduction d’adresses de réseau."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tbody>"
 msgstr "</tbody>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</table>"
 msgstr "</table>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
 msgstr "transports-enfichables"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
 msgid "Circumvention"
 msgstr "Le contournement"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
 msgstr "Que faire si le réseau Tor est bloqué ?"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
@@ -700,12 +707,12 @@ msgstr ""
 "transports enfichables</a> contient des informations supplémentaires sur les"
 " types de transports proposés actuellement."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Using pluggable transports"
 msgstr "##### Utiliser des transports enfichables"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "To use pluggable transports, click \"Configure\" in the Tor Launcher window "
@@ -714,7 +721,7 @@ msgstr ""
 "Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la"
 " fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "You can also configure pluggable transports while Tor Browser is running, by"
@@ -725,7 +732,7 @@ msgstr ""
 "Navigateur Tor est en fonction en cliquant sur l’oignon vert près de votre "
 "barre d’adresse et en sélectionnant « Paramètres du réseau Tor »."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “yes” when asked if your Internet Service Provider blocks connections"
@@ -734,12 +741,12 @@ msgstr ""
 "Sélectionnez « Oui » quand on vous demandera si votre fournisseur d’accès à "
 "Internet bloque les connexions au réseau Tor."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 msgstr ""
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “Connect with provided bridges”. Tor Browser currently has six "
@@ -749,12 +756,12 @@ msgstr ""
 "offre actuellement six options de transports enfichables parmi lesquelles "
 "choisir."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Which transport should I use?"
 msgstr "##### Quel transport devrais-je utiliser ?"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
@@ -767,7 +774,7 @@ msgstr ""
 "href=\"transports\">Les transports enfichables</a>) et leur efficacité "
 "dépend de vos circonstances particulières."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
@@ -778,7 +785,7 @@ msgstr ""
 "vous devez essayer different transports: obfs3, obfs4, fte, meek-azure and "
 "Snowflake."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
@@ -791,24 +798,24 @@ msgstr ""
 "section <a href=\"/bridges\">Les ponts </a> pour apprendre ce que sont les "
 "ponts et comment en obtenir."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
 msgstr "Le contournement"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.title)
 msgid "Managing identities"
 msgstr "La gestion des identités"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.description)
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
 "Apprenez à contrôler dans le Navigateur Tor les renseignements permettant "
 "d’identifier quelqu’un"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you connect to a website, it is not only the operators of that website "
@@ -824,7 +831,7 @@ msgstr ""
 " suivi analytique et les balises publicitaires qui peuvent tous associer "
 "votre activité d’un site à l’autre."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Using the Tor network stops observers from being able to discover your exact"
@@ -839,12 +846,12 @@ msgstr ""
 "Navigateur Tor comprend des fonctions supplémentaires qui vous aident à "
 "contrôler les informations qui peuvent être liées à votre identité."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### The URL bar"
 msgstr "##### La barre d’URL"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser centers your web experience around your relationship with the "
@@ -860,7 +867,7 @@ msgstr ""
 "différents, et ainsi le service de suivi ne saura pas que les deux "
 "connexions proviennent de votre navigateur."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "On the other hand, all connections to a single website address will be made "
@@ -873,19 +880,19 @@ msgstr ""
 "parcourir différentes pages d’un même site Web dans des onglets ou des "
 "fenêtres différents sans perte de fonctionnalité."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "In the circuit, the Guard or entry node is the first node and it's "
@@ -897,12 +904,12 @@ msgid ""
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Logging in over Tor"
 msgstr "##### Se connecter en utilisant Tor"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Although Tor Browser is designed to enable total user anonymity on the web, "
@@ -914,7 +921,7 @@ msgstr ""
 "d’utiliser Tor avec des sites Web qui exigent des noms d’utilisateur, des "
 "mots de passe ou d’autres informations permettant de vous identifier."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "If you log into a website using a regular browser, you also reveal your IP "
@@ -933,7 +940,7 @@ msgstr ""
 "Navigateur Tor si le site Web que vous tentez de joindre est censuré sur "
 "votre réseau."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you log in to a website over Tor, there are several points you should "
@@ -942,7 +949,7 @@ msgstr ""
 "En vous connectant à un site Web en utilisant Tor, il y a plusieurs "
 "considérations que vous devriez garder à l’esprit :"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
@@ -952,7 +959,7 @@ msgstr ""
 "sécurisées</a> pour obtenir des informations importantes sur la sécurisation"
 " de votre connexion lors d’une authentification."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser often makes your connection appear as though it is coming from"
@@ -970,17 +977,17 @@ msgstr ""
 "de récupération de compte recommandée par le site, ou en contactant les "
 "exploitants des sites et en expliquant la situation."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Changing identities and circuits"
 msgstr "##### Changer d’identité et de circuit"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
@@ -989,12 +996,12 @@ msgstr ""
 "Le navigateur Tor propose les options « Nouvelle identité » et « Nouveau "
 "circuit Tor pour ce site », situées dans le menu BoutonTor."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Identity"
 msgstr "##### Nouvelle identité"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if you want to prevent your subsequent browser "
@@ -1013,12 +1020,12 @@ msgstr ""
 "de l’arrêt de toutes les activités et téléchargements. Prenez-le donc en "
 "compte avant de cliquer sur « Nouvelle identité »."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Tor circuit for this site"
 msgstr "##### Nouveau circuit Tor pour ce site"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if the <a href=\"/about/#how-tor-works\">exit "
@@ -1038,29 +1045,29 @@ msgstr ""
 "information confidentielle, ne délie pas votre activité, ni n’affecte vos "
 "connexions actuelles vers d’autres sites Web."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
 msgid "Onion Services"
 msgstr "Les services onion"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.description)
 msgid "Services that are only accessible using Tor"
 msgstr "Les services qui ne sont accessibles qu’en utilisant Tor"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
@@ -1069,7 +1076,7 @@ msgstr ""
 "Les services onion (anciennement « services cachés ») sont des services "
 "(tels que des sites Web) qui ne sont accessibles que par le réseau Tor."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
@@ -1078,7 +1085,7 @@ msgstr ""
 "Les services onion offrent plusieurs avantages par rapport aux services "
 "ordinaires du Web non privé :"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
@@ -1088,7 +1095,7 @@ msgstr ""
 "difficile pour ses adversaires de le censurer ou d'identifier ses "
 "opérateurs."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
@@ -1099,7 +1106,7 @@ msgstr ""
 "chiffré de bout en bout, donc vous n’avez pas à vous soucier de vous <a href"
 "=\"/secure-connections\">connecter par HTTPS</a>."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* The address of an onion service is automatically generated, so the "
@@ -1112,12 +1119,12 @@ msgstr ""
 "Tor à s'assurer qu'il se connecte au bon endroit et que la connexion n'a pas"
 " été altérée."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### How to access an onion service"
 msgstr "##### Comment accéder à un service oignon ?"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Just like any other website, you will need to know the address of an onion "
@@ -1129,7 +1136,7 @@ msgstr ""
 "lettres et chiffres (ou 56 en format V3) principalement générés au hasard, "
 "suivie par « .onion »."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "When accessing a website that uses an onion service, Tor Browser will show "
@@ -1139,12 +1146,12 @@ msgid ""
 "and a padlock."
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### Troubleshooting"
 msgstr "##### Dépannage"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you cannot reach the onion service you require, make sure that you have "
@@ -1155,7 +1162,7 @@ msgstr ""
 "assurez-vous d’avoir correctement saisi l’adresse onion : même une petite "
 "erreur empêchera le Navigateur Tor d’atteindre le site."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you are still unable to connect to the onion service, please try again "
@@ -1167,7 +1174,7 @@ msgstr ""
 "connexion ou les exploitants du site pourraient l’avoir désactivé sans "
 "avertissement."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "You can also ensure that you're able to access other onion services by "
@@ -1178,24 +1185,24 @@ msgstr ""
 "services onion en vous connectant au <a "
 "href=\"http://3g2upl4pq6kufc4m.onion/\">service onion de DuckDuckGo</a>."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
 msgid "onion-services"
 msgstr "services-oignon"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.title)
 msgid "Secure Connections"
 msgstr "Les connexions sécurisées"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.description)
 msgid "Learn how to protect your data using Tor Browser and HTTPS"
 msgstr ""
 "Apprenez comment protéger vos données en utilisant le Navigateur Tor et "
 "HTTPS"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "If personal information such as a login password travels unencrypted over "
@@ -1213,12 +1220,12 @@ msgstr ""
 " vérifier dans la barre d’URL :  si votre connexion est chiffrée, l’adresse "
 "commencera par « https:// » plutôt que par « http:// »."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "The following visualization shows what information is visible to "
@@ -1227,12 +1234,12 @@ msgstr ""
 "La visualisation suivante montre quelles informations sont visibles pour les"
 " systèmes d’écoute avec et sans le Navigateur Tor et le chiffrement HTTPS :"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
@@ -1242,7 +1249,7 @@ msgstr ""
 " les observateurs quand vous utilisez Tor. Le bouton deviendra vert pour "
 "indiquer que Tor est activé."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
@@ -1252,7 +1259,7 @@ msgstr ""
 "pour les observateurs quand vous utilisez HTTPS. Le bouton deviendra vert "
 "pour indiquer que HTTPS est activé."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are green, you see the data that is visible to observers"
@@ -1261,7 +1268,7 @@ msgstr ""
 "* Quand les deux boutons sont verts, vous voyez les données qui sont "
 "visibles pour les observateurs quand vous utilisez les deux outils."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
@@ -1270,93 +1277,93 @@ msgstr ""
 "* Quand les deux boutons sont gris, vous voyez les données qui sont visibles"
 " pour les observateurs quand vous n’utilisez aucun des deux outils."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "##### Potentially visible data"
 msgstr "##### Les données potentiellement visibles"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dl>"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dt>"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Site.com"
 msgstr "Site.com"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dt>"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dd>"
 msgstr "<dd>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "The site being visited."
 msgstr "Le site que vous visitez."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dd>"
 msgstr "</dd>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "user / pw"
 msgstr "utilisat./mdp"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Username and password used for authentication."
 msgstr ""
 "Le nom d’utilisateur et le mot de passe utilisés pour l’authentification."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "data"
 msgstr "données"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Data being transmitted."
 msgstr "Les données qui sont transmises."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "location"
 msgstr "lieu"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "Network location of the computer used to visit the website (the public IP "
@@ -1365,47 +1372,47 @@ msgstr ""
 "L’emplacement réseau de l’ordinateur utilisé pour visiter le site Web "
 "(l’adresse IP publique)."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Tor"
 msgstr "Tor"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Whether or not Tor is being used."
 msgstr "Si Tor est utilisé ou non."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dl>"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.title)
 msgid "Security Slider"
 msgstr "Curseur de sécurité"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.description)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr "Configurez le Navigateur Tor pour la sécurité et la facilité d’emploi"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes a “Security Slider” that lets you increase your "
@@ -1422,23 +1429,23 @@ msgstr ""
 "considération vos besoins de sécurité ainsi que le niveau de facilité "
 "d’emploi."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
 msgstr "##### Accéder au bouton de sécurité coulissant"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
@@ -1446,23 +1453,23 @@ msgstr ""
 "Le curseur de sécurité se trouve dans le menu « Paramètres de sécurité » du "
 "BoutonTor."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
 msgstr "##### Les niveaux de sécurité"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Increasing the level of the Security Slider will disable or partially "
@@ -1472,16 +1479,16 @@ msgstr ""
 "complètement ou partiellement certaines fonctions du navigateur afin de vous"
 " protéger contre les attaques potentielles."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safest"
 msgstr "Le plus sûr"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
@@ -1500,16 +1507,16 @@ msgstr ""
 "désactivés ; et certaines polices et icônes pourraient ne pas s’afficher "
 "correctement."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safer"
 msgstr "Plus sûr"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
@@ -1526,16 +1533,16 @@ msgstr ""
 "certains types d’images sont désactivés ; et JavaScript est désactivé par "
 "défaut pour tous les sites <a href=\"/secure-connections\">non HTTPS</a>."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Standard"
 msgstr "Normal"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, all browser features are enabled. This is the most usable "
@@ -1544,24 +1551,24 @@ msgstr ""
 "À ce niveau, toutes les fonctions du navigateur sont activées.  C’est "
 "l’option la plus facile d’emploi."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.title)
 msgid "Updating"
 msgstr "La mise à jour"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.description)
 msgid "How to update Tor Browser"
 msgstr "Comment mettre à jour le Navigateur Tor ?"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser must be kept updated at all times. If you continue to use an "
@@ -1573,7 +1580,7 @@ msgstr ""
 " graves failles de sécurité qui compromettent la protection de vos données "
 "personnelles et votre anonymat."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
@@ -1587,17 +1594,17 @@ msgstr ""
 " du Navigateur Tor. Vous pouvez mettre à jour automatiquement ou "
 "manuellement."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
 msgstr "##### La mise à jour automatique du navigateur Tor"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, click on the Torbutton icon, "
@@ -1606,12 +1613,12 @@ msgstr ""
 "Si l’on vous demande de mettre à jour le Navigateur Tor, cliquez sur l’icône"
 " du BoutonTor, puis sur « Vérifier les mises à jour du Navigateur Tor »."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When Tor Browser has finished checking for updates, click on the “Update” "
@@ -1620,12 +1627,12 @@ msgstr ""
 "Une fois que le Navigateur Tor a fini de vérifier la disponibilité des mises"
 " à jour, cliquez sur le bouton « Mise à jour »."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Wait for the update to download and install, then restart Tor Browser. You "
@@ -1634,12 +1641,12 @@ msgstr ""
 "Attendez la fin du téléchargement et de l’installation, puis redémarrez le "
 "Navigateur Tor. Vous utiliserez alors la version la plus récente."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
 msgstr "##### La mise à jour manuelle du navigateur Tor"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, finish the browsing session and"
@@ -1648,7 +1655,7 @@ msgstr ""
 "Quand on vous demande de mettre à jour le Navigateur Tor, terminez la "
 "session de navigation et fermez le programme."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
@@ -1659,7 +1666,7 @@ msgstr ""
 "contient (consultez le paragraphe <a href=\"uninstalling\">La "
 "désinstallation</a> pour plus d’informations)."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Visit <a "
@@ -1672,29 +1679,29 @@ msgstr ""
 " téléchargez la version la plus récente du Navigateur Tor et installez-la "
 "comme avant."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
 msgid "updating"
 msgstr "La mise à jour"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
 msgstr "Les modules complémentaires, les greffons et JavaScript"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
 msgstr ""
 "Comment le Navigateur Tor gère-t-il les modules complémentaires, les "
 "greffons et JavaScript ?"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Flash Player"
 msgstr "##### Le lecteur Flash"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Video websites, such as Vimeo make use of the Flash Player plugin to display"
@@ -1713,7 +1720,7 @@ msgstr ""
 "désactivé par défaut dans le navigateur, et il n’est pas recommandé de "
 "l’activer."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Some video websites (such as YouTube) offer alternative video delivery "
@@ -1724,12 +1731,12 @@ msgstr ""
 "livraison des vidéos qui n’utilisent pas Flash. Ces méthodes pourraient être"
 " compatibles avec le Navigateur Tor."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### JavaScript"
 msgstr "##### JavaScript"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "JavaScript is a programming language that websites use to offer interactive "
@@ -1743,7 +1750,7 @@ msgstr ""
 "aussi d’attaquer la sécurité du navigateur, ce qui pourrait compromettre "
 "l’anonymisation."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript, accessible through the “S” "
@@ -1756,12 +1763,12 @@ msgstr ""
 "vous permet de contrôler le JavaScript (et autres scripts) exécuté par les "
 "différentes pages Web, ou de le bloquer complètement. "
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 msgstr ""
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Users who require a high degree of security in their web browsing should set"
@@ -1780,12 +1787,12 @@ msgstr ""
 "Navigateur Tor permettent à tous les sites Web d’exécuter des scripts en "
 "mode « Normal »."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Browser Add-ons"
 msgstr "##### Les modules complémentaires pour navigateur"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
@@ -1795,7 +1802,7 @@ msgstr ""
 "thème compatible avec Firefox peut aussi être installé dans le Navigateur "
 "Tor."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "However, the only add-ons that have been tested for use with Tor Browser are"
@@ -1812,22 +1819,22 @@ msgstr ""
 "déconseillé d’installer d’autres modules complémentaires, et le Projet Tor "
 "n’offrira aucun soutien pour les configurations les utilisant."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
 msgstr ""
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.title)
 msgid "Troubleshooting"
 msgstr "Dépannage"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.description)
 msgid "What to do if Tor Browser doesn’t work"
 msgstr "Que faire si le Navigateur Tor ne fonctionne pas ?"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "You should be able to start browsing the web using Tor Browser shortly after"
@@ -1838,12 +1845,12 @@ msgstr ""
 " de temps après avoir lancé le programme et avoir cliqué sur le bouton « Se "
 "connecter » si vous l’utilisez pour la première fois."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Quick fixes"
 msgstr "##### Solutions rapides"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If Tor Browser doesn’t connect, there may be a simple solution. Try each of "
@@ -1852,7 +1859,7 @@ msgstr ""
 "Si le Navigateur Tor ne se connecte pas, il existe peut-être une solution "
 "simple. Essayez une des suivantes :"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
@@ -1861,7 +1868,7 @@ msgstr ""
 "* L'horloge système de votre ordinateur doit être ajustée correctement ou "
 "Tor ne pourra pas se connecter."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
@@ -1870,7 +1877,7 @@ msgstr ""
 "* Assurez-vous qu'un autre navigateur Tor n'est pas déjà en cours "
 "d'exécution. Si vous n'en êtes pas certain, redémarrez votre ordinateur."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure that any antivirus program you have installed is not preventing "
@@ -1881,12 +1888,12 @@ msgstr ""
 "fonctionner. Si vous ne savez pas comment le faire, consultez la "
 "documentation de votre antivirus."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "* Temporarily disable your firewall."
 msgstr "* Désactivez temporairement votre pare-feu."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Delete Tor Browser and install it again. If updating, do not just "
@@ -1897,12 +1904,12 @@ msgstr ""
 " à jour, n’écrasez pas vos anciens fichiers du Navigateur Tor ; assurez-vous"
 " de les supprimer complètement avant."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Is your connection censored?"
 msgstr "##### Votre connexion est-elle censurée ?"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If you still can’t connect, your Internet Service Provider might be "
@@ -1914,12 +1921,12 @@ msgstr ""
 "Lire la section <a href=\"/circumvention\">Le contournement</a> pour "
 "découvrir des solutions possibles."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Known issues"
 msgstr "##### Une liste de problèmes connus."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is under constant development, and some issues are known about "
@@ -1932,18 +1939,18 @@ msgstr ""
 "=\"known-issues\">Les problèmes connus</a> pour vérifier si le problème que "
 "vous rencontrez  n’y est pas déjà répertorié."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.seo_slug)
 msgid "troubleshooting"
 msgstr "Dépannage"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.title)
 #: (content/known-issues/contents+en-US.lrtopic.description)
 msgid "Known issues"
 msgstr "Les problèmes connus"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
@@ -1951,7 +1958,7 @@ msgstr ""
 "* Tor exige que votre horloge système soit réglée à l’heure juste (et que "
 "votre fuseau horaire soit bien défini)."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
@@ -1960,27 +1967,27 @@ msgstr ""
 "* Les logiciels pare-feu suivants sont reconnus pour interférer avec Tor et "
 "il pourrait être nécessaire de les désactiver temporairement :"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
 msgstr "* Webroot SecureAnywhere"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
 msgstr "* Kaspersky Internet Security 2012"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
 msgstr "* Sophos Antivirus pour Mac"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
 msgstr "* Microsoft Security Essentials"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
@@ -1989,12 +1996,12 @@ msgstr ""
 "* Les vidéos qui exigent Adobe Flash ne sont pas proposées. Flash ait "
 "désactivé pour des raisons de sécurité."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
 msgstr "* Tor ne peut pas utiliser un pont si un mandataire est défini."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
@@ -2004,7 +2011,7 @@ msgstr ""
 "afin de garantir que chaque version du logiciel est exactement "
 "reproductible."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "
@@ -2018,7 +2025,7 @@ msgstr ""
 "définissez « Fichiers texte exécutables » à « Demander quoi faire », puis "
 "fermez la fenêtre de dialogue."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser can also be started from the command line by running the "
@@ -2027,12 +2034,12 @@ msgstr ""
 "* Le navigateur Tor peut aussi être lancé à partir de la ligne de commande "
 "en exécutant la commande suivante dans le répertoire du navigateur :"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
@@ -2041,24 +2048,24 @@ msgstr ""
 "* BitTorrent en particulier <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">n’est pas anonyme avec Tor</a></mark>."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
 msgid "uninstalling"
 msgstr "La désinstallation"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.title)
 msgid "Uninstalling"
 msgstr "La désinstallation"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.description)
 msgid "How to remove Tor Browser from your system"
 msgstr "Comment supprimer le Navigateur Tor de votre système ?"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser does not affect any of the existing software or settings on your"
@@ -2069,12 +2076,12 @@ msgstr ""
 "ordinateur. La désinstallation du Navigateur Tor n’affectera ni les "
 "logiciels ni les paramètres de votre système."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "Removing Tor Browser from your system is simple:"
 msgstr "Il est simple de supprimer le Navigateur Tor de votre système :"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "1. Locate your Tor Browser folder. The default location on Windows is the "
@@ -2088,17 +2095,17 @@ msgstr ""
 "nommé « tor-browser_fr » si vous utilisez la version en français du "
 "Navigateur Tor."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
 msgstr "2. Supprimez le dossier du Navigateur Tor."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
 msgstr "3. Videz votre corbeille."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
@@ -2106,17 +2113,17 @@ msgstr ""
 "Prenez note que javascript:;l’utilitaire habituel de désinstallation de "
 "votre système d’exploitation n’est pas utilisé."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.title)
 msgid "Becoming a Tor Translator"
 msgstr "Devenir traducteur de Tor"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.description)
 msgid "Becoming a translator for the Tor Project"
 msgstr "Devenez traducteur pour le Projet Tor"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "If you are interested in helping out the project by translating the manual "
@@ -2132,31 +2139,31 @@ msgstr ""
 "dessous une description brève qui explique comment s’inscrire et commencer à"
 " traduire."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "##### Signing up on Transifex"
 msgstr "##### S’inscrire sur Transifex"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr "* Rendez-vous sur la page d'inscription de Transifex."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr ""
 "Remplissez les champs avec vos renseignements et cliquez sur le bouton « "
 "S’inscrire » :"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
@@ -2165,19 +2172,19 @@ msgstr ""
 "* Remplissez la page suivante avec votre nom et choisissez « Localisation » "
 "et « Traducteur » dans les menus déroulants :"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
 "* Sur la page suivante, sélectionnez « Se joindre à un projet existant » et "
 "poursuivez."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
@@ -2186,7 +2193,7 @@ msgstr ""
 "* Sur la page suivante, sélectionnez dans le menu déroulant les langues que "
 "vous parlez et poursuivez."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* You are now signed up! Go to the <a "
@@ -2194,19 +2201,19 @@ msgid ""
 msgstr ""
 "* Vous êtes maintenant inscrit ! Rendez-vous sur la page Transifex de Tor."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
 "* Cliquez sur le bouton bleu « Se joindre à l’équipe » situé complètement à "
 "droite :"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
@@ -2214,24 +2221,24 @@ msgstr ""
 "* Sélectionnez dans le menu déroulant la langue vers laquelle vous souhaitez"
 " traduire :"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr ""
 "* Une notification comme celle-ci apparaîtra maintenant en haut de la page "
 "comme suit :"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "After your membership is approved you can begin translating; simply navigate"
@@ -2245,7 +2252,7 @@ msgstr ""
 " quand vous serez prêt à commencer. Nous vous remercions de votre intérêt à "
 "aider le projet !"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
 msgstr "devenir-traducteur-de-Tor"
@@ -2286,10 +2293,6 @@ msgstr ""
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
 msgstr "Tor Project | Le guide d'utilisation du navigateur Tor"
-
-#: templates/navbar.html:4
-msgid "Tor Logo"
-msgstr "Logo Tor"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"

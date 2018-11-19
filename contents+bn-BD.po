@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 22:16+CET\n"
+"POT-Creation-Date: 2018-11-19 14:20+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Bengali (https://www.transifex.com/otf/teams/1519/bn/)\n"
@@ -17,22 +17,25 @@ msgstr ""
 "Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: http//localhost/en-US/ (content/contents+en-US.lrshowcase.title)
+#: https//tb-manual.torproject.org/en-US/
+#: (content/contents+en-US.lrshowcase.title)
 msgid "How can we help?"
 msgstr "আমরা কিভাবে সাহায্য করতে পারি?"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.title)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.title)
 msgid "About Tor Browser"
 msgstr "টর ব্রাউজার সম্পর্কে"
 
-#: http//localhost/en-US/about/
+#: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 "আপনার গোপনীয়তা এবং গোপনীয়তার সুরক্ষার জন্য টর ব্রাউজার কি করতে পারে তা "
 "জানুন"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser uses the Tor network to protect your privacy and anonymity. "
 "Using the Tor network has two main properties:"
@@ -40,7 +43,8 @@ msgstr ""
 "টর ব্রাউজার আপনার গোপনীয়তা এবং গোপনীয়তা রক্ষা করার জন্য টর নেটওয়ার্ক "
 "ব্যবহার করে। টর নেটওয়ার্ক ব্যবহার করে দুটি প্রধান বৈশিষ্ট্য রয়েছে:"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* Your internet service provider, and anyone watching your connection "
 "locally, will not be able to track your internet activity, including the "
@@ -50,7 +54,8 @@ msgstr ""
 " আপনার ওয়েব সাইটের নাম এবং ঠিকানা সহ আপনার ইন্টারনেট কার্যকলাপ ট্র্যাক করতে"
 " সক্ষম হবে না।"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* The operators of the websites and services that you use, and anyone "
 "watching them, will see a connection coming from the Tor network instead of "
@@ -62,7 +67,8 @@ msgstr ""
 "আসছে একটি সংযোগ দেখতে পাবেন এবং যদি আপনি স্পষ্টভাবে নিজেকে চিহ্নিত না করেন "
 "তবে আপনি কে জানেন না।"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "In addition, Tor Browser is designed to prevent websites from "
 "“fingerprinting” or identifying you based on your browser configuration."
@@ -71,21 +77,21 @@ msgstr ""
 " বা আপনার ব্রাউজার কনফিগারেশনের উপর ভিত্তি করে আপনাকে সনাক্ত করার জন্য "
 "ডিজাইন করা হয়েছে।"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
+"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
-"ডিফল্টরূপে, টর ব্রাউজার কোনও ব্রাউজিং ইতিহাস রাখে না কুকিজ একক সেশনের জন্য "
-"শুধুমাত্র বৈধ (টর ব্রাউজার থেকে প্রস্থান করা হয় বা একটি <a href=\"managing-"
-"identities#new-identity\">নতুন পরিচয়</a> অনুরোধ করা হয়) পর্যন্ত বৈধ।"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid "##### How Tor works"
 msgstr "##### কিভাবে টর কাজ করে"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor is a network of virtual tunnels that allows you to improve your privacy "
 "and security on the Internet. Tor works by sending your traffic through "
@@ -99,13 +105,15 @@ msgstr ""
 "করে। সার্কিটের সর্বশেষ রিলে (\"প্রস্থান রিলে\") তারপর পাবলিক ইন্টারনেটে "
 "ট্র্যাফিক পাঠায়।"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "The image above illustrates a user browsing to different websites over Tor. "
 "The green middle computers represent relays in the Tor network, while the "
@@ -116,22 +124,22 @@ msgstr ""
 "করে। সবুজ মাঝারি কম্পিউটার টর নেটওয়ার্কগুলিতে রিলেস উপস্থাপন করে, যখন তিনটি"
 " কী ব্যবহারকারীর মধ্যে এনক্রিপশন স্তর এবং প্রতিটি রিলে প্রতিনিধিত্ব করে।"
 
-#: http//localhost/en-US/about/
+#: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.seo_slug)
 msgid "about"
 msgstr "আমাদের সম্পর্কে"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.title)
 msgid "Downloading"
 msgstr "ডাউনলোড হচ্ছে"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.description)
 msgid "How to download Tor Browser"
 msgstr "টর ব্রাউজার ডাউনলোড কিভাবে?"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "The safest and simplest way to download Tor Browser is from the official Tor"
@@ -146,7 +154,7 @@ msgstr ""
 "connections.html\">HTTPS</a> ব্যবহার করে সুরক্ষিত থাকবে, যার সাহায্যে কাউকে "
 "কাউকে ছিঁড়ে ফেলা হবে।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "However, there may be times when you cannot access the Tor Project website: "
@@ -158,12 +166,12 @@ msgstr ""
 "ঘটে, আপনি নীচে তালিকাভুক্ত বিকল্প ডাউনলোড পদ্ধতিগুলির মধ্যে একটি ব্যবহার "
 "করতে পারেন।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "##### GetTor"
 msgstr "##### GetTor"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor is a service that automatically responds to messages with links to "
@@ -173,12 +181,12 @@ msgstr ""
 "জেটটি এমন একটি পরিষেবা যা স্বয়ংক্রিয়ভাবে টর ব্রাউজারের সর্বশেষ সংস্করণে "
 "লিঙ্ক দেয়, যেমন ড্রপ-বক্স্, Google ড্রাইভ এবং গিটহাব ।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via email:"
 msgstr "##### ইমেলের মাধ্যমে GetTor ব্যবহার করতে:"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Send an email to gettor@torproject.org, and in the body of the message "
@@ -189,7 +197,7 @@ msgstr ""
 "সিস্টেমের উপর নির্ভর করে শুধু \"উইন্ডোজ\", \"ওএসএক্স\", বা \"লিনাক্স\" "
 "(উদ্ধৃতি চিহ্ন ছাড়াই) লিখুন।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor will respond with an email containing links from which you can "
@@ -205,12 +213,12 @@ msgstr ""
 "প্যাকেজের চেকসাম। আপনি \"32-বিট\" বা \"64-বিট\" সফ্টওয়্যার চয়ন করতে পারেন:"
 " এটি আপনার ব্যবহার করা কম্পিউটারের মডেলের উপর নির্ভর করে।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
 msgstr "##### টুইটারের মাধ্যমে GetTor ব্যবহার করতে:"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in English for OS X, send a Direct "
@@ -221,12 +229,12 @@ msgstr ""
 "\"ওএসএক্স এন\" শব্দটি দিয়ে (এটি আপনাকে অ্যাকাউন্টটি অনুসরণ করতে হবে না) "
 "দিয়ে @get_tor- এ একটি সরাসরি বার্তা পাঠান।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr "##### Jabber/XMPP (Jitsi, CoyIM, etc.) মাধ্যমে জেটটি ব্যবহার করতে:"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
@@ -236,22 +244,22 @@ msgstr ""
 "<a>Gettor@torproject.org</a>- এ একটি বার্তা পাঠান যাতে \"linux zh\" শব্দটি "
 "ব্যবহার করুন।"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
 msgid "downloading"
 msgstr "ডাউনলোড হচ্ছে"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.title)
 msgid "Running Tor Browser for the first time"
 msgstr "প্রথমবার রান টর ব্রাউজার"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.description)
 msgid "Learn how to use Tor Browser for the first time"
 msgstr "প্রথমবার টর ব্রাউজার কিভাবে ব্যবহার করবেন জানুন"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "When you run Tor Browser for the first time, you will see the Tor Network "
@@ -262,19 +270,19 @@ msgstr ""
 "দেখতে পাবেন। এটি আপনাকে টর নেটওয়ার্কে সরাসরি সংযোগের বিকল্প প্রদান করে, "
 "অথবা আপনার সংযোগের জন্য টর ব্রাউজার কনফিগার করতে দেয়।"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Connect"
 msgstr "##### সংযোগ করা"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "In most cases, choosing \"Connect\" will allow you to connect to the Tor "
@@ -291,19 +299,19 @@ msgstr ""
 "href=\"troubleshooting\">সমস্যার সমাধান</a> সাহায্যের জন্য সমস্যা সমাধান "
 "পৃষ্ঠা দেখুন।"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Configure"
 msgstr "##### কনফিগার করুন"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "If you know that your connection is censored, or uses a proxy, you should "
@@ -314,7 +322,7 @@ msgstr ""
 "এই বিকল্পটি নির্বাচন করা উচিত। টর ব্রাউজার কনফিগারেশন বিকল্পগুলির একটি সিরিজ"
 " মাধ্যমে আপনাকে নিয়ে যাবে।"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The first screen asks if access to the Tor network is blocked or censored on"
@@ -331,7 +339,7 @@ msgstr ""
 "\"হ্যাঁ\" নির্বাচন করুন। একটি প্ল্যাগেবল ট্রান্সপোর্ট কনফিগার করার জন্য আপনি"
 " তারপর <a href=\"/circumvention\">সার্কোমাম্পশন</a> স্ক্রীনে নিয়ে যাবেন।"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The next screen asks if your connection uses a proxy. In most cases, this is"
@@ -347,27 +355,27 @@ msgstr ""
 "প্রশাসকের কাছে জিজ্ঞাসা করুন। যদি আপনার সংযোগ কোনও প্রক্সি ব্যবহার না করে, "
 "\"অবিরত\" ক্লিক করুন।"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
 msgid "Bridges"
 msgstr "ব্রিজ"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.description)
 msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
@@ -376,7 +384,7 @@ msgstr ""
 "সর্বাধিক প্ল্যাগেবল ট্রান্সপোর্ট, যেমন obfs3 এবং obfs4 হিসাবে, \"ব্রিজ\" "
 "relays ব্যবহারের উপর নির্ভর করে।"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
@@ -393,7 +401,7 @@ msgstr ""
 " না। প্ল্যাগেবল ট্রান্সফর্মের সাথে মিলিত ব্রিজ ব্যবহার করে আপনি টর ব্যবহার "
 "করছেন তা ছদ্মবেশে সাহায্য করে।"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Other pluggable transports, like meek, use different anti-censorship "
@@ -404,12 +412,12 @@ msgstr ""
 "কৌশলগুলি ব্যবহার করে যা সেতুগুলিতে নির্ভর করে না। এই ট্রান্সপোর্টগুলি "
 "ব্যবহার করার জন্য আপনাকে ব্রিজের ঠিকানাগুলি পেতে হবে না।"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Getting bridge addresses"
 msgstr "##### ব্রিজের ঠিকানাগুলি পাওয়া"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Because bridge addresses are not public, you will need to request them "
@@ -418,14 +426,14 @@ msgstr ""
 "যেহেতু ব্রিজগুলি ঠিকানাগুলি সর্বজনীন নয় তাই আপনাকে তাদের নিজের কাছে অনুরোধ "
 "করতে হবে। আপনার দুটি বিকল্প আছে:"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
 "* https://bridges.torproject.org/ দেখুন এবং নির্দেশাবলী অনুসরণ করুন, অথবা"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
@@ -433,12 +441,12 @@ msgstr ""
 "* ইমেইল, bridges@torproject.org একটি জিমেইল, ইয়াহু, বা রিয়েপ ইমেল ঠিকানা, "
 "বা"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Entering bridge addresses"
 msgstr "##### ব্রিজ ঠিকানাগুলি প্রবেশ করানো"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -447,7 +455,7 @@ msgstr ""
 "একবার আপনি কিছু ব্রিজ ঠিকানা প্রাপ্ত করা হয়েছে, আপনি টর লঞ্চার মধ্যে তাদের "
 "প্রবেশ করতে হবে।"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If you're starting Tor Browser for the first time, click 'Configure' to open"
@@ -456,7 +464,7 @@ msgid ""
 "options."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "In the Tor Network Settings window, select 'Tor is censored in my country.' "
@@ -464,21 +472,21 @@ msgid ""
 "separate line."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
@@ -488,24 +496,24 @@ msgstr ""
 "ঠিকানা প্রাপ্ত করার জন্য উপরের পদ্ধতিগুলির একটি ব্যবহার করুন, এবং আবার "
 "চেষ্টা করুন।"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
 msgid "bridges"
 msgstr "ব্রিজ"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.title)
 msgid "Pluggable transports"
 msgstr "প্ল্যাগেবল ট্রান্সপোর্টগুলি"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.description)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out."
 msgstr ""
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
@@ -518,12 +526,12 @@ msgstr ""
 "সক্রিয়ভাবে টর নেটওয়ার্ক সংযোগ সংযোগ অবরোধ যেখানে পরিস্থিতিতে দরকারী হতে "
 "পারে।"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "##### Types of pluggable transport"
 msgstr "##### প্ল্যাগেবল ট্রান্সপোর্টের ধরন"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Currently there are six pluggable transports available, but more are being "
@@ -532,37 +540,37 @@ msgstr ""
 "বর্তমানে ছয়টি প্ল্যাগেবল ট্রান্সপোর্টগুলি পাওয়া যায়, তবে আরো উন্নত করা "
 "হচ্ছে।"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<table>"
 msgstr "<table>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tbody>"
 msgstr "<tbody>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"odd\">"
 msgstr "<tr class=\"odd\">"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<td>"
 msgstr "<td>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs3"
 msgstr "obfs3"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</td>"
 msgstr "</td>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs3 makes Tor traffic look random, so that it does not look like Tor or "
@@ -570,22 +578,22 @@ msgid ""
 "use obfs4 instead, as it has several security improvements over obfs3."
 msgstr ""
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tr>"
 msgstr "</tr>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"even\">"
 msgstr "<tr class=\"even\">"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs4"
 msgstr "obfs4"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
@@ -596,12 +604,12 @@ msgstr ""
 "স্ক্যানিং দ্বারা ব্রিজ খুঁজে পেতে সেন্সরগুলিকেও প্রতিরোধ করে। obfs4 ব্রিজ "
 "obfs3 ব্রিজের চেয়ে ব্লক করা সম্ভবত কম।"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
@@ -610,12 +618,12 @@ msgstr ""
 "FTE (ফরম্যাট-রূপান্তর এনক্রিপশন) সাধারণ ওয়েব (HTTP) ট্র্যাফিক হিসাবে টর "
 "ট্রাফিক ছদ্মবেশ।"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "meek"
 msgstr "meek"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "These transports all make it look like you are browsing a major web site "
@@ -628,44 +636,44 @@ msgstr ""
 "পরিষেবা ব্যবহার করছেন; মেকার-অজর এটি একটি মাইক্রোসফ্ট ওয়েব সাইট ব্যবহার করে"
 " দেখায়; এবং নিখুঁত-গুগল এটি দেখায় যে আপনি গুগল অনুসন্ধান ব্যবহার করছেন।"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "Snowflake"
 msgstr ""
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
 "WebRTC, a peer-to-peer protocol with built-in NAT punching."
 msgstr ""
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tbody>"
 msgstr "</tbody>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</table>"
 msgstr "</table>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
 msgstr ""
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
 msgid "Circumvention"
 msgstr "প্রতারণা"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
 msgstr "টর্ নেটওয়ার্ক অবরোধ করলে কি করবেন?"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
@@ -681,12 +689,12 @@ msgstr ""
 "US/transports\">\"প্লাগযোগ্য ট্রান্সপোর্টগুলি\"</a> বলা হয়। বর্তমানে উপলব্ধ"
 " যে ধরনের ধরনের উপর আরো তথ্যের জন্য প্ল্যাগেবল ট্রান্সফর্ম পৃষ্ঠা দেখুন."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Using pluggable transports"
 msgstr "##### প্ল্যাগেবল ট্রান্সপোর্টগুলি ব্যবহার করুন"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "To use pluggable transports, click \"Configure\" in the Tor Launcher window "
@@ -695,7 +703,7 @@ msgstr ""
 "প্ল্যাগেবল ট্রান্সফর্ম ব্যবহার করার জন্য, টর লঞ্চার উইন্ডোতে \"কনফিগার "
 "করুন\" ক্লিক করুন যা আপনি টর ব্রাউজারটি প্রথম চালানোর পরে দেখেন।"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "You can also configure pluggable transports while Tor Browser is running, by"
@@ -706,7 +714,7 @@ msgstr ""
 "সেটিংস\" নির্বাচন করে আপনি টর ব্রাউজার চালনা করলে প্ল্যাগেবল ট্রান্সফর্মগুলি"
 " কনফিগার করতে পারবেন।"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “yes” when asked if your Internet Service Provider blocks connections"
@@ -715,12 +723,12 @@ msgstr ""
 "আপনার ইন্টারনেট পরিষেবা সরবরাহকারী টর নেটওয়ার্ক সংযোগ বন্ধ করে জিজ্ঞাসা করা"
 " হলে \"হ্যাঁ\" নির্বাচন করুন।"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 msgstr ""
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “Connect with provided bridges”. Tor Browser currently has six "
@@ -729,12 +737,12 @@ msgstr ""
 "\"সরবরাহকৃত ব্রিজগুলির সাথে সংযোগ করুন\" নির্বাচন করুন টর ব্রাউজার বর্তমানে "
 "থেকে নির্বাচন করতে ছয় প্ল্যাগেবল পরিবহন বিকল্প আছে|"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Which transport should I use?"
 msgstr "##### কোন পরিবহন আমি ব্যবহার করা উচিত?"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
@@ -747,7 +755,7 @@ msgstr ""
 "ট্রান্সফর্ম</a> পৃষ্ঠাটি দেখুন), এবং তাদের কার্যকারিতা আপনার ব্যক্তিগত "
 "পরিস্থিতির উপর নির্ভর করে।"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
@@ -758,7 +766,7 @@ msgstr ""
 " বিভিন্ন পরিবহনের চেষ্টা করা উচিত: obfs3, obfs4, fte, meek-azure এবং "
 "Snowflake ।"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
@@ -771,23 +779,23 @@ msgstr ""
 "কীভাবে শিখছে এবং কিভাবে সেগুলি পেতে হয় তা শিখতে <a href=\"/en-"
 "US/bridges/\">ব্রিজেস</a> বিভাগটি পড়ুন।"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
 msgstr "প্রতারণা"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.title)
 msgid "Managing identities"
 msgstr "সনাক্তকরণ পরিচালনা"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.description)
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
 "টর ব্রাউজারে ব্যক্তিগতভাবে সনাক্তকারী তথ্য কীভাবে নিয়ন্ত্রণ করবেন তা জানুন"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you connect to a website, it is not only the operators of that website "
@@ -802,7 +810,7 @@ msgstr ""
 " সহ বিভিন্ন তৃতীয় পক্ষের পরিষেবাগুলি ব্যবহার করে, যা সমস্ত বিভিন্ন সাইট "
 "জুড়ে আপনার কার্যকলাপ লিঙ্ক করতে পারে।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Using the Tor network stops observers from being able to discover your exact"
@@ -817,12 +825,12 @@ msgstr ""
 "কিছু অতিরিক্ত বৈশিষ্ট্য রয়েছে যা আপনাকে আপনার পরিচয় থেকে কি তথ্য সংযুক্ত "
 "করতে পারে তা নিয়ন্ত্রণে সহায়তা করে।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### The URL bar"
 msgstr "##### URL বার"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser centers your web experience around your relationship with the "
@@ -837,7 +845,7 @@ msgstr ""
 "ব্রাউজারটি সামগ্রীটি দুটি ভিন্ন টর সার্কিটগুলিতে পরিবেশিত করতে বাধ্য করবে, "
 "তাই ট্র্যাকার জানেন না যে উভয় সংযোগ আপনার ব্রাউজার থেকে উদ্ভূত হবে।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "On the other hand, all connections to a single website address will be made "
@@ -849,19 +857,19 @@ msgstr ""
 "মানে আপনি কার্যকরী কোন ক্ষতি ছাড়া পৃথক ট্যাব বা উইন্ডোতে একক ওয়েবসাইটের "
 "বিভিন্ন পৃষ্ঠা ব্রাউজ করতে পারেন।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "In the circuit, the Guard or entry node is the first node and it's "
@@ -873,12 +881,12 @@ msgid ""
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Logging in over Tor"
 msgstr "##### Logging in over Tor"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Although Tor Browser is designed to enable total user anonymity on the web, "
@@ -890,7 +898,7 @@ msgstr ""
 "ব্যবহার করতে বোঝায় যা ব্যবহারকারীর নাম, পাসওয়ার্ড বা অন্য সনাক্তকারী "
 "তথ্যগুলির প্রয়োজন।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "If you log into a website using a regular browser, you also reveal your IP "
@@ -908,7 +916,7 @@ msgstr ""
 " ইন করাও দরকারী যদি আপনার কাছে পৌঁছানোর চেষ্টা করা ওয়েবসাইটটি আপনার "
 "নেটওয়ার্কের উপর সেন্সর করা হয়।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you log in to a website over Tor, there are several points you should "
@@ -917,7 +925,7 @@ msgstr ""
 "আপনি টর উপর একটি ওয়েবসাইটে লগ ইন করার সময়, আপনি মনে করা উচিত বিভিন্ন "
 "পয়েন্ট আছে:"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
@@ -926,7 +934,7 @@ msgstr ""
 "* লগ ইন ইন করার সময় কীভাবে আপনার সংযোগ সুরক্ষিত রাখতে গুরুত্বপূর্ণ তথ্যের "
 "<a href=\"secure-connections\">নিরাপদ সংযোগগুলি</a> পৃষ্ঠাটি দেখুন।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser often makes your connection appear as though it is coming from"
@@ -943,29 +951,29 @@ msgstr ""
 "অ্যাকাউন্ট পুনরুদ্ধারের জন্য সাইটের প্রস্তাবিত পদ্ধতি অনুসরণ করে, বা "
 "অপারেটরদের সাথে যোগাযোগ করা এবং পরিস্থিতি ব্যাখ্যা করে।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Changing identities and circuits"
 msgstr "##### সনাক্তকরণ এবং সার্কিট পরিবর্তন"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
 "options, located in the main menu (hamburger menu)."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Identity"
 msgstr "##### নতুন পরিচয়"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if you want to prevent your subsequent browser "
@@ -983,12 +991,12 @@ msgstr ""
 "ডাউনলোডগুলি বন্ধ হয়ে যাবে, তাই \"নতুন পরিচয়\" ক্লিক করার পূর্বে এটি "
 "বিবেচনা করুন।"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Tor circuit for this site"
 msgstr "##### এই সাইটের জন্য নতুন টর সার্কিট"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if the <a href=\"/about/#how-tor-works\">exit "
@@ -1000,29 +1008,29 @@ msgid ""
 " activity, nor does it affect your current connections to other websites."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
 msgid "Onion Services"
 msgstr "ওনিওন সেবা"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.description)
 msgid "Services that are only accessible using Tor"
 msgstr "পরিষেবাগুলি কেবল টর ব্যবহার করে অ্যাক্সেসযোগ্য"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
@@ -1031,7 +1039,7 @@ msgstr ""
 "Onion পরিষেবাগুলি (পূর্বে \"লুকানো পরিষেবাগুলি\" নামে পরিচিত) সেবাগুলি (যেমন"
 " ওয়েবসাইট) যা টর নেটওয়ার্ক এর মাধ্যমে অ্যাক্সেসযোগ্য।"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
@@ -1040,7 +1048,7 @@ msgstr ""
 "Onion পরিষেবাগুলি অ-প্রাইভেট ওয়েবের সাধারণ পরিষেবাগুলির উপর অনেক সুবিধা "
 "প্রদান করে:"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
@@ -1049,7 +1057,7 @@ msgstr ""
 "* একটি onion পরিষেবাগুলির অবস্থান এবং IP ঠিকানা লুকানো আছে, বিরোধীদের পক্ষে "
 "এটি সেন্সর করা বা তার অপারেটরদের সনাক্ত করা কঠিন করে তোলে।"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
@@ -1060,7 +1068,7 @@ msgstr ""
 "শেষ-থেকে-শেষ এনক্রিপ্ট হয়েছে, তাই আপনাকে <a href=\"/secure-"
 "connections\">HTTPS</a> এর সাথে সংযোগের বিষয়ে চিন্তা করতে হবে না।"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* The address of an onion service is automatically generated, so the "
@@ -1072,12 +1080,12 @@ msgstr ""
 "ডোমেন নাম ক্রয় করতে হবে না; .ওন ইউআরএল টরকে নিশ্চিত করে যে এটি সঠিক "
 "অবস্থানের সাথে সংযোগ স্থাপন করছে এবং সংযোগ বিচ্ছিন্ন করা হচ্ছে না।"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### How to access an onion service"
 msgstr "##### একটি onion পরিষেবা অ্যাক্সেস কিভাবে"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Just like any other website, you will need to know the address of an onion "
@@ -1085,7 +1093,7 @@ msgid ""
 "in V3 format, 56) mostly random letters and numbers, followed by “.onion”."
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "When accessing a website that uses an onion service, Tor Browser will show "
@@ -1095,12 +1103,12 @@ msgid ""
 "and a padlock."
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### Troubleshooting"
 msgstr "##### সমস্যা সমাধান"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you cannot reach the onion service you require, make sure that you have "
@@ -1108,7 +1116,7 @@ msgid ""
 "Browser from being able to reach the site."
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you are still unable to connect to the onion service, please try again "
@@ -1119,7 +1127,7 @@ msgstr ""
 "করুন। একটি অস্থায়ী সংযোগ সমস্যা হতে পারে, বা সাইট অপারেটর এটি সতর্কবার্তা "
 "ছাড়া অফলাইনে যেতে অনুমতি দেওয়া হতে পারে।"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "You can also ensure that you're able to access other onion services by "
@@ -1130,23 +1138,23 @@ msgstr ""
 "href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion</a> পরিষেবাতে "
 "সংযুক্ত করে অন্যান্য পেঁয়াজ পরিষেবাগুলি অ্যাক্সেস করতে সক্ষম হচ্ছেন"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
 msgid "onion-services"
 msgstr "ওনিওন-সেবা"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.title)
 msgid "Secure Connections"
 msgstr "নিরাপদ সংযোগগুলি"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.description)
 msgid "Learn how to protect your data using Tor Browser and HTTPS"
 msgstr ""
 "টর ব্রাউজার এবং HTTPS ব্যবহার করে আপনার ডেটা সুরক্ষিত করার পদ্ধতি শিখুন"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "If personal information such as a login password travels unencrypted over "
@@ -1163,12 +1171,12 @@ msgstr ""
 " যাচাই করতে পারেন: আপনার সংযোগ এনক্রিপ্ট করা হলে, ঠিকানাটি \"http: //\" এর "
 "পরিবর্তে \"https: //\" দিয়ে শুরু হবে।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "The following visualization shows what information is visible to "
@@ -1177,12 +1185,12 @@ msgstr ""
 "নীচের ভিজ্যুয়ালাইজেশানটি দেখায় যে টর ব্রাউজার এবং HTTPS এনক্রিপশনের সাথে "
 "এবং ছাড়া ছাড়া কী eavesdroppers দেখতে হয়:"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
@@ -1191,7 +1199,7 @@ msgstr ""
 "* আপনি Tor ব্যবহার করছেন যখন পর্যবেক্ষক দৃশ্যমান কি দেখতে \"টর\" বোতাম ক্লিক"
 " করুন। যে টরটি চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
@@ -1201,7 +1209,7 @@ msgstr ""
 "দেখতে \"HTTPS\" বোতামটি ক্লিক করুন। যে HTTPS চালু আছে তা নির্দেশ করার জন্য "
 "বোতামটি সবুজ হয়ে যাবে।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are green, you see the data that is visible to observers"
@@ -1210,7 +1218,7 @@ msgstr ""
 "* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি "
 "ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
@@ -1219,92 +1227,92 @@ msgstr ""
 "* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি "
 "ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "##### Potentially visible data"
 msgstr "##### সম্ভাব্য দৃশ্যমান ডেটা"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dl>"
 msgstr "<dl>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dt>"
 msgstr "<dt>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Site.com"
 msgstr "Site.com"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dt>"
 msgstr "</dt>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dd>"
 msgstr "<dd>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "The site being visited."
 msgstr "সাইট পরিদর্শন করা হচ্ছে।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dd>"
 msgstr "</dd>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "user / pw"
 msgstr "user / pw"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Username and password used for authentication."
 msgstr "ব্যবহারকারীর নাম এবং পাসওয়ার্ড প্রমাণীকরণের জন্য ব্যবহৃত।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "data"
 msgstr "ডাটা"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Data being transmitted."
 msgstr "তথ্য প্রেরণ করা হচ্ছে।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "location"
 msgstr "অবস্থান"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "Network location of the computer used to visit the website (the public IP "
@@ -1312,47 +1320,47 @@ msgid ""
 msgstr ""
 "ওয়েবসাইটের জন্য ব্যবহৃত কম্পিউটারের নেটওয়ার্ক স্থান (পাবলিক আইপি ঠিকানা)।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Tor"
 msgstr "Tor"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Whether or not Tor is being used."
 msgstr "টর্চ ব্যবহার করা হচ্ছে কিনা বা না।"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dl>"
 msgstr "</dl>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.title)
 msgid "Security Slider"
 msgstr "নিরাপত্তা স্লাইডার"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.description)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr "নিরাপত্তা এবং ব্যবহারযোগ্যতা জন্য টর ব্রাউজার কনফিগার"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes a “Security Slider” that lets you increase your "
@@ -1368,45 +1376,45 @@ msgstr ""
 "আপনার প্রয়োজনীয় প্রয়োজনীয়তাটি ডিগ্রির বিরুদ্ধে আপনার সুরক্ষার "
 "প্রয়োজনগুলির তুলনা করা উচিত।"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
 msgstr "##### Accessing the Security Slider"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
 msgstr "##### নিরাপত্তা স্তর"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Increasing the level of the Security Slider will disable or partially "
@@ -1415,16 +1423,16 @@ msgstr ""
 "Increasing the level of the Security Slider will disable or partially "
 "disable certain browser features to protect against possible attacks."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safest"
 msgstr "নিরাপদ"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
@@ -1441,16 +1449,16 @@ msgstr ""
 "ডিফল্ট দ্বারা অক্ষম করা হয়; অধিকাংশ ভিডিও এবং অডিও ফরম্যাট অক্ষম; এবং কিছু "
 "ফন্ট এবং আইকন সঠিকভাবে প্রদর্শন করতে পারে না।"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safer"
 msgstr "নিরাপদ"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
@@ -1467,16 +1475,16 @@ msgstr ""
 "=\"/secure-connections\">HTTPS</a> সাইটগুলিতে ডিফল্টভাবে জাভাস্ক্রিপ্ট "
 "নিষ্ক্রিয় করা আছে।"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Standard"
 msgstr "মান"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, all browser features are enabled. This is the most usable "
@@ -1485,24 +1493,24 @@ msgstr ""
 "এই স্তরে, সমস্ত ব্রাউজার বৈশিষ্ট্য সক্ষম করা আছে। এটি সবচেয়ে ব্যবহারযোগ্য "
 "বিকল্প।"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.title)
 msgid "Updating"
 msgstr "আপডেট করা হচ্ছে"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.description)
 msgid "How to update Tor Browser"
 msgstr "টর ব্রাউজার আপডেট কিভাবে"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser must be kept updated at all times. If you continue to use an "
@@ -1513,7 +1521,7 @@ msgstr ""
 "সংস্করণ ব্যবহার করা চালিয়ে যান, তাহলে আপনার গোপনীয়তা এবং গোপনীয়তার সাথে "
 "আপস করে এমন গুরুতর নিরাপত্তা ত্রুটিগুলির জন্য আপনি দুর্বল হতে পারেন।"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
@@ -1526,17 +1534,17 @@ msgstr ""
 "খোলার পর আপনি একটি লিখিত আপডেট নির্দেশক দেখতে পাবেন। আপনি স্বয়ংক্রিয়ভাবে "
 "বা ম্যানুয়াল আপডেট করতে পারেন।"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
 msgstr "##### টর ব্রাউজার স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, click on the Torbutton icon, "
@@ -1545,12 +1553,12 @@ msgstr ""
 "টর ব্রাউজার আপডেট করার জন্য আপনাকে পরামর্শ দেওয়া হলে Torbutton আইকনে ক্লিক "
 "করুন, তারপর \"টর ব্রাউজার আপডেটের জন্য চেক করুন\" নির্বাচন করুন।"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When Tor Browser has finished checking for updates, click on the “Update” "
@@ -1559,12 +1567,12 @@ msgstr ""
 "যখন টর ব্রাউজার আপডেটগুলির জন্য পরীক্ষা সমাপ্ত করে, তখন \"আপডেট\" বোতামে "
 "ক্লিক করুন।"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Wait for the update to download and install, then restart Tor Browser. You "
@@ -1573,12 +1581,12 @@ msgstr ""
 "ডাউনলোড এবং ইনস্টল করার আপডেটের জন্য অপেক্ষা করুন, তারপর টর ব্রাউজার পুনরায়"
 " চালু করুন। আপনি এখন সর্বশেষ সংস্করণ চলমান হবে।"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
 msgstr "##### টর ব্রাউজার আপডেট হচ্ছে ম্যানুয়ালি"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, finish the browsing session and"
@@ -1587,7 +1595,7 @@ msgstr ""
 "আপনি টর ব্রাউজার আপডেট করার অনুরোধ জানানো হলে, ব্রাউজিং অধিবেশন শেষ করুন এবং"
 " প্রোগ্রাম বন্ধ করুন।"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
@@ -1595,7 +1603,7 @@ msgid ""
 "information)."
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Visit <a "
@@ -1608,27 +1616,27 @@ msgstr ""
 " এ যান এবং সর্বশেষ টর ব্রাউজার রিলিজের একটি অনুলিপি ডাউনলোড করুন, তারপরে এটি"
 " আগের মতো ইনস্টল করুন"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
 msgid "updating"
 msgstr "আপডেট করা হচ্ছে"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
 msgstr "প্লাগইন, অ্যাড-অন এবং জাভাস্ক্রিপ্ট"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
 msgstr "কিভাবে টর ব্রাউজার অ্যাড-অন, প্লাগইন এবং জাভাস্ক্রিপ্ট পরিচালনা করে"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Flash Player"
 msgstr "##### ফ্ল্যাশ প্লেয়ার"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Video websites, such as Vimeo make use of the Flash Player plugin to display"
@@ -1646,7 +1654,7 @@ msgstr ""
 "ব্রাউজারে ফ্ল্যাশ ডিফল্টভাবে নিষ্ক্রিয় করা হয়েছে, এবং সক্ষম করা এটির "
 "প্রস্তাবিত নয়।"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Some video websites (such as YouTube) offer alternative video delivery "
@@ -1657,12 +1665,12 @@ msgstr ""
 "বিতরণ পদ্ধতি প্রস্তাব করে। এই পদ্ধতিগুলি টর ব্রাউজারের সাথে সামঞ্জস্যপূর্ণ "
 "হতে পারে।"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### JavaScript"
 msgstr "##### JavaScript"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "JavaScript is a programming language that websites use to offer interactive "
@@ -1675,7 +1683,7 @@ msgstr ""
 "ব্যবহার করে। দুর্ভাগ্যবশত, জাভাস্ক্রিপ্ট ব্রাউজারের নিরাপত্তার উপর "
 "আক্রমণগুলি সক্রিয় করতে পারে, যা ডিনামাইমাইজেশন হতে পারে।"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript, accessible through the “S” "
@@ -1684,12 +1692,12 @@ msgid ""
 "it entirely."
 msgstr ""
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 msgstr ""
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Users who require a high degree of security in their web browsing should set"
@@ -1700,12 +1708,12 @@ msgid ""
 "allow all websites to run scripts in \"Standard\" mode."
 msgstr ""
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Browser Add-ons"
 msgstr "##### ব্রাউজার অ্যাড-অন"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
@@ -1714,7 +1722,7 @@ msgstr ""
 "টর ব্রাউজার ফায়ারফক্স ভিত্তিক এবং ফায়ারফক্সের সাথে সামঞ্জস্যপূর্ণ কোনো "
 "ব্রাউজার অ্যাড-অন বা থিম টর ব্রাউজারে ইনস্টল করা যায়।"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "However, the only add-ons that have been tested for use with Tor Browser are"
@@ -1730,22 +1738,22 @@ msgstr ""
 "অ্যাড-অনগুলি ইনস্টল করার জন্য এটি দৃঢ়ভাবে নিরুৎসাহিত হয় এবং টর প্রকল্প এই "
 "কনফিগারেশনের জন্য সমর্থন প্রদান করবে না।"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
 msgstr ""
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.title)
 msgid "Troubleshooting"
 msgstr "সমস্যা সমাধান"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.description)
 msgid "What to do if Tor Browser doesn’t work"
 msgstr "টর ব্রাউজার কাজ না করলে কি করবেন?"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "You should be able to start browsing the web using Tor Browser shortly after"
@@ -1756,12 +1764,12 @@ msgstr ""
 " \"সংযোগ\" বোতামটি ক্লিক করার পরে টর ব্রাউজার ব্যবহার করে ওয়েবে ব্রাউজ করা "
 "শুরু করতে সক্ষম হওয়া উচিত।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Quick fixes"
 msgstr "##### দ্রুত সংশোধন"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If Tor Browser doesn’t connect, there may be a simple solution. Try each of "
@@ -1770,7 +1778,7 @@ msgstr ""
 "যদি টর ব্রাউজার সংযুক্ত না হয়, তবে একটি সহজ সমাধান হতে পারে। নিম্নলিখিত "
 "প্রতিটি চেষ্টা করুন:"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
@@ -1779,7 +1787,7 @@ msgstr ""
 "* আপনার কম্পিউটারের সিস্টেম ঘড়ি সঠিকভাবে সেট করা উচিত, অথবা Tor সংযোগ করতে "
 "সক্ষম হবে না।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
@@ -1788,7 +1796,7 @@ msgstr ""
 "* অন্য টর ব্রাউজার ইতিমধ্যে চলছে না নিশ্চিত করুন। টর ব্রাউজার চলছে কিনা তা "
 "নিশ্চিত না হলে আপনার কম্পিউটার পুনরায় চালু করুন।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure that any antivirus program you have installed is not preventing "
@@ -1799,12 +1807,12 @@ msgstr ""
 "টরকে চলমান থেকে বিরত করা হচ্ছে না। আপনার অ্যান্টিভাইরাস সফটওয়্যারের জন্য "
 "ডকুমেন্টেশনের সাথে পরামর্শ করতে হবে যদি আপনি এটি কিভাবে করতে না জানেন।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "* Temporarily disable your firewall."
 msgstr "* অস্থায়ীভাবে আপনার ফায়ারওয়াল অক্ষম করুন।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Delete Tor Browser and install it again. If updating, do not just "
@@ -1815,12 +1823,12 @@ msgstr ""
 " টর ব্রাউজার ফাইলগুলিকে ওভাররাইট করবেন না; তারা পুরোপুরি পুরোপুরি মুছে ফেলা "
 "হয় নিশ্চিত।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Is your connection censored?"
 msgstr "##### আপনার সংযোগ সেন্সর হয়?"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If you still can’t connect, your Internet Service Provider might be "
@@ -1831,12 +1839,12 @@ msgstr ""
 "টর নেটওয়ার্কে সংযোগ বিচ্ছিন্ন হতে পারে। সম্ভব সমাধান জন্য সীমাবদ্ধতা "
 "অধ্যায় পড়ুন।"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Known issues"
 msgstr "##### জ্ঞাত সমস্যা"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is under constant development, and some issues are known about "
@@ -1845,25 +1853,25 @@ msgid ""
 " there."
 msgstr ""
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.seo_slug)
 msgid "troubleshooting"
 msgstr "সমস্যা সমাধান"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.title)
 #: (content/known-issues/contents+en-US.lrtopic.description)
 msgid "Known issues"
 msgstr "জ্ঞাত সমস্যা"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
 "* টর আপনার সিস্টেম ঘড়ি প্রয়োজন (এবং আপনার সময় অঞ্চল) সঠিক সময় সেট।"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
@@ -1872,27 +1880,27 @@ msgstr ""
 "* নিম্নলিখিত ফায়ারওয়াল সফ্টওয়্যার টর মধ্যে হস্তক্ষেপ পরিচিত হয়েছে এবং "
 "সাময়িকভাবে অক্ষম করা প্রয়োজন হতে পারে:"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
 msgstr "* Webroot Secure Anywhere"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
 msgstr "* Kaspersky Internet Security 2012"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
 msgstr "* ম্যাকের জন্য সোফোস অ্যান্টিভাইরাস"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
 msgstr "* Microsoft Security Essentials"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
@@ -1901,12 +1909,12 @@ msgstr ""
 "* এমন ভিডিওগুলি যা Adobe Flash এর প্রয়োজন হয় অনুপলব্ধ। নিরাপত্তার কারণে "
 "ফ্ল্যাশ অক্ষম করা হয়েছে।"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
 msgstr "* একটি প্রক্সি সেট করা হলে টর একটি সেতু ব্যবহার করতে পারবেন না।"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
@@ -1915,7 +1923,7 @@ msgstr ""
 "* টর ব্রাউজার প্যাকেজ 1 জানুয়ারী, 2000 00:00:00 ইউটিসি তারিখ। এটি নিশ্চিত "
 "করতে হবে যে প্রতিটি সফ্টওয়্যার বিল্ডই সঠিকভাবে উত্পাদিত হয়।"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "
@@ -1929,7 +1937,7 @@ msgstr ""
 "হয় তখন\" \"প্রত্যেকবার জিজ্ঞাসা করুন\" -এ ক্লিক করুন, তারপর ঠিক আছে ক্লিক "
 "করুন।"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser can also be started from the command line by running the "
@@ -1938,12 +1946,12 @@ msgstr ""
 "* টর ব্রাউজারের ভিতর থেকে নিম্নোক্ত কমান্ডটি চালানোর মাধ্যমে কমান্ড লাইন "
 "থেকে টর ব্রাউজারটি চালু করা যায়:"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
@@ -1952,24 +1960,24 @@ msgstr ""
 "* BitTorrent  পরিস্কারভাবে <mark><a href=\"https://blog.torproject.org"
 "/bittorrent-over-tor-isnt-good-idea\">টর'র মধ্যে অজ্ঞাত নয়</a></mark>."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
 msgid "uninstalling"
 msgstr "আনইনস্টল হচ্ছে"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.title)
 msgid "Uninstalling"
 msgstr "আনইনস্টল হচ্ছে"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.description)
 msgid "How to remove Tor Browser from your system"
 msgstr "আপনার সিস্টেম থেকে টর ব্রাউজার অপসারণ কিভাবে"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser does not affect any of the existing software or settings on your"
@@ -1980,12 +1988,12 @@ msgstr ""
 "করে না। আনইনস্টল করা টর ব্রাউজার আপনার সিস্টেমের সফ্টওয়্যার বা সেটিংস "
 "প্রভাবিত করবে না।"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "Removing Tor Browser from your system is simple:"
 msgstr "আপনার সিস্টেম থেকে টর ব্রাউজার অপসারণ সহজ:"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "1. Locate your Tor Browser folder. The default location on Windows is the "
@@ -1998,17 +2006,17 @@ msgstr ""
 " তবে যদি আপনি ইংরেজ টর ব্রাউজার চালাচ্ছেন তবে ফোল্ডারটির নাম \"tor-"
 "browser_en-US\" থাকবে।"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
 msgstr "2. টর ব্রাউজার ফোল্ডারটি মুছুন."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
 msgstr "3. আপনার ট্র্যাশ খালি করুন"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
@@ -2016,17 +2024,17 @@ msgstr ""
 "উল্লেখ্য আপনার অপারেটিং সিস্টেমের মান \"আনইনস্টল\" ইউটিলিটি ব্যবহার করা হয় "
 "না।"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.title)
 msgid "Becoming a Tor Translator"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.description)
 msgid "Becoming a translator for the Tor Project"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "If you are interested in helping out the project by translating the manual "
@@ -2036,91 +2044,91 @@ msgid ""
 " sign up and begin."
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "##### Signing up on Transifex"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
 "signup page</a>."
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* You are now signed up! Go to the <a "
 "href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>."
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "After your membership is approved you can begin translating; simply navigate"
@@ -2129,7 +2137,7 @@ msgid ""
 "helping the project!"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
 msgstr ""
@@ -2168,10 +2176,6 @@ msgstr ""
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
 msgstr ""
-
-#: templates/navbar.html:4
-msgid "Tor Logo"
-msgstr "টর লোগো"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"

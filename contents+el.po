@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-18 22:16+CET\n"
+"POT-Creation-Date: 2018-11-19 14:20+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/1519/el/)\n"
@@ -17,22 +17,25 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: http//localhost/en-US/ (content/contents+en-US.lrshowcase.title)
+#: https//tb-manual.torproject.org/en-US/
+#: (content/contents+en-US.lrshowcase.title)
 msgid "How can we help?"
 msgstr "Πως μπορούμε να βοηθήσουμε;"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.title)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.title)
 msgid "About Tor Browser"
 msgstr "Σχετικά με τον Tor Browser"
 
-#: http//localhost/en-US/about/
+#: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 "Μάθετε τι μπορεί να κάνει ο Tor Browser για να να προστατευθεί η "
 "ιδιωτικότητα και η ανωνυμία σας"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser uses the Tor network to protect your privacy and anonymity. "
 "Using the Tor network has two main properties:"
@@ -41,7 +44,8 @@ msgstr ""
 "ιδιωτικότητας και της ανωνυμίας σας. Η χρήση του δικτύου Tor έχει δύο κύριες"
 " ιδιότητες:"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* Your internet service provider, and anyone watching your connection "
 "locally, will not be able to track your internet activity, including the "
@@ -52,7 +56,8 @@ msgstr ""
 "συμπεριλαμβανομένων των ονομάτων και διευθύνσεων των ιστοσελίδων που "
 "επισκέπτεστε."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "* The operators of the websites and services that you use, and anyone "
 "watching them, will see a connection coming from the Tor network instead of "
@@ -64,7 +69,8 @@ msgstr ""
 "δίκτυο Tor, αντί της πραγματικής σας διεύθυνσης ίντερνετ (IP), και δεν θα "
 "γνωρίζει ποιος είστε εκτός εάν εσκεμμένα το αποκαλύψετε."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "In addition, Tor Browser is designed to prevent websites from "
 "“fingerprinting” or identifying you based on your browser configuration."
@@ -72,22 +78,21 @@ msgstr ""
 "Επιπλέον, ο Tor Browser έχει σχεδιαστεί να αποτρέπει ιστοσελίδες από το να "
 "σε \"ταυτοποιήσουν\" βάση των ρυθμίσεων του browser σας."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"/managing-identities.html#new-identity\">New Identity</a> is requested)."
+"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
-"Από προεπιλογή, ο Tor Browser δεν κρατά κανένα ιστορικό περιήγησης. Τα "
-"cookies είναι έγκυρα μόνο για μια συνεδρία (μέχρι να κλείσει ο Tor Browser ή"
-" να ζητηθεί μια <a href=\"managing-identities#new-identity\">Νέα "
-"Ταυτότητα</a>)."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid "##### How Tor works"
 msgstr "##### Πώς λειτουργεί το Tor"
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "Tor is a network of virtual tunnels that allows you to improve your privacy "
 "and security on the Internet. Tor works by sending your traffic through "
@@ -101,13 +106,15 @@ msgstr ""
 "γνωστών ως *κόμβοι*) στο δίκτυο Tor. Το τελευταίο ρελέ στο κύκλωμα (ο "
 "\"κόμβος εξόδου\") στέλνει τότε την κυκλοφορία στο δημόσιο διαδίκτυο."
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
-#: http//localhost/en-US/about/ (content/about/contents+en-US.lrtopic.body)
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
 msgid ""
 "The image above illustrates a user browsing to different websites over Tor. "
 "The green middle computers represent relays in the Tor network, while the "
@@ -119,22 +126,22 @@ msgstr ""
 "παριστάνουν τα στρώματα κρυπτογράφησης μεταξύ του χρήστη και του κάθε "
 "κόμβου."
 
-#: http//localhost/en-US/about/
+#: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.seo_slug)
 msgid "about"
 msgstr "Σχετικά"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.title)
 msgid "Downloading"
 msgstr "Γίνεται λήψη"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.description)
 msgid "How to download Tor Browser"
 msgstr "Πως να κατεβάσετε τον Tor Browser"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "The safest and simplest way to download Tor Browser is from the official Tor"
@@ -149,7 +156,7 @@ msgstr ""
 "manual.torproject.org/en-US/secure-connections.html\">HTTPS</a>, το οποίο το"
 " κάνει πολύ πιο δύσκολο για κάποιον να το παραβιάσει."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "However, there may be times when you cannot access the Tor Project website: "
@@ -161,12 +168,12 @@ msgstr ""
 "αποκλεισμένη στο δίκτυό σας. Εάν συμβεί αυτό, μπορείτε να χρησιμοποιήσετε "
 "μία από τις εναλλακτικές μεθόδους λήψης που αναφέρονται παρακάτω."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "##### GetTor"
 msgstr "##### GetTor"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor is a service that automatically responds to messages with links to "
@@ -177,12 +184,12 @@ msgstr ""
 "της τελευταίας έκδοσης του Tor Browser, που βρίσκεται σε διάφορες "
 "τοποθεσίες, όπως το Dropbox, το Google Drive και το GitHub."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via email:"
 msgstr "##### Για να χρησιμοποιήσετε το GetTor μέσω email:"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "Send an email to gettor@torproject.org, and in the body of the message "
@@ -193,7 +200,7 @@ msgstr ""
 " γράψτε \"windows\", \"osx\" ή \"linux\" (χωρίς τα εισαγωγικά) ανάλογα με το"
 " λειτουργικό σας σύστημα."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "GetTor will respond with an email containing links from which you can "
@@ -210,12 +217,12 @@ msgstr ""
 "και το checksum του πακέτου. Μπορεί να σας δοθεί η επιλογή για λογισμικό 32 "
 "ή 64 bit. Επιλέξτε ανάλογα με το μοντέλο του υπολογιστή που χρησιμοποιείτε."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Twitter:"
 msgstr "##### Για να χρησιμοποιήσετε το GetTor μέσω Twitter:"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in English for OS X, send a Direct "
@@ -226,14 +233,14 @@ msgstr ""
 "στείλτε ένα άμεσο μήνυμα στο @get_tor με τις λέξεις \"osx en\" (δεν "
 "χρειάζεται να ακολουθήσετε τον λογαριασμό)."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr ""
 "##### Για να χρησιμοποιήσεις το GetTor μέσω του Jabber/XMPP (Jitsi, CoyIM, "
 "κ.λπ.):"
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
 msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
@@ -242,22 +249,22 @@ msgstr ""
 "Για να λάβετε συνδέσμους για λήψη του Tor Browser στα κινεζικά για Linux, "
 "στείλτε ένα μήνυμα στο gettor@torproject.org με τις λέξεις \"linux zh\"."
 
-#: http//localhost/en-US/downloading/
+#: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.seo_slug)
 msgid "downloading"
 msgstr "Γίνεται λήψη"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.title)
 msgid "Running Tor Browser for the first time"
 msgstr "Εκτέλεση του Tor Browser για πρώτη φορά"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.description)
 msgid "Learn how to use Tor Browser for the first time"
 msgstr "Μάθετε πως να χρησιμοποιήσετε τον Tor Browser για πρώτη φορά"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "When you run Tor Browser for the first time, you will see the Tor Network "
@@ -269,19 +276,19 @@ msgstr ""
 "απευθείας στο δίκτυο Tor, ή να διαμορφώσετε τον Tor Browser για τη σύνδεσή "
 "σας."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Connect"
 msgstr "##### Σύνδεση"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "In most cases, choosing \"Connect\" will allow you to connect to the Tor "
@@ -299,19 +306,19 @@ msgstr ""
 "δείτε την σελίδα <a href=\"troubleshooting\">Αντιμετώπιση προβλημάτων</a> "
 "για βοήθεια για την επίλυση του προβλήματος"
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "##### Configure"
 msgstr "##### Διαμόρφωση "
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "If you know that your connection is censored, or uses a proxy, you should "
@@ -322,7 +329,7 @@ msgstr ""
 "αυτή την επιλογή. Ο Tor Browser θα σας οδηγήσει σε μια σειρά από ρυθμίσεις "
 "και επιλογές."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The first screen asks if access to the Tor network is blocked or censored on"
@@ -340,7 +347,7 @@ msgstr ""
 "<a href=\"circumvention\">Παράκαμψη</a> για να διαμορφώσετε ένα pluggable "
 "transport.."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid ""
 "The next screen asks if your connection uses a proxy. In most cases, this is"
@@ -356,27 +363,27 @@ msgstr ""
 "καθοδήγηση από το διαχειριστή του δικτύου σας. Εάν η σύνδεσή σας δεν "
 "χρησιμοποιεί proxy μεσολάβησης, κάντε κλικ στην επιλογή \"Συνέχεια\"."
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 msgstr ""
 
-#: http//localhost/en-US/running-tor-browser/
+#: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
 msgid "Bridges"
 msgstr "Γέφυρες"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.description)
 msgid ""
 "Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of "
@@ -385,7 +392,7 @@ msgstr ""
 "Τα περισσότερα Pluggable Transports, όπως το obfs3 και το obfs4, βασίζονται "
 "στη χρήση κόμβων \"γέφυρας\"."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
@@ -403,7 +410,7 @@ msgstr ""
 "συνδυασμό με τα pluggable transports βοηθά να συγκαλύψει το γεγονός ότι "
 "χρησιμοποιείτε Tor."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Other pluggable transports, like meek, use different anti-censorship "
@@ -414,12 +421,12 @@ msgstr ""
 " κατά της λογοκρισίας που δεν βασίζονται σε γέφυρες. Δεν χρειάζεται να "
 "λάβετε διευθύνσεις γέφυρας για να χρησιμοποιήσετε αυτά τα transports."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Getting bridge addresses"
 msgstr "##### Συλλογή διευθύνσεων γεφυρών"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Because bridge addresses are not public, you will need to request them "
@@ -428,14 +435,14 @@ msgstr ""
 "Επειδή οι διευθύνσεις γέφυρας δεν είναι δημόσιες, θα πρέπει να τις ζητήσετε "
 "εσείς οι ίδιοι. Έχετε δύο επιλογές:"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Visit https://bridges.torproject.org/ and follow the instructions, or"
 msgstr ""
 "* Πήγαινε https://bridges.torproject.org/ και ακολούθησε τις οδηγίες, ή"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
@@ -443,12 +450,12 @@ msgstr ""
 "* Στείλε email στο bridges@torproject.org από ένα λογαριασμό Gmail, Yahoo ή "
 "Riseup ή"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid "##### Entering bridge addresses"
 msgstr "##### Εισαγωγή διευθύνσεων γεφυρών"
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -457,7 +464,7 @@ msgstr ""
 "Αφού αποκτήσετε μερικές διευθύνσεις γέφυρας, θα πρέπει να τις εισάγετε στο "
 "Tor Launcher."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If you're starting Tor Browser for the first time, click 'Configure' to open"
@@ -466,7 +473,7 @@ msgid ""
 "options."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "In the Tor Network Settings window, select 'Tor is censored in my country.' "
@@ -474,21 +481,21 @@ msgid ""
 "separate line."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
 msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
@@ -498,17 +505,17 @@ msgstr ""
 "λειτουργίας. Χρησιμοποιήστε μία από τις παραπάνω μεθόδους για να αποκτήσετε "
 "περισσότερες διευθύνσεις γέφυρας και δοκιμάστε ξανά."
 
-#: http//localhost/en-US/bridges/
+#: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
 msgid "bridges"
 msgstr "Γέφυρες"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.title)
 msgid "Pluggable transports"
 msgstr "Pluggable Transports"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.description)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
@@ -517,7 +524,7 @@ msgstr ""
 "Τα Pluggable transports είναι εργαλεία τα οποία μπορεί να χρησιμοποιήσει ο "
 "Tor για να κρύψει την κίνηση που εκπέμπει."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
@@ -530,12 +537,12 @@ msgstr ""
 "περίπτωση που ένας πάροχος ίντερνετ ή κάποια άλλη αρχή εμποδίζει ενεργά τις "
 "συνδέσεις στο δίκτυο του Tor."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "##### Types of pluggable transport"
 msgstr "##### Τύποι των pluggable transport"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Currently there are six pluggable transports available, but more are being "
@@ -544,37 +551,37 @@ msgstr ""
 "Προς το παρόν υπάρχουν τρια pluggable transports διαθέσιμα, αλλά "
 "δημιουργούνται κι άλλα."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<table>"
 msgstr "<table>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tbody>"
 msgstr "<tbody>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"odd\">"
 msgstr "<tr class=\"odd\">"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<td>"
 msgstr "<td>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs3"
 msgstr "obfs3"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</td>"
 msgstr "</td>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs3 makes Tor traffic look random, so that it does not look like Tor or "
@@ -586,22 +593,22 @@ msgstr ""
 "συνιστάται να χρησιμοποιείται αντί αυτού το obfs4 , επειδή έχει πολλές "
 "βελτιώσεις συγκριτικά με τον obfs3."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tr>"
 msgstr "</tr>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "<tr class=\"even\">"
 msgstr "<tr class=\"even\">"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "obfs4"
 msgstr "obfs4"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
@@ -613,12 +620,12 @@ msgstr ""
 "το διαδίκτυο. Οι γέφυρες του obfs4 είναι πολύ λιγότερο πιθανό να "
 "μπλοκαριστούν απ' ότι οι γέφυρες του obfs3."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "FTE"
 msgstr "FTE"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
@@ -627,12 +634,12 @@ msgstr ""
 "Τα FTE (κρυπτογράφηση που αλλάζει το φόρματ) κρύβει την κίνηση του Tor σαν "
 "κανονική κίνηση στο διαδίκτυο (ΗΤΤΡ)."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "meek"
 msgstr "meek"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "These transports all make it look like you are browsing a major web site "
@@ -646,12 +653,12 @@ msgstr ""
 "κάνει να μοιάζεις σαν να χρησιμοποιείς σελίδες της Microsoft και το meek-"
 "google σε κάνει να μοιάζεις σαν να χρησιμοποιείς την αναζήτηση της Google."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "Snowflake"
 msgstr "Snowflake"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
@@ -660,32 +667,32 @@ msgstr ""
 "Το Snowflake είναι μία βελτίωση στο Flashproxy. Στέλνει την κίνησή σας μέσα "
 "από το WebRTC, έναν έλεγχο peer-to-peer με προσαρτημένη εκκίνηση ΝΑΤ."
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</tbody>"
 msgstr "</tbody>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.body)
 msgid "</table>"
 msgstr "</table>"
 
-#: http//localhost/en-US/transports/
+#: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
 msgstr ""
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
 msgid "Circumvention"
 msgstr "Παράκαμψη"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.description)
 msgid "What to do if the Tor network is blocked"
 msgstr "Τι να κάνετε αν το δίκτυο Tor είναι μπλοκαρισμένο"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Direct access to the Tor network may sometimes be blocked by your Internet "
@@ -702,12 +709,12 @@ msgstr ""
 "σχετικά με τους τύπους των transport που είναι διαθέσιμα αυτήν τη στιγμή, "
 "ανατρέξτε στη σελίδα <a href=\"/en-US/transports\">Pluggable Transports</a>."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Using pluggable transports"
 msgstr "##### Χρησιμοποιούνται pluggable transports"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "To use pluggable transports, click \"Configure\" in the Tor Launcher window "
@@ -717,7 +724,7 @@ msgstr ""
 "\"Διαμόρφωση\" στο παράθυρο του Tor Launcher που εμφανίζεται όταν ξεκινάτε "
 "για πρώτη φορά τον Tor Browser."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "You can also configure pluggable transports while Tor Browser is running, by"
@@ -728,7 +735,7 @@ msgstr ""
 "εκτελείται, κάνοντας κλικ στο κρεμμύδι κοντά στη γραμμή διευθύνσεών σας και "
 "επιλέγοντας \"Ρυθμίσεις Δικτύου Tor\"."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “yes” when asked if your Internet Service Provider blocks connections"
@@ -737,12 +744,12 @@ msgstr ""
 "Επιλέξτε \"Ναι\" όταν ερωτηθείτε αν ο πάροχός σας του ίντερνετ μπλοκάρει "
 "συνδέσεις προς το δίκτυο Tor."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 msgstr ""
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Select “Connect with provided bridges”. Tor Browser currently has six "
@@ -751,12 +758,12 @@ msgstr ""
 "Επιλέξτε \"Σύνδεση με παρεχόμενες γέφυρες\". Ο Tor Browser διαθέτει έξι "
 "επιλογές pluggable transport από τα οποία μπορείτε να επιλέξετε."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "##### Which transport should I use?"
 msgstr "##### Τι μέσο πρέπει να χρησιμοποιήσω;"
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "Each of the transports listed in Tor Launcher’s menu works in a different "
@@ -769,7 +776,7 @@ msgstr ""
 "στη σελίδα <a href=\"/en-US/transports\">Pluggable Transports</a>) και η "
 "αποτελεσματικότητά τους εξαρτάται από την περίπτωσή σας."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you are trying to circumvent a blocked connection for the first time, you"
@@ -779,7 +786,7 @@ msgstr ""
 "Αν προσπαθείς για πρώτη φορά να παρακάμψεις μία μπλοκαρισμένη σύνδεση, "
 "δοκίμασε τις μεταφορές: obfs3, obfs4, fte, meek-azure και Snowflake."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid ""
 "If you try all of these options, and none of them gets you online, you will "
@@ -792,24 +799,24 @@ msgstr ""
 "γέφυρας. Διαβάστε την ενότητα <a href=\"/en-US/bridges/\"> Γέφυρες</a> για "
 "να μάθετε τι είναι οι γέφυρες και πώς να τις αποκτήσετε."
 
-#: http//localhost/en-US/circumvention/
+#: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.seo_slug)
 msgid "circumvention"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.title)
 msgid "Managing identities"
 msgstr "Διαχείριση ταυτοτήτων"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.description)
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
 "Μάθετε πώς να ελέγχετε τις πληροφορίες προσωπικής ταυτοποίησης στον Tor "
 "Browser"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you connect to a website, it is not only the operators of that website "
@@ -825,7 +832,7 @@ msgstr ""
 "ανάλυσης και των διαφημήσεων, που όλα τους μπορούν να συνδέσουν την "
 "δραστηριότητά σας σε διάφορα σάιτ."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Using the Tor network stops observers from being able to discover your exact"
@@ -840,12 +847,12 @@ msgstr ""
 "το λόγο ο Tor Browser περιλαμβάνει επιπρόσθετες υπηρεσίες που σας βοηθούν να"
 " ελέγξετε ποιες πληροφορίες θα συνδεθούν με την ταυτότητά σας."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### The URL bar"
 msgstr "##### Η γραμμή διευθύνσεων"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser centers your web experience around your relationship with the "
@@ -861,7 +868,7 @@ msgstr ""
 "δύο διαφορετικά κυκλώματα Tor, οπότε ο tracker δεν θα γνωρίζει ότι και οι "
 "δύο συνδέσεις προέρχονται από το browser σας."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "On the other hand, all connections to a single website address will be made "
@@ -874,19 +881,19 @@ msgstr ""
 "ιστοσελίδας σε ξεχωριστές καρτέλες ή παράθυρα χωρίς να χάνουν "
 "λειτουργικότητα."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "In the circuit, the Guard or entry node is the first node and it's "
@@ -898,12 +905,12 @@ msgid ""
 "href=\"https://support.torproject.org/tbb/tbb-2/\">Support Portal</a>."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Logging in over Tor"
 msgstr "##### Σύνδεση μέσω Tor"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Although Tor Browser is designed to enable total user anonymity on the web, "
@@ -915,7 +922,7 @@ msgstr ""
 "χρήση του Tor με ιστοσελίδες που απαιτούν ονόματα χρήστη, κωδικούς πρόσβασης"
 " ή άλλες πληροφορίες ταυτοποίησης."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "If you log into a website using a regular browser, you also reveal your IP "
@@ -934,7 +941,7 @@ msgstr ""
 "είναι επίσης χρήσιμη εάν η ιστοσελίδα που προσπαθείτε να επισκεφθείτε έχει "
 "λογοκριθεί στο δίκτυό σας."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "When you log in to a website over Tor, there are several points you should "
@@ -943,7 +950,7 @@ msgstr ""
 "Όταν συνδέεστε σε έναν ιστότοπο μέσω του Tor, υπάρχουν πολλά σημεία που "
 "πρέπει να έχετε κατά νου:"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
@@ -953,7 +960,7 @@ msgstr ""
 " για σημαντικές πληροφορίες σχετικά με το πως να ασφαλίσετε τη σύνδεσή σας "
 "όταν συνδέεστε."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser often makes your connection appear as though it is coming from"
@@ -971,29 +978,29 @@ msgstr ""
 "προτείνεται στην ιστοσελίδα για την επαναφορά λογαριασμού, ή να "
 "επικοινωνήσετε με τους διαχειριστές της και να εξηγήσετε την κατάσταση."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "##### Changing identities and circuits"
 msgstr "##### Αλλάζοντας ταυτότητες και δίκτυα"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
 "options, located in the main menu (hamburger menu)."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Identity"
 msgstr "##### Νέα Ταυτότητα"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if you want to prevent your subsequent browser "
@@ -1011,12 +1018,12 @@ msgstr ""
 "να σταματήσετε κάθε δραστηριότητα και κατέβασμα. Όποτε θυμηθείτε τα αυτά, "
 "πριν επιλέξετε τη \"Νέα Ταυτότητα\"."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "###### New Tor circuit for this site"
 msgstr "##### Νέο κύκλωμα Tor για αυτήν την ιστοσελίδα"
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "This option is useful if the <a href=\"/about/#how-tor-works\">exit "
@@ -1036,29 +1043,29 @@ msgstr ""
 "εκκαθαρίζει καμία ιδιωτική πληροφορία ούτε αποσυνδέει τη δραστηριότητά σας, "
 "ούτε επηρεάζει τις τρέχουσες συνδέσεις σας με άλλες ιστοσελίδες."
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
 
-#: http//localhost/en-US/managing-identities/
+#: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
 msgid "Onion Services"
 msgstr "Υπηρεσίες Onion"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.description)
 msgid "Services that are only accessible using Tor"
 msgstr "Υπηρεσίες που είναι διαθέσιμες μόνο μέσω Tor"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
@@ -1068,7 +1075,7 @@ msgstr ""
 "υπηρεσίες (όπως ιστοσελίδες) που είναι προσβάσιμες μόνο μέσω του δικτύου "
 "Tor."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
@@ -1077,7 +1084,7 @@ msgstr ""
 "Οι υπηρεσίες onion προσφέρουν αρκετά πλεονεκτήματα σε σχέση με τις "
 "συνηθισμένες υπηρεσίες στον μη ιδιωτικό ιστό:"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
@@ -1087,7 +1094,7 @@ msgstr ""
 "γεγονός που δυσκολεύει τους αντιπάλους να τις λογοκρίνουν ή να εντοπίσουν "
 "τους διαχειριστές τους."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
@@ -1098,7 +1105,7 @@ msgstr ""
 "κρυπτογραφημένη από άκρο σε άκρο, οπότε δεν χρειάζεται να ανησυχείτε για τη "
 "<a href=\"secure-connections\">σύνδεση μέσω HTTPS.</a>"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "* The address of an onion service is automatically generated, so the "
@@ -1111,12 +1118,12 @@ msgstr ""
 " URL βοηθά επίσης το Tor να διασφαλίσει ότι συνδέεται στη σωστή τοποθεσία "
 "και ότι η σύνδεση δεν παραβιάζεται."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### How to access an onion service"
 msgstr "##### Πως να έχω πρόσβαση σε μια υπηρεσία onion"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "Just like any other website, you will need to know the address of an onion "
@@ -1128,7 +1135,7 @@ msgstr ""
 "συμβολοσειρά 16 (και σε μορφή V3, 56) κυρίως τυχαίων γραμμάτων και αριθμών, "
 "που ακολουθείται από το \".onion\"."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "When accessing a website that uses an onion service, Tor Browser will show "
@@ -1138,12 +1145,12 @@ msgid ""
 "and a padlock."
 msgstr ""
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid "##### Troubleshooting"
 msgstr "##### Αντιμετώπιση προβλημάτων"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you cannot reach the onion service you require, make sure that you have "
@@ -1154,7 +1161,7 @@ msgstr ""
 "βεβαιωθείτε ότι έχετε εισάγει σωστά τη διεύθυνση onion: ακόμα και ένα μικρό "
 "λάθος θα εμποδίσει τον Tor Browser να βρει την ιστοσελίδα."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "If you are still unable to connect to the onion service, please try again "
@@ -1166,7 +1173,7 @@ msgstr ""
 " οι διαχειριστές της ιστοσελίδας μπορεί να έχουν επιτρέψει να βγει εκτός "
 "σύνδεσης χωρίς προειδοποίηση."
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
 msgid ""
 "You can also ensure that you're able to access other onion services by "
@@ -1177,24 +1184,24 @@ msgstr ""
 " με σύνδεση στο <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's "
 "Onion Service</a>"
 
-#: http//localhost/en-US/onion-services/
+#: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.seo_slug)
 msgid "onion-services"
 msgstr "υπηρεσίες-onion"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.title)
 msgid "Secure Connections"
 msgstr "Ασφαλείς συνδέσεις"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.description)
 msgid "Learn how to protect your data using Tor Browser and HTTPS"
 msgstr ""
 "Μάθετε πώς να προστατεύσετε τα δεδομένα σας χρησιμοποιώντας τον Tor Browser "
 "και το HTTPS"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "If personal information such as a login password travels unencrypted over "
@@ -1212,12 +1219,12 @@ msgstr ""
 "URL: αν η σύνδεσή σας είναι κρυπτογραφημένη, η διεύθυνση θα ξεκινάει με "
 "\"https://\" αντί για \"http://\"."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "The following visualization shows what information is visible to "
@@ -1226,12 +1233,12 @@ msgstr ""
 "Η παρακάτω απεικόνιση δείχνει ποιες πληροφορίες είναι ορατές στους "
 "eavesdroppers με και χωρίς την κρυπτογράφηση του Tor Browser και του HTTPS:"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 msgstr ""
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
@@ -1241,7 +1248,7 @@ msgstr ""
 "παρατηρητές όταν χρησιμοποιείτε το Tor. Το κουμπί θα γίνει πράσινο ως "
 "ένδειξη ότι ο Tor είναι ενεργοποιημένος."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
@@ -1251,7 +1258,7 @@ msgstr ""
 "παρατηρητές όταν χρησιμοποιείτε HTTPS. Το κουμπί θα γίνει πράσινο ως ένδειξη"
 " ότι το HTTPS είναι ενεργοποιημένο."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are green, you see the data that is visible to observers"
@@ -1260,7 +1267,7 @@ msgstr ""
 "* Όταν και τα δύο κουμπιά είναι πράσινα, βλέπετε τα δεδομένα που είναι ορατά"
 " σε παρατηρητές όταν χρησιμοποιείτε και τα δύο εργαλεία."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
@@ -1269,92 +1276,92 @@ msgstr ""
 "* Όταν και τα δύο κουμπιά είναι γκρι, βλέπετε τα δεδομένα που είναι ορατά σε"
 " παρατηρητές όταν δεν χρησιμοποιείτε κανένα από τα δύο εργαλεία."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "##### Potentially visible data"
 msgstr "##### Πιθανώς ορατά δεδομένα"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dl>"
 msgstr "<dl>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dt>"
 msgstr "<dt>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Site.com"
 msgstr "Site.com"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dt>"
 msgstr "</dt>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<dd>"
 msgstr "<dd>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "The site being visited."
 msgstr "Η ιστοσελίδα που επισκέπτεστε."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dd>"
 msgstr "</dd>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "user / pw"
 msgstr "user / pw"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Username and password used for authentication."
 msgstr "Το όνομα χρήστη και ο κωδικός που χρησιμοποιούνται για ταυτοποίηση."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "data"
 msgstr "δεδομένα"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Data being transmitted."
 msgstr "Τα δεδομένα διαβιβάζονται."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "location"
 msgstr "περιοχή"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid ""
 "Network location of the computer used to visit the website (the public IP "
@@ -1363,47 +1370,47 @@ msgstr ""
 "Τοποθεσία δικτύου του υπολογιστή που χρησιμοποιήθηκε για την επίσκεψη στην "
 "ιστοσελίδα (η δημόσια διεύθυνση IP)."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Tor"
 msgstr "Tor"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Whether or not Tor is being used."
 msgstr "Αν χρησιμοποιείται Tor ή όχι."
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "</dl>"
 msgstr "</dl>"
 
-#: http//localhost/en-US/secure-connections/
+#: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.title)
 msgid "Security Slider"
 msgstr "Slider ασφαλείας"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.description)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr "Ρύθμιση του Tor Browser για ασφάλεια και χρηστικότητα"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes a “Security Slider” that lets you increase your "
@@ -1419,23 +1426,23 @@ msgstr ""
 "ιστοσελίδες να λειτουργούν σωστά, οπότε θα πρέπει να σταθμίσετε τις ανάγκες "
 "ασφαλείας σας σε σχέση με το βαθμό χρηστικότητας που χρειάζεστε."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Accessing the Security Slider"
 msgstr "##### Πρόσβαση στον Slider Ασφαλείας"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "The Security Slider is located in Torbutton’s “Security Settings” menu."
@@ -1443,23 +1450,23 @@ msgstr ""
 "Ο Slider Ασφαλείας βρίσκεται στο Torbutton, στο μενού \"Ρυθμίσεις "
 "Ασφάλειας\"."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "##### Security Levels"
 msgstr "##### Επίπεδα Ασφαλείας"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 msgstr ""
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "Increasing the level of the Security Slider will disable or partially "
@@ -1469,16 +1476,16 @@ msgstr ""
 "μερικώς κάποιες λειτουργίες του περιηγητή, για να σας προστατέψει από "
 "πιθανές επιθέσεις."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safest"
 msgstr "Ασφαλέστατο"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
@@ -1497,16 +1504,16 @@ msgstr ""
 " περισσότερες μορφές βίντεο και ήχου είναι απενεργοποιημένες· και ορισμένες "
 "γραμματοσειρές και εικονίδια ενδέχεται να μην εμφανίζονται σωστά."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Safer"
 msgstr "Ασφαλέστερα"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
@@ -1524,16 +1531,16 @@ msgstr ""
 "JavaScript είναι απενεργοποιημένη από προεπιλογή σε όλες τις ιστοσελιδες που"
 " δεν υποστηρίζουν <a href=\"secure-connections\">HTTPS</a>."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "Standard"
 msgstr "Βασικό"
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid ""
 "At this level, all browser features are enabled. This is the most usable "
@@ -1542,24 +1549,24 @@ msgstr ""
 "Σε αυτό το επίπεδο, όλες οι λειτουργίες του browser είναι ενεργοποιημένες. "
 "Αυτή είναι η πιο εύχρηστη επιλογή."
 
-#: http//localhost/en-US/security-slider/
+#: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.seo_slug)
-#: http//localhost/en-US/security-slider.html
+#: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.title)
 msgid "Updating"
 msgstr "Αναβάθμιση"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.description)
 msgid "How to update Tor Browser"
 msgstr "Πώς να ενημερώσετε τον Tor Browser"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser must be kept updated at all times. If you continue to use an "
@@ -1571,7 +1578,7 @@ msgstr ""
 "σοβαρά σφάλματα ασφαλείας που να θέτουν σε κίνδυνο την ιδιωτικότητα και την "
 "ανωνυμία σας."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
@@ -1584,17 +1591,17 @@ msgstr ""
 "τρίγωνο και μπορεί να δείτε μια γραπτή ένδειξη για αναβάθμιση όταν ανοίξει ο"
 " περιηγητής Tor. Μπορείτε να κάνετε την αναβάθμιση αυτόματα ή χειροκίνητα."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser automatically"
 msgstr "##### Ενημερώνοντας τον Tor Browser αυτόματα"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, click on the Torbutton icon, "
@@ -1603,12 +1610,12 @@ msgstr ""
 "Όταν σας ζητηθεί να αναβαθμίσετε τον Tor Browser, κάντε κλικ στο εικονίδιο "
 "Torbutton και στη συνέχεια επιλέξτε \"Check for Tor Browser Update\"."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When Tor Browser has finished checking for updates, click on the “Update” "
@@ -1617,12 +1624,12 @@ msgstr ""
 "Όταν ο Tor Browser έχει ολοκληρώσει τον έλεγχο για ενημερώσεις, κάντε κλικ "
 "στο κουμπί \"Ενημέρωση\"."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 msgstr ""
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Wait for the update to download and install, then restart Tor Browser. You "
@@ -1632,12 +1639,12 @@ msgstr ""
 "συνέχεια, κάντε επανεκκίνηση του Tor Browser. Τώρα θα τρέχετε την πιο "
 "πρόσφατη έκδοση."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "##### Updating Tor Browser manually"
 msgstr "##### Αναβαθμίζοντας τον Tor Browser χειροκίνητα"
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "When you are prompted to update Tor Browser, finish the browsing session and"
@@ -1646,7 +1653,7 @@ msgstr ""
 "Όταν σας ζητηθεί να αναβαθμίσετε τον Tor Browser, τελειώστε την περιήγησή "
 "σας και κλείστε το πρόγραμμα."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Remove Tor Browser from your system by deleting the folder that contains it "
@@ -1657,7 +1664,7 @@ msgstr ""
 "περιέχει (ανατρέξτε στην ενότητα <a href='uninstalling'>Απεγκατάσταση</a> "
 "για περισσότερες πληροφορίες)."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid ""
 "Visit <a "
@@ -1670,27 +1677,27 @@ msgstr ""
 " κάντε λήψη ενός αντιγράφου της τελευταίας έκδοσης του Tor Browser και στη "
 "συνέχεια εγκαταστήστε το όπως πριν."
 
-#: http//localhost/en-US/updating/
+#: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.seo_slug)
 msgid "updating"
 msgstr ""
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.title)
 msgid "Plugins, add-ons and JavaScript"
 msgstr "Πρόσθετα, προσθήκες και JavaScript"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
 msgstr "Πώς o Tor Browser χειρίζεται πρόσθετα, προσθήκες και JavaScript"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Flash Player"
 msgstr "##### Flash Player"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Video websites, such as Vimeo make use of the Flash Player plugin to display"
@@ -1708,7 +1715,7 @@ msgstr ""
 "εξωτερικό παρατηρητή. Για αυτόν το λόγο, η Flash είναι απενεργοποιημένη από "
 "προεπιλογή στον Tor Browser και η ενεργοποίησή της δεν συνιστάται."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Some video websites (such as YouTube) offer alternative video delivery "
@@ -1719,12 +1726,12 @@ msgstr ""
 "μεθόδους παράδοσης του βίντεο που δεν χρησιμοποιούν το Flash. Αυτές οι "
 "μέθοδοι μπορεί να είναι συμβατές με τον Tor Browser."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### JavaScript"
 msgstr "##### JavaScript"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "JavaScript is a programming language that websites use to offer interactive "
@@ -1738,7 +1745,7 @@ msgstr ""
 "να ενεργοποιήσει επιθέσεις στην ασφάλεια του περιήγητη, κάτι που μπορεί να "
 "οδηγήσει σε κατάργηση της ανωνυμοποίησης."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript, accessible through the “S” "
@@ -1752,12 +1759,12 @@ msgstr ""
 "scripts) που εκτελούνται σε μεμονωμένες ιστοσελίδες ή να τα αποκλείσετε "
 "εντελώς."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 msgstr ""
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Users who require a high degree of security in their web browsing should set"
@@ -1775,12 +1782,12 @@ msgstr ""
 "αυτόματη ρύθμιση του περιηγητή Tor είναι να επιτρέπει σε όλες τις "
 "ιστοσελίδες να λειτουργούν θέτοντας αυτόματα το \"Κανονικό\" προφίλ."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "##### Browser Add-ons"
 msgstr "##### Επεκτάσεις περιηγητή"
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is based on Firefox, and any browser add-ons or themes that are "
@@ -1790,7 +1797,7 @@ msgstr ""
 "θέματα που είναι συμβατά με τον Firefox μπορούν να εγκατασταθούν και στον "
 "Tor Browser."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid ""
 "However, the only add-ons that have been tested for use with Tor Browser are"
@@ -1806,22 +1813,22 @@ msgstr ""
 "ιδιωτικότητα και την ασφάλειά σας. Αποθαρρύνεται έντονα η εγκατάσταση "
 "επιπλέον πρόσθετων και το Tor Project δεν θα προσφέρει υποστήριξη για αυτά."
 
-#: http//localhost/en-US/plugins/
+#: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
 msgstr ""
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.title)
 msgid "Troubleshooting"
 msgstr "Αντιμετώπιση προβλημάτων"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.description)
 msgid "What to do if Tor Browser doesn’t work"
 msgstr "Τι να κάνετε αν ο Tor Browser δεν λειτουργεί"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "You should be able to start browsing the web using Tor Browser shortly after"
@@ -1832,12 +1839,12 @@ msgstr ""
 "χρησιμοποιώντας τον περιηγητή Tor αμέσως μετά το τρέξιμο του προγράμματος "
 "και επιλέγοντας το \"Σύνδεση\" αν τον χρησιμοποιείτε για πρώτη φορά."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Quick fixes"
 msgstr "##### Γρήγορες λύσεις"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If Tor Browser doesn’t connect, there may be a simple solution. Try each of "
@@ -1846,7 +1853,7 @@ msgstr ""
 "Αν ο Tor Browser δεν συνδεθεί, μπορεί να υπάρχει μια απλή λύση. Δοκιμάστε τα"
 " εξής:"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
@@ -1855,7 +1862,7 @@ msgstr ""
 "* Το ρολόι συστήματος του υπολογιστή σας πρέπει να ρυθμιστεί σωστά, "
 "διαφορετικά ο Tor δεν θα μπορέσει να συνδεθεί."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
@@ -1864,7 +1871,7 @@ msgstr ""
 "* Βεβαιωθείτε ότι άλλος Tor Browser δεν εκτελείται ήδη. Εάν δεν είστε "
 "σίγουρος αν ο Tor Browser εκτελείται, κάντε επανεκκίνηση του υπολογιστή σας."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Make sure that any antivirus program you have installed is not preventing "
@@ -1875,12 +1882,12 @@ msgstr ""
 "σταματά τη λειτουργία του Tor. Μπορεί να χρειαστεί να συμβουλευτείτε τα "
 "έγγραφα για το λογισμικό antivirus σου, αν δεν γνωρίζετε πώς να το κάνετε."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "* Temporarily disable your firewall."
 msgstr "* Απενεργοποιήστε προσωρινά το τείχος προστασίας."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "* Delete Tor Browser and install it again. If updating, do not just "
@@ -1891,12 +1898,12 @@ msgstr ""
 "αναβάθμισης μην προσθέσετε απλά τα καινούρια στα παλιά αρχεία του περιηγητή "
 "Tor. Σιγουρευτείτε πως έχουν διαγραφεί πλήρως από τα πριν."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Is your connection censored?"
 msgstr "##### Λογοκρίνεται η σύνδεσή σας;"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "If you still can’t connect, your Internet Service Provider might be "
@@ -1908,12 +1915,12 @@ msgstr ""
 "Διαβάστε την ενότητα <a href=\"circumvention\">Παράκαμψη</a> για πιθανές "
 "λύσεις."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "##### Known issues"
 msgstr "##### Γνωστά ζητήματα"
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser is under constant development, and some issues are known about "
@@ -1926,18 +1933,18 @@ msgstr ""
 "=\"known-issues\">Γνωστά Ζητήματα</a>για να επιβεβαιώσεις αν το ζήτημα που "
 "αντιμετωπίζεις βρίσκεται ήδη στη λίστα μας."
 
-#: http//localhost/en-US/troubleshooting/
+#: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.seo_slug)
 msgid "troubleshooting"
 msgstr ""
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.title)
 #: (content/known-issues/contents+en-US.lrtopic.description)
 msgid "Known issues"
 msgstr "Γνωστά ζητήματα"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
@@ -1945,7 +1952,7 @@ msgstr ""
 "* Το Tor χρειάζεται να είναι το ρολόι συστήματος (και η ζώνη ώρας) "
 "ρυθμισμένα στη σωστή ώρα."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
@@ -1954,27 +1961,27 @@ msgstr ""
 "* Τα ακόλουθα προγράμματα τείχους προστασίας είναι γνωστό οτι παρεμβαίνουν "
 "στο Tor και μπορεί να χρειαστεί να απενεργοποιηθούν προσωρινά."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Webroot SecureAnywhere"
 msgstr "* Webroot SecureAnywhere"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
 msgstr "* Kaspersky Internet Security 2012"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
 msgstr "* Sophos Antivirus for Mac"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
 msgstr "* Microsoft Security Essentials"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
@@ -1983,12 +1990,12 @@ msgstr ""
 "* Βίντεο που χρειάζονται Adobe Flash δεν είναι διαθέσιμα. Το Flash είναι "
 "απενεργοποιημένο για λόγους ασφαλείας."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
 msgstr "* Το Tor δεν μπορεί να χρησιμοποιήσει γέφυρες αν έχει οριστεί proxy."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
@@ -1998,7 +2005,7 @@ msgstr ""
 " 2000 και ώρα 00:00:00 UTC. Αυτό γίνεται για να διασφαλιστεί ότι κάθε "
 "αντίγραφο του λογισμικού είναι ακριβώς ίδιο με τα υπόλοιπα. "
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "
@@ -2012,7 +2019,7 @@ msgstr ""
 "\"Εκτέλεση εκτελέσιμων αρχείων κειμένου όταν έχουν ανοιχθεί\" στο \"Ρώτα "
 "κάθε φορά\" και, στη συνέχεια, κάντε κλικ στο OK."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* Tor Browser can also be started from the command line by running the "
@@ -2021,12 +2028,12 @@ msgstr ""
 "* Ο Tor Browser μπορεί επίσης να ξεκινήσει από τη γραμμή εντολών, εκτελώντας"
 " την ακόλουθη εντολή μέσα στο φάκελο του Tor Browser:"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
 msgstr "./start-tor-browser.desktop"
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid ""
 "* BitTorrent in specific is <mark><a href=\"https://blog.torproject.org"
@@ -2036,24 +2043,24 @@ msgstr ""
 "/bittorrent-over-tor-isnt-good-idea\">δεν είναι ανώνυμο μέσω του "
 "Tor</a></mark>."
 
-#: http//localhost/en-US/known-issues/
+#: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.seo_slug)
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.seo_slug)
 msgid "uninstalling"
 msgstr ""
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.title)
 msgid "Uninstalling"
 msgstr "Απεγκατάσταση"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.description)
 msgid "How to remove Tor Browser from your system"
 msgstr "Πώς να καταργήσετε τον Tor Browser από το σύστημά σας"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Tor Browser does not affect any of the existing software or settings on your"
@@ -2064,13 +2071,13 @@ msgstr ""
 "υπολογιστή σας. Η απεγκατάσταση του Tor Browser δεν θα επηρεάσει το "
 "λογισμικό ή τις ρυθμίσεις του συστήματός σας."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "Removing Tor Browser from your system is simple:"
 msgstr ""
 "Η διαδικασία κατάργησης του Tor Browser από το σύστημά σας είναι απλή:"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "1. Locate your Tor Browser folder. The default location on Windows is the "
@@ -2083,17 +2090,17 @@ msgstr ""
 "Linux, δεν υπάρχει προεπιλεγμένη θέση, ωστόσο ο φάκελος θα ονομάζεται \"tor-"
 "browser_en-US\" εάν εκτελείτε τον Tor Browser στα αγγλικά."
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
 msgstr "2. Διαγραφή του φακέλου του Tor Browser"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
 msgstr "3. Αδειάστε τον Κάδο Απορριμάτων σας"
 
-#: http//localhost/en-US/uninstalling/
+#: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
@@ -2101,17 +2108,17 @@ msgstr ""
 "Θυμηθείτε πως δεν χρησιμοποιείται η συνηθισμένη λειτουργία \"Απεγκατάσταση\""
 " του λειτουργικού σας συστήματος."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.title)
 msgid "Becoming a Tor Translator"
 msgstr "Πως να γίνετε μεταφραστής του Tor"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.description)
 msgid "Becoming a translator for the Tor Project"
 msgstr "Πως να γίνετε μεταφραστής του Tor Project"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "If you are interested in helping out the project by translating the manual "
@@ -2126,12 +2133,12 @@ msgstr ""
 "μέρος που διευκολύνει με τις μεταφράσεις μας. Παρακάτω περιγράφεται το πώς "
 "να εγγραφείτε και να ξεκινήσετε."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "##### Signing up on Transifex"
 msgstr "##### Εγγραφή στο Transifex"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
@@ -2140,17 +2147,17 @@ msgstr ""
 "Πήγαινε στη <a href=\"https://transifex.com/signup/\">σελίδα εγγραφής του "
 "Transifex</a>."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr "Συμπληρώστε τις πληροφορίες σας στα πεδία και πατήστε \"Εγγραφή\":"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
@@ -2159,19 +2166,19 @@ msgstr ""
 "* Συμπληρώστε την επόμενη σελίδα με το όνομά σας και επιλέξτε "
 "\"Τοπικοποίηση\" στο μενού που θα εμφανιστεί:"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
 "* Στην επόμενη σελίδα, επιλέξτε τη \"Συμμετοχή σε υπάρχον πρότζεκτ\" και "
 "συνεχίστε."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
@@ -2180,7 +2187,7 @@ msgstr ""
 "* Στην επόμενη σελίδα, επιλέξτε τις γλώσσες που μιλάτε από το μενού που θα "
 "εμφανιστεί και συνεχίστε."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* You are now signed up! Go to the <a "
@@ -2190,17 +2197,17 @@ msgstr ""
 "href=\"https://www.transifex.com/otf/torproject/\">Σελίδα του Tor στο "
 "Transifex</a>."
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr "* Πατήστε το μπλε σήμα \"Μπείτε στην ομάδα\" πάνω δεξιά:"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
@@ -2208,23 +2215,23 @@ msgstr ""
 "* Επιλέξτε τη γλώσσα στην οποία θα θέλατε να μεταφράσετε από το μενού που θα"
 " εμφανιστεί:"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr ""
 "* Μία ειδοποίηση θα εμφανιστεί στην κορυφή της σελίδας όπως ακολουθεί:"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 msgstr ""
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid ""
 "After your membership is approved you can begin translating; simply navigate"
@@ -2238,7 +2245,7 @@ msgstr ""
 "Transifex</a> όταν είστε έτοιμος να ξεκινήσετε. Ευχαριστούμε για την "
 "επιθυμία σας να βοηθήσετε στο πρότζεκτ!"
 
-#: http//localhost/en-US/becoming-tor-translator/
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
 msgstr ""
@@ -2272,10 +2279,6 @@ msgstr ""
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
 msgstr ""
-
-#: templates/navbar.html:4
-msgid "Tor Logo"
-msgstr "Λογότυπο Tor"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
