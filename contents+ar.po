@@ -427,6 +427,9 @@ msgid ""
 " of the URL bar, then select 'Tor Network Settings...' to access these "
 "options."
 msgstr ""
+"اذا كنت تشغل  متصفح تور للمرة الأولى، اضغط \"ضبط\"لفتح  نافذة إعدادات شبكة "
+"تور. اضغط على زرار تور على يسار URL bar و اختر اعدادات شبكة تور للدخول على "
+"الخيارات ."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
