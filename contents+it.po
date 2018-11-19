@@ -1049,6 +1049,8 @@ msgid ""
 "You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
+"Puoi accedere a questa opzione anche nel nuovo circuito, nel menu "
+"informazioni del sito, nella barra URL."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
