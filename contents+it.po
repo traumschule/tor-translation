@@ -367,7 +367,7 @@ msgstr "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 #: http//localhost/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
-msgstr ""
+msgstr "usare-tor-browser"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
@@ -462,6 +462,10 @@ msgid ""
 " of the URL bar, then select 'Tor Network Settings...' to access these "
 "options."
 msgstr ""
+"Se stai avviando Tor Browser per la prima volta, clicca 'Configura' per "
+"aprire la finestra Impostazioni di rete Tor. Altrimenti, clicca il pulsante "
+"Tor a sinistra della barra URL, poi seleziona 'Impostazioni di rete Tor...' "
+"per accedere a queste opzioni."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -477,6 +481,8 @@ msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
+"<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
+"bridges.png\">"
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -484,6 +490,8 @@ msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
+"Clicca “OK” per salvare le impostazioni. Usare i bridge potrebbe rallentare "
+"la connessione rispetto all'uso dei normali relay Tor."
 
 #: http//localhost/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -669,7 +677,7 @@ msgstr "</table>"
 #: http//localhost/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.seo_slug)
 msgid "plugable-transports"
-msgstr ""
+msgstr "pluggable-transports"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.title)
@@ -735,7 +743,7 @@ msgstr ""
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 
 #: http//localhost/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -874,7 +882,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -882,6 +890,8 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Puoi vedere un diagramma del circuito utilizzato dal browser Tor per la "
+"scheda attiva nel menu informazioni del sito, nella barra URL."
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -975,7 +985,7 @@ msgstr "##### Cambiare identità e circuiti"
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1043,7 +1053,7 @@ msgstr ""
 #: http//localhost/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
-msgstr ""
+msgstr "gestire-identità"
 
 #: http//localhost/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
@@ -1212,7 +1222,7 @@ msgstr ""
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1226,7 +1236,7 @@ msgstr ""
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1382,7 +1392,7 @@ msgstr "</dl>"
 #: http//localhost/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
-msgstr ""
+msgstr "connessioni-sicure"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
@@ -1428,7 +1438,7 @@ msgstr "##### Accesso alla Tab di Sicurezza"
 #: http//localhost/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1452,7 +1462,7 @@ msgstr "##### Livelli di sicurezza"
 #: http//localhost/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 
 #: http//localhost/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1588,7 +1598,7 @@ msgstr "##### Aggiorna il Browser Tor automaticamente"
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
-msgstr ""
+msgstr "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1602,7 +1612,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1616,7 +1626,7 @@ msgstr ""
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 
 #: http//localhost/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1748,7 +1758,7 @@ msgstr ""
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -1802,7 +1812,7 @@ msgstr ""
 #: http//localhost/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.seo_slug)
 msgid "plugins"
-msgstr ""
+msgstr "plugin"
 
 #: http//localhost/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.title)
@@ -2140,7 +2150,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2154,7 +2164,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2189,7 +2199,7 @@ msgstr "* Clicca il pulsante blu 'Join Team' a destra:"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2200,7 +2210,7 @@ msgstr "* Seleziona la lingua che vorresti tradurre dal menu a tendina:"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2210,7 +2220,7 @@ msgstr "* Una notifica apparirà in cima alla pagina in questo modo:"
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2228,7 +2238,7 @@ msgstr ""
 #: http//localhost/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
+msgstr "diventare-traduttore-tor"
 
 #: templates/footer.html:5
 msgid "Our mission:"
