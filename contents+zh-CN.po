@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 14:20+CET\n"
+"POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -18,8 +18,8 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
-msgid "How can we help?"
-msgstr "您需要什么帮助？"
+msgid "Tor Browser User Manual"
+msgstr "Tor Browser 用户手册"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
@@ -68,7 +68,7 @@ msgstr "此外，Tor 浏览器的设计包括防止网站根据您的浏览器�
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
+"=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/about/
@@ -91,7 +91,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
@@ -142,6 +142,20 @@ msgid ""
 msgstr ""
 "然而，某些情况下您可能无法成功访问洋葱路由的官方网站：例如您所在的网络会屏蔽该网站。如果您遭遇到类似情况的话，可以利用下列几种不同的方式获取 Tor "
 "浏览器。"
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid "##### Mirrors"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid ""
+"If you're unable to download Tor Browser from the official Tor Project "
+"website, you can instead try downloading it from one of our official "
+"mirrors, either through [EFF](https://tor.eff.org) or [Calyx "
+"Institute](https://tor.calyxinstitute.org)."
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -1939,6 +1953,13 @@ msgstr ""
 msgid "becoming-tor-translator"
 msgstr ""
 
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+
 #: templates/footer.html:5
 msgid "Our mission:"
 msgstr "我们的任务:"
@@ -1969,6 +1990,10 @@ msgstr "商标保护，专利保护，以及第三方使用规则可以在这里
 msgid "Tor Project | Tor Browser Manual"
 msgstr ""
 
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr "Tor标识"
+
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
 msgstr "下载Tor浏览器"
@@ -1977,7 +2002,7 @@ msgstr "下载Tor浏览器"
 msgid "Search"
 msgstr "搜索"
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr "主题"
 

@@ -1,13 +1,13 @@
 # Translators:
-# erinm, 2018
 # ION, 2018
+# erinm, 2018
 # Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 14:20+CET\n"
+"POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Hebrew (https://www.transifex.com/otf/teams/1519/he/)\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
-msgid "How can we help?"
-msgstr "איך אנחנו יכולים לעזור?"
+msgid "Tor Browser User Manual"
+msgstr "מדריך משתמש של דפדפן Tor"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
@@ -72,7 +72,7 @@ msgstr ""
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
+"=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/about/
@@ -93,7 +93,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 "<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
@@ -135,6 +135,9 @@ msgid ""
 "/secure-connections.html\">HTTPS</a>, which makes it much harder for "
 "somebody to tamper with."
 msgstr ""
+"הדרך הבטוחה יותר והפשוטה ביותר להוריד את דפדפן Tor היא מהאתר הרשמי של מיזם "
+"Tor ב-https://www.torproject.org. חיבורך לאתר יאובטח ע\"י שימוש ב-<a "
+"href=\"/he/secure-connections\">HTTPS</a>, מה שמקשה למישהו לחבל בו."
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -146,6 +149,20 @@ msgstr ""
 "אמנם, עשויות להיות פעמים שלא תוכל להשיג גישה לאתר של מיזם Tor: לדוגמה, הוא "
 "יוכל להיחסם על הרשת שלך. אם זה קורה, אתה יכול להשתמש באחת משיטות ההורדה "
 "החלופיות הנמצאות ברשימה למטה."
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid "##### Mirrors"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid ""
+"If you're unable to download Tor Browser from the official Tor Project "
+"website, you can instead try downloading it from one of our official "
+"mirrors, either through [EFF](https://tor.eff.org) or [Calyx "
+"Institute](https://tor.calyxinstitute.org)."
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -1972,6 +1989,15 @@ msgstr ""
 msgid "becoming-tor-translator"
 msgstr "becoming-tor-translator"
 
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+
 #: templates/footer.html:5
 msgid "Our mission:"
 msgstr "המשימה שלנו:"
@@ -2002,6 +2028,10 @@ msgstr ""
 msgid "Tor Project | Tor Browser Manual"
 msgstr ""
 
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr "סמליל Tor"
+
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
 msgstr "הורד את דפדפן Tor"
@@ -2010,7 +2040,7 @@ msgstr "הורד את דפדפן Tor"
 msgid "Search"
 msgstr "חיפוש"
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr "נושאים"
 

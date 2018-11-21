@@ -1,16 +1,16 @@
 # Translators:
-# erinm, 2018
 # Eduardo Bonsi, 2018
 # Reurison Silva Rodrigues, 2018
 # Eduardo Addad de Oliveira <eduardoaddad@hotmail.com>, 2018
 # drebs <drebs@riseup.net>, 2018
+# erinm, 2018
 # Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 14:20+CET\n"
+"POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/otf/teams/1519/pt_BR/)\n"
@@ -22,8 +22,8 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
-msgid "How can we help?"
-msgstr "Como nós podemos ajudar?"
+msgid "Tor Browser User Manual"
+msgstr "Manual de Uso do Navegador Tor "
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
@@ -85,7 +85,7 @@ msgstr ""
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
+"=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/about/
@@ -111,11 +111,9 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"Como o "
-"navegador Tor funciona\"/>"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
@@ -170,6 +168,20 @@ msgstr ""
 "Porém, pode acontecer de você não conseguir acessar o site do Tor Project: "
 "por exemplo, ele pode estar bloqueado na sua rede. Se isso acontecer, você "
 "pode usar um dos métodos de download alternativos listados abaixo."
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid "##### Mirrors"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid ""
+"If you're unable to download Tor Browser from the official Tor Project "
+"website, you can instead try downloading it from one of our official "
+"mirrors, either through [EFF](https://tor.eff.org) or [Calyx "
+"Institute](https://tor.calyxinstitute.org)."
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -2221,6 +2233,15 @@ msgstr ""
 msgid "becoming-tor-translator"
 msgstr ""
 
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"Como o "
+"navegador Tor funciona\"/>"
+
 #: templates/footer.html:5
 msgid "Our mission:"
 msgstr "Nossa missão:"
@@ -2257,6 +2278,10 @@ msgstr ""
 msgid "Tor Project | Tor Browser Manual"
 msgstr "Tor Project | Manual do Navegador Tor"
 
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr "Logotipo do Tor"
+
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
 msgstr "Baixe o Tor Browser"
@@ -2265,7 +2290,7 @@ msgstr "Baixe o Tor Browser"
 msgid "Search"
 msgstr "Pesquisa"
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr "Tópicos"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 14:20+CET\n"
+"POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Indonesian (https://www.transifex.com/otf/teams/1519/id/)\n"
@@ -18,8 +18,8 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
-msgid "How can we help?"
-msgstr "Apa yang bisa kami bantu?"
+msgid "Tor Browser User Manual"
+msgstr "Panduan Pengguna Tor Browser"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
@@ -81,8 +81,11 @@ msgstr ""
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
+"=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"Secara bawaan, Tor Browser tidak menyimpan sejarah perambahan. Cookies hanya"
+" valid untuk sesi tunggal (hingga keluar dari Tor Browser atau sebuah<a "
+"href=\"/id/managing-identities/#identitas-baru\">Identitas Baru</a>diminta)."
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
@@ -108,9 +111,11 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
@@ -165,6 +170,20 @@ msgstr ""
 "Namun, dalam sejumlah kasus anda tak bisa mengakses situs TOR Project: "
 "misalnya, situs ini diblokir oleh jaringan Anda. Jika ini terjadi, Anda bisa"
 " menggunakan sejumlah jalur alternatif unduhan seperti daftar di bawah ini."
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid "##### Mirrors"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid ""
+"If you're unable to download Tor Browser from the official Tor Project "
+"website, you can instead try downloading it from one of our official "
+"mirrors, either through [EFF](https://tor.eff.org) or [Calyx "
+"Institute](https://tor.calyxinstitute.org)."
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -2179,6 +2198,13 @@ msgstr ""
 msgid "becoming-tor-translator"
 msgstr ""
 
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+
 #: templates/footer.html:5
 msgid "Our mission:"
 msgstr "Misi kami:"
@@ -2213,6 +2239,10 @@ msgstr ""
 msgid "Tor Project | Tor Browser Manual"
 msgstr ""
 
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr "Logo Tor"
+
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
 msgstr "Unduh Tor Browser"
@@ -2221,7 +2251,7 @@ msgstr "Unduh Tor Browser"
 msgid "Search"
 msgstr "Cari"
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr ""
 

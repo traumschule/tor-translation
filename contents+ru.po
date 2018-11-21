@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 14:20+CET\n"
+"POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Russian (https://www.transifex.com/otf/teams/1519/ru/)\n"
@@ -19,8 +19,8 @@ msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/
 #: (content/contents+en-US.lrshowcase.title)
-msgid "How can we help?"
-msgstr "Как мы можем вам помочь?"
+msgid "Tor Browser User Manual"
+msgstr "Руководство использования Tor Browser."
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
@@ -81,7 +81,7 @@ msgstr ""
 msgid ""
 "By default, Tor Browser does not keep any browsing history. Cookies are only"
 " valid for a single session (until Tor Browser is exited or a <a href"
-"=\"managing-identities/#new-identity\">New Identity</a> is requested)."
+"=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/about/
@@ -107,7 +107,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
 msgid ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"<img class=\"\" src=\"../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
 
@@ -165,6 +165,20 @@ msgstr ""
 " Tor Project: например, он может быть заблокирован в вашей сети. В этом "
 "случае можно использовать один из альтернативных способов загрузки, "
 "перечисленных ниже."
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid "##### Mirrors"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/downloading/
+#: (content/downloading/contents+en-US.lrtopic.body)
+msgid ""
+"If you're unable to download Tor Browser from the official Tor Project "
+"website, you can instead try downloading it from one of our official "
+"mirrors, either through [EFF](https://tor.eff.org) or [Calyx "
+"Institute](https://tor.calyxinstitute.org)."
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/downloading/
 #: (content/downloading/contents+en-US.lrtopic.body)
@@ -2206,6 +2220,13 @@ msgstr ""
 msgid "becoming-tor-translator"
 msgstr "Стать-переводчиком-Tor"
 
+#: https//tb-manual.torproject.org/en-US/about/
+#: (content/about/contents+en-US.lrtopic.body)
+msgid ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+
 #: templates/footer.html:5
 msgid "Our mission:"
 msgstr "Наша миссия:"
@@ -2242,6 +2263,10 @@ msgstr ""
 msgid "Tor Project | Tor Browser Manual"
 msgstr "Становление переводчиком Tor Project"
 
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr "Логотип Tor"
+
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
 msgstr "Скачать Браузер Tor"
@@ -2250,7 +2275,7 @@ msgstr "Скачать Браузер Tor"
 msgid "Search"
 msgstr "Поиск"
 
-#: templates/sidenav.html:4 templates/sidenav.html:30
+#: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
 msgstr "Темы"
 
