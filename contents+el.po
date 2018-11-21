@@ -2,6 +2,7 @@
 # A Papac <ap909219@protonmail.com>, 2018
 # erinm, 2018
 # Emma Peel, 2018
+# Elektra M. <safiragon@yahoo.gr>, 2018
 # 
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: Elektra M. <safiragon@yahoo.gr>, 2018\n"
 "Language-Team: Greek (https://www.transifex.com/otf/teams/1519/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -302,7 +303,7 @@ msgstr "##### Σύνδεση"
 #: https//tb-manual.torproject.org/en-US/troubleshooting/
 #: (content/troubleshooting/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/connect.png\">"
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -332,7 +333,7 @@ msgstr "##### Διαμόρφωση "
 #: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/configure.png\">"
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
@@ -382,12 +383,12 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
@@ -763,7 +764,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/bridges.png\">"
 
 #: https//tb-manual.torproject.org/en-US/circumvention/
 #: (content/circumvention/contents+en-US.lrtopic.body)
@@ -900,7 +901,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/circuit_full.png\">"
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -908,6 +909,9 @@ msgid ""
 "You can see a diagram of the circuit that Tor Browser is using for the "
 "current tab in the site information menu, in the URL bar."
 msgstr ""
+"Μπορείτε να δείτε ένα διάγραμμα του κυκλώματος που χρησιμοποιεί το Tor "
+"Browser για την τρέχουσα καρτέλα στο μενού πληροφοριών της σελίδας, στη "
+"γραμμή διευθύνσεων URL."
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -1002,7 +1006,7 @@ msgstr "##### Αλλάζοντας ταυτότητες και δίκτυα"
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/new_identity.png\">"
 
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.body)
@@ -2171,7 +2175,7 @@ msgstr "Συμπληρώστε τις πληροφορίες σας στα πε�
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr1.png\">"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2185,7 +2189,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr2.png\">"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2221,7 +2225,7 @@ msgstr "* Πατήστε το μπλε σήμα \"Μπείτε στην ομάδ
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr3.png\">"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2234,7 +2238,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr4.png\">"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2245,7 +2249,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/tr5.png\">"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -2272,6 +2276,8 @@ msgid ""
 "<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
 "Browser works\">"
 msgstr ""
+"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
 
 #: templates/footer.html:5
 msgid "Our mission:"
@@ -2291,7 +2297,7 @@ msgstr "Εγγραφείτε στο Newsletter μας"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
-msgstr ""
+msgstr "Λάβετε μηνιαίες ενημερώσεις και ευκαιρίες από το Tor Project"
 
 #: templates/footer.html:32
 msgid ""
@@ -2301,7 +2307,7 @@ msgstr ""
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
-msgstr ""
+msgstr "Tor Project | Εγχειρίδιο του Tor Browser "
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
