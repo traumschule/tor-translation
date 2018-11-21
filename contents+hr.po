@@ -84,6 +84,9 @@ msgid ""
 " valid for a single session (until Tor Browser is exited or a <a href"
 "=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"Pod zadano, Tor Browser ne zadržava nikakvu povijest pregledavanja. Kolačići"
+" su valjani samo za jednu sesiju (dok ne izađete iz Tor Browsera ili dok ne "
+"zatražite <a href=\"/managing-identities#new-identity\">Novi identitet</a>)."
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
