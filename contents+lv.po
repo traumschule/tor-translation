@@ -1,5 +1,6 @@
 # Translators:
 # erinm, 2018
+# Emma Peel, 2018
 # 
 msgid ""
 msgstr ""
@@ -7,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: erinm, 2018\n"
+"Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Latvian (https://www.transifex.com/otf/teams/1519/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1757,6 +1758,8 @@ msgstr "Zināmās problēmas"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* Tor ir nepieciešams, ka Jūsu sistēmas laika (un Jūsu laika zonas) "
+"iestatījumi ir pareizi. "
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1764,6 +1767,8 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* Ir zināms, ka šāda ugunsmūru programmatūra traucē Tor un to nepieciešams "
+"uz laiku atspējot:"
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1773,17 +1778,17 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos antivīrus Mac'am"
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1791,11 +1796,13 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* Nav pieejami video, kuriem nepieciešami Adobe Flash. Drošības apsvērumu "
+"dēļ Flash ir atspējots."
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "* Tor nevar lietot tiltu, ja ir iestatīts starpniekserveris."
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1803,6 +1810,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* Pārluka Tor pakotnes datums ir 2000. gada 1. janvāris 00.00:00 UTC. Tas "
+"darīts, lai nodrošinātu, ka ikviens programmatūras būvējums būtu precīzi "
+"atveidojams. "
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1812,6 +1822,10 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Lai lietotu pārlūku Tor ar Ubuntu, lietotājiem jāizpilda čaulas skripts. "
+"Atveriet „Datnes” (Unity pārlūks), atveriet Preferences → Uzvedības cilne → "
+"Iestatīt „Izpildīt izpildāmas teksta datnes, kad tās atvērtas” uz „Jautāt "
+"katru reizi”, tad noklikšķiniet Labi."
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1819,11 +1833,13 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* Pārlūku Tor var arī startēt no komandrindas. Lai to izdarītu, no pārlūka "
+"Tor direktorijas jāizpilda komanda:"
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
 msgid "./start-tor-browser.desktop"
-msgstr ""
+msgstr "./start-tor-browser.desktop"
 
 #: https//tb-manual.torproject.org/en-US/known-issues/
 #: (content/known-issues/contents+en-US.lrtopic.body)
@@ -1873,16 +1889,20 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Atrodiet savu Pārlūka Tor mapi. Tās noklusējuma atrašanās vieta Windows "
+"OS ir uz darbvirsmas; Mac OS X - mapē Lietojumi jeb Applications. Linux OS "
+"nav šādas noklusējuma atrašanās vietas, taču ja lietojat angļu valodas "
+"pārlūku Tor, tad mapi sauc „tor-browser_en-US”."
 
 #: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. Izdzēst pārlūka Tor mapi."
 
 #: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. Iztukšojiet savu atkritni"
 
 #: https//tb-manual.torproject.org/en-US/uninstalling/
 #: (content/uninstalling/contents+en-US.lrtopic.body)
@@ -2045,7 +2065,7 @@ msgstr ""
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"
-msgstr ""
+msgstr "Tor Project | Pārlūka Tor lietotāja rokasgrāmata"
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
@@ -2053,11 +2073,11 @@ msgstr ""
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"
-msgstr ""
+msgstr "Lejuplādēt Pārlūku Tor"
 
 #: templates/search.html:5
 msgid "Search"
-msgstr ""
+msgstr "Meklēt"
 
 #: templates/sidenav.html:4 templates/sidenav.html:35
 msgid "Topics"
