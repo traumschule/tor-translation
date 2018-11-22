@@ -1083,7 +1083,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/managing-identities/
 #: (content/managing-identities/contents+en-US.lrtopic.seo_slug)
 msgid "managing-identities"
-msgstr ""
+msgstr "managing-identities"
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.title)
@@ -1174,6 +1174,11 @@ msgid ""
 "website with https and onion service, it will show an icon of a green onion "
 "and a padlock."
 msgstr ""
+"Όταν επισκέπτεστε μια ιστοσελίδα που χρησιμοποιεί μια υπηρεσία onion, ο Tor "
+"Browser θα εμφανίσει στη γραμμή URL ένα εικονίδιο με ένα μικρό πράσινο "
+"κρεμμύδι που θα δείχνει την κατάσταση της σύνδεσής σας: ασφαλής και χρήση "
+"υπηρεσίας onion. Και αν επισκέπτεστε μια ιστοσελίδα με υπηρεσία https και "
+"onion, θα εμφανιστεί ένα εικονίδιο με ένα πράσινο κρεμμύδι και ένα λουκέτο."
 
 #: https//tb-manual.torproject.org/en-US/onion-services/
 #: (content/onion-services/contents+en-US.lrtopic.body)
@@ -1252,7 +1257,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/https.png\">"
 
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1266,7 +1271,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
-msgstr ""
+msgstr "<img class=\"\" src=\"../../static/images/tor-and-https.svg\">"
 
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1422,7 +1427,7 @@ msgstr "</dl>"
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.seo_slug)
 msgid "secure-connections"
-msgstr ""
+msgstr "secure-connections"
 
 #: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.title)
@@ -1468,7 +1473,7 @@ msgstr "##### Πρόσβαση στον Slider Ασφαλείας"
 #: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/slider.png\">"
 
 #: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1492,7 +1497,7 @@ msgstr "##### Επίπεδα Ασφαλείας"
 #: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/slider_window.png\">"
 
 #: https//tb-manual.torproject.org/en-US/security-slider/
 #: (content/security-slider/contents+en-US.lrtopic.body)
@@ -1584,7 +1589,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/security-slider.html
 #: (content/security-slider.html/contents+en-US.lrtopic.seo_slug)
 msgid "security-slider"
-msgstr ""
+msgstr "security-slider"
 
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.title)
@@ -1629,7 +1634,7 @@ msgstr "##### Ενημερώνοντας τον Tor Browser αυτόματα"
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"400\" src=\"../../static/images/update1.png\" />"
-msgstr ""
+msgstr "<img width=\"400\" src=\"../../static/images/update1.png\" />"
 
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1643,7 +1648,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update3.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"../../static/images/update3.png\" />"
 
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1657,7 +1662,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
 msgid "<img width=\"600\" src=\"../../static/images/update4.png\" />"
-msgstr ""
+msgstr "<img width=\"600\" src=\"../../static/images/update4.png\" />"
 
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
@@ -1792,7 +1797,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/noscript_menu.png\">"
 
 #: https//tb-manual.torproject.org/en-US/plugins/
 #: (content/plugins/contents+en-US.lrtopic.body)
@@ -2278,7 +2283,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
+msgstr "becoming-tor-translator"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
