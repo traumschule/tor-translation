@@ -1,7 +1,7 @@
 # Translators:
-# A. C., 2018
 # erinm, 2018
 # Emma Peel, 2018
+# A. C., 2018
 # 
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-21 11:49+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: Emma Peel, 2018\n"
+"Last-Translator: A. C., 2018\n"
 "Language-Team: Georgian (https://www.transifex.com/otf/teams/1519/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,6 +85,9 @@ msgid ""
 " valid for a single session (until Tor Browser is exited or a <a href"
 "=\"/managing-identities/#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"ნაგულისხმევად, Tor-ბრაუზერი არ ინახავს მონახულებული გვერდების ისტორიას. "
+"ფუნთუშები მოქმედია მხოლოდ ერთი სეანსი (Tor-ბრაუზერის დახურვამდე ან <a href"
+"=\"/managing-identities/#new-identity\">ახალი ვინაობის</a> მოთხოვნამდე)."
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.body)
@@ -123,10 +126,10 @@ msgid ""
 "three keys represent the layers of encryption between the user and each "
 "relay."
 msgstr ""
-"ზემოთ გამოსახულ სურათზე ნაჩვენებია, რომ მომხმარებელი ათვალიერებს სხვადასხვა "
-"საიტებს Tor-ით. მწვანე შუალედური კომპიუტერები წარმოადგენს გადამცემებს Tor-"
-"ქსელში, ხოლო სამი გასაღები მომხმარებელსა და თითოეულ გადამცემს შორის "
-"მიუთითებს სამმაგ დაშიფვრის ფენას."
+"ზემოთ გამოსახულ სურათზე ნაჩვენებია, მომხმარებლის მიერ საიტების მონახულება "
+"Tor-ით. შუალედური, მწვანე კომპიუტერები წარმოადგენს გადამცემებს Tor-ქსელში, "
+"ხოლო სამი გასაღები აღნიშნავს დაშიფვრის სამმაგ შრეს, მომხმარებელსა და ცალკეულ"
+" გადამცემს შორის."
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.seo_slug)
@@ -153,8 +156,8 @@ msgid ""
 "somebody to tamper with."
 msgstr ""
 "ყველაზე მეტად უსაფრთხო და მარტივი გზა Tor-ბრაუზერის ჩამოსატვირთად, Tor-"
-"პროექტის ოფიციალური ვებსაიტია https://www.torproject.org. თქვენი კავშირი "
-"საიტთან დაცულია <a href=\"https://tb-manual.torproject.org/en-US/secure-"
+"პროექტის ოფიციალური ვებსაიტია https://www.torproject.org. წვდომა საიტთან "
+"დაცულია <a href=\"https://tb-manual.torproject.org/en-US/secure-"
 "connections.html\">HTTPS</a>-კავშირით, რომელიც არ აძლევს უცხო პირებს "
 "კავშირში ჩართვის ან გვერდის გაყალბების საშუალებას."
 
