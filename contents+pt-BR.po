@@ -190,8 +190,8 @@ msgid ""
 "Institute](https://tor.calyxinstitute.org)."
 msgstr ""
 "Caso você não consiga fazer download do Navegador Tor diretamente do  "
-"website oficial do Projeto Tor, você poderá, em vez disso, tentar o download"
-" a partir de um de nossos espelhos oficiais, seja através da "
+"website oficial do Projeto Tor, você poderá, em vez disso, tentar baixá-lo a"
+" partir de um de nossos espelhos oficiais, seja através da "
 "[EFF](https://tor.eff.org) ou do [Calyx "
 "Institute](https://tor.calyxinstitute.org)."
 
@@ -388,17 +388,17 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\">"
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.body)
 msgid "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
-msgstr ""
+msgstr "<img class=\"col-md-6\" src=\"../../static/images/proxy.png\">"
 
 #: https//tb-manual.torproject.org/en-US/running-tor-browser/
 #: (content/running-tor-browser/contents+en-US.lrtopic.seo_slug)
 msgid "running-tor-browser"
-msgstr ""
+msgstr "executando-o-navegador-tor"
 
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.title)
@@ -492,6 +492,11 @@ msgid ""
 " of the URL bar, then select 'Tor Network Settings...' to access these "
 "options."
 msgstr ""
+"Se você estiver iniciando o Navegador Tor pela primeira vez, clique em "
+"\"Configurar\" para abrir a janela de Configurações da Rede Tor. Caso "
+"contrário, clique o Torbutton localizado no lado esquerdo da barra de "
+"endereços e, então, selecione \"Configurações da Rede Tor...\" para acessar "
+"estas opções."
 
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -500,6 +505,9 @@ msgid ""
 "Then, select 'Provide a bridge I know' and enter each bridge address on a "
 "separate line."
 msgstr ""
+"Na janela de Configurações da Rede Tor, selecione \"Tor está censurado em "
+"meu país\". Em seguida, selecione \"Fornecer uma conexão de ponte que você "
+"conhece\" e digite cada endereço de provedor de ponte em uma linha separada."
 
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -507,6 +515,8 @@ msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
 "bridges.png\">"
 msgstr ""
+"<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
+"bridges.png\">"
 
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -514,6 +524,9 @@ msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection"
 " compared to using ordinary Tor relays."
 msgstr ""
+"Clique \"OK\" para salvar suas configurações. O uso de conexões de ponte "
+"pode tornar sua conexão mais lenta em comparação com o uso de "
+"retransmissores Tor comuns."
 
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -528,7 +541,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.seo_slug)
 msgid "bridges"
-msgstr ""
+msgstr "Conexões de ponte"
 
 #: https//tb-manual.torproject.org/en-US/transports/
 #: (content/transports/contents+en-US.lrtopic.title)
