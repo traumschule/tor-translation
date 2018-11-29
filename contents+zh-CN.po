@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-21 11:49+CET\n"
+"POT-Creation-Date: 2018-11-29 08:54+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: Emma Peel, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
@@ -1845,12 +1845,11 @@ msgstr "成为 Tor Project 的翻译者"
 msgid ""
 "If you are interested in helping out the project by translating the manual "
 "or the Tor Browser to your language, your help would be greatly appreciated!"
-" In order to begin contributing you will have to sign up with Transifex, the"
-" third-party that faciliates our translations. Below is an outline of how to"
-" sign up and begin."
+" Tor Project localization is hosted in the [Localization "
+"Lab](https://www.localizationlab.org) Hub on Transifex, a third-party  "
+"translation tool. In order to begin contributing you will have to sign up "
+"with Transifex. Below is an outline of how to sign up and begin."
 msgstr ""
-"如果您对帮助我们将 Tor 浏览器或这篇文档翻译成您的语言有兴趣，非常感谢您的帮助！您需要通过托管本项目翻译的第三方网站 Transifex "
-"进行贡献，下面是如何注册和开始翻译的流程的简单概括。"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -1943,23 +1942,26 @@ msgstr ""
 msgid ""
 "After your membership is approved you can begin translating; simply navigate"
 " back to the <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
-"Transifex page</a> when you are ready to begin. Thanks for your interest in "
-"helping the project!"
+"Transifex page</a> when you are ready to begin."
 msgstr ""
-"当您的成员资格被批准之后，您就可以开始翻译工作了。当您准备好开始的时候，请通过导航返回到<a "
-"href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex "
-"page</a>页面。感谢您对项目的帮助！"
+
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
+msgid ""
+"Before translating, please read through the Tor Project page on the "
+"[Localization Lab Wiki](https://wiki.localizationlab.org/index.php/Tor). "
+"There you will find translation guidelines and resources that will help you "
+"contribute to Tor translations."
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
+msgid "Thanks for your interest in helping the project!"
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
-
-#: https//tb-manual.torproject.org/en-US/about/
-#: (content/about/contents+en-US.lrtopic.body)
-msgid ""
-"<img class=\"\" src=\"../../static/images/how-tor-works.png\" alt=\"How Tor "
-"Browser works\">"
 msgstr ""
 
 #: templates/footer.html:5
