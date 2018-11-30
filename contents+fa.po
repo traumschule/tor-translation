@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-29 08:54+CET\n"
+"POT-Creation-Date: 2018-11-30 09:02+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
 "Last-Translator: erinm, 2018\n"
 "Language-Team: Persian (https://www.transifex.com/otf/teams/1519/fa/)\n"
@@ -22,6 +22,36 @@ msgstr ""
 #: (content/contents+en-US.lrshowcase.title)
 msgid "Tor Browser User Manual"
 msgstr "راهنمای کاربری مرورگر تور"
+
+#: https//tb-manual.torproject.org/en-US/menu/
+#: (content/menu/contents+en-US.lrtopic.body)
+msgid "About"
+msgstr "درباره‌ی سایفون"
+
+#: https//tb-manual.torproject.org/en-US/menu/
+#: (content/menu/contents+en-US.lrtopic.body)
+msgid "Documentation"
+msgstr "مستندات"
+
+#: https//tb-manual.torproject.org/en-US/menu/
+#: (content/menu/contents+en-US.lrtopic.body)
+msgid "Press"
+msgstr "مطبوعات"
+
+#: https//tb-manual.torproject.org/en-US/menu/
+#: (content/menu/contents+en-US.lrtopic.body)
+msgid "Blog"
+msgstr "وبلاگ"
+
+#: https//tb-manual.torproject.org/en-US/menu/
+#: (content/menu/contents+en-US.lrtopic.body)
+msgid "Newsletter"
+msgstr ""
+
+#: https//tb-manual.torproject.org/en-US/menu/
+#: (content/menu/contents+en-US.lrtopic.body)
+msgid "Contact"
+msgstr "تماس"
 
 #: https//tb-manual.torproject.org/en-US/about/
 #: (content/about/contents+en-US.lrtopic.title)
