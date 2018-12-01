@@ -1,6 +1,7 @@
 # Translators:
 # Emma Peel, 2018
 # erinm, 2018
+# Chris Xiao, 2018
 # 
 msgid ""
 msgstr ""
@@ -8,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-30 09:02+CET\n"
 "PO-Revision-Date: 2018-11-14 12:31+0000\n"
-"Last-Translator: erinm, 2018\n"
+"Last-Translator: Chris Xiao, 2018\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/otf/teams/1519/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1974,6 +1975,8 @@ msgid ""
 " back to the <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
 "Transifex page</a> when you are ready to begin."
 msgstr ""
+"当您的成员资格被批准之后，您就可以开始翻译工作了。当您准备好开始的时候，请返回到<a "
+"href=\"https://www.transifex.com/otf/torproject/\">Tor Transifex page</a>页面。"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
@@ -1983,16 +1986,18 @@ msgid ""
 "There you will find translation guidelines and resources that will help you "
 "contribute to Tor translations."
 msgstr ""
+"开始翻译之前，请通读[Localization Lab "
+"Wiki](https://wiki.localizationlab.org/index.php/Tor)上的Tor项目页面。在那里，您可以找到翻译准则和能够帮助您翻译Tor的资源"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.body)
 msgid "Thanks for your interest in helping the project!"
-msgstr ""
+msgstr "感谢您有兴趣对这个项目做出贡献！"
 
 #: https//tb-manual.torproject.org/en-US/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en-US.lrtopic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
+msgstr "成为 Tor 翻译者"
 
 #: templates/footer.html:5
 msgid "Our mission:"
