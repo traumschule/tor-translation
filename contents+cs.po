@@ -445,7 +445,7 @@ msgstr ""
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
 "into Tor Launcher."
-msgstr "Jakmile jste získali adresy mostů, musíte je zadat do Tor Launcheru."
+msgstr "Jakmile získáte adresy mostů, musíte je zadat do spuštěče Toru."
 
 #: https//tb-manual.torproject.org/en-US/bridges/
 #: (content/bridges/contents+en-US.lrtopic.body)
@@ -1141,7 +1141,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Site.com"
-msgstr "Site.com"
+msgstr "Example.com"
 
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1212,7 +1212,7 @@ msgstr ""
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
 msgid "Tor"
-msgstr "TOr"
+msgstr "Tor"
 
 #: https//tb-manual.torproject.org/en-US/secure-connections/
 #: (content/secure-connections/contents+en-US.lrtopic.body)
@@ -1323,12 +1323,12 @@ msgid ""
 "disabled by default on all sites; most video and audio formats are disabled;"
 " and some fonts and icons may not display correctly."
 msgstr ""
-"Na této úrovni se multimediální a zvukové média HTML5 stávají \"click-to-"
-"play\" přes NoScript; všechny optimalizace výkonu JavaScript jsou zakázány; "
-"některé matematické rovnice se nemusí zobrazovat správně; některé funkce "
-"vykreslování písma jsou zakázány; některé typy obrázků jsou zakázány; "
-"Javascript je ve výchozím nastavení zakázán na všech stránkách; většina "
-"video a audio formátů je vypnuto; a některé písma a ikony se nemusí zobrazit"
+"Na této úrovni se video a zvuky v HTML5 spouštějí až po klepnutí díky "
+"NoScriptu. Všechny optimalizace výkonu JavaScriptu jsou zakázány a některé "
+"matematické rovnice se nemusí zobrazovat správně. Některé funkce "
+"vykreslování písma jsou zakázány, stejně jako některé typy obrázků. "
+"Javascript je ve výchozím nastavení zakázán na všech stránkách a většina "
+"video a audio formátů je vypnuta. A některá písma a ikony se nemusí zobrazit"
 " správně."
 
 #: https//tb-manual.torproject.org/en-US/security-slider/
@@ -1402,7 +1402,7 @@ msgid ""
 "been released: the Torbutton icon will display a yellow triangle, and you "
 "may see a written update indicator when Tor Browser opens. You can update "
 "either automatically or manually."
-msgstr "prohlížeč"
+msgstr ""
 
 #: https//tb-manual.torproject.org/en-US/updating/
 #: (content/updating/contents+en-US.lrtopic.body)
